@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: lekkersim
+Version: 0.1.0
+Summary: The lekker tool for photonic circuit simulation.
+Author-email: Marco Passoni <mpasson91@gmail.com>
+License-Expression: AGPL-3.0-or-later
+License-File: LICENSE.md
+Keywords: photonic circuits,photonics,scattering matrix,simulation
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: numpy>=1.23.1
+Requires-Dist: pandas>=1.4.2
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: scipy>=1.8.0
+Provides-Extra: dev
+Requires-Dist: hatch-vcs==0.3.0; extra == 'dev'
+Requires-Dist: toml>=0.10.2; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: nbsphinx>=0.8.12; extra == 'doc'
+Requires-Dist: notebook>=6.5.2; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme>=1.1.1; extra == 'doc'
+Requires-Dist: sphinx>=5.3.0; extra == 'doc'
+Description-Content-Type: text/markdown
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Documentation Status](https://readthedocs.org/projects/a-fmm/badge/?version=latest)](https://lekkersim.readthedocs.io/en/latest/?badge=latest)
+
+# LekkerSIM package
+
+LekkerSIM is a open source package for linear simulation of photonic circuit, based on the well known scattering matrix method.
+Its features include:
+- Easy calculation of S-parameters of a photonic circuit;
+- A collection of pre-defined building blocks for easy definition of circuits;
+- Parametric building blocks;
+- Hierarchical circuit definition;
+- Monitors inside the circuit for calculation of power flow.
+
+## Installation
+You can install LekkerSIM directly from pypi by running:
+
+    pip install lekkersim
+
+## Documentation
+Full documentation is available on [Read the Docs](https://lekkersim.readthedocs.io).
