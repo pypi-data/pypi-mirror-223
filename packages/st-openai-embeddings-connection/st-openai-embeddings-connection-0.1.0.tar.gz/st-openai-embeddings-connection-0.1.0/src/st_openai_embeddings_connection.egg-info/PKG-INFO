@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: st-openai-embeddings-connection
+Version: 0.1.0
+Summary: A Python package for connecting to OpenAI embedding models in Streamlit apps
+Author-email: Gerard Bentley <gerardrbentley@gmail.com>
+License: MIT
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Streamlit OpenAI Embedding Connection
+
+Example app using Streamlit Connections to query OpenAI's ada-002 embedding model.
+
+Results from these queries can be used to perform semantic similarity searches either locally or in a vector database.
+
+Sample usage:
+
+```py
+import streamlit as st
+from st_openai_embeddings_connection import OpenAIEmbeddingsConnection
+
+conn = st.experimental_connection(
+    "openai_embeddings", type=OpenAIEmbeddingsConnection
+)
+text_to_embed = st.text_input(
+    "Text To Embed", "Puppies are good"
+)
+
+if st.button("embed"):
+    result = conn.query(text_to_embed)
+    result
+```

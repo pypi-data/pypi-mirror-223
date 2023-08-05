@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/st_openai_embeddings_connection/__init__.py
+src/st_openai_embeddings_connection/connection.py
+src/st_openai_embeddings_connection.egg-info/PKG-INFO
+src/st_openai_embeddings_connection.egg-info/SOURCES.txt
+src/st_openai_embeddings_connection.egg-info/dependency_links.txt
+src/st_openai_embeddings_connection.egg-info/requires.txt
+src/st_openai_embeddings_connection.egg-info/top_level.txt
