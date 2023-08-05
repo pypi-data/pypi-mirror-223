@@ -1,0 +1,8 @@
+README.md
+setup.py
+genericopenauth/__init__.py
+genericopenauth/genericopenauth.py
+genericopenauth.egg-info/PKG-INFO
+genericopenauth.egg-info/SOURCES.txt
+genericopenauth.egg-info/dependency_links.txt
+genericopenauth.egg-info/top_level.txt
