@@ -1,0 +1,15 @@
+gautodoc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gautodoc/__main__.py,sha256=_m5JiX-H2_1ZLZJdBESmR2-fGXOkUO9r99b6OS10--c,53
+gautodoc/build.py,sha256=jHvk_WLevko7V-rwfcXLOver1UBhpw0UqXEyyt4mTRo,1501
+gautodoc/cli.py,sha256=5rxaZt1utnmZnair1eE0ST8ytwizhQxtm3plaVlTpCU,1910
+gautodoc/common.py,sha256=u6ikGV5X8yMFb9Y80zGfV2JlB-4iiQsiKyOvcudWLaA,342
+gautodoc/config.py,sha256=jiMBgW0iqwWdifrS4hbFf7pkxO3_R45dKT34Q6zVd3o,1406
+gautodoc/registry.py,sha256=oHmq8tI7ETsZQUr37KZzPYD8wW6pcXXTOd1xv13ICH4,6233
+gautodoc/template/index.html,sha256=fC4Nxku-QWgmwWeTpqqIfSEmG0sKmf5bucAPTiKaoI4,702
+gautodoc/template/modules/gautodoc.mjs,sha256=CziOT-TfjtlLgNJIsdyYDJKNGM0hcB4C9tNfKwpOrjo,6063
+gautodoc/template/styles/gautodoc.css,sha256=AjuZIxagEN3IgwqVpcYlcF7YNy6b3i298EAH9TdB7aQ,2764
+gautodoc/template/styles/index.css,sha256=H5UXPhCSuaGPhZOms5BEi7YupI2ovQxpevt_GDYxDZ4,259
+gautodoc-0.0.1.dist-info/METADATA,sha256=XvTMltNN5S5VidMOnCcitE10LuZeUVUH0_hLptiCpQ0,1255
+gautodoc-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gautodoc-0.0.1.dist-info/licenses/LICENSE.md,sha256=GS205We6jI2eGpGsY6_5RUPv2V5bwPVTe6XD8Wu5tHM,1510
+gautodoc-0.0.1.dist-info/RECORD,,
