@@ -1,0 +1,14 @@
+tno/fl/protocols/logistic_regression/__init__.py,sha256=-25uAkiHNe_nENQKMpvbvMrxZdnbgavhj8bUHoenvEI,64
+tno/fl/protocols/logistic_regression/client.py,sha256=zagWyAAAXzq1llp_6l4a2uh7LYfim_mrKv9AiWztTVc,5633
+tno/fl/protocols/logistic_regression/config.py,sha256=LAJ_RdoHk3jL4XSBmKCWmkXzZUDC17fFnHe9dZ3N4hw,8642
+tno/fl/protocols/logistic_regression/msg_ids.py,sha256=y33ouIOEuBYAQsAw9CJz76SntT4PFPG8p0k4VIqA3as,191
+tno/fl/protocols/logistic_regression/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tno/fl/protocols/logistic_regression/server.py,sha256=BN_5O8yyMTIpAwhkG9mZmS7KmCFEMGeGtFMRAuEJD6w,5057
+tno/fl/protocols/logistic_regression/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tno/fl/protocols/logistic_regression/test/test_config.py,sha256=kzUayLGIKMdULsFegEL5Amx8u3QHfBlIgKNENEHfCcM,1881
+tno/fl/protocols/logistic_regression/test/test_protocol.py,sha256=ZpuoU1ObSFGcTgTsK0hpPXX2uYfyEbT4tA3BRePol_0,2060
+tno.fl.protocols.logistic_regression-0.2.2.post1.dist-info/LICENSE,sha256=1JZUETtn7vwog3ykOD4J86MJtPBJMs5fnYoxzNy10kQ,10986
+tno.fl.protocols.logistic_regression-0.2.2.post1.dist-info/METADATA,sha256=vrMiZv5eyilX9rnT7FHrUftbxzQhuYPF4Z5c_l9nc9o,11454
+tno.fl.protocols.logistic_regression-0.2.2.post1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tno.fl.protocols.logistic_regression-0.2.2.post1.dist-info/top_level.txt,sha256=7cHKx5j6ibiq14EYKPAhHk_NqB8u-nPUjh5R4TDqpHo,4
+tno.fl.protocols.logistic_regression-0.2.2.post1.dist-info/RECORD,,
