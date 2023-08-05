@@ -1,0 +1,2 @@
+[console_scripts]
+gog-price-checker = gog_price_checker.__main__:main
