@@ -1,0 +1,8 @@
+setup.py
+liplustools/__init__.py
+liplustools/text.py
+liplustools.egg-info/PKG-INFO
+liplustools.egg-info/SOURCES.txt
+liplustools.egg-info/dependency_links.txt
+liplustools.egg-info/not-zip-safe
+liplustools.egg-info/top_level.txt
