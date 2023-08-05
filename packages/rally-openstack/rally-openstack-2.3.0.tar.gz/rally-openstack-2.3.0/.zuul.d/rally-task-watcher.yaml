@@ -1,0 +1,25 @@
+- job:
+    name: rally-task-watcher
+    parent: rally-task-at-devstack
+    required-projects:
+      - openstack/ceilometer
+      - openstack/python-openstackclient
+      - openstack/python-watcherclient
+      - openstack/watcher
+      - openstack/watcher-tempest-plugin
+      - openstack/tempest
+      - openstack/rally
+      - openstack/rally-openstack
+    vars:
+      devstack_plugins:
+        rally-openstack: https://opendev.org/openstack/rally-openstack
+        watcher: https://opendev.org/openstack/watcher
+      devstack_services:
+        watcher-api: true
+        watcher-decision-engine: true
+        watcher-applier: true
+        s-account: false
+        s-container: false
+        s-object: false
+        s-proxy: false
+      rally_task: rally-jobs/watcher.yaml

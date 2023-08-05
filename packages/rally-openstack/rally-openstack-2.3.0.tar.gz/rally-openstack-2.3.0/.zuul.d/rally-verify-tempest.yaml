@@ -1,0 +1,18 @@
+- job:
+    name: rally-verify-tempest
+    parent: devstack
+    required-projects:
+      - name: openstack/devstack
+      - name: openstack/rally-openstack
+      - name: openstack/rally
+    timeout: 7200
+    roles:
+      - zuul: openstack/devstack
+    vars:
+      devstack_localrc:
+        # TODO(frickler): drop this once python-keystoneclient no longer needs it
+        KEYSTONE_ADMIN_ENDPOINT: true
+      devstack_plugins:
+        rally-openstack: https://opendev.org/openstack/rally-openstack
+    run: tests/ci/playbooks/run-rally-verify.yaml
+    post-run: tests/ci/playbooks/post-rally-verify.yaml
