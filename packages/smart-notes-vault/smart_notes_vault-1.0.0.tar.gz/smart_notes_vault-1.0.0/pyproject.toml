@@ -1,0 +1,29 @@
+[project]
+name = "smart-notes-vault"
+version = "1.0.0"
+description = ""
+authors = [
+    { name = "Jan Kolomaznik", email = "jan.kolomaznik@gmail.com" },
+]
+dependencies = [
+    "pyyaml>=6.0",
+]
+requires-python = ">=3.10"
+readme = "readme.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.3.2",
+]
+
+[tool.pdm.scripts]
+pytest = "pytest --junitxml=report.xml"

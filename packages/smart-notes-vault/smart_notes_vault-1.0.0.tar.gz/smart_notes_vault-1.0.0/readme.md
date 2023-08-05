@@ -1,0 +1,92 @@
+# Smart Notes Vault Python Library
+
+The main purpose of this library is to provide Python utilities for working with Smart Notes Vault files, enabling automation scripts to interact with them.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contribution)
+- [License](#license)
+
+## Introduction
+
+Smart Notes Vault is a note-manipulation library helps with automatization, like utilizes metadata and tags to organize and manage notes efficiently. This Python library aims to facilitate seamless integration with the Smart Notes Vault files and enable developers to build automation scripts for various tasks, making note management a breeze.
+
+
+## Features
+
+- Easy manipulation of metadata in the Smart Notes Vault file header.
+- Convenient handling of note tags for categorization and organization.
+- (Add more features if applicable)
+
+## Installation
+
+You can install the Smart Notes Vault Python library using pip:
+
+```bash
+pip install smart-notes-vault
+```
+
+
+## Usage
+Include code examples or detailed instructions on how to use your library.
+
+
+```python
+# %% imports
+import snv
+
+# %% Open vault
+vault = snv.open_vault("./../Honza")
+vault
+
+# %% Test find all
+all_notes = vault.find_note_by_path("/*")
+len(all_notes)
+
+# %% Find all notes with Honza tag
+notes_with_tag_Honza = []
+for note in all_notes:
+    try:
+        if note.header:
+            tags = note.header.tags()
+            if "Honza" in tags:
+                notes_with_tag_Honza.append(note)
+    except:
+        if __debug__:
+            print(f"Skip note {note!r}")
+        
+len(notes_with_tag_Honza)
+
+# %% Remove tag
+modify_notes = []
+for note in notes_with_tag_Honza:
+    new_note = note.header.remove_tag("Honza")
+    modify_notes.append(new_note)
+    
+len(modify_notes)
+
+# %% Save results
+for note in modify_notes:
+    vault.save_note(note)
+```
+
+7. **Contribution Guidelines**: Encourage contributions and provide guidelines for potential contributors.
+
+## Contribution
+
+Contributions to the Smart Notes Vault Python library are welcome! If you find any bugs, have feature requests, or want to make improvements, please follow the steps below:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes and commit them
+4. Push the changes to your forked repository
+5. Create a pull request to the main repository
+
+We appreciate your help in making this library even better!
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
