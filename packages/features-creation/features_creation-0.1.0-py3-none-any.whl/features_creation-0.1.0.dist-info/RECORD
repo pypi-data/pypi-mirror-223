@@ -1,0 +1,10 @@
+features_creation/__init__.py,sha256=bKsYp0g7wgdCHXa7eplurJGc8Bxspigo6Myd9BTK-Es,48
+features_creation/features_creation.py,sha256=DtBOCXUP0ebGgz6COZZIbrnI-dCN8E5Qoo59PVod2zY,4196
+features_creation/transformations/__init__.py,sha256=VFqby_AyMsqHGLQCNveMmtvBQ6uxGYD71crC2ujKoSo,170
+features_creation/transformations/base_transformations.py,sha256=SINApIH1OO5fhI8BczqL1iBMSIG8zxNbUa5TRJvbcA0,237
+features_creation/transformations/bins_transformations.py,sha256=2Je2jNQRd8G_I-7NCk072e12wNMiquIh5a5jSCKz24A,1368
+features_creation/transformations/cyclical_transformations.py,sha256=exGuoJ_WXGgcXZV-wCuUuNy67EDdBReFkiVntYxWFMU,940
+features_creation/transformations/math_transformations.py,sha256=bP9tLGXbGtP43lOXg3UVn0WLZIGAHjldFOjqu-km6OA,2125
+features_creation-0.1.0.dist-info/METADATA,sha256=6_ZoGHkqFx5-Th9FFVolbjiDg93HkcMG6oe3xO7Ion4,5471
+features_creation-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+features_creation-0.1.0.dist-info/RECORD,,
