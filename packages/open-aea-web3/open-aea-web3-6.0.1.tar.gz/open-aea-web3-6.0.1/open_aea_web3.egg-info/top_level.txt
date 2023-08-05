@@ -1,0 +1,6 @@
+ens
+ethpm
+open-aea-ens
+open-aea-ethpm
+opne-aea-web3
+web3
