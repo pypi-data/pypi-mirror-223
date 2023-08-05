@@ -1,0 +1,6 @@
+requests~=2.26.0
+redis~=3.5.3
+rocketmq~=0.4.4
+flask~=1.1.4
+flask_cors~=3.0.10
+markupsafe==2.0.1
