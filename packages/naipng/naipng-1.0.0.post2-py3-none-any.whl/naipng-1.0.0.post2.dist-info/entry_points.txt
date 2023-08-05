@@ -1,0 +1,2 @@
+[console_scripts]
+naipng = naipng.__main__:main
