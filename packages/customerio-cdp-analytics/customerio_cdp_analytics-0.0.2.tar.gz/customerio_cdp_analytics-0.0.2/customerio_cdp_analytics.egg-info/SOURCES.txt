@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+customerio/analytics/__init__.py
+customerio/analytics/client.py
+customerio/analytics/consumer.py
+customerio/analytics/request.py
+customerio/analytics/utils.py
+customerio/analytics/version.py
+customerio_cdp_analytics.egg-info/PKG-INFO
+customerio_cdp_analytics.egg-info/SOURCES.txt
+customerio_cdp_analytics.egg-info/dependency_links.txt
+customerio_cdp_analytics.egg-info/requires.txt
+customerio_cdp_analytics.egg-info/top_level.txt
