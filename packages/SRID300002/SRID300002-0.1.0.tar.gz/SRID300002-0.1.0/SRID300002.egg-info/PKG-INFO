@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: SRID300002
+Version: 0.1.0
+Summary: This project aim to convert wgs84 to local coordinate system like TUREF tm30
+Home-page: https://github.com/ozk17/Convert_WGS84_Local
+Author: Kemal Öz
+Author-email: ikemaloz7@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
