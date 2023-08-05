@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+__init__.py
+check.py
+setup.py
+test.py
+__pycache__/typecheck.cpython-38.pyc
+parmscheck.egg-info/PKG-INFO
+parmscheck.egg-info/SOURCES.txt
+parmscheck.egg-info/dependency_links.txt
+parmscheck.egg-info/top_level.txt
