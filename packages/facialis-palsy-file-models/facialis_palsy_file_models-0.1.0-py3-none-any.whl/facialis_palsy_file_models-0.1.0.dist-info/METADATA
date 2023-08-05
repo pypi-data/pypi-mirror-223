@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: facialis-palsy-file-models
+Version: 0.1.0
+Summary: Defining Facial Palsy Grading Models for eFACE, Sunnybrook, and House-Brackmann
+Home-page: https://github.com/heinrich-foto/FacialPalsyFileModels
+Author: Heinrich-Foto
+Author-email: fnz@heinrich-foto.de
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: click
+
+# Facialis Palsy File Models
+
+## Introduction
+
+There exist some Grading Systems for Facial Palsy. These Gradings are mostly saved in own developed File Formats. 
+This Repository trys to define a standardised file format for the most common grading systems.
+
+## File Format
+
+The File Format is based on the [JSON](https://www.json.org/) Format.
+This library implements a pydantic base model for the JSON Format definition and parsing.
+
+## Models
+
+### Sunnybrook
+
+The Sunnybrook Grading System is defined in the [Sunnybrook Facial Grading System: Reliability and Criteria for Nasolabial Fold]() Paper.
+
+The Model is defined in the `facialis_palsy.models.sunnybrook` Module.
+
+### House Brackmann
+
+The Sunnybrook Grading System is defined in:
+
+*House, J.W., Brackmann, D.E. Facial nerve grading system. Otolaryngol. Head Neck Surg, \[93\] 146–147. 1985.*
+
+The Model is defined in the `facialis_palsy.models.house_brackmann` Module.
+
+**Grade I - Normal**
+
+> Normal facial function in all areas
+ 
+**Grade II - Slight Dysfunction**
+
+> Gross: slight weakness noticeable on close inspection; may have very slight synkinesis
+> At rest: normal symmetry and tone
+> Motion: forehead - moderate to good function; eye - complete closure with minimum effort; mouth - slight asymmetry.
+ 
+**Grade III - Moderate Dysfunction**
+
+> Gross: obvious but not disfiguring difference between two sides; noticeable but not severe synkinesis, contracture, and/or hemi-facial spasm.
+> At rest: normal symmetry and tone
+> Motion: forehead - slight to moderate movement; eye - complete closure with effort; mouth - slightly weak with maximum effort.
+ 
+**Grade IV - Moderate Severe Dysfunction**
+
+> Gross: obvious weakness and/or disfiguring asymmetry
+> At rest: normal symmetry and tone
+> Motion: forehead - none; eye - incomplete closure; mouth - asymmetric with maximum effort.
+ 
+**Grade V - Severe Dysfunction**
+
+> Gross: only barely perceptible motion
+> At rest: asymmetry
+> Motion: forehead - none; eye - incomplete closure; mouth - slight movement
+ 
+**Grade VI - Total Paralysis**
+
+> No movement
+
+[Description of House Brackmann Grading Scale](https://sorensenclinic.com/microsurgery/house-brackmann/)
+
+### Yanagihara
+
+The Yanagihara Grading System is defined in the [Yanagihara Grading System for Facial Palsy]() Paper.
+
+The Model is defined in the `facialis_palsy.models.yanagihara` Module.
+
+### eFACE
+
+The eFACE Grading System is defined in the [eFACE: A New Clinical Tool to Evaluate Facial Function](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3880122/) Paper.
+
+The Model is defined in the `facialis_palsy.models.eface` Module.
+
+## Additional Metadata
+
+We define some additional Metadata for the File Format.
+
+```
+metadata_version_number: "0.0.0"
+application_version: str = "APPLICATION_VERSION"
+application_org: str = "ORGANIZATION_DOMAIN"
+```
+
+The metadata_version_number gets updated via python `change_version_number.py` script. 
+This script updates the version number in all files accordingly to the `setup.py`.
+
+The application_version and application_org are specific to the application which uses this library and writes the files.
+
