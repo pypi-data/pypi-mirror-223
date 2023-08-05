@@ -1,0 +1,5 @@
+setup.py
+ytmonster.egg-info/PKG-INFO
+ytmonster.egg-info/SOURCES.txt
+ytmonster.egg-info/dependency_links.txt
+ytmonster.egg-info/top_level.txt

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ytmonster
+Version: 2.95
+Summary: Библиотека для YTmonster.ru или Clifl.com
+Author: GODIMONGO
+Author-email: dbgdhdg13@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+
+
+Библиотека YTmonster позволяет обращятся к сайтам YTmonster.ru или Clifl.com и делают всю рутину за вас.
+Я хочу что бы API сайта YTmonster было удобно и понятно каждому!
+
