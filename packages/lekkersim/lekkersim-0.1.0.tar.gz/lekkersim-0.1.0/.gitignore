@@ -1,0 +1,17 @@
+__pycache__
+*.out
+*.pdf
+*.gnu
+*.dat
+./*.py
+Docs/jupyter/.ipynb_checkpoints/
+*.log
+jupyter/*.html
+tests
+.gitlab-ci.yml.back
+docs-build/
+Docs/generated/
+pytest/.coverage
+pytest/htmlcov
+.idea
+dist/*
