@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+NotifPy/EmailNotif.py
+NotifPy/SMSNotif.py
+NotifPy/__init__.py
+NotifPy.egg-info/PKG-INFO
+NotifPy.egg-info/SOURCES.txt
+NotifPy.egg-info/dependency_links.txt
+NotifPy.egg-info/top_level.txt
