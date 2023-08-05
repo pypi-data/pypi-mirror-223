@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: airbyte-source-shopify
+Version: 0.5.1
+Summary: Source CDK implementation for Shopify.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Provides-Extra: tests
