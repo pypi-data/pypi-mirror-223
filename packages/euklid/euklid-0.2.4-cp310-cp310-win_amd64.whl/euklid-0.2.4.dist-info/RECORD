@@ -1,0 +1,11 @@
+euklid.cp310-win_amd64.pyd,sha256=omfcRayz8E4p00L7po2V0hc47AET4O5fjvqFQ3p56B8,821760
+euklid-stubs/__init__.pyi,sha256=NRTEa1HsAEvKoRC3ldRSWYBxV3vEYKK1PJmmYxWoWGw,89
+euklid-stubs/mesh.pyi,sha256=uHyMND924ezzo2RByDqIzpDobjbER291xJYeynbyinY,157
+euklid-stubs/plane.pyi,sha256=zfKpGCYGuXoSczKek2HShnDnUuWCSWzrfWoyVTBai4Q,775
+euklid-stubs/spline.pyi,sha256=B5WYt3kj4vo0P4mPRk6aLdJY9nW4DUkYXhUUPTtPRdY,7099
+euklid-stubs/vector.pyi,sha256=Noy9J1XsKU82xAuKWO8w4aeWhM6r7hlocUevt5_QVNU,10905
+euklid-0.2.4.dist-info/LICENSE,sha256=CMnVB06NUs8N1ysD5rGZUkBG9mGDu-rQ5atZTOtxib4,1084
+euklid-0.2.4.dist-info/METADATA,sha256=Yor5B3LR5dNDLGTK4MdIjBYtHrJca6mbSgS1ssnuTbE,789
+euklid-0.2.4.dist-info/WHEEL,sha256=Ecbb0_kZJtemD7-rR3Duaz_lzr9_iQAuZ4hgpmUiXjg,102
+euklid-0.2.4.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+euklid-0.2.4.dist-info/RECORD,,
