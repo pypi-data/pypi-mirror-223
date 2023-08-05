@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pyaskit
+Version: 0.0.1
+Home-page: 
+Author: 
+Author-email: 
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+License-File: LICENSE
