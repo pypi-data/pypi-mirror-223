@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <data noupdate="1">
+        <record id="outsource_work_rate_policy_template" model="policy.template">
+            <field name="name">Standard</field>
+            <field name="model_id" ref="model_outsource_work_rate" />
+            <field
+                name="state_field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','state')]"
+            />
+            <field name="sequence" eval="100" />
+            <field name="python_code">result=True</field>
+        </record>
+
+        <!-- Outsource Work Rate: confirm_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_confirm"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','confirm_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','=','draft')]"
+            />
+            <field name="restrict_user" eval="1" />
+            <field name="computation_method">use_group</field>
+            <field
+                name="group_ids"
+                eval="[(6,0,[ref('outsource_work_rate_user_group')])]"
+            />
+            <field name="restrict_additional" eval="0" />
+        </record>
+
+        <!-- Outsource Work Rate: approve_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_approve"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','approve_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','=','confirm')]"
+            />
+            <field name="restrict_user" eval="0" />
+            <field name="restrict_additional" eval="1" />
+            <field name="additional_python_code">result = False
+if env.user.id in document.active_approver_user_ids.ids:
+    result = True
+            </field>
+        </record>
+
+        <!-- Outsource Work Rate:  reject_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_reject"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','reject_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','=','confirm')]"
+            />
+            <field name="restrict_user" eval="0" />
+            <field name="restrict_additional" eval="1" />
+            <field name="additional_python_code">result = False
+if env.user.id in document.active_approver_user_ids.ids:
+    result = True
+            </field>
+        </record>
+
+        <!-- Outsource Work Rate:  restart_approval_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_restart_approval"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','restart_approval_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','in',['confirm'])]"
+            />
+            <field name="restrict_user" eval="1" />
+            <field name="computation_method">use_group</field>
+            <field
+                name="group_ids"
+                eval="[(6,0,[ref('outsource_work_rate_validator_group')])]"
+            />
+            <field name="restrict_additional" eval="1" />
+            <field name="additional_python_code">result = False
+if not document.approval_template_id:
+    result = True
+            </field>
+        </record>
+
+        <!-- Outsource Work Rate: open_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_open"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','open_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','=','ready')]"
+            />
+            <field name="restrict_user" eval="1" />
+            <field name="computation_method">use_group</field>
+            <field
+                name="group_ids"
+                eval="[(6,0,[ref('outsource_work_rate_user_group')])]"
+            />
+            <field name="restrict_additional" eval="0" />
+        </record>
+
+        <!-- Outsource Work Rate: done_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_done"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','done_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','=','open')]"
+            />
+            <field name="restrict_user" eval="1" />
+            <field name="computation_method">use_group</field>
+            <field
+                name="group_ids"
+                eval="[(6,0,[ref('outsource_work_rate_user_group')])]"
+            />
+            <field name="restrict_additional" eval="0" />
+        </record>
+
+        <!-- Outsource Work Rate: cancel_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_cancel"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','cancel_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','in',['draft','ready','open','done'])]"
+            />
+            <field name="restrict_user" eval="1" />
+            <field name="computation_method">use_group</field>
+            <field
+                name="group_ids"
+                eval="[(6,0,[ref('outsource_work_rate_validator_group')])]"
+            />
+            <field name="restrict_additional" eval="0" />
+        </record>
+
+        <!-- Outsource Work Rate:  restart_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_restart"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','restart_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','in',['cancel','reject'])]"
+            />
+            <field name="restrict_user" eval="1" />
+            <field name="computation_method">use_group</field>
+            <field
+                name="group_ids"
+                eval="[(6,0,[ref('outsource_work_rate_validator_group')])]"
+            />
+            <field name="restrict_additional" eval="0" />
+        </record>
+
+        <!-- Outsource Work Rate:  manual_number_ok -->
+        <record
+            id="outsource_work_rate_policy_template_detail_manual_number"
+            model="policy.template_detail"
+        >
+            <field name="template_id" ref="outsource_work_rate_policy_template" />
+            <field
+                name="field_id"
+                search="[('model_id.model','=','outsource_work_rate'),('name','=','manual_number_ok')]"
+            />
+            <field name="restrict_state" eval="1" />
+            <field
+                name="state_ids"
+                search="[('field_id.model_id.model','=','outsource_work_rate'),('value','=','draft')]"
+            />
+            <field name="restrict_user" eval="1" />
+            <field name="computation_method">use_group</field>
+            <field
+                name="group_ids"
+                eval="[(6,0,[ref('outsource_work_rate_validator_group')])]"
+            />
+            <field name="restrict_additional" eval="0" />
+        </record>
+
+    </data>
+</odoo>

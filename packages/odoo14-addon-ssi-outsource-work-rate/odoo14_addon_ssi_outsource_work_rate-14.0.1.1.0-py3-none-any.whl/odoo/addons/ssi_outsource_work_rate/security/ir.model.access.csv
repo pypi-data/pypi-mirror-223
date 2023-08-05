@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_outsource_work_rate_all,outsource_work_rate - user,model_outsource_work_rate,,1,0,0,0
+access_outsource_work_rate_viewer,outsource_work_rate - viewer,model_outsource_work_rate,outsource_work_rate_viewer_group,1,0,0,0
+access_outsource_work_rate_user,outsource_work_rate - all,model_outsource_work_rate,outsource_work_rate_user_group,1,1,1,1
+access_outsource_work_rate_detail_all,outsource_work_rate_detail - user,model_outsource_work_rate_detail,,1,0,0,0
+access_outsource_work_rate_detail_viewer,outsource_work_rate_detail - viewer,model_outsource_work_rate_detail,outsource_work_rate_viewer_group,1,0,0,0
+access_outsource_work_rate_detail_user,outsource_work_rate_detail - all,model_outsource_work_rate_detail,outsource_work_rate_user_group,1,1,1,1
