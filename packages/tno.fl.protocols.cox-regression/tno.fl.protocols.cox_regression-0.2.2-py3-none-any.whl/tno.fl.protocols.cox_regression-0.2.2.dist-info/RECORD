@@ -1,0 +1,15 @@
+tno/fl/protocols/cox_regression/__init__.py,sha256=7aMsSv84YHIKHaN6_QzE7dakCToGHNHW6d9ZzQLP2Kg,76
+tno/fl/protocols/cox_regression/client.py,sha256=HAV-Y06KzCHKN-Xtm_Bc3k4fzPXnyN4cp3Drc4l3oPI,2966
+tno/fl/protocols/cox_regression/config.py,sha256=K_u654qYBzszh0oHY892KEZtx4CHVwSMiQqN8NbtL5A,4040
+tno/fl/protocols/cox_regression/msg_ids.py,sha256=pOlSa-Nfm-ocKvRgpa3zSqeCHwnfdTRQV5v-2E1ycOw,149
+tno/fl/protocols/cox_regression/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tno/fl/protocols/cox_regression/server.py,sha256=DecTPDUO34BO70SlI6WCG4ezUiVLe8QndMS2AJTXF9I,1408
+tno/fl/protocols/cox_regression/survival_stacking.py,sha256=E4XxWO5DuthMeYSrRRxoLHnlJfioUf2QNLWnskTd7hg,5454
+tno/fl/protocols/cox_regression/tests/test_config.py,sha256=bLQeMOLecfoISIpW3_AmZuT-lwNQ2IvxqEzDOPsN_o8,1805
+tno/fl/protocols/cox_regression/tests/test_protocol.py,sha256=NeQeQUBDbaxMKzpiw_cpt-314viTTtT92Biod8IAvx4,2934
+tno/fl/protocols/cox_regression/tests/test_stacking.py,sha256=Iohsfkv1USd8zzY7uDWj6-vPr-_dZRNnmkOQypV6nPo,2265
+tno.fl.protocols.cox_regression-0.2.2.dist-info/LICENSE,sha256=1JZUETtn7vwog3ykOD4J86MJtPBJMs5fnYoxzNy10kQ,10986
+tno.fl.protocols.cox_regression-0.2.2.dist-info/METADATA,sha256=ujbO0hw4MEMtsNlPGNrL9D6_-noGNy7DHupwnKC_HPk,12919
+tno.fl.protocols.cox_regression-0.2.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tno.fl.protocols.cox_regression-0.2.2.dist-info/top_level.txt,sha256=7cHKx5j6ibiq14EYKPAhHk_NqB8u-nPUjh5R4TDqpHo,4
+tno.fl.protocols.cox_regression-0.2.2.dist-info/RECORD,,
