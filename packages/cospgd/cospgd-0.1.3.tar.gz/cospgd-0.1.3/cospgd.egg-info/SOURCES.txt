@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+cospgd/__init__.py
+cospgd/attack_implementations.py
+cospgd.egg-info/PKG-INFO
+cospgd.egg-info/SOURCES.txt
+cospgd.egg-info/dependency_links.txt
+cospgd.egg-info/requires.txt
+cospgd.egg-info/top_level.txt
