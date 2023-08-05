@@ -1,0 +1,8 @@
+# CMake Parser
+# Copyright 2023 Timo Röhling <timo@gaussglocke.de>
+# SPDX-License-Identifier: Apache-2.0
+sphinx
+sphinx-autodoc-typehints
+setuptools >= 61
+setuptools-scm[toml] >= 6.2
+attrs >= 21.3.0
