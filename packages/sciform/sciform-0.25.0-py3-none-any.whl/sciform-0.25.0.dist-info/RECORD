@@ -1,0 +1,15 @@
+sciform/__init__.py,sha256=KFutgq21IZx5p7L5S69927-4LCxVUmqzK51fUWpU4OQ,1132
+sciform/format_options.py,sha256=_BOjq51AAbF_T2SFWNharAlc_JUOEJZz6OP-LpJyK7Q,18716
+sciform/format_utils.py,sha256=qSHmk80SJ1StzYLiuCEVg3FmJz42Omg3j1yVfEz_38o,11688
+sciform/formatter.py,sha256=XZBbYJe3s-57x_UGIRFugzlKHPAIAef-UHod-AhF9dE,2124
+sciform/formatting.py,sha256=ZDtWZa_MstucZOsGcZ-hSAf2r9K-fmgFzngTrIzuLy8,11913
+sciform/fsml.py,sha256=Acp06rq2Uc-QMb1pqDWaAK9oWLKEyMau_FYmMy0vVMA,4844
+sciform/grouping.py,sha256=wqEexnDX4kI4mGmQV3SeZiNKmLr6zGLMu6sT31YAl7k,2395
+sciform/modes.py,sha256=_uBzHC3pR5cj2bKznB0RtyLVXLI5U0Du4hlHzvTsNi4,4326
+sciform/prefix.py,sha256=ciZBzwCUbF6HGUi6xYPwPJWnl5H_MdpuorUzzjdlBDs,1189
+sciform/scinum.py,sha256=eW-l9yhJmOTjYYn_Evlzq3ifQfPR6PDY3fbGmBx2JIk,2127
+sciform-0.25.0.dist-info/LICENSE,sha256=nqFBB26VXKwQkYLD66PhhxDA-rBvh3eoBBv2pVSG-o8,1074
+sciform-0.25.0.dist-info/METADATA,sha256=iiP-1wOTQdcJw7x2WyeFOAXGkCv3MTXd6gMJmx6EI58,4888
+sciform-0.25.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sciform-0.25.0.dist-info/top_level.txt,sha256=mC01YOQ-1u5pDk9BJia-pQKLUMvkreMsldDpFcp7NV8,8
+sciform-0.25.0.dist-info/RECORD,,
