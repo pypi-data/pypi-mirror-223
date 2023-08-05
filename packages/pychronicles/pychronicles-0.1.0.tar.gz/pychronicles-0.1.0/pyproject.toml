@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pychronicles"
+version = "0.1.0"
+description = ""
+authors = ["Thomas Guyet <thomas.guyet@inria.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.1"
+numpy = "^1.23.4"
+scipy = "^1.9.3"
+"lazr.restfulclient" = "^0.14.5"
+"lazr.uri" = "^1.0.6"
+typing-extensions = "^4.4.0"
+metric-temporal-logic = "^0.4.0"
+lark = "^1.1.4"
+multiset = "^3.0.1"
+pytest = "^7.2.0"
+cython = "^0.29.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
