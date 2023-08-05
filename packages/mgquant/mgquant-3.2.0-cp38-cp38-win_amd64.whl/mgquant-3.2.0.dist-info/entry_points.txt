@@ -1,0 +1,3 @@
+[console_scripts]
+mgquant = mgquant.__main__:entry_point
+
