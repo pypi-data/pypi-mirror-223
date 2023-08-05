@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: deployfish
+Version: 1.11.9
+Summary: AWS ECS related deployment tools
+Home-page: https://github.com/caltechads/deployfish
+Author: Caltech IMSS ADS
+Author-email: imss-ads-staff@caltech.edu
+Project-URL: Documentation, https://deployfish.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/caltechads/deployfish
+Project-URL: Issues, https://github.com/caltechads/deployfish/issues
+Keywords: aws,ecs,docker,devops
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+Requires-Dist: boto3 (>=1.26.36)
+Requires-Dist: cement (>=3.0.0)
+Requires-Dist: click (>=6.7)
+Requires-Dist: colorlog
+Requires-Dist: jinja2 (>=2.11)
+Requires-Dist: jsondiff2 (>=1.2.3)
+Requires-Dist: pytz
+Requires-Dist: PyYAML (>=5.1)
+Requires-Dist: requests (>=2.18.4)
+Requires-Dist: shellescape (>=3.8.1)
+Requires-Dist: tabulate (>=0.8.1)
+Requires-Dist: typing-extensions
+Requires-Dist: tzlocal (>=4.0.1)
+
+long_description
