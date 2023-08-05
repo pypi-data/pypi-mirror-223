@@ -1,0 +1,17 @@
+ap_features/__init__.py,sha256=G4I5nt-edVPS5kPPMIeoV6nh52vEu9etnDvYztY2tAk,1459
+ap_features/_numba.py,sha256=q58VKNnuBTmh2-VB8uQ-e5A0No_rSphJ3DBG_E1Wbls,8701
+ap_features/average.py,sha256=WLCmvCLNrmqo55_fId-e1JdVS6kLXRY94f46HT7Ocuc,4703
+ap_features/background.py,sha256=SmapmAXc4yRRtZPlGtgF9kgiHH4_gq-TgY8VqV4_RQw,7550
+ap_features/beat.py,sha256=beXka0PCOkk40yYwnZDEWQw7y1VGKebklpHN03596e0,39341
+ap_features/chopping.py,sha256=Tx4QrbJSLWEWoFbkGgQg0tesuoI1Yy6MqCLdKVPLKUo,21125
+ap_features/features.py,sha256=xAHh79pqzKyjq_LaZCYuZvRHJIzJpF3H2iTtI_wq_JU,29511
+ap_features/filters.py,sha256=9ba4aBcnZ5UWpy40P5ycu0Ylcw6xca1ZwxMGfexueX4,4409
+ap_features/plot.py,sha256=rn1kehbZUbS9VElko0y9sEWjr0AoldwDQ1GPLWyChsU,4327
+ap_features/testing.py,sha256=BoephPA5c7EEFzZQb5pkghQlTTkJA90zdpaDvj3mEdE,1150
+ap_features/utils.py,sha256=pNJeGQXA3KiRVZZn_fECcgDWirxYcOYYlFoFMevkQz4,3872
+ap_features-2023.5.1.dist-info/AUTHORS.md,sha256=jISDm3A-Z9YWz0fizcVrNUQeUzARbaAzjn_-O1CBw3I,322
+ap_features-2023.5.1.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+ap_features-2023.5.1.dist-info/METADATA,sha256=J6G_OUjmT2n3yObDsztBk36wsYdVV2NJLdu7d5-Iiio,5535
+ap_features-2023.5.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+ap_features-2023.5.1.dist-info/top_level.txt,sha256=4DlTVN9RVQKwYLmvATZPfcL6zbMsohiQbo9gefZnLDE,12
+ap_features-2023.5.1.dist-info/RECORD,,
