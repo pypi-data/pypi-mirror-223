@@ -1,0 +1,9 @@
+README.md
+setup.py
+gog_price_checker/__init__.py
+gog_price_checker/__main__.py
+gog_price_checker.egg-info/PKG-INFO
+gog_price_checker.egg-info/SOURCES.txt
+gog_price_checker.egg-info/dependency_links.txt
+gog_price_checker.egg-info/entry_points.txt
+gog_price_checker.egg-info/top_level.txt
