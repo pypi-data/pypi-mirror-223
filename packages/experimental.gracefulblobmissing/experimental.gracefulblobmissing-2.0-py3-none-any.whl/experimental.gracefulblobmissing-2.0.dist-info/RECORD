@@ -1,0 +1,12 @@
+experimental.gracefulblobmissing-2.0-py3.11-nspkg.pth,sha256=NRZYb5lp6dftDJiPjTIKfNh-AFCNzJP0CM4sjL2wzqc,569
+experimental/gracefulblobmissing/__init__.py,sha256=l2iU6jqYhNlS8Ut1eq8EIn1LLjFveIynQTFfTNfrGWk,36
+experimental/gracefulblobmissing/configure.zcml,sha256=uPqBfhWW32vFqTiCDgeZTxgmPPOMv82YnQgnrZLrkgk,1407
+experimental/gracefulblobmissing/patches.py,sha256=sXIHxwjFuRylTio5IvZYgQwkQ9tc0c6cocKauuyyqLE,5187
+experimental/gracefulblobmissing/tests.py,sha256=L4Va1cq2jJBmphyZAvf-c84z9Ld28jhFguN747opLr0,1573
+experimental/gracefulblobmissing/dummies/blob.png,sha256=9j9ASzzL6GJSumdeX49OafgTNfi3C3UH5efy79UWtFA,2192
+experimental.gracefulblobmissing-2.0.dist-info/METADATA,sha256=6RLGwqhvvkpLHOjhhRJwOnpP-1CUvqOykALCEhcHTJw,3871
+experimental.gracefulblobmissing-2.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+experimental.gracefulblobmissing-2.0.dist-info/entry_points.txt,sha256=b5cHz9FINNyhunUZ6BJOQMhgeAi2x9UcnAkA9l8KEC4,40
+experimental.gracefulblobmissing-2.0.dist-info/namespace_packages.txt,sha256=WSY2rwaGHd8blqg-pL5FRbAjnA07FjL5jwB6CnTTaG8,13
+experimental.gracefulblobmissing-2.0.dist-info/top_level.txt,sha256=WSY2rwaGHd8blqg-pL5FRbAjnA07FjL5jwB6CnTTaG8,13
+experimental.gracefulblobmissing-2.0.dist-info/RECORD,,
