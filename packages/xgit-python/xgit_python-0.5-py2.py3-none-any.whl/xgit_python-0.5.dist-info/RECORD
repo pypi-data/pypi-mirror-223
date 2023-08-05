@@ -1,0 +1,14 @@
+xgit/__init__.py,sha256=NC9BObuefeHQ4EgKbrll_Iwq14LAkg1d1c7kT438wNI,55
+xgit/xgit_command.py,sha256=WF9flnT0ddfPqV0y4CBAa0cM2ivsLqzApyDqdKIHKWM,1928
+xgit/xgit_filter.py,sha256=czOEKpf5PFeh5ljHMCNS3R2kt5uteuliC9cRuGx0wX0,865
+xgit/xgit_modify_author.py,sha256=LNNjY1pAmoUnHsUyL19xTDbJD3YDRYSvbUwKmTOcT8k,1815
+xgit/xgit_modify_committer.py,sha256=NlvZQ71Q7TYn7-3ErHbKt8Dx-Y7J66NUyLBuw0mmGzk,1914
+xgit/xgit_summary.py,sha256=b3mAKyhDeYMAX6d3RaWRDczuA6HSefgI9T_KPz-2_Vg,2355
+xgit/xgit_util.py,sha256=wvtnc2lYT5hj2lz3xTQzbFQNFRBVIl_c8SxuMY7Z3DI,1721
+xgit_python-0.5.dist-info/LICENSE,sha256=2gkiculHtN0ZN8WPMKCV0WD_yKCuaJn6xTySbafxUfM,1093
+xgit_python-0.5.dist-info/METADATA,sha256=mFJ8hyXG_3E6ToAAgNR5oRmzvnrpj9MqNseuyZErOI4,987
+xgit_python-0.5.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+xgit_python-0.5.dist-info/entry_points.txt,sha256=1R92fBIYIQ9mXVccyGE6mRXrNfD6vvd2_TIdY2T_cjM,192
+xgit_python-0.5.dist-info/top_level.txt,sha256=iaFoXP3YXszjnL2fIm9tYzfJhFrUD_P9oVyGBCZ7X0g,5
+xgit_python-0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+xgit_python-0.5.dist-info/RECORD,,
