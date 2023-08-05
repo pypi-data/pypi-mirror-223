@@ -1,0 +1,14 @@
+hivemind_presence/__init__.py,sha256=DhkeMLk0crhk5AkMjsYSL_6lUtOgyVfKXv5dAwyAjgw,159
+hivemind_presence/devices.py,sha256=2D7s3l_tPO2xOudATsusPr8rFUME0_8s1eYoPxroT9Y,1783
+hivemind_presence/discovery.py,sha256=2gfe9O0kGWxvA7SjN4Uo7k0y35hZH3ACyk222z1pEjw,1771
+hivemind_presence/presence.py,sha256=887xw49muNXeOqIgRL5F2lYQEUgqb17OqGz7vOCaP0U,1754
+hivemind_presence/ssdp.py,sha256=z5GKO_xD3CSIrP_WQMr0jRps8BOROAFO5HBRufBtD4w,8276
+hivemind_presence/upnp_server.py,sha256=1bxTFEZrhSRiZ3zRiGLnvWKAsfxENztp8-Cn-NbNYkU,7641
+hivemind_presence/utils.py,sha256=-PWZJYRvjh8VDFvrSSp4LyRKO6mo0kQW1Y-7XgxNmaM,1431
+hivemind_presence/version.py,sha256=cqNeQiCHkhEUQwZUnX-tzinJltWZ02g0J8qcmPmEZJw,177
+hivemind_presence/zero.py,sha256=TI2H0MTFC_tzGI8M1BkmE2kW4GgMrv3HZqrSPtGMgv4,3458
+HiveMind_presence-0.0.2a4.dist-info/LICENSE,sha256=ujdvnin8cAYCsJhQhQxfUSvS5yCf7RAk24ltOrau7rA,11349
+HiveMind_presence-0.0.2a4.dist-info/METADATA,sha256=-NYIau8npAl55RA1Ti4D_YOJF6PiSLfz6iN2DonOpVk,342
+HiveMind_presence-0.0.2a4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+HiveMind_presence-0.0.2a4.dist-info/top_level.txt,sha256=aKaR5_p1hELGqWshqcKR29gegxVsYOfLTOiVGBxFIWc,18
+HiveMind_presence-0.0.2a4.dist-info/RECORD,,

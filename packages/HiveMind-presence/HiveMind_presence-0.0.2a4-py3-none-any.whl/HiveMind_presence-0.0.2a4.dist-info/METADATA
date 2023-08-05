@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: HiveMind-presence
+Version: 0.0.2a4
+Summary: UNKNOWN
+Home-page: https://github.com/JarbasHiveMind/HiveMind-presence
+Author: jarbasAI
+Author-email: jarbasai@mailfence.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: upnpclient (>=0.0.8)
+Requires-Dist: hivemind-bus-client (>=0.0.4a3)
+Requires-Dist: rich
+
+UNKNOWN
+
+
