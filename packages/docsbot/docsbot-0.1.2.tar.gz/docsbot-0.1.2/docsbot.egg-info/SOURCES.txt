@@ -1,0 +1,8 @@
+README.md
+setup.py
+docsbot.egg-info/PKG-INFO
+docsbot.egg-info/SOURCES.txt
+docsbot.egg-info/dependency_links.txt
+docsbot.egg-info/entry_points.txt
+docsbot.egg-info/requires.txt
+docsbot.egg-info/top_level.txt
