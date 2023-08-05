@@ -1,0 +1,5 @@
+requests
+python-binance==1.0.17
+numpy
+pandas
+matplotlib
