@@ -1,0 +1,16 @@
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+aiogram_translation/__init__.py
+aiogram_translation/_translator.py
+aiogram_translation/errors.py
+aiogram_translation/models.py
+aiogram_translation.egg-info/PKG-INFO
+aiogram_translation.egg-info/SOURCES.txt
+aiogram_translation.egg-info/dependency_links.txt
+aiogram_translation.egg-info/requires.txt
+aiogram_translation.egg-info/top_level.txt
+aiogram_translation/middlewares/TranslationMiddleware.py
+aiogram_translation/middlewares/__init__.py
