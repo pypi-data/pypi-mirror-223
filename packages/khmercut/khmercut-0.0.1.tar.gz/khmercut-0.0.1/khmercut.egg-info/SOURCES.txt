@@ -1,0 +1,7 @@
+README.md
+setup.py
+khmercut.egg-info/PKG-INFO
+khmercut.egg-info/SOURCES.txt
+khmercut.egg-info/dependency_links.txt
+khmercut.egg-info/requires.txt
+khmercut.egg-info/top_level.txt
