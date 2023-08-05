@@ -1,0 +1,9 @@
+setuptools
+sphinx
+sphinx-bootstrap-theme
+docutils
+packaging>=22.0
+graphviz
+
+[test]
+pytest

@@ -1,0 +1,26 @@
+image: python:3.10
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - pip
+        name: Test
+        script:
+          - pip install .[test]
+          - pytest -v
+
+    - step:
+        script:
+          - python --version
+          - pip install -U --force-reinstall twine
+          - python setup.py sdist
+          - python -m twine check dist/*
+
+  tags:
+    'v*':
+      - step:
+          script:
+            - python setup.py sdist
+            - pip install twine
+            - twine upload dist/*

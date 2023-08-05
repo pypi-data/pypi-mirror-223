@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dkist-sphinx-theme
+Version: 1.1.2
+Summary: The sphinx theme for DKKST.
+Author: AURA/NSO
+Provides-Extra: test
+License-File: LICENSE.rst
+
+The documentation theme for projects related to the DKIST DC and Telescope.
