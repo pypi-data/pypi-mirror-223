@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+dealfortheday/__init__.py
+dealfortheday/mydealfortheday.py
+dealfortheday.egg-info/PKG-INFO
+dealfortheday.egg-info/SOURCES.txt
+dealfortheday.egg-info/dependency_links.txt
+dealfortheday.egg-info/top_level.txt
