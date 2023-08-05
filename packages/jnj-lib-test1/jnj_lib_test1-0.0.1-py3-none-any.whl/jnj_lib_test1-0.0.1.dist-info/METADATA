@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jnj-lib-test1
+Version: 0.0.1
+Summary: PYPI test package
+Home-page: https://github.com/moondevpy/jnj_lib
+Author: moondevpy
+Author-email: moondevpy@gmail.com
+Keywords: jnj test,pypi test
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Requires-Dist: pyyaml
+
