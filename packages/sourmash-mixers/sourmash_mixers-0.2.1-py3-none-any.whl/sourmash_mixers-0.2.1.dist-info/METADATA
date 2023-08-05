@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sourmash-mixers
+Version: 0.2.1
+Summary: this meta-package installs a collection of sourmash plugins!
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sourmash (<5,>=4.8.0)
+Requires-Dist: sourmash-plugin-venn (>=0.4)
+Requires-Dist: get-some-ncbi-genomes (>=0.2)
+Requires-Dist: sourmash-plugin-commonhash (>=0.3)
+Requires-Dist: sourmash-plugin-abundhist (>=0.3)
+Requires-Dist: sourmash-plugin-sketchall (>=0.2)
+
+# sourmash-mixers
+A meta-package to install a number of sourmash plugins!
