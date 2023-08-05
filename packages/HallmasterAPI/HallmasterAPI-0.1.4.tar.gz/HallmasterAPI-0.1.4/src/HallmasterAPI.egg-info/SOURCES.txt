@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/HallmasterAPI.egg-info/PKG-INFO
+src/HallmasterAPI.egg-info/SOURCES.txt
+src/HallmasterAPI.egg-info/dependency_links.txt
+src/HallmasterAPI.egg-info/requires.txt
+src/HallmasterAPI.egg-info/top_level.txt
+src/hallmasterapi/__init__.py
+src/hallmasterapi/hallmasterapi.py
