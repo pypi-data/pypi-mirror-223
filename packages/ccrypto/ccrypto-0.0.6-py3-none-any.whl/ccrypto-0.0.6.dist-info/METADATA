@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ccrypto
+Version: 0.0.6
+Home-page: https://github.com/quantatrisk/ccrypto
+Author: Python
+Author-email: pawel.lachowicz@quantatrisk.com
+License: MIT
+Keywords: cryptocurrency crypto python derivatives
+Description-Content-Type: text/x-rst
+Requires-Dist: requests
+Requires-Dist: python-binance (==1.0.17)
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+Crypto-Finance Python library for crypto markets and data analysis by QuantAtRisk.com
