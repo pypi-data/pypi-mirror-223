@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: KNUE-Programming
+Version: 0.0.1
+Summary: KNUE_TEST
+Home-page: https://github.com/tmfrlska/KNUE
+Author: Seulki.Kim
+Author-email: tmfrlska85@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
