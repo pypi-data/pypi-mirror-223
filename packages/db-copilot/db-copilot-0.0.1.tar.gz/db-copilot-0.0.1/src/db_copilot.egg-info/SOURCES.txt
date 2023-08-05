@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/db_copilot/__init__.py
+src/db_copilot.egg-info/PKG-INFO
+src/db_copilot.egg-info/SOURCES.txt
+src/db_copilot.egg-info/dependency_links.txt
+src/db_copilot.egg-info/top_level.txt
