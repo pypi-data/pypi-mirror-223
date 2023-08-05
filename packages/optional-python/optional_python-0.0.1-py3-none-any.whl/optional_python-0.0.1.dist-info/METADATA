@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: optional-python
+Version: 0.0.1
+Summary: Optional object for python
+Home-page: https://github.com/ponytailer/PyOptional
+Author: ponytailer
+Author-email: huangxiaohen2738@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# PyOptional
+optional object for python
+
+
+### How to use
+
+
+####  `Optional.of & Optional.of_nullable`
+```python
+
+from pyoptional import Optional
+
+value = 1
+
+final_value = Optional.of(value).map(lambda x: x + 1).or_else(333)
+assert final_value == 1
+
+final_value = Optional.of_nullable(None).map(lambda x: x + 1).or_else(333)
+assert final_value == 333
+
+
+```
+
+####  `or_raise`
+
+```python
+
+Optional.of_nullable(None).or_raise(ValueError("value is None"))
+
+```
+
