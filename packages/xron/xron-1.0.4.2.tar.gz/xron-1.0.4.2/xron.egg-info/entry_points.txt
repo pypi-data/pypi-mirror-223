@@ -1,0 +1,2 @@
+[console_scripts]
+xron = xron.entry:main
