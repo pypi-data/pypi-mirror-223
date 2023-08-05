@@ -1,0 +1,10 @@
+sqlalchemy_multiple_db/__init__.py,sha256=9byhhM_ltR8_3M580YfG03mzHTLRRfNFUZF-oEG264k,85
+sqlalchemy_multiple_db/helper.py,sha256=a1DkX00LNebLphz89u2BgN3I-k7B_Ga6hWE0-GZZmFg,3192
+sqlalchemy_multiple_db/version.py,sha256=QI-DBF3VUhfapTnt3i5KgRW28dWzJ5_y0KOj5wMC_K0,39
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_helper.py,sha256=WFT3pRsrIQRrwTG4r3hVHLQegdewcntqyVsfSgt6EVA,1806
+sqlalchemy_multiple_db-2.0.0.dist-info/LICENSE,sha256=2SItc_2sUJkhdAdu-gT0T2-82dVhVafHCS6YdXBCpvY,11466
+sqlalchemy_multiple_db-2.0.0.dist-info/METADATA,sha256=MtDDQ3ShlEsrCmP6tIdQeqDM6p3LZt8zU9727gtaW4Q,2919
+sqlalchemy_multiple_db-2.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+sqlalchemy_multiple_db-2.0.0.dist-info/top_level.txt,sha256=WRw40xVgUf4SHgjF3460zsL23-iftOUvMcRn-dkxe-w,29
+sqlalchemy_multiple_db-2.0.0.dist-info/RECORD,,
