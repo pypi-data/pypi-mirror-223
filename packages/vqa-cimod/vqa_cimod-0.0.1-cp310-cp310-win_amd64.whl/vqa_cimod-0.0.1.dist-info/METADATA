@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: vqa-cimod
+Version: 0.0.1
+Summary: Quantum Computer Library for Everyone
+Home-page: https://github.com/C2iteam/v-quantum-annealing.git
+Author: The V-Quantum-Annealing Developers
+Author-email: info@v-quantum-technology.com
+License: Apache 2
+Project-URL: Source, https://github.com/C2iteam/vqa-cimod.git
+Project-URL: Documentation, https://v-quantum-technology.github.io/Cimod-Documentation/
+Project-URL: PythonDocumentation, https://v-quantum-technology.github.io/cimod/
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: <3.12,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (<1.26.0,>=1.17.3)
+Requires-Dist: dimod (<0.13.0)
+Requires-Dist: scipy (<1.12.0,>=1.7.3)
+
+# vqa-cimod
+based in jij cimod
