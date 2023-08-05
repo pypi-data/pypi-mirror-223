@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: A_FMM
+Version: 0.1.0
+Summary: Python implementation of the Aperiodic-Fourier Modal Method for electromagnetic simulation
+Author-email: Marco Passoni <mpasson91@gmail.com>
+License: MIT
+License-File: LICENSE
+Keywords: fourier modal methods,photonics,scattering matrix,simulation
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.10
+Requires-Dist: matplotlib>=3.5.1
+Requires-Dist: numpy>=1.23.1
+Requires-Dist: pandas>=1.4.2
+Requires-Dist: scipy>=1.8.0
+Provides-Extra: dev
+Requires-Dist: hatch-vcs==0.3.0; extra == 'dev'
+Requires-Dist: toml>=0.10.2; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: nbsphinx>=0.8.12; extra == 'doc'
+Requires-Dist: notebook>=6.5.2; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme>=1.1.1; extra == 'doc'
+Requires-Dist: sphinx>=5.3.0; extra == 'doc'
+Description-Content-Type: text/markdown
+
+[![Documentation Status](https://readthedocs.org/projects/a-fmm/badge/?version=latest)](https://a-fmm.readthedocs.io/en/latest/?badge=latest)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![MIT](https://img.shields.io/github/license/gdsfactory/gdsfactory)](https://choosealicense.com/licenses/mit/)
+
+# A-FMM
+
+This is a Python implementation the Aperiodic-Fourier Modal Method, a fully vectorial method for solving Maxwell equations that combines a Fourier-based mode solver and a scattering matrix recursion algorithm to model full 3D structures. This approach is well suited to calculate modes, transmission, reflection, scattering and absorption of multi-layered structures. Moreover, support for Bloch modes of periodic structures allows for the simulation of photonic crystals or waveguide Bragg gratings.
+
+## Installation
+You can install A_FMM directly from pypi by running:
+
+    pip install A_FMM
+
+
+## Documentation
+Full documentation is available on [Read the Docs](https://a-fmm.readthedocs.io)
+
