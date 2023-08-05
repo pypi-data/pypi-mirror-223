@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_evaluation_type1" model="psychology.evaluation_type">
+    <field name="name">School Admissions</field>
+    <field name="code">X001</field>
+    <field
+            name="purpose_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_purpose_1"
+        />
+    <field name="use_initial_recommendation" eval="0" />
+    <field name="use_review" eval="1" />
+    <field name="use_editing" eval="1" />
+    <field
+            name="psychogram_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_psychogram_1'),ref('ssi_psychology_evaluation.psychology_psychogram_2')])]"
+        />
+    <field
+            name="report_type_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_evaluation_report_type_1')])]"
+        />
+    <field
+            name="deadline_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_evaluation_deadline_1')])]"
+        />
+    <field
+            name="psychologist_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_1'),ref('ssi_psychology.res_users_2')])]"
+        />
+    <field
+            name="reviewer_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_3'),ref('ssi_psychology.res_users_4')])]"
+        />
+    <field
+            name="editor_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_5'),ref('ssi_psychology.res_users_6')])]"
+        />
+</record>
+
+<record id="psychology_evaluation_type2" model="psychology.evaluation_type">
+    <field name="name">Recruitment - Officer</field>
+    <field name="code">X002</field>
+    <field
+            name="purpose_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_purpose_2"
+        />
+    <field name="use_initial_recommendation" eval="1" />
+    <field name="use_review" eval="1" />
+    <field name="use_editing" eval="1" />
+    <field
+            name="psychogram_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_psychogram_3'),ref('ssi_psychology_evaluation.psychology_psychogram_4')])]"
+        />
+    <field
+            name="report_type_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_evaluation_report_type_1'),ref('ssi_psychology_evaluation.psychology_evaluation_report_type_2')])]"
+        />
+    <field
+            name="deadline_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_evaluation_deadline_1'),ref('ssi_psychology_evaluation.psychology_evaluation_deadline_2')])]"
+        />
+    <field
+            name="initial_recommender_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_3'),ref('ssi_psychology.res_users_4')])]"
+        />
+    <field
+            name="psychologist_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_5'),ref('ssi_psychology.res_users_6')])]"
+        />
+    <field
+            name="reviewer_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_7'),ref('ssi_psychology.res_users_8')])]"
+        />
+    <field
+            name="editor_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_9'),ref('ssi_psychology.res_users_1')])]"
+        />
+</record>
+
+<record id="psychology_evaluation_type3" model="psychology.evaluation_type">
+    <field name="name">Recruitment - Manager</field>
+    <field name="code">X003</field>
+    <field
+            name="purpose_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_purpose_2"
+        />
+    <field name="use_initial_recommendation" eval="0" />
+    <field name="use_review" eval="1" />
+    <field name="use_editing" eval="1" />
+    <field
+            name="psychogram_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_psychogram_5')])]"
+        />
+    <field
+            name="report_type_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_evaluation_report_type_1')])]"
+        />
+    <field
+            name="deadline_ids"
+            eval="[(6, 0, [ref('ssi_psychology_evaluation.psychology_evaluation_deadline_1'),ref('ssi_psychology_evaluation.psychology_evaluation_deadline_2')])]"
+        />
+    <field
+            name="psychologist_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_7'),ref('ssi_psychology.res_users_8')])]"
+        />
+    <field
+            name="reviewer_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_9'),ref('ssi_psychology.res_users_1')])]"
+        />
+    <field
+            name="editor_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_2'),ref('ssi_psychology.res_users_3')])]"
+        />
+</record>
+
+
+</odoo>

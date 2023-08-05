@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_evaluation_deadline_1" model="psychology.evaluation_deadline">
+    <field name="name">Normal Service</field>
+    <field name="code">X001</field>
+    <field name="initial_recommendation_auto_deadline" eval="1" />
+    <field name="initial_recommendation_deadline_offset" eval="2" />
+    <field name="evaluation_auto_deadline" eval="1" />
+    <field name="evaluation_deadline_offset" eval="3" />
+    <field name="review_auto_deadline" eval="1" />
+    <field name="review_deadline_offset" eval="3" />
+    <field name="editing_auto_deadline" eval="1" />
+    <field name="editing_deadline_offset" eval="1" />
+    <field name="report_auto_deadline" eval="1" />
+    <field name="report_deadline_offset" eval="0" />
+</record>
+
+<record id="psychology_evaluation_deadline_2" model="psychology.evaluation_deadline">
+    <field name="name">Quick Service</field>
+    <field name="code">X002</field>
+    <field name="initial_recommendation_auto_deadline" eval="1" />
+    <field name="initial_recommendation_deadline_offset" eval="1" />
+    <field name="evaluation_auto_deadline" eval="1" />
+    <field name="evaluation_deadline_offset" eval="3" />
+    <field name="review_auto_deadline" eval="1" />
+    <field name="review_deadline_offset" eval="0" />
+    <field name="editing_auto_deadline" eval="1" />
+    <field name="editing_deadline_offset" eval="1" />
+    <field name="report_auto_deadline" eval="1" />
+    <field name="report_deadline_offset" eval="0" />
+</record>
+
+</odoo>

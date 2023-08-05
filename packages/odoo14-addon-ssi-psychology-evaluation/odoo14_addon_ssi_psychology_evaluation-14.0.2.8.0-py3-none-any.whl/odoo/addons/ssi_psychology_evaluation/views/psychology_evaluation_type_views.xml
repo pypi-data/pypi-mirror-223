@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_evaluation_type_view_search" model="ir.ui.view">
+    <field name="name">psychology.evaluation_type - search</field>
+    <field name="model">psychology.evaluation_type</field>
+    <field
+            name="inherit_id"
+            ref="ssi_master_data_mixin.mixin_master_data_view_search"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="psychology_evaluation_type_view_tree" model="ir.ui.view">
+    <field name="name">psychology.evaluation_type -tree</field>
+    <field name="model">psychology.evaluation_type</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_tree" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="psychology_evaluation_type_view_form" model="ir.ui.view">
+    <field name="name">psychology.evaluation_type - form</field>
+    <field name="model">psychology.evaluation_type</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_form" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//page[@name='note']" position="before">
+                <page name="general" string="General Configuration">
+                    <group name="general_1" colspan="4" col="2">
+                        <field name="purpose_id" />
+                        <field name="use_initial_recommendation" />
+                        <field name="use_review" />
+                        <field name="use_editing" />
+                        <field name="psychogram_ids" widget="many2many_tags" />
+                        <field name="report_type_ids" widget="many2many_tags" />
+                        <field name="deadline_ids" widget="many2many_tags" />
+                        <field name="recommendation_ids" widget="many2many_tags" />
+                    </group>
+                </page>
+                <page name="assignment" string="Assignment">
+                    <group name="assignment_1" colspan="4" col="2">
+                          <field
+                                name="initial_recommender_ids"
+                                widget="many2many_tags_avatar"
+                            />
+                          <field
+                                name="psychologist_ids"
+                                widget="many2many_tags_avatar"
+                            />
+                          <field name="reviewer_ids" widget="many2many_tags_avatar" />
+                          <field name="editor_ids" widget="many2many_tags_avatar" />
+
+                    </group>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_evaluation_type_action" model="ir.actions.act_window">
+    <field name="name">Evaluation Types</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">psychology.evaluation_type</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="psychology_evaluation_type_menu"
+        name="Types"
+        parent="menu_psychology_evaluation_configuration"
+        action="psychology_evaluation_type_action"
+        sequence="6"
+        groups="psychology_evaluation_type_group"
+    />
+
+</odoo>

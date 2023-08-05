@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_psychogram_1" model="psychology.psychogram">
+    <field name="name">School Admissions - Model A</field>
+    <field name="code">X001</field>
+</record>
+
+<record id="psychology_psychogram_2" model="psychology.psychogram">
+    <field name="name">School Admissions - Model B</field>
+    <field name="code">X002</field>
+</record>
+
+<record id="psychology_psychogram_3" model="psychology.psychogram">
+    <field name="name">Recruitment - Model A</field>
+    <field name="code">X003</field>
+</record>
+
+<record id="psychology_psychogram_4" model="psychology.psychogram">
+    <field name="name">Recruitment - Model B</field>
+    <field name="code">X004</field>
+</record>
+
+<record id="psychology_psychogram_5" model="psychology.psychogram">
+    <field name="name">Recruitment - Model C</field>
+    <field name="code">X005</field>
+</record>
+
+
+</odoo>

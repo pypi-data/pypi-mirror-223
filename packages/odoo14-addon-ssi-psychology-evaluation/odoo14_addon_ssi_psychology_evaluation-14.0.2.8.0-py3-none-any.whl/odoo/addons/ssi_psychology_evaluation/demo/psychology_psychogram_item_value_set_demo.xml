@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record
+        id="psychology_psychogram_item_value_set1"
+        model="psychology.psychogram_item_value_set"
+    >
+    <field name="name">Quality - 5 Scale</field>
+    <field name="code">X001</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set1_detail1"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set1"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_quality1"
+        />
+    <field name="sequence" eval="1" />
+    <field name="quantified_value" eval="5" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set1_detail2"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set1"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_quality2"
+        />
+    <field name="sequence" eval="2" />
+    <field name="quantified_value" eval="4" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set1_detail3"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set1"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_quality3"
+        />
+    <field name="sequence" eval="3" />
+    <field name="quantified_value" eval="3" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set1_detail4"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set1"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_quality4"
+        />
+    <field name="sequence" eval="4" />
+    <field name="quantified_value" eval="2" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set1_detail5"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set1"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_quality5"
+        />
+    <field name="sequence" eval="5" />
+    <field name="quantified_value" eval="1" />
+</record>
+
+<!-- Quality - 3 scale -->
+
+<record
+        id="psychology_psychogram_item_value_set2"
+        model="psychology.psychogram_item_value_set"
+    >
+    <field name="name">Quality - 3 Scale</field>
+    <field name="code">X002</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set2_detail1"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set2"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_quality2"
+        />
+    <field name="sequence" eval="1" />
+    <field name="quantified_value" eval="3" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set2_detail2"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set2"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_quality3"
+        />
+    <field name="sequence" eval="2" />
+    <field name="quantified_value" eval="2" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set2_detail3"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set2"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_quality4"
+        />
+    <field name="sequence" eval="3" />
+    <field name="quantified_value" eval="1" />
+</record>
+
+<!-- Agreement - 5 Scale -->
+
+<record
+        id="psychology_psychogram_item_value_set3"
+        model="psychology.psychogram_item_value_set"
+    >
+    <field name="name">Quality - 5 Scale</field>
+    <field name="code">X003</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set3_detail1"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set3"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_agreement1"
+        />
+    <field name="sequence" eval="1" />
+    <field name="quantified_value" eval="5" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set3_detail2"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set3"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_agreement2"
+        />
+    <field name="sequence" eval="2" />
+    <field name="quantified_value" eval="4" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set3_detail3"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set3"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_agreement3"
+        />
+    <field name="sequence" eval="3" />
+    <field name="quantified_value" eval="3" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set3_detail4"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set3"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_agreement4"
+        />
+    <field name="sequence" eval="4" />
+    <field name="quantified_value" eval="2" />
+</record>
+
+<record
+        id="psychology_psychogram_item_value_set3_detail5"
+        model="psychology.psychogram_item_value_set_detail"
+    >
+    <field
+            name="set_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_set3"
+        />
+    <field
+            name="value_id"
+            ref="ssi_psychology_evaluation.psychology_psychogram_item_value_agreement5"
+        />
+    <field name="sequence" eval="5" />
+    <field name="quantified_value" eval="1" />
+</record>
+
+</odoo>

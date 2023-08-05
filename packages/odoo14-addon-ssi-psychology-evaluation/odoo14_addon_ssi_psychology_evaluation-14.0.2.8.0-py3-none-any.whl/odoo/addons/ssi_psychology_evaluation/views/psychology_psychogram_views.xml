@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_psychogram_view_search" model="ir.ui.view">
+    <field name="name">psychology.psychogram - search</field>
+    <field name="model">psychology.psychogram</field>
+    <field
+            name="inherit_id"
+            ref="ssi_master_data_mixin.mixin_master_data_view_search"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="psychology_psychogram_view_tree" model="ir.ui.view">
+    <field name="name">psychology.psychogram -tree</field>
+    <field name="model">psychology.psychogram</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_tree" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="psychology_psychogram_view_form" model="ir.ui.view">
+    <field name="name">psychology.psychogram - form</field>
+    <field name="model">psychology.psychogram</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_form" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+          <xpath expr="//page[@name='note']" position="before">
+              <page name="item" string="Items">
+                  <field name="detail_ids">
+                      <tree editable="top">
+                          <field name="sequence" widget="handle" />
+                          <field name="category_id" />
+                          <field name="name" />
+                          <field name="set_id" />
+                      </tree>
+                  </field>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_psychogram_action" model="ir.actions.act_window">
+    <field name="name">Psychograms</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">psychology.psychogram</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="psychology_psychogram_menu"
+        name="Psychograms"
+        parent="menu_psychology_psychogram_root"
+        action="psychology_psychogram_action"
+        sequence="10"
+        groups="psychology_psychogram_group"
+    />
+
+</odoo>

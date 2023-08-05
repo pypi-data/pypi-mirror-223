@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record
+        id="psychology_psychogram_item_value_quality1"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Excelent</field>
+    <field name="code">X001</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_quality2"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Good</field>
+    <field name="code">X002</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_quality3"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Fair</field>
+    <field name="code">X003</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_quality4"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Poor</field>
+    <field name="code">X004</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_quality5"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Very Poor</field>
+    <field name="code">X005</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_agreement1"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Strongly Agree</field>
+    <field name="code">X006</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_agreement2"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Agree</field>
+    <field name="code">X007</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_agreement3"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Undecided</field>
+    <field name="code">X008</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_agreement4"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Disagree</field>
+    <field name="code">X009</field>
+</record>
+
+<record
+        id="psychology_psychogram_item_value_agreement5"
+        model="psychology.psychogram_item_value"
+    >
+    <field name="name">Strongly Disagree</field>
+    <field name="code">X010</field>
+</record>
+
+</odoo>

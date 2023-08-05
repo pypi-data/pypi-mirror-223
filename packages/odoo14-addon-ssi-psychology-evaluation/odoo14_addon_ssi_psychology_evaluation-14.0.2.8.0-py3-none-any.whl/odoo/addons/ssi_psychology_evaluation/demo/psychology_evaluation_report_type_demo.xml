@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record
+        id="psychology_evaluation_report_type_1"
+        model="psychology.evaluation_report_type"
+    >
+    <field name="name">Comprehensive Report</field>
+    <field name="code">X001</field>
+</record>
+
+<record
+        id="psychology_evaluation_report_type_2"
+        model="psychology.evaluation_report_type"
+    >
+    <field name="name">Simple Report</field>
+    <field name="code">X002</field>
+</record>
+
+
+</odoo>

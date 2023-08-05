@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<!-- Evaluation -->
+<record id="psychology_evaluation_internal_user" model="ir.rule">
+    <field name="name">Psychology Evaluation - Internal Users</field>
+    <field name="model_id" ref="model_psychology_evaluation" />
+    <field name="groups" eval="[(4, ref('base.group_user'))]" />
+    <field name="domain_force">[
+      '|',
+      '|',
+      '|',
+      '|',
+      ('user_id','=',user.id),
+      ('psychologist_id', '=', user.id),
+      ('initial_recommender_id', '=', user.id),
+      ('reviewer_id', '=', user.id),
+      ('editor_id', '=', user.id),
+    ]</field>
+    <field name="perm_unlink" eval="0" />
+    <field name="perm_write" eval="0" />
+    <field name="perm_read" eval="1" />
+    <field name="perm_create" eval="0" />
+</record>
+
+<record id="psychology_evaluation_responsible" model="ir.rule">
+    <field name="name">Psychology Evaluation - Responsible to own data</field>
+    <field name="model_id" ref="model_psychology_evaluation" />
+    <field name="groups" eval="[(4, ref('psychology_evaluation_responsible_group'))]" />
+    <field name="domain_force">[('user_id','=',user.id)]</field>
+    <field name="perm_unlink" eval="1" />
+    <field name="perm_write" eval="1" />
+    <field name="perm_read" eval="1" />
+    <field name="perm_create" eval="1" />
+</record>
+
+<record id="psychology_evaluation_company" model="ir.rule">
+    <field name="name">Psychology Evaluation - Responsible to company data</field>
+    <field name="model_id" ref="model_psychology_evaluation" />
+    <field name="groups" eval="[(4, ref('psychology_evaluation_company_group'))]" />
+    <field name="domain_force">[('company_id','in',user.company_ids.ids)]</field>
+    <field name="perm_unlink" eval="1" />
+    <field name="perm_write" eval="1" />
+    <field name="perm_read" eval="1" />
+    <field name="perm_create" eval="1" />
+</record>
+
+<!-- Evaluation Batch -->
+<record id="psychology_evaluation_batch_internal_user" model="ir.rule">
+    <field name="name">Psychology Evaluation Batch - Internal Users</field>
+    <field name="model_id" ref="model_psychology_evaluation_batch" />
+    <field name="groups" eval="[(4, ref('base.group_user'))]" />
+    <field name="domain_force">[
+      ('user_id','=',user.id),
+    ]</field>
+    <field name="perm_unlink" eval="0" />
+    <field name="perm_write" eval="0" />
+    <field name="perm_read" eval="1" />
+    <field name="perm_create" eval="0" />
+</record>
+
+<record id="psychology_evaluation_batch_responsible" model="ir.rule">
+    <field name="name">Psychology Evaluation Batch - Responsible to own data</field>
+    <field name="model_id" ref="model_psychology_evaluation_batch" />
+    <field
+            name="groups"
+            eval="[(4, ref('psychology_evaluation_batch_responsible_group'))]"
+        />
+    <field name="domain_force">[('user_id','=',user.id)]</field>
+    <field name="perm_unlink" eval="1" />
+    <field name="perm_write" eval="1" />
+    <field name="perm_read" eval="1" />
+    <field name="perm_create" eval="1" />
+</record>
+
+<record id="psychology_evaluation_batch_company" model="ir.rule">
+    <field name="name">Psychology Evaluation Batch - Responsible to company data</field>
+    <field name="model_id" ref="model_psychology_evaluation_batch" />
+    <field
+            name="groups"
+            eval="[(4, ref('psychology_evaluation_batch_company_group'))]"
+        />
+    <field name="domain_force">[('company_id','in',user.company_ids.ids)]</field>
+    <field name="perm_unlink" eval="1" />
+    <field name="perm_write" eval="1" />
+    <field name="perm_read" eval="1" />
+    <field name="perm_create" eval="1" />
+</record>
+
+
+</odoo>

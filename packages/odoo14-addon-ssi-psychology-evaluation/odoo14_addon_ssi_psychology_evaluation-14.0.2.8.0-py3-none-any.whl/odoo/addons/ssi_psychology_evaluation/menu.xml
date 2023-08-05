@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+  <menuitem
+        id="menu_psychology_evaluation_root"
+        name="Evaluation"
+        parent="ssi_psychology.menu_root_psychology"
+        sequence="70"
+    />
+
+  <menuitem
+        id="menu_psychology_evaluation_batch_root"
+        name="Evaluation Batch"
+        parent="ssi_psychology.menu_root_psychology"
+        sequence="80"
+    />
+
+<menuitem
+        id="menu_psychology_evaluation_configuration"
+        name="Evaluation"
+        parent="ssi_psychology.menu_psychology_configuration"
+        sequence="20"
+    />
+
+<menuitem
+        id="menu_psychology_psychogram_root"
+        name="Psychogram"
+        parent="menu_psychology_evaluation_configuration"
+        sequence="100"
+    />
+
+
+</odoo>

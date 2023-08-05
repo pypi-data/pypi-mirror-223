@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<!-- Workflow -->
+<record id="psychology_evaluation_module_category" model="ir.module.category">
+    <field name="name">Evaluation</field>
+    <field name="parent_id" ref="ssi_psychology.psychology_module_category" />
+</record>
+
+<record id="psychology_evaluation_batch_module_category" model="ir.module.category">
+    <field name="name">Evaluation Batch</field>
+    <field name="parent_id" ref="ssi_psychology.psychology_module_category" />
+</record>
+
+<!-- Data Ownership -->
+<record
+        id="psychology_evaluation_data_ownership_module_category"
+        model="ir.module.category"
+    >
+    <field name="name">Evaluation</field>
+    <field name="parent_id" ref="ssi_psychology.psychology_data_module_category" />
+</record>
+
+<record
+        id="psychology_evaluation_batch_data_ownership_module_category"
+        model="ir.module.category"
+    >
+    <field name="name">Evaluation Batch</field>
+    <field name="parent_id" ref="ssi_psychology.psychology_data_module_category" />
+</record>
+
+</odoo>

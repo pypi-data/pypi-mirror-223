@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_evaluation_view_tree" model="ir.ui.view">
+    <field name="name">psychology.evaluation tree</field>
+    <field name="model">psychology.evaluation</field>
+    <field name="arch" type="xml">
+        <tree
+                decoration-info="state == 'draft'"
+                decoration-success="state == 'done'"
+                decoration-muted="state == 'cancel'"
+            >
+            <field name="id" optional="hide" />
+            <field name="display_name" string="# Document" />
+            <field
+                    name="company_id"
+                    groups="base.group_multi_company"
+                    optional="hide"
+                />
+            <field name="client_id" />
+            <field name="institution_id" />
+            <field name="batch_id" />
+            <field name="purpose_id" optional="show" />
+            <field name="type_id" optional="show" />
+            <field name="psychogram_id" optional="show" />
+            <field name="report_type_id" />
+            <field name="deadline_id" />
+            <field name="date_start" />
+            <field
+                    name="initial_recommender_id"
+                    widget="many2one_avatar_user"
+                    optional="hide"
+                />
+            <field name="initial_recommendation_deadline" optional="hide" />
+            <field
+                    name="psychologist_id"
+                    widget="many2one_avatar_user"
+                    optional="show"
+                />
+            <field name="evaluation_deadline" optional="hide" />
+            <field name="reviewer_id" widget="many2one_avatar_user" optional="hide" />
+            <field name="review_deadline" optional="hide" />
+            <field name="editor_id" widget="many2one_avatar_user" optional="hide" />
+            <field name="editing_deadline" optional="hide" />
+            <field name="user_id" widget="many2one_avatar_user" optional="show" />
+            <field name="report_deadline" optional="show" />
+            <field name="date_report" />
+            <field
+                    name="state"
+                    widget="badge"
+                    decoration-info="state == 'draft'"
+                    decoration-success="state == 'done'"
+                    decoration-muted="state == 'cancel'"
+                />
+        </tree>
+    </field>
+</record>
+
+<record id="psychology_evaluation_on_progress_view_tree" model="ir.ui.view">
+    <field name="name">psychology.evaluation - on progress - tree</field>
+    <field name="model">psychology.evaluation</field>
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_view_tree"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//tree" position="attributes">
+                <attribute name="create">false</attribute>
+                <attribute name="edit">false</attribute>
+                <attribute name="delete">false</attribute>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_evaluation_quick_view_tree" model="ir.ui.view">
+    <field name="name">psychology.evaluation - initial recommendation - tree</field>
+    <field name="model">psychology.evaluation</field>
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_on_progress_view_tree"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='initial_recommender_id']" position="attributes">
+                <attribute name="optional">show</attribute>
+            </xpath>
+            <xpath
+                    expr="//field[@name='initial_recommendation_deadline']"
+                    position="attributes"
+                >
+                <attribute name="optional">show</attribute>
+            </xpath>
+            <xpath expr="//field[@name='psychologist_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='evaluation_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='reviewer_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='review_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='editor_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='editing_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_evaluation_evaluation_view_tree" model="ir.ui.view">
+    <field name="name">psychology.evaluation - evaluation - tree</field>
+    <field name="model">psychology.evaluation</field>
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_on_progress_view_tree"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='initial_recommender_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath
+                    expr="//field[@name='initial_recommendation_deadline']"
+                    position="attributes"
+                >
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='psychologist_id']" position="attributes">
+                <attribute name="optional">show</attribute>
+            </xpath>
+            <xpath expr="//field[@name='evaluation_deadline']" position="attributes">
+                <attribute name="optional">show</attribute>
+            </xpath>
+            <xpath expr="//field[@name='reviewer_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='review_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='editor_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='editing_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_evaluation_review_view_tree" model="ir.ui.view">
+    <field name="name">psychology.evaluation - review - tree</field>
+    <field name="model">psychology.evaluation</field>
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_on_progress_view_tree"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='initial_recommender_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath
+                    expr="//field[@name='initial_recommendation_deadline']"
+                    position="attributes"
+                >
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='psychologist_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='evaluation_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='reviewer_id']" position="attributes">
+                <attribute name="optional">show</attribute>
+            </xpath>
+            <xpath expr="//field[@name='review_deadline']" position="attributes">
+                <attribute name="optional">show</attribute>
+            </xpath>
+            <xpath expr="//field[@name='editor_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='editing_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_evaluation_edit_view_tree" model="ir.ui.view">
+    <field name="name">psychology.evaluation - review - edit</field>
+    <field name="model">psychology.evaluation</field>
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_on_progress_view_tree"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='initial_recommender_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath
+                    expr="//field[@name='initial_recommendation_deadline']"
+                    position="attributes"
+                >
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='psychologist_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='evaluation_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='reviewer_id']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='review_deadline']" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </xpath>
+            <xpath expr="//field[@name='editor_id']" position="attributes">
+                <attribute name="optional">show</attribute>
+            </xpath>
+            <xpath expr="//field[@name='editing_deadline']" position="attributes">
+                <attribute name="optional">show</attribute>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+
+
+<record id="psychology_evaluation_view_search" model="ir.ui.view">
+    <field name="name">psychology.evaluation search</field>
+    <field name="model">psychology.evaluation</field>
+    <field name="arch" type="xml">
+        <search>
+            <field name="id" />
+            <field name="name" />
+            <field name="company_id" />
+            <field name="client_id" />
+            <field name="institution_id" />
+            <field name="batch_id" />
+            <field name="purpose_id" />
+            <field name="type_id" />
+            <field name="report_type_id" />
+            <field name="deadline_id" />
+            <field name="psychologist_id" />
+            <field name="user_id" />
+            <field name="date_report" />
+            <field name="date_start" />
+            <field name="psychogram_id" />
+            <field name="state" />
+            <filter
+                    name="dom_my_assignment"
+                    string="My Assignments"
+                    domain="['|','|','|',('initial_recommender_id','=',uid),('psychologist_id','=',uid),('reviewer_id','=',uid),('editor_id','=',uid)]"
+                />
+            <filter
+                    name="grp_company"
+                    string="Company"
+                    context="{'group_by':'company_id'}"
+                />
+            <filter
+                    name="grp_client"
+                    string="Client"
+                    context="{'group_by':'client_id'}"
+                />
+            <filter
+                    name="grp_institution"
+                    string="Institution"
+                    context="{'group_by':'institution_id'}"
+                />
+            <filter name="grp_batch" string="Batch" context="{'group_by':'batch_id'}" />
+            <filter name="grp_type" string="Type" context="{'group_by':'type_id'}" />
+            <filter
+                    name="grp_purpose"
+                    string="Purpose"
+                    context="{'group_by':'purpose_id'}"
+                />
+            <filter
+                    name="grp_psychogram"
+                    string="Psychogram"
+                    context="{'group_by':'psychogram_id'}"
+                />
+            <filter
+                    name="grp_psychologist"
+                    string="Psychologist"
+                    context="{'group_by':'psychologist_id'}"
+                />
+            <filter
+                    name="grp_user"
+                    string="Responsible"
+                    context="{'group_by':'user_id'}"
+                />
+            <separator />
+            <filter
+                    name="grp_date_report"
+                    string="Date Report"
+                    context="{'group_by':'date_report'}"
+                />
+            <filter
+                    name="grp_date_start"
+                    string="Date Start"
+                    context="{'group_by':'date_start'}"
+                />
+            <group name="state">
+                <filter
+                        name="dom_draft"
+                        string="Draft"
+                        domain="[('state','=','draft')]"
+                    />
+                <filter
+                        name="dom_quick"
+                        string="Initial Recommendation"
+                        domain="[('state','=','quick')]"
+                    />
+                <filter
+                        name="dom_evaluation"
+                        string="Evaluation"
+                        domain="[('state','=','evaluation')]"
+                    />
+                <filter
+                        name="dom_review"
+                        string="Review"
+                        domain="[('state','=','review')]"
+                    />
+                <filter
+                        name="dom_editing"
+                        string="Editing"
+                        domain="[('state','=','editing')]"
+                    />
+                <filter
+                        name="dom_confirm"
+                        string="Waiting for Approval"
+                        domain="[('state','=','confirm')]"
+                    />
+                <filter name="dom_done" string="Done" domain="[('state','=','done')]" />
+                <filter
+                        name="dom_cancel"
+                        string="Cancel"
+                        domain="[('state','=','cancel')]"
+                    />
+                <filter
+                        name="dom_reject"
+                        string="Reject"
+                        domain="[('state','=','reject')]"
+                    />
+            </group>
+
+        </search>
+    </field>
+</record>
+
+<record id="psychology_evaluation_view_form" model="ir.ui.view">
+    <field name="name">psychology.evaluation form</field>
+    <field name="model">psychology.evaluation</field>
+    <field name="arch" type="xml">
+        <form>
+            <header>
+                <button
+                        name="action_quick"
+                        string="Start"
+                        type="object"
+                        class="oe_highlight"
+                        confirm="Start data. Are you sure?"
+                        attrs="{'invisible':[('quick_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_evaluate"
+                        string="Start Evaluation"
+                        type="object"
+                        class="oe_highlight"
+                        confirm="Start evaluation. Are you sure?"
+                        attrs="{'invisible':[('evaluate_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_review"
+                        string="Start Review"
+                        type="object"
+                        class="oe_highlight"
+                        confirm="Start review. Are you sure?"
+                        attrs="{'invisible':[('review_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_editing"
+                        string="Start Editing"
+                        type="object"
+                        class="oe_highlight"
+                        confirm="Start editing. Are you sure?"
+                        attrs="{'invisible':[('editing_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_confirm"
+                        string="Confirm"
+                        type="object"
+                        class="oe_highlight"
+                        confirm="Confirm data. Are you sure?"
+                        attrs="{'invisible':[('confirm_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_request_approval"
+                        string="Request Approval"
+                        type="object"
+                        confirm="Request approval. Are you sure?"
+                        class="oe_highlight"
+                        attrs="{'invisible':[('restart_approval_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_approve_approval"
+                        string="Approve"
+                        type="object"
+                        class="oe_highlight"
+                        confirm="Approve data. Are you sure?"
+                        attrs="{'invisible':[('approve_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_reject_approval"
+                        string="Reject"
+                        type="object"
+                        confirm="Reject data. Are you sure?"
+                        attrs="{'invisible':[('reject_ok','!=',True)]}"
+                    />
+                <button
+                        name="%(ssi_transaction_cancel_mixin.base_select_cancel_reason_action)d"
+                        string="Cancel"
+                        type="action"
+                        attrs="{'invisible':[('cancel_ok','!=',True)]}"
+                    />
+                <button
+                        name="action_restart"
+                        string="Restart"
+                        type="object"
+                        confirm="Restart data. Are you sure?"
+                        attrs="{'invisible':[('restart_ok','!=',True)]}"
+                    />
+                <field
+                        name="state"
+                        widget="statusbar"
+                        statusbar_visible="draft,confirm,open,done"
+                    />
+            </header>
+            <field name="need_validation" invisible="1" />
+            <field name="approved" invisible="1" />
+            <field name="rejected" invisible="1" />
+            <sheet>
+                <div
+                        class="oe_right oe_button_box"
+                        style="width: 300px;"
+                        name="buttons"
+                    >
+                </div>
+                <div class="oe_left" style="width: 500px;">
+                    <div class="oe_title" style="width: 500px;">
+                        <label for="name" />
+                        <h1>
+                            <field
+                                    name="name"
+                                    class="oe_edit_only"
+                                    attrs="{'readonly':[('manual_number_ok','=',False)]}"
+                                />
+                            <field name="display_name" class="oe_read_only" />
+                        </h1>
+                        <h2 attrs="{'invisible': [('state', '!=', 'cancel')]}">
+                            <label
+                                    for="cancel_reason_id"
+                                    string="Cancellation reason:"
+                                />
+                            <field name="cancel_reason_id" class="oe_inline" />
+                        </h2>
+                    </div>
+                </div>
+                <group name="header" colspan="4" col="2">
+                    <group name="header_left" colspan="1" col="2">
+                        <group name="client" string="Client" colspan="2" col="2">
+                            <field name="company_id" />
+                            <field
+                                    name="client_id"
+                                    domain="[('is_company','=',False),('parent_id','=',False)]"
+                                />
+                            <field
+                                    name="institution_id"
+                                    domain="[('is_company','=',True),('parent_id','=',False)]"
+                                />
+                            <field
+                                    name="batch_id"
+                                    domain="[('client_id','=',institution_id),('state','=','open')]"
+                                />
+                        </group>
+                        <group
+                                name="evaluation"
+                                string="Evaluation"
+                                colspan="2"
+                                col="2"
+                            >
+                            <field name="purpose_id" />
+                            <field
+                                    name="type_id"
+                                    domain="[('purpose_id','=',purpose_id)]"
+                                />
+                            <field
+                                    name="psychogram_ids"
+                                    widget="many2many_tags"
+                                    invisible="1"
+                                />
+                            <field
+                                    name="psychogram_id"
+                                    domain="[('id','in',psychogram_ids)]"
+                                />
+                            <field
+                                    name="report_type_ids"
+                                    widget="many2many_tags"
+                                    invisible="1"
+                                />
+                            <field
+                                    name="report_type_id"
+                                    domain="[('id','in',report_type_ids)]"
+                                />
+                            <field
+                                    name="deadline_ids"
+                                    widget="many2many_tags"
+                                    invisible="1"
+                                />
+                            <field
+                                    name="deadline_id"
+                                    domain="[('id','in',deadline_ids)]"
+                                />
+                            <field name="date_start" />
+                            <field name="date_report" />
+                        </group>
+                    </group>
+                    <group name="header_right" colspan="1" col="2">
+                        <group
+                                name="assignment"
+                                string="Assignment &amp; Deadline"
+                                colspan="2"
+                                col="2"
+                            >
+                            <field name="use_initial_recommendation" invisible="1" />
+                            <field name="use_review" invisible="1" />
+                            <field name="use_editing" invisible="1" />
+                            <field
+                                    name="psychologist_ids"
+                                    widget="many2many_tags"
+                                    invisible="1"
+                                />
+                            <field
+                                    name="initial_recommender_ids"
+                                    widget="many2many_tags"
+                                    invisible="1"
+                                />
+                            <field
+                                    name="reviewer_ids"
+                                    widget="many2many_tags"
+                                    invisible="1"
+                                />
+                            <field
+                                    name="editor_ids"
+                                    widget="many2many_tags"
+                                    invisible="1"
+                                />
+                            <label
+                                    for="initial_recommender_id"
+                                    string="Initial Recommendation"
+                                    attrs="{'invisible':[('use_initial_recommendation','=',False)]}"
+                                />
+                            <div
+                                    class="o_row"
+                                    attrs="{'invisible':[('use_initial_recommendation','=',False)]}"
+                                >
+                                <field
+                                        name="initial_recommender_id"
+                                        domain="[('id','in',initial_recommender_ids)]"
+                                        attrs="{'required':[('use_initial_recommendation','=',True)]}"
+                                    />
+                                <field
+                                        name="initial_recommendation_deadline"
+                                        attrs="{'required':[('use_initial_recommendation','=',True)]}"
+                                    />
+                            </div>
+                            <label for="psychologist_id" string="Evaluation" />
+                            <div class="o_row">
+                                <field
+                                        name="psychologist_id"
+                                        domain="[('id','in',psychologist_ids)]"
+                                    />
+                                <field name="evaluation_deadline" />
+                            </div>
+                            <label
+                                    for="reviewer_id"
+                                    string="Reviewer"
+                                    attrs="{'invisible':[('use_review','=',False)]}"
+                                />
+                            <div
+                                    class="o_row"
+                                    attrs="{'invisible':[('use_review','=',False)]}"
+                                >
+                                <field
+                                        name="reviewer_id"
+                                        domain="[('id','in',reviewer_ids)]"
+                                        attrs="{'required':[('use_review','=',True)]}"
+                                    />
+                                <field
+                                        name="review_deadline"
+                                        attrs="{'required':[('use_review','=',True)]}"
+                                    />
+                            </div>
+                            <label
+                                    for="editor_id"
+                                    string="Editing"
+                                    attrs="{'invisible':[('use_editing','=',False)]}"
+                                />
+                            <div
+                                    class="o_row"
+                                    attrs="{'invisible':[('use_editing','=',False)]}"
+                                >
+                                <field
+                                        name="editor_id"
+                                        domain="[('id','in',editor_ids)]"
+                                        attrs="{'required':[('use_editing','=',True)]}"
+                                    />
+                                <field
+                                        name="editing_deadline"
+                                        attrs="{'required':[('use_editing','=',True)]}"
+                                    />
+                            </div>
+                            <label for="user_id" string="Report" />
+                            <div class="o_row">
+                                <field name="user_id" />
+                                <field name="report_deadline" />
+                            </div>
+                        </group>
+                    </group>
+                </group>
+                <notebook colspan="4">
+                    <page
+                            name="initial"
+                            string="Initial"
+                            attrs="{'invisible':[('use_initial_recommendation','=',False)]}"
+                        >
+                        <group name="result" string="Result">
+                            <field name="initial_result_id" />
+                        </group>
+                    </page>
+                    <page name="psychogram" string="Psychogram">
+                        <group name="psychogram_1" colspan="4" col="2">
+                            <button
+                                    name="action_reload_detail"
+                                    type="object"
+                                    string="Reload"
+                                    help="Reload psychogram detail"
+                                    class="oe_highlight"
+                                    icon="fa-refresh"
+                                />
+                        </group>
+                        <field name="detail_ids">
+                            <tree editable="1" create="false" delete="false">
+                                <field name="item_id" />
+                                <field name="category_id" />
+                                <field
+                                        name="value_ids"
+                                        widget="many2many_tags"
+                                        invisible="1"
+                                    />
+                                <field
+                                        name="value_id"
+                                        domain="[('id','in',value_ids)]"
+                                    />
+                                <field
+                                        name="quantified_value"
+                                        readonly="1"
+                                        force_save="1"
+                                    />
+                            </tree>
+                        </field>
+                    </page>
+                    <page name="evaluation" string="Evaluation">
+                        <group name="description" string="Description">
+                            <field name="description" nolabel="1" />
+                        </group>
+                        <group name="conclusion" string="Conclusion">
+                            <field name="conclusion" nolabel="1" />
+                        </group>
+                        <group name="advise" string="Advice">
+                            <field name="advise" nolabel="1" />
+                        </group>
+                        <group name="result" string="Result">
+                            <label for="result_id" />
+                            <div class="o_row">
+                                <field name="result_id" force_save="1" />
+                                <field
+                                        name="same_with_intial_result"
+                                        attrs="{'invisible':[('use_initial_recommendation','=',False)]}"
+                                        widget="boolean_toggle"
+                                    />
+                            </div>
+                        </group>
+                    </page>
+                    <page
+                            name="review"
+                            string="Review"
+                            attrs="{'invisible':[('use_review','=',False)]}"
+                        >
+                        <group name="result" string="Result">
+                            <label for="final_result_id" />
+                            <div class="o_row">
+                                <field name="final_result_id" force_save="1" />
+                                <field
+                                        name="same_with_result"
+                                        widget="boolean_toggle"
+                                    />
+                            </div>
+                        </group>
+                    </page>
+                    <page string="Approvals" name="tier_validation">
+                        <group>
+                            <field name="approval_template_id" />
+                            <field
+                                    name="active_approver_partner_ids"
+                                    widget="many2many_tags"
+                                />
+                        </group>
+                        <field
+                                name="approval_ids"
+                                attrs="{'invisible':[('approval_ids', '=', [])]}"
+                                nolabel="1"
+                            />
+                    </page>
+                    <page name="policy" string="Policies" groups="base.group_system">
+                        <group name="policy_1" colspan="4" col="2">
+                            <field name="policy_template_id" />
+                            <button
+                                    name="action_reload_policy_template"
+                                    type="object"
+                                    string="Reload Template Policy"
+                                    class="oe_highlight"
+                                    icon="fa-refresh"
+                                />
+                            <field name="quick_ok" />
+                            <field name="evaluate_ok" />
+                            <field name="review_ok" />
+                            <field name="editing_ok" />
+                            <field name="confirm_ok" />
+                            <field name="approve_ok" />
+                            <field name="reject_ok" />
+                            <field name="cancel_ok" />
+                            <field name="restart_ok" />
+                            <field name="restart_approval_ok" />
+                            <field name="manual_number_ok" />
+                        </group>
+                    </page>
+                </notebook>
+            </sheet>
+            <div class="oe_chatter">
+                <field
+                        name="message_follower_ids"
+                        widget="mail_followers"
+                        groups="base.group_user"
+                    />
+                <field name="message_ids" widget="mail_thread" />
+            </div>
+        </form>
+    </field>
+</record>
+
+<record id="psychology_evaluation_on_progress_view_form" model="ir.ui.view">
+    <field name="name">psychology.evaluation - on progress - form</field>
+    <field name="model">psychology.evaluation</field>
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_view_form"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//form" position="attributes">
+                <attribute name="create">false</attribute>
+                <attribute name="edit">false</attribute>
+                <attribute name="delete">false</attribute>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_evaluation_action" model="ir.actions.act_window">
+    <field name="name">Psychology Evaluations</field>
+    <field name="res_model">psychology.evaluation</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form</field>
+    <field
+            name="context"
+        >{'search_default_dom_draft': 1, 'search_default_dom_quick': 1, 'search_default_dom_evaluation': 1, 'search_default_dom_review': 1, 'search_default_dom_editing': 1, 'search_default_dom_confirm': 1}</field>
+</record>
+
+<record id="psychology_evaluation_action_view_tree" model="ir.actions.act_window.view">
+    <field name="sequence" eval="1" />
+    <field name="view_mode">tree</field>
+    <field name="act_window_id" ref="psychology_evaluation_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_view_tree"
+        />
+</record>
+
+<record id="psychology_evaluation_action_view_form" model="ir.actions.act_window.view">
+    <field name="sequence" eval="2" />
+    <field name="view_mode">form</field>
+    <field name="act_window_id" ref="psychology_evaluation_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_view_form"
+        />
+</record>
+
+<menuitem
+        id="psychology_evaluation_menu"
+        name="All Evaluations"
+        parent="menu_psychology_evaluation_root"
+        action="psychology_evaluation_action"
+        sequence="1"
+        groups="psychology_evaluation_viewer_group"
+    />
+
+<record id="psychology_evaluation_initial_action" model="ir.actions.act_window">
+    <field name="name">Active Initial Recommendations</field>
+    <field name="res_model">psychology.evaluation</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form</field>
+    <field name="domain">[("state", "=", "quick")]</field>
+</record>
+
+<record
+        id="psychology_evaluation_initial_action_view_tree"
+        model="ir.actions.act_window.view"
+    >
+    <field name="sequence" eval="1" />
+    <field name="view_mode">tree</field>
+    <field name="act_window_id" ref="psychology_evaluation_initial_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_quick_view_tree"
+        />
+</record>
+
+<record
+        id="psychology_evaluation_initial_action_view_form"
+        model="ir.actions.act_window.view"
+    >
+    <field name="sequence" eval="2" />
+    <field name="view_mode">form</field>
+    <field name="act_window_id" ref="psychology_evaluation_initial_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_on_progress_view_form"
+        />
+</record>
+
+
+<menuitem
+        id="psychology_evaluation_initial_menu"
+        name="Active Initial Recommendations"
+        parent="menu_psychology_evaluation_root"
+        action="psychology_evaluation_initial_action"
+        sequence="2"
+        groups="psychology_evaluation_viewer_group"
+    />
+
+<record id="psychology_evaluation_evaluation_action" model="ir.actions.act_window">
+    <field name="name">Active Evaluations</field>
+    <field name="res_model">psychology.evaluation</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form</field>
+    <field name="domain">[("state", "=", "evaluation")]</field>
+</record>
+
+<record
+        id="psychology_evaluation_evaluation_action_view_tree"
+        model="ir.actions.act_window.view"
+    >
+    <field name="sequence" eval="1" />
+    <field name="view_mode">tree</field>
+    <field name="act_window_id" ref="psychology_evaluation_evaluation_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_evaluation_view_tree"
+        />
+</record>
+
+<record
+        id="psychology_evaluation_evaluation_action_view_form"
+        model="ir.actions.act_window.view"
+    >
+    <field name="sequence" eval="2" />
+    <field name="view_mode">form</field>
+    <field name="act_window_id" ref="psychology_evaluation_evaluation_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_on_progress_view_form"
+        />
+</record>
+
+<menuitem
+        id="psychology_evaluation_evaluation_menu"
+        name="Active Evaluations"
+        parent="menu_psychology_evaluation_root"
+        action="psychology_evaluation_evaluation_action"
+        sequence="3"
+        groups="psychology_evaluation_viewer_group"
+    />
+
+<record id="psychology_evaluation_review_action" model="ir.actions.act_window">
+    <field name="name">Active Reviews</field>
+    <field name="res_model">psychology.evaluation</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form</field>
+    <field name="domain">[("state", "=", "review")]</field>
+</record>
+
+<record
+        id="psychology_evaluation_review_action_view_tree"
+        model="ir.actions.act_window.view"
+    >
+    <field name="sequence" eval="1" />
+    <field name="view_mode">tree</field>
+    <field name="act_window_id" ref="psychology_evaluation_review_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_review_view_tree"
+        />
+</record>
+
+<record
+        id="psychology_evaluation_review_action_view_form"
+        model="ir.actions.act_window.view"
+    >
+    <field name="sequence" eval="2" />
+    <field name="view_mode">form</field>
+    <field name="act_window_id" ref="psychology_evaluation_review_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_on_progress_view_form"
+        />
+</record>
+
+<menuitem
+        id="psychology_evaluation_review_menu"
+        name="Active Reviews"
+        parent="menu_psychology_evaluation_root"
+        action="psychology_evaluation_review_action"
+        sequence="4"
+        groups="psychology_evaluation_viewer_group"
+    />
+
+<record id="psychology_evaluation_edit_action" model="ir.actions.act_window">
+    <field name="name">Active Editings</field>
+    <field name="res_model">psychology.evaluation</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form</field>
+    <field name="domain">[("state", "=", "editing")]</field>
+</record>
+
+<record
+        id="psychology_evaluation_edit_action_view_tree"
+        model="ir.actions.act_window.view"
+    >
+    <field name="sequence" eval="1" />
+    <field name="view_mode">tree</field>
+    <field name="act_window_id" ref="psychology_evaluation_edit_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_edit_view_tree"
+        />
+</record>
+
+<record
+        id="psychology_evaluation_edit_action_view_form"
+        model="ir.actions.act_window.view"
+    >
+    <field name="sequence" eval="2" />
+    <field name="view_mode">form</field>
+    <field name="act_window_id" ref="psychology_evaluation_edit_action" />
+    <field
+            name="view_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_on_progress_view_form"
+        />
+</record>
+
+<menuitem
+        id="psychology_evaluation_edit_menu"
+        name="Active Edits"
+        parent="menu_psychology_evaluation_root"
+        action="psychology_evaluation_edit_action"
+        sequence="70"
+        groups="psychology_evaluation_viewer_group"
+    />
+
+</odoo>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_evaluation_deadline_view_search" model="ir.ui.view">
+    <field name="name">psychology.evaluation_deadline - search</field>
+    <field name="model">psychology.evaluation_deadline</field>
+    <field
+            name="inherit_id"
+            ref="ssi_master_data_mixin.mixin_master_data_view_search"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="psychology_evaluation_deadline_view_tree" model="ir.ui.view">
+    <field name="name">psychology.evaluation_deadline -tree</field>
+    <field name="model">psychology.evaluation_deadline</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_tree" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="psychology_evaluation_deadline_view_form" model="ir.ui.view">
+    <field name="name">psychology.evaluation_deadline - form</field>
+    <field name="model">psychology.evaluation_deadline</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_form" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//page[@name='note']" position="before">
+                <page name="deadline_computation" string="Deadline Computation">
+                    <group name="deadline_computation_1" colspan="4" col="2">
+                        <label
+                                for="initial_recommendation_auto_deadline"
+                                string="Initial Recommendation"
+                            />
+                        <div class="o_row">
+                            <field name="initial_recommendation_auto_deadline" />
+                            <field
+                                    name="initial_recommendation_deadline_offset"
+                                    attrs="{'required':[('initial_recommendation_auto_deadline','=',True)]}"
+                                />
+                            day(s) from date start
+                        </div>
+                        <label for="evaluation_auto_deadline" string="Evaluation" />
+                        <div class="o_row">
+                            <field name="evaluation_auto_deadline" />
+                            <field
+                                    name="evaluation_deadline_offset"
+                                    attrs="{'required':[('evaluation_auto_deadline','=',True)]}"
+                                />
+                            day(s) from date start or initial recommendation
+                        </div>
+                        <label for="review_auto_deadline" string="Review" />
+                        <div class="o_row">
+                            <field name="review_auto_deadline" />
+                            <field
+                                    name="review_deadline_offset"
+                                    attrs="{'required':[('review_auto_deadline','=',True)]}"
+                                />
+                            day(s) from evaluation
+                        </div>
+                        <label for="editing_auto_deadline" string="Editing" />
+                        <div class="o_row">
+                            <field name="editing_auto_deadline" />
+                            <field
+                                    name="editing_deadline_offset"
+                                    attrs="{'required':[('editing_auto_deadline','=',True)]}"
+                                />
+                            day(s) from evaluation or review
+
+                        </div>
+                        <label for="report_auto_deadline" string="Report" />
+                        <div class="o_row">
+                            <field name="report_auto_deadline" />
+                            <field
+                                    name="report_deadline_offset"
+                                    attrs="{'required':[('report_auto_deadline','=',True)]}"
+                                />
+                            day(s) from evaluation or review or edit
+                        </div>
+
+                    </group>
+
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_evaluation_deadline_action" model="ir.actions.act_window">
+    <field name="name">Evaluation Deadlines</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">psychology.evaluation_deadline</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="psychology_evaluation_deadline_menu"
+        name="Deadlines"
+        parent="menu_psychology_evaluation_configuration"
+        action="psychology_evaluation_deadline_action"
+        sequence="5"
+        groups="psychology_evaluation_deadline_group"
+    />
+
+</odoo>
