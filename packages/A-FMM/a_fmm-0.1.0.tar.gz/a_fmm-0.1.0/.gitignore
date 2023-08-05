@@ -1,0 +1,12 @@
+*.pyc
+*.dat
+*.out
+*.gnu
+*.log
+*.aux
+dist/*
+.idea
+examples
+docs-build
+Docs/generated
+Docs/jupyter/.ipynb_checkpoints
