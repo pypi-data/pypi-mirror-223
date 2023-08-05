@@ -1,0 +1,2 @@
+[sourmash.cli_script]
+sketchall = sourmash_plugin_sketchall:Command_SketchAll

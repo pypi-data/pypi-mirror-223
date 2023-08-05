@@ -1,0 +1,13 @@
+[project]
+name = "sourmash_plugin_sketchall"
+description = "sourmash plugin to sketch many sequence files"
+requires-python = ">=3.8"
+version = "0.2"
+
+dependencies = ["sourmash>=4.8.0,<5"]
+
+[metadata]
+license = { text = "BSD 3-Clause License" }
+
+[project.entry-points."sourmash.cli_script"]
+sketchall = "sourmash_plugin_sketchall:Command_SketchAll"
