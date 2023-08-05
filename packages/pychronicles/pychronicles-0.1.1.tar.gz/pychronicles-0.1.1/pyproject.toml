@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "pychronicles"
+version = "0.1.1"
+description = "A package for chronicle recognition"
+authors = ["Thomas Guyet <thomas.guyet@inria.fr>" ]
+readme = "README.md"
+license = "LICENCE"
+classifiers = [
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent", 
+]
+keywords = ["data analysis", "pattern", "timed sequence", "temporal data"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.1"
+numpy = "^1.23.4"
+scipy = "^1.9.3"
+"lazr.restfulclient" = "^0.14.5"
+"lazr.uri" = "^1.0.6"
+typing-extensions = "^4.4.0"
+metric-temporal-logic = "^0.4.0"
+lark = "^1.1.4"
+multiset = "^3.0.1"
+
+[tool.poetry.urls]
+homepage = "https://gitlab.inria.fr/tguyet/pychronicles"
+documentation = "https://tguyet.gitlabpages.inria.fr/pychronicles/"
+repository = "https://gitlab.inria.fr/tguyet/pychronicles"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
