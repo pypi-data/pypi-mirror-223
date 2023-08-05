@@ -1,0 +1,7 @@
+tasks.py,sha256=ojoGr8PeSo1-XN4mumhqQOgAs-6bNk0NXBvh8vj06kA,3141
+pelican/plugins/minify/__init__.py,sha256=XgojNYDRLc0hojbYm45Bbff4XprgKErairJ4wAvLIIk,36
+pelican/plugins/minify/minify.py,sha256=8XHs59ZtA7VvTsWOfl-AZNE2zNcPPeSWqBafa7Oto3g,3371
+pelican_minify-2.0.0.dist-info/METADATA,sha256=plShKAjogZQjE9uU1x-ZNnP4C9CbGLVDqgGkbqiY7Qk,4070
+pelican_minify-2.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pelican_minify-2.0.0.dist-info/licenses/LICENSE,sha256=RJzUgPtw5QEIA2DMOuL7ufPJRw-8GmqensiG-GMGigU,1085
+pelican_minify-2.0.0.dist-info/RECORD,,
