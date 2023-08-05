@@ -1,0 +1,10 @@
+README.md
+setup.py
+sqls/__init__.py
+sqls/sqls.py
+sqlup.egg-info/PKG-INFO
+sqlup.egg-info/SOURCES.txt
+sqlup.egg-info/dependency_links.txt
+sqlup.egg-info/not-zip-safe
+sqlup.egg-info/requires.txt
+sqlup.egg-info/top_level.txt
