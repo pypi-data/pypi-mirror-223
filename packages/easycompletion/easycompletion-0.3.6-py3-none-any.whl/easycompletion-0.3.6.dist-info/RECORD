@@ -1,0 +1,10 @@
+easycompletion/__init__.py,sha256=jlTNjnp8ln8cmeG4Gx1sHtOJGCh9kDbxRVbObhySjes,699
+easycompletion/constants.py,sha256=zX1kpOysch_bZj0-i8Aq4FHBsHXGXDGGKcXmp4Od_50,593
+easycompletion/logger.py,sha256=4PQze6Sfdxc0RPveDXuAU4W2ACN34kw9sReQZRnrUv8,1253
+easycompletion/model.py,sha256=SmIlE44OsaqC1nzgH3jODUxW4UP52W3Lic26NJ1ivfs,20064
+easycompletion/prompt.py,sha256=OM7wsXnYaO83A4T1Bce1bsCmu9W8mSu1DgXEwIxrGh4,7434
+easycompletion-0.3.6.dist-info/LICENSE,sha256=27jsz0mFpX12HOCriY24qaoKox2959iM6pQOTWAe_Rc,1126
+easycompletion-0.3.6.dist-info/METADATA,sha256=Vkz6hm0KBOJf50wKE0u_Zp4-AUf7Eqh3xQW76DOMH9E,8417
+easycompletion-0.3.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+easycompletion-0.3.6.dist-info/top_level.txt,sha256=36SpGsQGUSBT0cNn_rTGemCQSZWy3U2E2HpQ0Ya4PbE,15
+easycompletion-0.3.6.dist-info/RECORD,,
