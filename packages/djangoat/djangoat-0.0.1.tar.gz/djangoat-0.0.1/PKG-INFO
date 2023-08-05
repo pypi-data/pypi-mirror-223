@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: djangoat
+Version: 0.0.1
+Summary: A library of helpful tools for javascript and Django
+Home-page: https://github.com/songofchrist/djangoat
+Author: Bryant Glisson
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A library of helpful tools for javascript and Django.
+

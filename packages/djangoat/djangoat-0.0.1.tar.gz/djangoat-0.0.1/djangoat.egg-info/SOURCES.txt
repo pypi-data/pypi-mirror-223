@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+djangoat/__init__.py
+djangoat.egg-info/PKG-INFO
+djangoat.egg-info/SOURCES.txt
+djangoat.egg-info/dependency_links.txt
+djangoat.egg-info/top_level.txt
