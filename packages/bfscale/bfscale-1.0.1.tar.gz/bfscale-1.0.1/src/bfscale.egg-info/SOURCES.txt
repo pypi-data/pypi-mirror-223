@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/bfscale/__init__.py
+src/bfscale.egg-info/PKG-INFO
+src/bfscale.egg-info/SOURCES.txt
+src/bfscale.egg-info/dependency_links.txt
+src/bfscale.egg-info/requires.txt
+src/bfscale.egg-info/top_level.txt
+tests/test_resize.py

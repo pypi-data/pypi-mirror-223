@@ -1,0 +1,4 @@
+numba>=0.50
+numpy>=1.0
+imageio>=2.10
+pysimplegui>=4.0
