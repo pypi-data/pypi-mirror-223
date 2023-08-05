@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+pip_licenses_lib.egg-info/PKG-INFO
+pip_licenses_lib.egg-info/SOURCES.txt
+pip_licenses_lib.egg-info/dependency_links.txt
+pip_licenses_lib.egg-info/requires.txt
+pip_licenses_lib.egg-info/top_level.txt
+piplicenses_lib/__init__.py
+tests/__init__.py
+tests/test_piplicenses_lib.py
