@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: gautodoc
+Version: 0.0.1
+Summary: stupid simple autodoc
+Project-URL: Homepage, https://github.com/garrisonhh/gautodoc
+Project-URL: Bug Tracker, https://github.com/garrisonhh/gautodoc/issues
+Author-email: Garrison Hinson-Hasty <garrisonhh+dev@pm.me>
+License-File: LICENSE.md
+Classifier: License :: Free To Use But Restricted
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Documentation
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# gautodoc
+
+stupid simple autodoc.
+
+## how do I use your stupid tool?
+
+gautodoc operates by looking at the 'roots' of your python project and
+recursively searching for imported modules that are part of your project
+directory.
+
+if you just want to document a script with some imports, you can just:
+
+```bash
+gautodoc init your-script.py
+```
+
+this will create .gautodoc in your project folder. `gautodoc init` can also be
+used to reconfigure your project if you need it to.
+
+once `.gautodoc` exists, you can run:
+
+```bash
+gautodoc build
+```
+
+and a `doc/` folder containing a simple static web app will appear!
