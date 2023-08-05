@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="res_users_1" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_1" />
+    <field name="login">sigmund-freud</field>
+    <field name="password">*Hde)G([qW2G@]=?</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/sigmund-freud.jpeg"
+        />
+</record>
+
+<record id="res_users_2" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_2" />
+    <field name="login">ivan-pavlov</field>
+    <field name="password">$h^nP6a'34L,B/S"</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/ivan-pavlov.jpeg"
+        />
+</record>
+
+<record id="res_users_3" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_3" />
+    <field name="login">william-james</field>
+    <field name="password">\MHZc?.k]n3YBt,/</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/william-james.jpeg"
+        />
+</record>
+
+<record id="res_users_4" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_4" />
+    <field name="login">wilhelm-wundt</field>
+    <field name="password">M/d559C@F2Q2e]ew</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/wilhelm-wundt.jpeg"
+        />
+</record>
+
+<record id="res_users_5" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_5" />
+    <field name="login">erik-erikson</field>
+    <field name="password">UxKaAA3JUREc3y,B</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/erik-erikson.jpeg"
+        />
+</record>
+
+<record id="res_users_6" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_6" />
+    <field name="login">carl-rogers</field>
+    <field name="password">vu%s9Y4nMyst:8:E</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/carl-rogers.jpeg"
+        />
+</record>
+
+<record id="res_users_7" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_7" />
+    <field name="login">kurt-lewin</field>
+    <field name="password">g6^zW;k:Nd_G,=D5</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/kurt-lewin.jpeg"
+        />
+</record>
+
+<record id="res_users_8" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_8" />
+    <field name="login">albert-bandura</field>
+    <field name="password">J6u+CbzV^_>KT*u2</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/albert-bandura.jpeg"
+        />
+</record>
+
+<record id="res_users_9" model="res.users">
+    <field name="partner_id" ref="ssi_psychology.res_partner_9" />
+    <field name="login">bf-skinner</field>
+    <field name="password">N$#fNS/j;5GX_}ZN</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="notification_type">email</field>
+    <field
+            name="groups_id"
+            eval="[(6,0,[ref('base.group_user'), ref('base.group_partner_manager'), ref('base.group_allow_export')])]"
+        />
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/bf-skinner.jpeg"
+        />
+</record>
+
+
+</odoo>

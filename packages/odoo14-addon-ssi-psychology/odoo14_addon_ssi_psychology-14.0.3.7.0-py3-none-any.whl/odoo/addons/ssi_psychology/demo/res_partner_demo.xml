@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="res_partner_1" model="res.partner">
+    <field name="name">Sigmund Freud</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="company_name" eval="" />
+    <field name="country_id" ref="base.at" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">sigmund.freud@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/sigmund-freud.jpeg"
+        />
+</record>
+
+<record id="res_partner_2" model="res.partner">
+    <field name="name">Ivan Pavlov</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="country_id" ref="base.ru" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">ivan.pavlov@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/ivan-pavlov.jpeg"
+        />
+</record>
+
+<record id="res_partner_3" model="res.partner">
+    <field name="name">William James</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="country_id" ref="base.us" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">william.james@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/william-james.jpeg"
+        />
+</record>
+
+<record id="res_partner_4" model="res.partner">
+    <field name="name">Wilhelm Maximilian Wundt</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="country_id" ref="base.de" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">wilhelm.wundt@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/wilhelm-wundt.jpeg"
+        />
+</record>
+
+<record id="res_partner_5" model="res.partner">
+    <field name="name">Erik Homburger Erikson</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="country_id" ref="base.de" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">erik-erikson@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/erik-erikson.jpeg"
+        />
+</record>
+
+<record id="res_partner_6" model="res.partner">
+    <field name="name">Carl Ransom Rogers</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="country_id" ref="base.us" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">carl.rogers@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/carl-rogers.jpeg"
+        />
+</record>
+
+<record id="res_partner_7" model="res.partner">
+    <field name="name">Kurt Lewin</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="country_id" ref="base.us" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">kurt.lewin@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/kurt-lewin.jpeg"
+        />
+</record>
+
+<record id="res_partner_8" model="res.partner">
+    <field name="name">Albert Bandura</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="country_id" ref="base.ca" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">albert.bandura@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/albert-bandura.jpeg"
+        />
+</record>
+
+<record id="res_partner_9" model="res.partner">
+    <field name="name">Burrhus Frederic Skinner</field>
+    <field name="company_id" ref="base.main_company" />
+    <field name="country_id" ref="base.us" />
+    <field name="tz">Europe/Brussels</field>
+    <field name="email">bf.skinner@example.com</field>
+    <field
+            name="image_1920"
+            type="base64"
+            file="ssi_psychology/static/img/bf-skinner.jpeg"
+        />
+</record>
+
+
+</odoo>

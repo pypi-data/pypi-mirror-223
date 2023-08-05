@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_module_category" model="ir.module.category">
+    <field name="name">Psychology - Workflow</field>
+</record>
+
+<record id="psychology_configurator_module_category" model="ir.module.category">
+    <field name="name">Psychology - Configurator</field>
+    <field name="parent_id" ref="psychology_module_category" />
+</record>
+
+<record id="psychology_data_module_category" model="ir.module.category">
+    <field name="name">Psychology - Data Ownership</field>
+</record>
+
+<record id="psychology_reporting_module_category" model="ir.module.category">
+    <field name="name">Psychology - Reporting</field>
+    <field name="parent_id" ref="psychology_module_category" />
+</record>
+
+<record id="psychology_wizard_module_category" model="ir.module.category">
+    <field name="name">Psychology - Wizard</field>
+    <field name="parent_id" ref="psychology_module_category" />
+</record>
+
+</odoo>
