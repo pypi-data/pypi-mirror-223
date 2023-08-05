@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pybotterfly
+Version: 0.1.5
+Summary: Build multi-messenger chatbots with ease using our scalable Python library, designed to simplify listener integration for various platforms
+License: MIT
+Author: Ninzalo
+Author-email: k-artemiy@mail.ru
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiogram (>=2.25.1,<3.0.0)
+Requires-Dist: black (>=23.7.0,<24.0.0)
+Requires-Dist: emoji (>=2.7.0,<3.0.0)
+Requires-Dist: vkbottle (>=4.3.12,<5.0.0)
+Description-Content-Type: text/markdown
+
+## Description
+
+Build multi-messenger chatbots with ease using our scalable Python library, designed to simplify listener integration for various platforms
+
+## Installation 
+
+```shell
+pip install git+https://github.com/Ninzalo/PyBotterfly.git
+```
+
+## Example usage
+
+- [Example](https://github.com/Ninzalo/PyBotterfly/blob/master/docs/example.md)
+
+## Configuration documentation
+
+- [Configuration](https://github.com/Ninzalo/PyBotterfly/blob/master/docs/configuration.md)
+
+## Reply creation documentation
+
+- [Reply creation](https://github.com/Ninzalo/PyBotterfly/blob/master/docs/reply.md)
+
