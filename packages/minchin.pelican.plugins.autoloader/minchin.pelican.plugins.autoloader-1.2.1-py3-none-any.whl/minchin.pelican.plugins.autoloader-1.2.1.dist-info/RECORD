@@ -1,0 +1,9 @@
+build/lib/minchin/pelican/plugins/autoloader.py,sha256=zWuQx-8OAnQP9So6DGjLKyvnAqlDsXmybEpHyujRLQk,4793
+build/lib/pelican/plugins/autoloader/__init__.py,sha256=8sXPrxf_bg_wdy_Z-w4rHWFSely_DigosfRDhRXBkMo,69
+minchin/pelican/plugins/autoloader.py,sha256=zWuQx-8OAnQP9So6DGjLKyvnAqlDsXmybEpHyujRLQk,4793
+pelican/plugins/autoloader/__init__.py,sha256=8sXPrxf_bg_wdy_Z-w4rHWFSely_DigosfRDhRXBkMo,69
+minchin.pelican.plugins.autoloader-1.2.1.dist-info/LICENSE.txt,sha256=ezirUyknK21b9a-T8JlCnehmlGpnvpxzkzdMph93Ee8,1071
+minchin.pelican.plugins.autoloader-1.2.1.dist-info/METADATA,sha256=bZLbXM08Ni-yXLq3KdyMh7ZCQrnjd0NvniIxs5-eLmI,5215
+minchin.pelican.plugins.autoloader-1.2.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+minchin.pelican.plugins.autoloader-1.2.1.dist-info/top_level.txt,sha256=sutqzn4e928U26w3WtFnIwmLzslN8UwoAZHpSGB2Kx4,36
+minchin.pelican.plugins.autoloader-1.2.1.dist-info/RECORD,,
