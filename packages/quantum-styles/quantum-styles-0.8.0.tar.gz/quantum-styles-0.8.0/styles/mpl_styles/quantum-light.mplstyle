@@ -1,0 +1,54 @@
+#Author: Paul Nation, IBM Quantum
+#Version: 1.1
+
+lines.linewidth: 3
+lines.solid_capstyle: round
+lines.markersize : 10
+
+legend.fancybox: true
+font.family: sans-serif
+font.sans-serif:  Arial, Liberation Sans, DejaVu Sans, Bitstream Vera Sans, sans-serif
+text.color: black
+
+axes.prop_cycle: cycler('color', ['0075C3', 'ee7733', '6929c4', '009988', 'cc3311', '33bbee', 'ee3377'])
+axes.facecolor: f2f0ed
+axes.axisbelow: true
+axes.grid: true
+axes.edgecolor: f2f0ed
+axes.linewidth: 3.0
+axes.titlesize: 18
+axes.labelsize : 16
+axes.labelcolor: black
+legend.fontsize: 14
+
+patch.edgecolor: ffffff
+patch.linewidth: 0.5
+
+svg.fonttype: path
+
+grid.linestyle: -
+grid.linewidth: 0.7
+grid.color: cbcbcb
+
+xtick.major.size: 0
+xtick.minor.size: 0
+xtick.labelsize: 14
+xtick.color: black
+
+ytick.major.size: 0
+ytick.minor.size: 0
+ytick.labelsize: 14
+ytick.color: black
+
+figure.subplot.left: 0.08
+figure.subplot.right: 0.95
+figure.subplot.bottom: 0.07
+figure.facecolor: f2f0ed
+figure.figsize: 8, 6
+
+### Boxplots
+boxplot.boxprops.color: black
+boxplot.capprops.color: black
+boxplot.flierprops.color: black
+boxplot.flierprops.markeredgecolor: black
+boxplot.whiskerprops.color: black

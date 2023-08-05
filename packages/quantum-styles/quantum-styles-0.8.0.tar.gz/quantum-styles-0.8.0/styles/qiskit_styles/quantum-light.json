@@ -1,0 +1,210 @@
+{
+    "name": "ibmq",
+    "textcolor": "#161616",
+    "gatetextcolor": "#ffffff",
+    "subtextcolor": "#161616",
+    "linecolor": "#444444",
+    "creglinecolor": "#444444",
+    "gatefacecolor": "#0075C3",
+    "barrierfacecolor": "#a1a1a1",
+    "backgroundcolor": "#f2f0ed",
+    "edgecolor": null,
+    "fontsize": 13,
+    "subfontsize": 8,
+    "showindex": false,
+    "figwidth": -1,
+    "dpi": 150,
+    "margin": [
+        2.0,
+        0.1,
+        0.1,
+        0.3
+    ],
+    "creglinestyle": "doublet",
+    "displaytext": {
+        "u1": "U_1",
+        "u2": "U_2",
+        "u3": "U_3",
+        "id": "I",
+        "sdg": "S^\\dagger",
+        "sx": "\\sqrt{X}",
+        "sxdg": "\\sqrt{X}^\\dagger",
+        "tdg": "T^\\dagger",
+        "ms": "MS",
+        "rx": "R_X",
+        "ry": "R_Y",
+        "rz": "R_Z",
+        "rxx": "R_{XX}",
+        "ryy": "R_{YY}",
+        "rzx": "R_{ZX}",
+        "rzz": "ZZ",
+        "reset": "\\left|0\\right\\rangle",
+        "initialize": "$|\\psi\\rangle$"
+    },
+    "displaycolor": {
+        "u1": [
+            "#009988",
+            "#FFFFFF"
+        ],
+        "u2": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "u3": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "u": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "p": [
+            "#009988",
+            "#FFFFFF"
+        ],
+        "id": [
+            "#EE7733",
+            "#ffffff"
+        ],
+        "x": [
+            "#EE7733",
+            "#ffffff"
+        ],
+        "y": [
+            "#0075C3",
+            "#ffffff"
+        ],
+        "z": [
+            "#009988",
+            "#ffffff"
+        ],
+        "h": [
+            "#925cdd",
+            "#FFFFFF"
+        ],
+        "cx": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "ecr": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "ccx": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "mcx": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "mcx_gray": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "cy": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "cz": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "swap": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "cswap": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "ccswap": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "dcx": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "cdcx": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "ccdcx": [
+            "#EE7733",
+            "#FFFFFF"
+        ],
+        "iswap": [
+            "#009988",
+            "#ffffff"
+        ],
+        "s": [
+            "#009988",
+            "#ffffff"
+        ],
+        "sdg": [
+            "#009988",
+            "#ffffff"
+        ],
+        "t": [
+            "#009988",
+            "#ffffff"
+        ],
+        "tdg": [
+            "#009988",
+            "#ffffff"
+        ],
+        "sx": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "sxdg": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "r": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "rx": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "ry": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "rz": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "rxx": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "ryy": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "rzx": [
+            "#0075C3",
+            "#FFFFFF"
+        ],
+        "reset": [
+            "#000000",
+            "#FFFFFF"
+        ],
+        "delay": [
+            "#000000",
+            "#FFFFFF"
+        ],
+        "target": [
+            "#FFFFFF",
+            "#FFFFFF"
+        ],
+        "measure": [
+            "#000000",
+            "#FFFFFF"
+        ]
+    }
+}
