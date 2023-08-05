@@ -1,0 +1,9 @@
+cmeel.prefix/bin/help2man,sha256=S0-fqmgjVmAb5ftOzZTQdhtBqHeuvkLH5MHKcPYHrNw,20063
+cmeel.prefix/share/cmeel-help2man/README.md,sha256=eIZOMAyc5JtLysyHKas6XClQSDQRJP6Z5h83nKGdZNQ,384
+cmeel.prefix/share/info/help2man.info,sha256=g9dLsGZ1Bpy_s4DJPM7H8htCPA50OrBU10NYgn9A0bU,18042
+cmeel.prefix/share/man/man1/help2man.1,sha256=3A2bHmLCe7Y7R__SOLGvThnkGe4tGfKgFbBuBlnnG60,4131
+cmeel_help2man-1.49.3.data/scripts/help2man,sha256=PpYesvgqJlecFwlWPl9JzKAGNORatbR_UMYGzAictJE,53
+cmeel_help2man-1.49.3.dist-info/METADATA,sha256=X4vD1w5sWKuFAWABULxRrB-Mie-QQCWSfrz1aeHQnfI,805
+cmeel_help2man-1.49.3.dist-info/WHEEL,sha256=Yx85m8MmJvWyugX1uB4xkIlfcPYRkQLG_GMu4d3Ubb8,108
+cmeel_help2man-1.49.3.dist-info/top_level.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmeel_help2man-1.49.3.dist-info/RECORD,,
