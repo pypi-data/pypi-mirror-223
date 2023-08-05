@@ -1,0 +1,5 @@
+requests
+binance.client
+numpy
+pandas
+matplotlib
