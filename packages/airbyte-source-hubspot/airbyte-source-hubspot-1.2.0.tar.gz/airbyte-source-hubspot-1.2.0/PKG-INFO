@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: airbyte-source-hubspot
+Version: 1.2.0
+Summary: Source implementation for HubSpot.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Provides-Extra: tests
