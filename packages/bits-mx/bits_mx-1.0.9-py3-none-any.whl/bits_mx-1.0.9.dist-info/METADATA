@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: bits-mx
+Version: 1.0.9
+Summary: BITS MX
+Author: Lukas Karlsson
+Author-email: karlsson@broadinstitute.org
+License: Apache Software License
+Requires-Dist: bits-ldap
+Requires-Dist: bits-mongo
+
