@@ -1,0 +1,3 @@
+[console_scripts]
+seeed_si114x = seeed_si114x:main
+seeed_si115x = seeed_si115x:main
