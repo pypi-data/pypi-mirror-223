@@ -1,0 +1,6 @@
+[project]
+name = "NBRB-bki-xml-read"
+version = "0.0.1"
+dependencies = [
+    "xmltodict"
+]

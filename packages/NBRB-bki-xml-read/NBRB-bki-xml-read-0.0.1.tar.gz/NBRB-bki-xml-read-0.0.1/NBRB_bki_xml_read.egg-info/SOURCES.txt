@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+NBRB_bki_xml_read/_init_.py
+NBRB_bki_xml_read/common_tools.py
+NBRB_bki_xml_read/individual_read.py
+NBRB_bki_xml_read.egg-info/PKG-INFO
+NBRB_bki_xml_read.egg-info/SOURCES.txt
+NBRB_bki_xml_read.egg-info/dependency_links.txt
+NBRB_bki_xml_read.egg-info/not-zip-safe
+NBRB_bki_xml_read.egg-info/requires.txt
+NBRB_bki_xml_read.egg-info/top_level.txt
