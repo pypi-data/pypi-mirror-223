@@ -1,0 +1,4 @@
+requests>=2.0
+pyhumps>=3.0
+jsonmerge>=1.9
+pyhumps>=3.8
