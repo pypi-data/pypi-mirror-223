@@ -1,0 +1,6 @@
+aiohttp[speedups]
+pandas>=2.0.0
+beautifulsoup4
+lxml
+jdatetime
+aiohutils>=0.9.0
