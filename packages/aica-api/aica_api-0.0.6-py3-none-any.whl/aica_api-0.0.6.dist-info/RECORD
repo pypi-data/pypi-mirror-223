@@ -1,0 +1,7 @@
+aica_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aica_api/client.py,sha256=g4wGrOzR4qJseke6ugciDVM8yRVTfhNNGuNzqJGYph8,9590
+aica_api/ws_client.py,sha256=9msK4Uwj86ZeKsNWuu6J-wXAvtvpyfxjetFX3N27X0Q,6749
+aica_api-0.0.6.dist-info/METADATA,sha256=rMJU9G--U85Q-382zuIdd1t7dqRjVU7qFb2o0oykD7c,1603
+aica_api-0.0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+aica_api-0.0.6.dist-info/licenses/LICENSE,sha256=cE5gBdCPz7I_07VjhXEdI4xOIW5lcLZccmK5OZPE988,1050
+aica_api-0.0.6.dist-info/RECORD,,
