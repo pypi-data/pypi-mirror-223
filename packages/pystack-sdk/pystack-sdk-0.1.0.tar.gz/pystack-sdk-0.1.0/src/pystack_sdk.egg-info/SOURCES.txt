@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/pystack_sdk.egg-info/PKG-INFO
+src/pystack_sdk.egg-info/SOURCES.txt
+src/pystack_sdk.egg-info/dependency_links.txt
+src/pystack_sdk.egg-info/requires.txt
+src/pystack_sdk.egg-info/top_level.txt
