@@ -1,0 +1,10 @@
+odoo/addons/ssi_psychology_case_outsource_work/README.rst,sha256=OfdgfLeaK5_iKgceo0iWSIQ74lMNEpK_Iu1G5dAdDDU,1322
+odoo/addons/ssi_psychology_case_outsource_work/__init__.py,sha256=VAkFvJXefoz7CVUwbL97HBfpLAYmvQPYXfYs71LOpzU,181
+odoo/addons/ssi_psychology_case_outsource_work/__manifest__.py,sha256=5puaF0jL7e_4d8IrSJ6T3cUloOp0IZS-MMkhhHNvWu0,510
+odoo/addons/ssi_psychology_case_outsource_work/models/__init__.py,sha256=1mwijxc3kpDOxy_ETGwTIpPnUPQTXipdGMzjeyGIHS8,190
+odoo/addons/ssi_psychology_case_outsource_work/models/psychology_case.py,sha256=LYrteO4vWtzvu1I_OeCvteyUprwX9rnuIwrGGrJI8Es,371
+odoo/addons/ssi_psychology_case_outsource_work/static/description/icon.png,sha256=ARll0Lls9fkxTTB743oi9iQBNoNNPMLTz2HJ2NtPsGA,27306
+odoo14_addon_ssi_psychology_case_outsource_work-14.0.1.2.0.dist-info/METADATA,sha256=6nNy-O11INPBx4ZM4ynGodG9pLlRRVMgp3N7oWufxak,1952
+odoo14_addon_ssi_psychology_case_outsource_work-14.0.1.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_psychology_case_outsource_work-14.0.1.2.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_psychology_case_outsource_work-14.0.1.2.0.dist-info/RECORD,,
