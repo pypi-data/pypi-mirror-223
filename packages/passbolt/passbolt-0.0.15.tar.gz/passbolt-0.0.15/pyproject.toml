@@ -1,0 +1,28 @@
+[build-system]
+requires = [
+    "setuptools >= 48",
+    "wheel >= 0.29.0",
+]
+build-backend = 'setuptools.build_meta'
+
+
+
+[project]
+name = "passbolt"
+version = "0.0.15"
+authors = [
+  { name="Passbolt", email="clayton@passbolt.com" },
+]
+description = "This project is part of the passbolt lab! It is used to illustrate an article or as a conversation starter. Use at your own risks!"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/passbolt/lab-passbolt-py"
+"Bug Tracker" = "https://github.com/passbolt/lab-passbolt-py/issues"
+

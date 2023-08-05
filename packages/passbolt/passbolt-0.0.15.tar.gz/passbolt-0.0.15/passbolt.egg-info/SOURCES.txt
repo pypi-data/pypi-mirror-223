@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+config.json.PGPy.sample
+config.json.gnupg.sample
+example.py
+pyproject.toml
+setup.cfg
+setup.py
+passbolt/__init__.py
+passbolt/howtobuild.txt
+passbolt.egg-info/PKG-INFO
+passbolt.egg-info/SOURCES.txt
+passbolt.egg-info/dependency_links.txt
+passbolt.egg-info/not-zip-safe
+passbolt.egg-info/requires.txt
+passbolt.egg-info/top_level.txt
