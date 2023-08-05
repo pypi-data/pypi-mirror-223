@@ -1,0 +1,9 @@
+numpy
+tno.fl.protocols.logistic_regression~=0.2.1
+
+[tests]
+numpy
+pytest
+pytest-asyncio
+tno.fl.protocols.logistic_regression[tests]
+tno.mpc.communication~=4.8
