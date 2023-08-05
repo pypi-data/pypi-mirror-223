@@ -1,0 +1,14 @@
+tcpsocket/__init__.py,sha256=-DsbHrL0DwNxyUmfehQcEDOxKyfOtEuZQCex6MsZIa8,61
+tcpsocket/echoclient.py,sha256=vCILX1YQuBEB6cnT7YswKIngYQK-l1XxylpjXR4IEJQ,709
+tcpsocket/echoserver.py,sha256=C90aszGdK6JPEU8VzoniKWaJvzMrA5AdbveHkYJyd3A,998
+tcpsocket/ipaddr.py,sha256=GBp-YClrWSRzrbA80R6kGuWRef0DKgGnbEGN5Hv7OAM,537
+tcpsocket/tcpclient.py,sha256=pYBcnbYLsjEJEMZB0qVJ-EByq4w5s-KtDLB-MOhJLb4,645
+tcpsocket/tcpserver.py,sha256=MhBINwINRx05MNkt-GXq_O0vxmOEWJIbAIb0RoPaiJw,1225
+tcpsocket/udpclient.py,sha256=CS83i01bYHFWB_63F5LY3-ueaDQLAtvEBZ7-xNqk6oA,504
+tcpsocket/udpserver.py,sha256=okOLOqYz696OAwpZkdDSc0sHpzapSjILwm9xta8ZVNE,736
+tcpsocket/xmlrpcclient.py,sha256=kTbr3hB9FXtVZOmNy9CzmvL5dIcIkbyRCR5YnUJxG2M,210
+tcpsocket/xmlrpcserver.py,sha256=2FHL-5lIvhQrsyJKh_wA-0Rp-qKHU4_qZa-aYAKACzE,679
+tcpsocket-1.3.dist-info/METADATA,sha256=ubNeFfRVPpV_G3Hwbm_QqgQZX3jxF5uExL8Lx_cz65s,201
+tcpsocket-1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tcpsocket-1.3.dist-info/top_level.txt,sha256=FC2JNgH1K4iqjucw0DmrXD881CGPvm_gvLc45RbITQs,10
+tcpsocket-1.3.dist-info/RECORD,,
