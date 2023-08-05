@@ -1,0 +1,17 @@
+openassetio_mediacreation/__init__.py,sha256=vUpCeIzzt8QrxEHG4umXLYqeUSdGYA48z_HxPpttioE,217
+openassetio_mediacreation/traits.yml,sha256=eeuTH44CaZNLCeOCyhZF3PM39r6RgIbG_xmN-yXb5vg,12345
+openassetio_mediacreation/specifications/__init__.py,sha256=IIEq3_7JMWs2WkX-3CjSdg1cj-R4AckaTpnxUnj9dj0,178
+openassetio_mediacreation/specifications/lifecycle.py,sha256=w3c9pAIn05Mc-uD2c3zGKkeWCZ7geAd1Ed397JG598o,8639
+openassetio_mediacreation/traits/__init__.py,sha256=Z9wQ6zV5FKRcKIX2LYOh2szXp5WzDhc6vo1Aeuk1BLo,312
+openassetio_mediacreation/traits/auth.py,sha256=DPW2AfaPhlBiF7lyK5EMUc2nSzUCDvJfWbgeQwlAQr8,2605
+openassetio_mediacreation/traits/content.py,sha256=Ur9DqGfmFwbCfySa_-8KmnpJhsbEqOCwJG5THEqlE24,3110
+openassetio_mediacreation/traits/identity.py,sha256=1fEL2ROP9vPZ41lDsCc5D_EpBlhpwUa6S7bh-Eg1V0Q,4969
+openassetio_mediacreation/traits/lifecycle.py,sha256=3zKnLBC0O1CTmBrZi2TI7ejE0ZA4P7BtZuaF64e5BzU,8733
+openassetio_mediacreation/traits/managementPolicy.py,sha256=m2OkF-dqQ6Mkpx8_RSRwYNv3S-VV7aaH0Y17WixA6cw,6424
+openassetio_mediacreation/traits/relationship.py,sha256=b5sGCbTgTQTs2LKIlS1zlPQ-QO-dzA1EQt9cQwylnEw,3419
+openassetio_mediacreation/traits/usage.py,sha256=WJW9-jtwp8FSQWPB-mGJJD465TORkuEpHLvFUnc54Po,3326
+openassetio_mediacreation-1.0.0a7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+openassetio_mediacreation-1.0.0a7.dist-info/METADATA,sha256=LcpWEhxiqQ6HMykL06agLyDEBnFXer9lM1RbgREh8is,1435
+openassetio_mediacreation-1.0.0a7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+openassetio_mediacreation-1.0.0a7.dist-info/top_level.txt,sha256=6wrwB2f-cI98-MIfAnoKwTFdaYJQv206KEx50rAT7D0,26
+openassetio_mediacreation-1.0.0a7.dist-info/RECORD,,
