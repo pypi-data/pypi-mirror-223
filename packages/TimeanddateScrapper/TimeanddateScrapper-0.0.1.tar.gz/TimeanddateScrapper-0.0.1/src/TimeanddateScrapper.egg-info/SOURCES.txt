@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/TimeAndDateScrap/__init__.py
+src/TimeAndDateScrap/config.py
+src/TimeAndDateScrap/worldweather.py
+src/TimeanddateScrapper.egg-info/PKG-INFO
+src/TimeanddateScrapper.egg-info/SOURCES.txt
+src/TimeanddateScrapper.egg-info/dependency_links.txt
+src/TimeanddateScrapper.egg-info/top_level.txt
