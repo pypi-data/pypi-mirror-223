@@ -1,0 +1,9 @@
+triplets/__init__.py,sha256=i4fFqVVFWaxX7GzhP47tVx5rWqXFLJxIaOPsqdyEI_g,189
+triplets/_version.py,sha256=-Ozebd2iLP8Vvt2VOFU_WcNU-HFQtlLP9CWLIMBiC-M,497
+triplets/cgmes_tools.py,sha256=ZBfvMuFTRD9LQb1ZVT5RKEBV0gs5BXxkwVhtVr3RZms,21071
+triplets/rdf_parser.py,sha256=ZqWXS-sVv-xM60Em0tCYdKe3zxG7Gc5d0HuDsqi-AOc,37936
+triplets/rdfs_tools.py,sha256=J1_lO1wmEIxDxrjVUqsUQidHXaqwKef77LtZov83T1M,8711
+triplets-0.0.4.dist-info/METADATA,sha256=t57-WLPz2qlQcuH1WY9STH798tKv0wDsO62NTfxSAoM,1626
+triplets-0.0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+triplets-0.0.4.dist-info/top_level.txt,sha256=CtZbYDv_ttA4RYl5GUDn_flSr7hKZScRpFKJzLL65Cw,9
+triplets-0.0.4.dist-info/RECORD,,
