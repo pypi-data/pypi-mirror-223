@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/khmercut
+khmercut/__init__.py
+khmercut/crf_ner_10000.crfsuite
+khmercut.egg-info/PKG-INFO
+khmercut.egg-info/SOURCES.txt
+khmercut.egg-info/dependency_links.txt
+khmercut.egg-info/requires.txt
+khmercut.egg-info/top_level.txt
