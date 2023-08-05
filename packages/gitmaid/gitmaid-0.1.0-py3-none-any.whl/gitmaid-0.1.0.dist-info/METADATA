@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gitmaid
+Version: 0.1.0
+Summary: 
+Author: なるみ
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: langchain (>=0.0.251,<0.0.252)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: openai (>=0.27.8,<0.28.0)
