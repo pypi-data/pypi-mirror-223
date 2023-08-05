@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+shopdealofday/__init__.py
+shopdealofday/dealofday.py
+shopdealofday.egg-info/PKG-INFO
+shopdealofday.egg-info/SOURCES.txt
+shopdealofday.egg-info/dependency_links.txt
+shopdealofday.egg-info/top_level.txt

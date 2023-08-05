@@ -1,0 +1,1 @@
+This is a deal of the day library function that can be used for any online shopping applications.
