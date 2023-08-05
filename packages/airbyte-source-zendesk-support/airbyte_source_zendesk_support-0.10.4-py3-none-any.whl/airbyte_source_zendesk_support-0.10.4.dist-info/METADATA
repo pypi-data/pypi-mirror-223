@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: airbyte-source-zendesk-support
+Version: 0.10.4
+Summary: Source implementation for Zendesk Support.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Requires-Dist: airbyte-cdk
+Requires-Dist: pytz
+Provides-Extra: tests
+Requires-Dist: pytest (~=6.1) ; extra == 'tests'
+Requires-Dist: pytest-mock (~=3.6) ; extra == 'tests'
+Requires-Dist: connector-acceptance-test ; extra == 'tests'
+Requires-Dist: requests-mock (==1.9.3) ; extra == 'tests'
+
