@@ -1,0 +1,5 @@
+jwst>=1.8.2
+numpy
+astropy
+scipy
+matplotlib
