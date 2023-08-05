@@ -1,0 +1,9 @@
+numpy
+pandas
+tno.mpc.communication~=4.8
+
+[tests]
+numpy
+pandas-stubs
+pytest
+pytest-asyncio
