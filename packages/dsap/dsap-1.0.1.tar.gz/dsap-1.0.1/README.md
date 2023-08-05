@@ -1,0 +1,272 @@
+# DSA-PYTHON 
+
+This file contains documentation for the public-facing (non-internal) API
+of the structures and algorithms included in this project.
+
+1. Stack - `stack`
+    * Types 
+        * `stack.structs.stack` 
+            * `Stack`
+                * properties 
+                    * `items[]` - array representation of the stack
+                * methods 
+                    * `size()` - returns the size of the stack
+                    * `top()` - gets the item at the top of the stack 
+                    * `push(value)` - inserts an item in the stack
+                    * `pop()` - removes the item at the top of the stack 
+                    * `is_empty()` - checks if the stack is empty 
+                    * `clear()` - deletes all items in the stack
+
+2. Queues 
+    * Types 
+        * `queues.structs.dequeue`
+            * `Dequeue` 
+                * properties
+                    * `items[]` - returns the size of the stack  
+                * methods 
+                    * `front()` - returns item in front of the queue 
+                    * `back()`- returns item at the back of the queue 
+                    * `enqueue_front(item)` - enqueues item in front of the queue
+                    * `enqueue_back(item)` - enqueues item at the back of the queue
+                    * `dequeue_front()` - dequeues item in front of the queue
+                    * `dequeue_back()` - dequeus item at the back of the queue
+                    * `size()` - gets the size of the queue  
+                    * `is_empty()` - checks if the queue is empty 
+                    * `clear()` - deletes all item in the queue
+
+        * `queues.structs.priority_queue`
+            * `PriorityQueue`
+                * properties 
+                    * `items` - a `KMMH` (min-max heap) object that contains the items in the queue
+                    * `type` - (`"min"` or `"max"`)   
+                * methods 
+                    * `comparator(a, b) - item comparator function
+                    * `min()` - returns the minimum item the `min` heap
+                    * `max()` - returns the maximum item in the `items` heap
+                    * `front()` - returns the item in front of the heap
+                    * `back()` - returns the item at the back of the heap
+                    * `enqueue(key, priority, data)` - enqueues item with a given key, priority, and data
+                    * `dequeue_front()` - dequeues item in front of the queue
+                    * `dequeue_back()` - dequeues item at the back of the queue
+                    * `size()` - returns the size of the priority queue
+                    * `is_empty()` - checks if the queue is empty
+                    * `display()` - helper function to display all items in the queue
+                    * `clear()` - deletes all items in the queue
+    
+3. Segment Trees - `misc.segment_tree`
+    * Types - `misc.segment_tree` 
+        * `SegmentTree`
+            * properties 
+                * `length` - the number of items in the array 
+                * `items[]` - the segment tree array representing tree 
+                * `size` - the size of the segment tree array (not to be confused with the input array) 
+                * `default` - the default value to assign empty values in `items[]`
+                * `key_map` - the key map which maps indices in the input array to corresponding indices in the `items[]` array/
+            * methods
+                * `update(i, new_value)` - update an item in the segment tree through a given index from the input array
+                * `range_sum(i, j)` - computes the range sum of items within the index `i` to `j` in the input array 
+                * `find_interval(value)` - find the interval `(a, b)` in the segment array whose interval sums bound `value` 
+
+4. Linked Lists - `linked_lists` 
+    * Linked Lists Types
+        * `linked_lists.structs.sll` (`SLL`) - Singly-Linked List 
+        * `linked_lists.structs.dll` (`DLL`) - Doubly-Linked List 
+        * `linked_lists.structs.csll` (`CSLL`) - Circular Singly-Linked List 
+        * `linked_lists.structs.cdll` (`CDLL`) - Circular Doubly-Linked List 
+    * All linked lists classes `[TYPE]` have similar public-facing properties and methods. 
+        * `[TYPE]_Node` 
+            * properties
+                * `value` - the value of the node 
+                * `prev` - pointer to the previous node (only in doubly-linked lists `DLL` or `CDLL`)
+                * `next` - pointer to the next node 
+
+        * `[TYPE]` 
+            * properties 
+                * `head` - first item in the list
+                * `tail` - last item in the list
+            * methods
+                * location operations
+                    * `at(index)` - returns the item at the given index 
+                    * `search(node)` - searches for item with a given value 
+                    * `index(value)` - returns the index of the first item with a given value 
+                    * `node_index(node)` - returns the index of a node in the list 
+                * insertion operations 
+                    * `insert(pos, value)` - inserts a new item at a given position in the list with a given value
+                    * `insert_node(pos, node)` - explicitly insert a node at a given position in the list 
+                    * `prepend(value)` - inserts a new item with a given value at the beginning of the list 
+                    * `append(value)` - appends a new item with a given value at the end of the lsit 
+                    * `insert_after(node, value)` - inserts a new item with a given value after another node in the list 
+                    * `insert_node_after(node, new_node)` - inserts a new node explicitly after another node in the list
+                    * `insert_before(node, value)` - inserts a new item with a given value before another node in the list 
+                    * `insert_node_before(node, new_node)` - inserts a new node explicitly before another node in the list
+                * deletion operations 
+                    * `delete(pos)` - deletes a node at a given position 
+                    * `delete_node(node)` - delete a specific node in the list 
+                    * `delete_head()` - deletes the first item in the list 
+                    * `delete_tail()` - deletes the last item in the list 
+                    * `delete_after(node)` - deletes item after a given node in the list
+                    * `delete_before(node)` - deletes item before a given node in the list 
+                    * `remove(value)` - removes item with a given value in the list 
+                * utility functions 
+                    * `predecessor(node)` - returns the item before a given node 
+                    * `sucessor(node)` - returns the item after a given node 
+                    * `size()` - returns the size of the list 
+                    * `iterate()` - iterate through items in the list
+                    * `clear()` - removes all items in the list 
+
+5. Heaps - `heaps`
+    - Heap Types 
+        * `heaps.structs.kbh` - Keyed Binary Heap 
+        * `heaps.structs.kfh` - Keyed Fibonacci Heap 
+        * `heaps.structs.kah` - Keyed K-ary Heap
+        * `heaps.structs.kmmh` - Keyed Min-Max Heap     
+    * All heap types have similar public-facing operations except for min-max heap which has some extra methods and has no (`.top()`) method.
+        * [TYPE]    
+            * properties 
+                * varies, refer to code for more details
+            * methods 
+                * utility methods
+                    * `comparator()` - comparator function used to compare heap elements
+                    * `display()` - helper function to display the heap 
+                * main operations 
+                    * `insert(key, value, data)` - inserts a new item in the heap with a given `key`, `value`, and `data` 
+                    * `pop()` - removes the item at the top of the heap 
+                    * `delete(key)` - deletes an item with a given key from the heap
+                    * `clear()` - deletes all elements in the heap
+                * accessors/mutators
+                    * `update(key, new_value)` - update item with a given key with a new value
+                    * `keys()` - iterate over all keys in the heap 
+                    * `values()` - iterate over all values in the heap 
+                    * `top()` - returns the item (node object) at the top of the heap 
+                    * `size()` - returns the size of the heap 
+                    * `is_empty()` - checks if the heap is empty 
+                    * `get_data(key)` - gets the data of the item with the given key
+                    * `set_data(key, data)` - updates the data of the item with the given key 
+                    * `get_value(key)` - gets the value of the item with the given key 
+                    * `set_value(key, data)` - updates the value of the item with the given key 
+                    * `min()` - returns the node object of the minimum item in the heap (only applies to "min heaps" or "min-max heaps"`) 
+                    * `max()` - returns the node object of the maximum item in the heap
+                    * `has_key(key)` - checks if a key is present in the heap
+
+6. BSTs - `bsts`    
+    * Types 
+        * `bsts.structs.avlt` - AVL Tree 
+        * `bsts.structs.rbt` - Red Black Tree
+    * All BST types have the same public-facing interface.
+        * The internal structures of the nodes used by the trees are omitted. If there is a need to know them, please refer to the actual code for more details.
+        * `[TYPE]`
+            * properties 
+                * `root` - the root node of the tree 
+                * `count` - the number of items in the tree 
+            * methods 
+                * utility methods 
+                    * `at(index)` - returns the node at the given index 
+                    * `index(key)` - returns the index of the node with a given key 
+                    * `size()` - returns the size of the heap 
+                    * `is_empty()` - checks if the heap is empty 
+                    * `find(key)` - finds the the node with a given key 
+                    * `find_min()` - returns the node with the minimu value in the heap 
+                    * `find_max()` - returns the node with the maximum value in the heap 
+                    * `display()` - helper function to display the tree
+                    * `iterate()` - iterate over nodes in the tree 
+                    * `keys()` - iterate over the keys in the tree 
+                    * `values()` - iterate over the values in the tree 
+                    * `key_prev(key)` - gets the key of the node before a a node with a given key 
+                    * `prev(node)` - returns the node before a given node 
+                    * `key_next(key)` - gets the key of the node after a node with a given key
+                    * `next` - returns the node after a given node 
+                * range functions 
+                    * `node_range(node_a, node_b)` - iterates over all nodes that lies within the interval of keys of `node_a` and `node_b`
+                    * `key_range(key_a, key_b)` - iterates over all nodes that lies within the keys `key_a` and `key_b`
+                    * `index_range(idx_a, idx_b)` - iterates over indices `a` to `b` 
+                    * `search_left_bound(value)` - searches for the node whose key bounds a given value to the left 
+                    * `search_right_bound(value)` - searches for the node whose key bounds a given value to the right 
+                    * `interval_nodes(a, b)` - returns a two-tuple `(a_node, b_node)` of bounding left and right node of the left and right bounds of an interval.
+                    * `interval_range(a, b)` - iterates over nodes within the left and right bounds of a given interval.   
+                * main operations 
+                    * `insert(key, value)` - inserts a new item with a given value 
+                    * `delete(key)` - deletes the item with the given key 
+                    * `clear()` - deletes all items in the tree
+        
+
+7. Graphs - `graphs`
+    * Types 
+        * `Graph` - `graphs.structs.graph`
+            * properties 
+                * `graph` - the graph adjacency dictionary 
+                * `directed` - whether the graph is directed or not 
+            * methods 
+                * `size()` - returns the size of the graph 
+                * `add_vertex(vertex)` - adds a new vertex to the graph 
+                * `add_edge(src, dest, data)` - adds a new edge to the graph 
+                * `has_vertex(vertex)` - checks if the graph has a given vertex 
+                * `has_edge(src, des)` - checks if the graph has a specific edge
+                * `remove_vertex(vertex)` - removes a vertex from the graph 
+                * `remove_edge(src, dest)` - removes an edge from the graph
+                * `vertices()` - iterate over all vertices in the graph
+                * `edges()` - iterate over all edges in the graph 
+                * `vertex_edges(vertex)` - iterate over all edges of a given vertex
+                * `has_edges(vertex)` - checks if a vertex has edges
+                * `back_edges()` - computes the back edges of the current graph state
+                * `is_cyclic()` - checks if the graph is cyclic 
+                * `is_acyclic()` - checks if the graph is acyclic 
+                * `is_disconnected()` - checks if the graph is disconnected
+                * `is_connected()` - checks if the graph is connected
+                * `set_data(src, dest, data)` - updates the data associated with an edge
+                * `get_data(src, dest)` - gets the data of an edge
+    * Common Operations 
+        * Minimum-Spanning Tree (MST) 
+            * `kruskal` and `prim`
+            ```python
+                from dsap.graphs.mst.kruskal import KruskalMST 
+                from dsap.graphs.mst.prim import PrimMST 
+
+                graph = ... 
+
+                kruskal_mst = KruskalMST(graph) 
+                prim_mst = PrimMST(graph)
+
+                mst_a = kruskal_mst.run() 
+                mst_b = prim_mst.run()
+            ```
+
+        * Pathfinding -
+            * `dijkstra`, `bellman-ford`, `astar`, and `floyd_warshall`
+            ```python
+                from dsap.graphs.pathfinding.dijkstra import DijkstraPF, find_path as find_path_dijkstra 
+                from dsap.graphs.pathfinding.astart import AStarPF, find_path as find_path_astar
+                from dsap.graphs.pathfinding.bellman_ford import BellmanFordPF, find_path as find_path_bellman_ford
+                from dsap.graphs.pathfinding.floyd_warshall import FloydWarshallPF, find_path as find_path_floyd_warshall
+
+                graph = ... 
+                point_map = {
+                    "A" : (0, 5), 
+                    "B" : (1, 10), 
+                    ..., 
+                    "F" : (3, 5)
+                }
+
+                # dijkstra
+                d_pf  = DijkstraPF(graph)
+                d_pf_run = d_pf.run("A")
+                d_pf_p = d_pf.find_path(d_pf_run[1], "A", "F")
+                
+
+                # astar
+                as_pf = AStarPF(graph, point_map) 
+                as_pf_run = as_pf.run("A", "F")
+                as_pf_p = as_pf.find_path(as_pf_run[1], "A", "F") 
+
+                            
+                # bellman ford 
+                bf_pf = BellmanFordPF(graph) 
+                bf_pf_run = bf_pf.run("A")
+                bf_pf_p = bf_pf.find_path(bf_pf_run[1], "A", "F")
+
+
+                # floyd warshall ford 
+                fw_pf = FloydWarshallPF(graph) 
+                fw_pf_run = fw_pf.run()
+                fw_pf_p = fw_pf.find_path(fw_pf_run, "A", "F")
+
+            ```

@@ -1,0 +1,26 @@
+[project]
+name = "dsap" 
+version = "1.0.1"
+authors = [
+    { 
+        name = "LJ. S.A.", 
+        email = "lvjhn.mx@gmail.com"
+    }
+]
+description = "Common data structures and algorithms implemented in Python - Stacks, Linked Lists, Hash Tables, Heaps, Queues, BSTs, and Graphs"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls] 
+"Homepage" = "https://github.com/lvjhn/dsap"
+"Bug Tracker" = "https://github.com/lvjhn/dsap/~/issues"
+
+[build-system]
+requires = [ "hatchling" ] 
+build-backend = "hatchling.build" 
