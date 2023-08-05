@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+palme.egg-info/PKG-INFO
+palme.egg-info/SOURCES.txt
+palme.egg-info/dependency_links.txt
+palme.egg-info/requires.txt
+palme.egg-info/top_level.txt

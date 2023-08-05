@@ -1,0 +1,9 @@
+torchlion-pytorch
+numpy
+einops
+accelerate
+transformers
+SentencePiece
+datasets
+matplotlib
+deepspeed
