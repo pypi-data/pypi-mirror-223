@@ -1,0 +1,7 @@
+asgi_cors_middleware/__init__.py,sha256=Udc0DM044uBZTp86Cxk8Ia-Y-ylYdfNrDgVN-6rMJBs,36
+asgi_cors_middleware/middleware.py,sha256=tFsHkilMUVznK2EAxTHYnbD3jKabXbY3bQHXWS9hLlQ,6882
+asgi_cors_middleware-0.0.2.dist-info/LICENSE,sha256=1bbcA1rOlNrid-uLcC15-7bqjaGlpHApNMaNZGfXrV8,1067
+asgi_cors_middleware-0.0.2.dist-info/METADATA,sha256=ua4qGqA5NbnwWjSpjlKoNv9qDE1WKwJlnDHQJag4_8M,3364
+asgi_cors_middleware-0.0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+asgi_cors_middleware-0.0.2.dist-info/top_level.txt,sha256=IBXY56BvHso6ScZBVDA2LZZjXhNMyZLZkdQVG_6AXq0,21
+asgi_cors_middleware-0.0.2.dist-info/RECORD,,
