@@ -1,0 +1,9 @@
+bson
+pandas
+scikit-learn
+numpy
+pydantic
+
+[dev]
+pytest
+twine
