@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+kkmeans/__init__.py
+kkmeans/init_clusters.py
+kkmeans/kernel_functions.py
+kkmeans/kkmeans.py
+python_kkmeans.egg-info/PKG-INFO
+python_kkmeans.egg-info/SOURCES.txt
+python_kkmeans.egg-info/dependency_links.txt
+python_kkmeans.egg-info/top_level.txt
+tests/test_kernel_functions.py
+tests/test_kkmeans.py
