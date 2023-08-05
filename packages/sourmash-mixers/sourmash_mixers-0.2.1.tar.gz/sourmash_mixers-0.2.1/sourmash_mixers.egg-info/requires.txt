@@ -1,0 +1,6 @@
+sourmash<5,>=4.8.0
+sourmash_plugin_venn>=0.4
+get-some-ncbi-genomes>=0.2
+sourmash_plugin_commonhash>=0.3
+sourmash_plugin_abundhist>=0.3
+sourmash_plugin_sketchall>=0.2

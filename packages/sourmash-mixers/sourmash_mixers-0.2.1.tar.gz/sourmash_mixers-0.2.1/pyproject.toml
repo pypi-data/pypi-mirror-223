@@ -1,0 +1,21 @@
+[project]
+name = "sourmash_mixers"
+description = "this meta-package installs a collection of sourmash plugins!"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "0.2.1"
+
+dependencies = ["sourmash>=4.8.0,<5",
+                "sourmash_plugin_venn>=0.4",
+                "get-some-ncbi-genomes>=0.2",
+                "sourmash_plugin_commonhash>=0.3",
+                "sourmash_plugin_abundhist>=0.3",
+                "sourmash_plugin_sketchall>=0.2",
+                ]
+#"sourmash_plugin_load_urls"
+#"sourmash_plugin_avro"
+#"pyo3_branchwater.sourmash_plugin"
+
+
+[metadata]
+license = { text = "BSD 3-Clause License" }

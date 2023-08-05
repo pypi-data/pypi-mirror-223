@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sourmash_mixers
+Version: 0.2.1
+Summary: this meta-package installs a collection of sourmash plugins!
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sourmash-mixers
+A meta-package to install a number of sourmash plugins!

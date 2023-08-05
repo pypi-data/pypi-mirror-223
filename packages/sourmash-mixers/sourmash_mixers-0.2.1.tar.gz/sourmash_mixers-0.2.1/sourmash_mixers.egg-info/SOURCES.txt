@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+sourmash_mixers.egg-info/PKG-INFO
+sourmash_mixers.egg-info/SOURCES.txt
+sourmash_mixers.egg-info/dependency_links.txt
+sourmash_mixers.egg-info/requires.txt
+sourmash_mixers.egg-info/top_level.txt
