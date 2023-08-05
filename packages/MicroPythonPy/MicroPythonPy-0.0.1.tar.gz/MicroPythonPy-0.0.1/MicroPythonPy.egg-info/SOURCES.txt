@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+MicroPythonPy.egg-info/PKG-INFO
+MicroPythonPy.egg-info/SOURCES.txt
+MicroPythonPy.egg-info/dependency_links.txt
+MicroPythonPy.egg-info/requires.txt
+MicroPythonPy.egg-info/top_level.txt
