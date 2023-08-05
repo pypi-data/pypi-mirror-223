@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+asgi_cors_middleware/__init__.py
+asgi_cors_middleware/middleware.py
+asgi_cors_middleware.egg-info/PKG-INFO
+asgi_cors_middleware.egg-info/SOURCES.txt
+asgi_cors_middleware.egg-info/dependency_links.txt
+asgi_cors_middleware.egg-info/requires.txt
+asgi_cors_middleware.egg-info/top_level.txt
+tests/test_middleware.py
