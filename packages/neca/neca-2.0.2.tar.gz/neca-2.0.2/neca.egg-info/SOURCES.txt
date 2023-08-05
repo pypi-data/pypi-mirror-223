@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+neca.egg-info/PKG-INFO
+neca.egg-info/SOURCES.txt
+neca.egg-info/dependency_links.txt
+neca.egg-info/entry_points.txt
+neca.egg-info/requires.txt
+neca.egg-info/top_level.txt
