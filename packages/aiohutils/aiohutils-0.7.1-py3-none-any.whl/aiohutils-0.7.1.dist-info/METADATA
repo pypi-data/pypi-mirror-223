@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: aiohutils
+Version: 0.7.1
+Summary: A small library to for aiohttp projects.
+Author-email: 5j9 <5j9@users.noreply.github.com>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Homepage, https://github.com/5j9/aiohutils
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
+Requires-Dist: python-decouple
+
+This library is not intended for public use.
