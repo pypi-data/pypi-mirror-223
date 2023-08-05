@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+LagRochePlot/LagRoche.py
+LagRochePlot/__init__.py
+LagRochePlot.egg-info/PKG-INFO
+LagRochePlot.egg-info/SOURCES.txt
+LagRochePlot.egg-info/dependency_links.txt
+LagRochePlot.egg-info/requires.txt
+LagRochePlot.egg-info/top_level.txt
+tests/test1.py

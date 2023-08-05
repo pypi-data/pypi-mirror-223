@@ -1,0 +1,6 @@
+# Spyder project settings
+.spyproject
+# Pypi
+dist
+LagRochePlot.egg-info
+build
