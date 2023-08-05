@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+src/ccrypto.egg-info/PKG-INFO
+src/ccrypto.egg-info/SOURCES.txt
+src/ccrypto.egg-info/dependency_links.txt
+src/ccrypto.egg-info/requires.txt
+src/ccrypto.egg-info/top_level.txt
