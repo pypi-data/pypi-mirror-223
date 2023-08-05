@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+MyLyric/Lyric_Time_tab.py
+MyLyric/Lyric_character.py
+MyLyric/Lyric_file.py
+MyLyric/Lyric_line.py
+MyLyric/Lyric_line_content.py
+MyLyric/__init__.py
+MyLyric.egg-info/PKG-INFO
+MyLyric.egg-info/SOURCES.txt
+MyLyric.egg-info/dependency_links.txt
+MyLyric.egg-info/top_level.txt
