@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: NBRB-bki-xml-read
+Version: 0.0.1
+Summary: Collection of tools for reading bki.xml files provided by National Bank of the Republic of Belarus. Find out more on https://www.nbrb.by/today/creditregistry/instructions.
+Author-email: kobfedsur@gmail.com
+Requires-Dist: xmltodict
+
