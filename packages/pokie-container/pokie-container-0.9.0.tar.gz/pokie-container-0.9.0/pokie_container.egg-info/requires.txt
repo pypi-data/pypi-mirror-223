@@ -1,0 +1,6 @@
+rick-db>=1.1.2
+rick>=0.6.0
+pokie>=0.4.0
+Flask>=2.3.0
+iso8601>=0.1.16
+setuptools>=60.0.0
