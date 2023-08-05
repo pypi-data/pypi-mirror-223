@@ -1,0 +1,11 @@
+poorman_handshake/__init__.py,sha256=rDVEz1nu431mkoJcw4ovdesaFmqqRK7lcncOiXyRKqo,124
+poorman_handshake/version.py,sha256=LQ7BMz1TA2TzUgh2FlKp0AJrUJolxMaA1KwL6TBGa_I,177
+poorman_handshake/asymmetric/__init__.py,sha256=TEaQrwIb7s3O71FUZF9xE926AqIp1NzQvxJI1mp2BJI,3078
+poorman_handshake/asymmetric/utils.py,sha256=UkURv-rOcU2jfYpGfRIQDtMdT46-ki79N7Jvl00hM5c,1227
+poorman_handshake/symmetric/__init__.py,sha256=yo-G1WNZ97p_63_dxW3qoHN4tOVP_dSZVhLzUTPBGGo,933
+poorman_handshake/symmetric/utils.py,sha256=T26oFRCB9ETEQyYd7cfL9ghPnaXc1tGypW7fEgYq5wY,2018
+poorman_handshake-0.2.2a3.dist-info/LICENSE.md,sha256=X-L6Fie_7XT89H5w6cp_hTW_9moGXkd_cfmqZVG7Lao,11746
+poorman_handshake-0.2.2a3.dist-info/METADATA,sha256=oNBOuKp2o919hLmS0OsW96MIjtToxkXUpRxfiZjJY1A,298
+poorman_handshake-0.2.2a3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+poorman_handshake-0.2.2a3.dist-info/top_level.txt,sha256=W18dOptCfmh2XS1uWlZL01ZR6NQs4VBaYmMaQ2Py0Co,18
+poorman_handshake-0.2.2a3.dist-info/RECORD,,
