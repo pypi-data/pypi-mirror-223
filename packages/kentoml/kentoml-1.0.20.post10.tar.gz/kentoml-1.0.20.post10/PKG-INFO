@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: kentoml
+Version: 1.0.20.post10
+License: Apache-2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Provides-Extra: all
+Provides-Extra: aws
+Provides-Extra: io
+Provides-Extra: io-file
+Provides-Extra: io-json
+Provides-Extra: io-image
+Provides-Extra: io-pandas
+Provides-Extra: triton
+Provides-Extra: grpc
+Provides-Extra: grpc-reflection
+Provides-Extra: grpc-channelz
+Provides-Extra: tracing
+Provides-Extra: tracing-jaeger
+Provides-Extra: tracing-zipkin
+Provides-Extra: tracing-otlp
+Provides-Extra: monitor-otlp
+License-File: LICENSE
