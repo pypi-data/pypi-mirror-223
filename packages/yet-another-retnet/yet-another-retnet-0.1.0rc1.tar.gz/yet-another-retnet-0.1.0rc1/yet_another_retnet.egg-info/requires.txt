@@ -1,0 +1,12 @@
+einops
+torch>=1.8
+
+[test]
+black
+kaleido
+mypy
+pre-commit
+plotly
+pytest
+pytest-cov
+ruff
