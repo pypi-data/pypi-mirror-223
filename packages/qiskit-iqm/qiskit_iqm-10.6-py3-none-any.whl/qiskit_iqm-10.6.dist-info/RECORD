@@ -1,0 +1,15 @@
+qiskit_iqm/__init__.py,sha256=3l3KMy0QWnla8n_q3lyKuSC0pbAK8mEeVYZAkBPKt1w,887
+qiskit_iqm/iqm_backend.py,sha256=iXPpUPBMn1Rvzl6LVjYKX90FHRH0sXxwrF9a1qvTELk,4445
+qiskit_iqm/iqm_job.py,sha256=bRVseTTZfY5-bLnfnnH6Ho0_p7cjEsTfQ4LXACZIfnY,7999
+qiskit_iqm/iqm_provider.py,sha256=wApCAmHjGsTTuZo3iz8XfD91pQ9AShkDDOom5AszvEg,10608
+qiskit_iqm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qiskit_iqm/qiskit_to_iqm.py,sha256=Q0BwVXXr3QPIK1Wa7o-ctPm5xAO1fIs7OnvMoXLruQ4,4102
+qiskit_iqm/fake_backends/__init__.py,sha256=K6P_5JzT5NiBtgnGHl7gDz-DWMm2EuIeHlJ7CAR7zXo,754
+qiskit_iqm/fake_backends/fake_adonis.py,sha256=OQj7uUvqGbo7vZc598fcNxtgS6-fZOW_7x7reuK3-bw,2237
+qiskit_iqm/fake_backends/iqm_fake_backend.py,sha256=WK45xoTRu9kia_SwXO7mNsb8hLkqWffXh5iA0jnWAb0,14468
+qiskit_iqm-10.6.dist-info/AUTHORS.rst,sha256=PbAfeSP8ykKKGY9U-G4VyYSC-wfot4BjdeED1RvqZUA,463
+qiskit_iqm-10.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+qiskit_iqm-10.6.dist-info/METADATA,sha256=UAIKatcH1Ox_sEl2OQEQgiDlw3hhHuFnWQcqpYaEr0M,16234
+qiskit_iqm-10.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+qiskit_iqm-10.6.dist-info/top_level.txt,sha256=_4It1X_guPJd_wn8n2Zb0QN3tCDD1RuL9Dn3mc-MUeo,11
+qiskit_iqm-10.6.dist-info/RECORD,,
