@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: airbyte-source-salesforce
+Version: 2.1.1
+Summary: Source implementation for Salesforce.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Requires-Dist: airbyte-cdk (~=0.2)
+Requires-Dist: vcrpy (==4.1.1)
+Requires-Dist: pandas
+Provides-Extra: tests
+Requires-Dist: pytest (~=6.1) ; extra == 'tests'
+Requires-Dist: pytest-mock (~=3.6) ; extra == 'tests'
+Requires-Dist: requests-mock ; extra == 'tests'
+Requires-Dist: connector-acceptance-test ; extra == 'tests'
+Requires-Dist: pytest-timeout ; extra == 'tests'
+
