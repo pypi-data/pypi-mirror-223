@@ -1,0 +1,8 @@
+README.md
+setup.py
+ernest_test_456/__init__.py
+ernest_test_456/hello_package.py
+ernest_test_456.egg-info/PKG-INFO
+ernest_test_456.egg-info/SOURCES.txt
+ernest_test_456.egg-info/dependency_links.txt
+ernest_test_456.egg-info/top_level.txt
