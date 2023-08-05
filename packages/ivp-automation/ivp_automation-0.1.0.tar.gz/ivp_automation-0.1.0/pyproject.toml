@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ivp-automation"
+version = "0.1.0"
+description = "IVP Analytics Automation"
+authors = ["Apsar Shaik <shaik.apsar@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "ivp_automation"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+bs4 = "^0.0.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
