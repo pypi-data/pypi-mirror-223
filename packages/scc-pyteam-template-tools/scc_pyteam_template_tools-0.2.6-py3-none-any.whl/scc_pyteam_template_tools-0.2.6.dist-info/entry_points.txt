@@ -1,0 +1,5 @@
+[console_scripts]
+create-django-app=scc_pyteam:create_django_app
+create-fastapi-app=scc_pyteam:create_fastapi_app
+welcome=scc_pyteam:welcome
+
