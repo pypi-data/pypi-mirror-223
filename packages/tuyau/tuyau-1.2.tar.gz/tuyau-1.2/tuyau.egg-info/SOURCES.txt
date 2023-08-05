@@ -1,0 +1,10 @@
+LICENSE
+Readme.md
+pyproject.toml
+tests/test_tube.py
+tuyau/__init__.py
+tuyau/tube.py
+tuyau.egg-info/PKG-INFO
+tuyau.egg-info/SOURCES.txt
+tuyau.egg-info/dependency_links.txt
+tuyau.egg-info/top_level.txt
