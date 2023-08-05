@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: finoptim
+Version: 0.0.1
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Summary: A small package to do some finoptim optimisations
+Author-email: Timothée Obrecht <timothee@obrecht.xyz>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/tomtom-internal/sp-ccoe-finops-optimiser
+Project-URL: Bug Tracker, https://github.com/tomtom-internal/sp-ccoe-finops-optimiser/issues
+
+
+
+# FinOps package 
+
+hope it will work
+
+
+python -m pip install --upgrade build
+python -m build
+python -m pip install --upgrade twine
+python -m twine upload --repository pypi dist/*
