@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_case_view_tree" model="ir.ui.view">
+    <field name="name">psychology.case tree</field>
+    <field name="model">psychology.case</field>
+    <field name="mode">primary</field>
+    <field name="inherit_id" ref="ssi_transaction_mixin.mixin_transaction_view_tree" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="partner_id" />
+                <field name="institution_id" />
+                <field name="type_id" />
+                <field name="date" />
+                <field name="currency_id" invisible="1" />
+                <field name="amount_untaxed" optional="hide" />
+                <field name="amount_tax" optional="hide" />
+                <field name="amount_total" />
+                <field name="amount_realized" />
+                <field name="amount_residual" />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_case_view_search" model="ir.ui.view">
+    <field name="name">psychology.case search</field>
+    <field name="model">psychology.case</field>
+    <field name="mode">primary</field>
+    <field
+            name="inherit_id"
+            ref="ssi_transaction_mixin.mixin_transaction_view_search"
+        />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='user_id']" position="after">
+                <field name="partner_id" />
+                <field name="institution_id" />
+                <field name="type_id" />
+                <field name="date" />
+            </xpath>
+            <xpath expr="//group[@name='group_by']" position="inside">
+                <filter
+                        name="grp_partner"
+                        string="Client"
+                        context="{'group_by':'partner_id'}"
+                    />
+                <filter
+                        name="grp_institution"
+                        string="Institution"
+                        context="{'group_by':'institution_id'}"
+                    />
+                <filter
+                        name="grp_type"
+                        string="Type"
+                        context="{'group_by':'type_id'}"
+                    />
+                <filter
+                        name="grp_date"
+                        string="Date Visit"
+                        context="{'group_by':'date'}"
+                    />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_case_view_form" model="ir.ui.view">
+    <field name="name">psychology.case form</field>
+    <field name="model">psychology.case</field>
+    <field name="mode">primary</field>
+    <field name="inherit_id" ref="ssi_transaction_mixin.mixin_transaction_view_form" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='user_id']" position="after">
+                <field name="partner_id" />
+                <field name="institution_id" />
+                <field name="type_id" />
+                <field name="usage_id" invisible="1" />
+                <field
+                        name="allowed_product_categ_ids"
+                        widget="many2many_tags"
+                        invisible="1"
+                    />
+                <field
+                        name="allowed_product_ids"
+                        widget="many2many_tags"
+                        invisible="1"
+                    />
+                <field name="date" />
+            </xpath>
+            <xpath expr="//group[@name='header_right']" position="inside">
+                <field name="currency_id" />
+                <field
+                        name="allowed_pricelist_ids"
+                        widget="many2many_tags"
+                        invisible="1"
+                    />
+                <field
+                        name="pricelist_id"
+                        domain="[('id','in',allowed_pricelist_ids)]"
+                    />
+            </xpath>
+            <xpath expr="//page[1]" position="before">
+                <page name="service" string="Services">
+                    <button
+                            name="action_compute_tax"
+                            string="Recompute Tax"
+                            type="object"
+                            class="oe_highlight"
+                            icon="fa-calculator"
+                            states="open"
+                        />
+                    <field
+                            name="service_ids"
+                            context="{'default_currency_id': currency_id, 'default_pricelist_id': pricelist_id, 'default_usage_id': usage_id}"
+                        >
+                        <tree>
+                            <field name="sequence" widget="handle" />
+                            <field name="product_id" invisible="1" />
+                            <field name="name" />
+                            <field name="account_id" optional="hide" />
+                            <field name="currency_id" invisible="1" />
+                            <field name="pricelist_id" invisible="1" />
+                            <field name="price_unit" />
+                            <field name="uom_quantity" string="Quantity" />
+                            <field name="uom_id" />
+                            <field name="quantity" invisible="1" />
+                            <field name="price_subtotal" />
+                            <field
+                                    name="tax_ids"
+                                    widget="many2many_tags"
+                                    optional="hide"
+                                />
+                            <field name="price_tax" />
+                            <field name="price_total" />
+                        </tree>
+                        <form>
+                            <header />
+                            <sheet>
+                                <group name="service" colspan="4" col="2">
+                                    <group name="service_1" colspan="1" col="2">
+                                        <field
+                                                name="product_id"
+                                                domain="['|',('id','in',parent.allowed_product_ids),('categ_id','in',parent.allowed_product_categ_ids)]"
+                                            />
+                                        <field name="name" />
+                                        <field name="usage_id" />
+                                        <field name="account_id" />
+                                    </group>
+                                    <group name="service_2" colspan="1" col="2">
+                                        <field
+                                                name="allowed_uom_ids"
+                                                widget="many2many_tags"
+                                                invisible="1"
+                                            />
+                                        <label for="uom_quantity" string="Quantity" />
+                                        <div>
+                                            <field
+                                                    name="uom_quantity"
+                                                    class="oe_inline"
+                                                />
+                                            <field
+                                                    name="uom_id"
+                                                    domain="[('id','in',allowed_uom_ids)]"
+                                                    attrs="{'required':[('product_id','!=',False)]}"
+                                                    class="oe_inline"
+                                                />
+                                        </div>
+                                        <field name="quantity" invisible="1" />
+                                        <field
+                                                name="currency_id"
+                                                force_save="1"
+                                                invisible="1"
+                                            />
+                                        <field
+                                                name="allowed_pricelist_ids"
+                                                widget="many2many_tags"
+                                                invisible="1"
+                                            />
+                                        <field
+                                                name="pricelist_id"
+                                                domain="[('id','in',allowed_pricelist_ids)]"
+                                                force_save="1"
+                                                invisible="1"
+                                            />
+                                        <field name="price_unit" />
+                                        <field name="price_subtotal" />
+                                        <field name="tax_ids" widget="many2many_tags" />
+                                        <field name="price_tax" />
+                                        <field name="price_total" />
+                                        <field name="account_move_line_id" />
+                                    </group>
+                                </group>
+                            </sheet>
+                        </form>
+                    </field>
+                    <group name="service" colspan="4" col="2">
+                        <field name="amount_untaxed" />
+                        <field name="amount_tax" />
+                        <field name="amount_total" />
+                        <field name="amount_realized" />
+                        <field name="amount_residual" />
+                    </group>
+                </page>
+                <page name="accounting" string="Accounting">
+                    <group name="accounting_1" colspan="4" col="2">
+                        <field name="receivable_journal_id" />
+                        <field name="receivable_account_id" />
+                        <field name="date_due" />
+                    </group>
+                    <group name="accounting_2" colspan="4" col="2">
+                        <field name="move_id" />
+                        <field name="receivable_move_line_id" />
+                        <field name="reconciled" />
+                    </group>
+                    <field name="tax_ids">
+                        <tree editable="top">
+                            <field name="tax_id" />
+                            <field name="currency_id" invisible="1" />
+                            <field name="account_id" />
+                            <field name="manual" />
+                            <field name="base_amount" />
+                            <field name="tax_amount" />
+                        </tree>
+                        <form>
+                            <group name="tax" colspan="4" col="2">
+                                <field name="tax_id" />
+                                <field name="currency_id" invisible="1" />
+                                <field name="account_id" />
+                                <field name="manual" />
+                                <field name="base_amount" />
+                                <field name="tax_amount" />
+                                <field name="account_move_line_id" />
+                            </group>
+                        </form>
+                    </field>
+                </page>
+                <page name="analytic" string="Analytic">
+                    <group name="analytic_1" colspan="4" col="2">
+                        <field name="auto_create_aa" />
+                        <field name="analytic_group_id" />
+                        <field name="analytic_account_id" />
+                    </group>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_case_action" model="ir.actions.act_window">
+    <field name="name">Cases</field>
+    <field name="res_model">psychology.case</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="menu_psychology_case"
+        name="Cases"
+        parent="ssi_psychology.menu_root_psychology"
+        groups="psychology_case_viewer_group"
+        action="psychology_case_action"
+        sequence="10"
+    />
+
+</odoo>
