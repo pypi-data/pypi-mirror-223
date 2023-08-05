@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+ipywidgets
+scikit-image
+jupyter
+opencv-python
+joblib
+tqdm
+pandas
+absl-py
