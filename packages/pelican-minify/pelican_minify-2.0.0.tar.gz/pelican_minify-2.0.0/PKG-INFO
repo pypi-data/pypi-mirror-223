@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pelican-minify
+Version: 2.0.0
+Summary: Pelican plugin to minify HTML, CSS and Javascript
+Project-URL: Homepage, https://github.com/pelican-plugins/minify
+Project-URL: Issue Tracker, https://github.com/pelican-plugins/minify/issues
+Project-URL: Funding, https://donate.getpelican.com/
+Author-email: Alexander Herrmann <106409+dArignac@users.noreply.github.com>, Justin Mayer <entroP@gmail.com>, Ysard <ysard@users.noreply.github.com>
+License: MIT
+License-File: LICENSE
+Keywords: css,html,javascript,minification,minify,pelican,plugin
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Framework :: Pelican
+Classifier: Framework :: Pelican :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <4.0,>=3.8.1
+Requires-Dist: minify-html>=0.10.8
+Requires-Dist: pelican>=4.5
+Provides-Extra: markdown
+Requires-Dist: markdown>=3.4; extra == 'markdown'
+Description-Content-Type: text/markdown
+
+Minify: A Plugin for Pelican
+============================
+
+[![Build Status](https://img.shields.io/github/actions/workflow/status/pelican-plugins/minify/main.yml?branch=main)](https://github.com/pelican-plugins/minify/actions)
+[![PyPI Version](https://img.shields.io/pypi/v/pelican-minify)](https://pypi.org/project/pelican-minify/)
+![License](https://img.shields.io/pypi/l/pelican-minify?color=blue)
+
+This Pelican plugin can compress HTML & CSS files as well as inline CSS and JavaScript in HTML files.
+
+Requirements
+------------
+
+Because this plugin depends on the [`minify-html`](https://pypi.org/project/minify-html) Python package, which in turn utilizes the Rust-based [`minify-html`](https://github.com/wilsonzlin/minify-html) project, you must have Cargo (the Rust package manager) installed and available on your `PATH`. Rust and Cargo can be installed on Mac systems via Homebrew:
+
+    brew install rust
+
+Alternatively, Rust and Cargo can be installed via your particular system’s package manager or via: <https://rustup.rs/>
+
+Installation
+------------
+
+This plugin can be installed via:
+
+    python -m pip install pelican-minify
+
+As long as you have not explicitly added a `PLUGINS` setting to your Pelican settings file, then the newly-installed plugin should be automatically detected and enabled. Otherwise, you must add `minify` to your existing `PLUGINS` list. For more information, please see the [How to Use Plugins](https://docs.getpelican.com/en/latest/plugins.html#how-to-use-plugins) documentation.
+
+Usage
+-----
+
+By default, all HTML and CSS files will be compressed, including inline JavaScript and CSS rules in `<script>` and `<style>` tags.
+
+To configure the behavior of the plugin, add the following variables in your Pelican settings file (values shown here are the default values):
+
+```python
+CSS_MIN = True
+HTML_MIN = True
+INLINE_CSS_MIN = True
+INLINE_JS_MIN = True
+```
+
+Please note that `INLINE_CSS_MIN` and `INLINE_JS_MIN` require that `HTML_MIN` be enabled.
+
+Contributing
+------------
+
+Contributions are welcome and much appreciated. Every little bit helps. You can contribute by improving the documentation, adding missing features, and fixing bugs. You can also help out by reviewing and commenting on [existing issues][].
+
+To start contributing to this plugin, review the [Contributing to Pelican][] documentation, beginning with the **Contributing Code** section.
+
+[existing issues]: https://github.com/pelican-plugins/minify/issues
+[Contributing to Pelican]: https://docs.getpelican.com/en/latest/contribute.html
+
+License
+-------
+
+This project is licensed under the MIT license.
