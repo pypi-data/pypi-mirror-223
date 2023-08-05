@@ -1,0 +1,11 @@
+aiogram_translation/__init__.py,sha256=U-GRsogX798U3suX_xdkVdkEEtT2D5kUTIMrCMOpZYM,89
+aiogram_translation/_translator.py,sha256=02hwRQC1BvmOndOtCLl5K0cNWvR-6vUfJuomKfV8ONU,2242
+aiogram_translation/errors.py,sha256=iuMKVf2gxcW0g-NknnuJoU8H6_-l3fIxBr4fBBBc-hE,113
+aiogram_translation/models.py,sha256=Vg808mQtK3A8I-KIx6vhCbO3XQXwuHgOC6M27cQPApk,323
+aiogram_translation/middlewares/TranslationMiddleware.py,sha256=ypHFI59bf-vhvloHdPBhykSx_8K7fWveshiWtJxrGAM,1153
+aiogram_translation/middlewares/__init__.py,sha256=n-a7A0WVPHVolO5bUEEZrOtmaIwg6yEvhrOnflC9IGk,87
+aiogram_translation-1.2.2.1.dist-info/LICENSE,sha256=_8-zlXumcZxxmnCHzuLIZsysc65fmSW36dleDMnDW_A,1096
+aiogram_translation-1.2.2.1.dist-info/METADATA,sha256=QeP9dS-ebuG9-4gh-XXXErPukJ5ye7IlXoF0F-Im0B0,4421
+aiogram_translation-1.2.2.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+aiogram_translation-1.2.2.1.dist-info/top_level.txt,sha256=ThR13CAPv5_F9nlSb_XrtHllgG4AdS8ZpUsjSmoVL7k,20
+aiogram_translation-1.2.2.1.dist-info/RECORD,,
