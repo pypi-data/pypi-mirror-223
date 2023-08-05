@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: nichord
+Version: 0.2.5
+Summary: Creates chord diagrams for connectivity/graph data
+Home-page: https://github.com/paulcbogdan/NiChord
+Author: paulcbogdan
+Author-email: paulcbogdan@gmail.com
+License: MIT
+Keywords: plotting,fmri,plotting,chord
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: nilearn
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pillow
+
+`NiChord` is a Python package for visualizing functional connectivity data. To find out more about the package and see a package, take a look at its [GitHub repo](https://github.com/paulcbogdan/NiChord)
