@@ -1,0 +1,4 @@
+sinetstream>=1.7.0
+sinetstream-kafka>=1.7.0
+sinetstream-mqtt>=1.7.0
+sinetstream-s3>=1.7.0
