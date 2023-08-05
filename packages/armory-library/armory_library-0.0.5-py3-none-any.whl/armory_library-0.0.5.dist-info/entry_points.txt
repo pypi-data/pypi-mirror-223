@@ -1,0 +1,2 @@
+[console_scripts]
+charmory = charmory.main:main
