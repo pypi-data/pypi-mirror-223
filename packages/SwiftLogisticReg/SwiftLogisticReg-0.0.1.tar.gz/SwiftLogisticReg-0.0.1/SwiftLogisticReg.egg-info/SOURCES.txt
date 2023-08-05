@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+SwiftLogisticReg/__init__.py
+SwiftLogisticReg/logistic_cpu.py
+SwiftLogisticReg/logistic_gpu.py
+SwiftLogisticReg.egg-info/PKG-INFO
+SwiftLogisticReg.egg-info/SOURCES.txt
+SwiftLogisticReg.egg-info/dependency_links.txt
+SwiftLogisticReg.egg-info/top_level.txt
