@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dfv
+Version: 0.9.0
+Summary: Django Function Views
+Author: Roman Roelofsen
+Author-email: romanroe@gmail.com
+Requires-Python: >=3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: django (==4.2.4)
+Requires-Dist: django-htmx (>=1.14.0,<2.0.0)
+Requires-Dist: lxml (>=4.9.2,<5.0.0)
+Requires-Dist: typeguard
+Requires-Dist: wrapt (>=1.15.0,<2.0.0)
