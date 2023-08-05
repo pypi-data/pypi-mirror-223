@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+
+<record id="psychology_consultation_view_form" model="ir.ui.view">
+    <field name="name">psychology_consultation form</field>
+    <field name="model">psychology_consultation</field>
+    <field name="mode">extension</field>
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_consultation.psychology_consultation_view_form"
+        />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='date']" position="after">
+                <field name="outsource_work_id" />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+</odoo>
