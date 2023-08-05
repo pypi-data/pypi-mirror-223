@@ -1,0 +1,3 @@
+[console_scripts]
+kperm=kperm.__main__:main
+
