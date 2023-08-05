@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: deker-local-adapters
+Version: 1.0.1b0
+Summary: Plugin with local adapters for deker
+Author-email: OpenWeather <info@openweathermap.org>
+Maintainer-email: OpenWeather <info@openweathermap.org>
+License: GPL-3.0-only
+Project-URL: Homepage, https://deker.io/
+Project-URL: Documentation, https://docs.deker.io/
+Project-URL: Repository, https://github.com/openweathermap/deker-local-adapters
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Deker local adapters
+
+**Deker local adapters** is an official native plugin for [Deker](https://github.com/openweathermap/deker), 
+which provides support for embedded storage management.
+
+Check out [Deker documentation](https://docs.deker.io) for more details.
