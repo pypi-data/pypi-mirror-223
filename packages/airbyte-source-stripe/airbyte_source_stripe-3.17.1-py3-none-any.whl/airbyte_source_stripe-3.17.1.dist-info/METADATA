@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: airbyte-source-stripe
+Version: 3.17.1
+Summary: Source implementation for Stripe.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Requires-Dist: airbyte-cdk
+Requires-Dist: stripe (==2.56.0)
+Requires-Dist: pendulum (==2.1.2)
+Provides-Extra: tests
+Requires-Dist: pytest (~=6.1) ; extra == 'tests'
+Requires-Dist: requests-mock ; extra == 'tests'
+Requires-Dist: requests-mock (~=1.8) ; extra == 'tests'
+Requires-Dist: connector-acceptance-test ; extra == 'tests'
+
