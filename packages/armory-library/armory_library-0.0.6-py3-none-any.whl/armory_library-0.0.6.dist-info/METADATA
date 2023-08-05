@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: armory-library
+Version: 0.0.6
+Project-URL: Documentation, https://github.com/mwartell/armory-library#readme
+Project-URL: Issues, https://github.com/mwartell/armory-library/issues
+Project-URL: Source, https://github.com/mwartell/armory-library
+Author-email: matt wartell <matt.wartell@twosixtech.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Requires-Dist: black
+Requires-Dist: pytest
+Description-Content-Type: text/markdown
+
+# armory-library
+
+This is a placeholder for the release of armory-library expected in 2023
+
+[![PyPI - Version](https://img.shields.io/pypi/v/armory-library.svg)](https://pypi.org/project/armory-library)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/armory-library.svg)](https://pypi.org/project/armory-library)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install armory-library
+```
+
+## License
+
+`armory-library` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
