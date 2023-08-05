@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hypymedia
+Version: 0.1.11
+Summary: HTML creation via Python for HATEOAS applications. #hypermediaFTW
+Author: Tel Stupple
+Author-email: telstupple@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Homepage, https://github.com/telboyWA/hypymedia
+Description-Content-Type: text/markdown
+
+# hypymedia
