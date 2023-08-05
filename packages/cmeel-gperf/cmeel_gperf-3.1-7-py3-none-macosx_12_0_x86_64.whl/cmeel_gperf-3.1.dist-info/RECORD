@@ -1,0 +1,10 @@
+cmeel.prefix/bin/gperf,sha256=jF6oFT0yJMAkdcspSghN14ZFc72JfQFzL2qy6pITpZk,151824
+cmeel.prefix/share/cmeel-gperf/README.md,sha256=6hjccLV6MnQwY-IFrsICYzwdPtDZC1_4se93cqu0ff4,363
+cmeel.prefix/share/doc/gperf.html,sha256=1SFxPi7B48OylCDLVQ_rjqoZUtf3xXj4AYqQccYyKs0,106268
+cmeel.prefix/share/info/gperf.info,sha256=lkE3ymijEVlBmZdjlyjUDXxKnO6hKikBLBSQ-u107_o,100891
+cmeel.prefix/share/man/man1/gperf.1,sha256=LM9Hfdm2xhcYl7rY8KdjZmC-UUrkvCSN-N8JpuM1YHU,7400
+cmeel_gperf-3.1.data/scripts/gperf,sha256=PpYesvgqJlecFwlWPl9JzKAGNORatbR_UMYGzAictJE,53
+cmeel_gperf-3.1.dist-info/METADATA,sha256=BkFMIvrTfLaSViI_5YosK1v161MitO0ZOSUcsv_EwHM,769
+cmeel_gperf-3.1.dist-info/WHEEL,sha256=9aUjGANuzx2tSUwEPi41xxuqcL-odr7mgW2IjQU_cXw,109
+cmeel_gperf-3.1.dist-info/top_level.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmeel_gperf-3.1.dist-info/RECORD,,
