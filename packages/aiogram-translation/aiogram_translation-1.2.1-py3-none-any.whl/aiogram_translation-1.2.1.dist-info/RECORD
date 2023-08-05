@@ -1,0 +1,10 @@
+aiogram_translation/__init__.py,sha256=U-GRsogX798U3suX_xdkVdkEEtT2D5kUTIMrCMOpZYM,89
+aiogram_translation/_translator.py,sha256=02hwRQC1BvmOndOtCLl5K0cNWvR-6vUfJuomKfV8ONU,2242
+aiogram_translation/errors.py,sha256=iuMKVf2gxcW0g-NknnuJoU8H6_-l3fIxBr4fBBBc-hE,113
+aiogram_translation/models.py,sha256=Vv2TogN3kqZt4EJgaFyJMFxSFfjL7KOUWnkASsa5a7w,177
+aiogram_translation/middlewares/TranslationMiddleware.py,sha256=ypHFI59bf-vhvloHdPBhykSx_8K7fWveshiWtJxrGAM,1153
+aiogram_translation/middlewares/__init__.py,sha256=n-a7A0WVPHVolO5bUEEZrOtmaIwg6yEvhrOnflC9IGk,87
+aiogram_translation-1.2.1.dist-info/METADATA,sha256=wau-z3ueCYfy32FCcshq3N1Ram2TVAbW0j7GyPVAwns,4396
+aiogram_translation-1.2.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+aiogram_translation-1.2.1.dist-info/top_level.txt,sha256=ThR13CAPv5_F9nlSb_XrtHllgG4AdS8ZpUsjSmoVL7k,20
+aiogram_translation-1.2.1.dist-info/RECORD,,
