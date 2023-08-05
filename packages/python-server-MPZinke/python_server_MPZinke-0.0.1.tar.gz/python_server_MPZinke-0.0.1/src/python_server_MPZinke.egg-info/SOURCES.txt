@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/python_server_MPZinke/__init__.py
+src/python_server_MPZinke.egg-info/PKG-INFO
+src/python_server_MPZinke.egg-info/SOURCES.txt
+src/python_server_MPZinke.egg-info/dependency_links.txt
+src/python_server_MPZinke.egg-info/top_level.txt
