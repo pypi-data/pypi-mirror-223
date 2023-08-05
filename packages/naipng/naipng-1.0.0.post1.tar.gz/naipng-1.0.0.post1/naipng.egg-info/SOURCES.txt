@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+naipng/__init__.py
+naipng/__main__.py
+naipng.egg-info/PKG-INFO
+naipng.egg-info/SOURCES.txt
+naipng.egg-info/dependency_links.txt
+naipng.egg-info/entry_points.txt
+naipng.egg-info/top_level.txt
