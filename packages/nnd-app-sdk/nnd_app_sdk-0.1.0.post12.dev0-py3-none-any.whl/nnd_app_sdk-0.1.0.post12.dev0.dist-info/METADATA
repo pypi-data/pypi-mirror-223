@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nnd-app-sdk
+Version: 0.1.0.post12.dev0
+Summary: Package containing common functions for developing Nom Nom Data Apps.
+Home-page: https://www.nomnomdata.com/
+License: LGPL-3.0-only
+Author: Nom Nom Data Inc
+Author-email: info@nomnomdata.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (==1.9.2)
+Requires-Dist: selenium (==4.8.2)
+Requires-Dist: webdriver-manager (==3.8.5)
+Description-Content-Type: text/markdown
+
+# nnd-app-sdk
+Common functions for NND Apps.
+
+## Installation
+`pip install nnd-app-sdk`
+
