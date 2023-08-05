@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2018",
+    "outDir": "lib",
+    "allowSyntheticDefaultImports": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "preserveWatchOutput": true,
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "strict": true,
+    "types": [],
+    "jsx": "react"
+  },
+  "include": ["src/*"]
+}
