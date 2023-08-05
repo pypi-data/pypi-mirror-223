@@ -1,0 +1,11 @@
+sinetstream>=1.8.1
+opencv-python
+
+[:python_version < "3.8"]
+numpy<1.22.0
+
+[:python_version >= "3.8" and python_version < "3.9"]
+numpy<1.25.0,>=1.22.0
+
+[:python_version >= "3.9"]
+numpy
