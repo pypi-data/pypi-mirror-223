@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pybotterfly"
+version = "0.1.5"
+description = "Build multi-messenger chatbots with ease using our scalable Python library, designed to simplify listener integration for various platforms"
+authors = ["Ninzalo <k-artemiy@mail.ru>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+black = "^23.7.0"
+emoji = "^2.7.0"
+aiogram = "^2.25.1"
+vkbottle = "^4.3.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
