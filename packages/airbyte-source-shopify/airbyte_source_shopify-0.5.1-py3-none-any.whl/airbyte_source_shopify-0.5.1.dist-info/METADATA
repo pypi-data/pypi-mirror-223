@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: airbyte-source-shopify
+Version: 0.5.1
+Summary: Source CDK implementation for Shopify.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Requires-Dist: airbyte-cdk
+Requires-Dist: sgqlc (~=16.0)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-mock ; extra == 'tests'
+Requires-Dist: requests-mock ; extra == 'tests'
+Requires-Dist: connector-acceptance-test ; extra == 'tests'
+
