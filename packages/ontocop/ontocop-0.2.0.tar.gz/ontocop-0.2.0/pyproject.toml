@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "ontocop"
+version = "0.2.0"
+description = "A toolbox for checking ontologies"
+authors = ["Lukas Müller <hello@lukasmu.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://gitlab.com/lukasmu/ontocop"
+keywords = ["ontology" ,"rdf", "owl"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+rdflib = "^7.0.0"
+lxml = "^4.9.3"
+owlready2 = "^0.44"
+requests = "^2.31.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+pre-commit = "^3.3.3"
+pytest-cov = "^4.1.0"
+types-requests = "^2.31.0.2"
+mypy = "^1.4.1"
+lxml-stubs = "^0.4.0"
+
+
+[tool.poetry.scripts]
+ontocop = 'ontocop:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.vulture]
+paths = ["ontocop"]
+min_confidence = 70
