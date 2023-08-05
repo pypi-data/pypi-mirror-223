@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+
+[docs]
+mkdocs-material
+
+[test]
+pytest
+black
