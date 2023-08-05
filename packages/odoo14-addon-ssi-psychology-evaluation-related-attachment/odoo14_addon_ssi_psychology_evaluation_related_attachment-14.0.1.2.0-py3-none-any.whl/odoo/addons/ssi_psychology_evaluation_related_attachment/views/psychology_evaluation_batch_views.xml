@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_evaluation_batch_view_form" model="ir.ui.view">
+    <field name="name">psychology.evaluation_batch form</field>
+    <field name="model">psychology.evaluation_batch</field>
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_batch_view_form"
+        />
+    <field name="arch" type="xml">
+      <data>
+          <xpath expr="//page[@name='tier_validation']" position="before">
+            <page name="page_related_attachment" string="Related Attachment">
+                <group name="grp_related_attachment_1" colspan="4" col="2">
+                    <field
+                                name="allowed_related_attachment_template_ids"
+                                widget="many2many_tags"
+                                invisible="1"
+                            />
+                    <label for="related_attachment_template_id" string="Template" />
+                    <div>
+                        <field
+                                    name="related_attachment_template_id"
+                                    domain="[('id','in',allowed_related_attachment_template_ids)]"
+                                />
+                        <br />
+                        <button
+                                    name="action_reload_rel_attachment_template"
+                                    string="Reload Template"
+                                    type="object"
+                                    class="oe_highlight"
+                                    icon="fa-refresh"
+                                />
+                    </div>
+                </group>
+                <field
+                            name="related_attachment_ids"
+                            nolabel="1"
+                            readonly="1"
+                            force_save="1"
+                        />
+                <button
+                            name="action_reload_rel_attachment_detail"
+                            string="Reload Details"
+                            type="object"
+                            class="oe_highlight"
+                            icon="fa-refresh"
+                        />
+            </page>
+
+          </xpath>
+      </data>
+    </field>
+</record>
+</odoo>
