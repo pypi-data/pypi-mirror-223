@@ -1,0 +1,3 @@
+test/gce/scenarios/linux/molecule.yml yaml[line-length]
+test/gce/scenarios/windows/molecule.yml yaml[line-length]
+test/roles/ec2plugin/molecule/default/create.yml no-handler
