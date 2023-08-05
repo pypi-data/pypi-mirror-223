@@ -1,0 +1,17 @@
+kedro~=0.18.0
+requests~=2.20
+
+[test]
+bandit<2.0,>=1.6.2
+behave
+black~=22.0
+flake8
+isort<5.0,>=4.3.21
+pre-commit<2.0,>=1.17.0
+pylint<3.0,>=2.5.2
+pytest
+pytest-cov
+pytest-mock
+pytest-xdist[psutil]~=2.2.1
+trufflehog<3.0,>=2.1.0
+wheel
