@@ -1,0 +1,8 @@
+datalaboauthenticator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datalaboauthenticator/datalab.py,sha256=urkhfpxCPSOyr_Seb2fc_MAMlMAaNXK9KIEho8RsS64,3330
+jupyterhub_datalaboauthenticator-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jupyterhub_datalaboauthenticator-1.0.dist-info/METADATA,sha256=1LMnObH2X2vyGoBKOFr6C0RRnx-CAzAFbnEKScYTobY,2640
+jupyterhub_datalaboauthenticator-1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+jupyterhub_datalaboauthenticator-1.0.dist-info/entry_points.txt,sha256=RzmrubPizflfpRprTuRReHYMAOgyZ-4fRKW1z0fr3q0,97
+jupyterhub_datalaboauthenticator-1.0.dist-info/top_level.txt,sha256=RsIVGIQkH8GRcQ1i9nAkOzGaubPgFyIpkgz_yPMapQQ,22
+jupyterhub_datalaboauthenticator-1.0.dist-info/RECORD,,

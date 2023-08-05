@@ -1,0 +1,3 @@
+[jupyterhub.authenticators]
+datalab-oauth = datalaboauthenticator.datalab:DatalabOAuthenticator
+
