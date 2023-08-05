@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: japick
+Version: 0.4.0
+Home-page: https://shodo.ink/
+Author: ZenProducts Inc.
+Author-email: info@shodo.ink
+Provides-Extra: tests
