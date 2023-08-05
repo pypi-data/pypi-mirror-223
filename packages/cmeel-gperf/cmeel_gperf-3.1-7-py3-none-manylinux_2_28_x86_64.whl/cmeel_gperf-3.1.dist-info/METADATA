@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cmeel-gperf
+Version: 3.1
+Summary: cmeel distribution for gperf
+Requires-Python: >= 3.8
+License-Expression: GPL-3.0-only
+Home-page: https://github.com/cmake-wheel/cmeel-gperf
+Project-URL: Repository, https://github.com/cmake-wheel/cmeel-gperf.git
+Requires-Dist: cmeel
+Provides-Extra: build
+Requires-Dist: cmeel-texinfo ; extra == "build"
+Description-Content-Type: text/markdown
+
+# CMeel gperf
+
+[![PyPI version](https://badge.fury.io/py/cmeel-gperf.svg)](https://pypi.org/project/cmeel-gperf)
+[![Release](https://github.com/cmake-wheel/cmeel-gperf/actions/workflows/release.yml/badge.svg)](https://github.com/cmake-wheel/cmeel-gperf/actions/workflows/release.yml)
+
+[gperf](https://www.gnu.org/software/gperf/) distribution for cmeel packages.
