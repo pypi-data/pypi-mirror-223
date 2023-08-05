@@ -1,0 +1,9 @@
+numpy>=1.12
+scipy>=1.5
+sqlalchemy>=1.4
+
+[doc]
+sphinx
+
+[test]
+pytest
