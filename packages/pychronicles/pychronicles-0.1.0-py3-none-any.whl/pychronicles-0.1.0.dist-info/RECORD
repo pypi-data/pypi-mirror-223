@@ -1,0 +1,12 @@
+pychronicles/__init__.py,sha256=QRCqxAFMSPZqseL310WrqvgHH4uzwGyVwGcvLI7UAco,462
+pychronicles/abstraction.py,sha256=GJ02bfET21sNfqMvQoQv2wYICN0t-dqmC1lFUjr6vqw,5418
+pychronicles/chronicle.py,sha256=wkEsgQrS7QYeMRrVLLP9NKC7-Q1drveYoZMh4C0vVHE,35547
+pychronicles/fchronicle.py,sha256=drlWMTNa2aIxLY1gUCEhMPDNIaSF6q8HlHMjC-_HB5Y,12520
+pychronicles/mining/chronicle_mining.py,sha256=LSb_cYnHNmyJX70LXxEGpffUTekxJv4CHo4E5RLD4ps,6003
+pychronicles/mtlformula.py,sha256=eCm6xoC6Wt5V0RZ3snWvTfCn9D-FNF35QWHimFN0hz0,6535
+pychronicles/pandas_tpatterns.py,sha256=_biDSfk6YN80AlxDjavqiXLU5oemvc5516d1mlVmmbg,14527
+pychronicles/timedsequence.py,sha256=E50OHO98oAKwRGU6Y8A10WxDwgr4kMJvJEX1iWmZeMo,7652
+pychronicles/utils.py,sha256=8Q4EdNdvWKvzC-HVPuqJ_vYRYdYfU-72UIF7crWE3Bw,3872
+pychronicles-0.1.0.dist-info/METADATA,sha256=rUE6KS6eXp0iICgo9m5OhBrtngNFG4WdRGgtikG2tmA,16276
+pychronicles-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+pychronicles-0.1.0.dist-info/RECORD,,
