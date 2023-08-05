@@ -1,0 +1,2 @@
+[console_scripts]
+spikewrap = spikewrap.command_line_interface:main
