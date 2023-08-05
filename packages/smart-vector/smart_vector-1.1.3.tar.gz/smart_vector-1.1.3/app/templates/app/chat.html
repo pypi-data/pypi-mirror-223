@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, viewport-fit=cover" />
+    <title>智能助理</title>
+    <link rel="stylesheet" href="/static/chatui/sdk.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+<script src="/static/chatui/sdk.js"></script>
+<script src="/static/chatui/icon.js" async></script>
+<script>
+var bot = new ChatSDK({
+config: {
+    navbar: {
+      logo: '/static/smartui/img/smartviplogo.png',
+      title: '智能助手',
+    },
+    // 头像白名单
+    avatarWhiteList: ['knowledge', 'recommend'],
+    // 机器人信息
+    robot: {
+      avatar:
+        'https://gw.alicdn.com/tfs/TB1U7FBiAT2gK0jSZPcXXcKkpXa-108-108.jpg',
+    },
+    // 首屏消息
+    messages: [
+      {
+        type: 'system',
+        content: {
+          text: '智能助理进入对话，为您服务',
+        },
+      },
+      {
+        type: 'text',
+        content: {
+          text: '智能助理为您服务，请问有什么可以帮您？',
+        },
+      },
+      {
+        type: 'card',
+        content: {
+          code: 'switch-location',
+        },
+      },
+    ],
+    // 快捷短语
+    quickReplies: [
+      { name: '健康码颜色' },
+      { name: '入浙通行申报' },
+      { name: '健康码是否可截图使用' },
+      { name: '健康通行码适用范围' },
+      { name: '最美战疫人有哪些权益' },
+    ],
+    // 输入框占位符
+    placeholder: '输入任何您的问题',
+    // 侧边栏
+    sidebar: [
+      {
+        title: '公告',
+        code: 'richtext',
+        data: {
+          text:
+            '<p>这里是富文本内容，支持<a href="https://chatui.io/sdk/getting-started">链接</a>，可展示图片<img src="https://gw.alicdn.com/tfs/TB17TaySSzqK1RjSZFHXXb3CpXa-80-80.svg" /></p>',
+        },
+      },
+    ],
+  },
+  requests: {
+    send: function (msg) {
+      if (msg.type === 'text') {
+        return {
+          url: '/app/chatui_ask',
+          data: {
+            q: msg.content.text
+          }
+        };
+      }
+    }
+  }
+});
+
+bot.run();
+</script>
+</html>

@@ -1,0 +1,9 @@
+smartchart
+pyyaml
+pdfplumber
+python-docx
+requests
+django
+tqdm
+chardet
+openai
