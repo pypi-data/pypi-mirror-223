@@ -1,0 +1,13 @@
+diffusion_curvature/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+diffusion_curvature/_modidx.py,sha256=rfdB1llFPuwYIATDMIQqNR1nff9W2dho4mKeCxaQtBM,9437
+diffusion_curvature/core.py,sha256=XvYRFJnboqMdZHx5H7r0_lA-3XPdhaQT2VEq4mdIHEg,142
+diffusion_curvature/datasets.py,sha256=zlmDJQsY-kx01pNFmhmT1uaJRNNmPu4ihmuI4qJMYtw,7810
+diffusion_curvature/distances.py,sha256=bofNcdoq7Mruo0uMYiEYYPE03b2Va5kjrmajS_SSfAk,760
+diffusion_curvature/graphtools.py,sha256=_nb1ubsLtHReOHaqBYqIz2SVEAumrzfjSKU3vUQV6Xg,8073
+diffusion_curvature/kernels.py,sha256=zEEoRCmBjMgvVw1G-hA2eECIS7SzPi6_nQRnZBRhfSc,5648
+diffusion_curvature-0.0.1.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+diffusion_curvature-0.0.1.dist-info/METADATA,sha256=BrjqZHYXh0CQKJC6YG6qP5G5r7fSpKnr7aDH4RFEVyo,4643
+diffusion_curvature-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+diffusion_curvature-0.0.1.dist-info/entry_points.txt,sha256=WLDaHHOnUgkh5iAyc-qV2f0Gq-LFVla42t17ituSI8s,60
+diffusion_curvature-0.0.1.dist-info/top_level.txt,sha256=4vtiuoBDPb3RGIXKWNJ0P-ckXlQ_szjJZIWRvnK5jYw,20
+diffusion_curvature-0.0.1.dist-info/RECORD,,
