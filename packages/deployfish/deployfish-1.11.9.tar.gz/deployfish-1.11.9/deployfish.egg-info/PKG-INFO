@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: deployfish
+Version: 1.11.9
+Summary: AWS ECS related deployment tools
+Home-page: https://github.com/caltechads/deployfish
+Author: Caltech IMSS ADS
+Author-email: imss-ads-staff@caltech.edu
+Project-URL: Documentation, https://deployfish.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/caltechads/deployfish
+Project-URL: Issues, https://github.com/caltechads/deployfish/issues
+Keywords: aws,ecs,docker,devops
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE.txt
+License-File: AUTHORS.txt
+
+long_description
