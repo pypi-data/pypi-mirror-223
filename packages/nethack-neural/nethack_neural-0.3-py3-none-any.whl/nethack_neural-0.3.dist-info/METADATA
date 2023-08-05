@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: nethack-neural
+Version: 0.3
+Requires-Dist: click (==8.1.6)
+Requires-Dist: gym (==0.23.0)
+Requires-Dist: minihack (==0.1.5)
+Requires-Dist: nle (==0.9.0)
+Requires-Dist: numpy (==1.25.2)
+Requires-Dist: torch (==2.0.1)
+Requires-Dist: tqdm (==4.65.0)
+Requires-Dist: pandas (==2.0.3)
+Requires-Dist: matplotlib (==3.7.2)
+Requires-Dist: plotext (==5.2.8)
+
