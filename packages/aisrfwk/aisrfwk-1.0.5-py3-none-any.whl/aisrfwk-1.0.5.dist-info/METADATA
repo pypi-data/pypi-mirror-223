@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aisrfwk
+Version: 1.0.5
+Summary: aisr ai framework,稳定版,修复最终推送状态错误bug
+Home-page: https://blog.csdn.net/a249040113?type=blog
+Author: wmang
+Author-email: wangmian05@countrygarden.com.cn
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (~=2.26.0)
+Requires-Dist: redis (~=3.5.3)
+Requires-Dist: rocketmq (~=0.4.4)
+Requires-Dist: flask (~=1.1.4)
+Requires-Dist: flask-cors (~=3.0.10)
+Requires-Dist: markupsafe (==2.0.1)
+
+# aisr-carbarn-ai
+项目框架功能公共部分
