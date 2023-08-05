@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+
+
+<record id="psychology_evaluation_view_form" model="ir.ui.view">
+    <field name="name">psychology.evaluation form</field>
+    <field name="model">psychology.evaluation</field>
+    <field name="mode">extension</field>
+    <field name="priority" eval="20" />
+    <field
+            name="inherit_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_view_form"
+        />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='institution_id']" position="after">
+                <field name="case_id" domain="[('partner_id','=',client_id)]" />
+            </xpath>
+            <xpath expr="//notebook" position="inside">
+                <page string="Outsource Work Result" name="ow">
+                    <group name="outsource_work" colspan="4" col="2">
+                        <field name="initial_recommendation_outsource_work_id" />
+                        <field name="evaluation_outsource_work_id" />
+                        <field name="review_outsource_work_id" />
+                        <field name="edit_outsource_work_id" />
+                    </group>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+</odoo>
