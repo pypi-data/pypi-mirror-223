@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: seotools
+Version: 0.0.1
+Summary: A collection of tools for use with writing SEO-related programs in Python.
+Home-page: https://github.com/capjamesg/seotools
+Author: capjamesg
+Author-email: jamesg@jamesg.blog
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: sentence-transformers
+Requires-Dist: networkx
+Requires-Dist: scikit-learn
+Requires-Dist: PyLD
+Requires-Dist: indieweb-utils
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# SEOtools
+
+SEOtools provides a set of utilities for SEOs and web developers with which to complete common tasks.
+
+# Installation
+
+You can install SEOtools using pip:
+
+```bash
+pip install seotools
+```
+
+# License
+
+This project is licensed under an [MIT license](LICENSE).
