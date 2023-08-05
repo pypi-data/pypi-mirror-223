@@ -1,0 +1,6 @@
+
+[dev]
+numpy==1.25.1
+sphinx
+sphinx_rtd_theme
+pytest
