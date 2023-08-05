@@ -1,0 +1,1 @@
+hirmeos-clients>=0.1.6

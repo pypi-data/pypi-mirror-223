@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "access_logs_local"
+version = "0.0.5"
+authors = [
+  { name="Cristian Garcia", email="cristian.garcia@ubiquitypress.com" },
+]
+description = "Functions required by the access-logs-local-driver"
+readme = "README.rst" 
+requires-python = ">=3.10"
+dependencies = [
+  "hirmeos-clients >= 0.1.6",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hirmeos/access_logs_driver"
