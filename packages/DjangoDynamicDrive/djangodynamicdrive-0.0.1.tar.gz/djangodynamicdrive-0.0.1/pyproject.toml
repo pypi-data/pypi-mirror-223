@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "DjangoDynamicDrive"
+version = "0.0.1"
+authors = [
+  { name="xiaoyue9527", email="xiaoyue9527@hotmail.com"},
+]
+description = "Django Rapid Development Assistant Tool"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/xiaoyue9527/DjangoDynamicDrive"
