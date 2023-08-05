@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: math2d
+Version: 0.7.1
+Summary: 2D mathematics package for Python.
+Home-page: https://codeberg.org/moli/pymath2d
+Author: Morten Lind
+Author-email: morten@lind.fairuse.org
+License: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Provides: math2d
+License-File: COPYING.LESSER
