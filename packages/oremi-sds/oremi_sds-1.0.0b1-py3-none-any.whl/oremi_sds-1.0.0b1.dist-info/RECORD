@@ -1,0 +1,15 @@
+config.json,sha256=XOtrFMe5msVD3-HS8JduIHb39dHw8l2I-7Rm9DTuJdU,554
+oremi-sds/__init__.py,sha256=z-JMh56MgKxrsEl90wzkRUh04hAY1wvV4WSvaNCXFxs,6917
+oremi-sds/__main__.py,sha256=Q1mkh0l2MP38k5FU1COmqTInEcF2uOJMfLNfIXDZjdg,782
+oremi-sds/audio.py,sha256=aYrfxVN40ihk20BQUi_uI9iBNV8BTQsHSWQZNDmahN0,2797
+oremi-sds/detector.py,sha256=KCMSx8FFBmdiI7ps7fwEHTrXp_s_qf3ZIYJcm6ilPwY,3736
+oremi-sds/models.py,sha256=NSBrgmIKDZL0ju4ymEZktmiUf9ixs0eU-bSsDddyH-k,2089
+oremi-sds/trace.py,sha256=OOu5XepwkJTa1NjvZms8DiTOscTDwNRTJP7x908qWSQ,2890
+oremi-sds/vars.py,sha256=P1JcEcJkPHuo4sm6wRg26GKXkpvTME0ZXTgjcO05gWI,947
+oremi-sds/version.py,sha256=bWzACs7w4cdBvouJMmRPQPpqNHSn_pqb2jvSgapDsVY,883
+oremi-sds/wakeword.py,sha256=p9rLsqZtDq8EPYV2UIZzGkV5zBW_qJRK_iaJsWKXlkQ,3718
+oremi_sds-1.0.0b1.dist-info/LICENSE,sha256=yUf4IZCREEqsoLm3QK9duDSHBXPV2Hh15bmFzv1F0OI,11370
+oremi_sds-1.0.0b1.dist-info/METADATA,sha256=qy-kcfONJpQDsRx0vgxf_66io4gkYjNo5ztU2otWGmw,7562
+oremi_sds-1.0.0b1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+oremi_sds-1.0.0b1.dist-info/entry_points.txt,sha256=45jidNGQg1YfZLRjhY5arOhQII45v9tSZmh9blZxukY,44
+oremi_sds-1.0.0b1.dist-info/RECORD,,
