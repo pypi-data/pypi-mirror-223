@@ -1,0 +1,6 @@
+
+[dev]
+mypy
+pre-commit
+pytest-mypy
+setuptools_scm
