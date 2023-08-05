@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sourmash-plugin-sketchall
+Version: 0.2
+Summary: sourmash plugin to sketch many sequence files
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: sourmash (<5,>=4.8.0)
+
