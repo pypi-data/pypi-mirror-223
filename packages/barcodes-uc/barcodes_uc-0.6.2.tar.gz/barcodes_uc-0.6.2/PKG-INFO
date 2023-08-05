@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: barcodes-uc
+Version: 0.6.2
+Summary: A library to generate barcodes
+Home-page: https://github.com/Parzival1918/barcodes-uc
+Author: Pedro Juan Royo
+Author-email: pedro.juan.royo@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aenum (>=3.1.15,<4.0.0)
+Requires-Dist: numpy (>=1.25.1,<2.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pillow (>=10.0.0,<11.0.0)
+Project-URL: Repository, https://github.com/Parzival1918/barcodes-uc
+Description-Content-Type: text/markdown
+
+# Barcodes python module
+
+**Thanks to Melisa for her precious help.**
+
+⚠️ This python package is still in development. ⚠️
+
+* For now only QR codes are available. Only alphanumeric and byte encodings are available.
+
+## Installation
+
+```bash
+pip install barcodes-uc
+```
+
+You might want to install the package in a virtual environment. For that do:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install barcodes-uc
+```
+
+## Usage
+
+```python
+from barcodes_uc.qrcodes import qrgenerator, qrutils
+
+# Generate a QR code
+message = "Hello world!"
+encoding = qrutils.QREncoding.byte
+version, error_correction_level, qr = qrgenerator.get_min_version(message, encoding, qrutils.QRErrorCorrectionLevels.Q)
+generator = qrgenerator.QRGenerator(msg=message, encoding=encoding, version=version, error_correction=error_correction_level)
+qr = generator.generate()
+
+qr.show() # Show the QR code in the terminal
+qr.save("qr.png", imgSize = 1000, colour=[qrgenerator.QRColour.red]) # Save the QR code in a file
+```
+
+## Future work
+
+- [ ] Add byte and numeric encoding to qr codes.
+
+- [ ] Save qr code as image in different styles.
+
+- [ ] Generate barcodes.

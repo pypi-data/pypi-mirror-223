@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "barcodes-uc"
+version = "0.6.2"
+description = "A library to generate barcodes"
+authors = ["Pedro Juan Royo <pedro.juan.royo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "barcodes_uc"}]
+include = ["data/*","requirements.txt"]
+repository = "https://github.com/Parzival1918/barcodes-uc"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.25.1"
+pandas = "^2.0.3"
+pillow = "^10.0.0"
+aenum = "^3.1.15"
+
+[tool.poetry.scripts]
+qrcode = "barcodes_uc.qrcodes.__main__:main"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
