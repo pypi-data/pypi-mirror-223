@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: airbyte-source-zendesk-support
+Version: 0.10.4
+Summary: Source implementation for Zendesk Support.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Provides-Extra: tests

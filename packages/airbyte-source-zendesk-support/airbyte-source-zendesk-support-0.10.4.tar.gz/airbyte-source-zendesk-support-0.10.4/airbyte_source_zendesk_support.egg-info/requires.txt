@@ -1,0 +1,8 @@
+airbyte-cdk
+pytz
+
+[tests]
+pytest~=6.1
+pytest-mock~=3.6
+connector-acceptance-test
+requests-mock==1.9.3
