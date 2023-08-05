@@ -1,0 +1,13 @@
+uvdiviner/__init__.py,sha256=HFL2NgNf74s56viRPRlgp_rAmKP1MzrtnJeQ8LxF_8M,21
+uvdiviner/colorize.py,sha256=LNfl2nNfFTQP1jd7tqTGU_LYTUXK8lYmQCXAbg4Gf5Q,713
+uvdiviner/divine.py,sha256=X0j4_fXzBRknHrYVqwlgPo_6FKetIEeS2aESFncNAoM,881
+uvdiviner/errors.py,sha256=GpgzK4W6mQtppPF_p0mqIbLSWWIlkp_rIPq05MPtzGc,902
+uvdiviner/evolution.py,sha256=LhQ2v7qWVRlHzpF_57ALfKZMWPc_72fBqzct044vn50,2849
+uvdiviner/main.py,sha256=N33OMcz6RCvtwo4MVqnnrF52EkfDwLfbsQpDkmqLO_I,6259
+uvdiviner/progressbar.py,sha256=qKYGHydNx_e4F2vvsvurI_46FI-N4OAvQiLvlXJ5ESU,1820
+uvdiviner/trigrams.py,sha256=sDJgM_q-7DG1bOiQrvbwgnPxmy7VeJTDe4Qd56pskeg,56165
+uvdiviner-2.0.3.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+uvdiviner-2.0.3.dist-info/METADATA,sha256=teQ4dbCpym0-C05BydP2nCzDDcbuqrZ2YTIYNz2zqYw,1362
+uvdiviner-2.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+uvdiviner-2.0.3.dist-info/top_level.txt,sha256=vCw1WDcYCIRDB3lvRPkMl29kW886hJ21_Ibqj77qWy4,10
+uvdiviner-2.0.3.dist-info/RECORD,,
