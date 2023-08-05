@@ -1,0 +1,5 @@
+spotify_api_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotify_api_client/client.py,sha256=U4tyZ4YcKUkZf45TzIXt61TDFE5hmftnXBYuk-Qib70,31040
+spotify_api_client-0.1.0.dist-info/METADATA,sha256=UQ3xxzvBdibN8gibMiQ9mtUEdshXljvwuxY6zMSjrSc,1089
+spotify_api_client-0.1.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+spotify_api_client-0.1.0.dist-info/RECORD,,

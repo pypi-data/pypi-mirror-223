@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: spotify-api-client
+Version: 0.1.0
+Summary: 
+Author: William04A
+Author-email: 35110380+William04A@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Spotify API Client
+
+This is a Spotify API client that I wrote for doing the following things:
+
+1. Handle authorization flow from Spotify (one-time flow: user logs in and you receive a refresh token).
+2. Perform tasks related to a user: 
+   * create playlists
+   * read playlists
+   * read user data
+3. Perform non-user-related tasks:
+   * search
+   * get album details
+
+> **Note:** Only the above mentioned API functions have been implemented. This project was created for my "Album of the day"
+> project. For a more robust and thorough/complete solution, see the [Spotipy](https://spotipy.readthedocs.io/en/2.22.1/) library.
