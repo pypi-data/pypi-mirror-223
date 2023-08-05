@@ -1,0 +1,8 @@
+pandas-stubs
+types-Pygments
+types-beautifulsoup4
+types-colorama
+types-decorator
+types-jsonschema
+types-six
+types-urllib3
