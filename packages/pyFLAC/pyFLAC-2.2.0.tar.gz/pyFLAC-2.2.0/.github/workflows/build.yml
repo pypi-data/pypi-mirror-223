@@ -1,0 +1,91 @@
+name: build
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "The version of libFLAC to build"
+        required: false
+        default: "1.4.3"
+      debug:
+        description: "Enable debug"
+        required: false
+        default: "no"
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y \
+            autoconf \
+            clang \
+            gcc-arm-linux-gnueabihf \
+            gcc-aarch64-linux-gnu \
+            libtool \
+            mingw-w64 \
+            patchelf \
+            wget
+      - name: Download libFLAC
+        run: |
+          wget https://ftp.osuosl.org/pub/xiph/releases/flac/flac-${{ github.event.inputs.version }}.tar.xz
+
+      - name: Build libFLAC (Raspbian)
+        run: ./scripts/raspbian.sh ${{ github.event.inputs.version }}
+      - name: Upload Raspbian armv7a library
+        uses: actions/upload-artifact@v1
+        with:
+          name: raspbian-armv7a
+          path: raspbian-armv7a
+      - name: Upload Raspbian armv6l library
+        uses: actions/upload-artifact@v1
+        with:
+          name: raspbian-armv6l
+          path: raspbian-armv6l
+
+      - name: Build libFLAC (Linux)
+        run: ./scripts/linux.sh ${{ github.event.inputs.version }}
+      - name: Upload Linux x86_64 library
+        uses: actions/upload-artifact@v1
+        with:
+          name: linux-x86_64
+          path: linux-x86_64
+      - name: Upload Linux arm64 library
+        uses: actions/upload-artifact@v1
+        with:
+          name: linux-arm64
+          path: linux-arm64
+
+      # Now taken from https://packages.msys2.org/package/ instead
+      - name: Build libFLAC (Windows)
+        run: ./scripts/windows.sh ${{ github.event.inputs.version }}
+      - name: Upload Windows x64 library
+        uses: actions/upload-artifact@v1
+        with:
+          name: windows-x86_64
+          path: windows-x86_64
+      - name: Upload Windows i686 library
+        uses: actions/upload-artifact@v1
+        with:
+          name: windows-i686
+          path: windows-i686
+
+  build_macos:
+    runs-on: macos-latest
+    steps:
+      - name: Install dependencies
+        run: brew install wget
+      - name: Build libFLAC (macOS)
+        run: ./scripts/darwin.sh ${{ github.event.inputs.version }}
+      - name: Upload macOS x86_64 library
+        uses: actions/upload-artifact@v1
+        with:
+          name: darwin-x86_64
+          path: darwin-x86_64
+      - name: Upload macOS arm64 library
+        uses: actions/upload-artifact@v1
+        with:
+          name: darwin-arm64
+          path: darwin-arm64
