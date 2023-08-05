@@ -1,0 +1,7 @@
+GameF.py
+README.txt
+setup.py
+GameF.egg-info/PKG-INFO
+GameF.egg-info/SOURCES.txt
+GameF.egg-info/dependency_links.txt
+GameF.egg-info/top_level.txt
