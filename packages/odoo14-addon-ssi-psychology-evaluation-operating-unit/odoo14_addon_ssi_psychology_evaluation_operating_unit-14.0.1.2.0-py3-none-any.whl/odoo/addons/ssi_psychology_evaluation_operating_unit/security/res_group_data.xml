@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<!-- Data Ownership -->
+<record id="psychology_evaluation_ou_group" model="res.groups">
+    <field name="name">Operating Unit Data</field>
+    <field
+            name="category_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_data_ownership_module_category"
+        />
+    <field
+            name="implied_ids"
+            eval="[(4, ref('ssi_psychology_evaluation.psychology_evaluation_responsible_group'))]"
+        />
+</record>
+
+<record
+        id="ssi_psychology_evaluation.psychology_evaluation_company_group"
+        model="res.groups"
+    >
+    <field name="name">Company Data</field>
+    <field
+            name="category_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_data_ownership_module_category"
+        />
+    <field name="implied_ids" eval="[(4, ref('psychology_evaluation_ou_group'))]" />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+
+<record id="psychology_evaluation_batch_ou_group" model="res.groups">
+    <field name="name">Operating Unit Data</field>
+    <field
+            name="category_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_batch_data_ownership_module_category"
+        />
+    <field
+            name="implied_ids"
+            eval="[(4, ref('ssi_psychology_evaluation.psychology_evaluation_batch_responsible_group'))]"
+        />
+</record>
+
+<record
+        id="ssi_psychology_evaluation.psychology_evaluation_batch_company_group"
+        model="res.groups"
+    >
+    <field name="name">Company Data</field>
+    <field
+            name="category_id"
+            ref="ssi_psychology_evaluation.psychology_evaluation_batch_data_ownership_module_category"
+        />
+    <field
+            name="implied_ids"
+            eval="[(4, ref('psychology_evaluation_batch_ou_group'))]"
+        />
+    <field
+            name="users"
+            eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"
+        />
+</record>
+</odoo>
