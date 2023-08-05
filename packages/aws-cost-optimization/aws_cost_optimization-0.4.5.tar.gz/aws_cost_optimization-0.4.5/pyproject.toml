@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aws_cost_optimization"
+version = "0.4.5"
+authors = [
+  { name="dheeraj.banodha", email="dheeraj.banodha@impetus.com" },
+]
+description = "Provides AWS cost recommendations"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "boto3",
+    "pytz"
+]
+
+#[project.urls]
+#"Homepage" = ""
+#"Bug Tracker" = ""
