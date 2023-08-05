@@ -1,0 +1,15 @@
+report/__init__.py,sha256=1BbmwkMRTkevnHIjeD-geo3YqZh0T-xEbcNU7My7Hxo,219
+report/_config.py,sha256=Zg8byitAlw5d7dt90PbpH5i2WyH_ilgqyK_ZMFeJmv0,947
+report/_data.py,sha256=30fqWLH7q6PBqcP2t_1KnZMIgmm4le-iWlnh-AuoNJs,1983
+report/_internal.py,sha256=5rAXUvmeM76lYLo0c1eF-eAj140tkGDJg_hDtNwupUA,8860
+report/attachment_type.py,sha256=p6PHExvBvp7Adb4pT57YQxq-_JpzFYPhWvaJzfLiDFI,73
+report/attachments.py,sha256=MMcI7zNXLZDsUFkFTGomcIWMvQQrvTP5tuCrxAlAKOI,263
+report/core.py,sha256=3OpfIOqRDbNyrHL10MKVdecMLSmu9awCIs0L-5EIgq0,1213
+report/item.py,sha256=vxA3-Cy5YiNuwDlPL-5lRjm7Ux_7tIzNkyQTJLmqjwo,4934
+report/plugin.py,sha256=YkmByzHD4CE4A_Z_NKa2Hud117tfDTPomZhIFoHpcWw,8729
+report_dh-0.13.8.dist-info/LICENSE,sha256=4G5j9EioDI5A46duVo4M7gSiyzaoTM5efcU3imQTTgg,1070
+report_dh-0.13.8.dist-info/METADATA,sha256=uAgmiAmtPyfHVK94H40ML6Jo6TTOYcPvPeTUOb6lQOg,705
+report_dh-0.13.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+report_dh-0.13.8.dist-info/entry_points.txt,sha256=rtUP-P_XKsKAcrMi0R-9O2XJvOBb8g6Vdnf6elEZNto,87
+report_dh-0.13.8.dist-info/top_level.txt,sha256=Mx0m1tj4YuRrqQCBG-inoeTbqiKbFMmb7P1eUVFJDZU,7
+report_dh-0.13.8.dist-info/RECORD,,
