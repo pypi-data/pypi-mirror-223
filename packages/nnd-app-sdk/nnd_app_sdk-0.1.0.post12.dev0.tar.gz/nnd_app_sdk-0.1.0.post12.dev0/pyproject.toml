@@ -1,0 +1,48 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "nnd-app-sdk"
+authors = ["Nom Nom Data Inc <info@nomnomdata.com>"]
+version = "0.1.0.post12.dev0"
+homepage = "https://www.nomnomdata.com/"
+description = "Package containing common functions for developing Nom Nom Data Apps."
+license = "LGPL-3.0-only"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+webdriver-manager = "3.8.5"
+selenium = "4.8.2"
+pydantic = "1.9.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+pytest-cov = "^2.10.0"
+
+[tool.pytest.ini_options]
+log_cli = true
+testpaths = "tests"
+
+[tool.black]
+include = '\.pyi?$'
+line-length = 90
+target-version = ['py37', 'py38']
+
+[tool.isort]
+default_section = 'THIRDPARTY'
+ensure_newline_before_comments = true
+force_grid_wrap = 0
+force_to_top = ['nomnomdata']
+include_trailing_comma = true
+known_first_party = ['nomnomdata', 'nominode', 'nomcom', 'engines_common', 'nomitall', 'nnd_app_sdk']
+line_length = 90
+multi_line_output = 3
+use_parentheses = true
+
+[tool.pylint.messages_control]
+disable = "C0330, C0326"
+
+[tool.pylint.format]
+max-line-length = 90
