@@ -1,0 +1,9 @@
+kkmeans/__init__.py,sha256=VpcSoe78yVzEujvID6JBMJVbCl9QJmYM4kQdFAYX5aI,138
+kkmeans/init_clusters.py,sha256=Icgnz41PVC8mVIlKKKfRreDDXgadcZJQv_I8VQgd69o,1481
+kkmeans/kernel_functions.py,sha256=A-bQ6IcTOBUCV0jU3mTiaLFTwQDx3e4quLoG3aiYVXo,846
+kkmeans/kkmeans.py,sha256=PI3wu5FSRH9zya7F7y5Bo_eeceOOo3elluxw5mzkk_4,3421
+python_kkmeans-0.1.0.dist-info/LICENSE.txt,sha256=dd24e5SuMSJaTnJBFZFA2KH6WEBYKB4Fo4738_JPhVU,1071
+python_kkmeans-0.1.0.dist-info/METADATA,sha256=kWgtagcoOWInoyRJeQTNcndPwQA1rq7uGuVaqLfY6pg,2794
+python_kkmeans-0.1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+python_kkmeans-0.1.0.dist-info/top_level.txt,sha256=J2vF_TgJJ4UJzZRxrXWeITCY_Vv2FsIm07ZSGHQvzO4,8
+python_kkmeans-0.1.0.dist-info/RECORD,,
