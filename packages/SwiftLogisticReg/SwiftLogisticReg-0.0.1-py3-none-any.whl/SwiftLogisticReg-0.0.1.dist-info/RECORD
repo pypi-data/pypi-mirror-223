@@ -1,0 +1,8 @@
+SwiftLogisticReg/__init__.py,sha256=QNIsLawXVVDS1wz2T-5DpHTX7jZfNqNI_el1qxJiy60,95
+SwiftLogisticReg/logistic_cpu.py,sha256=31sS9abdVQDpYIwgc0K9Ov-DP39GNUXuCR4RVZC4Jyk,1296
+SwiftLogisticReg/logistic_gpu.py,sha256=EznVcde3IXEF3vk9Xoqcnr8LJTDYYYcNls-FsHGFsy0,6582
+SwiftLogisticReg-0.0.1.dist-info/LICENSE,sha256=XWnh_zT2WPRI0ilNSGoAX-kQN5KFVU-MQqjYx8jqDaE,1132
+SwiftLogisticReg-0.0.1.dist-info/METADATA,sha256=Jb7G01iCjtN9i_e6HRAQDL6WsS-YifRm2V72lAiNKbk,363
+SwiftLogisticReg-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+SwiftLogisticReg-0.0.1.dist-info/top_level.txt,sha256=tpqqxnF7iDV6le1y1zYmMPnzfUZ_aB0kQ5jO6P-Wzlc,17
+SwiftLogisticReg-0.0.1.dist-info/RECORD,,
