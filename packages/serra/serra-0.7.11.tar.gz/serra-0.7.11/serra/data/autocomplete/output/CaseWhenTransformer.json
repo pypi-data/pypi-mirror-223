@@ -1,0 +1,15 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "input_block": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "value": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

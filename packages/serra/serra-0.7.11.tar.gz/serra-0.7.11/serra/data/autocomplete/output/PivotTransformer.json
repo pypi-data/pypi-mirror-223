@@ -1,0 +1,21 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "aggregate_type": {
+            "type": "string"
+        },
+        "column_level": {
+            "type": "string"
+        },
+        "input_block": {
+            "type": "string"
+        },
+        "row_level": {
+            "type": "string"
+        },
+        "sum_col": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
