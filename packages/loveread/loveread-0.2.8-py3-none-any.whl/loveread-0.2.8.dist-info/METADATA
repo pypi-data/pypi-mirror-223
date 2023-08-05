@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: loveread
+Version: 0.2.8
+Summary: A brief description of your package
+Home-page: https://gitlab.com/wladgavrilov/loveread
+Author: Vlad Havrylov
+Author-email: wladgavrilov@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bs4
+
+**This is python module to download books from loveread.ec as txt files**
+
+* Install
+`pip3 install loveread`
+- Use through terminal
+`python3 -m loveread "http://loveread.ec/read_book.php?id=PUT_BOOK_ID"`
+* Through code
+`import loveread`
+`url = "http://loveread.ec/read_book.php?id={PUT_BOOK_ID}`
+`loveread.download(url)`
+
+* In both cases the book would appear as txt file in the same folder
