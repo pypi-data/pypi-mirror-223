@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fortlab
+Version: 1.1.1
+Summary: Fortran Kernel and Analysis Framework
+Author: Youngsung Kim
+Author-email: youngsung.kim.act2@gmail.com
+Project-URL: Bug Reports, https://github.com/grnydawn/fortlab/issues
+Project-URL: Source, https://github.com/grnydawn/fortlab
+Keywords: microapp fortlab
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+Tools for Analysis of Fortran Application and Source code
