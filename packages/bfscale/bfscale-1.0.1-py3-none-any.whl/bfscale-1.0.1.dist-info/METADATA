@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: bfscale
+Version: 1.0.1
+Summary: Best fit image scaling
+Author-email: GroveDG <grovedgdev@gmail.com>
+Project-URL: Homepage, https://github.com/GroveDG/bfscale
+Project-URL: Bug Tracker, https://github.com/GroveDG/bfscale/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numba (>=0.50)
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: imageio (>=2.10)
+Requires-Dist: pysimplegui (>=4.0)
+
+# bfscale
+
+Best Fit Scale (bfscale) is a image downscaling method to create the highest possible image quality upon upscaling/upsampling with a certain scaling method (in this instance bilinear). This is achieved by fitting the parameters of the upscaling model to sections of the original image. In the case of bilinear, this can be done with a simple linear regression.
+
+Bfscale was originally developed for improved Signed Distance Fields (SDFs), but was separated due to its broader usefulness.
+
+Source: https://github.com/GroveDG/bfscale
+
+PyPi: https://pypi.org/project/bfscale
+
+## Dependencies
+<ul>
+  <li>Numpy</li>
+  <li>Numba</li>
+  <li>ImageIO</li>
+  <li>PySimpleGUI</li>
+</ul>
+
+## How to Use
+bfscale only has two functions: **bfscale.open_window()** and **bfscale.resize(img, scale)**.
+<ul>
+  <li>open_window()
+    <ul>
+      <li>Opens a gui prompt allowing you to resize images and save them directly to disk.</li>
+    </ul>
+  </li>
+  <li>resize(img, scale)
+    <ul>
+      <li>Resizes the image directly and returns an image downscaled by a factor of scale. Images returned through resize() are numpy arrays in the same format as ImageIO and most other python image processing modules.</li>
+    </ul>
+  </li>
+</ul>
+
+## Image Comparison
+
+<table>
+  <tr>
+    <th>Unscaled</th>
+    <th>Bfscale 20% Scale</th>
+    <th>Linear 20% Scale</th>
+  </tr>
+  <tr>
+    <td><img alt="Billiard Balls A. Unscaled" src="https://github.com/GroveDG/bfscale/assets/87248833/c7cd6e43-19ee-42fd-b5c6-9bda1a5ca9cf" width="10000"></td>
+    <td><img alt="Billiard Balls A. Bfscaled" src="https://github.com/GroveDG/bfscale/assets/87248833/2d009578-bb3e-41f2-9a61-929046fa8b24" width="10000"></td>
+    <td><img alt="Billiard Balls A. Linear Scaled" src="https://github.com/GroveDG/bfscale/assets/87248833/d3e676e0-0d85-48b9-bbfa-8424deb805b1" width="10000"></td>
+  </tr>
+  <tr>
+    <td><img alt="Billiard Balls A. Unscaled Cropped" src="https://github.com/GroveDG/bfscale/assets/87248833/694e895e-371f-46f2-b402-e73b217b4e3e" width="10000"></td>
+    <td><img alt="Billiard Balls A. Bfscaled Cropped" src="https://github.com/GroveDG/bfscale/assets/87248833/4c58f538-9e88-4f3a-a81c-8d1a4ab37437" width="10000"></td>
+    <td><img alt="Billiard Balls A. Linear Cropped" src="https://github.com/GroveDG/bfscale/assets/87248833/85bd749a-caa5-43a2-bd15-056542cfe61c" width="10000"></td>
+  </tr>
+</table>
+<details>
+  <summary>Image Source</summary>
+  <p>Copyright (C) 2011-2014 Nicola Asuni - Tecnick.com LTD</p>
+  <p>The images shown are part of the TESTIMAGES project: http://testimages.tecnick.com</p>
+</details>
