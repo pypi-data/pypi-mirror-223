@@ -1,0 +1,3 @@
+[console_scripts]
+orn=orn.__main__:main
+
