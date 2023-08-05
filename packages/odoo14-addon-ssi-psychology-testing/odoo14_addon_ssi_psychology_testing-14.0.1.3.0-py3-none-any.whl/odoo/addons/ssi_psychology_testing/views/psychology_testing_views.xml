@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_testing_view_tree" model="ir.ui.view">
+    <field name="name">psychology_testing tree</field>
+    <field name="model">psychology_testing</field>
+    <field name="mode">primary</field>
+    <field name="inherit_id" ref="ssi_transaction_mixin.mixin_transaction_view_tree" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="test_id" />
+                <field name="tester_id" widget="many2one_avatar" />
+                <field name="date" />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_testing_view_search" model="ir.ui.view">
+    <field name="name">psychology_testing search</field>
+    <field name="model">psychology_testing</field>
+    <field name="mode">primary</field>
+    <field
+            name="inherit_id"
+            ref="ssi_transaction_mixin.mixin_transaction_view_search"
+        />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="tester_id" />
+                <field name="test_id" />
+                <field name="date" />
+            </xpath>
+            <xpath expr="//group[@name='group_by']" position="inside">
+                <filter
+                        name="grp_tester"
+                        string="Tester"
+                        context="{'group_by':'tester_id'}"
+                    />
+                <filter
+                        name="grp_test"
+                        string="Test"
+                        context="{'group_by':'test_id'}"
+                    />
+                <filter
+                        name="grp_date"
+                        string="Date Visit"
+                        context="{'group_by':'date'}"
+                    />
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_testing_view_form" model="ir.ui.view">
+    <field name="name">psychology_testing form</field>
+    <field name="model">psychology_testing</field>
+    <field name="mode">primary</field>
+    <field name="inherit_id" ref="ssi_transaction_mixin.mixin_transaction_view_form" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='user_id']" position="after">
+                <field name="test_id" />
+                <field
+                        name="allowed_tester_ids"
+                        widget="many2many_tags_avatar"
+                        invisible="1"
+                    />
+                <field
+                        name="allowed_observer_ids"
+                        widget="many2many_tags_avatar"
+                        invisible="1"
+                    />
+                <field name="date" />
+
+            </xpath>
+            <xpath expr="//group[@name='header_right']" position="inside">
+                <field
+                        name="tester_id"
+                        widget="many2one_avatar"
+                        domain="[('id','in',allowed_tester_ids)]"
+                    />
+            </xpath>
+            <xpath expr="//page[1]" position="before">
+                <page name="client" string="Clients">
+                    <field name="client_ids">
+                        <tree editable="top">
+                            <field name="partner_id" widget="many2one_avatar" />
+                            <field
+                                    name="case_id"
+                                    domain="[('partner_id','=',partner_id),('state','not in',['reject','draft','cancel'])]"
+                                />
+                        </tree>
+                        <form>
+                            <group name="client_1" colspan="4" col="2">
+                                <field name="partner_id" widget="many2one_avatar" />
+                                <field
+                                        name="case_id"
+                                        domain="[('partner_id','=',partner_id),('state','not in',['reject','draft','cancel'])]"
+                                    />
+                            </group>
+                        </form>
+                    </field>
+                </page>
+                <page name="observer" string="Observers">
+                    <field name="observer_ids">
+                        <tree editable="top">
+                            <field
+                                    name="observer_id"
+                                    widget="many2one_avatar"
+                                    domain="[('id','in',parent.allowed_observer_ids)]"
+                                />
+                        </tree>
+                        <form>
+                            <group name="client_1" colspan="4" col="2">
+                                <field name="observer_id" widget="many2one_avatar" />
+                            </group>
+                        </form>
+                    </field>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_testing_action" model="ir.actions.act_window">
+    <field name="name">Psychology Testings</field>
+    <field name="res_model">psychology_testing</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="menu_psychology_testing"
+        name="Testings"
+        parent="menu_root_psychology_testing"
+        groups="psychology_testing_viewer_group"
+        action="psychology_testing_action"
+        sequence="10"
+    />
+
+</odoo>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_test_view_search" model="ir.ui.view">
+    <field name="name">psychology_test - search</field>
+    <field name="model">psychology_test</field>
+    <field
+            name="inherit_id"
+            ref="ssi_master_data_mixin.mixin_master_data_view_search"
+        />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="psychology_test_view_tree" model="ir.ui.view">
+    <field name="name">psychology_test -tree</field>
+    <field name="model">psychology_test</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_tree" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data />
+    </field>
+</record>
+
+<record id="psychology_test_view_form" model="ir.ui.view">
+    <field name="name">psychology_test - form</field>
+    <field name="model">psychology_test</field>
+    <field name="inherit_id" ref="ssi_master_data_mixin.mixin_master_data_view_form" />
+    <field name="mode">primary</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//page[1]" position="before">
+                <page name="user" string="Allowed User(s)">
+                    <group name="user_1" colspan="4" col="2">
+                        <field
+                                name="allowed_tester_ids"
+                                string="Testers"
+                                widget="many2many_tags_avatar"
+                            />
+                        <field
+                                name="allowed_observer_ids"
+                                string="Observers"
+                                widget="many2many_tags_avatar"
+                            />
+                    </group>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+
+<record id="psychology_test_action" model="ir.actions.act_window">
+    <field name="name">Test</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">psychology_test</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<menuitem
+        id="psychology_test_menu"
+        name="Test"
+        parent="ssi_psychology.menu_psychology_configuration"
+        action="psychology_test_action"
+        sequence="1"
+        groups="psychology_test_group"
+    />
+
+</odoo>

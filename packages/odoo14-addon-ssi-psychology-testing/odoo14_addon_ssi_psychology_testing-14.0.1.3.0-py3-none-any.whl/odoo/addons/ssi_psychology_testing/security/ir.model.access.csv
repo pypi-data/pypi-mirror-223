@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_psychology_test_employee,psychology_test - user,model_psychology_test,psychology_test_group,1,1,1,1
+access_psychology_test_all,psychology_test - all,model_psychology_test,,1,0,0,0
+access_psychology_testing_user,psychology_testing - user,model_psychology_testing,psychology_testing_user_group,1,1,1,1
+access_psychology_testing_viewer,psychology_testing - viewer,model_psychology_testing,psychology_testing_viewer_group,1,0,0,0
+access_psychology_testing_all,psychology_testing - all,model_psychology_testing,,1,0,0,0
+access_psychology_testing_client_user,psychology_testing.client - user,model_psychology_testing_client,psychology_testing_user_group,1,1,1,1
+access_psychology_testing_client_viewer,psychology_testing.client - viewer,model_psychology_testing_client,psychology_testing_viewer_group,1,0,0,0
+access_psychology_testing_client_all,psychology_testing.client - all,model_psychology_testing,,1,0,0,0
+access_psychology_testing_observer_user,psychology_testing.observer - user,model_psychology_testing_observer,psychology_testing_user_group,1,1,1,1
+access_psychology_testing_observer_viewer,psychology_testing.observer - viewer,model_psychology_testing_observer,psychology_testing_viewer_group,1,0,0,0
+access_psychology_testing_observer_all,psychology_testing.observer - all,model_psychology_testing,,1,0,0,0
