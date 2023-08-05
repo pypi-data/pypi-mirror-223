@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: raftify
+Version: 0.0.1
+Summary: A raft framework, for regular people. Written in Python.
+Home-page: https://github.com/lablup/raftify
+Author: Lablup Inc.
+Maintainer: jopemachine
+Maintainer-email: gbl@lablup.com
+License: Apache License 2.0
+Requires-Python: >=3.10
+Provides-Extra: dev
+Provides-Extra: build
+License-File: LICENSE
