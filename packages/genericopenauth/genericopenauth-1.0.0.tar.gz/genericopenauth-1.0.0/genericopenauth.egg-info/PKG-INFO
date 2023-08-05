@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: genericopenauth
+Version: 1.0.0
+Summary: Generic open authentication for jupyterhub
+Author: Ai8
+License: BSD
