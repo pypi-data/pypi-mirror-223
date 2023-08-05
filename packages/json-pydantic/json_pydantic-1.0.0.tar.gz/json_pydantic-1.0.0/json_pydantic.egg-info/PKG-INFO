@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: json-pydantic
+Version: 1.0.0
+Summary: Utility for converting json files to Pydantic models
+Author: temkuz
+Author-email: temkuz@yandex.ru
+License-File: LICENCE

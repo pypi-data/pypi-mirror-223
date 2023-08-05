@@ -1,0 +1,14 @@
+LICENCE
+README.md
+setup.py
+json_pydantic/__init__.py
+json_pydantic/__main__.py
+json_pydantic/classes.py
+json_pydantic/conventer.py
+json_pydantic/functions.py
+json_pydantic/variables.py
+json_pydantic.egg-info/PKG-INFO
+json_pydantic.egg-info/SOURCES.txt
+json_pydantic.egg-info/dependency_links.txt
+json_pydantic.egg-info/entry_points.txt
+json_pydantic.egg-info/top_level.txt

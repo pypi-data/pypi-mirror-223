@@ -1,0 +1,2 @@
+[console_scripts]
+json_pydantic = json_pydantic.__main__:main
