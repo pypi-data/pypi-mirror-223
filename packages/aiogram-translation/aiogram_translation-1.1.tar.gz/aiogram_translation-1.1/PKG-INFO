@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aiogram_translation
+Version: 1.1
+Summary: Simple translation addon for AIOGram
+Home-page: UNKNOWN
+Author: sushka
+Author-email: barabum@duck.com
+License: UNKNOWN
+Keywords: python,aiogram,translation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+This python package is a translation addon for AIOGram v3
+
