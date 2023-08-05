@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: spfluo
+Version: 0.1a1
+Summary: SPFluo package
+Author-email: Jean Plumail <jplumail@unistra.fr>
+Project-URL: Repository, https://github.com/jplumail/spfluo.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: SimpleITK
+Requires-Dist: connected-components-3d
+Requires-Dist: albumentations
+Requires-Dist: psutil
+Requires-Dist: matplotlib
+Requires-Dist: array-api-compat
+Requires-Dist: pooch
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: hypothesis ; extra == 'dev'
+Provides-Extra: figtree
+Requires-Dist: pyfigtree ; extra == 'figtree'
+Provides-Extra: gpu
+Requires-Dist: cupy-wheel ; extra == 'gpu'
+Requires-Dist: cucim ; extra == 'gpu'
+Requires-Dist: torch ; extra == 'gpu'
+Requires-Dist: torchvision ; extra == 'gpu'
+Requires-Dist: tensorboard ; extra == 'gpu'
+Requires-Dist: pynvml ; extra == 'gpu'
+Provides-Extra: napari
+Requires-Dist: napari[all] (>=0.4.18) ; extra == 'napari'
+
+# SP-Fluo
+
+This repository contains code for picking and single particle reconstruction in fluorescence imaging.
+
+Pipeline :
+1. [picking](spfluo/picking)
+2. for centrioles only : [cleaning with segmentation](spfluo/segmentation) and [alignement](spfluo/alignement)
+3. [reconstruction ab-initio](spfluo/ab_initio_reconstruction/)
+4. [refinement](spfluo/refinement/)
+
+## Installation
+
+```bash
+git clone https://github.com/jplumail/spfluo
+```
+
+```bash
+cd spfluo
+pip install .
+```
