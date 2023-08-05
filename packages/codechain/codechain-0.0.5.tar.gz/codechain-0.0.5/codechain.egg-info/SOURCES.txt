@@ -1,0 +1,10 @@
+README.md
+setup.py
+codechain/__init__.py
+codechain/evaluation.py
+codechain/generation.py
+codechain.egg-info/PKG-INFO
+codechain.egg-info/SOURCES.txt
+codechain.egg-info/dependency_links.txt
+codechain.egg-info/requires.txt
+codechain.egg-info/top_level.txt
