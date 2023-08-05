@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_psychology_consultation_type_employee,psychology_consultation_type - user,model_psychology_consultation_type,psychology_consultation_type_group,1,1,1,1
+access_psychology_consultation_type_all,psychology_consultation_type - all,model_psychology_consultation_type,,1,0,0,0
+access_psychology_consultation_user,psychology_consultation - user,model_psychology_consultation,psychology_consultation_user_group,1,1,1,1
+access_psychology_consultation_viewer,psychology_consultation - viewer,model_psychology_consultation,psychology_consultation_viewer_group,1,0,0,0
+access_psychology_consultation_all,psychology_consultation - all,model_psychology_consultation,,1,0,0,0

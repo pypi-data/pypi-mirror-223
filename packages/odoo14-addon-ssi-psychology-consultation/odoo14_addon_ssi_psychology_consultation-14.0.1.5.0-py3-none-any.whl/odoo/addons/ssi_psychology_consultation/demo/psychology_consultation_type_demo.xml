@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_consultation_type_1" model="psychology_consultation_type">
+    <field name="name">Family Consultation - (test)</field>
+    <field name="code">X001</field>
+    <field
+            name="allowed_psychologist_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_1'),ref('ssi_psychology.res_users_2')])]"
+        />
+</record>
+
+<record id="psychology_consultation_type_2" model="psychology_consultation_type">
+    <field name="name">Couple Consultation - (test)</field>
+    <field name="code">X002</field>
+    <field
+            name="allowed_psychologist_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_3'),ref('ssi_psychology.res_users_4')])]"
+        />
+</record>
+
+<record id="psychology_consultation_type_3" model="psychology_consultation_type">
+    <field name="name">Initial Intake - (test)</field>
+    <field name="code">X003</field>
+    <field
+            name="allowed_psychologist_ids"
+            eval="[(6, 0, [ref('ssi_psychology.res_users_5'),ref('ssi_psychology.res_users_6')])]"
+        />
+</record>
+
+
+
+</odoo>
