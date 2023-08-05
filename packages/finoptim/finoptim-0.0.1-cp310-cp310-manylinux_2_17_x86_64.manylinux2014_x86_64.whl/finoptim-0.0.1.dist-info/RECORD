@@ -1,0 +1,7 @@
+finoptim-0.0.1.dist-info/METADATA,sha256=u_Xq5LdADya8wu7-GWLH0Zq1zlLNtcdLnLpIqtTKmB4,784
+finoptim-0.0.1.dist-info/WHEEL,sha256=M868g7O8g6w2aSoji0F2rfU8vLES4hALRehEm-yLoC4,129
+finoptim-0.0.1.dist-info/license_files/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+finoptim/wrapper.py,sha256=xjglN4DC3poXj_aQ0RNWeCzQOr7USuHZiaEynTueo7k,1156
+finoptim/__init__.py,sha256=g80CxBPeo3SNh0Ewyn8bai1blehwnLxxvxfH1GHE03I,70
+finoptim/rust_as_backend.cpython-310-x86_64-linux-gnu.so,sha256=uDtmPvj81763WmLvrT_lyprTc6efNW3BqCMVoHW9y9o,5292936
+finoptim-0.0.1.dist-info/RECORD,,
