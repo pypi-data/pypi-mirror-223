@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+wopo/__init__.py
+wopo/agent.py
+wopo/prompts.py
+wopo/wopo.py
+wopo.egg-info/PKG-INFO
+wopo.egg-info/SOURCES.txt
+wopo.egg-info/dependency_links.txt
+wopo.egg-info/requires.txt
+wopo.egg-info/top_level.txt
