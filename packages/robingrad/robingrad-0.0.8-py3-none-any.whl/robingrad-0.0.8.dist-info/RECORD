@@ -1,0 +1,13 @@
+robingrad/__init__.py,sha256=-vIO0y2FtOJysF1p7Js6fj4pq-Kas0MgXDr6L-fszw0,78
+robingrad/graph.py,sha256=cJmJLlYdOV_zHTSD6Z-nx0YH-jGr_2bKGF63z2E-EYQ,1459
+robingrad/lab.py,sha256=lA3X1uwNYZUzpQlMSJbAYjqfmxawpbR1tHNS6T3xc4M,6339
+robingrad/optim.py,sha256=7el3AVF9aazGkQEqLQFxR_9__sSjVDMYZpRrDLjmjpQ,1564
+robingrad/state.py,sha256=yccqKdVksqZ27YbhrCoj7PExoeerwMTxsSLi9WeexEo,1384
+robingrad/tensor.py,sha256=tGGZqFUea9P-rhzUKj0__DvRLcON4wQoE4h_eYANNjA,11792
+robingrad/nn/__init__.py,sha256=6aW7hnrYWmK4--cSB6JAQ_1GNF6HWLrKDQrwLjs0FjU,457
+robingrad/nn/loss.py,sha256=ELxPUPUip4C_RyZdafN255RRi8EmViwVOL8vkgjTqi4,477
+robingrad-0.0.8.dist-info/LICENSE,sha256=YUM8v0cleK6GoNFEig71rjCj7MCJq2JTqJO_pQFj71s,1060
+robingrad-0.0.8.dist-info/METADATA,sha256=IxMN5ZF5GgKlVGPss7KKqoy69o-x7N5fIdxbrqTjGzI,2995
+robingrad-0.0.8.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+robingrad-0.0.8.dist-info/top_level.txt,sha256=e-DmAErAI7tkERY6HhlXv2OLBBziDG-68mWaOAugXQ0,10
+robingrad-0.0.8.dist-info/RECORD,,
