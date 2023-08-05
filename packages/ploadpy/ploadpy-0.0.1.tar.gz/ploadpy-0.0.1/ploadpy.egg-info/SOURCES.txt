@@ -1,0 +1,7 @@
+README.md
+setup.py
+ploadpy/__init__.py
+ploadpy.egg-info/PKG-INFO
+ploadpy.egg-info/SOURCES.txt
+ploadpy.egg-info/dependency_links.txt
+ploadpy.egg-info/top_level.txt
