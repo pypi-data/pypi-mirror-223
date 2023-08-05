@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: deployment-package
+Version: 0.0.8
+Summary: Package for preprocessing functions used during Model Deployment module
+Home-page: https://github.com/davidbognar201/Model_deployment_package
+Author: David Bognar
+Author-email: david.bognar@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# Package for the Model Deployment module of MLE Mentoring
+
+Teszt
