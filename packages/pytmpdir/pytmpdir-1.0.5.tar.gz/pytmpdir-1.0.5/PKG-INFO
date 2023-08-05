@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pytmpdir
+Version: 1.0.5
+Summary: A class representing a file system directory, that deletes on garbage collect.
+Home-page: https://github.com/Synerty/pytmpdir
+Download-URL: https://github.com/Synerty/pytmpdir/tarball/1.0.5
+Author: Synerty
+Author-email: support@synerty.com
+Keywords: directory,scan,interrogate,create,open,Python,Synerty
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE.rst
