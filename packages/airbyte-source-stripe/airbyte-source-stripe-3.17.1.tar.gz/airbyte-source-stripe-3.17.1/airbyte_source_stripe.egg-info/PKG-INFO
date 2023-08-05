@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: airbyte-source-stripe
+Version: 3.17.1
+Summary: Source implementation for Stripe.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Provides-Extra: tests
