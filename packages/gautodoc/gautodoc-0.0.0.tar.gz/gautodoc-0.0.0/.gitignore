@@ -1,0 +1,13 @@
+.gitignore
+
+__pycache__/
+
+/doc/
+/.gautodoc
+/.venv/
+
+/dist/
+
+/src/template/registry.json
+/scratch/
+Makefile
