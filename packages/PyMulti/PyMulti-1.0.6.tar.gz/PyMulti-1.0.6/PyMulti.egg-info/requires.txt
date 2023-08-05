@@ -1,0 +1,14 @@
+gingerit
+freegames
+requests
+randfacts
+matplotlib
+pyttsx3
+screen-brightness-control
+pyperclip
+PyAutoGUI
+opencv-python
+imutils
+numpy
+pytesseract
+Pillow
