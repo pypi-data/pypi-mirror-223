@@ -1,0 +1,43 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+    <include package="collective.monkeypatcher" />
+    <include package="collective.monkeypatcher" file="meta.zcml" />
+
+    <monkey:patch
+        description="Create the blob folder path and create (touch) an empty file for each blob file if it's missing."
+        class="ZODB.blob.BlobFile"
+        original="__init__"
+        replacement=".patches.patched_blob_init"
+        docstringWarning="true"
+        />
+
+    <monkey:patch
+        description="Create the blob-file if it's missing."
+        class="ZEO.ClientStorage.ClientStorage"
+        original="loadBlob"
+        replacement=".patches.patched_loadBlob"
+        docstringWarning="true"
+        />
+
+    <monkey:patch
+        description="Create the blob-file if it's missing."
+        class="ZODB.blob.BlobStorageMixin"
+        original="loadBlob"
+        replacement=".patches.patched_loadBlob_zodb"
+        docstringWarning="true"
+        />
+
+    <configure zcml:condition="installed relstorage">
+    <monkey:patch
+        description="Create the blob-file if it's missing."
+        class="relstorage.blobhelper.BlobHelper"
+        original="loadBlob"
+        replacement=".patches.patched_loadBlob_relstorage"
+        docstringWarning="true"
+        />
+    </configure>
+
+</configure>
