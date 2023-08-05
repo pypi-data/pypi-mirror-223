@@ -1,0 +1,17 @@
+XStatic_Angular_FileUpload-12.2.13.0-nspkg.pth,sha256=Jg1EYGn2w189IVnAa-t21OTyYNlR3RWEz9Kf09KN--g,1702
+xstatic/pkg/angular_fileupload/__init__.py,sha256=UhpA6Ntg0MoFMnk9ZUEwPNqOnCrCO0q5-vDYIhX5CCA,1859
+xstatic/pkg/angular_fileupload/data/FileAPI.flash.swf,sha256=4IImFC6V_3Hb7-hKcjrDeZg204Duiy06x4bvq12HjRA,71214
+xstatic/pkg/angular_fileupload/data/FileAPI.js,sha256=KrozNcX1h7LH5yFpGGA2nhw_mKcZeNyVombKQcMAuGc,104332
+xstatic/pkg/angular_fileupload/data/FileAPI.min.js,sha256=Z_kpC-dKsJC5s-puemaoCurRg2iLQvxHMm_9HIhPwMQ,44032
+xstatic/pkg/angular_fileupload/data/ng-file-upload-all.js,sha256=4-81m91Ces2m267Hzo36sfYnhyOWGnRlS71gA1Zn9Aw,96078
+xstatic/pkg/angular_fileupload/data/ng-file-upload-all.min.js,sha256=LrZq3efIkFX0BooX7x_rjWyYDvMKfFV2HJpy6HBw7cE,44742
+xstatic/pkg/angular_fileupload/data/ng-file-upload-shim.js,sha256=iGlHi2uokvdp0QeHjHxw3knvfkKNQCglfsajVfJt1Ns,14394
+xstatic/pkg/angular_fileupload/data/ng-file-upload-shim.min.js,sha256=-Iyux2tPjhyAt_TCseYTioAulSBH00a96c-pBzYCSK8,7262
+xstatic/pkg/angular_fileupload/data/ng-file-upload.js,sha256=04-zgqt-4mvtEbwBMOwAoHV_iMLUvnpBsyiwLFm-dNI,81683
+xstatic/pkg/angular_fileupload/data/ng-file-upload.min.js,sha256=TqtYHg6_i06jaAnqVU0twQV7dROa7Um8CpqElzK9024,37495
+XStatic_Angular_FileUpload-12.2.13.0.dist-info/LICENCE,sha256=Clh4ebLcmhHyPmluL3RhcBiMVEsXnBOG6boibsyHeJs,1265
+XStatic_Angular_FileUpload-12.2.13.0.dist-info/METADATA,sha256=vDCGWwkTGm5seXLxvkJFKScyElmkW3-t1Z0yq030lcg,859
+XStatic_Angular_FileUpload-12.2.13.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+XStatic_Angular_FileUpload-12.2.13.0.dist-info/namespace_packages.txt,sha256=oP6kTUKNrWkfPGcNNMQWOlBu3vuiEsAVYT4dUN1V4Hg,20
+XStatic_Angular_FileUpload-12.2.13.0.dist-info/top_level.txt,sha256=tDpXyaHF81JGnzDNskkXZNoFrs3YW_a1ueuzoAmLNas,8
+XStatic_Angular_FileUpload-12.2.13.0.dist-info/RECORD,,
