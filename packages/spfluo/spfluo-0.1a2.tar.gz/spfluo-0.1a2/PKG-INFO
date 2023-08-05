@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: spfluo
+Version: 0.1a2
+Summary: SPFluo package
+Author-email: Jean Plumail <jplumail@unistra.fr>
+Project-URL: Repository, https://github.com/jplumail/spfluo.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: figtree
+Provides-Extra: gpu
+Provides-Extra: napari
+Provides-Extra: dev
+
+# SP-Fluo
+
+This repository contains code for picking and single particle reconstruction in fluorescence imaging.
+
+Pipeline :
+1. [picking](spfluo/picking)
+2. for centrioles only : [cleaning with segmentation](spfluo/segmentation) and [alignement](spfluo/alignement)
+3. [reconstruction ab-initio](spfluo/ab_initio_reconstruction/)
+4. [refinement](spfluo/refinement/)
+
+## Installation
+
+```bash
+git clone https://github.com/jplumail/spfluo
+```
+
+```bash
+cd spfluo
+pip install .
+```

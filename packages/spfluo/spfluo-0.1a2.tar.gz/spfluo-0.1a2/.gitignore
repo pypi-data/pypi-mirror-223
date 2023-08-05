@@ -1,0 +1,12 @@
+__pycache__
+build*
+*.egg-info
+
+examples/
+.vscode
+
+*.csv
+*.tiff
+.hypothesis
+
+spfluo/_version.py
