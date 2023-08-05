@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2021 OpenSynergy Indonesia
+     Copyright 2021 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+<record id="psychology_test_view_form" model="ir.ui.view">
+    <field name="name">psychology_test - form</field>
+    <field name="model">psychology_test</field>
+    <field name="inherit_id" ref="ssi_psychology_testing.psychology_test_view_form" />
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//field[@name='active']" position="after">
+                <field name="tester_outsource_work_type_id" />
+                <field name="observer_outsource_work_type_id" />
+            </xpath>
+        </data>
+    </field>
+</record>
+</odoo>
