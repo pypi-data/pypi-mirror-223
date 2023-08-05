@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+datalaboauthenticator/__init__.py
+datalaboauthenticator/datalab.py
+jupyterhub_datalaboauthenticator.egg-info/PKG-INFO
+jupyterhub_datalaboauthenticator.egg-info/SOURCES.txt
+jupyterhub_datalaboauthenticator.egg-info/dependency_links.txt
+jupyterhub_datalaboauthenticator.egg-info/entry_points.txt
+jupyterhub_datalaboauthenticator.egg-info/top_level.txt
