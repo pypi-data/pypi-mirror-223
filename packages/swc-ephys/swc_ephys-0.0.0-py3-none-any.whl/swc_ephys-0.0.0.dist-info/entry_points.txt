@@ -1,0 +1,2 @@
+[console_scripts]
+swc_ephys = swc_ephys.command_line_interface:main
