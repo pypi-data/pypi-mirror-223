@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Markmini python test</title>
+  <link href="{{ url_for('static', path='styles.css' ) }}" rel="stylesheet">
+</head>
+
+<body>
+  <h1>Markmini python tester</h1>
+  <textarea id="input" cols="60" rows="8"></textarea>
+  <div class="wrapper">
+    <div class="output">
+      <div id="output_html"></div>
+    </div>
+    <div class="output">
+      <pre id="output_raw"></pre>
+    </div>
+  </div>
+  <script type="module" src="{{ url_for('static', path='main.js' ) }}"></script>
+</body>
+
+</html>

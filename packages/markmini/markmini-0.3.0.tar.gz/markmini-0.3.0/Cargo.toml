@@ -1,0 +1,16 @@
+[package]
+name = "markmini-py"
+version = "0.3.0"
+edition = "2021"
+
+[lib]
+name = "markmini_py"
+crate-type = ["cdylib"]
+
+[dependencies]
+itertools = "0.11"
+markmini = { path = "local_dependencies/markmini" }
+pyo3 = { version = "0.19.0", features = ["extension-module"] }
+
+[tool.maturin]
+profile = "release-py"

@@ -1,0 +1,11 @@
+[package]
+name = "markmini"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aho-corasick = "1.0.2"
+ammonia = "3.3.0"
+lazy_static = "1.4.0"
+pulldown-cmark =  { version = "0.9.3", default-features = false }
+regex-lite = "0.1.0"

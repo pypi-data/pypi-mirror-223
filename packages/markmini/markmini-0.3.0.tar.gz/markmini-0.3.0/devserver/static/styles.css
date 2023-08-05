@@ -1,0 +1,22 @@
+body {
+  background-color: #202020;
+  color-scheme: dark;
+  color: #dedede;
+  margin-inline: 2rem;
+}
+
+textarea {
+  margin-bottom: 1rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.output {
+  border: 3px solid #909090;
+  min-height: 20rem;
+  padding: 0.5rem;
+}
