@@ -1,0 +1,5 @@
+Click>=7.0
+pandas
+pyparsing>=3.0.0
+scikit-learn
+numpy
