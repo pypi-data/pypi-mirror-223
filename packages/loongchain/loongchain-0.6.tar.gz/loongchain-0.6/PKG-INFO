@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: loongchain
+Version: 0.6
+Summary: A Private Block Chain Service
+Project-URL: Homepage, https://github.com/crillerium/
+Author-email: Crillerium <crillerium@outlook.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Loongchain
+Loongchain Is A Private Block Chain Service With Copyright
