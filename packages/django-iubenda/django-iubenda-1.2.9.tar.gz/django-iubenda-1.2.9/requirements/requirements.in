@@ -1,0 +1,8 @@
+coverage
+django
+pytest
+pytest-django
+pytest-randomly
+django-modeltranslation
+requests
+django_compressor
