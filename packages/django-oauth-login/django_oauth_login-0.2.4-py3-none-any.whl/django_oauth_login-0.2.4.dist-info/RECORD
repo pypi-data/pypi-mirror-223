@@ -1,0 +1,17 @@
+oauthlogin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oauthlogin/admin.py,sha256=MxBCntTg6Gi3b4woibG8uFzEWldVurfW8QjJ0XQ5B2A,344
+oauthlogin/apps.py,sha256=DIgkA6H_JYZ0Ecj8Odqc6VkqT93-W93AZ_m1ImZya18,152
+oauthlogin/exceptions.py,sha256=wHf4e58PH2T2uhrHc5ESsvQq8ufE7BSLhp3Coes3aIc,246
+oauthlogin/migrations/0001_initial.py,sha256=coim7x11uLEGriUsyMZFB-VEAAf8CeCudSvurkIUB98,1986
+oauthlogin/migrations/0002_alter_oauthconnection_options_and_more.py,sha256=ZAsAYxEzM8-SwM8yGzaTbBuTmRkdLvIxmU7hhrQPSts,567
+oauthlogin/migrations/0003_alter_oauthconnection_access_token_and_more.py,sha256=xK8SiUZ2NvNW1HJIwSXivOYm6G4LlgId3iI1qUbAJZU,608
+oauthlogin/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oauthlogin/models.py,sha256=V_fLW9kpNQd_mAi4PjE4UkWg5mwWt3WiYR6wSLsZ2uA,6393
+oauthlogin/providers.py,sha256=MqBrZoooWdfam-kVtzc6R4b4qUVF7oWmUbrRmAQQKM8,7769
+oauthlogin/templates/oauthlogin/error.html,sha256=xkkWw57sZ3fz4dDfH30SVtq3okJNnJmrSRPfGxrxjh8,108
+oauthlogin/urls.py,sha256=elFua9kDYlCA2Qs0ynZEK-crjEjTZT6bGnp8MFhDL-8,713
+oauthlogin/views.py,sha256=S3vkX4IM9J4lbM30bfBHAO3FYh3pjJBJ7DjdVQfg1nc,2431
+django_oauth_login-0.2.4.dist-info/LICENSE,sha256=HmivhD-sq9a2tPLDyK3kVpGOB1gSjqYliHPV2SkPlfI,1065
+django_oauth_login-0.2.4.dist-info/METADATA,sha256=dG7bI73qTZgcWcFdfRORwnq1yJfmEHDhoiYgGXcQ9o0,11161
+django_oauth_login-0.2.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+django_oauth_login-0.2.4.dist-info/RECORD,,
