@@ -1,0 +1,7 @@
+simple_token_bucket/__init__.py,sha256=xEJa7aDlDzjXfsenWjR9zP13bnCUWlIHdao6gXJjD08,1411
+simple_token_bucket/backends/__init__.py,sha256=GDEmsFDZXbyRpERcLiZdwdV5R4iTnyykHXDCBXFfO5k,675
+simple_token_bucket/backends/redis.py,sha256=IfwwixjY2zCtXfv1irjmOa4HjDRR3MkaN7yjq-oLn6M,830
+simple_token_bucket-0.1.1.dist-info/METADATA,sha256=O7MLo_vfyvBTA-_aSF7Vr0nAOaj43aISgC58h6_879Q,2196
+simple_token_bucket-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+simple_token_bucket-0.1.1.dist-info/licenses/LICENSE,sha256=p_xSYaq6bQviieYpwTQk7L3l97yz3leA_z2VooLkEHc,1062
+simple_token_bucket-0.1.1.dist-info/RECORD,,
