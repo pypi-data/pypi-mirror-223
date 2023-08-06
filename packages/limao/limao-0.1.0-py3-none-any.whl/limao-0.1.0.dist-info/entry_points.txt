@@ -1,0 +1,3 @@
+[console_scripts]
+limao=limao.run_limao:run
+
