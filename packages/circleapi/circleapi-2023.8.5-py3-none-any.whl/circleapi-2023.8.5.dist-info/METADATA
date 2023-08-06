@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: circleapi
+Version: 2023.8.5
+Summary: osu! apiv2 python wrapper
+Home-page: https://github.com/miinorii/circleapi
+Author: miinorii
+Keywords: osu!,apiv2,wrapper
+Requires-Python: >=3.10
+Requires-Dist: httpx[http2] (>=0.24.1)
+Requires-Dist: pydantic (>=2.1.1)
+Requires-Dist: python-dotenv (>=1.0.0)
+
+osu! apiv2 python wrapper
