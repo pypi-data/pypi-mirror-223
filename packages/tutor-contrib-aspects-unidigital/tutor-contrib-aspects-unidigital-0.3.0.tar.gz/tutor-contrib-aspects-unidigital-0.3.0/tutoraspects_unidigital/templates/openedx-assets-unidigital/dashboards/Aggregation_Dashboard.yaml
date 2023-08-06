@@ -1,0 +1,716 @@
+- _file_name: Aggregation_Dashboard.yaml
+  _roles:
+  - {{ SUPERSET_ROLES_MAPPING.instructor }}
+  dashboard_title: Aggregation Dashboard
+  description: null
+  css: ''
+  slug: aggregation-dashboard
+  uuid: 51717a3d-6ff1-4b06-bbf5-7c07eadabc25
+  position:
+    CHART-explore-351-1:
+      children: []
+      id: CHART-explore-351-1
+      meta:
+        chartId: 351
+        height: 50
+        sliceName: Total courses
+        uuid: 77c78f2a-f93e-49d0-81c8-69f494a2c2ba
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      - ROW-sRXxTXCBp
+      type: CHART
+    CHART-explore-352-1:
+      children: []
+      id: CHART-explore-352-1
+      meta:
+        chartId: 352
+        height: 50
+        sliceName: Video count
+        uuid: 74c3f731-ea5e-4bb7-bed5-cde7431d98c9
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      - ROW-sRXxTXCBp
+      type: CHART
+    CHART-explore-353-1:
+      children: []
+      id: CHART-explore-353-1
+      meta:
+        chartId: 353
+        height: 50
+        sliceName: Total student enrollments
+        uuid: 6d3d6f4a-2165-4c76-9037-c556b80ec730
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-Rpi17rJ4WI
+      type: CHART
+    DASHBOARD_VERSION_KEY: v2
+    DIVIDER-VFPZJjVlf2:
+      children: []
+      id: DIVIDER-VFPZJjVlf2
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: DIVIDER
+    DIVIDER-lRzydt0Ybv:
+      children: []
+      id: DIVIDER-lRzydt0Ybv
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: DIVIDER
+    DIVIDER-mG2gFzhZLS:
+      children: []
+      id: DIVIDER-mG2gFzhZLS
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: DIVIDER
+    GRID_ID:
+      children:
+      - HEADER-m-cIE8RAmn
+      - TABS-Dc-1WI3Fle
+      - DIVIDER-lRzydt0Ybv
+      - HEADER-ASd1ryBTq4
+      - TABS-UMFjQI6rV3
+      - DIVIDER-VFPZJjVlf2
+      - DIVIDER-mG2gFzhZLS
+      - ROW-ziOUX_D2Bk
+      id: GRID_ID
+      parents:
+      - ROOT_ID
+      type: GRID
+    HEADER-ASd1ryBTq4:
+      children: []
+      id: HEADER-ASd1ryBTq4
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Specific Data
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER-m-cIE8RAmn:
+      children: []
+      id: HEADER-m-cIE8RAmn
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Global Data
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER_ID:
+      id: HEADER_ID
+      meta:
+        text: Aggregation Dashboard
+      type: HEADER
+    MARKDOWN-8ugzsgxlO8:
+      children: []
+      id: MARKDOWN-8ugzsgxlO8
+      meta:
+        code: "# N\xFAmero de usuarios distintos que han participado en el foro"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-zje3J9eZAO
+      type: MARKDOWN
+    MARKDOWN-AJ70aw4aj3:
+      children: []
+      id: MARKDOWN-AJ70aw4aj3
+      meta:
+        code: "# Total de estudiantes que han intentado alg\xFAn examen y % sobre inscritos\
+          \ totales"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-MGuV_TbF5
+      type: MARKDOWN
+    MARKDOWN-DFcJtYHSSB:
+      children: []
+      id: MARKDOWN-DFcJtYHSSB
+      meta:
+        code: '# % de problemas no evaluables contestados correctamente'
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-uBa6-t2gX2
+      type: MARKDOWN
+    MARKDOWN-KFbOITTQQr:
+      children: []
+      id: MARKDOWN-KFbOITTQQr
+      meta:
+        code: '# Total de inscripciones actuales'
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-qPkQmW9OO0
+      type: MARKDOWN
+    MARKDOWN-MxHquFogi6:
+      children: []
+      id: MARKDOWN-MxHquFogi6
+      meta:
+        code: '# Total de estudiantes distintos actuales'
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-Rpi17rJ4WI
+      type: MARKDOWN
+    MARKDOWN-NvZxSTeDXw:
+      children: []
+      id: MARKDOWN-NvZxSTeDXw
+      meta:
+        code: '# Total de inscripciones sin descontar bajas'
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-Rpi17rJ4WI
+      type: MARKDOWN
+    MARKDOWN-OQAgpTZPf4:
+      children: []
+      id: MARKDOWN-OQAgpTZPf4
+      meta:
+        code: '# Total de estudiantes que han realizado alguna actividad y % sobre inscritos
+          totales'
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-MGuV_TbF5
+      type: MARKDOWN
+    MARKDOWN-Pi92P37YIT:
+      children: []
+      id: MARKDOWN-Pi92P37YIT
+      meta:
+        code: "# N\xFAmero de actividades ORA no evaluables"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      - ROW-bceEw16HE0
+      type: MARKDOWN
+    MARKDOWN-Qzotp6u2ei:
+      children: []
+      id: MARKDOWN-Qzotp6u2ei
+      meta:
+        code: "# Total de inscripciones de pago, si hay (n\xFAmero y % sobre inscritos\
+          \ totales))"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-qPkQmW9OO0
+      type: MARKDOWN
+    MARKDOWN-R83nUknDBJ:
+      children: []
+      id: MARKDOWN-R83nUknDBJ
+      meta:
+        code: "# Total de aprobados (n\xFAmero y % sobre inscritos totales)"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      - ROW-qPkQmW9OO0
+      type: MARKDOWN
+    MARKDOWN-YprhJw49VI:
+      children: []
+      id: MARKDOWN-YprhJw49VI
+      meta:
+        code: "# N\xFAmero de participaciones en el foro"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-zje3J9eZAO
+      type: MARKDOWN
+    MARKDOWN-_M__HsqIGO:
+      children: []
+      id: MARKDOWN-_M__HsqIGO
+      meta:
+        code: "# N\xFAmero de intentos promedio de ejercicios evaluables"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-uBa6-t2gX2
+      type: MARKDOWN
+    MARKDOWN-aISYoKYGRD:
+      children: []
+      id: MARKDOWN-aISYoKYGRD
+      meta:
+        code: '# % de visualizaciones completas'
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-2hTfE94X84
+      type: MARKDOWN
+    MARKDOWN-iww3m_9Yf4:
+      children: []
+      id: MARKDOWN-iww3m_9Yf4
+      meta:
+        code: "# N\xFAmero de actividades ORA evaluables"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      - ROW-t17nJ8UOKI
+      type: MARKDOWN
+    MARKDOWN-jftkLoTWXK:
+      children: []
+      id: MARKDOWN-jftkLoTWXK
+      meta:
+        code: "# N\xFAmero de minutos totales de v\xEDdeo de los cursos"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      - ROW-sRXxTXCBp
+      type: MARKDOWN
+    MARKDOWN-o5lWZ2wEzb:
+      children: []
+      id: MARKDOWN-o5lWZ2wEzb
+      meta:
+        code: "# Total de minutos de v\xEDdeo \xFAnicos vistos"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-2hTfE94X84
+      type: MARKDOWN
+    MARKDOWN-q1uIsERf28:
+      children: []
+      id: MARKDOWN-q1uIsERf28
+      meta:
+        code: "# Total de minutos de v\xEDdeo repetidos vistos"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-2hTfE94X84
+      type: MARKDOWN
+    MARKDOWN-rTWMUTmIMK:
+      children: []
+      id: MARKDOWN-rTWMUTmIMK
+      meta:
+        code: "# N\xFAmero de problemas evaluables de los cursos"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      - ROW-t17nJ8UOKI
+      type: MARKDOWN
+    MARKDOWN-ummDJTlU37:
+      children: []
+      id: MARKDOWN-ummDJTlU37
+      meta:
+        code: "# N\xFAmero de intentos promedio de ejercicios no evaluables"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-zje3J9eZAO
+      type: MARKDOWN
+    MARKDOWN-uyqnLHaz6p:
+      children: []
+      id: MARKDOWN-uyqnLHaz6p
+      meta:
+        code: "# Total de estudiantes que han visto alg\xFAn minuto de v\xEDdeo y %\
+          \ sobre inscritos totales"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-MGuV_TbF5
+      type: MARKDOWN
+    MARKDOWN-wCls1STgiY:
+      children: []
+      id: MARKDOWN-wCls1STgiY
+      meta:
+        code: "# N\xFAmero de problemas no evaluables de los cursos"
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      - ROW-t17nJ8UOKI
+      type: MARKDOWN
+    MARKDOWN-zpDno7JJr1:
+      children: []
+      id: MARKDOWN-zpDno7JJr1
+      meta:
+        code: '# % de problemas evaluables contestados correctamente'
+        height: 50
+        width: 4
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      - ROW-uBa6-t2gX2
+      type: MARKDOWN
+    ROOT_ID:
+      children:
+      - GRID_ID
+      id: ROOT_ID
+      type: ROOT
+    ROW-2hTfE94X84:
+      children:
+      - MARKDOWN-o5lWZ2wEzb
+      - MARKDOWN-q1uIsERf28
+      - MARKDOWN-aISYoKYGRD
+      id: ROW-2hTfE94X84
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      type: ROW
+    ROW-MGuV_TbF5:
+      children:
+      - MARKDOWN-OQAgpTZPf4
+      - MARKDOWN-AJ70aw4aj3
+      - MARKDOWN-uyqnLHaz6p
+      id: ROW-MGuV_TbF5
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      type: ROW
+    ROW-Rpi17rJ4WI:
+      children:
+      - CHART-explore-353-1
+      - MARKDOWN-MxHquFogi6
+      - MARKDOWN-NvZxSTeDXw
+      id: ROW-Rpi17rJ4WI
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      type: ROW
+    ROW-bceEw16HE0:
+      children:
+      - MARKDOWN-Pi92P37YIT
+      id: ROW-bceEw16HE0
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      type: ROW
+    ROW-qPkQmW9OO0:
+      children:
+      - MARKDOWN-KFbOITTQQr
+      - MARKDOWN-R83nUknDBJ
+      - MARKDOWN-Qzotp6u2ei
+      id: ROW-qPkQmW9OO0
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-ThJnl-rA2
+      type: ROW
+    ROW-sRXxTXCBp:
+      children:
+      - CHART-explore-351-1
+      - CHART-explore-352-1
+      - MARKDOWN-jftkLoTWXK
+      id: ROW-sRXxTXCBp
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      type: ROW
+    ROW-t17nJ8UOKI:
+      children:
+      - MARKDOWN-rTWMUTmIMK
+      - MARKDOWN-wCls1STgiY
+      - MARKDOWN-iww3m_9Yf4
+      id: ROW-t17nJ8UOKI
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-lTVxk1Nh1m
+      type: ROW
+    ROW-uBa6-t2gX2:
+      children:
+      - MARKDOWN-zpDno7JJr1
+      - MARKDOWN-DFcJtYHSSB
+      - MARKDOWN-_M__HsqIGO
+      id: ROW-uBa6-t2gX2
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      type: ROW
+    ROW-ziOUX_D2Bk:
+      children: []
+      id: ROW-ziOUX_D2Bk
+      meta:
+        '0': ROOT_ID
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: ROW
+    ROW-zje3J9eZAO:
+      children:
+      - MARKDOWN-ummDJTlU37
+      - MARKDOWN-8ugzsgxlO8
+      - MARKDOWN-YprhJw49VI
+      id: ROW-zje3J9eZAO
+      meta:
+        background: BACKGROUND_TRANSPARENT
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      - TAB-b8fzkjGtc
+      type: ROW
+    TAB-2Gg6rnNmk:
+      children: []
+      id: TAB-2Gg6rnNmk
+      meta:
+        text: Course Comparison
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-UMFjQI6rV3
+      type: TAB
+    TAB-E0yEilj5zM:
+      children: []
+      id: TAB-E0yEilj5zM
+      meta:
+        text: Demographics
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-UMFjQI6rV3
+      type: TAB
+    TAB-SMDmooRt0:
+      children: []
+      id: TAB-SMDmooRt0
+      meta:
+        text: Aggregated Data
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-UMFjQI6rV3
+      type: TAB
+    TAB-ThJnl-rA2:
+      children:
+      - ROW-Rpi17rJ4WI
+      - ROW-qPkQmW9OO0
+      id: TAB-ThJnl-rA2
+      meta:
+        text: Enrollments
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      type: TAB
+    TAB-b8fzkjGtc:
+      children:
+      - ROW-MGuV_TbF5
+      - ROW-2hTfE94X84
+      - ROW-uBa6-t2gX2
+      - ROW-zje3J9eZAO
+      id: TAB-b8fzkjGtc
+      meta:
+        text: Students Activity
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      type: TAB
+    TAB-lGQi9ZnEF:
+      children: []
+      id: TAB-lGQi9ZnEF
+      meta:
+        text: Temporal Evolution
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-UMFjQI6rV3
+      type: TAB
+    TAB-lTVxk1Nh1m:
+      children:
+      - ROW-sRXxTXCBp
+      - ROW-t17nJ8UOKI
+      - ROW-bceEw16HE0
+      id: TAB-lTVxk1Nh1m
+      meta:
+        text: Courses
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      type: TAB
+    TABS-Dc-1WI3Fle:
+      children:
+      - TAB-lTVxk1Nh1m
+      - TAB-ThJnl-rA2
+      - TAB-b8fzkjGtc
+      id: TABS-Dc-1WI3Fle
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+    TABS-UMFjQI6rV3:
+      children:
+      - TAB-E0yEilj5zM
+      - TAB-SMDmooRt0
+      - TAB-lGQi9ZnEF
+      - TAB-2Gg6rnNmk
+      id: TABS-UMFjQI6rV3
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+  metadata:
+    chart_configuration: {}
+    color_scheme: ''
+    default_filters: '{}'
+    expanded_slices: {}
+    label_colors: {}
+    refresh_frequency: 0
+    show_native_filters: true
+    timed_refresh_immune_slices: []
+    shared_label_colors: {}
+    native_filter_configuration:
+    - id: NATIVE_FILTER-OPYmlbQ-B
+      controlValues:
+        enableEmptyFilter: false
+        defaultToFirstItem: false
+        multiSelect: true
+        searchAllOptions: true
+        inverseSelection: false
+      name: Courses
+      filterType: filter_select
+      targets:
+      - column:
+          name: course_key
+        datasetUuid: 46183302-6fa6-41a3-b6a7-79ff6c1c8402
+      defaultDataMask:
+        extraFormData: {}
+        filterState: {}
+        ownState: {}
+      cascadeParentIds: []
+      scope:
+        rootPath:
+        - TAB-lTVxk1Nh1m
+        excluded: []
+      type: NATIVE_FILTER
+      description: ''
+      chartsInScope:
+      - 351
+      tabsInScope:
+      - TAB-lTVxk1Nh1m
+  version: 1.0.0

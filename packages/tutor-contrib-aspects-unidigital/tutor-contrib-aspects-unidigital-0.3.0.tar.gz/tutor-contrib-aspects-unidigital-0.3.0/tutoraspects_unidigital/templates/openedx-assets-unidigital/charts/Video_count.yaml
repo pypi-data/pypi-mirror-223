@@ -1,0 +1,53 @@
+- _file_name: Video_count.yaml
+  slice_name: Video count
+  viz_type: big_number_total
+  params:
+    adhoc_filters:
+    - clause: WHERE
+      comparator: '%video+block%'
+      expressionType: SIMPLE
+      filterOptionName: filter_yp11hkmuymo_c5pqpv3n9h
+      isExtra: false
+      isNew: false
+      operator: LIKE
+      operatorId: LIKE
+      sqlExpression: null
+      subject: location
+    datasource: 9__table
+    extra_form_data: {}
+    header_font_size: 0.4
+    metric:
+      aggregate: COUNT_DISTINCT
+      column:
+        advanced_data_type: null
+        certification_details: null
+        certified_by: null
+        column_name: location
+        description: null
+        expression: null
+        filterable: true
+        groupby: true
+        id: 62
+        is_certified: false
+        is_dttm: false
+        python_date_format: null
+        type: String
+        type_generic: 1
+        verbose_name: null
+        warning_markdown: null
+      expressionType: SIMPLE
+      hasCustomLabel: false
+      isNew: false
+      label: COUNT_DISTINCT(location)
+      optionName: metric_azpdwltshqk_5r9nzui85h2
+      sqlExpression: null
+    subheader_font_size: 0.15
+    time_format: smart_date
+    time_grain_sqla: P1D
+    time_range: No filter
+    viz_type: big_number_total
+    y_axis_format: SMART_NUMBER
+  cache_timeout: null
+  uuid: 74c3f731-ea5e-4bb7-bed5-cde7431d98c9
+  version: 1.0.0
+  dataset_uuid: 1b73d066-fd6c-411d-a99d-fc585f9474b1
