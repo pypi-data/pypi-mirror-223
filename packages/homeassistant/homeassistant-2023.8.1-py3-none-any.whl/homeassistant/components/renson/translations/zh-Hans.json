@@ -1,0 +1,40 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "\u8fde\u63a5\u5931\u8d25",
+            "unknown": "\u975e\u9884\u671f\u7684\u9519\u8bef"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "\u4e3b\u673a"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "air_quality": {
+                "name": "\u7a7a\u6c14\u8d28\u91cf"
+            },
+            "air_quality_category": {
+                "name": "\u7a7a\u6c14\u8d28\u91cf\u7c7b\u522b"
+            },
+            "breeze_level": {
+                "state": {
+                    "off": "\u5173\u95ed"
+                }
+            },
+            "manual_level": {
+                "state": {
+                    "off": "\u5173\u95ed"
+                }
+            },
+            "ventilation_level": {
+                "state": {
+                    "off": "\u5173\u95ed"
+                }
+            }
+        }
+    }
+}

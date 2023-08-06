@@ -1,0 +1,21 @@
+{
+    "config": {
+        "abort": {
+            "no_url_available": "Ingen URL tilgjengelig. For informasjon om denne feilen, [sjekk hjelpseksjonen]({docs_url})",
+            "oauth_error": "Mottatt ugyldige token data.",
+            "reauth_successful": "Re-autentisering var vellykket",
+            "user_rejected_authorize": "Kontokobling avvist: {error}"
+        },
+        "create_entry": {
+            "default": "Vellykket godkjenning"
+        },
+        "step": {
+            "pick_implementation": {
+                "title": "Velg godkjenningsmetode"
+            },
+            "reauth_confirm": {
+                "title": "Godkjenne integrering p\u00e5 nytt"
+            }
+        }
+    }
+}

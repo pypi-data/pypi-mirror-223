@@ -1,0 +1,15 @@
+{
+    "entity": {
+        "event": {
+            "push": {
+                "state_attributes": {
+                    "event_type": {
+                        "state": {
+                            "pressed": "Pressed"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

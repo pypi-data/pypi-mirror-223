@@ -1,0 +1,76 @@
+{
+    "services": {
+        "send_animation": {
+            "fields": {
+                "password": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 jelsz\u00f3 (vagy hordoz\u00f3token).",
+                    "name": "Jelsz\u00f3"
+                },
+                "username": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 felhaszn\u00e1l\u00f3n\u00e9v.",
+                    "name": "Felhaszn\u00e1l\u00f3n\u00e9v"
+                }
+            }
+        },
+        "send_document": {
+            "fields": {
+                "password": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 jelsz\u00f3 (vagy hordoz\u00f3token).",
+                    "name": "Jelsz\u00f3"
+                },
+                "username": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 felhaszn\u00e1l\u00f3n\u00e9v.",
+                    "name": "Felhaszn\u00e1l\u00f3n\u00e9v"
+                }
+            }
+        },
+        "send_photo": {
+            "fields": {
+                "password": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 jelsz\u00f3 (vagy hordoz\u00f3token).",
+                    "name": "Jelsz\u00f3"
+                },
+                "username": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 felhaszn\u00e1l\u00f3n\u00e9v.",
+                    "name": "Felhaszn\u00e1l\u00f3n\u00e9v"
+                }
+            }
+        },
+        "send_sticker": {
+            "fields": {
+                "password": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 jelsz\u00f3 (vagy hordoz\u00f3token).",
+                    "name": "Jelsz\u00f3"
+                },
+                "username": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 felhaszn\u00e1l\u00f3n\u00e9v.",
+                    "name": "Felhaszn\u00e1l\u00f3n\u00e9v"
+                }
+            }
+        },
+        "send_video": {
+            "fields": {
+                "password": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 jelsz\u00f3 (vagy hordoz\u00f3token).",
+                    "name": "Jelsz\u00f3"
+                },
+                "username": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 felhaszn\u00e1l\u00f3n\u00e9v.",
+                    "name": "Felhaszn\u00e1l\u00f3n\u00e9v"
+                }
+            }
+        },
+        "send_voice": {
+            "fields": {
+                "password": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 jelsz\u00f3 (vagy hordoz\u00f3token).",
+                    "name": "Jelsz\u00f3"
+                },
+                "username": {
+                    "description": "A URL-hez sz\u00fcks\u00e9ges HTTP hiteles\u00edt\u00e9shez tartoz\u00f3 felhaszn\u00e1l\u00f3n\u00e9v.",
+                    "name": "Felhaszn\u00e1l\u00f3n\u00e9v"
+                }
+            }
+        }
+    }
+}

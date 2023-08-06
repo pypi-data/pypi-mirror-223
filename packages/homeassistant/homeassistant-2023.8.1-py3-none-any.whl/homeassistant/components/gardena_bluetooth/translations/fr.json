@@ -1,0 +1,22 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "\u00c9chec de la connexion: {error}"
+        }
+    },
+    "entity": {
+        "button": {
+            "factory_reset": {
+                "name": "Retour aux param\u00e8tres d'usine"
+            }
+        },
+        "sensor": {
+            "activation_reason": {
+                "name": "Raison de l'activation"
+            },
+            "remaining_open_timestamp": {
+                "name": "Valve en cours de fermeture"
+            }
+        }
+    }
+}

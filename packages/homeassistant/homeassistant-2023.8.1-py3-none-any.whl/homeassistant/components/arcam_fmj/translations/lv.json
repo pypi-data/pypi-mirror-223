@@ -1,0 +1,12 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Ier\u012bce jau pievienota Home Assistant."
+        }
+    },
+    "device_automation": {
+        "trigger_type": {
+            "turn_on": "Tika piepras\u012bts iesl\u0113gt {entity_name}"
+        }
+    }
+}

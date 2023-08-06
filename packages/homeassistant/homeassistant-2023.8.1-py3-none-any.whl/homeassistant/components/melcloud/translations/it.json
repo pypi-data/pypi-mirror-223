@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Integrazione MELCloud gi\u00e0 configurata per questa email. Il token di accesso \u00e8 stato aggiornato."
+        },
+        "error": {
+            "cannot_connect": "Impossibile connettersi",
+            "invalid_auth": "Autenticazione non valida",
+            "unknown": "Errore imprevisto"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Password",
+                    "username": "E-mail"
+                },
+                "description": "Connettiti utilizzando il tuo account MELCloud.",
+                "title": "Connettiti a MELCloud"
+            }
+        }
+    },
+    "services": {
+        "set_vane_horizontal": {
+            "description": "Imposta la posizione orizzontale delle alette.",
+            "fields": {
+                "position": {
+                    "description": "Posizione orizzontale delle alette. Le possibili opzioni possono essere trovate nell'attributo state vane_horizontal_positions.\n .",
+                    "name": "Posizione"
+                }
+            },
+            "name": "Impostare l'aletta orizzontale"
+        },
+        "set_vane_vertical": {
+            "description": "Imposta la posizione verticale delle alette.",
+            "fields": {
+                "position": {
+                    "description": "Posizione verticale delle alette. Le possibili opzioni possono essere trovate nell'attributo state vane_vertical_positions.\n .",
+                    "name": "Posizione"
+                }
+            },
+            "name": "Imposta'aletta verticale"
+        }
+    }
+}

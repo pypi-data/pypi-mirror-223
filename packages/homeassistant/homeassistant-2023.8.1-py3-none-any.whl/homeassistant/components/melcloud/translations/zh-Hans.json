@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "\u5df2\u4e3a\u6b64\u7535\u5b50\u90ae\u4ef6\u914d\u7f6e MELCloud \u96c6\u6210\u3002\u8bbf\u95ee\u4ee4\u724c\u5df2\u5237\u65b0\u3002"
+        },
+        "error": {
+            "cannot_connect": "\u8fde\u63a5\u5931\u8d25",
+            "invalid_auth": "\u8eab\u4efd\u8ba4\u8bc1\u65e0\u6548",
+            "unknown": "\u975e\u9884\u671f\u7684\u9519\u8bef"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "password": "\u5bc6\u7801",
+                    "username": "\u7535\u5b50\u90ae\u7bb1"
+                },
+                "description": "\u4f7f\u7528\u60a8\u7684 MELCloud \u8d26\u53f7\u8fdb\u884c\u8fde\u63a5\u3002",
+                "title": "\u8fde\u63a5\u5230 MELCloud"
+            }
+        }
+    },
+    "services": {
+        "set_vane_horizontal": {
+            "description": "\u8bbe\u7f6e\u6c34\u5e73\u53f6\u7247\u4f4d\u7f6e\u3002",
+            "fields": {
+                "position": {
+                    "description": "\u6c34\u5e73\u53f6\u7247\u4f4d\u7f6e\u3002\u53ef\u80fd\u7684\u9009\u9879\u53ef\u4ee5\u5728 vane_horizontal_positions \u72b6\u6001\u5c5e\u6027\u4e2d\u627e\u5230\u3002",
+                    "name": "\u4f4d\u7f6e"
+                }
+            },
+            "name": "\u8bbe\u7f6e\u6c34\u5e73\u53f6\u7247"
+        },
+        "set_vane_vertical": {
+            "description": "\u8bbe\u7f6e\u5782\u76f4\u53f6\u7247\u4f4d\u7f6e\u3002",
+            "fields": {
+                "position": {
+                    "description": "\u5782\u76f4\u53f6\u7247\u4f4d\u7f6e\u3002\u53ef\u80fd\u7684\u9009\u9879\u53ef\u4ee5\u5728 vane_vertical_positions \u72b6\u6001\u5c5e\u6027\u4e2d\u627e\u5230\u3002",
+                    "name": "\u4f4d\u7f6e"
+                }
+            },
+            "name": "\u8bbe\u7f6e\u5782\u76f4\u53f6\u7247"
+        }
+    }
+}

@@ -1,0 +1,293 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "A fi\u00f3k m\u00e1r konfigur\u00e1lva van",
+            "reauth_successful": "Az \u00fajrahiteles\u00edt\u00e9s sikeres volt."
+        },
+        "error": {
+            "cannot_connect": "Sikertelen csatlakoz\u00e1s",
+            "incorrect_api_key": "\u00c9rv\u00e9nytelen API-kulcs a megadott fi\u00f3khoz",
+            "invalid_auth": "\u00c9rv\u00e9nytelen hiteles\u00edt\u00e9s",
+            "no_devices": "Nincs \u00e9szlelt eszk\u00f6z",
+            "no_username": "Nem siker\u00fclt beolvasni a felhaszn\u00e1l\u00f3nevet"
+        },
+        "step": {
+            "reauth_confirm": {
+                "data": {
+                    "api_key": "API kulcs"
+                },
+                "data_description": {
+                    "api_key": "K\u00f6vesse a dokument\u00e1ci\u00f3t az API-kulcs beszerz\u00e9s\u00e9hez."
+                }
+            },
+            "user": {
+                "data": {
+                    "api_key": "API kulcs"
+                },
+                "data_description": {
+                    "api_key": "K\u00f6vesse a dokument\u00e1ci\u00f3t az API-kulcs beszerz\u00e9s\u00e9hez."
+                }
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "horizontalswing": {
+                "state": {
+                    "fixedcenter": "Csak k\u00f6z\u00e9pre",
+                    "fixedcenterleft": "Csak bal-k\u00f6z\u00e9pre",
+                    "fixedcenterright": "Csak jobb-k\u00f6z\u00e9pre",
+                    "fixedleft": "Csak balra",
+                    "fixedleftright": "Csak jobbra - balra",
+                    "fixedright": "Csak jobbra",
+                    "rangecenter": "Tartom\u00e1ny k\u00f6zepe",
+                    "rangefull": "Teljes tartom\u00e1ny",
+                    "stopped": "Meg\u00e1ll\u00edtva"
+                }
+            },
+            "light": {
+                "state": {
+                    "dim": "Halv\u00e1ny",
+                    "off": "Ki",
+                    "on": "Be"
+                }
+            }
+        },
+        "sensor": {
+            "climate_react_high": {
+                "name": "Climate React magas h\u0151m\u00e9rs\u00e9kleti k\u00fcsz\u00f6b",
+                "state_attributes": {
+                    "fanlevel": {
+                        "name": "Ventil\u00e1tor m\u00f3d",
+                        "state": {
+                            "auto": "Automatikus",
+                            "high": "Magas",
+                            "low": "Alacsony",
+                            "medium": "K\u00f6zepes",
+                            "medium_high": "K\u00f6zepesen magas",
+                            "quiet": "Csendes"
+                        }
+                    },
+                    "horizontalswing": {
+                        "name": "V\u00edzszintes leng\u00e9s",
+                        "state": {
+                            "fixedcenter": "Csak k\u00f6z\u00e9pre",
+                            "fixedcenterleft": "Csak bal-k\u00f6z\u00e9pre",
+                            "fixedcenterright": "Csak jobb-k\u00f6z\u00e9pre",
+                            "fixedleft": "Csak balra",
+                            "fixedleftright": "Csak jobbra - balra",
+                            "fixedright": "Csak jobbra",
+                            "rangecenter": "Tartom\u00e1ny k\u00f6zepe",
+                            "rangefull": "Teljes tartom\u00e1ny",
+                            "stopped": "Ki"
+                        }
+                    },
+                    "light": {
+                        "name": "Vil\u00e1g\u00edt\u00e1s",
+                        "state": {
+                            "dim": "Halv\u00e1ny",
+                            "off": "Ki",
+                            "on": "Be"
+                        }
+                    },
+                    "mode": {
+                        "name": "M\u00f3d",
+                        "state": {
+                            "auto": "Automatikus",
+                            "cool": "H\u0171t\u00e9s",
+                            "dry": "P\u00e1r\u00e1tlan\u00edt\u00e1s",
+                            "fan_only": "L\u00e9gmozg\u00e1s",
+                            "heat": "F\u0171t\u00e9s",
+                            "heat_cool": "F\u0171t\u00e9s/H\u0171t\u00e9s",
+                            "off": "Ki"
+                        }
+                    },
+                    "on": {
+                        "name": "Be",
+                        "state": {
+                            "false": "Ki",
+                            "true": "Be"
+                        }
+                    },
+                    "swing": {
+                        "name": "Legyez\u00e9s",
+                        "state": {
+                            "both": "Mindkett\u0151",
+                            "fixedbottom": "Csak lentre",
+                            "fixedmiddle": "Csak k\u00f6z\u00e9pre",
+                            "fixedmiddlebottom": "Csak als\u00f3-k\u00f6z\u00e9pre",
+                            "fixedmiddletop": "Csak fels\u0151-k\u00f6z\u00e9pre",
+                            "fixedtop": "Csak fentre",
+                            "horizontal": "V\u00edzszintes",
+                            "rangebottom": "Tartom\u00e1ny als\u00f3 r\u00e9sze",
+                            "rangefull": "Teljes tartom\u00e1ny",
+                            "rangemiddle": "Tartom\u00e1ny k\u00f6z\u00e9ps\u0151 r\u00e9sze",
+                            "rangetop": "Tartom\u00e1ny fels\u0151 r\u00e9sze",
+                            "stopped": "Ki"
+                        }
+                    },
+                    "targettemperature": {
+                        "name": "K\u00edv\u00e1nt h\u0151m\u00e9rs\u00e9klet"
+                    },
+                    "temperatureunit": {
+                        "name": "H\u0151m\u00e9rs\u00e9klet egys\u00e9g",
+                        "state": {
+                            "c": "Celsius",
+                            "f": "Fahrenheit"
+                        }
+                    }
+                }
+            },
+            "climate_react_low": {
+                "name": "Climate React als\u00f3 h\u0151m\u00e9rs\u00e9kleti k\u00fcsz\u00f6b.",
+                "state_attributes": {
+                    "fanlevel": {
+                        "name": "Ventil\u00e1tor m\u00f3d",
+                        "state": {
+                            "auto": "Automatikus",
+                            "high": "Magas",
+                            "low": "Alacsony",
+                            "medium": "K\u00f6zepes",
+                            "medium_high": "K\u00f6zepesen magas",
+                            "quiet": "Csendes"
+                        }
+                    },
+                    "horizontalswing": {
+                        "name": "V\u00edzszintes leng\u00e9s",
+                        "state": {
+                            "fixedcenter": "Csak k\u00f6z\u00e9pre",
+                            "fixedcenterleft": "Csak bal-k\u00f6z\u00e9pre",
+                            "fixedcenterright": "Csak jobb-k\u00f6z\u00e9pre",
+                            "fixedleft": "Csak balra",
+                            "fixedleftright": "Csak jobbra - balra",
+                            "fixedright": "Csak jobbra",
+                            "rangecenter": "Tartom\u00e1ny k\u00f6zepe",
+                            "rangefull": "Teljes tartom\u00e1ny",
+                            "stopped": "Ki"
+                        }
+                    },
+                    "light": {
+                        "name": "Vil\u00e1g\u00edt\u00e1s",
+                        "state": {
+                            "dim": "Halv\u00e1ny",
+                            "off": "Ki",
+                            "on": "Be"
+                        }
+                    },
+                    "mode": {
+                        "name": "M\u00f3d",
+                        "state": {
+                            "auto": "Automatikus",
+                            "cool": "H\u0171t\u00e9s",
+                            "dry": "P\u00e1r\u00e1tlan\u00edt\u00e1s",
+                            "fan_only": "L\u00e9gmozg\u00e1s",
+                            "heat": "F\u0171t\u00e9s",
+                            "heat_cool": "F\u0171t\u00e9s/H\u0171t\u00e9s",
+                            "off": "Ki"
+                        }
+                    },
+                    "on": {
+                        "name": "Be",
+                        "state": {
+                            "false": "Ki",
+                            "true": "Be"
+                        }
+                    },
+                    "swing": {
+                        "name": "Legyez\u00e9s",
+                        "state": {
+                            "both": "Mindkett\u0151",
+                            "fixedbottom": "Csak lentre",
+                            "fixedmiddle": "Csak k\u00f6z\u00e9pre",
+                            "fixedmiddlebottom": "Csak als\u00f3-k\u00f6z\u00e9pre",
+                            "fixedmiddletop": "Csak fels\u0151-k\u00f6z\u00e9pre",
+                            "fixedtop": "Csak fentre",
+                            "horizontal": "V\u00edzszintes",
+                            "rangebottom": "Tartom\u00e1ny als\u00f3 r\u00e9sze",
+                            "rangefull": "Teljes tartom\u00e1ny",
+                            "rangemiddle": "Tartom\u00e1ny k\u00f6z\u00e9ps\u0151 r\u00e9sze",
+                            "rangetop": "Tartom\u00e1ny fels\u0151 r\u00e9sze",
+                            "stopped": "Ki"
+                        }
+                    },
+                    "targettemperature": {
+                        "name": "K\u00edv\u00e1nt h\u0151m\u00e9rs\u00e9klet"
+                    },
+                    "temperatureunit": {
+                        "name": "H\u0151m\u00e9rs\u00e9klet egys\u00e9g",
+                        "state": {
+                            "c": "Celsius",
+                            "f": "Fahrenheit"
+                        }
+                    }
+                }
+            },
+            "sensitivity": {
+                "state": {
+                    "n": "Norm\u00e1l",
+                    "s": "\u00c9rz\u00e9keny"
+                }
+            },
+            "smart_type": {
+                "state": {
+                    "feelslike": "\u00c9rz\u00e9sre",
+                    "humidity": "P\u00e1ratartalom",
+                    "temperature": "H\u0151m\u00e9rs\u00e9klet"
+                }
+            }
+        },
+        "switch": {
+            "climate_react_switch": {
+                "name": "Climate React",
+                "state_attributes": {
+                    "type": {
+                        "name": "T\u00edpus",
+                        "state": {
+                            "feelslike": "Feels like (\u00fagy \u00e9rzi, mint)",
+                            "humidity": "P\u00e1ratartalom",
+                            "temperature": "H\u0151m\u00e9rs\u00e9klet"
+                        }
+                    }
+                }
+            },
+            "timer_on_switch": {
+                "state_attributes": {
+                    "turn_on": {
+                        "state": {
+                            "false": "Ki",
+                            "true": "Be"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "services": {
+        "enable_climate_react": {
+            "description": "Enged\u00e9lyezi \u00e9s be\u00e1ll\u00edtja a kl\u00edmav\u00e1laszt (Climate React).",
+            "fields": {
+                "high_temperature_state": {
+                    "description": "Mi t\u00f6rt\u00e9njen a magas k\u00fcsz\u00f6b\u00e9rt\u00e9kn\u00e9l. Teljes \u00e1llapotot ig\u00e9nyel.",
+                    "name": "Magas k\u00fcsz\u00f6b\u00e9rt\u00e9k \u00e1llapota"
+                },
+                "high_temperature_threshold": {
+                    "description": "Amikor a h\u0151m\u00e9rs\u00e9klet/p\u00e1ratartalom meghaladja.",
+                    "name": "Magas k\u00fcsz\u00f6b\u00e9rt\u00e9k"
+                },
+                "low_temperature_state": {
+                    "description": "Mi t\u00f6rt\u00e9njen a alacsony k\u00fcsz\u00f6b\u00e9rt\u00e9kn\u00e9l. Teljes \u00e1llapotot ig\u00e9nyel.",
+                    "name": "Alacsony k\u00fcsz\u00f6b\u00e9rt\u00e9k \u00e1llapota"
+                },
+                "low_temperature_threshold": {
+                    "description": "Amikor a h\u0151m\u00e9rs\u00e9klet/p\u00e1ratartalom al\u00e1 esik.",
+                    "name": "Alacsony k\u00fcsz\u00f6b\u00e9rt\u00e9k"
+                },
+                "smart_type": {
+                    "description": "V\u00e1lassz a h\u0151m\u00e9rs\u00e9klet/feels like/p\u00e1ratartalom k\u00f6z\u00f6tt.",
+                    "name": "Trigger (ind\u00edt\u00f3) t\u00edpus"
+                }
+            },
+            "name": "Climate React ind\u00edt\u00e1sa"
+        }
+    }
+}
