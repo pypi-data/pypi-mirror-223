@@ -1,0 +1,11 @@
+openfeed/__init__.py,sha256=rF-64kTuGSKK3r5vfcYgfRvpEtLkHXdvTI6L8Qf5RSw,256
+openfeed/openfeed_client.py,sha256=QKsg0t99S3j6PKZo7UWkeYt-4ZCmw34RJ1FCrk8e9G4,27549
+openfeed/version.py,sha256=u2Hfi7z9Q5pOzGdERZFHUYX7o9NwJ4YMqtfmRiV5Ceo,19
+openfeed/generated/openfeed_api_pb2.py,sha256=4kJ8fX9MSx-NxLGloG-4AGmgJaZQavfYVIOLzEZoSoA,85067
+openfeed/generated/openfeed_instrument_pb2.py,sha256=NIFaFd9Gqd1ymhYm7PXmoEyMXXim5rV4havkWrdmTG4,63876
+openfeed/generated/openfeed_pb2.py,sha256=a-Vmn9ecmhBAorzTm3RCoSEWq4-FA1L-cVHL4mc3Alk,321078
+openfeed-1.3.0.dist-info/LICENSE,sha256=tRRi9eYCp6fiAVoBQGw1_X5xKHOA4iPRC5hK21ultGI,1090
+openfeed-1.3.0.dist-info/METADATA,sha256=4QsuIGA2zGX2ms_VDQjYtmmGglaK9WqCypDN7p8hwwo,2445
+openfeed-1.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+openfeed-1.3.0.dist-info/top_level.txt,sha256=FOj92-FJPd-juBOKyR_H9a-vPsnf-Ox4QPsP86VhzRE,9
+openfeed-1.3.0.dist-info/RECORD,,
