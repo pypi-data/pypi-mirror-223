@@ -1,0 +1,220 @@
+{
+  "train": [
+      [
+          "Biosignals_SS1/01-01-0038 PSG.edf",
+          "Biosignals_SS1/01-01-0038 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0003 PSG.edf",
+          "Biosignals_SS1/01-01-0003 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0049 PSG.edf",
+          "Biosignals_SS1/01-01-0049 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0047 PSG.edf",
+          "Biosignals_SS1/01-01-0047 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0012 PSG.edf",
+          "Biosignals_SS1/01-01-0012 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0017 PSG.edf",
+          "Biosignals_SS1/01-01-0017 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0029 PSG.edf",
+          "Biosignals_SS1/01-01-0029 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0037 PSG.edf",
+          "Biosignals_SS1/01-01-0037 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0034 PSG.edf",
+          "Biosignals_SS1/01-01-0034 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0026 PSG.edf",
+          "Biosignals_SS1/01-01-0026 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0024 PSG.edf",
+          "Biosignals_SS1/01-01-0024 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0022 PSG.edf",
+          "Biosignals_SS1/01-01-0022 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0014 PSG.edf",
+          "Biosignals_SS1/01-01-0014 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0036 PSG.edf",
+          "Biosignals_SS1/01-01-0036 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0052 PSG.edf",
+          "Biosignals_SS1/01-01-0052 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0005 PSG.edf",
+          "Biosignals_SS1/01-01-0005 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0016 PSG.edf",
+          "Biosignals_SS1/01-01-0016 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0011 PSG.edf",
+          "Biosignals_SS1/01-01-0011 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0009 PSG.edf",
+          "Biosignals_SS1/01-01-0009 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0039 PSG.edf",
+          "Biosignals_SS1/01-01-0039 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0032 PSG.edf",
+          "Biosignals_SS1/01-01-0032 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0027 PSG.edf",
+          "Biosignals_SS1/01-01-0027 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0023 PSG.edf",
+          "Biosignals_SS1/01-01-0023 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0030 PSG.edf",
+          "Biosignals_SS1/01-01-0030 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0053 PSG.edf",
+          "Biosignals_SS1/01-01-0053 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0050 PSG.edf",
+          "Biosignals_SS1/01-01-0050 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0040 PSG.edf",
+          "Biosignals_SS1/01-01-0040 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0001 PSG.edf",
+          "Biosignals_SS1/01-01-0001 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0028 PSG.edf",
+          "Biosignals_SS1/01-01-0028 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0025 PSG.edf",
+          "Biosignals_SS1/01-01-0025 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0031 PSG.edf",
+          "Biosignals_SS1/01-01-0031 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0041 PSG.edf",
+          "Biosignals_SS1/01-01-0041 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0043 PSG.edf",
+          "Biosignals_SS1/01-01-0043 Base.edf"
+      ]
+  ],
+  "validation": [
+      [
+          "Biosignals_SS1/01-01-0008 PSG.edf",
+          "Biosignals_SS1/01-01-0008 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0046 PSG.edf",
+          "Biosignals_SS1/01-01-0046 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0002 PSG.edf",
+          "Biosignals_SS1/01-01-0002 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0021 PSG.edf",
+          "Biosignals_SS1/01-01-0021 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0019 PSG.edf",
+          "Biosignals_SS1/01-01-0019 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0015 PSG.edf",
+          "Biosignals_SS1/01-01-0015 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0035 PSG.edf",
+          "Biosignals_SS1/01-01-0035 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0010 PSG.edf",
+          "Biosignals_SS1/01-01-0010 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0045 PSG.edf",
+          "Biosignals_SS1/01-01-0045 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0007 PSG.edf",
+          "Biosignals_SS1/01-01-0007 Base.edf"
+      ]
+  ],
+  "test": [
+      [
+          "Biosignals_SS1/01-01-0020 PSG.edf",
+          "Biosignals_SS1/01-01-0020 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0042 PSG.edf",
+          "Biosignals_SS1/01-01-0042 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0048 PSG.edf",
+          "Biosignals_SS1/01-01-0048 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0013 PSG.edf",
+          "Biosignals_SS1/01-01-0013 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0044 PSG.edf",
+          "Biosignals_SS1/01-01-0044 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0006 PSG.edf",
+          "Biosignals_SS1/01-01-0006 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0018 PSG.edf",
+          "Biosignals_SS1/01-01-0018 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0051 PSG.edf",
+          "Biosignals_SS1/01-01-0051 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0004 PSG.edf",
+          "Biosignals_SS1/01-01-0004 Base.edf"
+      ],
+      [
+          "Biosignals_SS1/01-01-0033 PSG.edf",
+          "Biosignals_SS1/01-01-0033 Base.edf"
+      ]
+  ]
+}
