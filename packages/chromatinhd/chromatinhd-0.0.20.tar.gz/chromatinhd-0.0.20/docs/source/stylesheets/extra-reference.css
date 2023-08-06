@@ -1,0 +1,60 @@
+.doc-labels {
+    display: none;
+}
+
+.doc-class>.doc-heading {
+    margin-top: 0.5em;
+    border-top: 2px #33333333 solid;
+    padding-top: 0.5em;
+}
+
+
+.doc-attribute>h3,
+.doc-function>h3 {
+    font-size: 1.0rem;
+}
+
+.doc-contents>details.quote>summary {
+    background-color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.doc-contents>details.quote {
+    border-color: #33333333;
+}
+
+/* attributes, functions, ... */
+
+.doc-attribute-tag {
+    font-size: 0.6em;
+    font-style: italic;
+    padding: 0.1em;
+    color: green;
+    background-color: rgb(220, 251, 220);
+}
+
+.doc-function-tag {
+    font-size: 0.6em;
+    font-style: italic;
+    padding: 0.1em;
+
+    color: coral;
+    background-color: rgb(251, 235, 220);
+}
+
+.doc-class-tag {
+    font-size: 0.6em;
+    font-style: italic;
+    padding: 0.1em;
+    color: red;
+    background-color: rgb(251, 220, 220);
+}
+
+/* bold name of attribute, function, ... */
+.doc-attribute code:first-child {
+    font-weight: bold;
+}
+
+.doc-function code:first-child {
+    font-weight: bold;
+}
