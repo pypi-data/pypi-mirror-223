@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Aityz"
+version = "1.0"
+authors = [
+  { name="Aityz", email="itzaityz@gmail.com" },
+]
+description = "A Python Package automating many mundane tasks."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Aityz/Library"
+"Bug Tracker" = "https://github.com/Aityz/Library/issues"

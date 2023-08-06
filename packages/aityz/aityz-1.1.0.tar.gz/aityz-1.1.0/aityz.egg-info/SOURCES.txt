@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+aityz/__init__.py
+aityz/encryption.py
+aityz/exceptions.py
+aityz/nlp.py
+aityz.egg-info/PKG-INFO
+aityz.egg-info/SOURCES.txt
+aityz.egg-info/dependency_links.txt
+aityz.egg-info/requires.txt
+aityz.egg-info/top_level.txt

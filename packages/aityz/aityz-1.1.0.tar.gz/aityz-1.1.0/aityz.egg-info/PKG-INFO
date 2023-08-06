@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aityz
+Version: 1.1.0
+Summary: The multipurpose package, built for programmers
+Home-page: https://github.com/Aityz/Library
+Author: Aityz
+Author-email: itzaityz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+Aityz Library is a multipurpose library made for many different use cases for Python. From Machine Learning to Encryption, it has simplified many different ways of using Python.
+
