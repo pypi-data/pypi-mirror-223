@@ -1,0 +1,16 @@
+EightBitTransit/TransitingImageGpu.py,sha256=d5WJ9PnrYfTzM-J6HAyeJWVxoLEXaiB4iUt_AyzGA1c,10741
+EightBitTransit/__init__.py,sha256=yZThKbXuiJxz8orIVpCY6Cdwp61nAoNYC0e54CpbVds,271
+EightBitTransit/cGridFunctions.c,sha256=q9xuH2P1H92tNK21PPLyweVHGPwa1Q1-KqhWrR9poys,706145
+EightBitTransit/cGridFunctions.py,sha256=qs5DFe_zHMxlE2iRMiE5vL-l-oW284PPGziNV94ylpQ,7707
+EightBitTransit/cTransitingImage.c,sha256=5_UBqxFQXURVIdP-Wvms-rmIo08QT2jSRmvXoS_C-3E,543785
+EightBitTransit/inversion.c,sha256=P9L8-6szUFi7rBH7UQHotm8Co-dVJ2wfUtVBDSqKoIA,2807540
+EightBitTransit/inversion.py,sha256=5_nxmmbiKiidGh4EcNiFe4dI3ITUqbpEfCWGf00tvgs,83108
+EightBitTransit/misc.c,sha256=8LVSzTc6ucoO87L4usd-8xrQBDPkvmmi1uxQZE99mgc,750700
+EightBitTransit/misc.py,sha256=uJ9GAhvvbK5U-ST7bKbNIycdMqFjXkk-5EpaZRAbNBk,14247
+EightBitTransit/pixeloverlap.py,sha256=_as6hfLheJvfQ2rUc8OAn-DeTTi4_TCqm6oQHGwjJQU,22410
+EightBitTransit-2.0.7.dist-info/AUTHORS.rst,sha256=8QDUDku8NLR1psU3S1tDX20Wit0WsWRvb5oET_OZsG4,1206
+EightBitTransit-2.0.7.dist-info/LICENSE,sha256=Nw_iTHCvOm_vt4BR8jsAdGxW0yu10kMO7edE3krZJIU,1069
+EightBitTransit-2.0.7.dist-info/METADATA,sha256=U7MhpjKOi2fet61SLlT2l5_b43t4rCxzUZ0vIjuKLDg,1625
+EightBitTransit-2.0.7.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+EightBitTransit-2.0.7.dist-info/top_level.txt,sha256=5jPkg97FkER-qjlBYPMZQ2isljQ9EzBgXNFviyqYXyU,16
+EightBitTransit-2.0.7.dist-info/RECORD,,
