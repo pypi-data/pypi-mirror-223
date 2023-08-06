@@ -1,0 +1,40 @@
+default_language_version:
+  python: python3.8
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: "^tests/__snapshots__"
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-toml
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      - id: check-case-conflict
+      - id: check-symlinks
+      - id: check-json
+
+  - repo: local
+    hooks:
+      - id: pyright
+        name: Run pyright
+        entry: hatch run lint:run-pyright
+        language: system
+        files: \.py$
+      - id: black
+        name: Run black
+        entry: hatch run lint:run-black
+        language: system
+        files: \.py$
+      - id: ruff
+        name: Run ruff
+        entry: hatch run lint:run-ruff
+        language: system
+        files: \.py$
+      - id: curlylint
+        name: Run curlylint
+        entry: hatch run lint:run-curlylint
+        language: system
+        files: \.html$
