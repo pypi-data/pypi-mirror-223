@@ -1,0 +1,9 @@
+valvefgd/__init__.py,sha256=nnXDoHxhD0Wob2MZHfzD9b6l_JTxDoLPOlOs-RQG-eA,321
+valvefgd/fgd.py,sha256=x6WJ6qeKgiZ0vWJIZ3hJYUK7K93lPMihjtZt7f5q9nM,32741
+valvefgd/parser.py,sha256=HjZ9GB6ABTi8R4TW89AmhPuQnS38a3yJY1Qm69AGLTc,7997
+valvefgd/writer.py,sha256=GWpCnkZwlSJ9KebzEVfrMpYd82PMGql_OKBz8V9Uge0,405
+valvefgd-1.0.5.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+valvefgd-1.0.5.dist-info/METADATA,sha256=t_oz_1MEJmHTzIJpQdj7SiKobpIgxS6S4p7UNqpAb-I,4405
+valvefgd-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+valvefgd-1.0.5.dist-info/top_level.txt,sha256=kVoyGx6I3_IS_1roTUOj-W7XfZWqWTXQRl31j0DBzlI,9
+valvefgd-1.0.5.dist-info/RECORD,,
