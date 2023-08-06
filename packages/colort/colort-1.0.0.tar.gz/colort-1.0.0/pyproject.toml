@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "colort"
+authors = [
+    {name = "thep0y", email = "thepoy@163.com"},
+]
+description = "Display colored text in the terminal."
+readme = "README.md"
+requires-python = ">=3"
+license = {file = "LICENSE"}
+classifiers = ["Programming Language :: Python :: 3"]
+keywords = ["color", "terminal"]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "https://github.com/thep0y/colort"
+repository = "https://github.com/thep0y/colort"
+
+[tool.setuptools]
+packages = ["colort"]
+
+[tool.setuptools.package-data]
+colorful_logger = ["py.typed"]
+
+# 即使为空也必须有这个 section 才能使用 setuptools_scm
+[tool.setuptools_scm]
+write_to = "colort/version.py"
+
+[tool.black]
+target-version = ['py37', 'py38', 'py39', 'py310', 'py311']
+line-length = 88
+
+[tool.pyright]
+pythonVersion = '3.11'
+venv = 'dev'

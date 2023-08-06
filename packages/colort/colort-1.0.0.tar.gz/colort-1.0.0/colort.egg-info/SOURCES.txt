@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yaml
+colort/__init__.py
+colort/colort.py
+colort/py.typed
+colort/version.py
+colort.egg-info/PKG-INFO
+colort.egg-info/SOURCES.txt
+colort.egg-info/dependency_links.txt
+colort.egg-info/top_level.txt
