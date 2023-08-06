@@ -1,0 +1,4 @@
+pandas
+numpy
+kdp-api-python-client
+python-keycloak
