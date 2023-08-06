@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PPP-Lang-Translation
+Version: 1.0.3
+Summary: Here is a latest module to translate any language's sentence to any other language. It is a translation program purely build in python.
+Author: Somnath Dash
+License: ./LICENSE.txt
+Keywords: translater,translator,language,language translet,language transletor,python,translate,google translater,google api,Language convert,convert language
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: requests
+License-File: LICENSE.txt
+Requires-Dist: requests
+
