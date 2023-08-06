@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ortei
+Version: 0.1.0
+Summary: ONNX-Runtime-Engine-Interface
+Home-page: https://github.com/404Vector/Package.ONNX-Runtime-Engine-Interface/tree/main
+Author: 404Vector
+Author-email: tiryul@gmail.com
+Keywords: 404Vector,ortei
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE
+
+# Package.ONNX-Runtime-Engine-Interface
+
+ONNX Runtime으로 Engine을 만들 때 공통으로 사용할 수 있는 Interface를 제공합니다.
