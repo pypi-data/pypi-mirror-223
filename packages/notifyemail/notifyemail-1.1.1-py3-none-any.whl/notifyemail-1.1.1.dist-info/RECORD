@@ -1,0 +1,9 @@
+notifyemail/__init__.py,sha256=_W-ykb7j35YW_rLAR9QUO0P9zFstQAJ-HLYKlAOpNUE,3446
+notifyemail/notify_backend.py,sha256=7nkn9sjo2fjCuQPao1xONc7vgJgtVRk-fkcnoBg9WlY,23344
+notifyemail/notify_frontend.py,sha256=XTxZN2IMoenat8lovwY5eAbOFeZdgdyag17ASpHf-BY,8757
+notifyemail/tools.py,sha256=18nIKEtJzVOA7EKbS2hzGDVEZUmCzAO6h9QbyGdT0AU,9959
+notifyemail-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+notifyemail-1.1.1.dist-info/METADATA,sha256=67cICng434t3h0GLVVvygGvFj05PEZElKgCe992zJYY,6491
+notifyemail-1.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+notifyemail-1.1.1.dist-info/top_level.txt,sha256=PKLGTHtBDwfddXLpDmYIktfC2sbJkqJykNl0k0t5lzg,12
+notifyemail-1.1.1.dist-info/RECORD,,
