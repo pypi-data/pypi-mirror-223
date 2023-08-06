@@ -1,0 +1,9 @@
+README.md
+setup.py
+medisearch/__init__.py
+medisearch/client.py
+medisearch_client.egg-info/PKG-INFO
+medisearch_client.egg-info/SOURCES.txt
+medisearch_client.egg-info/dependency_links.txt
+medisearch_client.egg-info/requires.txt
+medisearch_client.egg-info/top_level.txt
