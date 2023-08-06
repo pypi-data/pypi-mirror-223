@@ -1,0 +1,13 @@
+CHANGES
+=======
+
+0.11.0
+------
+
+* rename some vars
+* fix
+* modify the input format of --target-app-args and --test-runner-args
+* rename
+* support 16.6
+* update chunk size in order to make tidevice push faster
+* fix perf command, update socket.shutdown
