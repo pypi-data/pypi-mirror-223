@@ -1,0 +1,12 @@
+README.md
+setup.py
+mkdocs_git_revision_date_plugin/__init__.py
+mkdocs_git_revision_date_plugin/gitTest.py
+mkdocs_git_revision_date_plugin/plugin.py
+mkdocs_git_revision_date_plugin/util.py
+mkdocs_git_revision_date_plugin_blame.egg-info/PKG-INFO
+mkdocs_git_revision_date_plugin_blame.egg-info/SOURCES.txt
+mkdocs_git_revision_date_plugin_blame.egg-info/dependency_links.txt
+mkdocs_git_revision_date_plugin_blame.egg-info/entry_points.txt
+mkdocs_git_revision_date_plugin_blame.egg-info/requires.txt
+mkdocs_git_revision_date_plugin_blame.egg-info/top_level.txt
