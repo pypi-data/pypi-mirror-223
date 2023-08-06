@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: gdf
+Version: 1.0.1
+Summary: Python package to read and write network graphs in GDF (Graph Data Format).
+Home-page: https://github.com/nelsonaloysio/gdf
+Author: Nelson Aloysio Reis de Almeida Passos
+License: MIT
+Project-URL: Source, https://github.com/nelsonaloysio/gdf
+Project-URL: Tracker, https://github.com/nelsonaloysio/gdf/issues
+Keywords: GDF,Graph,Network,NetworkX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: networkx >=2.3
+Requires-Dist: pandas >=0.25.3
+
+# gdf
+
+Python package to read and write network graphs in GDF (Graph Data Format).
+
+### Requirements
+
+* **Python 3**
+* networkx>=2.3
+* pandas>=0.25.3
+
+### Usage
+
+Just two functions are implemented, for reading from and writing data to file.
+
+```
+from gdf import read_gdf, write_gdf
+
+# Builds NetworkX graph object from file.
+G = read_gdf("input_file.gdf")
+
+# Writes NetworkX graph object to file.
+write_gdf(G, "output_file.gdf)
+```
+
+#### Detailed usage
+
+A few additional arguments are available both for reading and writing files:
+
+##### Building NetworkX graph object from file
+
+```
+G = read_gdf(
+    "input_file.gdf",
+    # Required; file path to read data from.
+
+    directed=None,
+    # Optional; consider graph edges as directed or undirected.
+    # True: returns a <nx.DiGraph> or <nx.MultiDiGraph> object.
+    # False: returns a <nx.Graph> or <nx.MultiGraph> object.
+    # None (default): decides based on "directed" field in file.
+
+    multigraph=None,
+    # Optional; consider multiple or single edges among nodes.
+    # True: always returns a <nx.MultiGraph> or <nx.MultiDiGraph> object.
+    # False: sums edge weights and returns a <nx.Graph> or <nx.DiGraph> object.
+    # None (default): only returns a multiplex graph if multiple edges are found.
+
+    node_attr=True,
+    # Optional; node attributes to import data from.
+    # Accepts either a [list] containing attribute names or a bool (True, False).
+    # Defaults to True, which considers all node attributes.
+
+    edge_attr=True,
+    # Optional; edge attributes to import data from.
+    # Accepts either a [list] containing attribute names or a bool (True, False).
+    # Defaults to True, which considers all edge attributes.
+)
+```
+
+##### Writing NetworkX graph object to file
+
+```
+write_gdf(
+    G,
+    # Required; graph object from NetworkX.
+
+    "output_file.gdf",
+    # Required; file path to read data from.
+
+    node_attr=True,
+    # Optional; node attributes to export data from.
+    # Accepts either a [list] containing attribute names or a bool (True, False).
+    # Defaults to True, which considers all node attributes.
+
+    edge_attr=True,
+    # Optional; edge attributes to export data from.
+    # Accepts either a [list] containing attribute names or a bool (True, False).
+    # Defaults to True, which considers all edge attributes.
+)
+```
+
+### Importing as a class
+
+Alternatively, the module can also be imported as a class, e.g., for inheriting it:
+
+```
+from gdf import GDF
+
+class MyClass(GDF):
+    ...
+```
+
+___
+
+### References
+
+* [NetworkX](https://networkx.github.io)
+* [Pandas](https://pandas.pydata.org/)
