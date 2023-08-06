@@ -1,0 +1,2 @@
+[console_scripts]
+pih-mio = MobileHelperCore.__main__:start
