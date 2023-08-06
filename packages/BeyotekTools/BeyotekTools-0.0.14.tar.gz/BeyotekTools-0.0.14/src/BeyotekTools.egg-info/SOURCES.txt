@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/BeyotekTools/__init__.py
+src/BeyotekTools/mongodbproductutil.py
+src/BeyotekTools/scraperutil.py
+src/BeyotekTools/speedlimit.py
+src/BeyotekTools/stringutil.py
+src/BeyotekTools.egg-info/PKG-INFO
+src/BeyotekTools.egg-info/SOURCES.txt
+src/BeyotekTools.egg-info/dependency_links.txt
+src/BeyotekTools.egg-info/top_level.txt
