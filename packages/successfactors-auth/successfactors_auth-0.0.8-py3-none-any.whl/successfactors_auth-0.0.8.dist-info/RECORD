@@ -1,0 +1,7 @@
+successfactors_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+successfactors_auth/auth.py,sha256=ImhPjnZyb-3XD0zRyMV8WcNop9T-jpM_x-l99eu5pJE,4643
+successfactors_auth/templates/sf_saml_template.xml,sha256=n5Qz2wl5blNCCpVzLkqWe_PLtfaB9rJs-Bqdb5JAlQ8,1759
+successfactors_auth-0.0.8.dist-info/METADATA,sha256=UZVppFYlFWu38DTRuFAcZgY6xbz9Ij0dowLHzzttZAM,2789
+successfactors_auth-0.0.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+successfactors_auth-0.0.8.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+successfactors_auth-0.0.8.dist-info/RECORD,,
