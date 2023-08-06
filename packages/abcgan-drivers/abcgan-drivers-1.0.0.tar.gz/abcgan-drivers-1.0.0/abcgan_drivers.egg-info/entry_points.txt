@@ -1,0 +1,2 @@
+[console_scripts]
+abcgan-drivers = abcdrivers.drivers:main
