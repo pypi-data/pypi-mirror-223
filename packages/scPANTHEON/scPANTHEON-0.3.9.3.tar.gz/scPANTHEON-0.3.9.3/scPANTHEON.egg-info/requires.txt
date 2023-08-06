@@ -1,0 +1,16 @@
+bokeh
+pandas
+anndata
+colorcet
+scanpy
+numpy
+PyQt5
+PyQtWebEngine
+appdirs
+rpy2
+
+[leidenalg]
+leidenalg
+
+[tomas]
+tomas
