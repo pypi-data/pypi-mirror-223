@@ -1,0 +1,120 @@
+{% set name = "xdart" %}
+{% set version = "0.12.7" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  sha256: 4da6ce2d1c6ce8fffc12561a80e77abd8e144148de5acd90ca6046cfed4574b6
+
+build:
+  number: 0
+  entry_points:
+    - xdart=xdart.xdart_main:main
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - fabio
+    - h5py
+    - hdf5plugin
+    - holoviews
+    - hvplot
+    - icecream
+    - imagecodecs
+    - ipympl
+    - ipywidgets
+    - joblib
+    - jupyterlab
+    - lmfit
+    - matplotlib
+    - nodejs
+    - numpy
+    - openpyxl
+    - pandas
+    - panel
+    - pip
+    - pyfai
+    - pygix
+    - pyqt5
+    - pyqtgraph
+    - python
+    - pyyaml
+    - requests
+    - scikit-image
+    - scipy
+    - seaborn
+    - silx
+    - xlrd
+  run:
+    - fabio
+    - h5py
+    - hdf5plugin
+    - holoviews
+    - hvplot
+    - icecream
+    - imagecodecs
+    - ipympl
+    - ipywidgets
+    - joblib
+    - jupyterlab
+    - lmfit
+    - matplotlib
+    - nodejs
+    - numpy
+    - openpyxl
+    - pandas
+    - panel
+    - pyfai
+    - pygix
+    - pyqt5
+    - pyqtgraph
+    - python
+    - pyyaml
+    - requests
+    - scikit-image
+    - scipy
+    - seaborn
+    - silx
+    - xlrd
+
+test:
+  imports:
+    - src
+    - src.gui
+    - src.gui.tabs
+    - src.gui.tabs.static_scan
+    - src.gui.tabs.static_scan.ui
+    - src.gui.tabs.static_scan.wranglers
+    - src.gui.tabs.static_scan.wranglers.ui
+    - src.gui.tabs.ttheta_scan
+    - src.gui.tabs.ttheta_scan.wranglers
+    - src.gui.widgets
+    - src.modules
+    - src.modules.calibration
+    - src.modules.ewald
+    - src.modules.pySSRL_bServer
+    - src.modules.pySSRL_bServer.bServer
+    - src.modules.pySSRL_bServer.config
+    - src.modules.spec
+    - src.utils
+    - src.utils.containers
+    - src.utils.datashare
+    - src.utils.pgOverrides
+  commands:
+    - xdart --help
+
+about:
+  home: "https://github.com/rwalroth/xdart.git"
+  license: MIT
+  license_family: MIT
+  license_file: 
+  summary: "A pyFAI based GUI utility to rebin and visualize X-ray Diffraction data"
+  doc_url: 
+  dev_url: 
+
+extra:
+  recipe-maintainers:
+    - your-github-id-here
