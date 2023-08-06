@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: litellm
+Version: 0.1.235
+Summary: Library to easily interface with LLM API providers
+Author: BerriAI
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: cohere
+Requires-Dist: pytest
+Requires-Dist: anthropic
+Requires-Dist: replicate
+Requires-Dist: python-dotenv
+Requires-Dist: openai[datalib]
+Requires-Dist: tenacity
+
