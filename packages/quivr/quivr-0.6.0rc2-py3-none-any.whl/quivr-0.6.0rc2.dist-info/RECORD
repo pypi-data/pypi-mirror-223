@@ -1,0 +1,16 @@
+quivr/__init__.py,sha256=LQS-vueMLM_cdIux4P8v7tJOzYkhdX85bhPz4FRNygE,2729
+quivr/__version__.py,sha256=HHJ2mvuSiczEuZ-LfXTYHzqDfmwvgRPOZxopvngQCk4,25
+quivr/attributes.py,sha256=YUt0j-RfOw--7MiSpG7VBqcrUfSmIGszgBOFThNwwqo,5675
+quivr/columns.py,sha256=HEs3mdh43AJFoMkEgkkf6jkJobSm90qZRDCwkIDOyZ0,46076
+quivr/concat.py,sha256=s80t_Wsy2V5iSeyFeM4N0PZ0dECCzs4G1YQ3aU0KzHE,1666
+quivr/defragment.py,sha256=N5ne0iZGzmA6sy-RfuW7A5UuPP3-_jm6IzmD1FRQ10M,467
+quivr/errors.py,sha256=hYrbLmE65w_GA_oAtoGUOWLxZxSCCUZOi_Q0wkKbw3o,2018
+quivr/linkage.py,sha256=s9HvETl1dGC_PS8LRQ5LzN9SF2ZjP1gxGA37SQJIOnY,18327
+quivr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quivr/schemagraph.py,sha256=FVF_6JSh2MeKM2xgFqpjC80dgm8NNJwDmTsI7cTqNQQ,651
+quivr/tables.py,sha256=PTXMjxEmN0wrrZIHgQsHg_dLrlbZBchhm7NC3Iq3Auk,39757
+quivr/validators.py,sha256=561uFHwjmFClOBou8d2xLR4DQpaf1Cf6AmTknb-azrY,7082
+quivr-0.6.0rc2.dist-info/METADATA,sha256=4ph2nmgFt11j6wsMMbTUQQwG5vMvpELe6FdYunP91OI,11435
+quivr-0.6.0rc2.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+quivr-0.6.0rc2.dist-info/licenses/LICENSE,sha256=LVp5A9PYv8CH4dhSqdcTSliI7Tp64SyzaX7I40Fq2uM,1514
+quivr-0.6.0rc2.dist-info/RECORD,,
