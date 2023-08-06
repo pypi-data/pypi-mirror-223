@@ -1,0 +1,16 @@
+c14n/Canonicalize.py,sha256=D4m05TfxujRWuVh0P9y2k952UjGzAVH7Usyrgu_ZrP4,17927
+c14n/NumberToJson.py,sha256=Y8-nAP4oyc7MF05UYk0-QSpWYpRKnJbqpiaABEDOspY,3723
+c14n/__init__.py,sha256=-_QhO3RBnQejmkbLa4Gdp7GsPPJNCbLRpYNgKOMZygI,98
+pyld/__about__.py,sha256=sfje3TblAAmpcfkN5T1aYPGr7gMRanZh2kiN5E1OVPU,212
+pyld/__init__.py,sha256=NCFzUCyAlhAU0VAJmid87lmQ3QMSVfAtxP-NMr_cVf8,160
+pyld/context_resolver.py,sha256=xoK-0kYovLSkLG7CR65xgUSL531_9s1k9hbZliYpciU,8412
+pyld/jsonld.py,sha256=_s_9fz86sspSFFIcg90jBRjdO3Gt0KAyHy28J_BADBc,273966
+pyld/resolved_context.py,sha256=2w5Bm0-iTbhC9o6OCeLz-XFD3-hxo7M5DgbRFq3gTZc,1135
+pyld/documentloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyld/documentloader/aiohttp.py,sha256=3p-y78yMbvLCOA-YmpPdHB0LTXM0ujvC-SIW74ibqaM,4997
+pyld/documentloader/requests.py,sha256=3RQTh2heCfPpvRMy1ECFPTZ_vHHL9iY_UqlWHmeFDaI,5945
+OT_PyLD-2.1.1.dist-info/LICENSE,sha256=ddh0Cz9BIIICNz1o61EQeVYbpIPcfJpc9crrydDj_Sg,2512
+OT_PyLD-2.1.1.dist-info/METADATA,sha256=5393Lui2XM2A0-YQDMGZ6WGUwNrABYDqOXS8_EBpVuA,9980
+OT_PyLD-2.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+OT_PyLD-2.1.1.dist-info/top_level.txt,sha256=vbcn-jVt9-QMHeiiIzwP_T8Irnk8VV1_aItu8PV7uyA,10
+OT_PyLD-2.1.1.dist-info/RECORD,,
