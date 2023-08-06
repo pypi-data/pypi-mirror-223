@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: discord-api-info
+Version: 2.5
+Summary: Library to retrieve the latest chrome user agent, version and latest discord client build number.
+Description-Content-Type: text/markdown
+
+# Discord-API
+
+## Installation
+You can install the package using pip install discord-api-info
+
+## Functions
+`Discord_API().get_latest_chrome_useragent()` returns the latest Chrome User-Agent
+`Discord_API().get_latest_chrome_version()` returns the latest Chrome Version
+`Discord_API().get_latest_client_build_number()` returns the latest Discord Client Build Number
