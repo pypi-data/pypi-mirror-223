@@ -1,0 +1,6 @@
+sqlalchemy
+pymysql
+xlrd
+xlutils
+xlwt
+docxtpl
