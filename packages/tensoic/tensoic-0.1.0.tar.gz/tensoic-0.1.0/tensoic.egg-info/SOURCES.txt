@@ -1,0 +1,7 @@
+README.md
+setup.py
+tensoic/__init__.py
+tensoic.egg-info/PKG-INFO
+tensoic.egg-info/SOURCES.txt
+tensoic.egg-info/dependency_links.txt
+tensoic.egg-info/top_level.txt
