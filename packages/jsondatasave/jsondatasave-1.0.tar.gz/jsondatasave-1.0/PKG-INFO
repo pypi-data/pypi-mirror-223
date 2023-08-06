@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: jsondatasave
+Version: 1.0
+Summary: Facilitating the process to store JSON data
+Author: YourAverageDev
+License: MIT
+Keywords: python,JSON,Data Storage
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+**This is a Libary for simplyfing storing data on disk with JSON**
+
+To install this libary, do the following:
+
+1. Download this entire github repositery and move it into folder, call it whatever you wnat
+2. Change your directory to the folder, Example: the folder is called HelloWorld, do "cd HelloWorld"
+3. After that, run this command.
+```
+pip install .
+```
+After that it should say you have sucessfully imported the package. Now you can 
+import the package like the following
+
+
+```python
+import datasave
+```
