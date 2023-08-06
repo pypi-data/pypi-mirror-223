@@ -1,0 +1,9 @@
+spotifycodegen/__init__.py,sha256=V-eUYhbzTM0O697YFL-1Ci4HbbIBflwCC3r920DUkbc,23
+spotifycodegen/cli.py,sha256=nECKpCWu05anfXYqCykZ3orzcLXwXgnpzUy61OOqg8k,3166
+spotifycodegen/main.py,sha256=jpqCb0rUl7ubI-9hNu7m7g76kqbDgRBsA4bWDpEvMvA,7876
+spotifycodegen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spotify_codegen-0.3.4.dist-info/LICENSE,sha256=XIMW4JWCjyaTuR2bSmxcNhWLui27uMimj8PCW609JcA,1071
+spotify_codegen-0.3.4.dist-info/METADATA,sha256=qyaYNOqm_gNP2PdV7MoUq4u_AfOdPzLQGRitLBRDNZs,4332
+spotify_codegen-0.3.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+spotify_codegen-0.3.4.dist-info/entry_points.txt,sha256=0ISg1Coprcp3F6QIrY9Su85mt4hRbj0XBFx8EpSh3Uw,57
+spotify_codegen-0.3.4.dist-info/RECORD,,
