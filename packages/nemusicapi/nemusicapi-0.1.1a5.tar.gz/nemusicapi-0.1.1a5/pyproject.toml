@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nemusicapi"
+version = "0.1.1a5"
+description = "A Netsase music api"
+authors = ["yuyi2439"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/yuyi2439/NeteaseMusicApi"
+repository = "https://github.com/yuyi2439/NeteaseMusicApi"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+pycryptodome = "^3.18.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
