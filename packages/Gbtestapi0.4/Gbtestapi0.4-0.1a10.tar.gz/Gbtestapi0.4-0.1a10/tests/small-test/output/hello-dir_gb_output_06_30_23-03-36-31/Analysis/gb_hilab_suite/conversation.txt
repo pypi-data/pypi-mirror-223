@@ -1,0 +1,7 @@
+SP_03: 	hello (Overlap=0) 210.56_0.5621
+SP_02: 	hello (Overlap=1) (Overlap=0) 210.55_0.5521
+SP_01: 	hello (Overlap=2) (Overlap=1) 210.54_0.5421
+SP_00: 	(Overlap=2) hello (Overlap=2) 210.53_1.2121
+SP_02: 	(Overlap=0) (Overlap=1) 211.21_1.2121
+SP_01: 	(Overlap=1) (Overlap=2) 211.21_1.2121
+SP_03: 	(Overlap=0) 211.21_1.2121
