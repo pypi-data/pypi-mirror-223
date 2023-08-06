@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+evodiff/config/config38M.json
+evodiff/config/config640M.json
+evodiff/config/configMSA-600M.json
+evodiff/config/configMSA.json
+evodiff/evodiff.egg-info/PKG-INFO
+evodiff/evodiff.egg-info/SOURCES.txt
+evodiff/evodiff.egg-info/dependency_links.txt
+evodiff/evodiff.egg-info/top_level.txt
