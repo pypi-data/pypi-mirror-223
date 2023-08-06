@@ -1,0 +1,10 @@
+README.md
+setup.py
+cheapbot/__init__.py
+cheapbot/cheapbot.py
+cheapbot.egg-info/PKG-INFO
+cheapbot.egg-info/SOURCES.txt
+cheapbot.egg-info/dependency_links.txt
+cheapbot.egg-info/entry_points.txt
+cheapbot.egg-info/requires.txt
+cheapbot.egg-info/top_level.txt

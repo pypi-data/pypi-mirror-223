@@ -1,0 +1,2 @@
+[certbot.plugins]
+cheapbot = cheapbot:CheapBotAuthenticator
