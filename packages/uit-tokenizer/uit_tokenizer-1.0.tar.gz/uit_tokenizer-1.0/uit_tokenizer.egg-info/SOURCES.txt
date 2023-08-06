@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+uit_tokenizer/UITws_v1.py
+uit_tokenizer/__init__.py
+uit_tokenizer.egg-info/PKG-INFO
+uit_tokenizer.egg-info/SOURCES.txt
+uit_tokenizer.egg-info/dependency_links.txt
+uit_tokenizer.egg-info/requires.txt
+uit_tokenizer.egg-info/top_level.txt
