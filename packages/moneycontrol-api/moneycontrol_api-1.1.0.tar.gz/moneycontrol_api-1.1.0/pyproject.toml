@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moneycontrol_api"
+version = "1.1.0"
+authors = [
+  { name="Arabian Coconut", email="x48cl9zm@duck.com" },
+]
+description = "Moneycontrol API is a python library to get news data from moneycontrol.com in JSON format."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+keywords = ["moneycontrol api","moneycontrol"]
+
+[project.urls]
+"Homepage" = "https://github.com/ArabianCoconut/Moneycontrol-api"
+"Live Demo" = "https://mc-api-j0rn.onrender.com"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["moneycontrol"]
+exclude = ["templates","app.py"]
