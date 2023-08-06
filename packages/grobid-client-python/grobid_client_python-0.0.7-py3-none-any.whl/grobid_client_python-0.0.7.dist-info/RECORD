@@ -1,0 +1,9 @@
+grobid_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grobid_client/client.py,sha256=crvUiVnnkn6tFwO4lKQg2cTxAHZxCBAmeNSVtuL4ZA0,6009
+grobid_client/grobid_client.py,sha256=wHgfrA-HJUPaXgKz7LjKBJ7ol84Tj_vuDtA5HRbs6k4,16720
+grobid_client_python-0.0.7.dist-info/LICENSE,sha256=L35Ao91pn_wG-mYDM3RfG7WKUjOnRmrCNHFSUQwXhKI,11184
+grobid_client_python-0.0.7.dist-info/METADATA,sha256=vLlG2E2D4BNPGLmJJ187zfpp1IO14p9Ww6gkILugaUM,9862
+grobid_client_python-0.0.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+grobid_client_python-0.0.7.dist-info/entry_points.txt,sha256=-WwPi8D8eXEbDB6QvitvHjxSGBeyLCyFvAoZcaDGswQ,67
+grobid_client_python-0.0.7.dist-info/top_level.txt,sha256=HnjgWxdJNKTLIN86XkgRAfVeEK4C71fc9X4fe7qdMvA,14
+grobid_client_python-0.0.7.dist-info/RECORD,,
