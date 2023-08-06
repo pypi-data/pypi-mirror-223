@@ -1,0 +1,15 @@
+tinyecs/__init__.py,sha256=YpT2nIRXrr-NdAtyLhnbGKmhNU1tFTfDyGmLmx6P5PA,10753
+tinyecs/components.py,sha256=cAXdecqbpHg2-dym_Owm_T5_dGT5tK1wt31CEHr2MNM,9288
+tinyecs/demo.py,sha256=i9YPqR4K_i2p8T9bGD7-7tU9RxcFAYMCZvc_6-GY3Pw,849
+tinyecs/demos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tinyecs/demos/background.py,sha256=4h-p-C08BMvNRj6Fj_oErgTfznZW3uvNf3KupCyaaFY,2990
+tinyecs/demos/bouncing_sprites.py,sha256=qrrSIFe8xjoILTQi2F85YVXRVRcdp6ZbZB7zCJhTtkY,2768
+tinyecs/demos/example.py,sha256=OweTZGm1xqRERFWXyDj-_eOz3KgVHu9F1jpLPvtTBj0,4145
+tinyecs/demos/homing-missiles.py,sha256=O7amt5GV0eGfw7rIFCbkismJ8JiGXBYBl9ag_sngJVg,7300
+tinyecs/demos/marquee.py,sha256=jABXlD9ro3t-ynUXIUYIwImiJWQrasmvSDa52GLeTcA,3150
+tinyecs-0.2.3.dist-info/LICENSE,sha256=xfPsBss16NIeg_u8liYTwLFuq4vM_AJDu1onb0qRnv4,1090
+tinyecs-0.2.3.dist-info/METADATA,sha256=SvEpCBS366LtCi38ra906yHYPVKKwXo8IBekqN6cceI,1724
+tinyecs-0.2.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tinyecs-0.2.3.dist-info/entry_points.txt,sha256=jgR5I9U81ox0_YI6L7hKjc_39dryt3Fu7nyYX5p9hKw,51
+tinyecs-0.2.3.dist-info/top_level.txt,sha256=lMaXjtnpZvawjp5Re5jZOY_Yki_mB1QkM_PTRUig0O4,8
+tinyecs-0.2.3.dist-info/RECORD,,
