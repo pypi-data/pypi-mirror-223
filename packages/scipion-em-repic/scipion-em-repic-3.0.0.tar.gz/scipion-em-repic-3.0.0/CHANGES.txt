@@ -1,0 +1,2 @@
+V3.0.0:
+ - First release with REPIC one shot method (repic - oneshot picking consensus)
