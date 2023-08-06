@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sulguk
+Version: 0.1
+Summary: Comverter HTML to Telegram Entities
+Author-email: Andrey Tikhonov <17@itishka.org>
+Project-URL: Homepage, https://github.com/tishka17/sulguk
+Project-URL: Bug Tracker, https://github.com/tishka17/sulguk/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
