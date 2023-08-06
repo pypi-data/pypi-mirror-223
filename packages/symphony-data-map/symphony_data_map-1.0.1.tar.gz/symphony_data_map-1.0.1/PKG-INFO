@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: symphony_data_map
+Version: 1.0.1
+Summary: A component for visualizing data on a map.
+Home-page: https://github.com/apple/ml-symphony
+Author: Apple
+Author-email: dnikit-symphony-oss@group.apple.com
+License: Apple Sample Code License
+Keywords: Jupyter,Widgets,IPython
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: examples
+Provides-Extra: docs
+License-File: LICENSE.txt
+
+# SymphonyDataMap
+
+A rendered map where landmarks are colored by another variable.
+To configure the map, the spec of this component is defined as follows:
+
+```
+@dataclass
+class DataMapSpec(WidgetSpec):
+    projection: str
+    id_map: dict
+    feature: str
+    id_column: str
+    map_url: str
+```
+
+The projection is a `vega-projection`, the `id_map` maps names to multiple `id` in a TopoJSON, the `feature` defines what column to color by, the `id_column` defines where names are to be found, and the `map_url` provides a link to the appropriate TopoJSON.
