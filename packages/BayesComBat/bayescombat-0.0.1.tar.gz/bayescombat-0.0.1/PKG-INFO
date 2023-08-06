@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BayesComBat
+Version: 0.0.1
+Summary: Fully Bayesian ComBat Harmonization
+Project-URL: Homepage, https://github.com/batmanlab/BayesComBat
+Author-email: Maxwell Reynolds <maxreynolds55@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Repository for Fully Bayesian ComBat
+
+This is the home of Fully Bayesian Combat, an extension of [Longitudinal ComBat](https://github.com/jcbeer/longCombat) which uses fully Bayesian inference rather than empirical Bayes.
