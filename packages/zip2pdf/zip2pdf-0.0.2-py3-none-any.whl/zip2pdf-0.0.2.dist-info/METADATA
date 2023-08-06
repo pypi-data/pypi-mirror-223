@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: zip2pdf
+Version: 0.0.2
+Requires-Dist: img2pdf
+
