@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+image2gps/__init__.py
+image2gps/config.py
+image2gps/fix_piexif.py
+image2gps/image2gps.py
+image2gps/parse_coords.py
+image2gps/parse_time.py
+image2gps.egg-info/PKG-INFO
+image2gps.egg-info/SOURCES.txt
+image2gps.egg-info/dependency_links.txt
+image2gps.egg-info/not-zip-safe
+image2gps.egg-info/requires.txt
+image2gps.egg-info/top_level.txt
