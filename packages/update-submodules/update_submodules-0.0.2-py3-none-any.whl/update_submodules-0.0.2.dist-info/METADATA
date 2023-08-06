@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: update-submodules
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: GitPython
+Requires-Dist: pygithub
+Requires-Dist: requests
+Requires-Dist: utz[git] >=0.4.1
+
+UNKNOWN
+
