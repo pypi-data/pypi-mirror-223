@@ -1,0 +1,590 @@
+Metadata-Version: 2.1
+Name: zerocap_api_new_test
+Version: 0.1.9
+Summary: zerocap_api
+Home-page: https://zerocap.com/
+Author: zerocap
+Author-email: jiayu.gao@eigen.capital
+License: MIT
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# zerocap-api-new-test 
+
+# <a href="#testapi">Jump restapi</a>
+# <a href="#test">Jump websocket</a>
+
+
+
+```
+
+描述介绍
+
+sdk install
+pip install zerocap-api-new-test 
+。
+。
+。
+
+```
+
+
+
+# <a id='testapi' href='https://dma-api.defi.wiki/redoc'>restapi </a>
+#### <a href="https://dma-api.defi.wiki/redoc" target="_blank">接口文档</a> 
+
+```
+from zerocap_api_new_test import ZerocapRestClient
+import uuid
+import time
+
+# API key and secret required, 联系zerocap进行注册
+apiKey = "coinroutes" 
+apiSecret = "e2d2a9b8-85fe-4a38-b9bd-60e06b58b28a"
+```
+
+#### 1. Create an order
+<!--post https://dma-uat-api.defi.wiki/v2/orders/create_order-->
+
+```
+
+client = ZerocapRestClient(apiKey, apiSecret)
+client_order_id = str(uuid.uuid4())
+
+result = client.create_order(
+                    symbol='USDT/AUD', 
+                    side='buy', 
+                    type='market', 
+                    amount='100', 
+                    price='1000', 
+                    client_order_id=client_order_id, 
+                    note='this is test', 
+                    third_identity_id='ZCStreamingLiquidity1')
+
+```
+
+
+请求参数:
+
+| Parameter       | required  | data type | describe        | Value range  |
+|-----------------|-----------|-----------|-----------------|--------------|
+| symbol          | true      | string    | Instrument      | USDT/AUD     |
+| side            | true      | string    | Side            | buy sell     |
+| type            | true      | string    | Type            | market limit |
+| amount          | true      | string    | Quantity        |              |
+| price           | true      | string    | Price           |              |
+| client_order_id | true      | string    | Client order id |              |
+| note | true      | string    | note  |              |
+| third_identity_id | true      | string    | third_identity_id |              |
+
+请求参数：示例（不能直接使用,需要替换自己的参数）
+
+```
+
+{
+    "symbol": "USDT/AUD",
+    "side": "buy",
+    "type": "market",
+    "amount": "1000",
+    "price": "1000",
+    "client_order_id": "e7f80d34-0d80-4256-9de3-cd37310a55da",
+    "account_vault": {
+        "third_identity_id": "918d7125916c13191f3674e",
+        "api_key": "***",
+        "signature": "***",
+        "note": ""
+    }
+}
+
+```
+
+响应数据:
+
+| Parameter          | required | data type | describe        | Value range |
+|--------------------|----------|-----------|-----------------|-------------|
+| id                 | true     | long      | Transaction ID  |             |
+| clientOrderId      | true     | string    | Client order id |             |
+| datatime           | true     | string    | Time            |             |
+| timestamp          | true     | string    | Time            |             |
+| lastTradeTimestamp | true     | long      | Time            |             |
+| status             | true     | string    | Status          |             |
+| type               | true     | string    | Type            |             |
+| timeInForce        | true     | string    | timeInForce     |             |
+| side               | true     | string    | Side            |             |
+| price              | true     | string    | Price           |             |
+| average            | true     | string    | average         |             |
+| amount             | true     | string    | Quantity        |             |
+| filled             | true     | string    | filled          |             |
+| remaining          | true     | string    | remaining       |             |
+| cost               | true     | string    | cost            |             |
+| transferId         | true     | string    | transferId      |             |
+| trades             | true     | string    | trades          |             |
+
+
+响应例子:
+
+```
+
+ {
+    "id": "16ef58d1-677e-489c-8fe0-5acc4a680b6e",
+    "clientOrderId": "e7f80d34-0d80-4256-9de3-cd37310a55dabe",
+    "datatime": "2023-07-28 09:19:45",
+    "timestamp": "1690535984000",
+    "lastTradeTimestamp": "1690535984000",
+    "status": "closed",
+    "symbol": "USDT/AUD",
+    "type": "Market",
+    "timeInForce": "FOK",
+    "side": "buy",
+    "price": "21.1",
+    "average": "1.685133171",
+    "amount": "9",
+    "filled": "9",
+    "remaining": "0",
+    "cost": "15.16619854",
+    "transferId": "12424971-f51d-4144-a205-9e306eb6351c",
+    "trades": [
+        {
+            "id": "12424971-f51d-4144-a205-9e306eb6351c",
+            "timestamp": "1690535984000",
+            "datetime": "2023-07-28 09:19:45",
+            "symbol": "USDT/AUD",
+            "order": "16ef58d1-677e-489c-8fe0-5acc4a680b6e",
+            "type": "market",
+            "side": "buy",
+            "takerOrMaker": "taker",
+            "price": "1.685133171",
+            "amount": "9",
+            "cost": "15.16619854",
+            "orderFrom": "coinroutes"
+        }
+    ]
+}
+
+```
+
+
+
+
+#### 2. Fetch specific orders
+<!--post https://dma-uat-api.defi.wiki/v2/orders/fetch_order-->
+```
+result = client.fetch_order(id='')
+```
+
+请求参数:
+
+
+| Parameter       | required | data type | describe       | Value range  |
+|-----------------|----------|-----------|----------------|--------------|
+| id              | true     | string    | Transaction ID |              |
+
+请求参数：示例（不能直接使用,需要替换自己的参数）
+
+```
+
+{
+    "id": "16ef58d1-677e-489c-8fe0-5acc4a680b6e",
+    "account_vault": {
+        "third_identity_id": "918d7125916c13191f3674e",
+        "api_key": "***",
+        "signature": "***",
+        "note": ""
+    }
+}
+
+```
+
+响应数据 接口报错 待定:
+
+
+| Parameter     | required | data type | describe       | Value range |
+|---------------|----------|-----------|----------------|-------------|
+| id            | true     | string    | Transaction ID |             |
+
+
+响应例子:
+
+```
+
+{
+	"order_list": [
+		{
+			"id": "476b0262-8689-4bc4-b5ff-380bb4ccc5e1",
+			"client_order_id": "e7f80d34-0d80-4256-9de3-cd37310a55da",
+			"datatime": "2023-07-31 02:12:23",
+			"timestamp": "1690516007000",
+			"last_trade_timestamp": "1690516007000",
+			"status": "rejected",
+			"symbol": "USDT/AUD",
+			"type": "market",
+			"time_in_force": "FOK",
+			"side": "buy",
+			"price": "1000",
+			"average": "",
+			"amount": "1000",
+			"filled": "",
+			"remaining": "",
+			"cost": "",
+			"transfer_id": "",
+			"fee": "",
+			"trades": []
+		}
+	],
+	"status": "success",
+	"total": 3864,
+	"page": "1"
+}
+
+```
+
+
+#### 3. Batch fetch order
+<!--post https://dma-uat-api.defi.wiki/v2/orders/fetch_orders-->
+
+```
+result = client.fetch_orders(symbol='USDT/AUD', end_datetime=int(time.time() * 1000),
+                             start_datetime=int(time.time() * 1000 - 10*86400*1000),
+                             limit=10)
+```
+
+
+
+请求参数:
+
+| Parameter      | required | data type | describe        | Value range |
+|----------------|----------|-----------|-----------------|-------------|
+| symbol         | true     | string    | symbol          |             |
+| start_datetime | true     | string    | start_datetime  |             |
+| end_datetime   | true     | string    | end_datetime    |             |
+| page           | true     | string    | page            |             |
+| limit          | true     | string    | limit           |             |
+| ids            | true     | string    | Transaction ids(null character string or id1,id2...) |   |
+| status         | true     | string    | status          |             |
+| sort_order     | true     | string    | sort_order      |             |
+| order_type     | true     | string    | order_type      |             |
+| side           | true     | string    | side            |             |
+
+
+请求参数：示例（不能直接使用,需要替换自己的参数）
+
+```
+
+{
+    "symbol": "",
+    "start_datetime": 0,
+    "end_datetime": 0,
+    "page": 0,
+    "limit": 0,
+    "ids": "",
+    "status": "",
+    "sort_order": "",
+    "order_type": "",
+    "side": "",
+    "account_vault": {
+        "third_identity_id": "918d7125916c13191f3674e",
+        "api_key": "***",
+        "signature": "***",
+        "note": ""
+    }
+}
+
+```
+
+响应数据 接口报错 待定:
+
+
+
+| Parameter     | required | data type | describe       | Value range |
+|---------------|----------|-----------|----------------|-------------|
+| id            | true     | string    | Transaction ID |             |
+| account_vault | true     | json      |  accountVault  |             |
+
+
+
+响应例子:
+
+```
+
+{
+	"order_list": [
+		{
+			"id": "476b0262-8689-4bc4-b5ff-380bb4ccc5e1",
+			"client_order_id": "e7f80d34-0d80-4256-9de3-cd37310a55da",
+			"datatime": "2023-07-31 02:12:23",
+			"timestamp": "1690516007000",
+			"last_trade_timestamp": "1690516007000",
+			"status": "rejected",
+			"symbol": "USDT/AUD",
+			"type": "market",
+			"time_in_force": "FOK",
+			"side": "buy",
+			"price": "1000",
+			"average": "",
+			"amount": "1000",
+			"filled": "",
+			"remaining": "",
+			"cost": "",
+			"transfer_id": "",
+			"fee": "",
+			"trades": []
+		}
+	],
+	"status": "success",
+	"total": 3864,
+	"page": "1"
+}
+
+```
+
+
+
+## <span id='test'>websocket</span>
+
+```
+from zerocap_api_new_test import ZerocapWebsocketClient
+
+# API key and secret required, 联系zerocap进行注册
+apiKey = "***" 
+apiSecret = "***"
+
+signature = hmac.new(apiSecret.encode("utf-8"), apiKey.encode("utf-8"), hashlib.sha256).hexdigest()
+
+```
+
+#### 1. Subscribe to Market data
+
+<!--websocket wss://dma-uat-ws.defi.wiki/v2/ws/GetMarket-->
+
+```
+market_connect = websocket.get_market()
+
+while True:
+    # Get  messages
+    message = websocket.get_message(market_connect)
+
+    print(f"Receiving message from server: \n{message}")
+
+```
+
+请求参数:
+
+| Parameter     | required | data type | describe                | Value range |
+|---------------|----------|-----------|-------------------------|-------------|
+| api_key       | true     | string    | key                     |             |
+| signature     | true     | long      | Cryptographic signature |             |
+| data_type     | true     | string    | Subscribed Channels     | price       |
+
+
+请求参数：示例（不能直接使用,需要替换自己的参数）
+
+```
+
+wss://dma-uat-ws.defi.wiki/v2/ws/GetMarket?api_key=***&signature=***&data_type=price
+
+```
+
+
+响应数据:
+
+
+| Parameter          | required | data type | describe      | Value range        |
+|--------------------|----------|-----------|---------------|--------------------|
+| type               | true     | long      | type          |                    |
+| channel            | true     | string    | channel       | dma_price_USDT/AUD |
+| data               | true     | jsonstr   | data          |                    |
+| data['sell_price'] | true     | string    | sell price    |                    |
+| data['buy_price']  | true     | string    | buy price     |                    |
+| data['datetime']   | true     | string    | time          |                    |
+| data['timestamp']  | true     | string    | time          |                    |
+| message            | false    | string    | description   | Is price open      |
+
+
+响应例子:
+
+```
+
+{
+    "type": "message",
+    "channel": "dma_price_USDT/AUD",
+    "data": "{
+        \"sell_price\": \"1.322544321902561296\",
+        \"buy_price\": \"1.668209315127094362\",
+        \"datetime\": \"2023-07-28 10:03:40\",
+        \"timestamp\": \"1690538620.1056492\"
+        }"
+}
+
+{
+    "type": "message",
+    "channel": "dma_price_USDT/AUD",
+    "data": "{
+        \"message\":\"Price stream unavailable.\"
+        }"
+}
+
+# Heartbeat neglect
+{"type":"message","channel":"","data":"{\"ok\": \"ok\"}"}
+
+```
+
+#### 2.  Subscribe Order updates or transaction records
+
+
+<!--websocket url:   wss://dma-uat-ws.defi.wiki/v2/ws/GetOrdersInfo-->
+
+```
+orders_connect = websocket.get_orders()
+
+while True:
+    # Get  messages
+    message = websocket.get_message(orders_connect)
+
+    print(f"Receiving message from server: \n{message}")
+
+```
+
+
+请求参数:
+
+
+| Parameter     | required | data type | describe                | Value range |
+|---------------|----------|-----------|-------------------------|-------------|
+| api_key       | true     | string    | key                     |             |
+| signature     | true     | long      | Cryptographic signature |             |
+| data_type     | true     | string    | Subscribed Channels     | order,trade |
+
+
+请求参数：示例（不能直接使用,需要替换自己的参数）
+
+```
+
+wss://dma-uat-ws.defi.wiki/v2/ws/GetOrdersInfo?api_key=***&signature=***&data_type=order,trade
+
+```
+
+
+channel: dma_order_info 响应数据:
+
+
+| Parameter             | required   | data type | describe      | Value range                    |
+|-----------------------|------------|-----------|---------------|--------------------------------|
+| type                  | true       | long      | type          |                                |
+| channel               | true       | string    | channel       | dma_order_info、dma_trader_info |
+| data                  | true       | jsonstr   | data          |                                |
+| data['OrderId']       | true       | str       | OrderId       |                                |
+| data['ClientOrderId'] | true       | str       | ClientOrderId |                                |
+| data['TxnAlias']      | true       | str       | TxnAlias      |                                |
+| data['TransferId']    | true       | str       | TransferId    |                                |
+| data['Symbol']        | true       | str       | Symbol        |                                |
+| data['Type']          | true       | str       | Type          |                                |
+| data['TimeInForce']   | true       | str       | TimeInForce   |                                |
+| data['Side']          | true       | str       | Side          |                                |
+| data['OrderId']       | true       | str       | OrderId       |                                |
+| data['Price']         | true       | str       | Price         |                                |
+| data['AveragePrice']  | true       | str       | AveragePrice  |                                |
+| data['Amount']        | true       | str       | Amount        |                                |
+| data['CreatedAt']     | true       | str       | CreatedAt     |                                |
+| data['UpdatedAt']     | true       | str       | UpdatedAt     |                                |
+| data['AccountId']     | true       | str       | AccountId     |                                |
+| data['VaultId']       | true       | str       | VaultId       |                                |
+| data['Note']          | true       | str       | Note          |                                |
+| data['Status']        | true       | str       | Status        |                                |
+| data['Average']       | true       | str       | Average       |                                |
+| data['Filled']        | true       | str       | Filled        |                                |
+| data['Remaining']     | true       | str       | Remaining     |                                |
+| data['Cost']          | true       | str       | Cost          |                                |
+| data['ExecPrice']     | true       | str       | ExecPrice     |                                |
+| data['OrderFrom']     | true       | str       | OrderFrom     |                                |
+
+
+响应例子:
+
+```
+
+{
+    "type":"message",
+    "channel":"dma_order_info",
+    "data":"{
+        \"OrderId\":\"d8be1f41-9e8e-4af0-899b-c1334916aa0e\",
+        \"ClientOrderId\":\"e7f80d34-0d80-4256-9de3-cd37310a55da\",
+        \"TxnAlias\":\"\",
+        \"TransferId\":\"\",
+        \"Symbol\":\"USDT/AUD\",
+        \"Type\":\"market\",
+        \"TimeInForce\":\"FOK\",
+        \"Side\":\"sell\",
+        \"Price\":\"1000\",
+        \"AveragePrice\":\"\",
+        \"Amount\":\"1000\",
+        \"CreatedAt\":1690538950000,
+        \"UpdatedAt\":1690538950000,
+        \"AccountId\":\"1ca36d2b-2103-45c7-a2e3-3b90825ba1b2\",
+        \"VaultId\":\"5175\",
+        \"Note\":\"yyy_test_create_order\",
+        \"Status\":\"open\",
+        \"Average\":\"0\",
+        \"Filled\":\"0\",
+        \"Remaining\":\"1000\",
+        \"Cost\":\"1000000\",
+        \"ExecPrice\":\"\",
+        \"OrderFrom\":\"coinroutes\"
+    }"
+}
+
+```
+
+channel: dma_trader_info 响应数据:
+
+
+| Parameter            | required   | data type | describe     | Value range                    |
+|----------------------|------------|-----------|--------------|--------------------------------|
+| type                 | true       | long      | type         |                                |
+| channel              | true       | string    | channel      | dma_order_info、dma_trader_info |
+| data                 | true       | jsonstr   | data         |                                |
+| data['id']           | true       | str       | id           |                                |
+| data['timestamp']    | true       | str       | timestamp    |                                |
+| data['datetime']     | true       | str       | datetime     |                                |
+| data['symbol']       | true       | str       | symbol       |                                |
+| data['order']        | true       | str       | order        |                                |
+| data['type']         | true       | str       | type         |                                |
+| data['side']         | true       | str       | side         |                                |
+| data['takerOrMaker'] | true       | str       | takerOrMaker |                                |
+| data['price']        | true       | str       | price        |                                |
+| data['amount']       | true       | str       | amount       |                                |
+| data['cost']         | true       | str       | cost         |                                |
+| data['orderFrom']    | true       | str       | orderFrom    |                                |
+
+
+响应例子:
+
+```
+
+{
+    "type":"message",
+    "pattern":null,
+    "channel":"dma_trade_info",
+    "data":"{
+        \"id\":\"60e2e941-070c-40e3-b2ef-4a8f6ad9f316\",
+        \"timestamp\":\"1690767892000\",
+        \"datetime\":\"2023-07-31 01:44:52\",
+        \"symbol\":\"USDT/AUD\",
+        \"order\":\"41969863-1f32-4eaa-b679-a5b0e6fb5542\",
+        \"type\":\"market\",
+        \"side\":\"sell\",
+        \"takerOrMaker\":\"taker\",
+        \"price\":\"1.662902412\",
+        \"amount\":\"101\",
+        \"cost\":\"167.9531436\",
+        \"orderFrom\":\"coinroutes\"
+    }"
+}
+
+```
+
