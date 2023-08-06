@@ -1,0 +1,36 @@
+$text1 = "你好，世界！"
+
+
+@PED
+
+*LinearLayout[hello_layout]:
+    -layout_width = "match_parent"
+    -layout_height = "match_parent"
+    -orientation = "vertical"
+
+    *TextView[textview1]:
+        -layout_width = "match_parent"
+        -layout_height = "wrap_content"
+        -text = $text1
+
+    *TextView[textview2]:
+        -layout_width = "match_parent"
+        -layout_height = "wrap_content"
+        -text = $text1
+
+    *TextView[textview3]:
+        -layout_width = "match_parent"
+        -layout_height = "wrap_content"
+        -text = $text1
+
+
+    *TextView[textview4]:
+        -layout_width = "match_parent"
+        -layout_height = "wrap_content"
+        -text = $text1
+
+    *Button[button1]:
+        -layout_width = "match_parent"
+        -layout_height = "wrap_content"
+        -text = "一个按钮！"
+
