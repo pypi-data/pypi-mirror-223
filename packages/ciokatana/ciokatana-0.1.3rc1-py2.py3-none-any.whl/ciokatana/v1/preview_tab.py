@@ -1,0 +1,41 @@
+from PyQt5 import  QtGui
+from PyQt5.QtWidgets import QTextEdit
+import UI4
+import json
+from ciokatana.v1.components.buttoned_scroll_panel import ButtonedScrollPanel
+from ciokatana.v1.Node import ConductorRenderNode
+
+class PreviewTab(ButtonedScrollPanel):
+    def __init__(self, editor):
+        super(PreviewTab, self).__init__(editor, buttons=[
+            ("export", "Export Script (PRO)"), 
+            ("validate", "Validate && Submit")
+        ])
+        self.text_area = QTextEdit()
+        self.text_area.setReadOnly(True)
+        self.text_area.setWordWrapMode(QtGui.QTextOption.NoWrap)
+        self.layout.addWidget(self.text_area)
+        # self.buttons["export"].setEnabled(False)
+
+        self.configure_signals()
+
+    def configure_signals(self):
+        """Connect signals to slots."""
+        self.buttons["validate"].clicked.connect(self.on_validate_button)
+        self.buttons["export"].clicked.connect(self.on_export_button)
+
+    def hydrate(self, obj):
+        self.text_area.setText(json.dumps(obj, indent=3))
+
+    def on_validate_button(self):
+        """Initiate the submission with validations."""
+        # validation runs before saving or changing anything
+        self.editor.show_validation_tab()
+        self.editor.validation_tab.hydrate()
+
+    def on_export_button(self):
+        UI4.Widgets.MessageBox.Warning(
+            "Export Script", "This is a PRO feature. Please sign up for a Conductor Enterprise subscription in order export executable submission scripts."
+        )
+        return
+        # ConductorRenderNode.export(self.editor.node)
