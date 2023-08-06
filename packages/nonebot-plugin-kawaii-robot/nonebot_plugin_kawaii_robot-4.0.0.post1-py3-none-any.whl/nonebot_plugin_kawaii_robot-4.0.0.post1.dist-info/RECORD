@@ -1,0 +1,12 @@
+nonebot_plugin_kawaii_robot-4.0.0.post1.dist-info/METADATA,sha256=rSFr3anNESusX29n11JliPrBMjjpIWCuYWlEBupXoQ4,9281
+nonebot_plugin_kawaii_robot-4.0.0.post1.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+nonebot_plugin_kawaii_robot-4.0.0.post1.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+nonebot_plugin_kawaii_robot/__init__.py,sha256=F25XoEXN0tM4BKPXe7dL9KmO4qgnS_RQSsRXyAj54FE,498
+nonebot_plugin_kawaii_robot/__main__.py,sha256=fDm8d8rM_YWvPKNvBvxr81my2kfA8kF2_neZhtLz-tI,5081
+nonebot_plugin_kawaii_robot/config.py,sha256=V5bLs4lDxBJmEeHrxww70P7letp1WC_Elxpc9dWNHJQ,3484
+nonebot_plugin_kawaii_robot/const.py,sha256=UJJoNi0sncqANc-6B0Ede7kwrIYg5-3RY6WJ3cIvO-8,1410
+nonebot_plugin_kawaii_robot/data_source.py,sha256=uEdNKXaXHEPgFCGzAtDJnGWCfkFQ-HJfsWnRXyvjjE0,5102
+nonebot_plugin_kawaii_robot/resource/data.json,sha256=KNDb65dz1t6ZidswU4MccKcZMIIKNXdIy6eMmnQjSpM,76592
+nonebot_plugin_kawaii_robot/resource/leaf.json,sha256=doCsgckzXj3tKQYUdCxT6F77kRKEp3r-IHTwcC6T3UE,10337
+nonebot_plugin_kawaii_robot/utils.py,sha256=N_bbu4e_1-q1rOx4cJMhGhurzoLuX3r2GuVNEfY21qc,3572
+nonebot_plugin_kawaii_robot-4.0.0.post1.dist-info/RECORD,,
