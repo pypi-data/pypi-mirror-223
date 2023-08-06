@@ -3,36 +3,10 @@
 This repo contains 16151 packages uploaded to PyPI between 
 2023-08-03 05:22 and 2023-08-05 16:17.
 
-The repo is 75% (12149/16151) complete.
+The repo is 87% (14149/16151) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-223/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| cntracer | 230 |
-| rapidgzip | 126 |
-| zeroconf | 98 |
-| astyle | 92 |
-| cmeel-example | 91 |
-| WignerSymbol | 82 |
-| wow-srp | 75 |
-| minecraft-python | 75 |
-| utiles | 70 |
-| semsimian | 70 |
-| piqp | 65 |
-| wkbparse | 61 |
-| psycopg2-binary | 60 |
-| rsoup | 54 |
-| psycopg-binary | 54 |
-| markdown-it-pyrs | 53 |
-| protosaurus | 49 |
-| pyms-nist-search | 48 |
-| xw-utils | 46 |
-| systemrdl-compiler | 43 |
-| kgdata | 42 |
-| abess | 42 |
-| nismod-snail | 41 |
-| geopyv | 41 |
-| pmcx | 40 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-223).
 
 
