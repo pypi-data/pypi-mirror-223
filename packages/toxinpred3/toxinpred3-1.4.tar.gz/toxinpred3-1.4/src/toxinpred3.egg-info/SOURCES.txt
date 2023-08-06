@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+src/toxinpred3.egg-info/PKG-INFO
+src/toxinpred3.egg-info/SOURCES.txt
+src/toxinpred3.egg-info/dependency_links.txt
+src/toxinpred3.egg-info/entry_points.txt
+src/toxinpred3.egg-info/requires.txt
+src/toxinpred3.egg-info/top_level.txt
+src/toxinpred3/merci/MERCI_motif_locator.pl
+src/toxinpred3/model/toxinpred3.0_model.pkl
+src/toxinpred3/motifs/neg_motif.txt
+src/toxinpred3/motifs/pos_motif.txt
+src/toxinpred3/python_scripts/__init__.py
+src/toxinpred3/python_scripts/toxinpred3.py

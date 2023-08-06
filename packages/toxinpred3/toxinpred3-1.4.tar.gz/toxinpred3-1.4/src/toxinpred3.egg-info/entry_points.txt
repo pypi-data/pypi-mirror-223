@@ -1,0 +1,2 @@
+[console_scripts]
+toxinpred3 = toxinpred3.python_scripts.toxinpred3:main
