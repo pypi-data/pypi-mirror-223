@@ -1,0 +1,8 @@
+setup.py
+optimalpdb/__init__.py
+optimalpdb/main.py
+optimalpdb.egg-info/PKG-INFO
+optimalpdb.egg-info/SOURCES.txt
+optimalpdb.egg-info/dependency_links.txt
+optimalpdb.egg-info/requires.txt
+optimalpdb.egg-info/top_level.txt
