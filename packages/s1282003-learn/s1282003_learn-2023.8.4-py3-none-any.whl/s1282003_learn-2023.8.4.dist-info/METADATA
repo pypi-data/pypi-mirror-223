@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: s1282003-learn
+Version: 2023.8.4
+Summary: This software is being developed at the University of Aizu, Aizu-Wakamatsu, Fukushima, Japan
+Home-page: https://github.com/angelitagozaly/s1282003_learn
+Author: Angelita Gozaly
+Author-email: s1282003@u-aizu.ac.jp
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pami
+Requires-Dist: pandas
+Requires-Dist: plotly
+Requires-Dist: psutil
+Requires-Dist: resource
+Requires-Dist: urllib3
+Requires-Dist: validators
+Provides-Extra: all
+Requires-Dist: build ; extra == 'all'
+Requires-Dist: cupy ; extra == 'all'
+Requires-Dist: pycuda ; extra == 'all'
+Requires-Dist: pyspark ; extra == 'all'
+Requires-Dist: setuptools ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: setuptools ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: gpu
+Requires-Dist: cupy ; extra == 'gpu'
+Requires-Dist: pycuda ; extra == 'gpu'
+Provides-Extra: spark
+Requires-Dist: pyspark ; extra == 'spark'
+
+# s1282003_learn
+
