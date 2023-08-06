@@ -1,0 +1,3 @@
+[console_scripts]
+disperseNN2=disperseNN2.disperseNN2:run
+
