@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: psplpy
+Version: 0.1.2
+Summary: The Personal Study Purposes Library of PYthon.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: ddddocr==1.4.7
+Requires-Dist: easyocr==1.7.0
+Requires-Dist: numpy==1.24.4
+Requires-Dist: paddleocr==2.6.1.3
+Requires-Dist: pillow==9.5.0
+Requires-Dist: pyautogui==0.9.54
+Requires-Dist: pynput==1.7.6
+Description-Content-Type: text/markdown
+
+# PSPLPY
+
+The **P**ersonal **S**tudy **P**urposes **L**ibrary of **PY**thon.
+
+It's only a python library for personal study purposes.
+
+If this can help you out, I'll be very glad.😄
+
+## Documentation
+
+In the works...
