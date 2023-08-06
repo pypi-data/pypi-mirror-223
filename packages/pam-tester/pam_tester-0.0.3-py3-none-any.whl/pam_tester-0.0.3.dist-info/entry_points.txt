@@ -1,0 +1,3 @@
+[console_scripts]
+pam-tester=pam_tester.pam_tester:pam_auth
+
