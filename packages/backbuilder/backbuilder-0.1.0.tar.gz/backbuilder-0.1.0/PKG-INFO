@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: backbuilder
+Version: 0.1.0
+Summary: A Python CLI application that effortlessly facilitates the creation of backend projects via the command line.
+Home-page: https://github.com/NileshDebix/BackBuilder.py
+Author: Nilesh
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+BackBuilder.py 
+=============
+
+
+Description
+-----------
+
+I have developed a Python CLI application that effortlessly facilitates the creation of backend projects via the command line. This solution addresses the inherent complexities associated with building backend projects from scratch, providing users with an unparalleled level of ease and efficiency.
+
+Features
+--------
+
+-   Easy and quick creation of Flask projects
+-   Automatic project structure setup
+-   Simplified setup for common Flask configurations
+
+More information soon.
+
+

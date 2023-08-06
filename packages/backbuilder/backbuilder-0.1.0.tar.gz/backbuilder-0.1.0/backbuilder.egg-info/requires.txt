@@ -1,0 +1,11 @@
+click
+colorama
+Jinja2
+markdown-it-py
+MarkupSafe
+mdurl
+Pygments
+rich
+shellingham
+typer
+typing_extensions
