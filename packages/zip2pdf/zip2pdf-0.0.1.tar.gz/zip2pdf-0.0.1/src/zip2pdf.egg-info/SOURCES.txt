@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/zip2pdf/__init__.py
+src/zip2pdf/main.py
+src/zip2pdf.egg-info/PKG-INFO
+src/zip2pdf.egg-info/SOURCES.txt
+src/zip2pdf.egg-info/dependency_links.txt
+src/zip2pdf.egg-info/entry_points.txt
+src/zip2pdf.egg-info/requires.txt
+src/zip2pdf.egg-info/top_level.txt
