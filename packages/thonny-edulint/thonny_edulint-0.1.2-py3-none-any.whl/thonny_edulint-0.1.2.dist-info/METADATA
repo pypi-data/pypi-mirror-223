@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: thonny-edulint
+Version: 0.1.2
+Summary: A plugin that adds edulint warnings to the Thonny Python IDE.
+Home-page: https://github.com/GiraffeReversed/thonny-edulint
+Author: Anna Rechtackova
+Author-email: anna.rechtackova@mail.muni.cz
+Project-URL: Bug Tracker, https://github.com/GiraffeReversed/thonny-edulint/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: thonny >=3.0.0
+Requires-Dist: edulint >=2.6.5
+Requires-Dist: m2r2
+Requires-Dist: Pygments
+
+# thonny-edulint
+A [Thonny](https://github.com/thonny/thonny) plugin to add most of [EduLint](https://github.com/GiraffeReversed/edulint)'s warnings.
+
+## Installing
+To install from pip3 using a terminal (or Powershell for Windows users)
+```bash
+pip3 install thonny-edulint
+# Or
+python3 -m pip install thonny-edulint
+```
+
+To install directly from Thonny:
+1. Click "Tools" and then click "Manage Plug-ins..."
+2. Search for "thonny-edulint" in the input box.
+3. Click install.
+
+After installing you will need to restart Thonny.
+
+
+## License information
+
+The codebase of this plugin started as a copy of [thonny-flake](https://github.com/Bigjango13/thonny-flake) which is licensed under [MIT](https://github.com/Bigjango13/thonny-flake/blob/main/LICENSE).
