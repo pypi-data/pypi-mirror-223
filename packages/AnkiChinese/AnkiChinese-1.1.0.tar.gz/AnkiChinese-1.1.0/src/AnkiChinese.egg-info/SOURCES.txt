@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/AnkiChinese.egg-info/PKG-INFO
+src/AnkiChinese.egg-info/SOURCES.txt
+src/AnkiChinese.egg-info/dependency_links.txt
+src/AnkiChinese.egg-info/entry_points.txt
+src/AnkiChinese.egg-info/requires.txt
+src/AnkiChinese.egg-info/top_level.txt
+src/scrape/__init__.py
+src/scrape/scraper.py
