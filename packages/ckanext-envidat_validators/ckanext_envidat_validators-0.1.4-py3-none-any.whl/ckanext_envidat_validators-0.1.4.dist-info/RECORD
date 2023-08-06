@@ -1,0 +1,10 @@
+ckanext/__init__.py,sha256=WGSMBFzEHyOxbc34623FfZroP0Ho6tVQAbegPksZtQE,230
+ckanext/envidat_validators/__init__.py,sha256=Ga1HEI_YRzw3DFx64QEzkBuYNGcjIPM_4JMCJ8LFt9Y,237
+ckanext/envidat_validators/__version__.py,sha256=XNEsuqMw4UgAwYiJpLvhVg0ZgJg3GjIQFoM93S9scUM,43
+ckanext/envidat_validators/logic.py,sha256=gf76a-xVBJWD_h9M3-neXHTmwBnhOt7Axbx71WdoGU8,3189
+ckanext/envidat_validators/plugin.py,sha256=AR-XVVaBNO8xnW0StgbSEEC-GYyf6y8KBOpFiM55fhY,1507
+ckanext_envidat_validators-0.1.4.dist-info/entry_points.txt,sha256=_Awunuz9E8Qcqm5zx93QKzETmJUkOyozqZAYyWuy_IU,93
+ckanext_envidat_validators-0.1.4.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+ckanext_envidat_validators-0.1.4.dist-info/METADATA,sha256=6rJBeFDGJ-E1-Y5rAHrloqvFCL_F97IAW8Yo07ygC-o,1846
+ckanext_envidat_validators-0.1.4.dist-info/licenses/LICENSE,sha256=QPfdse1VxF7XPUmFq5vO6p6CXu81h9l-lWDjTQRTQ-I,1060
+ckanext_envidat_validators-0.1.4.dist-info/RECORD,,
