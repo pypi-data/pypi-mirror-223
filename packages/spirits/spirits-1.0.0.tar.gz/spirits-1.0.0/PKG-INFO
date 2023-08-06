@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: spirits
+Version: 1.0.0
+Summary: spirits maker and gather via CLI or script
+Home-page: https://github.com/HUGHNew/spirits
+License: MIT
+Author: Hugh Liu
+Author-email: hugh.lpd@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Typing :: Typed
+Requires-Dist: Pillow
+Requires-Dist: requests
+Requires-Dist: typer
+Project-URL: Repository, https://github.com/HUGHNew/spirits
+Description-Content-Type: text/markdown
+
+# spirits
+
+制作和拼接精灵图
+
+> `pip install spirits`
+
+```bash
+# 制作精灵图
+spirits scatter example/pypi_logo.png 3 3 # 默认output路径是 ./output
+spirits scatter example/pypi_logo.png 3 3 --output-dir example/output
+
+# 拼接精灵图
+spirits gather example/compose-4.png example/output/0-0.png example/output/0-1.png example/output/1-0.png example/output/1-1.png  --row 2 --column 2
+spirits gather example/compose.png --file example/images.list --row 3 --column  3
+```
+
+
+
+
+# spirits
+
+make and compose spirits images
+
+> `pip install spirits`
+
+```bash
+# make spirits
+spirits scatter example/pypi_logo.png 3 3 # default output dir: ./output
+spirits scatter example/pypi_logo.png 3 3 --output-dir example/output
+
+# compose spirits
+spirits gather example/compose-4.png example/output/0-0.png example/output/0-1.png example/output/1-0.png example/output/1-1.png  --row 2 --column 2
+spirits gather example/compose.png --file example/images.list --row 3 --column  3
+```
+
+

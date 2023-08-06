@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "spirits"
+version = "1.0.0"
+authors = [ "Hugh Liu <hugh.lpd@gmail.com>" ]
+readme = ["README.md", "README.en.md"]
+license = "MIT"
+description = "spirits maker and gather via CLI or script"
+repository = "https://github.com/HUGHNew/spirits"
+classifiers = [
+  "Typing :: Typed",
+  "Programming Language :: Python :: 3 :: Only"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+typer = "*"
+Pillow = "*"
+requests = "*"
+
+[tool.poetry.scripts]
+spirits = "spirits.command:spirits_cmd"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
