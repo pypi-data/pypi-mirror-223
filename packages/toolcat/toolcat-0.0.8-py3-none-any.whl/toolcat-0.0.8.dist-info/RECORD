@@ -1,0 +1,10 @@
+toolcat/__init__.py,sha256=RAKZtlJ6JR0cNklQYdPn8M4G3slADSS27YBYBw3JUz8,24
+toolcat/database.py,sha256=jf65G9QFYMIoEr4B-_DBWzumG6YdTKp5j7s8DaRZcRU,2764
+toolcat/database_test.py,sha256=WZpqJJJXP19lbQdc_cMzksw_SHfLIGxYHSkHOYEmr00,2359
+toolcat/files.py,sha256=Cqa2MT4xaF9cmv7wVWFu-rUqTSApszqIM-NNhxXRhZ8,306
+toolcat/project.py,sha256=W1mrLaTc7slVVkggMXs7BWJsGx1EObnXRi9kL7kTrJg,831
+toolcat/projects_test.py,sha256=0PxqzSBqXBoyXyAD41_O5TVdEO0fZvSdYJoqIE8-5SA,1096
+toolcat-0.0.8.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+toolcat-0.0.8.dist-info/METADATA,sha256=f9hgaNm3OgLvAL2woBExHxVrEudYMPXWx7J_CYGk7Ko,778
+toolcat-0.0.8.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+toolcat-0.0.8.dist-info/RECORD,,
