@@ -1,0 +1,9 @@
+README.md
+setup.py
+iq_sim/__init__.py
+iq_sim/iq_sim.py
+python_iq_sim.egg-info/PKG-INFO
+python_iq_sim.egg-info/SOURCES.txt
+python_iq_sim.egg-info/dependency_links.txt
+python_iq_sim.egg-info/requires.txt
+python_iq_sim.egg-info/top_level.txt
