@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+neco_f.egg-info/PKG-INFO
+neco_f.egg-info/SOURCES.txt
+neco_f.egg-info/dependency_links.txt
+neco_f.egg-info/requires.txt
+neco_f.egg-info/top_level.txt
