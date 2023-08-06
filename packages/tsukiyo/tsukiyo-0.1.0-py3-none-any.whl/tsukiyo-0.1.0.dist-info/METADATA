@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tsukiyo
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: faker2048
+Author-email: nspyia2002@gmail.com
+Requires-Python: >=3.10.12,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pre-commit (>=3.3.3,<4.0.0)
+Requires-Dist: pyink (>=23.5.0,<24.0.0)
+Description-Content-Type: text/markdown
+
+# VRC Virtual Soul Connector -- tsukiyo
+

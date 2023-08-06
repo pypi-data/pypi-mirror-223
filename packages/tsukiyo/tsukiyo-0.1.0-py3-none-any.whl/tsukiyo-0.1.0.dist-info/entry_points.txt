@@ -1,0 +1,3 @@
+[console_scripts]
+tsukiyo=src.main:main
+

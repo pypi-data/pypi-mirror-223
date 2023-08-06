@@ -1,0 +1,13 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/audio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/audio/recorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/audio/whisper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/chat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/client/vrchat_osc.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/main.py,sha256=yAlhVJ1N4vlc6ax-oYsJ4V5xzS9Ecw05bBeLvdQSJuo,61
+tsukiyo-0.1.0.dist-info/LICENSE,sha256=rXLpGGqjGYGR4yvw_odygdamdWpFVH5zvSqDXUyQ37U,1062
+tsukiyo-0.1.0.dist-info/METADATA,sha256=acLpqybHh4p5NlqCaOFfC_O9HSx47utSv0krht9F77o,476
+tsukiyo-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tsukiyo-0.1.0.dist-info/entry_points.txt,sha256=dlxmUkByDRet-CWCBhAfGPErhqs8MBH--Oz1H4ir2Lo,41
+tsukiyo-0.1.0.dist-info/RECORD,,
