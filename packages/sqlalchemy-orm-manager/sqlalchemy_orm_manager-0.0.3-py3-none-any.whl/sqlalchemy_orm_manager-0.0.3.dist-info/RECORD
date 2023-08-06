@@ -1,0 +1,10 @@
+sqlalchemy_manager/__init__.py,sha256=k5mxLhlkfCN9ApvUDNMotH8YTYjFhvkU6v29t6cFZP0,152
+sqlalchemy_manager/decorators.py,sha256=mtP-mT2cwUwUO08HGcLiLBX3GkgrfrOQjbsexe5vfG8,769
+sqlalchemy_manager/exceptions.py,sha256=RY5PUlHUSZXQ26tArC9xwC2vTIu0iFwAs2-bgduiBT4,51
+sqlalchemy_manager/managers.py,sha256=awSWXAI0D7qmYM4CBF0aTK9I7F4jqyTkCf7jajKqr28,3663
+sqlalchemy_manager/meta.py,sha256=gDfr2Cg_17VDFDRz6sQuPBb1yB0F-naSxMT88btsMiM,1678
+sqlalchemy_manager/pagination.py,sha256=mCCfqE6Q5fxIlMvWntlqPabdDUAxPm_tVlf8VsCgJ8s,2374
+sqlalchemy_orm_manager-0.0.3.dist-info/METADATA,sha256=HoseOLMS2Ouftpu_HOGHSuJ_oS5PMJsiIZhbNzomBa4,3725
+sqlalchemy_orm_manager-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sqlalchemy_orm_manager-0.0.3.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+sqlalchemy_orm_manager-0.0.3.dist-info/RECORD,,
