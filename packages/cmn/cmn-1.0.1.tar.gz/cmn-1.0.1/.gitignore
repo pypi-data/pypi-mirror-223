@@ -1,0 +1,7 @@
+.idea
+data
+.pytest_cache
+*/.pytest_cache
+*/.pytest_cache/*
+*/.idea
+*/.idea/*
