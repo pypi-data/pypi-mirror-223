@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+service_person_stamdata_udvidet/PersonBaseDataExtended_v4_envelope.xml
+service_person_stamdata_udvidet/PersonBaseDataExtended_v5_envelope.xml
+service_person_stamdata_udvidet/__init__.py
+service_person_stamdata_udvidet/helpers.py
+service_person_stamdata_udvidet/udvidet_person_stam_data_lokal.py
+service_person_stamdata_udvidet.egg-info/PKG-INFO
+service_person_stamdata_udvidet.egg-info/SOURCES.txt
+service_person_stamdata_udvidet.egg-info/dependency_links.txt
+service_person_stamdata_udvidet.egg-info/not-zip-safe
+service_person_stamdata_udvidet.egg-info/requires.txt
+service_person_stamdata_udvidet.egg-info/top_level.txt
+tests/test_helpers.py

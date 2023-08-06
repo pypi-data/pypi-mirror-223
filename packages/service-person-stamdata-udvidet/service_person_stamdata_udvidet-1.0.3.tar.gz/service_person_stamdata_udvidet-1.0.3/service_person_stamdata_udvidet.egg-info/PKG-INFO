@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: service-person-stamdata-udvidet
+Version: 1.0.3
+Summary: PersonBaseExtendedService integration for the PersonBaseExtendedService webservice which is a part of SF1520 API (https://digitaliseringskataloget.dk/integration/sf1520)
+Home-page: https://github.com/magenta-aps/service_person_stamdata_udvidet
+Author: Magenta ApS
+Author-email: info@magenta.dk
+License: MPL 2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+License-File: LICENSE
