@@ -1,0 +1,18 @@
+{
+  "nodes": {},
+  "types": {
+    "EDataType": {
+      "options": {
+        "float": "float",
+        "integer": "integer",
+        "boolean": "boolean",
+        "string": "string",
+        "exec": "exec",
+        "any": "any",
+        "ndarray": "ndarray"
+      },
+      "default": "float",
+      "widget": "EnumSelect"
+    }
+  }
+}
