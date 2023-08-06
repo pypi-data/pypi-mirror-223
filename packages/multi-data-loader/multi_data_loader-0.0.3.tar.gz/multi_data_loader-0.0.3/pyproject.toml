@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "multi_data_loader"
+version = "0.0.3"
+authors = [
+    { name = "KeleiJiang", email = "18852088031@gmail.com" },
+]
+description = "Multi Data Loader"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "pathlib",
+    "opencv-python",
+    "pillow",
+    "tqdm",
+    "fastapi==0.88.0"
+]
+
+[project.urls]
+"Homepage" = "https://git.linker.cc/research/misc/multi_data_loader.git"

@@ -1,0 +1,147 @@
+Metadata-Version: 2.1
+Name: multi_data_loader
+Version: 0.0.3
+Summary: Multi Data Loader
+Project-URL: Homepage, https://git.linker.cc/research/misc/multi_data_loader.git
+Author-email: KeleiJiang <18852088031@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: fastapi==0.88.0
+Requires-Dist: opencv-python
+Requires-Dist: pathlib
+Requires-Dist: pillow
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+# Multi Data Loader 多模态数据读取工具
+
+Multi Data Loader支持多类数据的读取，包括
+- 本地图片
+- 本地视频
+- base64图片
+- 图片url
+- 视频url
+- 图片压缩包url
+- rtsp流的硬解码
+
+
+## 本地图片 
+图片支持格式主要包含
+```angular2html
+[
+    'bmp',
+    'jpg',
+    'JPG',
+    'jpeg',
+    'JPEG',
+    'png',
+    'tif',
+    'tiff',
+    'dng',
+    'webp',
+    'mpo',
+]
+```
+具体使用方法
+```python
+from multi_data_loader.data_loader import load_data
+
+loader = load_data(data=["test.jpg", "test.jpg"], type="local", mode="RGB")
+
+for res, ret_timestamp, img_size in loader:
+    print(res)
+```
+
+## 本地视频
+视频支持格式主要包含
+```angular2html
+[
+    'mov',
+    'avi',
+    'mp4',
+    'mpg',
+    'mpeg',
+    'm4v',
+    'wmv',
+    'mkv',
+]
+```
+暂时只支持一个视频
+
+具体使用方法
+```python
+from multi_data_loader.data_loader import load_data
+
+loader = load_data(data=["test.mp4"], type="local", mode="RGB")
+
+for res, ret_timestamp, img_size in loader:
+    print(res)
+```
+## base64图片
+具体使用方法
+```python
+from multi_data_loader.data_loader import load_data
+
+loader = load_data(data=["xxx", "xxx"], type="base64", mode="RGB")
+
+for res, ret_timestamp, img_size in loader:
+    print(res)
+```
+## 图片url
+具体使用方法
+```python
+from multi_data_loader.data_loader import load_data
+
+loader = load_data(data=["http://test.jpg", "http://test.jpg"], type="url", mode="RGB")
+
+for res, ret_timestamp, img_size in loader:
+    print(res)
+```
+## 视频url
+具体使用方法
+```python
+from multi_data_loader.data_loader import load_data
+
+loader = load_data(data=["https://airesources.oss-cn-hangzhou.aliyuncs.com/jkl/nj/%E6%96%87%E7%A8%BF1.mp4"],
+          type="url")
+
+for res, ret_timestamp, img_size in loader:
+    print(res)
+loader.release()
+```
+
+## 图片压缩包url
+具体使用方法
+```python
+from multi_data_loader.data_loader import load_data
+
+loader = load_data(data=["https://airesources.oss-cn-hangzhou.aliyuncs.com/jkl/nj/%E6%96%87%E7%A8%BF1.zip"],
+          type="zip")
+
+for res, ret_timestamp, img_size in loader:
+    print(res)
+loader.release()
+```
+
+
+## rtsp流的硬解码
+
+需要安装cuda版本的ffmpeg，推荐在T4 nvidia驱动为515上使用，推荐镜像为
+```angular2html
+hbt.linker.cc/omai/ffmpeg:4.4-cuda
+```
+
+具体使用方法
+```python
+from multi_data_loader.data_loader import load_data
+
+loader = load_data(data=["rtsp://183.252.179.104:554/openUrl/dyPlzAQ "],
+          type="stream")
+
+for res, ret_timestamp, img_size in loader:
+    print(res)
+loader.release()
+```
