@@ -1,0 +1,4 @@
+[console_scripts]
+devtools=devtools_cli.main:app
+dtl=devtools_cli.commands.license.main:app
+
