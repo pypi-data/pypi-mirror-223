@@ -1,0 +1,15 @@
+jiji/__init__.py,sha256=8UvpV65Y58lyt6k1KtRrjCEAR6bANIdyAVeFp9gvzwI,23
+jiji/constants.py,sha256=eXo5SQHi4zLwV80qlTIe1WFrskKFwJzvndOWq5jDsbY,226
+jiji/filters.py,sha256=nmSvv7HhL3HrOTjHK0O6s5ztpekS5tW3wq6ubX1rd8g,1978
+jiji/jiji.py,sha256=n2DYqOffiYY87nzIfrrk5vqqUsA39nMNvtW5QdnbGCU,7258
+jiji/utils.py,sha256=qOp_FXzfAwsL4ECOmU-y6GjsPh2mx-t6rcSDE2T8An4,136
+jiji/errors/__init__.py,sha256=qUpjZ00YcI5yH9MIsSvYTJeKZtfatOCKUfRqxtSoq1A,147
+jiji/types/__init__.py,sha256=iZth2WuEISTV1qDb8LR7q_RkpY_T6uQWWmnqFH-21_E,249
+jiji/types/condition.py,sha256=5xtYMBKcreT99xfcZ5dpwMeLCdksK_VWn09FgS5jGHc,116
+jiji/types/sort.py,sha256=zSgl3jtz2crq6OzoOf3GpsR1QNxrCoCHbxKnjr3JIbg,196
+jiji/types/product/__init__.py,sha256=ENXH5MfhKAgPLp7MHDvp36omwnTq9F4vXHNkDmRxREo,5371
+jiji/types/search/__init__.py,sha256=0_rldSk1VD7CzlAX1Daj9kIEgTlUyRZvlfJlXSi-llM,292
+jiji-0.0.5.dist-info/METADATA,sha256=28R3AeNHzVqanwCu9EnRqZbHYqidSZD1VULnZKIp9SA,187
+jiji-0.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+jiji-0.0.5.dist-info/top_level.txt,sha256=0_lWSG0sheGH1LmWYgPhhhyen4oKSnUB3ms8412QP-w,5
+jiji-0.0.5.dist-info/RECORD,,
