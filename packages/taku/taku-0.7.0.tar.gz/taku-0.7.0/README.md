@@ -1,0 +1,44 @@
+# Taku
+
+Taku is a library for easy manipulating pipelined-tasks.  It manages intermediate caching, job depedencies, provide a easy interface to parallel jobs using multiple backends. Also, it supports direct instantiation of a torch `Dataset`, allowing for end-to-end data generation & training experience.
+
+**Caveat**: Tasklib is only beta now, and for now only supports chained dependency (but one/multiple job in a task can be dependent on multiple/one jobs in another task).
+
+## Example Task Class
+
+```python
+from pathlib import Path
+from typing import Any, List, Optional
+import taku
+from taku.task import JobData, JobName, JobSpecs, TaskName
+
+
+class ExampleTask(taku.Task):
+    def __init__(self, name: TaskName, hparams: Any, meta_override_dir: Path | None = None) -> None:
+        super().__init__(name, hparams, meta_override_dir)
+
+    def gather_jobs(self, upstream_job_names: List[JobName]) -> List[JobSpecs]:
+        return super().gather_jobs(upstream_job_names)
+    
+    def run(self, job_name: JobName, job_data: JobData, upstream_job_names: List[str], upstream_job_data: List[JobData]) -> JobData:
+        return super().run(job_name, job_data, upstream_job_names, upstream_job_data)
+    
+    def has_job_data(self, job_name: str) -> bool:
+        return super().has_job_data(job_name)
+    
+    def save_job_data(self, job_name: str, job_data: JobData) -> None:
+        return super().save_job_data(job_name, job_data)
+    
+    def load_job_data(self, job_name: str) -> JobData:
+        return super().load_job_data(job_name)
+
+```
+
+## Development
+
+```bash
+# Develop locally
+python setup.py develop
+# Update to PyPI
+bash bump_and_upload.sh
+```

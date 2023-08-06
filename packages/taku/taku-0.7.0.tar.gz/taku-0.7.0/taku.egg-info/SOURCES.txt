@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+taku/__init__.py
+taku/dataset.py
+taku/executors.py
+taku/pipeline.py
+taku/task.py
+taku.egg-info/PKG-INFO
+taku.egg-info/SOURCES.txt
+taku.egg-info/dependency_links.txt
+taku.egg-info/requires.txt
+taku.egg-info/top_level.txt
+tests/test_taku.py
