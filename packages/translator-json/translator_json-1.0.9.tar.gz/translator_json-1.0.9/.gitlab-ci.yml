@@ -1,0 +1,27 @@
+stages:
+  - validate
+  - deploy
+
+checkstyle:
+  tags:
+    - docker
+  image: python:3.8
+  stage: validate
+  before_script:
+    - pip install -r requirements.txt
+  script:
+    - pycodestyle --show-source --show-pep8 --exclude="docs,.eggs,versioneer.py,*_version.py,venv" .
+
+release:
+  tags:
+    - docker
+  image: python:3.8
+  stage: deploy
+  before_script:
+    - pip install -r requirements.txt
+    - python -m build
+  script:
+    - pip install .
+    - python -m twine upload -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDMyMjkxNzU2LThhZjMtNDk5My1hNGZlLWM2MTg4OTliM2JmYQACKlszLCIwMjIyMGUwMS1mMmE4LTQ0NjItOWIzNC0wY2JjZGI1ZGFmMjYiXQAABiBN2rx4t970-TMK2zMO0Df4nw8txHrQ3uRn0iZUbkgUCw --non-interactive dist/*
+  only:
+    - tags

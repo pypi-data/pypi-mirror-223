@@ -1,0 +1,15 @@
+.gitignore
+.gitlab-ci.yml
+README.md
+pyproject.toml
+requirements.txt
+translator/__init__.py
+translator/glossary.py
+translator/translate_generator.py
+translator/utils.py
+translator_json.egg-info/PKG-INFO
+translator_json.egg-info/SOURCES.txt
+translator_json.egg-info/dependency_links.txt
+translator_json.egg-info/entry_points.txt
+translator_json.egg-info/requires.txt
+translator_json.egg-info/top_level.txt

@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "setuptools_scm[toml]>=7"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "translator_json"
+description = "A translator for Json info"
+readme = "README.md"
+authors = [
+    {name = "Florent Simonnot", email = "contact@gwanly.com"},
+]
+license = {text = "Apache Software License"}
+dynamic = ["version", "dependencies"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: Apache Software License"
+]
+
+[project.scripts]
+json_translator="translator.translate_generator:json_translator"
+glossary_manager="translator.translate_generator:google_glossary"
+
+[project.urls]
+Repository = "https://gitlab.com/FlorentSimonnot1/translator"
+
+[tool.setuptools.packages.find]
+include = ["translator"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools_scm]
