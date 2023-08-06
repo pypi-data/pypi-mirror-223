@@ -1,0 +1,3 @@
+[console_scripts]
+hashbeaf = hashbeaf.hashbeaf:cli_main
+hb = hashbeaf.hashbeaf:cli_main
