@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: pytest-sosu
+Version: 0.3.1
+Summary: Unofficial PyTest plugin for Sauce Labs
+Author-email: Andrzej Pragacz <apragacz@o2.pl>
+License: MIT License
+        
+        Copyright (c) 2020 Andrzej Pragacz
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/apragacz/pytest-sosu
+Project-URL: Bug Tracker, https://github.com/apragacz/pytest-sosu/issues
+Project-URL: Documentation, https://github.com/apragacz/pytest-sosu/blob/master/README.md
+Project-URL: Source Code, https://github.com/apragacz/pytest-sosu
+Keywords: pytest,selenium,webdriver,saucelabs,sauce,sosu
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pytest-Sosu
+
+Pytest-Sosu (pronounced Sōsu, ソース) is an unofficial Pytest plugin for running tests
+on Sauce Labs platforms.
+
+## Installation
+
+You can install pytest-sosu latest version via pip:
+
+    pip install pytest-sosu
+
+## Basic Usage
+
+Assuming you have `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY` environment variables set
+(credentials can be obtained [here](https://app.saucelabs.com/user-settings)),
+you can write a simple test:
+
+```python
+def test_visit(sosu_selenium_webdriver):
+    driver = sosu_selenium_webdriver
+    driver.get("http://example.com/")
+    assert driver.title == "Example Domain"
+```
+
+## Examples
+
+```python
+from pytest_sosu.webdriver import CapabilitiesMatrix, Browser
+
+
+# running given test on multiple browsers
+@pytest.mark.sosu(
+    capabilities_matrix=CapabilitiesMatrix(
+        browsers=[Browser("chrome"), Browser("firefox")],
+    ),
+)
+def test_visit_many_browsers(driver):
+    driver.get("http://example.com/")
+    assert driver.title == "Example Domain"
+
+# when build basename is set, tests running in given pytest session
+# have a build assigned
+@pytest.fixture(scope="session")
+def sosu_build_basename():
+    return 'my-project-name'
+
+
+# alias for sosu_selenium_webdriver
+@pytest.fixture
+def driver(sosu_selenium_webdriver):
+    yield sosu_selenium_webdriver
+```
