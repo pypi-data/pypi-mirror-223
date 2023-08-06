@@ -1,0 +1,16 @@
+expectra/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+expectra/exafs.py,sha256=gVRAyWWT_R97cAfCw4QxYYghxuKgq7yxr4eroxfwiC8,5769
+expectra/feff,sha256=Ws5NU_Nz7ipB-b0NIcCGEpeSwWTJhSmRwqNkjubWJbk,258032
+expectra/feff.py,sha256=ftmOoIV9ObagZ9i302XWhKRe8bgczYILCVhls7P4rBo,6985
+expectra/fft.py,sha256=PA9k0oIVoFKUdkK1G3vmX4vXf9JU_fl9DAQi3w1REcE,973
+expectra/io.py,sha256=7l8tu8Y45mdhfP3d0q7XwlWMsyXpASZNHEqpkRdozyE,6913
+expectra-1.0.5.data/scripts/expectra,sha256=kwE9nwb4d38o-_C0aKGCzl98S266gZ8oxMdPSyw1Qcs,4312
+expectra-1.0.5.data/scripts/feff,sha256=39dZA8kmKyFdBZwgZAWNP98OJBcslb3WNfZZKZYJajE,447
+expectra-1.0.5.data/scripts/harmonic-sampler,sha256=Wr4w2nEbq_12QI6JuS61JKt6qGpIB0gByO9FapNKE6k,2781
+expectra-1.0.5.data/scripts/pdfstats,sha256=wdmvDW5bNs0bp99Bnf5El4S1I6nI8zBjlcZgzuz4qgE,5584
+expectra-1.0.5.data/scripts/xafsft,sha256=vrGR-_5hik4KAVNFE0JCtvVZlav7-_s7Yns6kCLz3ao,1594
+expectra-1.0.5.dist-info/LICENSE.txt,sha256=kSdtuXPyVgLRqkNJH1nLyEy4jm8VHh0MyCp1VWPOAZU,1023
+expectra-1.0.5.dist-info/METADATA,sha256=whIWgTzHDeCHmGy1VIvAV6_LdPFSMcRaAtgZtLvPPT8,4204
+expectra-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+expectra-1.0.5.dist-info/top_level.txt,sha256=LafdrYGtJ1-4k20dmWW43XueAN-qn62RvVv2DHDQMtg,9
+expectra-1.0.5.dist-info/RECORD,,
