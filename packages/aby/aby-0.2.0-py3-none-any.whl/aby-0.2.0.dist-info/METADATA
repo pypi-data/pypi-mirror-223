@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: aby
+Version: 0.2.0
+Summary: Data Manipulation Library
+Author-Email: Rajiv Abraham <rajiv.abraham@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# aby
