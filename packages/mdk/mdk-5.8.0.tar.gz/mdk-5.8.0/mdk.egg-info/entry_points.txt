@@ -1,0 +1,2 @@
+[console_scripts]
+mdk = mdk.main:mdk
