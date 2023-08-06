@@ -1,0 +1,16 @@
+odoo/addons/ssi_helpdesk_work_log/README.rst,sha256=6whtUN9iCgPT08PLLYwlpzehju6XFq7bXcFy3CGfLPA,1234
+odoo/addons/ssi_helpdesk_work_log/__init__.py,sha256=DcdFtS9Ibp3zeHJFAWMK61T0bQKChlDhz04ddMQkms0,214
+odoo/addons/ssi_helpdesk_work_log/__manifest__.py,sha256=B3yyQbN8q84z2G1pI3LZKU8SXcK2zpmUsiSWlnwidDo,589
+odoo/addons/ssi_helpdesk_work_log/models/__init__.py,sha256=yXSWidR-sMpUwwUdY9xGyQO9gq3pCErhayTln69gl7U,257
+odoo/addons/ssi_helpdesk_work_log/models/helpdesk_communication.py,sha256=qubgYeg4fM-l20kB5U81mOB1nxztsPc4a6Owsjm_QyA,397
+odoo/addons/ssi_helpdesk_work_log/models/helpdesk_ticket.py,sha256=dcXz8N8HcvEL3xhrcQUp6_hhpcw0fURsp6Qf9gRiHv8,590
+odoo/addons/ssi_helpdesk_work_log/models/helpdesk_type.py,sha256=R3w-UsGDBsx-A5mBdsHZuZm_8FvEVhNRXsG_W8tKlJY,407
+odoo/addons/ssi_helpdesk_work_log/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_helpdesk_work_log/views/helpdesk_type_views.xml,sha256=nkCu94z-W8cOmHJzFPMJzrCV_fqZQNrQ7Oc3pRAq-cU,695
+odoo/addons/ssi_helpdesk_work_log/wizards/__init__.py,sha256=xEBeMi42CrJEMga1XpM224-N6gepV7wcLBbN02vyTLw,234
+odoo/addons/ssi_helpdesk_work_log/wizards/create_ticket_from_communication.py,sha256=DiS8KAOr5aoZ5lRctulUqynMtuu1SJFdhv8UwIBGHEk,616
+odoo/addons/ssi_helpdesk_work_log/wizards/split_helpdesk_ticket.py,sha256=53oUdlHTpsZW0xO-l-2ie1kKODyIuyI2FNK4KWDOrP8,510
+odoo14_addon_ssi_helpdesk_work_log-14.0.1.2.2.dev1.dist-info/METADATA,sha256=2p7k8iNf8NnXY2ZOjGIRRqrKjD99N0zLsAtV1EX1-BY,1836
+odoo14_addon_ssi_helpdesk_work_log-14.0.1.2.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_helpdesk_work_log-14.0.1.2.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_helpdesk_work_log-14.0.1.2.2.dev1.dist-info/RECORD,,
