@@ -1,0 +1,11 @@
+freeGPT/__init__.py,sha256=JDBgfCU6xCJ6ln1tkW63Um_50wZGBuXxPLN5SGnZUBQ,164
+freeGPT/alpaca_7b.py,sha256=P22uf12FBa8T3sw-AxLrCVOvIuvWUf7tvCkEZl22xcI,2000
+freeGPT/gpt3.py,sha256=Go-2NhefZKwOu1gWBaH2Xd7uZ8os78zHNf6r8cEWYAA,2669
+freeGPT/gpt4.py,sha256=tZGpefTZALdWC3R24o3tuEbk6SolL0pRnRFebkd8A-c,2430
+freeGPT/pollinations.py,sha256=hdrlq4lMFz2jzutNMjPbAwZq_GFPHEwRyRMWyma6GzI,759
+freeGPT/prodia.py,sha256=poAtemem-VJcbLQ4AylSEYoGGaubqbVzeyJXC5R_ZAQ,3551
+freeGPT-1.2.7.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+freeGPT-1.2.7.dist-info/METADATA,sha256=PbH1djsue6pKCh2vH1FeZVvrM5EE7HHiObRzb4CF_TQ,4624
+freeGPT-1.2.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+freeGPT-1.2.7.dist-info/top_level.txt,sha256=SmL-wUHRAvuFE4A-Gvb1HcrS_p8V5qxj0w1hFqdXS2M,8
+freeGPT-1.2.7.dist-info/RECORD,,
