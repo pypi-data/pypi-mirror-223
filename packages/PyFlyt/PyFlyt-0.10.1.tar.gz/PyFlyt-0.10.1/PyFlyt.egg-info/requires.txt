@@ -1,0 +1,9 @@
+numpy
+matplotlib
+gymnasium
+pybullet
+pyyaml
+
+[dev]
+pytest
+pre-commit
