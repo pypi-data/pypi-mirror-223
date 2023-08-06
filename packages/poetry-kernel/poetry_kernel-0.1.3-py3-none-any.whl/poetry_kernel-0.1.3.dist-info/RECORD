@@ -1,0 +1,9 @@
+poetry_kernel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_kernel/__main__.py,sha256=w72TbhrF83AYI7VtLCC6yBayuogO1HvQ8OCRsrhfZow,1948
+poetry_kernel/kernelspec.py,sha256=vT1PiRoXd0IupvCaWxphQGnK35huhuqEfuamgv4akP8,789
+poetry_kernel-0.1.3.data/data/share/jupyter/kernels/poetry-kernel/kernel.json,sha256=eIeb_8Yp74urz9DnCw22-48LcN97D-7xqRSFm6LpdNg,118
+poetry_kernel-0.1.3.dist-info/LICENSE.md,sha256=W8siW-EHyXJUoKPio6IlzbLYrvzWIdiRjC1dsiPj1IA,1052
+poetry_kernel-0.1.3.dist-info/METADATA,sha256=8mMtvZpIc5EMsUOMNuq8uUAu9LU0UqE6FbSQqZDX3EA,4708
+poetry_kernel-0.1.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+poetry_kernel-0.1.3.dist-info/top_level.txt,sha256=gYhYt5JfWaavBC8QOMzqhTs76W-HnMSJgcl6cubOjqo,14
+poetry_kernel-0.1.3.dist-info/RECORD,,
