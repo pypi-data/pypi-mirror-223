@@ -1,0 +1,34 @@
+{
+  "files": {
+    "initial": [
+      "App.kt",
+    ],
+    "solution": [
+      "App.kt.txt",
+    ],
+    "tests_type": "{{cookiecutter.tests_type}}",
+    {%- if cookiecutter.tests_type == "input" -%}
+    "default_input": "input.txt",
+    {%- endif -%}
+    {%- if cookiecutter.tests_type == "input" -%}
+        "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+        "{{cookiecutter.exercise}}{{cookiecutter.separator}}test{{number}}.txt",
+        {% endfor %}
+    ],
+    {%- elif cookiecutter.tests_type == "unit" -%}
+    "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "AppTest{{number}}.kt",
+      {% endfor %}
+    ],
+   {% endif -%}
+    "instructions": "{{cookiecutter.exercise}}{{cookiecutter.separator}}instructions.md",
+    "display_execution_time": false,
+    {%- if cookiecutter.tests_type == "input" -%}
+        {%- if cookiecutter.lang  not in [ 'html'] -%}
+    "limit_real": 0.02,
+    "limit_user": 0.01
+    {%- endif -%}{%- endif -%}
+
+  },
+  "max_points": 1
+}

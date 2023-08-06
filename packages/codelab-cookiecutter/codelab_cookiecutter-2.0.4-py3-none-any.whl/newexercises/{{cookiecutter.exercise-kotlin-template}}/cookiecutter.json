@@ -1,0 +1,26 @@
+{
+  "full_name": "user",
+  "email": "user@example.com",
+  "github_username": "gitea_admin",
+  "project_name": "exercises",
+  "exercise": "exercise",
+  "exrecise_general": "exercise",
+  "name":"exercise",
+  "newexercise_tests": "newexercise_tests",
+  "tasks_number":1,
+  "number_of_instructions":2,
+  "tests_type": "unit",
+  "display_execution_time": false,
+  "tests_number":"{{cookiecutter.number_of_instructions }}",
+  "lang":"{{cookiecutter.lang}}",
+  "other": "{{cookiecutter.other}}",
+  "extra" : "{{cookiecutter.extra}}",
+  "root_file" : "{{cookiecutter.root_file}}",
+  "test_file" : "",
+  "separator": "{{cookiecutter.separator}}",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Boilerplate contains all the boilerplate you need to create a Lab exercises.",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.1.0"
+
+}

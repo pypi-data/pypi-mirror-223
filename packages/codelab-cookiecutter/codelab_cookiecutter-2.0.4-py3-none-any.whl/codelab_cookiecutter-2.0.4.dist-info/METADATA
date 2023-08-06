@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: codelab-cookiecutter
+Version: 2.0.4
+Summary: Generates exercises structure for Coding Lab
+Home-page: UNKNOWN
+Author: alya ziganshina
+Author-email: az@alemira.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cookiecutter
+Requires-Dist: click
+Requires-Dist: loguru
+Requires-Dist: pydantic
+Requires-Dist: jinja2-strcase
+
+UNKNOWN
+

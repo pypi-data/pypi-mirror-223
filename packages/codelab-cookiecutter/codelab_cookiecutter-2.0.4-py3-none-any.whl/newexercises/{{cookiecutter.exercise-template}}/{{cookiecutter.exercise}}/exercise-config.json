@@ -1,0 +1,121 @@
+{
+  "files": {
+    "initial": [
+      {%- if cookiecutter.lang in ['py'] -%}
+      "{{cookiecutter.exercise}}_initial.{{cookiecutter.lang}}",
+      {%- elif cookiecutter.lang in ['hs'] -%}
+      "{{cookiecutter.exercise.capitalize()}}.{{cookiecutter.lang}}",
+      {%- elif cookiecutter.lang == 'js' -%}
+      "{{cookiecutter.exercise}}-initial.{{cookiecutter.lang}}",
+       {%- elif cookiecutter.lang == 'java' -%}
+      "initial/{{cookiecutter.exercise.capitalize()}}.{{cookiecutter.lang}}",
+      "initial/Main.java",
+       {%- elif cookiecutter.lang == 'go' -%}
+      "{{cookiecutter.exercise}}_initial.{{cookiecutter.lang}}",
+      {%- elif cookiecutter.lang in ['c','cpp'] -%}
+      "{{cookiecutter.exercise}}.initial.{{cookiecutter.lang}}",
+      "{{cookiecutter.exercise}}.initial.{{cookiecutter.other}}",
+       {%- elif cookiecutter.lang == 'e' -%}
+      "{{cookiecutter.root_file}}.{{cookiecutter.lang}}",
+      "{{cookiecutter.exercise}}{{cookiecutter.separator}}initial.{{cookiecutter.lang}}",
+      {%- elif cookiecutter.lang == 'html' -%}
+      "script.js",
+      "index.html",
+      "style.css",
+      {% endif -%}
+    ],
+    "solution": [
+      {%- if cookiecutter.lang in ['py'] -%}
+      "{{cookiecutter.exercise}}_solution.{{cookiecutter.lang}}.txt",
+      {%- elif cookiecutter.lang in ['hs'] -%}
+      "{{cookiecutter.exercise.capitalize()}}_solution.{{cookiecutter.lang}}.txt",
+      {%- elif cookiecutter.lang in ['go'] -%}
+      "{{cookiecutter.exercise}}_solution.{{cookiecutter.lang}}.txt",
+      {%- elif cookiecutter.lang == 'js' -%}
+      "{{cookiecutter.exercise}}-solution.{{cookiecutter.lang}}.txt",
+       {%- elif cookiecutter.lang == 'java' -%}
+      "solution/{{cookiecutter.exercise.capitalize()}}_solution.{{cookiecutter.lang}}.txt",
+      {%- elif cookiecutter.lang == 'e' -%}
+      "{{cookiecutter.root_file}}.{{cookiecutter.lang}}",
+      "{{cookiecutter.exercise}}{{cookiecutter.separator}}solution.{{cookiecutter.lang}}.txt",
+      {%- elif cookiecutter.lang == 'html' -%}
+      "solutions/script.js.txt",
+      "solutions/index.html.txt",
+      "solutions/style.css.txt",
+      {%- elif cookiecutter.lang in [ 'c', 'cpp'] -%}
+      "{{cookiecutter.exercise}}.solution.{{cookiecutter.lang}}.txt",
+      "{{cookiecutter.exercise}}.solution.{{cookiecutter.other}}.txt",{% endif -%}
+    ],
+    "tests_type": "{{cookiecutter.tests_type}}",
+         {%- if cookiecutter.tests_type == "input" -%}
+         "default_input": "input.txt",
+         {%- endif -%}
+    {%- if cookiecutter.tests_type == "input" -%}
+       {%- if cookiecutter.lang in ['hs'] -%}
+         "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+           "{{cookiecutter.exercise.capitalize()}}{{cookiecutter.separator}}test{{number}}.txt",
+            {% endfor %}
+        {%- elif cookiecutter.lang in ['java'] -%}
+        "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+           "tests/{{cookiecutter.exercise.capitalize()}}{{cookiecutter.separator}}test{{number}}.txt",
+            {% endfor %}
+
+       {% else %}
+        "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+        "{{cookiecutter.exercise}}{{cookiecutter.separator}}test{{number}}.txt",
+      {% endfor %}{%- endif -%}
+    ],
+    {%- elif cookiecutter.tests_type == "unit" -%}
+    {%- if cookiecutter.lang == 'py' -%}
+    "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "{{cookiecutter.exercise}}_test{{number}}.py",
+      {% endfor %}
+    ],
+    {%- elif cookiecutter.lang == 'hs' -%}
+    "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "{{cookiecutter.exercise.capitalize()}}_test{{number}}Spec.hs",
+      {% endfor %}
+    ],
+    {%- elif cookiecutter.lang in ['js', 'html'] -%}
+     "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "{{cookiecutter.exercise}}-test{{number}}.spec.js",
+      {% endfor %}
+    ],
+      {%- elif cookiecutter.lang in ['e'] -%}
+     "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "{{cookiecutter.exercise}}_test{{number}}.e",
+      {% endfor %}
+    ],
+      {%- elif cookiecutter.lang in ['go'] -%}
+     "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "{{cookiecutter.exercise}}_{{number}}_test.go",
+      {% endfor %}
+    ],
+     {%- elif cookiecutter.lang == 'cpp' -%}
+     "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "{{cookiecutter.exercise}}.test{{number}}.cpp",
+      {% endfor %}
+    ],
+    {%- elif cookiecutter.lang == 'java' -%}
+     "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "tests/{{cookiecutter.exercise.capitalize()}}_test{{number}}.java",
+      {% endfor %}
+    ],
+    {%- elif cookiecutter.lang == 'c' -%}
+     "tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+      "{{cookiecutter.exercise}}.test{{number}}.c",
+      {% endfor %}
+
+    ],
+   {% endif -%} {%- endif -%}
+    "instructions": "{{cookiecutter.exercise}}{{cookiecutter.separator}}instructions.md",
+    "display_execution_time": false,
+    {%- if cookiecutter.tests_type == "input" -%}
+        {%- if cookiecutter.lang  not in [ 'html'] -%}
+    "limit_real": 0.02,
+    "limit_user": 0.01
+    {%- endif -%}{%- endif -%}
+
+  },
+  "max_points": 1
+}
