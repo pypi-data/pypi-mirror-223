@@ -1,0 +1,10 @@
+flask_unity/__init__.py,sha256=D0rJxoZixRcG_cPiqyn4Zy0uMIJPCe8hwTMGeq2ioYY,1101
+flask_unity/api.py,sha256=m8kPMAdkFtBEigdUybCg2OZzud6EBiHsOLeAZX4ylw8,157
+flask_unity/base.py,sha256=13SstlzJ4Z3d61bRZRBdgzBZa7sGJt8MLCvWWHjpmu8,12807
+flask_unity/dummy.py,sha256=66rDvX7OAMl6sCh1qB-ohMsueWk2q_Rjn7B3UcobCsE,3278
+flask_unity/utils.py,sha256=Jde5dDKyrVCT8w584UGFfCS3BeWEBvAt5yNv11saB60,203
+flask_unity-0.0.1.dist-info/LICENSE,sha256=lCzJKjCwhzCbOvVs2M1O88pdLAX56m_iZys0TUQHj3k,1077
+flask_unity-0.0.1.dist-info/METADATA,sha256=2yoYGy2Yp42X0G_UMJ88GrafmXVBZNaZ6e4VNd3t5x8,3387
+flask_unity-0.0.1.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+flask_unity-0.0.1.dist-info/top_level.txt,sha256=kuJr0K9w5kfXhUGFl5acSC9p8EHTePi183r8RAka2cg,12
+flask_unity-0.0.1.dist-info/RECORD,,
