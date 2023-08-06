@@ -1,0 +1,22 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Calendar Versioning](https://calver.org).
+
+## [23.1] - 2023-08-04
+
+A small update to fix a few bugs and add a changelog link to the PyPI page.
+
+### Fixed
+* Name for db file
+* New day not starting out empty
+* Limit on sidebar posts
+
+### Added 
+* Changelog link to PyPI page
+
+## [23.0] - 2023-08-02
+
+Initial Release!
