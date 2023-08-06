@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+chronos/__init__.py
+chronos/copy_correction.py
+chronos/evaluations.py
+chronos/fetch_parameters.py
+chronos/figshare.py
+chronos/model.py
+chronos/plotting.py
+chronos/reports.py
+crispr_chronos.egg-info/PKG-INFO
+crispr_chronos.egg-info/SOURCES.txt
+crispr_chronos.egg-info/dependency_links.txt
+crispr_chronos.egg-info/requires.txt
+crispr_chronos.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: crispr_chronos
+Version: 2.0.6
+Summary: Time series modeling of CRISPR perturbation readcounts in biological data
+Author: BroadInstitute CDS
+License-File: LICENSE
