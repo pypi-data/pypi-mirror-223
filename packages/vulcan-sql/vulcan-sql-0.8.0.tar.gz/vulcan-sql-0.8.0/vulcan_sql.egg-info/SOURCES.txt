@@ -1,0 +1,11 @@
+MANIFEST.in
+PUBLIC_README.md
+README.md
+setup.py
+vulcan_sql.egg-info/PKG-INFO
+vulcan_sql.egg-info/SOURCES.txt
+vulcan_sql.egg-info/dependency_links.txt
+vulcan_sql.egg-info/entry_points.txt
+vulcan_sql.egg-info/top_level.txt
+vulcansql/__init__.py
+vulcansql/cli.py

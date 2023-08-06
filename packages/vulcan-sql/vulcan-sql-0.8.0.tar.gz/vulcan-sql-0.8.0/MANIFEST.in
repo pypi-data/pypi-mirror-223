@@ -1,0 +1,5 @@
+include PUBLIC_README.md
+# when pyproject.toml in the sdist, the older Python version e.g: Python 3.3.x may install failed, please it used older pip package, so exclude it from the sdist.
+# However, when installing dist on the newer Python used newer pip after excluding pyproject.toml, it will show warning message for legacy 'setup.py' install.
+exclude pyproject.toml
+recursive-exclude .DS_Store
