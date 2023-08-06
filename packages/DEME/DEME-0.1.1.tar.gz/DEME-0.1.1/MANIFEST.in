@@ -1,0 +1,6 @@
+graft src
+graft thirdparty
+graft cmake
+graft data
+
+include *.txt
