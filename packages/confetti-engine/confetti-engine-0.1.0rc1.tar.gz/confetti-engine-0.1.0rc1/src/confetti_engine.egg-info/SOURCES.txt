@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/confetti_engine/__init__.py
+src/confetti_engine/confetti.py
+src/confetti_engine/py.typed
+src/confetti_engine.egg-info/PKG-INFO
+src/confetti_engine.egg-info/SOURCES.txt
+src/confetti_engine.egg-info/dependency_links.txt
+src/confetti_engine.egg-info/not-zip-safe
+src/confetti_engine.egg-info/requires.txt
+src/confetti_engine.egg-info/top_level.txt
+tests/test_confetti.py
