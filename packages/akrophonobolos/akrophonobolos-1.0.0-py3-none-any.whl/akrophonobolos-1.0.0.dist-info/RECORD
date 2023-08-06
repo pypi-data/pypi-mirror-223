@@ -1,0 +1,15 @@
+akrophonobolos/__init__.py,sha256=Xz_5hqQFKcoXgub79nHidgx43mGr7wBpoYQV_nlXM1Y,168
+akrophonobolos/__version__.py,sha256=RPjQ5Y0AiaPLfWvQ71qrhQNq1NbU9aCHLb9B242Whhg,63
+akrophonobolos/akrophonobolos.py,sha256=uvB13lAatIYOly2NMmodE8QxXBnDl4nCAARtZifZaEo,15720
+akrophonobolos/logistes.py,sha256=dV5WtkNiUNefulkH80vqsypct0ztVBFEw9UXZG997eM,3656
+akrophonobolos/obol.py,sha256=0YVlK1drmZ_qRS5L1Ohw2t2J_vsjKPosuQ3QBhFBeLA,1760
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_class.py,sha256=J8QL_Pi6zAC6r8Jj4RoG2B9J5qk3yT9J7P8E_pFE7tI,4713
+tests/test_functions.py,sha256=RMPtVOR-OJVTa5BrL8Uu1-xidQZrZwO9VCTH_hSTRNc,8659
+tests/test_inscriptions.py,sha256=O9Jd5IMjeVrXSW8Y-g6u_fVNYSMTYsOYVNef-5jYgck,2112
+akrophonobolos-1.0.0.dist-info/LICENSE,sha256=WKj7-e_JkerUy1IaMs2tY9e3wNc4Q2ydyEQSyvE7LH8,35137
+akrophonobolos-1.0.0.dist-info/METADATA,sha256=7ykaZmoQnWeIRXzmlJeLB7upPlpv2q0Tlm6gioU2kXE,3501
+akrophonobolos-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+akrophonobolos-1.0.0.dist-info/entry_points.txt,sha256=nBdIWrZSDkIfHKtpjr_aqAfZi2yCOTPkTjhMYdvomAI,90
+akrophonobolos-1.0.0.dist-info/top_level.txt,sha256=6YYUsWSj8MhkinarcRzSeDnI59mH7ZrItxolW-K-9Fc,21
+akrophonobolos-1.0.0.dist-info/RECORD,,
