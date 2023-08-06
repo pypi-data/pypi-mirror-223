@@ -1,0 +1,2 @@
+[console_scripts]
+aissistant = issistant.aissistant.cli:main

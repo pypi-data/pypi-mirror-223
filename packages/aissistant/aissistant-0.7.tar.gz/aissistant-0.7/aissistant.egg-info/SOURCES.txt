@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+aissistant/__init__.py
+aissistant/aissistant.py
+aissistant.egg-info/PKG-INFO
+aissistant.egg-info/SOURCES.txt
+aissistant.egg-info/dependency_links.txt
+aissistant.egg-info/entry_points.txt
+aissistant.egg-info/requires.txt
+aissistant.egg-info/top_level.txt
+tests/test_aissistant.py
