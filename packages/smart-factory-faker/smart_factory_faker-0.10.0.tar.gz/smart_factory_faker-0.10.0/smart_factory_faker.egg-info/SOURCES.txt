@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+smart_factory_faker.egg-info/PKG-INFO
+smart_factory_faker.egg-info/SOURCES.txt
+smart_factory_faker.egg-info/dependency_links.txt
+smart_factory_faker.egg-info/requires.txt
+smart_factory_faker.egg-info/top_level.txt
