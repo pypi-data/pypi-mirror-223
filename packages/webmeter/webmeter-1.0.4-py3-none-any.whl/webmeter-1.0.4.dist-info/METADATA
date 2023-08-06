@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: webmeter
+Version: 1.0.4
+Summary: WebMeter - A web api-performance tool based on jmeter.
+Home-page: https://github.com/rafa0128/webmeter
+Author: Rafa Chen
+Author-email: laoqi1988_f1@126.com
+License: MIT
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: requests
+Requires-Dist: logzero
+Requires-Dist: fire
+Requires-Dist: pyfiglet
+Requires-Dist: psutil
+
+## WebMeter
+
+A web api-performance tool based on jmeter.
+
+## Installation
+
+### default
+
+```shell
+pip install -U webmeter
+```
+
+### mirrors
+
+```shell
+pip install -i  https://mirrors.ustc.edu.cn/pypi/web/simple -U webmeter
+```
+
+## Quickstart
+
+### default
+
+```shell
+python -m webmeter
+```
+
+### customize
+
+```shell
+python -m webmeter --host={ip} --port={port}
+```
+
+## Develop
+
+### debug
+
+```bash
+cd webmeter
+python __main__.py
+```
