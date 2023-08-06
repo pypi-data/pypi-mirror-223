@@ -1,0 +1,12 @@
+t8s/__about__.py,sha256=oBVJulqbdrsaVYOay_-ksac6zUmolrKp09YN5EENxF0,142
+t8s/__init__.py,sha256=YA9KUf37mEdrBk9QnfLuOU-RYyBxvQjUnJJgzzMj7P0,1986
+t8s/io.py,sha256=gmE-KZ4pW7Ub275x0bDnhClhQcf3dnUIogR5fhTY_vw,18578
+t8s/log_config.py,sha256=5TaJAyuneKlmaG4IWutbfoZNf5BVeFTmJyOLXrv4y8M,1927
+t8s/ts.py,sha256=8fABEq2eBAoIEfO-1FxOR8TZMTuBt3X4qM-Vdh75Mj8,18402
+t8s/ts_builder.py,sha256=pgdn_-fo4A8Oma50eMCdRP6UrhyuYyLMkD0VTK-ESjw,6298
+t8s/ts_writer.py,sha256=Xk58T2OZMDnrpq4GAhPmx3AYSyvSroq0QEUnqx0wfO4,4694
+t8s/util.py,sha256=R6SfBI699_NDIEzatwhQJO9VbCC1zjnHDu7eIj0abAA,5167
+t8s-0.1.16.dist-info/METADATA,sha256=ogxEzUwIDd2YwioM3aQ6lecZEFUfmiSArZEWQmIfTVY,3004
+t8s-0.1.16.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+t8s-0.1.16.dist-info/licenses/LICENSE.txt,sha256=gmIGpxfy2mppSp_p-sXh9yurWoV2dN-MXP5iMgtTfqA,1111
+t8s-0.1.16.dist-info/RECORD,,
