@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: circleutils
+Version: 2023.8.5
+Summary: Collection of tools for osu! related file manipulation
+Home-page: https://github.com/miinorii/circleutils
+Author: miinorii
+Requires-Python: >=3.10
+Requires-Dist: pydantic (>=2.1.1)
+Requires-Dist: polars (>=0.18.12)
+Requires-Dist: numpy (>=1.25.2)
+
+Collection of tools for osu! related file manipulation
