@@ -1,0 +1,8 @@
+setup.py
+linear_algebra_simple/__init__.py
+linear_algebra_simple/eigenvector.py
+linear_algebra_simple.egg-info/PKG-INFO
+linear_algebra_simple.egg-info/SOURCES.txt
+linear_algebra_simple.egg-info/dependency_links.txt
+linear_algebra_simple.egg-info/requires.txt
+linear_algebra_simple.egg-info/top_level.txt
