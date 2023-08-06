@@ -1,0 +1,7 @@
+setup.py
+saconvert/__init__.py
+saconvert/conversions.py
+saconvert.egg-info/PKG-INFO
+saconvert.egg-info/SOURCES.txt
+saconvert.egg-info/dependency_links.txt
+saconvert.egg-info/top_level.txt
