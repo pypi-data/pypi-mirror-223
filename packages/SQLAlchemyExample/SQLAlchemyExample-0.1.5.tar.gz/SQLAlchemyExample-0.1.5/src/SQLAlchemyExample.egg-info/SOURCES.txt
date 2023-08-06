@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.cfg
+src/SQLAlchemyExample.egg-info/PKG-INFO
+src/SQLAlchemyExample.egg-info/SOURCES.txt
+src/SQLAlchemyExample.egg-info/dependency_links.txt
+src/SQLAlchemyExample.egg-info/requires.txt
+src/SQLAlchemyExample.egg-info/top_level.txt
+tests/test_ex01_simple.py
+tests/test_ex02_otm_bi_single_table_inherit.py
+tests/test_ex03_otm_uni_single_table_inherit.py
