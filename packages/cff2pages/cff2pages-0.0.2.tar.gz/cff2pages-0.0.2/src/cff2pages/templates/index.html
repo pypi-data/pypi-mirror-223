@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>{{ title }}</title>
+    <style>
+        body, h1, h2, h3, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            padding: 2rem 0;
+        }
+
+        .container h1,
+        .container h2,
+        .container h3,
+        .container h4,
+        .container h5,
+        .container h6 {
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .blog-title {
+            font-size: 1.8rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .keyword-container {
+            margin-bottom: 0;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+
+        .keyword-list {
+            display: inline-flex;
+            flex-wrap: wrap;
+            padding: 0;
+            list-style-type: none;
+            margin: 0;
+        }
+
+        .keyword-item {
+            margin: 0 0.5rem 0.5rem 0;
+            padding: 0.3rem 0.8rem;
+            font-size: 0.9rem;
+            background-color: #f5f5f5;
+            border-radius: 2px;
+        }
+
+        .keyword-item a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .keyword-item a:hover {
+            color: #666;
+        }
+
+        .badges {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .badge-item {
+            margin-right: 0.5rem;
+        }
+
+        .badge-item img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        .footer-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    {# cff - title #}
+    <h1 class="blog-title"> {{ title }}</h1>
+
+    {# cff - authors #}
+    <h2>
+        {% for author in authors %}
+            {{ author['given-names'] }} {{ author['family-names'] }}
+            <sup>{{ unique_affiliations.index(author.affiliation) + 1 }}</sup>
+            <a href="{{ author.orcid }}"><img decoding="async" alt=""
+                                              src="./assets/img/orcid_16x16.webp"
+                                              style="width:16px; height:16px; margin:3px"/></a>,
+        {% endfor %}
+    </h2>
+    <ul>
+        {% for affiliate in unique_affiliations %}
+            <sup>{{ unique_affiliations.index(affiliate) + 1 }}</sup> : {{ affiliate }}
+        {% endfor %}
+    </ul>
+
+    {# cff - keywords #}
+    <div class="keyword-container">
+        <b>Keywords:</b>
+        <ul class="keyword-list">
+            {% for keyword in keywords %}
+                <li class="keyword-item">
+                    <a class="keyword">{{ keyword }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+    {#cff - identifiers #}
+    <div class="badges">
+        {% if repository is defined %}
+            {% if repository.startswith('https://github.com') %}
+                <a class="badge-item" href="{{ repository }}" target="_blank">
+                    <img src="./assets/img/github-logo.png" alt="Github Logo"></a>
+            {% elif repository.startswith('https://gitlab.com') %}
+                <a class="badge-item" href="{{ repository }}" target="_blank">
+                    <img src="./assets/img/gitlab-logo.png" alt="GitLab Logo"></a>
+            {% endif %}
+            <a href="{{ repository }}" target="_blank">Repository</a>
+        {% endif %}
+
+        {% for identifier in identifiers %}
+            {% if identifier['type'] == 'swh' %}
+                {% if repository is defined %}
+                    <a href="https://archive.softwareheritage.org/browse/origin/?origin_url={{ repository }}">
+                        <img src="https://archive.softwareheritage.org/badge/origin/{{ repository }}"
+                             alt="Archived | {{ repository }}"/>
+                    </a>
+                {% else %}
+                    <a href="https://archive.softwareheritage.org/{{ identifier['value'] }}">
+                        <img src="https://archive.softwareheritage.org/badge/{{ identifier['value'] }}/"
+                             alt="Archived | {{ identifier['value'] }}"/>
+                    </a>
+                {% endif %}
+            {% elif identifier['type'] == 'doi' %}
+                <a href="https://doi.org/{{ identifier['value'] }}">
+                    <img src="https://img.shields.io/badge/DOI_-{{ identifier['value'] }}-blue"
+                         alt="DOI"/>
+                </a>
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    {# cff - licence #}
+    <p class="licence"><b>License</b>: {{ license }}</p>
+    {# cff - abstract #}
+    <p class="abstract"><b>Abstract</b>: {{ abstract }}</p>
+</div>
+
+<div class="footer-container">
+    <footer class="footer">
+        <p>Generated with <a href="https://github.com/University-of-Potsdam-MM/cff2pages"
+                             target="_blank">cff2pages</a>.
+        </p>
+    </footer>
+</div>
+
+</body>
+</html>
