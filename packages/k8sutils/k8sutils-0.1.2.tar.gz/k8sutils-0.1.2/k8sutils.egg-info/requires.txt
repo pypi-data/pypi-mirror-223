@@ -1,0 +1,6 @@
+requests==2.25.1
+termcolor==1.1.0
+prettytable==2.1.0
+
+[dev]
+pytest==6.2.2
