@@ -1,0 +1,6 @@
+llm_cohere/__init__.py,sha256=vvb54llyuw6tQgpR-rVHU4KrNEyhNfposFGP5MMcuUQ,6547
+llm_cohere-1.0.dist-info/METADATA,sha256=d5HTMotCfQF2ZbCuw0DjjB_wBziqXJ4gqfv4c6G1v8g,2439
+llm_cohere-1.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+llm_cohere-1.0.dist-info/entry_points.txt,sha256=bfhwPKCWX3Kxb4_a7WBkHwBcdLpuoJ2eQ1sgJ6122zM,30
+llm_cohere-1.0.dist-info/top_level.txt,sha256=1AHDKgIYfpNgkAVsOPSQ7cNyX-fdwV4qwx86Sg8EviI,11
+llm_cohere-1.0.dist-info/RECORD,,
