@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: twinstop
+Version: 0.1.2
+Summary: twinstop identifies selenoproteins in close related transcriptomes
+Home-page: https://github.com/marco-mariotti/twinstop
+Author: Marco Mariotti and Sergio Sanchez Moragues
+Author-email: marco.mariotti@ub.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# twinstop
+Twinstop identifies selenoproteins in close related transcriptomes
+
+# Installation
+conda install -c conda-forge -c bioconda -c mmariotti    twinstop
+
+# Usage
+Run:
+
+  twinstop -h
+
+
+# Authors
+Sergio Sanchez Moragues and Marco Mariotti
