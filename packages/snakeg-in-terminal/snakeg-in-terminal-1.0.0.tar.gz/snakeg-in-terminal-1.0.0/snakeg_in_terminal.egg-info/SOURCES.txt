@@ -1,0 +1,10 @@
+setup.py
+snake-game/__init__.py
+snake-game/project.py
+snake-game/constants/__init__.py
+snake-game/constants/colors.py
+snakeg_in_terminal.egg-info/PKG-INFO
+snakeg_in_terminal.egg-info/SOURCES.txt
+snakeg_in_terminal.egg-info/dependency_links.txt
+snakeg_in_terminal.egg-info/requires.txt
+snakeg_in_terminal.egg-info/top_level.txt
