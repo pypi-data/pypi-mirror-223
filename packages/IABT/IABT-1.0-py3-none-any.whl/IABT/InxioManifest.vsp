@@ -1,0 +1,8 @@
+$ACTIVITIES = []
+$PERMISSIONS = []
+$icon = "@mipmap/python"
+$app_name = "Inxio Application"
+$main_activity = None
+
+
+@PED

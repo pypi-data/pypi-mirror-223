@@ -1,0 +1,43 @@
+# 这是定义系统常量的方法,支持直接定义Python中的类型
+$Inxio-spica = "0.0.1"
+$author = "cemeye"
+$btn_text = "按钮文字"
+$http = [1,2,3,4,5,6,87,8]
+
+
+
+
+# 这是vsp的注释
+
+
+
+# 导入一些库
+@include=[try,printlib,SqrtS.dsad]
+
+
+
+
+# 通过运行代码对变量进行赋值(语法：$var = ~vsp.-----)
+$a = ~vsp.try.hello("cmy")
+$b = "~vsp.printlib.xprint(\"\")"
+
+
+
+
+# 直接运行一些代码！（语法：~vsp.-----）
+~vsp.try.hello("xixxix")
+
+
+# 定义标签！(ID的作用是方便查找和对应)
+*TagName[ID]:
+
+
+# 定义属性！
+-attr_name = attr_value
+-run = print("直接运行Python代码")
+
+# 下面是在python中的语法示例
+
+    vsp = VSP("try.vsp")    # 填入文件路径（可选，不填就代表要动态生成并保存）
+    vsp.recursive_rendering_sons()      # 渲染节点关系和属性，并输出
+    print(vsp.get_tab())      # 获取根节点，方便
