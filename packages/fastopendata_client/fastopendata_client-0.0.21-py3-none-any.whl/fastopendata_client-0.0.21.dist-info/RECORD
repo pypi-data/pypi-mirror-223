@@ -1,0 +1,8 @@
+fastopendata_client/__init__.py,sha256=Ns4azLnJsQn5g0Otrw1W9rgh2wO4J42K8Vyt1hyBRaA,32
+fastopendata_client/cli_entry.py,sha256=pX55ZAdpI9nynAbl4lUobOdm6bD6Je8TNiojuG00Zd4,8652
+fastopendata_client/client.py,sha256=Ax9zv2T5E-ZkyTBR5mbDK7o5AnQX0Fjcf_J1gHh7Ajg,12294
+fastopendata_client-0.0.21.dist-info/METADATA,sha256=bG8jPiDmJczVXRAbFuDqr3fLhmQJq9jeCsGreMm-V7Y,4846
+fastopendata_client-0.0.21.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fastopendata_client-0.0.21.dist-info/entry_points.txt,sha256=15g1sZ2s12sYvc8fwN2IhADAIEx_KNEJZc_AFakrTFg,73
+fastopendata_client-0.0.21.dist-info/licenses/LICENSE,sha256=PFHN_19EDrZ8f2Npdg5D7y7KotOpoP-ZeDGjeZu4aS8,1070
+fastopendata_client-0.0.21.dist-info/RECORD,,
