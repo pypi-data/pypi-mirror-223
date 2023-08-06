@@ -1,0 +1,9 @@
+amazon_invoice_downloader/__about__.py,sha256=p2R0wwtEzeir3zrgDiMnGpMQYMh0ddpJEwT96SnkIsU,131
+amazon_invoice_downloader/__init__.py,sha256=lmIZtp0_kp0SxuKS5KTuUWb2Wqr-VN4Z4rBYNVUcVUE,109
+amazon_invoice_downloader/__main__.py,sha256=6BQqEdlzMXGAQnBImBBFmtXty9Yh4q1Ohs1XiqLchHY,263
+amazon_invoice_downloader/cli/__init__.py,sha256=DbP1U2tRRJTY2FHrgwrFhs5JrOXmIw6THadnb2IZLBs,6709
+amazon_invoice_downloader-0.1.0.dist-info/METADATA,sha256=BXO4jHlkqa7P5XOL0gFIRZaxPh4g7lfoXStb0FzD4uY,4393
+amazon_invoice_downloader-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+amazon_invoice_downloader-0.1.0.dist-info/entry_points.txt,sha256=QcLc9AvEd5Uxy2kMqqy_MJahKce1CxHoDlamyom7EqE,102
+amazon_invoice_downloader-0.1.0.dist-info/licenses/LICENSE.txt,sha256=wPK1ih6RJoRkTmtIPtukwrrF_9zxJRvFgftNDj6LflA,1101
+amazon_invoice_downloader-0.1.0.dist-info/RECORD,,
