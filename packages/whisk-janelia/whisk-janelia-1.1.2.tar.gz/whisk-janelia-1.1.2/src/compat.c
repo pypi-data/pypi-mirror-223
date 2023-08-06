@@ -1,0 +1,25 @@
+/* Author: Nathan Clack <clackn@janelia.hhmi.org>
+ * Date  : May 2009 
+ *
+ * Copyright 2010 Howard Hughes Medical Institute.
+ * All rights reserved.
+ * Use is subject to Janelia Farm Research Campus Software Copyright 1.1
+ * license terms (http://license.janelia.org/license/jfrc_copyright_1_1.html).
+ */
+#include "compat.h"
+#include <math.h>
+
+/*extern  long int lround(float x)
+{
+return (long)(x < 0 ? -floor(fabs(x) + .5) : floor(x + .5));
+}
+
+extern  double round(double x)
+{
+  return x < 0 ? -floor(fabs(x) + .5) : floor(x + .5);
+}
+
+extern  float roundf(float x)
+{
+  return x < 0 ? -floorf(fabsf(x) + .5) : floorf(x + .5);
+}*/
