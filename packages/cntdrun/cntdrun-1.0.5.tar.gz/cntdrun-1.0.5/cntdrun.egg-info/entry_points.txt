@@ -1,0 +1,2 @@
+[console_scripts]
+cntdrun = cntdrun:main
