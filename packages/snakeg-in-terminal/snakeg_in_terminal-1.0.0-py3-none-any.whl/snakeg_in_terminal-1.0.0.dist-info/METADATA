@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: snakeg-in-terminal
+Version: 1.0.0
+Summary: A snake-game like implementation
+Author: crnvl96
+Author-email: <adran.carnavale@gmail.com>
+Keywords: python,game,pygame,terminal,snake
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pygame
+
+A package that allows the user to play the well known game calles "snake game"
