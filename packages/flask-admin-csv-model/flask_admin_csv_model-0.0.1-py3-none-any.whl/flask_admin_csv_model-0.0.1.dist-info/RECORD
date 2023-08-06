@@ -1,0 +1,10 @@
+flask_admin_csv_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_admin_csv_model/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_admin_csv_model/contrib/csv/__init__.py,sha256=UqQezVA9vtTuLvBPQxIenk37G0lwTQRrT_1OLpsMHsM,134
+flask_admin_csv_model/contrib/csv/model.py,sha256=1W407gfVo7kFiKEWU5TlHZJws3bgfCUNQ8xKlFNrmB4,3973
+flask_admin_csv_model/contrib/csv/view.py,sha256=H0ABoClvC3G_o06ZaknH130zq6hei8vOcFomch3_fBE,2400
+flask_admin_csv_model-0.0.1.dist-info/LICENSE.md,sha256=tzUuiUxK5y4kRI2WXI3XD3yhBWDg9-KwSMlcx5UacLY,1515
+flask_admin_csv_model-0.0.1.dist-info/METADATA,sha256=1PiHI5EHXxb8iVCGk1J6Q07hUcI1t_ztOu7QFjYja_Q,2565
+flask_admin_csv_model-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+flask_admin_csv_model-0.0.1.dist-info/top_level.txt,sha256=9HZxe6souErUZ3B3HB9TP1F2rWJ4-XJfCosdQ_wPGcE,22
+flask_admin_csv_model-0.0.1.dist-info/RECORD,,
