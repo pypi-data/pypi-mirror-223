@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: bardclient
+Version: 1.0
+Summary: A simple reverse engineering of google's bard implements by python3
+Home-page: https://github.com/ydg119/bardclient
+Author: yangdage
+Author-email: 314474977@qq.com
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bardclient
+A simple reverse engineering of google's bard implements by python3
+
+## Installation
+```bash
+$ pip3 install --upgrade bardclient
+```
+
+## Authentication
+Go to https://bard.google.com/
+
+- F12 for console
+- Copy the cookie value
+> Path: Application -> Cookies -> `__Secure-1PSID`, Copy the value of the cookie.
+
+## Usage
+### Implementation
+```python
+from os import environ
+
+from bardclient import BardClient
+
+bard_token = environ.get('BARD_TOKNE')
+bot = BardClient(bard_token)
+res_message = bot.ask('Hi, how are you?')
+
+print(res_message["content"])
+```

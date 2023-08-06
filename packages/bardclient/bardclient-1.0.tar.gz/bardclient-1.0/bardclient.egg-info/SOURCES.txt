@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+bardclient.egg-info/PKG-INFO
+bardclient.egg-info/SOURCES.txt
+bardclient.egg-info/dependency_links.txt
+bardclient.egg-info/top_level.txt
