@@ -1,0 +1,41 @@
+[console_scripts]
+sleepless = sleepless.scripts.cli:cli
+
+[sleepless.config]
+blanco = sleepless.configs.models_and_models_parameters.blanco_baseline.blanco
+chambon = sleepless.configs.models_and_models_parameters.chambon2018_baseline.chambon2018
+chambon-gru = sleepless.configs.models_and_models_parameters.chambon2018_modified.chambon_gru.chambon_gru
+chambon-lstm = sleepless.configs.models_and_models_parameters.chambon2018_modified.chambon_lstm.chambon_lstm
+chambon-noscheduler = sleepless.configs.models_and_models_parameters.chambon2018_baseline.chambon2018_noscheduler
+chambon-test = sleepless.configs.models_and_models_parameters.chambon2018_baseline.chambon_testing
+edf-massa = sleepless.configs.datasets.EDF_X_MASS.train_edf_st
+edf-massb = sleepless.configs.datasets.EDF_X_MASS.train_edf_sc
+edf-massc = sleepless.configs.datasets.EDF_X_MASS.train_edf_st_sc
+edf-massd = sleepless.configs.datasets.EDF_X_MASS.train_mass_ss3
+edf-masse = sleepless.configs.datasets.EDF_X_MASS.train_edf_sc_crop_wake
+edfa-filtered = sleepless.configs.datasets.EDF.train_st_filtered
+edfb-filtered = sleepless.configs.datasets.EDF.train_sc_filtered
+edfc-filtered = sleepless.configs.datasets.EDF.train_st_sc_filtered
+gbc-gs-mne = sleepless.configs.models_and_models_parameters.mne_baseline.gbc
+lstm = sleepless.configs.models_and_models_parameters.lstm_baseline.lstm
+mixed-db = sleepless.configs.datasets.mixed_all_db.mixed_all_db
+ninel-cnn = sleepless.configs.models_and_models_parameters.nine_layers_cnn_baseline.ninel_1d_cnn_ssc
+rf-gs-chambon = sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest
+rf-gs-chambon-2eeg-emg = sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_2eeg_emg
+rf-gs-chambon-2eeg-eog = sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_2eeg_eog
+rf-gs-chambon-2eeg-eog-emg = sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_2eeg_eog_emg
+rf-gs-chambon-emg = sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_emg
+rf-gs-chambon-eog = sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_eog
+rf-gs-chambon-fpzcz = sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_fpzcz
+rf-gs-chambon-pzoz = sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_pzoz
+rf-gs-mne = sleepless.configs.models_and_models_parameters.mne_baseline.randomforest
+scedf-filtered = sleepless.configs.datasets.EDF.sc_filtered
+scedf-filtered-crop-wake = sleepless.configs.datasets.EDF.sc_filtered_crop_wake
+scedf-unfiltered = sleepless.configs.datasets.EDF.sc_unfiltered
+ss3-filtered-fpz-cz = sleepless.configs.datasets.MASS.ss3_filtered_fpz_cz
+ss3-unfiltered-fpz-cz = sleepless.configs.datasets.MASS.ss3_unfiltered_fpz_cz
+st-testing = sleepless.configs.datasets.EDF.st_testing
+stedf-filtered = sleepless.configs.datasets.EDF.st_filtered
+stedf-unfiltered = sleepless.configs.datasets.EDF.st_unfiltered
+xgb-gs-chambon = sleepless.configs.models_and_models_parameters.chambon2018_baseline.xgboost_chambon
+xgb-gs-mne = sleepless.configs.models_and_models_parameters.mne_baseline.xgboost

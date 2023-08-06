@@ -1,0 +1,140 @@
+# SPDX-FileCopyrightText: Copyright © 2023 Idiap Research Institute <contact@idiap.ch>
+# SPDX-FileContributor: Samuel Michel <samuel.michel@idiap.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+[build-system]
+    requires = ["setuptools>=61.0.0", "wheel"]
+    build-backend = "setuptools.build_meta"
+
+[project]
+name = "sleepless"
+version = "2.0.1"
+requires-python = ">=3.9"
+description = "This package contains benchmarks for sleep phase detection from polysomnographs"
+readme = "README.md"
+license = {text = "GNU General Public License v3 (GPLv3)"}
+authors = [
+    {name = "Samuel Michel", email = "samuel.michel@idiap.ch"},
+    {name = "Gabriele Brunini", email = "gabriele.brunini@gess.ethz.ch"},
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "clapper",
+    "click",
+    "h5py",
+    "numpy",
+    "matplotlib",
+    "mne",
+    "openpyxl",
+    "pandas",
+    "psutil",
+    "scikit-learn",
+    "setuptools",
+    "tabulate",
+    "torch>=1.8",
+    "xgboost",
+    "xlrd",
+]
+
+[project.urls]
+documentation = "https://sleepless.readthedocs.io/en/v2.0.1/"
+homepage = "https://pypi.org/project/sleepless"
+repository = "https://gitlab.idiap.ch/biosignal/software/sleepless"
+changelog = "https://gitlab.idiap.ch/biosignal/software/sleepless/-/releases"
+
+[project.optional-dependencies]
+qa = ["pre-commit"]
+doc = [
+    "sphinx",
+    "furo",
+    "sphinx-autodoc-typehints",
+    "auto-intersphinx",
+    "sphinx-copybutton",
+    "sphinx-inline-tabs",
+    "sphinx-click",
+    ]
+test = [
+    "pytest",
+    "pytest-cov",
+    "coverage",
+    ]
+
+[project.scripts]
+sleepless = "sleepless.scripts.cli:cli"
+
+[project.entry-points."sleepless.config"]
+# models
+
+# models + models_parameters
+rf-gs-mne = "sleepless.configs.models_and_models_parameters.mne_baseline.randomforest"
+rf-gs-chambon = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest"
+rf-gs-chambon-2eeg-eog = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_2eeg_eog"
+rf-gs-chambon-2eeg-emg = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_2eeg_emg"
+rf-gs-chambon-2eeg-eog-emg = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_2eeg_eog_emg"
+rf-gs-chambon-eog = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_eog"
+rf-gs-chambon-emg = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_emg"
+rf-gs-chambon-fpzcz = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_fpzcz"
+rf-gs-chambon-pzoz = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.randomforest_pzoz"
+xgb-gs-mne = "sleepless.configs.models_and_models_parameters.mne_baseline.xgboost"
+xgb-gs-chambon = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.xgboost_chambon"
+gbc-gs-mne = "sleepless.configs.models_and_models_parameters.mne_baseline.gbc"
+chambon-test = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.chambon_testing"
+chambon = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.chambon2018"
+chambon-noscheduler = "sleepless.configs.models_and_models_parameters.chambon2018_baseline.chambon2018_noscheduler"
+chambon-lstm = "sleepless.configs.models_and_models_parameters.chambon2018_modified.chambon_lstm.chambon_lstm"
+lstm = "sleepless.configs.models_and_models_parameters.lstm_baseline.lstm"
+blanco = "sleepless.configs.models_and_models_parameters.blanco_baseline.blanco"
+chambon-gru = "sleepless.configs.models_and_models_parameters.chambon2018_modified.chambon_gru.chambon_gru"
+ninel-cnn = "sleepless.configs.models_and_models_parameters.nine_layers_cnn_baseline.ninel_1d_cnn_ssc"
+
+# dataset
+st-testing = "sleepless.configs.datasets.EDF.st_testing"
+stedf-unfiltered = "sleepless.configs.datasets.EDF.st_unfiltered"
+scedf-unfiltered = "sleepless.configs.datasets.EDF.sc_unfiltered"
+stedf-filtered = "sleepless.configs.datasets.EDF.st_filtered"
+scedf-filtered = "sleepless.configs.datasets.EDF.sc_filtered"
+scedf-filtered-crop-wake = "sleepless.configs.datasets.EDF.sc_filtered_crop_wake"
+edfa-filtered = "sleepless.configs.datasets.EDF.train_st_filtered"
+edfb-filtered = "sleepless.configs.datasets.EDF.train_sc_filtered"
+edfc-filtered = "sleepless.configs.datasets.EDF.train_st_sc_filtered"
+ss3-unfiltered-fpz-cz = "sleepless.configs.datasets.MASS.ss3_unfiltered_fpz_cz"
+ss3-filtered-fpz-cz = "sleepless.configs.datasets.MASS.ss3_filtered_fpz_cz"
+edf-massa = "sleepless.configs.datasets.EDF_X_MASS.train_edf_st"
+edf-massb = "sleepless.configs.datasets.EDF_X_MASS.train_edf_sc"
+edf-massc = "sleepless.configs.datasets.EDF_X_MASS.train_edf_st_sc"
+edf-massd = "sleepless.configs.datasets.EDF_X_MASS.train_mass_ss3"
+edf-masse = "sleepless.configs.datasets.EDF_X_MASS.train_edf_sc_crop_wake"
+mixed-db = "sleepless.configs.datasets.mixed_all_db.mixed_all_db"
+
+[tool.setuptools]
+zip-safe = true
+package-dir = {"" = "src"}
+
+[tool.distutils.bdist_wheel]
+universal = true
+
+[tool.isort]
+profile = "black"
+line_length = 80
+order_by_type = true
+lines_between_types = 1
+
+[tool.black]
+line-length = 80
+
+[tool.pytest.ini_options]
+addopts = [
+    "--cov=sleepless",
+    "--cov-report=term-missing",
+    "--import-mode=append",
+]
+junit_logging = "all"
+junit_log_passing_tests = false

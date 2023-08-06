@@ -1,0 +1,24 @@
+{
+    "train": [
+        [
+            "SC4001E0-PSG.edf",
+            "SC4001EC-Hypnogram.edf"
+        ],
+        [
+            "SC4001E0-PSG.edf",
+            "SC4001EC-Hypnogram.edf"
+        ]
+    ],
+    "validation": [
+        [
+            "SC4001E0-PSG.edf",
+            "SC4001EC-Hypnogram.edf"
+        ]
+    ],
+    "test": [
+        [
+            "SC4001E0-PSG.edf",
+            "SC4001EC-Hypnogram.edf"
+        ]
+    ]
+  }
