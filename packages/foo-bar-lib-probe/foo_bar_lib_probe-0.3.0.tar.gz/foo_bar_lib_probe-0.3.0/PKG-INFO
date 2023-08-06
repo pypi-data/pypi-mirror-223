@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: foo_bar_lib_probe
+Version: 0.3.0
+Summary: A simple Python library for greetings.
+Home-page: https://github.com/setmy-info/setmy.info/tree/develop/incubation/foo_bar_lib_probe
+Author: Imre Tabur
+Author-email: info@setmy.info
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+A longer description of A simple Python library for greetings.
+
