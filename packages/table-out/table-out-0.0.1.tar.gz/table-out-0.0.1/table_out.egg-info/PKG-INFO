@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: table-out
+Version: 0.0.1
+Summary: Python package to create a table in the command line interface
+Author: Marc Miller
+Author-email: <marcocoa12@gmail.com>
+Keywords: python,table-out
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Table-Out is a Python package that allows you to create a table with values and display it in the command line interface. The package also allows the user to apply formatting to the table.
