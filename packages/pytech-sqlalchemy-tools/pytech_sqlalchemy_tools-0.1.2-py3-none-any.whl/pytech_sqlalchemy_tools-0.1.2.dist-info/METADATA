@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytech-sqlalchemy-tools
+Version: 0.1.2
+Summary: PyTech SQLAlchemy Tools Project
+Project-URL: Homepage, https://gitlab.com/pytech-srl/resources/pytech-sqlalchemy-tools
+Project-URL: Bug Tracker, https://gitlab.com/pytech-srl/resources/pytech-sqlalchemy-tools/-/issues
+Author-email: Alessandro Grandi <alessandro.grandi@pytech.it>
+License-File: LICENCE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Requires-Dist: pytech-tools<0.2,>=0.1.3
+Requires-Dist: sqlalchemy==2.0.19
+Description-Content-Type: text/markdown
+
+# PyTech SQLAlchemy Tools
+
+Example package.
