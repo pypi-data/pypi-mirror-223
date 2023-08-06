@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+MoreAPI/Auth.py
+MoreAPI/DouYin.py
+MoreAPI/KS.py
+MoreAPI/KuWo.py
+MoreAPI/Video.py
+MoreAPI/XHS.py
+MoreAPI/__init__.py
+MoreApi.egg-info/PKG-INFO
+MoreApi.egg-info/SOURCES.txt
+MoreApi.egg-info/dependency_links.txt
+MoreApi.egg-info/requires.txt
+MoreApi.egg-info/top_level.txt
