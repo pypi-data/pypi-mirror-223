@@ -1,0 +1,19 @@
+# YAML 1.2
+---
+cff-version: "1.1.0"
+title: "discuit"
+authors:
+  -
+    family-names: Kok
+    name-particle: de
+    given-names: Dörte
+    orcid: "https://orcid.org/0000-0002-9437-6230"
+date-released: 2023-08-01
+doi: 10.5281/zenodo.8217225
+version: "0.4.0"
+repository-code: "https://github.com/doerte/discuit-project"
+keywords:
+  - item division
+  - clustering
+message: "If you use this software, please cite it using these metadata."
+license: Apache-2.0
