@@ -1,0 +1,8 @@
+dependencies:
+  - firefox =115
+  - geckodriver
+  - robotframework-jupyterlibrary >=0.5.0
+  - robotframework-pabot
+  - robotframework-robocop
+  - robotframework-tidy >=3.4.0
+  - selenium <4.10.0
