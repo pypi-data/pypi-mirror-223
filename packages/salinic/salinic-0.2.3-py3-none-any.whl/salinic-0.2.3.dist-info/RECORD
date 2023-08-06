@@ -1,0 +1,12 @@
+salinic/__init__.py,sha256=J8yrcsLjvjho4Ws4ytH6yDu0mG9XJvpPlHHmKiUN-28,321
+salinic/engine.py,sha256=uLyGmqXuhpx9EBMWXQS_Tn581IIhkBtCa-jEP71KhrY,344
+salinic/field.py,sha256=GW6LjuwuMLmH-Y7uWXK1hgYsbqGlmyKND2sncfiUZ_o,285
+salinic/schema.py,sha256=3RJlamPGPl4l9sqj0efFnaGHDVkfkE2amSuQnyqFJRM,1250
+salinic/search.py,sha256=zdROjfXsGl0qDWYSBUkraLjEMWn-BFyDySiKZ3ng6cw,228
+salinic/search_query.py,sha256=_QFAoC7VHAvS0Whdzov8tBWagoieiHyqus9OssUhEp8,118
+salinic/session.py,sha256=-BoHhrUt0riRwCES7mdEXDwBs4CvhWpQc74pFSZSezg,3840
+salinic/utils.py,sha256=z4mXR5EeeU6GaX2DQQguM-RdS0sk7EASh0nmtmTLkvE,564
+salinic-0.2.3.dist-info/LICENSE,sha256=iqRnv9MyRyhBmPe0-cydxSPju4cze7xZdC57zhplNZc,10226
+salinic-0.2.3.dist-info/METADATA,sha256=VvTxopesKCmB-aeBLip5SAy-AtyowRz_cMeliCrjsyM,2282
+salinic-0.2.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+salinic-0.2.3.dist-info/RECORD,,
