@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/gravomg/__init__.py
+src/gravomg/core.py
+src/gravomg/util.py
+src/gravomg.egg-info/PKG-INFO
+src/gravomg.egg-info/SOURCES.txt
+src/gravomg.egg-info/dependency_links.txt
+src/gravomg.egg-info/not-zip-safe
+src/gravomg.egg-info/requires.txt
+src/gravomg.egg-info/top_level.txt
