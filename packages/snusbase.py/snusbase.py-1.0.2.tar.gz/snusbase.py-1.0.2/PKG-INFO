@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: snusbase.py
+Version: 1.0.2
+Summary: an un-official async wrapper for the Snusbase API
+Author-email: igna <igna@shiro.wtf>
+Maintainer-email: igna <igna@shiro.wtf>
+Project-URL: Homepage, https://snusbase.com
+Project-URL: Bug Reports, https://github.com/obstructive/snusbase.py/issues
+Project-URL: Source, https://github.com/obstructive/snusbase.py
+Keywords: snusbase,osint
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# snusbase.py
+
+[![PyPI - Python][python-badge]][python-link]
+[![PyPI - License][license-badge]](LICENSE)
+[![PyPI - Version][version-badge]][semver-link]
+[![PyPI - Status][status-badge]][pypi-link]
+
+[python-badge]:  https://img.shields.io/pypi/pyversions/snusbase.py?style=flat-square&label=Python%20version
+[python-link]:   https://python.org
+[license-badge]: https://img.shields.io/pypi/l/snusbase.py?style=flat-square&label=License
+[version-badge]: https://img.shields.io/pypi/v/snusbase.py?style=flat-square&label=PyPI%20package%20version
+[semver-link]:   https://semver.org
+[status-badge]:  https://img.shields.io/pypi/status/snusbase.py?style=flat-square&&label=PyPI%20Status
+[pypi-link]:     https://pypi.python.org/pypi/snusbase.py
