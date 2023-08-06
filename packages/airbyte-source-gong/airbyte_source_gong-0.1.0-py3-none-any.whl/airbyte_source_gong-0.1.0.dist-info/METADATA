@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: airbyte-source-gong
+Version: 0.1.0
+Summary: Source implementation for Gong.
+Author: Airbyte
+Author-email: contact@airbyte.io
+Requires-Dist: airbyte-cdk (~=0.4)
+Provides-Extra: tests
+Requires-Dist: pytest (~=6.1) ; extra == 'tests'
+Requires-Dist: pytest-mock (~=3.6.1) ; extra == 'tests'
+Requires-Dist: connector-acceptance-test ; extra == 'tests'
+
