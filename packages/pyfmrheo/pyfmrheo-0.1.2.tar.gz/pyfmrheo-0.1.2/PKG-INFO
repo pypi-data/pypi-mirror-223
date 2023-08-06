@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyfmrheo
+Version: 0.1.2
+Summary: A python package to perform analysis of Force Microscopy data.
+Home-page: https://github.com/jlopezalo/PyFMRheo
+Author: Javier Lopez Alonso
+Author-email: jla.lopez.18@gmail.com
+Project-URL: Bug Tracker, https://github.com/jlopezalo/PyFMRheo/issues
+Project-URL: repository, https://github.com/jlopezalo/PyFMRheo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pyfmrheo
+
+In development, not fully stable.
+If you find any issues please open an issue at:
+https://github.com/jlopezalo/PyFMRheo/issues
+
+If you have any questions, contact:
+jla.lopez.18@gmail.com
+
+## Installation
+```
+pip install pyfmrheo
+```
+
+## Usage
+In the examples folder you can find several Jupyter notebooks showing how
+to use the routines implemented in the library.
+If you would like any other examples to be added do not hesitate to open an issue.
