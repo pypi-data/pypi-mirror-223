@@ -1,0 +1,14 @@
+tidy_dir/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidy_dir/clean.py,sha256=rlDT1FDWfVgvvK0x0ehR84Tnfu-PdXhgfGlwaCVxij4,1011
+tidy_dir/cli.py,sha256=KnX6mLVIbGWb9Gm15ib5VgtTKw-Fxkar7QzIiYc9VgE,390
+tidy_dir/config.py,sha256=vPMFKxFrpeuX8baIFGt5e2sA-rP3bXrkmgRg_tL7NEM,854
+tidy_dir/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidy_dir/tests/conftest.py,sha256=22cs3qzIt4WD71DnHHbz7qZJIEghTg3hHuRsfW7NYLg,908
+tidy_dir/tests/test_clean.py,sha256=BAhcoLYVORf6EBQL3J3BCIMCUlt5RMLXEUhP_givxfk,836
+tidy_dir/tests/test_config.py,sha256=mm6lw_boG1PNP032rf0KJDEMAsTCmsqPJrET1n3I7_U,1749
+tidy_dir-0.0.2.dist-info/LICENSE,sha256=nmn38i-oT4WgooPlNv-XX7tCmr3CklIIsds-HMv-oNw,1056
+tidy_dir-0.0.2.dist-info/METADATA,sha256=D7WunB3xiTxcnyT2QLd6neC8mQT5IBrW5axj9RvrvgI,1887
+tidy_dir-0.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+tidy_dir-0.0.2.dist-info/entry_points.txt,sha256=Jt71WVAz-NJ5_mlLVOQQAFsjPRCoxILgRSwd4j_ednY,47
+tidy_dir-0.0.2.dist-info/top_level.txt,sha256=X00XUv9PY6z1PfssceHisvbfPKBiHTWHIYkCcw2Xjes,9
+tidy_dir-0.0.2.dist-info/RECORD,,
