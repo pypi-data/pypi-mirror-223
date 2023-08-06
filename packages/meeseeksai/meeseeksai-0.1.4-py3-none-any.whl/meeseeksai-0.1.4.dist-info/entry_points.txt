@@ -1,0 +1,3 @@
+[console_scripts]
+greet=meeseeksai.meeseeksai:main
+
