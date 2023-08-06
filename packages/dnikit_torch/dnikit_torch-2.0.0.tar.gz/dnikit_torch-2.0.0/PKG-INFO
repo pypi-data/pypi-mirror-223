@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: dnikit_torch
+Version: 2.0.0
+Summary: DNIKit PyTorch integration and support.
+Home-page: https://github.com/apple/dnikit
+License: Apache-2.0
+Author: Apple, Inc.
+Author-email: dnikit-symphony-oss@group.apple.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: dnikit==2.0.0
+Requires-Dist: torch
+Requires-Dist: torchvision ; extra == "test"
+Project-URL: Changelog, https://github.com/apple/dnikit/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://apple.github.io/dnikit
+Provides-Extra: test
+
+# Data and Network Introspection Kit (DNIKit) - PyTorch
+
+This package contains the PyTorch extensions of [DNIKit](https://github.com/apple/dnikit).
+
+To learn more about DNIKit, please see the [docs](https://apple.github.io/dnikit).
+
+## Installation
+
+To install DNIKit PyTorch, use:
+```
+pip install "dnikit[torch]"
+```
+
