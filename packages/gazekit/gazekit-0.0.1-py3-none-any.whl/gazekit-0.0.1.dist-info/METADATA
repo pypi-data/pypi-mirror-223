@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gazekit
+Version: 0.0.1
+Summary: This is a Python library designed for processing eye-tracking data.
+Home-page: https://github.com/CLaSLoVe/GazeKit
+Author: CLaSLoVe
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: pandas (>=2.0)
+
