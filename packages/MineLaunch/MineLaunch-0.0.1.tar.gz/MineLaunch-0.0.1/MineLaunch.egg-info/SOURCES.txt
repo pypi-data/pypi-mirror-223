@@ -1,0 +1,5 @@
+setup.py
+MineLaunch.egg-info/PKG-INFO
+MineLaunch.egg-info/SOURCES.txt
+MineLaunch.egg-info/dependency_links.txt
+MineLaunch.egg-info/top_level.txt
