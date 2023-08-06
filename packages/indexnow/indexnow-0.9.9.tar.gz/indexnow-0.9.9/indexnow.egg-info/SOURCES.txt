@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+indexnow/__init__.py
+indexnow.egg-info/PKG-INFO
+indexnow.egg-info/SOURCES.txt
+indexnow.egg-info/dependency_links.txt
+indexnow.egg-info/top_level.txt
