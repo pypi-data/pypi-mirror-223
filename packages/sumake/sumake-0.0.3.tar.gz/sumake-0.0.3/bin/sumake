@@ -1,0 +1,18 @@
+#!/bin/bash
+args=("$@")
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -v|--version)
+      echo "sumake: 0.0.3"
+      ;;
+  esac
+  shift
+done
+
+
+cmd="make -f /Users/peng/.sumake/utils.mk"
+if [ -f Makefile ]; then
+  cmd+=" -f Makefile "
+fi
+$cmd $args
+
