@@ -1,0 +1,25 @@
+click
+jinja2
+lxml
+uniseg
+numpy
+colorama
+MarkupSafe
+ocrd>=2.20.1
+attrs
+multimethod==1.3
+tqdm
+rapidfuzz>=2.4.2
+six
+chardet
+
+[dev]
+pytest
+pytest-cov
+pytest-mypy
+black
+pre-commit
+
+[dev:python_version >= "3.7"]
+ruff
+pytest-ruff
