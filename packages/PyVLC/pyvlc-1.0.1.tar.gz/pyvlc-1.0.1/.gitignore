@@ -1,0 +1,7 @@
+.gitignore
+dist
+PyPI API Token.txt
+Test PyPI API Token.txt
+test.py
+test2.py
+src/PyVLC/__pycache__
