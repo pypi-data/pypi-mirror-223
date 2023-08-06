@@ -1,0 +1,33 @@
+[build-system]
+requires = [
+    "hatchling"
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "pypomes_soap"
+version = "0.1.4"
+authors = [
+  { name="GT Nunes", email="wisecoder01@gmail.com" }
+]
+description = "A collection of Python pomes, pennyeach (SOAP module)"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "lxml>=4.9.3",
+    "pip>=23.2.1",
+    "pypomes_core>=0.2.3",
+    "requests>=2.31.0",
+    "setuptools>=68.0.0",
+    "wheel>=0.41.0",
+    "zeep>=4.2.1"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TheWiseCoder/PyPomes-SOAP"
+"Bug Tracker" = "https://github.com/TheWiseCoder/PyPomes-SOAP/issues"
