@@ -1,0 +1,12 @@
+json_pydantic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+json_pydantic/__main__.py,sha256=qedhX3pAmhjjNAqACcZrddKaJExtj3YY9xNjAGOF1iE,580
+json_pydantic/classes.py,sha256=vNH131nBbYcWQ6qFb7Zuiwd1v-HzhmY-9YztjLUJAtc,106
+json_pydantic/conventer.py,sha256=rPunclFC910nqrXJh-zSTv8VV41hqcwcsxaqROzijPA,2495
+json_pydantic/functions.py,sha256=JbpOdY1-Sixdc96rorDRi-Z9avn_1lYB_yAR1O7fQvY,560
+json_pydantic/variables.py,sha256=3DU6C-lOaclkx7F7UusfoReoEz7mqFy4VEWnm1YyjyE,117
+json_pydantic-1.1.0.dist-info/LICENCE,sha256=s9Hq5_Uk_J3dSFYqRlLv0rzYSOOLA_BeOIvM6UPnPfI,35819
+json_pydantic-1.1.0.dist-info/METADATA,sha256=obVOr8RY_PoIU6LZH3siDQ7bt8k0YfUJYeuLdDi8BHQ,281
+json_pydantic-1.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+json_pydantic-1.1.0.dist-info/entry_points.txt,sha256=-DyX-S97Pk3KQ4yXkM815Khj9rbHHC0Luh2FQNqlkSc,62
+json_pydantic-1.1.0.dist-info/top_level.txt,sha256=b1wLHSWZuJaYwYraEr1eXXDVzZvT0UfVEQwNrM4dtK0,14
+json_pydantic-1.1.0.dist-info/RECORD,,
