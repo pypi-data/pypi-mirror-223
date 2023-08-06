@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sqlite-utils-sqlite-fastrand
+Version: 0.2.1
+Summary: TODO
+Author: Alex Garcia
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/asg017/sqlite-fastrand
+Project-URL: Changelog, https://github.com/asg017/sqlite-fastrand/releases
+Project-URL: Issues, https://github.com/asg017/sqlite-fastrand/issues
+Description-Content-Type: text/markdown
+Requires-Dist: sqlite-utils
+Requires-Dist: sqlite-fastrand
+
+# `sqlite-utils-sqlite-fastrand`
+
+A `sqlite-utils` plugin that registers the `sqlite-fastrand` extension.
