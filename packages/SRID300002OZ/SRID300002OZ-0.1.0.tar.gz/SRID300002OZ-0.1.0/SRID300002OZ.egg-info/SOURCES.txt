@@ -1,0 +1,5 @@
+setup.py
+SRID300002OZ.egg-info/PKG-INFO
+SRID300002OZ.egg-info/SOURCES.txt
+SRID300002OZ.egg-info/dependency_links.txt
+SRID300002OZ.egg-info/top_level.txt
