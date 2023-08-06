@@ -1,0 +1,17 @@
+cerberus
+GitPython
+Jinja2
+vcorelib>=1.2.3
+
+[test]
+pylint
+flake8
+black
+ruff
+mypy
+isort
+yamllint
+yambs
+vmklib
+setuptools-wrapper
+pytest
