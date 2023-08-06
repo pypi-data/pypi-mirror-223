@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nonebot-adapter-red
+Version: 0.1.0rc1
+Summary: Red Protocol Adapter for Nonebot2
+Author: zhaomaoniu
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: nonebot2[httpx,websockets]>=2.0.1
+Description-Content-Type: text/markdown
+
+# nonebot-adapter-red
+NoneBot2 Red Protocol适配器 / Red Protocol Adapter for NoneBot2
