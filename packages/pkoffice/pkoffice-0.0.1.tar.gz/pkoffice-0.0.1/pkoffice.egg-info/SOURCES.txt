@@ -1,0 +1,7 @@
+README.md
+setup.py
+pkoffice.egg-info/PKG-INFO
+pkoffice.egg-info/SOURCES.txt
+pkoffice.egg-info/dependency_links.txt
+pkoffice.egg-info/requires.txt
+pkoffice.egg-info/top_level.txt
