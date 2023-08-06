@@ -1,0 +1,17 @@
+README.md
+setup.py
+chatgpt_cli/__init__.py
+chatgpt_cli/arguement_validator.py
+chatgpt_cli/code_parser.py
+chatgpt_cli/gpt_request.py
+chatgpt_cli/main.py
+chatgpt_cli/commands/__init__.py
+chatgpt_cli/commands/code_edit.py
+chatgpt_cli/commands/review_to_file.py
+chatgpt_cli/commands/set_api_key.py
+gpt_code_edit.egg-info/PKG-INFO
+gpt_code_edit.egg-info/SOURCES.txt
+gpt_code_edit.egg-info/dependency_links.txt
+gpt_code_edit.egg-info/entry_points.txt
+gpt_code_edit.egg-info/requires.txt
+gpt_code_edit.egg-info/top_level.txt
