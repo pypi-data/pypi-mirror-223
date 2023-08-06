@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "meeseeksai"
+version = "0.1.6"
+description = ""
+authors = ["Jaya <jykur@vestas.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "*"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.scripts]
+meeseeks = "meeseeksai.meeseeksai:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
