@@ -1,0 +1,21 @@
+[project]
+name = "aby"
+version = "0.1.0"
+description = "Data Manipulation Library"
+authors = [
+    { name = "Rajiv Abraham", email = "rajiv.abraham@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
