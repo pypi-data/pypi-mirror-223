@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "jonbot"
+version = "0.1.0"
+description = "a friendly machine 🤖❤️✨"
+authors = ["jonmatthis <jonmatthis@gmail.com>"]
+license = "AGPLv3+"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "<0.100.0"
+mkdocs-material = "^9.1.19"
+pydantic = "<2"
+pymongo = "^4.4.1"
+rich = "^13.4.2"
+uvicorn = "^0.23.1"
+tzlocal = "^5.0.1"
+"discord.py" = "^2.3.1"
+aiohttp = "^3.8.5"
+python-dotenv = "^1.0.0"
+langchain = "^0.0.246"
+openai = "^0.27.8"
+chromadb = "^0.4.3"
+tiktoken = "^0.4.0"
+pydub = "^0.25.1"
+logging = "^0.4.9.6"
+
+[tool.poetry.group.dev.dependencies]
+bumpver = "^2023.1125"
+black = "^23.7.0"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+dynamic = ["version"]
+
+
+[tool.bumpver]
+current_version = "v0.1.5"
+
+version_pattern = "vMAJOR.MINOR.PATCH[-TAG]"
+commit_message = "Bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"jonbot/__init__.py" = ["{version}"]

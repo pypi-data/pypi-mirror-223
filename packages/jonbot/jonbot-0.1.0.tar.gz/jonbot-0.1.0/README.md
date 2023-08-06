@@ -1,0 +1,3 @@
+# jonbot
+
+a friendly machine 🤖❤️✨
