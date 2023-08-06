@@ -1,0 +1,12 @@
+debug_toolbar_user_panel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+debug_toolbar_user_panel/decorators.py,sha256=G-gWz9wzSCJ364yB8ZqqwMNTwWDW0PqgrwWIrnutSFs,356
+debug_toolbar_user_panel/forms.py,sha256=5dnvekBD-ZjZ6L65PVypU-a3ES758qaTxH5PdMN6FQE,342
+debug_toolbar_user_panel/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+debug_toolbar_user_panel/panels.py,sha256=zPNbumgq2dJVOqHdxlqM_cFyk2_FPqEw_hKX24BVonc,4103
+debug_toolbar_user_panel/views.py,sha256=cDuCsWLXBvmXJhnz7k5eusONXe37Z6Bw1Bvu79Sgl2s,1115
+debug_toolbar_user_panel/templates/debug_toolbar_user_panel/panel.html,sha256=xIZDTxo4J33YcuXCTlmg0ntZTYb8pEV6uKYK0KGfHAo,899
+django_debug_toolbar_user_panel-2.0.0.dist-info/COPYING,sha256=pU1N6GVIkOGK27ykwVb2ov-L42rOJ9LhwCOizIaq4U0,1527
+django_debug_toolbar_user_panel-2.0.0.dist-info/METADATA,sha256=wwaB9ZzXsx1X03ROn_k_I7PJ5p_qyCL_fKy-8sJDHC4,321
+django_debug_toolbar_user_panel-2.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+django_debug_toolbar_user_panel-2.0.0.dist-info/top_level.txt,sha256=95c1U8L8GDLXX2ZQ7tzBzK5yilqH9dNKbUgB2dnj2KA,25
+django_debug_toolbar_user_panel-2.0.0.dist-info/RECORD,,
