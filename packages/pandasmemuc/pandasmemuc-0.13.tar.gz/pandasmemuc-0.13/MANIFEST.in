@@ -1,0 +1,3 @@
+include pandasmemuc/requirements.txt
+include pandasmemuc/thirdparty.json
+include pandasmemuc/README.MD

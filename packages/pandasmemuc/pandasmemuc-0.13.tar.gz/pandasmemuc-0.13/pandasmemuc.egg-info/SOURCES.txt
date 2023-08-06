@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pandasmemuc/README.MD
+pandasmemuc/__init__.py
+pandasmemuc/requirements.txt
+pandasmemuc/thirdparty.json
+pandasmemuc.egg-info/PKG-INFO
+pandasmemuc.egg-info/SOURCES.txt
+pandasmemuc.egg-info/dependency_links.txt
+pandasmemuc.egg-info/requires.txt
+pandasmemuc.egg-info/top_level.txt
