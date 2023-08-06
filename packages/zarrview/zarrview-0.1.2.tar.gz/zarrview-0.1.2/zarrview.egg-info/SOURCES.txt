@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+zarrview/ZarrViewer.py
+zarrview/__init__.py
+zarrview/__main__.py
+zarrview/zarr_path_utils.py
+zarrview.egg-info/PKG-INFO
+zarrview.egg-info/SOURCES.txt
+zarrview.egg-info/dependency_links.txt
+zarrview.egg-info/requires.txt
+zarrview.egg-info/top_level.txt

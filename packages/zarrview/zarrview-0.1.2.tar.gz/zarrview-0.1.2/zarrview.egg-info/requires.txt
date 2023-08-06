@@ -1,0 +1,11 @@
+zarr
+qtawesome
+
+[PyQt5]
+PyQt5
+
+[PyQt6]
+PyQt6>=6.5.2
+
+[PySide6]
+PySide6>=6.5.2
