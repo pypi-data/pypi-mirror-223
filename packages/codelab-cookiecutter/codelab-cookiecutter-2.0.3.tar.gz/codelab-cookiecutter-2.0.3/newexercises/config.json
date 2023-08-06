@@ -1,0 +1,24 @@
+{
+    "project_path": "./",
+    "name": "exercises",
+    "tasks_number": "1",
+    "lang": "py",
+    "initial": "xxx",
+    "instructions": "",
+    "solution": "",
+    "tests": "",
+    "other": "n",
+    "extra": "n",
+    "root_file": "n",
+    "test_file": "",
+    "tests_type": "unit",
+    "default_input": true,
+    "ai": "True",
+    "separator": "_",
+    "exercises": [
+        {
+            "name": "lab",
+            "n": 1
+        }
+    ]
+}

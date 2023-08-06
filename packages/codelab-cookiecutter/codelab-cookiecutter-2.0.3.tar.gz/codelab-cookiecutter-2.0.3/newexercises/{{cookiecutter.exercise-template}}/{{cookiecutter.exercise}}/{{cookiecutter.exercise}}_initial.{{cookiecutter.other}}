@@ -1,0 +1,33 @@
+{%- if cookiecutter.other == 'css' -%}
+/* Provide you style here */
+
+{%- elif cookiecutter.lang == 'c' -%}
+#ifndef {{cookiecutter.exercise.upper()}}_H
+#define {{cookiecutter.exercise.upper()}}_H
+
+
+#endif
+{%- elif cookiecutter.lang == 'java' -%}
+package initial;
+
+public class Main extends {{cookiecutter.exercise.capitalize()}} {
+    public static void main(String args[]) {
+        System.out.println(greet());
+        return;
+    }
+}
+
+
+
+{%- elif cookiecutter.lang == 'cpp' -%}
+#include <iostream>
+#include <string>
+
+namespace foo
+{ int multy(int number){
+        return number*2 ;
+    }
+}  // namespace foo
+
+{% endif -%}
+

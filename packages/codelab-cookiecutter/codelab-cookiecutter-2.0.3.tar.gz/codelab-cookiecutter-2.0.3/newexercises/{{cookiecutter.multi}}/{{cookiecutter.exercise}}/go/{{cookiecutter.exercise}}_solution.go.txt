@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func {{cookiecutter.exercise.capitalize()}}(input string) (output string) {
+	for _, letter := range input {
+		output = string(letter) + output
+	}
+	return output
+}
+
+func main() {
+	fmt.Println({{cookiecutter.exercise.capitalize()}}("Hello"))
+}
