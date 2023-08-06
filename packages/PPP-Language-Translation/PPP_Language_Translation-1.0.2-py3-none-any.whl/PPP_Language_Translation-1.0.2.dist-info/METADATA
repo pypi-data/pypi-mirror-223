@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: PPP-Language-Translation
+Version: 1.0.2
+Summary: Here is a latest module to translate any language's sentence to any other language. It is a translation program purely build in python.
+Author: Somnath Dash
+Keywords: translater,translator,language,language translet,language transletor,python,translate,google translater,google api,Language convert,convert language
+Requires: requests
+Requires-Dist: requests
+
