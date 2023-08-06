@@ -1,0 +1,3 @@
+def {{cookiecutter.exercise}}(input):
+    pass
+

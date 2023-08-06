@@ -1,0 +1,4 @@
+include README.md
+graft newexercises
+include newexercises/*.json
+recursive-include newexercises *

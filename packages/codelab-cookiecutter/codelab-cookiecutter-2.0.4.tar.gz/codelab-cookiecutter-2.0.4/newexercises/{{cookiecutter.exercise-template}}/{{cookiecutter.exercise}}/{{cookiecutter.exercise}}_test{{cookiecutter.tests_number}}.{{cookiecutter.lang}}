@@ -1,0 +1,281 @@
+{%- if cookiecutter.tests_type == 'unit' -%}
+{%- if cookiecutter.lang == 'py' -%}
+import unittest
+
+# Implement correct import here
+from {{cookiecutter.exercise}}_initial import {{cookiecutter.exercise}}
+
+
+class ExerciseTest1(unittest.TestCase):
+    def test_strings_a(self):
+        self.assertEqual('a' * 4, 'aaaa', msg="Are you sure you....?" )
+
+
+if __name__ == "__main__":
+    unittest.main()
+
+{%- elif cookiecutter.lang == 'hs' -%}
+module {{cookiecutter.exercise.capitalize()}}_test{{cookiecutter.tests_number}}Spec (spec) where
+
+import Data.Foldable     (for_)
+import Test.Hspec        (Spec, describe, it, shouldBe)
+import Test.Hspec.JUnit
+import Test.HUnit
+
+
+import {{cookiecutter.exercise.capitalize()}} (is{{cookiecutter.exercise.capitalize()}})
+
+main :: IO ()
+main = do
+  hspecJUnit spec
+
+
+spec :: Spec
+spec = describe "is{{cookiecutter.exercise.capitalize()}}" $ for_ usecases test
+  where
+    test UseCase{..} = it explanation assertion
+      where
+        explanation = if is{{cookiecutter.exercise.capitalize()}} (fromIntegral input)== expected
+                      then unwords [show input, "-", description]
+                      else message
+        assertion msg = is{{cookiecutter.exercise.capitalize()}} (fromIntegral input)== expected
+
+
+
+data UseCase = UseCase { description :: String
+                 , input       :: Integer
+                 , expected    :: Integer
+                 , message    :: String
+
+                 }
+
+usecases :: [UseCase]
+usecases = [ UseCase { description = "Declarative description of test."
+               , input       = 5
+               , expected    = 7
+               , message = "Are you sure result .....?"
+
+               }
+
+{%- elif cookiecutter.lang == 'js' -%}
+import { is{{cookiecutter.exercise.capitalize()}} } from './{{cookiecutter.exercise}}{{cookiecutter.separator}}initial';
+
+describe('A exercise description', () => {
+  test('test some assertation to be False', () => {
+    expect(is{{cookiecutter.exercise.capitalize()}}(some_input), "Some message").toBe(false);
+  });
+  xtest('test some assert to be True', () => {
+    expect(is{{cookiecutter.exercise.capitalize()}}(some_input), "Some message").toBe(true);
+  });
+});
+{%- elif cookiecutter.lang == 'html' -%}
+
+const str = 'alemira';
+
+const regex = new RegExp('alem*');
+const globalRegex = new RegExp('alem*', 'g');
+
+
+describe('A simple test case', () => {
+    test('simple regex', () => {
+      expect(regex.test(str)).toBe(true);
+    });
+
+    test('global regex', () => {
+      expect(globalRegex.test(str)).toBe(true);
+    });
+
+  });
+
+{%- elif cookiecutter.lang == 'c' -%}
+#include "unity.h"
+#include "{{cookiecutter.exercise}}.initial.h"
+
+void setUp (void) {} /* Is run before every test, put unit init calls here. */
+void tearDown (void) {} /* Is run after every test, put unit clean-up calls here. */
+void test_TheFirst(void)
+{
+    TEST_IGNORE();
+    TEST_ASSERT_MESSAGE( a == 2 , "a isn't 2, end of the world!");
+    TEST_IGNORE_MESSAGE("Hello world!"); /* Ignore this test but print a message. */
+
+}
+
+int main (void)
+{
+    UnityBegin("{{cookiecutter.exercise}}.test{{cookiecutter.tests_number}}.{{cookiecutter.lang}}");
+    RUN_TEST(test_TheFirst); /* Run the test. */
+    return UnityEnd();
+}
+{%- elif cookiecutter.lang == 'cpp' -%}
+#include  "../catch.hpp"
+#include "{{cookiecutter.exercise}}.initial.h"
+
+TEST_CASE("test foo")
+{
+     REQUIRE( foo::multy(2) == 4);
+}
+{%- elif cookiecutter.lang == 'go' -%}
+package main
+
+import (
+	"testing"
+	"testing/quick"
+)
+
+type reverseTestCase struct {
+	description string
+	input       string
+	expected    string
+}
+
+var testCases = []reverseTestCase{
+	{
+		description: "an empty string",
+		input:       "",
+		expected:    "",
+	},
+	{
+		description: "a word",
+		input:       "robot",
+		expected:    "tobor",
+	},
+	{
+		description: "a capitalized word",
+		input:       "Ramen",
+		expected:    "nemaR",
+	},
+	{
+		description: "a sentence with punctuation",
+		input:       "I'm hungry!",
+		expected:    "!yrgnuh m'I",
+	},
+	{
+		description: "a palindrome",
+		input:       "racecar",
+		expected:    "racecar",
+	},
+	{
+		description: "an even-sized word",
+		input:       "drawer",
+		expected:    "reward",
+	},
+}
+
+
+// mutiByteCases adds UTF-8 multi-byte case,
+// since the canonical-data.json (generator data source for cases_test.go)
+// doesn't have any such cases.
+var multiByteCases = []reverseTestCase{
+	{
+		description: "a multi-byte test case",
+		input:       "Hello, 世界",
+		expected:    "界世 ,olleH",
+	},
+}
+
+func TestReverse(t *testing.T) {
+	for _, tc := range append(testCases, multiByteCases...) {
+		t.Run(tc.description, func(t *testing.T) {
+			if actual := {{cookiecutter.exercise.capitalize()}}(tc.input); actual != tc.expected {
+				t.Fatalf("Reverse(%q) = %q, want: %q", tc.input, actual, tc.expected)
+			}
+		})
+	}
+}
+
+func TestReverseOfReverse(t *testing.T) {
+	assertion := func(s string) bool {
+		return s == {{cookiecutter.exercise.capitalize()}}({{cookiecutter.exercise.capitalize()}}(s))
+	}
+	if err := quick.Check(assertion, nil); err != nil {
+		t.Fatal(err)
+	}
+}
+
+func BenchmarkReverse(b *testing.B) {
+	if testing.Short() {
+		b.Skip("skipping benchmark in short mode.")
+	}
+	for i := 0; i < b.N; i++ {
+		for _, tc := range testCases {
+			{{cookiecutter.exercise.capitalize()}}(tc.input)
+		}
+	}
+}
+
+
+{%- elif cookiecutter.lang == 'java' -%}
+package tests;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+import initial.{{cookiecutter.exercise.capitalize()}};
+
+public class {{cookiecutter.exercise.capitalize()}}{{cookiecutter.separator}}test{{cookiecutter.tests_number}} {
+    @Test
+    public void helloWorld() {
+        assertEquals("Hello, World!", {{cookiecutter.exercise.capitalize()}}.greet());
+    }
+}
+
+
+{%- elif cookiecutter.lang == 'e' -%}
+note
+	description: "[
+		Eiffel tests that can be executed by testing tool.
+	]"
+	author: "EiffelStudio test wizard"
+	date: "$Date$"
+	revision: "$Revision$"
+	testing: "type/manual"
+
+class
+	TEST_{{cookiecutter.exercise.upper()}}1
+
+inherit
+	EQA_TEST_SET
+		redefine
+			on_prepare
+		end
+
+feature {NONE} -- Events
+
+	test: {{cookiecutter.exercise.upper()}}_INITIAL
+
+	on_prepare
+			-- <Precursor>
+		do
+			create test
+		end
+
+feature -- Test routines
+
+	{{cookiecutter.exercise}}_test_20
+			-- New test routine
+		do
+			assert ("multiplication by 2: 20", test.{{cookiecutter.exercise}}(20) = 40)
+		end
+
+end
+
+{% endif -%}
+{%- elif cookiecutter.tests_type == 'input' -%}
+{%- if cookiecutter.lang == 'e' -%}
+1
+#####
+1
+-----
+1
+#####
+1
+{% else -%}
+1 2 3 4
+#####
+1 4 9 16
+-----
+0 5 3 4
+#####
+0 25 9 16
+{% endif -%}
+{% endif -%}

@@ -1,0 +1,5 @@
+cookiecutter
+click
+loguru
+pydantic
+jinja2-strcase

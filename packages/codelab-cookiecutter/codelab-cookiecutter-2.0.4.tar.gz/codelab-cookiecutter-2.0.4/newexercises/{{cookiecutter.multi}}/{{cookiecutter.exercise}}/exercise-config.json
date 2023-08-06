@@ -1,0 +1,31 @@
+{
+	"files": {
+		"tests_type": "input",
+		"default_input": "input.txt",
+		"instructions": "{{cookiecutter.exercise}}_instructions.md",
+		"display_execution_time": false,
+		"limit_real": 5.1,
+		"limit_user": 5.1,
+		"tests": [{% for number in range (1, cookiecutter.number_of_instructions | int +1) %}
+        "{{cookiecutter.exercise}}_test{{number}}.txt",
+      {% endfor %}],
+		"languages": [{
+			"folder": "python",
+			"language": "Python",
+			"initial": ["python/{{cookiecutter.exercise}}_initial.py"],
+			"solution": ["python/{{cookiecutter.exercise}}_solution.py.txt"]
+		},
+			{"folder": "java",
+			"language": "Java",
+			"initial": ["java/initial/{{cookiecutter.exercise.capitalize()}}.java"],
+			"solution": ["java/solution/{{cookiecutter.exercise.capitalize()}}_solution.java.txt"]
+			},
+		{
+			"folder": "go",
+			"language": "Golang",
+			"initial": ["go/{{cookiecutter.exercise}}_initial.go"],
+			"solution": ["go/{{cookiecutter.exercise}}_solution.go.txt"]
+		}
+		]
+	}
+}
