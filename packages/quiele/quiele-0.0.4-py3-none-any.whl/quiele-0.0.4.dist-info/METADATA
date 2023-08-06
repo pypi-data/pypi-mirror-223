@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: quiele
+Version: 0.0.4
+Summary: Package to print fast, beautiful, and in a readable format.
+Author: Amirrezakhajavi
+Author-email: amirrezakhajavi.1380@gmail.com
+Keywords: python,print
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+
+## Quiele ##
+#### 0.0.2 ###
+### Install ###
+```python
+
+pip install quiele
+
+```
+
+### Features ###
+1. **Print with color tags**
+    There are three modes each with it's own color
+
+### Usage ###
+```python
+
+from quiele import ink
+ink(50,mode="Metric")
+
+```
