@@ -1,0 +1,63 @@
+# pyproject.toml
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "xdart"
+version = "0.12.7"
+authors = [
+  { name="Vivek Thampy", email="vthampy@slac.stanford.edu" },
+]
+
+description='A pyFAI based GUI utility to rebin and visualize X-ray Diffraction data'  # Optional
+readme = "README.md"
+
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+requires = [
+    'pyfai',
+    'pygix',
+    'pyqtgraph',
+    'pyqt5',
+    'pandas',
+    'scikit-image',
+    'lmfit',
+    'pyyaml',
+    'numpy',
+    'scipy',
+    'silx',            
+    'fabio', 
+    'matplotlib',
+    'requests',
+    'h5py',
+    'hdf5plugin',
+    'seaborn',
+    'ipympl',
+    'ipywidgets',
+    'joblib',
+    'icecream',
+    'jupyterlab',
+    'nodejs',
+    'hvplot',
+    'holoviews',
+    'panel',
+    'xlrd',
+    'openpyxl',
+    'imagecodecs'
+]  # Optional
+
+[console_scripts]
+xdart = "xdart.xdart_main:main"
+
+[project.urls]
+"Homepage" ='https://github.com/rwalroth/xdart.git'  # Optional
+"Bug Tracker" = "https://github.com/rwalroth/xdart/issues"
+
+# build-backend = "setuptools.build_meta" */
