@@ -1,0 +1,7 @@
+mwpf.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+mwpf/mwpf.abi3.so,sha256=dcWUkEwjn8lqlXUeYbC75FR1oyJP8NiiN6rlsRxQL6A,64822505
+mwpf/__init__.py,sha256=5oucRjT1s47FLWxrLDrdO6rpWH5KPwUK-cBHAkPBvLg,99
+mwpf-0.0.2.dist-info/RECORD,,
+mwpf-0.0.2.dist-info/METADATA,sha256=FBtrB8DtmJYK2XIETVXUHnizfW145VzwR4KMO_czz5s,6011
+mwpf-0.0.2.dist-info/WHEEL,sha256=mD6qTA3gcgkmfLHZ7YGsfBJA8pq7L8vSIj2bqiewEGQ,108
+mwpf-0.0.2.dist-info/license_files/LICENSE,sha256=rowuL9adVG6oK2714bcCIUnHSDbpVkXH-kD54VH_jGc,1063
