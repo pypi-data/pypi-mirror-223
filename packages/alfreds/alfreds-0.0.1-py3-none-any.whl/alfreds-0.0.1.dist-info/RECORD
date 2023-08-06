@@ -1,0 +1,17 @@
+alfreds-0.0.1.data/scripts/alfreds,sha256=w93pIoyhNdyhAB80yxRPfI5hyxk_rSDcWdAxyebaiMA,2291
+alfreds-0.0.1.data/scripts/main.py,sha256=lX4TwHMuSP1Ulvk1iU3JOp2n3NXrj_6lJkb98XjNodE,14
+alfreds_init/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alfreds_init/init.py,sha256=WYG8iTIoOW-2PJKV-ZSHbe-1ASVzLLDn1V-DVkK5XHs,5226
+alfreds_seed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alfreds_seed/seed.py,sha256=FLqIgMCJWW8cb6KB7dtstioRW8wdzgKMq_wXiwbO5q4,889
+alfreds_start/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alfreds_start/start.py,sha256=7pbd2P5E9_bOKKsshR45-yrvkCoZJakV9C7qqw-QCj8,769
+alfreds_stop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alfreds_stop/stop.py,sha256=T3klfHF8boqT4HpW_7ARtAg8Lql4GgZaK6O4Cm_8OAs,139
+alfreds_update/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alfreds_update/update_agent.py,sha256=D3-8uk_cKXmiCAFmd-2ib0n8YwmUSOvxgxqCUrWxXQA,1022
+alfreds_update/update_working_directory.py,sha256=IXQp4NYh-IGsgC2Hnl9mbOFPXhtnOJX1hqfO5Ta6iEo,990
+alfreds-0.0.1.dist-info/METADATA,sha256=Gs_uuousHOayhRRNALRoD-E7FTG9sUzN3weBjk4hO0s,374
+alfreds-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+alfreds-0.0.1.dist-info/top_level.txt,sha256=U8QlYE6eJZyrGAi6mUdY_XggkAM9FdCXhxxeeMemZUI,68
+alfreds-0.0.1.dist-info/RECORD,,
