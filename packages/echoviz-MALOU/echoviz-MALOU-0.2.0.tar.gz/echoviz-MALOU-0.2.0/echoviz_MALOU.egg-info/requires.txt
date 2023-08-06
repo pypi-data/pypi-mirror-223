@@ -1,0 +1,8 @@
+kaleido
+numpy
+pandas
+pillow
+plotly
+pysdf
+scikit-image
+ipython
