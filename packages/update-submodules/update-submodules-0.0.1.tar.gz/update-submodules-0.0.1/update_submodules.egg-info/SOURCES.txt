@@ -1,0 +1,12 @@
+README.md
+setup.py
+update_submodules/__init__.py
+update_submodules/git.py
+update_submodules/github.py
+update_submodules/meta_branch.py
+update_submodules.egg-info/PKG-INFO
+update_submodules.egg-info/SOURCES.txt
+update_submodules.egg-info/dependency_links.txt
+update_submodules.egg-info/entry_points.txt
+update_submodules.egg-info/requires.txt
+update_submodules.egg-info/top_level.txt
