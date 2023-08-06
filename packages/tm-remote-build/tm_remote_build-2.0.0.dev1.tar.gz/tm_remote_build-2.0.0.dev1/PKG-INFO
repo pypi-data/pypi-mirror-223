@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: tm-remote-build
+Version: 2.0.0.dev1
+Summary: Build and deploy openplanet scripts
+Author: skybaks
+Author-email: tmflame@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Description-Content-Type: text/markdown
+
+# Remote Build
+
+Load or unload [Openplanet](https://openplanet.dev/) plugins from your IDE.
+
+## Setup
+
+Install tm-remote-build using pip: `python -m pip install --upgrade tm-remote-build`
+
+## Usage
+
+Load a plugin: `tm-remote-build load folder MyPlugin -op OpenplanetNext`
+
+Unload a plugin: `tm-remote-build unload MyPlugin -op OpenplanetTurbo`
+
+## Links
+
+* Github: https://github.com/skybaks/tm-remote-build
+* Pypi: https://pypi.org/project/tm-remote-build/
+* Openplanet: https://openplanet.dev/plugin/remotebuild
+* VS Code: https://github.com/skybaks/vscode-openplanet-remotebuild
+
