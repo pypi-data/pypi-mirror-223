@@ -1,0 +1,10 @@
+numpy
+h5py>=3.0
+silx>=0.15.0
+
+[doc]
+sphinx
+nbsphinx
+
+[test]
+pytest
