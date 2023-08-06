@@ -1,0 +1,15 @@
+.DS_Store,sha256=r3MwqBnZrfDmBAkHNYnF0rqDwbOrNuRvslV26bL5M3c,6148
+pepmatch/__init__.py,sha256=eDVY-n0rJoU9j0y0-ejTuaxkyd0X5zAQOpn5E1AtZO4,207
+pepmatch/benchmarker.py,sha256=R1pPbO1zg4jvgGsMZ3yiSKc7SJf_ELCYjBRV6owjzvE,2096
+pepmatch/conservation.py,sha256=lBqINduks95ajOiFS99yR1hrzMOqUXlkOFn7k5gMXeo,7848
+pepmatch/helpers.py,sha256=ON0Fu5ziROhNnfoE_YiBkJbdYf82eE-UczgBXugIOIQ,2040
+pepmatch/matcher.py,sha256=Nqq2y0LUNgva71z0d46W9BN9sHIjRqxtYvst320OXxQ,32329
+pepmatch/parser.py,sha256=CFItNUZYPU4v1_cTDvddr-Luv9-qbSWXUW9_6GoVwhQ,175
+pepmatch/preprocessor.py,sha256=VCup2q98Bud_YS-peSU2w8K3-D1p3qD5DPAEUVxUvLs,10818
+pepmatch/version.py,sha256=e56AvHfJCtG2ZwwINqsxINVbehWdKxMYgIDbjd7P-II,22
+pepmatch-0.9.4.dist-info/LICENSE,sha256=SZkJx2dvoSr7Zpzf_MBMf7RJIFbF-_ktNgRJuHYS-rA,11757
+pepmatch-0.9.4.dist-info/METADATA,sha256=r92hWJySo9rlwbkKO0tsLPG5bbaDIOFHZ3jFd6fVXI8,5009
+pepmatch-0.9.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pepmatch-0.9.4.dist-info/entry_points.txt,sha256=7gGe1lG6hVEenqQjIUAfS5Ye80U_PzPA7KJii8cb30w,104
+pepmatch-0.9.4.dist-info/top_level.txt,sha256=UXrYMSdszu66XPl2_yo0GPLHQtmVXNUHnTTF7G0zvHs,9
+pepmatch-0.9.4.dist-info/RECORD,,
