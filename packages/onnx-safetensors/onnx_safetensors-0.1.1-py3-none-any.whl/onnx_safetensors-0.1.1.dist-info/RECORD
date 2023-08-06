@@ -1,0 +1,9 @@
+onnx_safetensors/__init__.py,sha256=KJIfos8FSQ-4Fbhe-yjzQHqiddUR3szEAmEpHtcBpu0,358
+onnx_safetensors/_safetensors_io.py,sha256=BfTStizAqld68IiXQecNRKs1gxCCqYpWci7ecIcwEZE,6406
+onnx_safetensors/_safetensors_io_test.py,sha256=Sc-44q2c3yx7JVCU1bGGUl0A5LcGMZBRFcNZ8yZgxcI,5301
+onnx_safetensors/utils.py,sha256=65aaxIe34x0pcnNk51_Cj0QkHxzHoFw682qwLj2BY0g,3806
+onnx_safetensors-0.1.1.dist-info/LICENSE,sha256=wY2B1eJUNL7wC2C4jwCQ5D4A1cAVwRjWtLiKXh8Ouk4,1067
+onnx_safetensors-0.1.1.dist-info/METADATA,sha256=Q0Zn4qGvUg6L4GKCVshmFfwvMT7phDCRxYU6s3kEi14,3912
+onnx_safetensors-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+onnx_safetensors-0.1.1.dist-info/top_level.txt,sha256=P7sDJoR_D-pwS5KLaopPwLaY3xIPnKlzYPkC7CXwiow,17
+onnx_safetensors-0.1.1.dist-info/RECORD,,
