@@ -1,0 +1,2 @@
+[console_scripts]
+exopropred = exopropred.python_scripts.exopropred:main
