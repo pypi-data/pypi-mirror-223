@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: torch-rim
+Version: 0.2.0
+Summary: A torch implementation of the Recurrent Inference Machine
+Home-page: https://github.com/AlexandreAdam/torch_rim
+Author: Alexandre Adam
+Author-email: alexande.adam@umontreal.ca
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: torch (>=2.0)
+Requires-Dist: torch-ema
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: scipy
+
