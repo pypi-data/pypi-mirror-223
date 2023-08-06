@@ -1,0 +1,13 @@
+pyella_rs-0.1.5.dist-info/METADATA,sha256=moXSL_v6An70iihEBJDDwoycwkmksAyTCqBlgpiGSHs,1355
+pyella_rs-0.1.5.dist-info/WHEEL,sha256=YW3nr6DW1NH8edy2LfALvwuDtq1HR13w_2arI3gMpDQ,129
+ella/types.py,sha256=thOldzBNf5OfMHHFG3avstTIT8Gb5g9inaubOW4tbpw,1089
+ella/frame.pyi,sha256=KebhFqrLC6PClJJ83Q631T6vmqFSK-RO8ApNOg1akOk,989
+ella/__init__.pyi,sha256=v6W-C1kJirpywp1voVlZrr7XYmgzy2Pkn6eC-WvDL-k,1471
+ella/table.py,sha256=kryuiV_oYonBLVUUqbjCndTw2xQmB5eqWempDT1oK50,183
+ella/types.pyi,sha256=F72D8Hag5ZhOB6SgwJgCL8Y6NwL6cZiCIF5Eq4pWvi8,1123
+ella/table.pyi,sha256=xvDRC6Yl5mvo3sSqg6knqF8EcveWucf-rbidujojXpU,1046
+ella/frame.py,sha256=MZ61QsKxug-aE3EbcikqazQvGFRu1VfgmrFoRuZ04HQ,116
+ella/__init__.py,sha256=-QiSyLyFySH43pmtsZtB9l61w21ns5T3dgw08KOArao,646
+ella/py.typed,sha256=la67KBlbjXN-_-DfGNcdOcjYumVpKG_Tkw-8n5dnGB4,8
+ella/_internal.cpython-310-arm-linux-gnueabihf.so,sha256=PMQiyI8Y4YlznVHq1LA25pf7-0S7-1sSmSAs6cNttO0,63928084
+pyella_rs-0.1.5.dist-info/RECORD,,
