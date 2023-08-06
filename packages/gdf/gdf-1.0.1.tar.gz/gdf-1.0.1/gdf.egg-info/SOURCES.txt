@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+gdf.py
+setup.py
+gdf.egg-info/PKG-INFO
+gdf.egg-info/SOURCES.txt
+gdf.egg-info/dependency_links.txt
+gdf.egg-info/requires.txt
+gdf.egg-info/top_level.txt
