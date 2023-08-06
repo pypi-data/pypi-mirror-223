@@ -1,0 +1,2 @@
+[console_scripts]
+streamers = streamers:main
