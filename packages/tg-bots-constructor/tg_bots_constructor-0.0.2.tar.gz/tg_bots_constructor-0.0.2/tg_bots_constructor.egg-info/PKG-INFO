@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: tg-bots-constructor
+Version: 0.0.2
+Summary: Constructor for telegram bots, based on aiogram library
+Home-page: https://github.com/morpheus228/tg_bots_constructor.git
+Download-URL: https://github.com/morpheus228/tg_bots_constructor.git/archive/main.zip
+Author: morpheus228
+Author-email: tabunovbai@gmail.com
