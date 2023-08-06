@@ -1,0 +1,13 @@
+baserun/__init__.py,sha256=4XihJpizrHhhGKxdldVGcpcjKnEWWlEIo5EFGFxAmBQ,239
+baserun/baserun.py,sha256=jIhtv4_P-OAAAkuqU0zBAMdJDKVvxgIZWeSfTjOxOEw,10339
+baserun/cli.py,sha256=pgK0miADVu6XvxlEeaL0v_65OTBpHM1cDO0H07is5_c,523
+baserun/helpers.py,sha256=-k7r8A3knP_yM5Rx3I1SUnGRWTUEr4EoCvdSJQ3t3cc,1051
+baserun/openai.py,sha256=a8LmeAgzqOLU5kDL88QIok84xzCrlbE1dt9koqPqfF4,2535
+baserun/pytest_plugin.py,sha256=q2eXbT1za1OLTe4DKskNHcpkJQep1hhvIFLEYeblRRU,1327
+baserun/unittests_class.py,sha256=zkltAi7xATYHiE9hnGZqkfINYFciGkVwVQlR5DnD5tE,571
+baserun-0.3.dist-info/LICENSE,sha256=g0VLYu_7Z5Nx8KQPa_kd5R3G65NlY73Xk9ZCglwo9M4,1073
+baserun-0.3.dist-info/METADATA,sha256=Snsm2c_h6OdLpYggmgXrK9AjJllfNJSGwTPSVKSRhoc,3363
+baserun-0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+baserun-0.3.dist-info/entry_points.txt,sha256=nuTwkc8Ql-_WzJlY-t5bGZaq0akEFmrv2f9H5_rzdJw,90
+baserun-0.3.dist-info/top_level.txt,sha256=zrlEEdJwHbef0_9Vpt2I4hvMEzI6CUc1ALRebO9X8KY,8
+baserun-0.3.dist-info/RECORD,,
