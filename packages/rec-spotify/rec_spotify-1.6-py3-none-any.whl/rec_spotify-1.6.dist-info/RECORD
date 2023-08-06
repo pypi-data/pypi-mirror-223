@@ -1,0 +1,17 @@
+README.md,sha256=rnFmKChD1iP56vZqHzk-T4hlza2T0WBpEkLBMQOZg5g,3380
+rec_spotify/__init__.py,sha256=iIR-FhVc-cxaLy-p5V55NtNOUQvb_1TccqsF7iS6WIY,21
+rec_spotify/cli.py,sha256=s-mO59HYdH_Arcv0XVx8Z4pUh_nkYxMybMfbv2gXFpM,2167
+rec_spotify/config.py,sha256=NlEnr5hoKcj2JB1ATD-OmiEhb03rggnPH9kSVztdIeA,4355
+rec_spotify/console.py,sha256=h23wjGCQjwF1iEsq7KCd6-kMQUVTsQa94vlo0fsrmjY,758
+rec_spotify/database.py,sha256=2CfWdKWjgcL4ZcfuBca8k7WCKpgcx-JwNm082WMohTo,8076
+rec_spotify/items.py,sha256=z8ngmIE7PQoHX5ExfqZBxZRy15t5drzo-6WXHqtIxrE,6429
+rec_spotify/lyrics.py,sha256=aZ-ey3WPryGWUJz4NT-Ims6sFl0WLz3L78cHBeKZQTw,2197
+rec_spotify/manager.py,sha256=QKDVCjciRzlT1e3D3kqi-JS-Kg50tG0AuMz1cUwYsoo,7224
+rec_spotify/messages.py,sha256=Ri4ZD42cfqTiu6W7ycx506ryurS_-zwjCY9Ycxt6-7M,2612
+rec_spotify/recorder.py,sha256=rEKxmQRL4OZAbaO53sdch5xE367aTzEoUtHGbP2p9Uw,3391
+rec_spotify/spotify.py,sha256=Cdvw0Gd02OW4NMJSD9wBTYYPuvhIRfUA0VcyfjUnO-U,7620
+rec_spotify/utils.py,sha256=lQcYDCJDIMd8k0UjTFkkgiYkTzM0PuDxu1K-4WlFW_8,2207
+rec_spotify-1.6.dist-info/entry_points.txt,sha256=wlLNZGBI2NuGwLYG3sT2r4_5Ena9y6Aaapb_IKS7Mcg,51
+rec_spotify-1.6.dist-info/METADATA,sha256=El_BivkDzkUg-gxAZVGOMlfzbD3mgDtt1vpFgHIl-qM,4074
+rec_spotify-1.6.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+rec_spotify-1.6.dist-info/RECORD,,
