@@ -1,0 +1,10 @@
+numpy<1.24
+scipy
+matplotlib>=3.4.0
+astropy
+
+[QUfitting]
+bilby>=1.1.5
+
+[parallel]
+schwimmbad
