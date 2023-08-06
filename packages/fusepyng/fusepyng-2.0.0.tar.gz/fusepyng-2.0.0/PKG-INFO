@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: fusepyng
+Version: 2.0.0
+Summary: Simple ctypes bindings for FUSE
+Author: Giorgos Verigakis
+Author-email: verigak@gmail.com
+Maintainer: Rian Hunter
+Maintainer-email: rian@alum.mit.edu
+License: ISC
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Filesystems
+License-File: LICENSE
+
+fusepyng
+========
+
+*fusepyng is unmaintained and deprecated. Don't use it in new code.
+Instead, consider using `userspacefs <https://thelig.ht/code/userspacefs>`_.*
+
