@@ -1,0 +1,14 @@
+atoti_directquery_clickhouse/LICENSE,sha256=uj-cQ9LFo0v58DA-lc_SlI46k1rg1zHPkXQ_RNPB-bQ,23472
+atoti_directquery_clickhouse/__init__.py,sha256=hWCLcGjtwyP01teL4PnucISFWXD7-JdYVPOawsZgf3I,184
+atoti_directquery_clickhouse/_plugin.py,sha256=ssahIVKFP92zvU2mRoV6WjtSA6WVXmwpWb6ITJq4lJc,371
+atoti_directquery_clickhouse/connection.py,sha256=tbeZiBS2lhnpzPlyZRJfZY-xSid7NiAStz_LFMA2Uxk,760
+atoti_directquery_clickhouse/connection_info.py,sha256=Lgb2b8AUQwPxM9hMvuAKiskc7MXsmcSlMfV_vqDG28c,1407
+atoti_directquery_clickhouse/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atoti_directquery_clickhouse/table.py,sha256=_xuuC4GgvnDey2UB-2Un1zdFUJu2IDj-U5zujVJSLTU,133
+atoti_directquery_clickhouse/table_options.py,sha256=sAI908PrrFGX9BPYqCeOLtuhPxUZIrsXf0E8bXJWMoY,1005
+atoti_directquery_clickhouse/data/atoti-directquery-clickhouse.jar,sha256=wN5Br15VpR6nBZzQSsBZkyK7LXLkHORUVG6lw-5R98Y,31694704
+atoti_directquery_clickhouse-0.8.3.dist-info/METADATA,sha256=H5LaeJJlMSVvTuB5r8RVfeIYgxQ1HQPJ0rBzXMSTtxg,823
+atoti_directquery_clickhouse-0.8.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+atoti_directquery_clickhouse-0.8.3.dist-info/entry_points.txt,sha256=PDHWE5TlTQ3e3heNLuoiCuDL7FqptQJD0EHoZniNx8E,95
+atoti_directquery_clickhouse-0.8.3.dist-info/top_level.txt,sha256=RPdyWFKoWr-VUl-XHLCM28SFbUtJDXLcLCHTsUVSlFQ,29
+atoti_directquery_clickhouse-0.8.3.dist-info/RECORD,,
