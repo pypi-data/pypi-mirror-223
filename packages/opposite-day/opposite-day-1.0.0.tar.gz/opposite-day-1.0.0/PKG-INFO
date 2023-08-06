@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: opposite-day
+Version: 1.0.0
+Summary: It is Opposite Day Now
+Home-page: https://github.com/yuvipanda/opposite-day
+Author: Yuvi Panda
+Author-email: yuvipanda@gmail.com
+License: 3 Clause BSD
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# opposite-day
+
+It is opposite day now.
+
+## How?
+
+```python
+from opposite_day import it_is_opposite_day_now
+
+were_computers_a_mistake = False
+it_is_opposite_day_now()
+
+print(f"Were computers a mistake? {were_computers_a_mistake}")
+```
+
+What do you expect this code to print?
+
+What does it actually print?
+
+WHAT IS GOING ON?!
