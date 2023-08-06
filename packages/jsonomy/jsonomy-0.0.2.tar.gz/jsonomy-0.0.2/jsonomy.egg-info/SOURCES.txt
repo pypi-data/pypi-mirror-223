@@ -1,0 +1,10 @@
+README.md
+setup.py
+jsonomy/__init__.py
+jsonomy/functions.py
+jsonomy/jsonomy.py
+jsonomy.egg-info/PKG-INFO
+jsonomy.egg-info/SOURCES.txt
+jsonomy.egg-info/dependency_links.txt
+jsonomy.egg-info/top_level.txt
+tests/test_all.py
