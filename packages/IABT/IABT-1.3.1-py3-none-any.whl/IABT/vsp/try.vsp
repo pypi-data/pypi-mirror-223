@@ -1,0 +1,13 @@
+$img_path = "./bg.png"
+$icon = "./icon.png"
+$filter = "vsp.Sqrts.Widget.ImageSurface(\"target_path\")"
+$theme = ""
+
+@PED
+
+*FullScreenWindow[window]:
+    *Input[search]:
+        -size = [150, 500]
+        -image_path = $img_path
+
+
