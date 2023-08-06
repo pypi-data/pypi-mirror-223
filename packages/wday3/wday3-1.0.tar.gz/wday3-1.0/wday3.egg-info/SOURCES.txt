@@ -1,0 +1,7 @@
+setup.py
+wday/__init__.py
+wday/add_num.py
+wday3.egg-info/PKG-INFO
+wday3.egg-info/SOURCES.txt
+wday3.egg-info/dependency_links.txt
+wday3.egg-info/top_level.txt
