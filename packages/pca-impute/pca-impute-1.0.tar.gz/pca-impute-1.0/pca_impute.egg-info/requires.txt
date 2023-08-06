@@ -1,0 +1,12 @@
+numpy
+scipy
+
+[dev]
+isort
+black[jupyter]
+ruff
+mypy
+pytest
+pytest-cov
+pytest-sugar
+scikit-learn
