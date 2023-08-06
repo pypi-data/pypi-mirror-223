@@ -1,0 +1,9 @@
+README.md
+setup.py
+zeroe/__init__.py
+zeroe/a.py
+zeroe.egg-info/PKG-INFO
+zeroe.egg-info/SOURCES.txt
+zeroe.egg-info/dependency_links.txt
+zeroe.egg-info/requires.txt
+zeroe.egg-info/top_level.txt
