@@ -1,0 +1,6 @@
+twisted
+pyopenssl
+service_identity
+qt5reactor
+rsa
+pyasn1
