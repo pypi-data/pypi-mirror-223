@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: xarray-regrid
+Version: 0.0.1
+Summary: Regridding tools using xarray and flox.
+Project-URL: Documentation, https://github.com/EXCITED-CO2/xarray-regrid#readme
+Project-URL: Issues, https://github.com/EXCITED-CO2/xarray-regrid/issues
+Project-URL: Source, https://github.com/EXCITED-CO2/xarray-regrid
+Author-email: Bart Schilperoort <b.schilperoort@esciencecenter.nl>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: flox
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: xarray
+Provides-Extra: benchmarking
+Requires-Dist: dask[distributed]; extra == 'benchmarking'
+Requires-Dist: matplotlib; extra == 'benchmarking'
+Provides-Extra: dev
+Requires-Dist: black[jupyter]; extra == 'dev'
+Requires-Dist: bump2version; extra == 'dev'
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# xarray-regrid
+Regridding utility for xarray.
+
+## Installation
+
+```console
+pip install xarray-regrid
+```
+
+## Usage & benchmarks
+To see how to use xarray-regrid, see the benchmark notebooks. These also contain a comparison to more standard methods (CDO, xESMF).
