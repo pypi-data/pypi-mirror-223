@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+linearfoldmodule.cc
+setup.cfg
+setup.py
+linearfold_unofficial.egg-info/PKG-INFO
+linearfold_unofficial.egg-info/SOURCES.txt
+linearfold_unofficial.egg-info/dependency_links.txt
+linearfold_unofficial.egg-info/top_level.txt
+tests/test_linearfold.py
