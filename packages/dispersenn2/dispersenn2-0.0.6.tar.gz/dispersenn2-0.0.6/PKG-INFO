@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dispersenn2
+Version: 0.0.6
+Summary: Neural net for estimating dispersal distance
+Author: chriscrsmith
+Author-email: chriscs@uoregon.edu
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: attrs (>=23.1.0,<24.0.0)
+Requires-Dist: geopy (>=2.3.0,<3.0.0)
+Requires-Dist: gpustat (>=1.1,<2.0)
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: msprime (>=1.2.0,<2.0.0)
+Requires-Dist: numpy (>=1.25.1,<2.0.0)
+Requires-Dist: scikit-learn (>=1.3.0,<2.0.0)
+Requires-Dist: tensorflow (>=2.11,<3.0)
+Requires-Dist: tskit (>=0.5.5,<0.6.0)
+Requires-Dist: utm (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# disperseNN2
+
+[![Documentation Status](https://readthedocs.org/projects/dispersenn2/badge/?version=latest)](https://dispersenn2.readthedocs.io/en/latest/?badge=latest)
+
+`disperseNN2` is a machine learning framework for predicting &#963;, the expected per generation displacement distance between offspring and their parent(s), from genetic variation data.
+`disperseNN2` replaces our previous method, `disperseNN`, by introducing
+a novel architecture. For details see our [preprint](https://www.biorxiv.org/content/10.1101/2023.07.30.551115v1).
+
+For installation and usage instructions, see the [docs page](https://dispersenn2.readthedocs.io/en/latest/).
+
