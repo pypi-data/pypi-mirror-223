@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: first-zawakin-package
+Version: 0.0.11
+Summary: 
+Author: zawakin
+Author-email: zawawahoge@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# first zawakin package
+

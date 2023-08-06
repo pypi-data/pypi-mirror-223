@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "first-zawakin-package"
+version = "0.0.11"
+description = ""
+authors = ["zawakin <zawawahoge@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "first_zawakin_package" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
