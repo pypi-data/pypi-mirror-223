@@ -1,0 +1,8 @@
+hvppyautocapture/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hvppyautocapture/api.py,sha256=g9CT19iQIQaydfEemEUNkYXVdQT10AgzspA7wEK4GWs,1227
+hvppyautocapture/captureregionhelper.py,sha256=gBgauEpQyWh8P51z189TVXK9z7hSJqFTwFVVT94lOFk,1347
+hvppyautocapture/engine.py,sha256=tv2ly0HDojYzXtDiltk-zF6VXnfAPI4Hz3HXIuRGOtk,1867
+hvppyautocapture-0.0.1.dist-info/METADATA,sha256=VfGhTEA41uVsp2UlQVG5weM0eQO3v6eGsQiLweGzZaQ,926
+hvppyautocapture-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hvppyautocapture-0.0.1.dist-info/entry_points.txt,sha256=Q6A0csTOH2EJeMlUIA2mPPU6KgNLyTiMJKUSSoQVlYk,74
+hvppyautocapture-0.0.1.dist-info/RECORD,,
