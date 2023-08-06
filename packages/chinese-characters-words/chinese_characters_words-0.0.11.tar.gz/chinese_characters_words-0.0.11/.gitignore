@@ -1,0 +1,5 @@
+dist
+log.md
+.DS_Store
+src/chinese_characters_words/__pycache__
+临时
