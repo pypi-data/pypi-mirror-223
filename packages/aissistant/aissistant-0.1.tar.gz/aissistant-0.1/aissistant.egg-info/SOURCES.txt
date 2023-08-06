@@ -1,0 +1,9 @@
+README.md
+setup.py
+aissistant.egg-info/.noteablekeep
+aissistant.egg-info/PKG-INFO
+aissistant.egg-info/SOURCES.txt
+aissistant.egg-info/dependency_links.txt
+aissistant.egg-info/entry_points.txt
+aissistant.egg-info/requires.txt
+aissistant.egg-info/top_level.txt

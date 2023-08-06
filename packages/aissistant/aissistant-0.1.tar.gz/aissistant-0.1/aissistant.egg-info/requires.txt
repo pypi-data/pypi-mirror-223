@@ -1,0 +1,9 @@
+sentence-transformers
+numpy
+faiss-gpu
+
+[cpu]
+faiss-cpu
+
+[gpu]
+faiss-gpu

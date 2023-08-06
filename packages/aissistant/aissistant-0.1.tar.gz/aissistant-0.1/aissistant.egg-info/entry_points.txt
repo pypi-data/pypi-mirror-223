@@ -1,0 +1,2 @@
+[console_scripts]
+aissistant = aissistant.cli:main
