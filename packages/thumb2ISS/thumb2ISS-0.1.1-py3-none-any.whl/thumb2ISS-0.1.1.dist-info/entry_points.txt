@@ -1,0 +1,2 @@
+[console_scripts]
+thumb2ISS = thumb2ISS.thumb2ISS:run
