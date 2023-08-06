@@ -1,0 +1,3 @@
+[creart.creators]
+loop = creart.builtins.loop:EventLoopCreator
+
