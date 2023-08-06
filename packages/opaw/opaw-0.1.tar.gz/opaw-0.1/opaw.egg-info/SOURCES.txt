@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+opaw/__init__.py
+opaw/main.py
+opaw.egg-info/PKG-INFO
+opaw.egg-info/SOURCES.txt
+opaw.egg-info/dependency_links.txt
+opaw.egg-info/requires.txt
+opaw.egg-info/top_level.txt
