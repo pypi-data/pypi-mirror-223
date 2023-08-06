@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tokotime
+Version: 0.1
+Summary: Tokopedia Data Science Forecasting Reusable Package
+Home-page: https://github.com/tokopedia/forecasting-platform-utils
+Download-URL: https://github.com/tokopedia/forecasting-platform-utils/archive/refs/tags/v_01.tar.gz
+Author: Alan Choon
+Author-email: alan.yu@tokopedia.com
+License: MIT
+Keywords: Forecasting,Machine Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
+
+UNKNOWN
+
