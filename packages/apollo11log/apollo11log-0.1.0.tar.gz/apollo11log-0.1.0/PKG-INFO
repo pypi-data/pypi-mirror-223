@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: apollo11log
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/xssfox/apollo11log
+Author: xss
+Author-email: michaela@michaela.lgbt
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/xssfox/apollo11log
+Description-Content-Type: text/markdown
+
+
