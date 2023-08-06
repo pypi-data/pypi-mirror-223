@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: packnow
+Version: 1.7
+Summary: Pack everything, now.
+Author: AWeirdDev
+Author-email: AWeirdDev <aweirdscratcher@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 AWeirdDev @ tw
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/AWeirdScratcher/packnow
+Project-URL: Bug Tracker, https://github.com/AWeirdScratcher/packnow/issues
+Keywords: pack,packing,packnow
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# packnow
+Pack everything now. Simple and (maybe) fast.
+
+## 1. Get Packin'
+
+```bash
+$ packnow
+```
+
+## 2. Get Hostin'
+Note: You can also set a password for hosting.
+
+```bash
+$ packnow host --file <zip file>
+```
+
+## 3. Just Get It!
+...from other devices or platforms.
+
+```bash
+$ packnow get --url <packnow url>
+```
+
+## Packignore Files
+Pretty much just like `.gitignore`, `.packignore` files will ignore files that are not going to be packed.
+
+You could use our default templates, for instance, `replit-python`, or you can add your own.
+
+You'll need to create a new `.packignore` file:
+
+```python
+# .packignore
+
+# ignores chocolate.js for any directory
+*/chocolate.js
+
+# for dirs, suffix a slash
+# ignores __pycache__ dir in any directory
+*/__pycache__/
+
+# ignores wow.cpp in the current dir
+/wow.cpp
+
+# again, for dirs, suffix a slash
+# ignores directory my-stuff in the current dir
+/my-stuff/
+
+# ignores the specified full path contents
+# (don't prefix / suffix a slash)
+go/buy/milk
+important/homework.py
+```
