@@ -1,0 +1,11 @@
+mkdocs_crosslink_plugin/__init__.py,sha256=Mn2rQmKiupBHkvHOMlZVYSAKA6BPmmC857qE3Jk1wOg,469
+mkdocs_crosslink_plugin/config.py,sha256=ABKtgE-giDy1jD9JG0NY_xBTWTYGo9CcWB-TDuTEaGw,4744
+mkdocs_crosslink_plugin/file_cache.py,sha256=fGQGRU5qC4hkxs0Gz7ahpbra1dS8AoyHdfjH_MErMKI,2497
+mkdocs_crosslink_plugin/plugin.py,sha256=3cp_yCdB-zj3YhxUAK4kDQn15VYaj2jRVNXel8TqlWA,1704
+mkdocs_crosslink_plugin/replacer.py,sha256=cRn7Nuk21pPl6pa5iJ2-t4_rguAZwBORi6Aa5xJskjY,6690
+mkdocs_crosslink_plugin-0.0.1.dist-info/LICENSE,sha256=bbSVKh1ngBh7-Mh_Xfk69Flx_5Q9JnvsQArHe_AXhok,1063
+mkdocs_crosslink_plugin-0.0.1.dist-info/METADATA,sha256=y_AUXrDa4_6R-h17djJmEE0YNc0N9Gy0s1-yV-BE7is,2863
+mkdocs_crosslink_plugin-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+mkdocs_crosslink_plugin-0.0.1.dist-info/entry_points.txt,sha256=6ugOUKN6QIKKm5K4WkTW-7TGzFXa6vHuZXgfABgsERc,69
+mkdocs_crosslink_plugin-0.0.1.dist-info/top_level.txt,sha256=0DUDmFGqv2b2fcbCluMIxnJV83DJ6p2z-7MigZ2d5lY,24
+mkdocs_crosslink_plugin-0.0.1.dist-info/RECORD,,
