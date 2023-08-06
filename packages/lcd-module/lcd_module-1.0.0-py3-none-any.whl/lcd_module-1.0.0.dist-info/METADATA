@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lcd-module
+Version: 1.0.0
+Summary: A module to control the LCD display via I2C.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: RPLCD
+Requires-Dist: smbus2
+
+UNKNOWN
+
+
