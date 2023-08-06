@@ -1,0 +1,13 @@
+junoplatform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+junoplatform/io/__init__.py,sha256=LPqzt4rf_Y9ULXDyBD0LYJ-3wWvpRVIVThJEoQ4bxbA,4157
+junoplatform/io/_driver.py,sha256=Zxn2c1_o0lJWlgOhWzVAiGTMXIyULMrVI3K24Gig2TI,7844
+junoplatform/io/utils.py,sha256=ojD4KPadm55DQZRxNpWukqaUvS0lq-8fhm3FenRMVi4,3436
+junoplatform/meta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+junoplatform/meta/decorators.py,sha256=POY13uC1nO9OVaXsZb3RrcSWuTjcRzHW3h3haRekHK8,3390
+junoplatform/templates/main.py,sha256=sADUszi8FpIENUYN3SwscH4AFZeGvO8UBRWaUZUBJKY,1399
+junoplatform/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+junoplatform/tools/cmd.py,sha256=-cIPblq5v7unWq2BU5HYoMy9fR0IfSDDOAk24U_JEew,9489
+junoplatform-0.0.21.dist-info/entry_points.txt,sha256=FvwbW7yEKzFSUB6UaoZyjDjZqCy93GdxAksYb9NY8D4,55
+junoplatform-0.0.21.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+junoplatform-0.0.21.dist-info/METADATA,sha256=-Wz6C-Qn5piT82rDrhpeGEB9wVll5EVrYLpvbe-hnhw,1449
+junoplatform-0.0.21.dist-info/RECORD,,
