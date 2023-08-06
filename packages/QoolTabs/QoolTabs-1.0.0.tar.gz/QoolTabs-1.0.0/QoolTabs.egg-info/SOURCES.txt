@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+QoolTabs.py
+README.md
+pyproject.toml
+setup.py
+QoolTabs/__init__.py
+QoolTabs.egg-info/PKG-INFO
+QoolTabs.egg-info/SOURCES.txt
+QoolTabs.egg-info/dependency_links.txt
+QoolTabs.egg-info/requires.txt
+QoolTabs.egg-info/top_level.txt
