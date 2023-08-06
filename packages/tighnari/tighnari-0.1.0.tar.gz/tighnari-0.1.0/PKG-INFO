@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: tighnari
+Version: 0.1.0
+Summary: An unofficial The Cat API wrapper for Python
+Home-page: https://github.com/eleresai/pudgeland
+License: MIT
+Author: elaresai
+Author-email: elaresai@gmail.com
+Maintainer: elaresai
+Maintainer-email: elaresai@gmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/eleresai/pudgeland
+Description-Content-Type: text/markdown
+
+# tighnari
+
+> This is part of `Pudgeland 💖 Open Source` ecosystems
+
+An unofficial **[The Cat API]()** wrapper for Python
+
+## 📦 Packages
+
+### 🐍 PyPI
+
+```
+pip install tighnari
+```
+
+## 🔎 Examples
+
