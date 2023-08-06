@@ -1,0 +1,4 @@
+typer[all]
+pyyaml
+jsonschema
+dependency-injector
