@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: opentty
+Version: 1.1.1
+Summary: The OpenTTY is a Terminal Emulator created tottaly in python based-on Unix-Like Shells
+Home-page: https://github.com/fetuber4095/OpenTTY
+Author: Mr. Lima
+Author-email: felipebr4095@gmail.com
+License: UNKNOWN
+Description: OpenTTY 1.1.1 "The ROOT Update"
+        
+        	In this release Mr. Lima had fixed many
+        bugs with permission plugin like sync in 1.1
+        doesnt works 'cause PSH didnt sent information
+        for app that it was running with superuser 
+        permission. 
+        
+        1. Fixed SYNC Permission denied.
+        
+        	In 1.1 command sync was blocked for root
+        only, but PSH didnt sent the superuser config
+        for applet and it cant be runned. To upgrade
+        from 1.1 to 1.1.1 run command:
+        
+        	'pip install --upgrade opentty'
+        
+        	It will update your local version of opentty
+        to PyPi latest release. Dont remember to update,
+        it become your experience with opentty better and
+        bring more security for users. 
+        
+        2. Now command not found error stop script execution
+        
+        	Command continue excuting after a unknown 
+        command report is a "bug" in code, it was forgotted
+        by Mr. Lima since 1.0rc4 the first official release
+        at PyPi. 
+        
+Keywords: python package,emulator,windows,linux,shell,project,posix,unix
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
