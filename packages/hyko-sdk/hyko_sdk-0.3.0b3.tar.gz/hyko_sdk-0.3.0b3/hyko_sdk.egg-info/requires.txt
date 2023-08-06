@@ -1,0 +1,8 @@
+pydantic
+pillow
+soundfile
+numpy
+fastapi
+h2
+httpx
+tqdm
