@@ -1,0 +1,11 @@
+valvebsp/__init__.py,sha256=dkNSlwyrtTbt4Ak0E8ctLs3VDRfxfvjur0hdKlj_-NM,261
+valvebsp/bsp.py,sha256=JstVzkhryE6L4yZUv6B0ZmUC4F_MgHHsU2KXBcKxzwc,7459
+valvebsp/constants.py,sha256=muMKbDboxGFzdqe-j0naVXzzE7DpznMA50TGQbdV_d0,848
+valvebsp/exceptions.py,sha256=7gehghMC7Kcv9R4d9h3MhcuQY7ImQebRNNMRYZ3TseQ,376
+valvebsp/lumps.py,sha256=fc9lzP3YLOh0NuORq57TSA0SqKlDqKbWS6E-8Kd6kPs,1906
+valvebsp/profiles.py,sha256=oJ08Wt4c_-lRXf-05sU9hJLh4zUuVVwoJub-znoppqo,754
+valvebsp-1.3.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+valvebsp-1.3.12.dist-info/METADATA,sha256=tdiwhkOpOX0mHu1trYk301IRq-ckMcFhnzHF2O7FHlk,2505
+valvebsp-1.3.12.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+valvebsp-1.3.12.dist-info/top_level.txt,sha256=PBWCSG6TW69h2dfTgo-5bF4N6wKZJuZjL_CBY2OO4q4,9
+valvebsp-1.3.12.dist-info/RECORD,,
