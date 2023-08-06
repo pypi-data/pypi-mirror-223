@@ -1,0 +1,7 @@
+README.md
+setup.py
+vmman1.egg-info/PKG-INFO
+vmman1.egg-info/SOURCES.txt
+vmman1.egg-info/dependency_links.txt
+vmman1.egg-info/requires.txt
+vmman1.egg-info/top_level.txt

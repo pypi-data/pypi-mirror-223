@@ -1,0 +1,6 @@
+colorama
+distro
+libvirt-python
+pendulum
+tabulate
+PyYAML
