@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyggc
+Version: 0.2.0b0
+Summary: Bunch of Python functions for Git and GitHub CLI tasks.
+Author-email: Nicholas Valentinus <nicho@scapeville.com>
+License: MIT
+Project-URL: Repository, https://github.com/scapeville/py-git-ghcli
+Requires-Python: >=3.8
+License-File: LICENSE
