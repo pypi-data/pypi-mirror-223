@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: reason-workbench
+Version: 0.1.1
+Requires-Dist: transformers
+Requires-Dist: bert-score
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
