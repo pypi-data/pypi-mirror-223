@@ -1,0 +1,12 @@
+odoo/addons/ssi_helpdesk_odoo_implementation/README.rst,sha256=mrARQ3Njt6ktbrxSM7Pu1NhU3ww_WsNf3kJnJeBRTqo,1278
+odoo/addons/ssi_helpdesk_odoo_implementation/__init__.py,sha256=-feWQ2YwItE4Se4xcT01Jj_FksU0o0mpt48P0cUxpeU,201
+odoo/addons/ssi_helpdesk_odoo_implementation/__manifest__.py,sha256=k6WNOYC8NmnCb7QPPnAw1r7YOOwN6-ZkY84k03-0hwo,583
+odoo/addons/ssi_helpdesk_odoo_implementation/models/__init__.py,sha256=tluzOQG-gh628mP9zUdX5iowGOMgMX7BJTDYUXPFH9c,235
+odoo/addons/ssi_helpdesk_odoo_implementation/models/helpdesk_ticket.py,sha256=XI1D67Nj_C2JWi2j4WM7UN4ckR-cYcU8mN2oEGs2pzM,1408
+odoo/addons/ssi_helpdesk_odoo_implementation/models/odoo_implementation.py,sha256=cAkZKzxUrC9nCF87RN1YtaEU9aorpayqyA-C6JmMdLc,487
+odoo/addons/ssi_helpdesk_odoo_implementation/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_helpdesk_odoo_implementation/views/helpdesk_ticket_views.xml,sha256=H8fludrLxKLkcLXBntndNTn9WejPnWLActGJT3xszK8,2658
+odoo14_addon_ssi_helpdesk_odoo_implementation-14.0.1.1.2.dev1.dist-info/METADATA,sha256=9wyG4KGxUWiMxpLE0IhXiCZt7ysD0TbCfkEKXHQGZoA,1866
+odoo14_addon_ssi_helpdesk_odoo_implementation-14.0.1.1.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_helpdesk_odoo_implementation-14.0.1.1.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_helpdesk_odoo_implementation-14.0.1.1.2.dev1.dist-info/RECORD,,
