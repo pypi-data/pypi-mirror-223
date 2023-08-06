@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/example_package_PY_API_SUITE/__init__.py
+src/example_package_PY_API_SUITE/example.py
+src/example_package_PY_API_SUITE.egg-info/PKG-INFO
+src/example_package_PY_API_SUITE.egg-info/SOURCES.txt
+src/example_package_PY_API_SUITE.egg-info/dependency_links.txt
+src/example_package_PY_API_SUITE.egg-info/top_level.txt
