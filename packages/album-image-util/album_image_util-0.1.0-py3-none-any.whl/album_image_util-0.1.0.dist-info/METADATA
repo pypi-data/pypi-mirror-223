@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: album-image-util
+Version: 0.1.0
+Summary: Utility for creating album of the day images
+Author: William04A
+Author-email: 35110380+William04A@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pillow (>=10.0.0,<11.0.0)
+Description-Content-Type: text/markdown
+
+# Album image util
+
+> **ℹ Note:** This project is on `pip` so I can use it on other machines, you'll probably not find a
+> use case for as it is ultra-specific
+
+️
+This is a project for my Album of the day website, which is a website where I post my writing about albums:
+one every day. The album of the days were initially written in image form. To get them on the website, I had to do some OCR-reading of previous album
+image files. This library can extract different parts of these images (because I used the same template for all of them).
+It can also create new album of the day images.
