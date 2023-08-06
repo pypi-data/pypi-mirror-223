@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+valvebsp/__init__.py
+valvebsp/bsp.py
+valvebsp/constants.py
+valvebsp/exceptions.py
+valvebsp/lumps.py
+valvebsp/profiles.py
+valvebsp.egg-info/PKG-INFO
+valvebsp.egg-info/SOURCES.txt
+valvebsp.egg-info/dependency_links.txt
+valvebsp.egg-info/requires.txt
+valvebsp.egg-info/top_level.txt
