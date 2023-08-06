@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: kufar
+Version: 0.1.0
+Summary: 
+Keywords: kufar,kufar-api,kufar_api
+Author: Kiel Ed
+Author-email: kieledssh@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiofiles (>=23.1.0,<24.0.0)
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: pydantic (>=2.0.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Kufar Private API
+
+This library is result of researching around Kufar Mobile App. Project is still development. But you can use it now.
+
+### Installing:
+You can install this library using command:
+```bash
+pip install kufar 
+```
+
+### Example:
+```python
+from kufar import KufarAPI, State, Requster
+import asyncio
+
+async def main():
+    state = State('state.conf')
+
+    async with Requester() as client:
+        api = KufarApi(client, state)
+        await api.init()
+        await api.authenticate("email", "password")
+
+        # Get current account ads count
+        ads_count = await api.user_ads.get_my_ads_count()
+        print(ads_count)
+
+        # Get Current Account Info
+        current_account = await api.account.get_current_account()
+
+        # Get Saved Searches
+        saved_searches = await api.saved.get_searches(current_account.account.account_id)
+
+        # Get unread messages count
+        messages_unread_count = await api.messaging.unread_count()
+        
+        # Get all categories
+        categories = await api.categories.get_categories()
+ 
+
+
+asyncio.run(main())
+```
