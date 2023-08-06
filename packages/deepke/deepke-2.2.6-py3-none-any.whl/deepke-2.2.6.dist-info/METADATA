@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: deepke
+Version: 2.2.6
+Summary: DeepKE is a knowledge extraction toolkit for knowledge graph construction supporting low-resource, document-level and multimodal scenarios for entity, relation and attribute extraction.
+Home-page: https://github.com/zjunlp/deepke
+Author: ZJUNLP
+Author-email: zhangningyu@zju.edu.cn
+License: MIT
+Keywords: pip,RE,NER,AE
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: torch (<=1.11,>=1.5)
+Requires-Dist: hydra-core (==1.0.6)
+Requires-Dist: tensorboard (==2.4.1)
+Requires-Dist: matplotlib (==3.4.1)
+Requires-Dist: transformers (==4.26.0)
+Requires-Dist: jieba (==0.42.1)
+Requires-Dist: scikit-learn (==0.24.1)
+Requires-Dist: seqeval (==1.2.2)
+Requires-Dist: tqdm
+Requires-Dist: opt-einsum (==3.3.0)
+Requires-Dist: wandb (==0.12.7)
+Requires-Dist: ujson (==5.6.0)
+Requires-Dist: huggingface-hub (==0.11.0)
+Requires-Dist: tensorboardX (==2.5.1)
+Requires-Dist: nltk (==3.8)
+Requires-Dist: protobuf (==3.20.1)
+Requires-Dist: numpy (==1.21.0)
+Requires-Dist: ipdb (==0.13.11)
+Requires-Dist: pytorch-crf (==0.7.2)
+Requires-Dist: openai
+Requires-Dist: Jinja2
+Requires-Dist: datasets
+Requires-Dist: pyhocon
+
