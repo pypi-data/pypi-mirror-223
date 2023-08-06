@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: dnikit_tensorflow
+Version: 2.0.0
+Summary: TensorFlow extensions of DNIKit.
+Home-page: https://github.com/apple/dnikit
+License: Apache-2.0
+Author: Apple, Inc.
+Author-email: dnikit-symphony-oss@group.apple.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: dnikit==2.0.0
+Requires-Dist: numpy<1.19 ; extra == "tf1"
+Requires-Dist: protobuf<4.0 ; extra == "tf1"
+Requires-Dist: Keras<2.4 ; extra == "tf1"
+Requires-Dist: h5py<3.0 ; extra == "tf1"
+Requires-Dist: tensorflow<2.0 ; extra == "tf1"
+Requires-Dist: numpy<1.19 ; extra == "tf1-gpu"
+Requires-Dist: protobuf<4.0 ; extra == "tf1-gpu"
+Requires-Dist: Keras<2.4 ; extra == "tf1-gpu"
+Requires-Dist: h5py<3.0 ; extra == "tf1-gpu"
+Requires-Dist: tensorflow-gpu<2.0 ; extra == "tf1-gpu"
+Requires-Dist: tensorflow ; extra == "tf2"
+Project-URL: Changelog, https://github.com/apple/dnikit/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://apple.github.io/dnikit
+Provides-Extra: tf1
+Provides-Extra: tf1-gpu
+Provides-Extra: tf2
+
+# Data and Network Introspection Kit (DNIKit) - TensorFlow
+
+This package contains the TensorFlow extensions of [DNIKit](https://github.com/apple/dnikit).
+
+To learn more about DNIKit, please see the [docs](https://apple.github.io/dnikit).
+
+## Installation
+
+To install TensorFlow 2 (CPU or GPU), use:
+```
+pip install "dnikit[tensorflow]"
+```
+
+To install TensorFlow 1 CPU, use:
+```
+pip install "dnikit[tensorflow1]"
+```
+
+For TensorFlow 1 GPU:
+```
+pip install  "dnikit[tensorflow1-gpu]"
+```
+
