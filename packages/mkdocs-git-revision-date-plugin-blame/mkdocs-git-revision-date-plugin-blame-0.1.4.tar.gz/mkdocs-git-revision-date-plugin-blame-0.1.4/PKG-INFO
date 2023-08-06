@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mkdocs-git-revision-date-plugin-blame
+Version: 0.1.4
+Summary: MkDocs plugin for setting revision date from git per markdown file using blame.
+Home-page: https://github.com/codyprupp/mkdocs-git-revision-date-plugin
+Author: Cody Rupp
+Author-email: crupp@ucsd.edu
+License: MIT
+Keywords: mkdocs git meta yaml frontmatter
+Requires-Python: >=3.4
