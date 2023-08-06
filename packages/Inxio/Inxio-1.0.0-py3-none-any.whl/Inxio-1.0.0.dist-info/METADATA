@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Inxio
+Version: 1.0.0
+Summary: Inxio is a Python library for rapid development of Android applications. This is the first beta release
+Home-page: UNKNOWN
+Author: cemeye
+Author-email: caomingyang2022@163.com
+License: MIT
+Requires-Dist: colorama (>=0.4.6)
+
+
+# 01 Virgo库是什么
+
