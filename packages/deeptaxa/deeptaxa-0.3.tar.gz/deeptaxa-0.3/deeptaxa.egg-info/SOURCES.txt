@@ -1,0 +1,16 @@
+README.md
+setup.py
+DeepTaxa/__init__.py
+DeepTaxa/data.py
+DeepTaxa/models.py
+DeepTaxa/predict.py
+DeepTaxa/utils.py
+DeepTaxa/genomes/GCF_017908595.1_ASM1790859v1_genomic.faa
+DeepTaxa/script/check.sh
+DeepTaxa/script/hmmer.sh
+DeepTaxa/script/hmmer_summary.R
+DeepTaxa/script/mmseqs.sh
+deeptaxa.egg-info/PKG-INFO
+deeptaxa.egg-info/SOURCES.txt
+deeptaxa.egg-info/dependency_links.txt
+deeptaxa.egg-info/top_level.txt
