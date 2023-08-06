@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: apiclient-gonzalo123
+Version: 1.0.1
+Summary: apiclient
+Home-page: https://github.com/gonzalo123/apiclient
+Author: Gonzalo Ayuso
+Author-email: gonzalo123@gmail.com
+License: MIT
+Keywords: apiclient
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.3.0)
+
+# Custom apiclient
+
+[dbutils](https://github.com/gonzalo123/apiclient)
+
+## Install
+
+```commandline
+pip install apiclient-gonzalo123
+```
+
+## Usage
+
+Init client
+```python
+from apiclient import ApiClient
+
+client = ApiClient(token='my_secret token', base='http://localhost:8000')
+```
+
+GET Request
+```python
+data = client.get('/api/route', dict(param1='value1'))
+```
+
+POST Request (with parameters in the url)
+```pythonº
+data = client.post('/api/route', params=dict(param1='value1'))
+```
+
+POST Request (with parameters in the request body)
+```python
+data = client.post('/api/route', body=dict(param1='value1'))
+```
