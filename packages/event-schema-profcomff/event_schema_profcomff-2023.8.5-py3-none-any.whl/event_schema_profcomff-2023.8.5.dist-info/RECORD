@@ -1,0 +1,9 @@
+event_schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+event_schema/base.py,sha256=42heXmz_hO-ww6wKU5R7X2MMBD7UcmJ9e5LLi2JoY-0,351
+event_schema/auth/__init__.py,sha256=CKJ1BEQ0X5W1zmk1Tmb9huDjnmwf1vRhKBa2b0mWUVE,111
+event_schema/auth/user_login.py,sha256=4hWyhfTwxaFKU3L7bIITgdQ4Yx5rTU2_OTk1aJpKUuY,279
+event_schema_profcomff-2023.8.5.dist-info/LICENSE,sha256=8GQHVw9dEnFOwEOdqjBtvW250ol4UFMe8ikFTolg3aI,1542
+event_schema_profcomff-2023.8.5.dist-info/METADATA,sha256=7CpB8x9JHe1xIxoRPIBrmuSEXt_rPfuyiKJHfPd3BnM,795
+event_schema_profcomff-2023.8.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+event_schema_profcomff-2023.8.5.dist-info/top_level.txt,sha256=ukd46izp68MlA8aa0G-ylXzJZH2XOufsJ5qgYWylkhs,13
+event_schema_profcomff-2023.8.5.dist-info/RECORD,,
