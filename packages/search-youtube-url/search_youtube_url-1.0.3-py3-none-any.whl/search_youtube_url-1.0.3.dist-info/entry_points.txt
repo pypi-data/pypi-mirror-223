@@ -1,0 +1,3 @@
+[console_scripts]
+search_youtube_url = search_youtube_url:main
+
