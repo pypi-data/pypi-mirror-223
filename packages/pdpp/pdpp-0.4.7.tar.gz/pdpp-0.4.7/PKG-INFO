@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pdpp
+Version: 0.4.7
+Summary: Command line tool for automation, transparency, and reproducibility in data processing projects
+Home-page: https://github.com/UWNETLAB/pdpp
+Author: Pierson Browne, Rachel Wood, Tyler Crick, John McLevey
+Author-email: pbrowne88@gmail.com
+Keywords: doit
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
