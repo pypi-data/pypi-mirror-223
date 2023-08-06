@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "mamon-utils"
+version = "0.0.3"
+description = "Common Mamon11 tools and utilities"
+authors = ["WessCoby <wc@wesscoby.com>"]
+readme = "README_PYPI.md"
+packages = [{include = "mamonutils"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+psycopg2-binary = "==2.9.5"
+python-dotenv = "==1.0.0"
+pillow = "^10.0.0"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
