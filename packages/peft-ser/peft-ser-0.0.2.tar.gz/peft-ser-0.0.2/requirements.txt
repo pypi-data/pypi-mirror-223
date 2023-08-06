@@ -1,0 +1,6 @@
+numpy
+torch
+tqdm
+more-itertools
+transformers
+loralib

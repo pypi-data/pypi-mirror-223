@@ -1,0 +1,14 @@
+triton==2.0.0
+numpy
+torch
+tqdm
+more-itertools
+transformers
+loralib
+
+[dev]
+pytest
+scipy
+black
+flake8
+isort
