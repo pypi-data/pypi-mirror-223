@@ -1,0 +1,7 @@
+lcd_module.py
+setup.py
+lcd_module.egg-info/PKG-INFO
+lcd_module.egg-info/SOURCES.txt
+lcd_module.egg-info/dependency_links.txt
+lcd_module.egg-info/requires.txt
+lcd_module.egg-info/top_level.txt
