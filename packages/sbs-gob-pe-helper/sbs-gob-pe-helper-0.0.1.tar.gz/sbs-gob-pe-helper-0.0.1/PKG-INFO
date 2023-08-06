@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: sbs-gob-pe-helper
+Version: 0.0.1
+Summary: sbs-gob-pe-helper para proyectos de análisis financiero
+Home-page: UNKNOWN
+Author: Erik Carl Candela Rojas
+Author-email: erik.candela.rojas@gmail.com
+License: NOTFOUND
+Download-URL: https://URL_PAQUETE/sbs-gob-pe-helper/-/archive/master/sbs-gob-pe-helper-master.tar
+Keywords: sbs-gob-pe-helper,paquete,package
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+sbs-gob-pe-helper
+==============================
+
+Nota : Revisa la [Nota legal](docs/NotaLegal.md) antes de utilizar la libreria.
+
+
+**sbs-gob-pe-helper** ofrece una forma Pythonica de descargar datos del mercado desde la [Superintendencia de Banca y Seguros del Perú](https://www.sbs.gob.pe/).
+
+
+→ Revisa los siguientes notebook para ver ejemplos practicos:
+
+- [Cupon cero](sbs-gob-pe-helper/Cupon_cero.ipynb) 
+- [Vector de precios de renta fija](sbs-gob-pe-helper/VP_Renta_fija.ipynb) 
+
+
+---
+
+## Instalación
+
+Instala `sbs-gob-pe-helper` usando `pip`:
+
+``` {.sourceCode .bash}
+$ pip install sbs-gob-pe-helper
+```
+
+
