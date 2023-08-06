@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: easy_messenger
+Version: 0.1
+Summary: The simplest Messenger (Facebook, Instagram) API wrapper out there
+Home-page: https://github.com/Tomas-Santana/
+Author: Tomas Santana
+Author-email: tommysantana5@gmail.com
+License: MIT
+Download-URL: https://github.com/Tomas-Santana/easy_messenger/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: Instagram,Facebook,API,Wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
