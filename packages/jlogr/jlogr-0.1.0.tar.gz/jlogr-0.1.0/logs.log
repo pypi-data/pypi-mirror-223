@@ -1,0 +1,6 @@
+2023-08-06T17:43:36.602286+10:00 :: [INFO] :: huge dumps
+2023-08-06T17:43:36.602588+10:00 :: [DEBUG] :: huge dumps
+2023-08-06T17:43:36.602588+10:00 :: [WARNING] :: huge dumps
+2023-08-06T17:43:36.602589+10:00 :: [ERROR] :: huge dumps
+2023-08-06T17:43:36.602590+10:00 :: [INFO] :: Unhandled log level!
+2023-08-06T17:43:36.602595+10:00 :: [INFO] :: another Unhandled log level!
