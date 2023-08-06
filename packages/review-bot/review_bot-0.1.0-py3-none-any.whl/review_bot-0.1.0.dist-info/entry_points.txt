@@ -1,0 +1,3 @@
+[console_scripts]
+reviewbot=review.bot.cli.cli:main
+
