@@ -1,0 +1,48 @@
+{% extends APPOINTMENT_BASE_TEMPLATE %}
+{% load i18n %}
+{% load static %}
+{% block customCSS %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/verification_code.css' %}"/>
+{% endblock %}
+{% block title %}
+    Enter Verification Code
+{% endblock %}
+{% block description %}
+    Enter Verification Code
+{% endblock %}
+{% block body %}
+    <div class="container">
+        <div class="main-container">
+            <div class="body-container">
+                <h1>Enter Verification Code</h1>
+                <p>We've sent a verification code to your email. Please enter it below:</p>
+                <form method="post"
+                      action="{% url 'appointment:enter_verification_code' appointment_request_id id_request %}">
+                    {% csrf_token %}
+                    <label>Code:
+                        <input type="text" name="code" placeholder="X1Y2Z3" required>
+                    </label>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </form>
+            </div>
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-dismissible {% if message.tags %}alert-{% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}danger{% else %}{{ message.tags }}{% endif %}{% endif %}"
+                         role="alert">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
+{% block customJS %}
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const messageElements = document.querySelectorAll('.alert-dismissible');
+            setTimeout(function () {
+                messageElements.forEach(function (element) {
+                    element.style.display = 'none';
+                });
+            }, 3000);
+        });
+    </script>
+{% endblock %}
