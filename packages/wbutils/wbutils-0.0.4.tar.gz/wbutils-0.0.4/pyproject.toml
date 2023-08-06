@@ -1,0 +1,79 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "wbutils"
+dynamic = ["version"]
+authors = [
+    { name = "Ankur Gupta", email = "7110058+ankur-gupta@users.noreply.github.com" },
+]
+description = "Helpful utilities to use Weights & Biases"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = ["ml", "experiment-tracking", "wandb"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch",
+    "wandb",
+    "ujson"
+]
+
+[project.urls]
+Homepage = "https://github.com/ankur-gupta/wbutils"
+Repository = "https://github.com/ankur-gupta/wbutils.git"
+
+[tool.hatch.version]
+path = "src/wbutils/version.py"
+
+[tool.hatch.envs.test]
+dependencies = [
+    "hatch",
+    "coverage",
+    "codecov",
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+]
+
+# Run using `hatch run test:run-coverage`, `hatch run test:no-coverage`, `hatch run test:not-slow`, ...
+[tool.hatch.envs.test.scripts]
+with-coverage = "pytest --cov-config=pyproject.toml --cov=wbutils --cov=tests"
+no-coverage = "with-coverage --no-cov"
+not-slow = "with-coverage -m \"not slow\""
+not-random = "with-coverage -m \"not random\""
+coverage-json = "coverage json"
+coverage-xml = "coverage xml"
+coverage-html = "coverage html"
+
+
+[[tool.hatch.envs.test.matrix]]
+python = ["3.8", "3.9", "3.11"]
+
+[tool.coverage.run]
+omit = [
+    "src/wbutils/resources/",
+    "tests/*.py"
+]
+
+# From https://docs.pytest.org/en/latest/how-to/mark.html and PEP 621
+[tool.pytest.ini_options]
+markers = [
+    "slow: marks tests as slow", # deselect with `pytest -m "not sleepy" ...`
+    "random: tests using randomness; may not always pass"
+]
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/tests",
+]
+exclude = [
+    "/.github",
+]

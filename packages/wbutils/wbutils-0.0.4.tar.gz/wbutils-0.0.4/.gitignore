@@ -1,0 +1,15 @@
+.DS_Store
+*.pyc
+__pycache__
+.idea
+.vscode
+.pytest_cache
+dist
+*.egg-info
+.coverage
+coverage.json
+coverage.xml
+htmlcov/
+.wb
+.artifacts
+.tmp
