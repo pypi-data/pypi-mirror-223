@@ -1,0 +1,8 @@
+setup.py
+super_paczka.egg-info/PKG-INFO
+super_paczka.egg-info/SOURCES.txt
+super_paczka.egg-info/dependency_links.txt
+super_paczka.egg-info/top_level.txt
+word_counter/__init__.py
+word_counter/text_processing.py
+word_counter/word_counter.py
