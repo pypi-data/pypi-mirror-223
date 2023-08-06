@@ -1,0 +1,11 @@
+margarine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+margarine/clustered.py,sha256=AgetoIXrxW-OMPW-_4TeDRUGZPhM7LQ1GbIa5kvI1_4,17654
+margarine/kde.py,sha256=Tn2NGBckKFS9HsxpIVubUN1p6LY2zztCMjgg0Ao0Lrc,12141
+margarine/maf.py,sha256=ErduS7S4sd1CtQ4wXevM_D-KD-wBNWRQjvh041hTAN4,17329
+margarine/marginal_stats.py,sha256=BNYi3SIC20s0dBAkaYL3haHf9yiXOOX8g42n5zol1wU,6500
+margarine/processing.py,sha256=J0VSbrPW65HzBdLgDK3i9-j-d92zguHEXSqZvqwu32o,2437
+margarine-1.0.0.dist-info/LICENSE,sha256=oduGUFiJhotxF-YsaL46t7DFLGyWFx298CfjegPLH2U,1082
+margarine-1.0.0.dist-info/METADATA,sha256=fdtheMi33U080Ntgc4CMDKKSDGTBSPzacfMIDgBsjwA,6651
+margarine-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+margarine-1.0.0.dist-info/top_level.txt,sha256=s5iMj4joVFiIz0dz183y4YFjCeoSaDv5aQ85FOvt6bE,10
+margarine-1.0.0.dist-info/RECORD,,
