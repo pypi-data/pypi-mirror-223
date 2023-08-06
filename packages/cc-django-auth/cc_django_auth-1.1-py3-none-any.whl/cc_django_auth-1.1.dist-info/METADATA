@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cc-django-auth
+Version: 1.1
+Summary: CircleChess Auth Service
+Home-page: UNKNOWN
+Author: Kumar Gaurav
+Author-email: gaurav@circlechess.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Django (>=3.2)
+
+UNKNOWN
+
+
