@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Epiverse
+Version: 0.0.1
+Summary: EpiVerse: A single pipeline for exploring the entire epigenomics universe
+Keywords: bioinformatics,deep-learning,single-cell,ATAC-seq
+Author-email: Lei Hu <1157269262@qq.com>, Zehua Zeng <starlitnightly@163.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: omicverse>=1.4.13
+Requires-Dist: muon>=0.1
+Project-URL: Github, https://github.com/DBinary/Epiverse
+
+Epiverse is the fundamental package for single cell Assay for Transposase-Accessible Chromatin using sequencing (scATAC-seq) with Python. This package is in development, and is not yet ready for use.
+
