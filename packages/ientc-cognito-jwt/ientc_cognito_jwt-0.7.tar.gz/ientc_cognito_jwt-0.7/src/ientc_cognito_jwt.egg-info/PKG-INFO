@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ientc-cognito-jwt
+Version: 0.7
+Summary: A JWT utilities package for IENTC
+Home-page: https://ientc.com
+Author: Jesús Cota
+Author-email: cota@ientc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# ientc-jwt-utils
+
+Package to share JWT validations using AWS Cognito Idp as backend service.
+
+## License
+
+This project is licensed under the terms of the MIT license.
+
+
