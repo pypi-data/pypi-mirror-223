@@ -1,0 +1,8 @@
+_config_group_: /tokenizer/tagger
+_config_name_: nltk
+lemmatize: false
+stem: true
+lemmatizer:
+  _target_: nltk.stem.WordNetLemmatizer
+stemmer:
+  _target_: nltk.stem.PorterStemmer
