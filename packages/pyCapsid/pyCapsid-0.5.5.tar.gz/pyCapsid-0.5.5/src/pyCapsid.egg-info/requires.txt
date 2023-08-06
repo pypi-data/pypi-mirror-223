@@ -1,0 +1,10 @@
+biotite
+scikit-learn
+numpy
+scipy
+matplotlib
+pillow
+numba>=0.57
+statsmodels
+toml
+markdown
