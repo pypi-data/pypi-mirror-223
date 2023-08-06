@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gymnasium_trading/__init__.py
+gymnasium_trading/gym_trading.py
+gymnasium_trading.egg-info/PKG-INFO
+gymnasium_trading.egg-info/SOURCES.txt
+gymnasium_trading.egg-info/dependency_links.txt
+gymnasium_trading.egg-info/requires.txt
+gymnasium_trading.egg-info/top_level.txt

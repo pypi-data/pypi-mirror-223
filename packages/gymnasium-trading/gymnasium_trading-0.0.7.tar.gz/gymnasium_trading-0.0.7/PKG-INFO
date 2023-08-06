@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gymnasium_trading
+Version: 0.0.7
+Summary: Gimnasium environment focus on trading strategies
+Home-page: https://github.com/archocron/gymnasium-trading
+Download-URL: https://github.com/archocron/gymnasium-trading/archive/refs/tags/0.0.7.tar.gz
+Author: Alejandro Rioja Chocrón
+Author-email: archocron@gmail.com
+License: gpl-3.0
+License-File: LICENSE
