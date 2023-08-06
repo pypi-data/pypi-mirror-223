@@ -1,0 +1,16 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+randomandroidphone/README.MD
+randomandroidphone/__init__.py
+randomandroidphone/phonecodescountry.pkl
+randomandroidphone/phoneswithtac.pkl
+randomandroidphone/requirements.txt
+randomandroidphone/thirdparty.json
+randomandroidphone.egg-info/PKG-INFO
+randomandroidphone.egg-info/SOURCES.txt
+randomandroidphone.egg-info/dependency_links.txt
+randomandroidphone.egg-info/requires.txt
+randomandroidphone.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+include randomandroidphone/requirements.txt
+include randomandroidphone/thirdparty.json
+include randomandroidphone/README.MD
+include randomandroidphone/phonecodescountry.pkl
+include randomandroidphone/phoneswithtac.pkl
