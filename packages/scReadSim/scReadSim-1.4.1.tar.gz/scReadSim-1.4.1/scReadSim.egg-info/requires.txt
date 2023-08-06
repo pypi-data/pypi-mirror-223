@@ -1,0 +1,9 @@
+numpy
+pandas
+pysam
+tqdm
+joblib
+pathlib
+Bio
+gffpandas
+rpy2
