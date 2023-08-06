@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.13.9
+------
+
+* Inline tests and distribute with package (#552)
