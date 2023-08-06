@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pyella-rs
+Version: 0.1.5
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyarrow >=12.0.0
+Summary: Python bindings for the ella datastore.
+Author: Dexter Duckworth <dexterduck@users.noreply.github.com>
+Author-email: Dexter Duckworth <dexterduck@users.noreply.github.com>
+License: MIT OR Apache-2.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/CerebusOSS/ella
+Project-URL: Changelog, https://github.com/CerebusOSS/ella/blob/main/CHANGELOG.md
+
+# pyella-rs
+
+[![PyPI](https://img.shields.io/pypi/v/pyella-rs?style=for-the-badge)](https://pypi.org/project/pyella-rs/)
+![PyPI - License](https://img.shields.io/pypi/l/pyella-rs?style=for-the-badge)
+
+Python bindings for the ella datastore.
+
+## Installation
+
+You can install `pyella-rs` from PyPI using pip:
+
+```shell
+python -m pip install pyella-rs
+```
+
+
