@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ndokta
+Version: 0.0.2
+Summary: Notre Dame Okta
+Home-page: UNKNOWN
+Author: Ken Marciniak
+Author-email: kmarcini@nd.edu
+License: UNKNOWN
+Keywords: python,okta,Notre Dame
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: requests
+Requires-Dist: urllib3 (<=1.27)
+Requires-Dist: boto3
+Requires-Dist: botocore
+
+Wrapper calls for Okta API specific to Notre Dame
+
