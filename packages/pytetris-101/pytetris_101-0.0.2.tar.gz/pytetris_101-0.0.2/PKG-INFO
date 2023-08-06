@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pytetris-101
+Version: 0.0.2
+Summary: 
+Author: Sergey Royz
+Author-email: zjor.se@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: textual (>=0.30.0,<0.31.0)
+Description-Content-Type: text/markdown
+
+# PyTetris
+
+An implementation of Tetris with [textual.textualize.io](https://textual.textualize.io/) library.
+The game is played in a terminal.
+
+## Controls
+
+```
+a - move left
+d - move right
+w - rotate counter clockwise
+s - rotate clockwise
+l - move down
+space - restart the game after the game is over
+Ctrl+C - exit
+```
