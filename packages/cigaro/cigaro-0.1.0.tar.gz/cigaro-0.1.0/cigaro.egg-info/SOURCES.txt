@@ -1,0 +1,6 @@
+README.md
+setup.py
+cigaro.egg-info/PKG-INFO
+cigaro.egg-info/SOURCES.txt
+cigaro.egg-info/dependency_links.txt
+cigaro.egg-info/top_level.txt

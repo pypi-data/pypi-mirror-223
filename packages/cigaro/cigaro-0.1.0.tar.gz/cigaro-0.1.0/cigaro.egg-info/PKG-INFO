@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: cigaro
+Version: 0.1.0
+Summary: A Python library for wrapping binary command tools
+Home-page: https://github.com/Malwarize/cigaro
+Author: XORbit
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
