@@ -1,0 +1,7 @@
+llm>=0.5
+cohere
+fastavro==1.8.2
+
+[test]
+pytest
+pytest-asyncio
