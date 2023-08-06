@@ -1,0 +1,11 @@
+pose_labelbox/__init__.py,sha256=AWwmI2seYXcQhdwSWYbLsOi9kStQvoAGf-MyjO7ED3k,626
+pose_labelbox/alphapose.py,sha256=wu7fJXQWQkYNdM5isWu7_CGxouaUKyF6FzCoP5s6zRE,9482
+pose_labelbox/core.py,sha256=mBlS4qZQjOT4EaD3q8-lbBSh_xbPZBvuPA9HBEVaoXw,19668
+pose_labelbox/labelbox.py,sha256=4hCauyij4XadwuYfqY8hmHJUtj-EchdVUeLc-GgTouw,17750
+pose_labelbox/overlay.py,sha256=Kv8_W0VpL5fVCvKq2H83zgeO81MMkVEKhReh_k1-zk0,16788
+pose_labelbox/process_video.py,sha256=hdTLyq6EHsPJPjClU4i83mZa-1FY519sbBn58mWTFok,5427
+pose_labelbox/utils.py,sha256=jmLdAvZ9nk88GaVv-Ox7IrATdUe9RbB4jwFxsBTxOr8,591
+wf_pose_labelbox-0.2.0.dist-info/LICENSE,sha256=VV4EHqsjRsZIw9RC6SYL63Tm9kzPQsYaZn7a1cT9X3w,1088
+wf_pose_labelbox-0.2.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+wf_pose_labelbox-0.2.0.dist-info/METADATA,sha256=Jgzivgehpb_p3RgGNdlv-4aKtui4mzIVRR-0nmPg9FE,1766
+wf_pose_labelbox-0.2.0.dist-info/RECORD,,
