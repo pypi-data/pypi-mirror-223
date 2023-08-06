@@ -1,0 +1,16 @@
+mypy_upgrade/__about__.py,sha256=Pt-e39pT1luCQbzChedhWenmJpnqm8LRCLsZr0xwslA,137
+mypy_upgrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_upgrade/__main__.py,sha256=gPGTi2rBYYIZuaHo_2eh2oaai8Q11U39sOkhegrwXGE,73
+mypy_upgrade/cli.py,sha256=hLHQWEk38SZIzFcI_8MtHRwH4UKWwVxQ9B12aQiiWqo,5132
+mypy_upgrade/editing.py,sha256=4tw2XWmxzHdcl1vN3a073UIDZzTQQIp64dbbe5kIkC0,3353
+mypy_upgrade/filter.py,sha256=B0ajq26JAQLwZePqs_xLZb1SKko20pUTzW8pL8KflKg,2689
+mypy_upgrade/parsing.py,sha256=Kdx3uHAZ61DSGcqtZi8nxTES4vDeAvVLEqjMSddud-I,2019
+mypy_upgrade/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_upgrade/silence.py,sha256=qQLrd7flcEJmKvdC-m7_859oKJyBjnJTlPA3jwomwFk,2024
+mypy_upgrade/utils.py,sha256=ubcSLWRW9mXlAXNRkJxQWVEZe7GGITTjlZICkJ-i1i4,2414
+mypy_upgrade-0.0.1a3.dist-info/METADATA,sha256=IEwND7wuyLE94vWPdLC_9FICu3Qs1fVP7OCOp8TQGD8,6656
+mypy_upgrade-0.0.1a3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mypy_upgrade-0.0.1a3.dist-info/entry_points.txt,sha256=rfLh9Fixck29BVhT62fI6K_EKdkLCs0MSA8cm9AWa4Q,55
+mypy_upgrade-0.0.1a3.dist-info/licenses/AUTHORS.md,sha256=K8R91DQil-AZi2E_g-A-lx5vH0B4yoejzNPRpu-THiw,49
+mypy_upgrade-0.0.1a3.dist-info/licenses/LICENSE.txt,sha256=2aquB-YVqjqFXflyRuvYl-u7ecmviaFj92KiJ5S9BnQ,1099
+mypy_upgrade-0.0.1a3.dist-info/RECORD,,
