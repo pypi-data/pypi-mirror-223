@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: BeyotekTools
+Version: 0.0.12
+Summary: BeyotekTools
+Home-page: http://beyotek.com
+Author: Beyotek Inc
+Author-email: chuck@beyotek.com
+License: MIT
+Keywords: scraping
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
