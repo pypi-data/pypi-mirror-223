@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: artistlib
+Version: 0.0.5
+Summary: aRTist Python library
+Home-page: https://github.com/BAMresearch/aRTist-PythonLib
+Author: Carsten Bellon
+Author-email: Carsten.Bellon@bam.de
+License: Apache 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# PythonLib aRTist
+
+Python library and scripts to control the BAM X-ray simulation tool "aRTist" remotely and automatically.
+
+Please refer to the **[documentation](https://bamresearch.github.io/aRTist-PythonLib/)** to get started.
+
+For more information on aRTist see its **[website](https://www.artist.bam.de)** and its **[online guide](https://bamresearch.github.io/aRTist-handbook/)**.

@@ -1,0 +1,9 @@
+artistlib/__init__.py,sha256=6MXcQdgqMqlnLBmTT2VGFevW-HKlUolw2lAkOlhDez0,4701
+artistlib/_version.py,sha256=mAvKbSmve51S_VJI_2Je3sWlEyIowoJQmfKRZ3EVNyc,518
+artistlib/console.py,sha256=Oiel09P3vOWOodHytlvPAvQVBWdbMJB63Tv-wqbD_zY,195
+artistlib/remote_access.py,sha256=UO4ConJ_eYYBzkMyKWBAU6Wm8bR0DaGDqvL0Pxogmeg,1528
+artistlib-0.0.5.dist-info/LICENSE.md,sha256=m6rRgA2NwkL3ec4vp_OztmHZMBjKAiDvLebADB4vQmQ,1128
+artistlib-0.0.5.dist-info/METADATA,sha256=0Y8GpiwY2C9br0FhLzKmd8WcvEKSdbQwDMEBnCPqSxw,964
+artistlib-0.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+artistlib-0.0.5.dist-info/top_level.txt,sha256=7VvmhVunoY1Ec1zQ0ozd4pO6dyOLB1Ll34I6a8L57O4,10
+artistlib-0.0.5.dist-info/RECORD,,
