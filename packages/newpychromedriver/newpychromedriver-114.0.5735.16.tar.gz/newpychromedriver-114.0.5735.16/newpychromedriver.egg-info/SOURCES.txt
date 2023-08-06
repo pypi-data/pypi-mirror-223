@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+VERSION.txt
+setup.py
+newpychromedriver/__init__.py
+newpychromedriver.egg-info/PKG-INFO
+newpychromedriver.egg-info/SOURCES.txt
+newpychromedriver.egg-info/dependency_links.txt
+newpychromedriver.egg-info/not-zip-safe
+newpychromedriver.egg-info/top_level.txt
