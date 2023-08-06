@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: exopropred
+Version: 1.0
+Summary: A tool to predict the subcellular localisation of exosomal proteins
+Home-page: https://github.com/raghavagps/exopropred
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# **ExoProPred**
+A computational approach to predict the subcellular localisation of exosomal proteins using the sequence information of the proteins.
+## Introduction
+ExoProPred is a web server to predict exosomal proteins based on a hybrid model that combines a machine learning model with a motif-search approach. The models are trained on a dataset comprising 2831 exosomal proteins and 2831 non-exosomal proteins. The performance of the models was evaluated using 5-fold cross-validation. The models were trained on the top 70 best features comprising of composition-based and evolutionary information-based features as well as on hybrid features(Top 70 features + Motif-search) by implementing a random-forest classifier from the scikit library of Python. In the standalone version, a random-forest classifier-based model is implemented along with the motif search using the MERCI tool, named as hybrid approach.
+ExoProPred is also available as a web server at https://webs.iiitd.edu.in/raghava/exopropred. Please read/cite the content about the ExoProPred for complete information, including the algorithm behind the approach.
+
+## Standalone
+The Standalone version of transfacpred is written in python3, and the following libraries are necessary for the successful run:
+- scikit-learn
+- Pandas
+- Numpy
+
+## Minimum USAGE
+To know about the available option for the standalone, type the following command:
+```
+python3 exopropred.py -h
+```
+To run the example, type the following command:
+```
+python3 exopropred.py -i example_input.fa
+```
+This will predict if the submitted sequences are exosomal proteins or non-exosomal proteins. It will use other parameters by default. It will save the output in "outfile.csv" in CSV (comma separated variables).
+
+## Full Usage
+```
+usage: exopropred.py [-h] -i INPUT [-o OUTPUT] [-m {1,2}] [-t THRESHOLD]
+                     [-d {1,2}]
+```
+```
+Please provide the following arguments
+
+Optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUT, --input INPUT
+                        Input: protein or peptide sequence(s) in FASTA format
+                        or single sequence per line in single letter code
+  -o OUTPUT, --output OUTPUT
+                        Output: File for saving results by default outfile.csv
+  -m {1,2}, --model {1,2}
+                        Model Type: 1: Composition-based model, 2: Hybrid
+                        Model, by default 1
+  -t THRESHOLD, --threshold THRESHOLD
+                        Threshold: Value between 0 to 1 by default 0.51
+  -d {1,2}, --display {1,2}
+                        Display: 1:Exosomal Proteins only, 2: All Proteins, by
+                        default 1
+```
+
+**Input File:** It allows users to provide input in the FASTA format.
+
+**Output File:** Program will save the results in the CSV format; in case the user do not provide the output file name, it will be stored in "outfile.csv".
+
+**Threshold:** User should provide a threshold between 0 and 1; by default its 0.51.
+
+**Model:** User is allowed to choose between two different models, such as 1 for the composition-based model, and 2 for the hybrid model; by default its 1.
+
+**Display type:** This option allow users to fetch either only exosomal proteins by choosing option 1 or prediction against all proteins by choosing option 2.
+
+ExoProPred Package Files
+=========================
+It contain the following files, brief descript of these files is given below
+
+INSTALLATION                              : Installations instructions
+
+LICENSE                                   : License information
+
+README.md                                 : This file provides information about this package
+
+model.zip                                 : This zipped file contains the compressed version of the model
+
+envfile                                   : This file comprises paths for the PSI-BLAST, MERCI_motif_locator.pl, Motifs, and Swiss-Prot database.
+
+exopropred.py                             : Main Python program
+
+MERCI_motif_locator.pl                    : Perl script for locating motifs using MERCI
+
+swissprot                                 : Swiss-Prot database for calculating PSSM profile
+
+motifs                                    : Folder containing the motif files
+
+extra                                      : Folder containing the Python scripts for PSSM-based composition features
+
+Data                                      : Folder containing the files to calculate the features using Pfeature
+
+example_input.fa                          : Example file contain peptide sequences in FASTA format
+
+example_composition_model_output.csv      : Example output file for composition-based model
+
+example_hybrid_model_output.csv           : Example output file for the hybrid model
