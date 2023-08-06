@@ -1,0 +1,14 @@
+SPCEj9bbotw/__init__.py,sha256=EB9DyTToWSoy4KCHBfld38ih_yZLi4K-ek_mp2BKCsg,25
+SPCEj9bbotw/functions/Jsparse.py,sha256=Xqw12XyPJOxSbaGWSHD_wi53koGXDx7tEoN9FlXEkhY,1999
+SPCEj9bbotw/functions/_.py,sha256=QktrFebjXAVkbA1i2Eb1n-jof4lOQm8t4lKn8MY7HQA,3024
+SPCEj9bbotw/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SPCEj9bbotw/functions/_matrix.py,sha256=tqvjb9Ca9xcx3mfP70UFMCGSaazKeeOnCwFJVEJViyw,3025
+SPCEj9bbotw/functions/_plot.py,sha256=uyE_9bH_by-2G7gpy_SdfWe3Zuas_Y2KTR7Xl33KOVY,3997
+SPCEj9bbotw/optimizer/__init__.py,sha256=JcbgVW_b83CY_7qHzUE3welaRDBNx5CBrtPG3tuTWVI,206
+SPCEj9bbotw/optimizer/kernels.py,sha256=NZd_qg0KDga39szaaHc1qCOWLBCqK-V8ZePH5QbopkE,9055
+SPCEj9bbotw/optimizer/optimizer.py,sha256=4MpKQwx8IluKE0gxgURDkke6W5oKNI7eI-0aX7qnEGU,6764
+SPCEj9bbotw/optimizer/optimizer_matrix.py,sha256=q11p8ODM2aA4Zc7xEGyOfSUiqyF6_ofKB4ZHaBhgHZA,7362
+SPCEj9bbotw-0.1.2.dist-info/METADATA,sha256=sahudAGhyNckuTmcY8n8rfNooUeVCCZ_eBKh0iqtmzE,56
+SPCEj9bbotw-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SPCEj9bbotw-0.1.2.dist-info/top_level.txt,sha256=iUJTPZ1c2_wPZKUzqAJqPSvryZBG-haQ7luYgfq-y88,12
+SPCEj9bbotw-0.1.2.dist-info/RECORD,,
