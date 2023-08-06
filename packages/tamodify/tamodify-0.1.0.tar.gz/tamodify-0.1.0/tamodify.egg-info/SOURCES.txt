@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/tajk_data.c
+src/tajk_data.h
+src/tajk_modify.c
+src/tajk_modify.h
+src/tamodify.c
+tamodify.egg-info/PKG-INFO
+tamodify.egg-info/SOURCES.txt
+tamodify.egg-info/dependency_links.txt
+tamodify.egg-info/not-zip-safe
+tamodify.egg-info/top_level.txt
