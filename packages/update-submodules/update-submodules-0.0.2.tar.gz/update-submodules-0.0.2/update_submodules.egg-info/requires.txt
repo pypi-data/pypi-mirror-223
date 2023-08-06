@@ -1,0 +1,5 @@
+click
+GitPython
+pygithub
+requests
+utz[git]>=0.4.1
