@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_redis_session/__init__.py
+django_redis_session/redis_server.py
+django_redis_session/session_store.py
+django_redis_session/tests.py
+django_redis_session.egg-info/PKG-INFO
+django_redis_session.egg-info/SOURCES.txt
+django_redis_session.egg-info/dependency_links.txt
+django_redis_session.egg-info/requires.txt
+django_redis_session.egg-info/top_level.txt
