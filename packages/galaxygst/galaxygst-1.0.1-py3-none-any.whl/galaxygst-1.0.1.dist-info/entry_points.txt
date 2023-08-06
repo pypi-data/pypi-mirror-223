@@ -1,0 +1,2 @@
+[console_scripts]
+galaxygst = galaxygst.__main__:main
