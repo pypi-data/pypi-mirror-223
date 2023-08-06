@@ -1,0 +1,3 @@
+[console_scripts]
+qrcode=barcodes_uc.qrcodes.__main__:main
+
