@@ -1,0 +1,26 @@
+jsonschema==4.17.*
+matplotlib==3.7.*
+pyyaml==6.0.*
+seaborn==0.12.*
+tf2onnx==1.14.*
+tqdm==4.65.*
+numpy==1.23.*
+onnxruntime==1.15.*
+pandas==2.0.*
+tables==3.8.*
+tensorflow==2.12.*
+tensorflow-io==0.27.*
+tensorflow-model-optimization==0.7.*
+tensorflow-probability==0.20.*
+typeguard==2.7.*
+scikit-learn==1.2.*
+
+[:platform_system == "Windows"]
+pythonnet==3.0.*
+
+[dev]
+flake8
+flake8-quotes
+coverage
+ipykernel
+tabulate
