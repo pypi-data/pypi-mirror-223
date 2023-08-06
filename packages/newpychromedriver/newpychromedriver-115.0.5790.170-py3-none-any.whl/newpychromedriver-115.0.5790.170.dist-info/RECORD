@@ -1,0 +1,16 @@
+newpychromedriver/__init__.py,sha256=ifvKT-tt7Ll-EpSQHtlB8esuV9za-CvIOlMLIc56Tog,1774
+newpychromedriver/chromedriver-linux64/LICENSE.chromedriver,sha256=lrqVGKdYDawWwkObgWx101lRawC-RyjmP66ccZXTBw0,280041
+newpychromedriver/chromedriver-linux64/chromedriver,sha256=ChlOZPQ5YF5ys5uS3IUmMJgL5uzy6-XuA-dDAWUSUDw,13543136
+newpychromedriver/chromedriver-mac-arm64/LICENSE.chromedriver,sha256=ZzzMJtPb6p7D3vcfPGlOUQ0uoETb4PjycVBQPE7Yu9U,239464
+newpychromedriver/chromedriver-mac-arm64/chromedriver,sha256=msJxEPSLRtsGEPYWMQVO8B9r5Kn7lNYdsea_xFKlqqw,15661456
+newpychromedriver/chromedriver-mac-x64/LICENSE.chromedriver,sha256=ZzzMJtPb6p7D3vcfPGlOUQ0uoETb4PjycVBQPE7Yu9U,239464
+newpychromedriver/chromedriver-mac-x64/chromedriver,sha256=gLKEC9qVZX5_ZRE12whRt40V1l_gRlaNyZB6PbUwPvQ,17100888
+newpychromedriver/chromedriver-win32/LICENSE.chromedriver,sha256=_txtGrGwecxuSOmp7Sqt7eNFBTgZI4Jagmn-fsYeMhA,201054
+newpychromedriver/chromedriver-win32/chromedriver.exe,sha256=RdWmdJq4cKhfSlTeWEtlUJsWmAg0icXuKk8wm784XHw,12311552
+newpychromedriver/chromedriver-win64/LICENSE.chromedriver,sha256=_txtGrGwecxuSOmp7Sqt7eNFBTgZI4Jagmn-fsYeMhA,201054
+newpychromedriver/chromedriver-win64/chromedriver.exe,sha256=OmuINnuRa-qqULH_TUEdJW-BtAAMf8dUtDogvHKzNO4,14225408
+newpychromedriver-115.0.5790.170.dist-info/LICENSE,sha256=Zt-9nMkyDN7DRrlbVroE5v0pPV3dBe_TLw7qDH5RkcA,11561
+newpychromedriver-115.0.5790.170.dist-info/METADATA,sha256=tWchxJwkvjvcCP66U0oLKhB9c5o1ATelic-77fmPwEQ,884
+newpychromedriver-115.0.5790.170.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+newpychromedriver-115.0.5790.170.dist-info/top_level.txt,sha256=Ul4wi0SN0JV1dIdkZqIruInaUqOLZjLlg2_z3PcPhhw,18
+newpychromedriver-115.0.5790.170.dist-info/RECORD,,
