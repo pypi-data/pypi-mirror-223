@@ -1,0 +1,6 @@
+flask
+flask-cors
+newspaper3k
+nltk
+feedparser
+pydantic
