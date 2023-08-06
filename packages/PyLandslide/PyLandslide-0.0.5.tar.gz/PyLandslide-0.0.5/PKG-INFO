@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: PyLandslide
+Version: 0.0.5
+Summary: Tools for landslide hazard uncertainty analysis.
+Home-page: https://github.com/IERRG/PyLandslide
+Author: Mohammed Basheer
+Author-email: mohammedadamabbaker@gmail.com
+License: GNU
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pylandslide
+
+
+## Installation
+
+1. pip install PyLandslide
+
+Install landlev
+```bash
+python setup.py install
+```
