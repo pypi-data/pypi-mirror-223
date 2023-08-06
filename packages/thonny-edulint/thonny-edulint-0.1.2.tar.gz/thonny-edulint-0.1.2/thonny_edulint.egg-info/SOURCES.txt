@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+thonny_edulint.egg-info/PKG-INFO
+thonny_edulint.egg-info/SOURCES.txt
+thonny_edulint.egg-info/dependency_links.txt
+thonny_edulint.egg-info/requires.txt
+thonny_edulint.egg-info/top_level.txt
+thonnycontrib/thonny-edulint/__init__.py
