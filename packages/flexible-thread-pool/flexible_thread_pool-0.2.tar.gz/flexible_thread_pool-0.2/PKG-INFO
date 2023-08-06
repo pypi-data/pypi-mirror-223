@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: flexible_thread_pool
+Version: 0.2
+Summary: flexible_thread_pool ，auto expand thread and reduce threads. both support sync and asyncio,fast than concurrent.futures.ThreadpoolExecutor
+Home-page: https://github.com/ydf0509/flexible_thread_pool
+Author: bfzs
+Author-email: ydf0509@sohu.com
+Maintainer: ydf
+Maintainer-email: ydf0509@sohu.com
+License: BSD License
+Keywords: thread pool,async,asyncio,auto scala,flexible_thread_pool
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+# 1. flexible_thread_pool
+
+flexible_thread_pool ，auto expand thread and reduce threads. both support sync and asyncio,fast than concurrent.futures.ThreadpoolExecutor
+
+可扩大和自动缩小的线程池，比 threadpool_executor_shrink_able 实现更简单的线程池，性能超过 concurrent.futures.ThreadpoolExecutor 200%
+
+另一个本人实现的可自动扩大和缩小的线程池： https://github.com/ydf0509/threadpool_executor_shrink_able
+
+
+说明：
+此线程池支持submit 方法，但不支持Future特性，只支持简单粗暴的submit自动并发执行。
+
+## 1.2 flexible_thread_pool 性能说明
+
+在 win11 + r5 4600u 这个很差的cpu 前提下， 单核单进程测试下，每秒执行2万次 def f(): pass    函数。
+
+
+# 2. 安装
+pip install flexible_thread_pool
+
+
+# 3 用法
+
+FlexibleThreadPool 能够支持同步函数和asyncio异步函数的并发执行。
+
+```python
+import asyncio
+import time
+from flexible_thread_pool import FlexibleThreadPool
+
+
+def testf(x):
+    time.sleep(10)
+    if x % 10000 == 0:
+        print(x)
+
+
+async def aiotestf(x):
+    await asyncio.sleep(1)
+    if x % 10 == 0:
+        print(x)
+    return x * 2
+
+
+pool = FlexibleThreadPool(100)
+# pool = ThreadPoolExecutor(100)
+
+for i in range(20000):
+    # time.sleep(2)
+    pool.submit(aiotestf, i)
+```
+
+
+
