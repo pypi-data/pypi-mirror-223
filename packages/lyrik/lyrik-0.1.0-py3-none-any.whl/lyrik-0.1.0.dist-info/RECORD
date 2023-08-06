@@ -1,0 +1,15 @@
+lyrik/__init__.py,sha256=Vuc49FEA2H5SeU6kcNnWIUhZhPLR1C5hBXfhNTMiEG8,160
+lyrik/__main__.py,sha256=CF8WLbCXaJJuXgvmrRkS39xDVEZa3WE13wW-3BAdwY8,633
+lyrik/src/adaptor.py,sha256=WFNj9uX5TspjZsH4ktINjhgYR7RL-z0pYrBAJd0PUB8,377
+lyrik/src/dbus_adaptor.py,sha256=KrIuMrJBeO_uoxbZievza4JTPu-b5dhq9BaPQ85-ohs,2149
+lyrik/src/interface_manager.py,sha256=SuEQMX0Ur-RZCTntN1maayIWif72MM3_VDifOsCQT7Y,3270
+lyrik/src/lyrickrc.toml,sha256=0FK8nsIJWWkku3gdXQl7wSXtmX7Fel_Z8BrfBhAEbfU,135
+lyrik/src/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lyrik/src/main_application.py,sha256=Use8-ujzLA8xmbh3nWE5uZZOaa7byj2D1XIVtiCJiFE,31
+lyrik/src/mpris_watcher.py,sha256=a8s7jA3f4vSfLYJlq-K6ztXCmnlR5k8BrioiTSQ1PnU,10753
+lyrik/src/netease_music_interface.py,sha256=HSs_IqdTJDxEqN60vZRT4jqNnZbVAuJaW0ULkluBBfA,3329
+lyrik/src/netwrok_interface.py,sha256=pfBhF-5m5VPeZDWtQz1b2h5BqzVUD8wS0TdETe_nRT0,1518
+lyrik-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+lyrik-0.1.0.dist-info/METADATA,sha256=lomuHNih_Jv7JkzsFG3zNjIl8jwH6eiHg0BiS0PSC9E,3929
+lyrik-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+lyrik-0.1.0.dist-info/RECORD,,
