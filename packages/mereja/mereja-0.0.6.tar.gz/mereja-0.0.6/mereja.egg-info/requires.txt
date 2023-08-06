@@ -1,0 +1,9 @@
+rich
+textual
+markdownify
+qrcode
+questionary
+pyEthioJobs
+pyEthioNews
+jiji
+telebirrTxChecker
