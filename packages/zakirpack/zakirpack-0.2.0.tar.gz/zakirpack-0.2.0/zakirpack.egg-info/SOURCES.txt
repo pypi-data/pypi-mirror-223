@@ -1,0 +1,11 @@
+setup.py
+zakirpack/__init__.py
+zakirpack.egg-info/PKG-INFO
+zakirpack.egg-info/SOURCES.txt
+zakirpack.egg-info/dependency_links.txt
+zakirpack.egg-info/top_level.txt
+zakirpack/py310/eCon.pyd
+zakirpack/py36/eCon.pyd
+zakirpack/py37/eCon.pyd
+zakirpack/py38/eCon.pyd
+zakirpack/py39/eCon.pyd
