@@ -1,0 +1,6 @@
+setup.py
+my_module123/__init__.py
+my_module123.egg-info/PKG-INFO
+my_module123.egg-info/SOURCES.txt
+my_module123.egg-info/dependency_links.txt
+my_module123.egg-info/top_level.txt
