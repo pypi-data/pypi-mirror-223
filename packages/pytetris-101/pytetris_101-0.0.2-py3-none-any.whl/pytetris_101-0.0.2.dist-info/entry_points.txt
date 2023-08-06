@@ -1,0 +1,3 @@
+[console_scripts]
+demo-cli=src.tetris:main
+
