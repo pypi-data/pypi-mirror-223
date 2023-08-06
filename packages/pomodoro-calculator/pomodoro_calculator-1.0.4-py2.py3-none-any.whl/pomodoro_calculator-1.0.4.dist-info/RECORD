@@ -1,0 +1,10 @@
+pomodoro_calculator/__init__.py,sha256=8kUhCiE6pa5_4ydNVv1XKop_hP0Eh05LZeLMUg_JlC8,6013
+pomodoro_calculator/main.py,sha256=Rkh2vDfIOp2HeSExPRGwRgVyWKRbEZzm9la4Iun61Fk,4846
+pomodoro_calculator/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pomodoro_calculator/test/test_main.py,sha256=rt_l-yY5EgNpKTdap4lnDjOV9EmBOtyuuK-WN14shtM,12540
+pomodoro_calculator-1.0.4.dist-info/LICENCE,sha256=3MeMJDp3CKzRctuZaqHkTEa2r7WY3u6_IzFKiIOW7-g,745
+pomodoro_calculator-1.0.4.dist-info/METADATA,sha256=Gh8rGAXXJnRUW9YB_h_9cr0XkdVk2nhfO_pdCBgv5wM,3222
+pomodoro_calculator-1.0.4.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+pomodoro_calculator-1.0.4.dist-info/entry_points.txt,sha256=1XpnuZUGxjnc1Mq1yG0GaiAjj5qU0caWDxoBQ2npsVo,63
+pomodoro_calculator-1.0.4.dist-info/top_level.txt,sha256=MxQupqeaL3Ku8y5t1QJCnhsMjrO1cwE47POChbHkI0g,20
+pomodoro_calculator-1.0.4.dist-info/RECORD,,
