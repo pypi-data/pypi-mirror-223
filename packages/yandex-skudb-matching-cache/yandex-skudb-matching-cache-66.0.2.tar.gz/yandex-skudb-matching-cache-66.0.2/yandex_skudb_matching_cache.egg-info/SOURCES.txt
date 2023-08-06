@@ -1,0 +1,6 @@
+README.md
+setup.py
+yandex_skudb_matching_cache.egg-info/PKG-INFO
+yandex_skudb_matching_cache.egg-info/SOURCES.txt
+yandex_skudb_matching_cache.egg-info/dependency_links.txt
+yandex_skudb_matching_cache.egg-info/top_level.txt
