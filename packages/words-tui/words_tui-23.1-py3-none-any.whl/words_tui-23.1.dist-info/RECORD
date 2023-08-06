@@ -1,0 +1,14 @@
+words_tui/__about__.py,sha256=0KByT3oXXm4SOgOTOiCpvWfKsRgJyvWRzPebERxzKt8,122
+words_tui/__init__.py,sha256=b6taqPEJ1KJxDwpKbtiSXfuZLNMoLxsDpDlzrDm9060,101
+words_tui/__main__.py,sha256=VJmJdaMcNZGW-QfqtU46Z4bsDbYnMYdZsK5USMOKJco,207
+words_tui/cli/__init__.py,sha256=7RJoLsewTkpHqnRksQ_dcBuCeOLYiQL5KCyUylqrLFY,609
+words_tui/tui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+words_tui/tui/app.css,sha256=bY_85pEDydjWp4MOhq1mV73QCbMS0_GxwOC7v2dK1vw,103
+words_tui/tui/app.py,sha256=6eQ172h_Vsi0NQyrmO8X5afTShfy8svo3nLMga9xRWU,2301
+words_tui/tui/db.py,sha256=sHCuS5IasmCuuBJj9lI6ZPfkIXZOreN9KS30w1Jc7XU,564
+words_tui/tui/text_editor.py,sha256=duIceB5jbd9y1NBLkYh7Q-eJxAOr_ZGzO-CQ1rMki-4,48046
+words_tui-23.1.dist-info/METADATA,sha256=eNohUUDPnsP-fTd-NqZnIJCZR5ytxJyIc4iB7YP5iAk,2277
+words_tui-23.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+words_tui-23.1.dist-info/entry_points.txt,sha256=sjqxbOwunsl54VmncELKovb9QY8W9feESIJm5FkPO1g,54
+words_tui-23.1.dist-info/licenses/LICENSE.txt,sha256=W_TqC0HJzB0rn6QOIDZmpxpCmFFSHgDjVCoEWXPX300,1093
+words_tui-23.1.dist-info/RECORD,,
