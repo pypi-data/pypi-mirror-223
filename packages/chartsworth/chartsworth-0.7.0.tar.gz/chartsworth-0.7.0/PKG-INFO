@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chartsworth
+Version: 0.7.0
+Summary: 
+Author: Kyle Kelley
+Author-email: rgbkrk@gmail.com
+Requires-Python: >3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: chatlab[noteable] (==1.0.0a13)
+Requires-Dist: matplotlib (>=3.6)
+Requires-Dist: numpy (>=1.23)
+Requires-Dist: pillow (>=9.0)
+Requires-Dist: slack-sdk (>=3.21.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+
