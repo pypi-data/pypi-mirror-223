@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mlscholar"
+version = "0.0.0"
+description = "Search, explore and use ML models..."
+authors = ["altar31 <damien.sicard31@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.25.0"
+huggingface-hub = "^0.16.4"
+scikit-learn = "^1.3.0"
+streamlit-aggrid = "^0.3.4.post3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
