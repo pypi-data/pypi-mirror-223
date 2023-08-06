@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: hexchecker
+Version: 0.0.4
+Summary: OS Information Package
+Project-URL: Homepage, https://github.com/hexchecker9/hexchecker
+Project-URL: Bug Tracker, https://github.com/hexchecker9/hexchecker/issues
+Author-email: Mriana Camelia <hexchecker9@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# ✅ hexchecker
+
+Simple Python package to check if string is valid hexadecimal.  
+
+## 🚀 Usage
+
+```python
+from hexchecker import hexchecker, hexcheckerUpper, hexcheckerLower
+
+# Check invalid hexadecimal
+hexchecker('abcg7') # Returns False
+
+# Check valid hexadecimal
+hexchecker('aBcDeF1234567890') # Returns True
+
+# Check valid hexidecimal, ensuring that it is in uppercase
+hexcheckerUpper('ABCDEF') # Returns True
+hexcheckerUpper('abcdef') # Returns False
+
+# Check valid hexidecimal, ensuring that it is in lowercase
+hexcheckerLower('abcdef') # Returns True
+hexcheckerLower('ABCDEF') # Returns False
+```
+
+## 📦 Installation
+
+Run the following to install:  
+
+```bash
+$ pip install hexchecker
+```
+
+## 👨‍💻 Developing hexchecker
+
+To install hexchecker, along with the tools you will need to develop and run tests, run the following in your virtualenv:  
+
+```bash
+$ pip install -e .[dev]
+```
+
+## 🚦 Development Progress
+
+Stable Development

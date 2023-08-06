@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hexchecker"
+version = "0.0.4"
+authors = [
+  { name="Mriana Camelia", email="hexchecker9@gmail.com" },
+]
+description = "OS Information Package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hexchecker9/hexchecker"
+"Bug Tracker" = "https://github.com/hexchecker9/hexchecker/issues"
