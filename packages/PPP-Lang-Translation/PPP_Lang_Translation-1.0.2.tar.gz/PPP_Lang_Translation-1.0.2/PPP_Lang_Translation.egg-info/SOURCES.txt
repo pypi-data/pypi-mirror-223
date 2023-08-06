@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.py
+PPP_Lang_Translation/Language.py
+PPP_Lang_Translation/PPP_Lang_Translation.py
+PPP_Lang_Translation/__init__.py
+PPP_Lang_Translation.egg-info/PKG-INFO
+PPP_Lang_Translation.egg-info/SOURCES.txt
+PPP_Lang_Translation.egg-info/dependency_links.txt
+PPP_Lang_Translation.egg-info/requires.txt
+PPP_Lang_Translation.egg-info/top_level.txt
