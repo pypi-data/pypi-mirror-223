@@ -1,0 +1,18 @@
+from contextlib import contextmanager
+from bolt_expressions import Data, Scoreboard
+
+from ./objectives import temp_obj, temp_data
+from ./path import child
+
+@contextmanager
+def loop(input, reverse=True, path=child("loop")):
+    index = 0
+    if reverse:
+        index = -1
+    temp_data.loop = input
+    store result score $loop temp_obj if data var temp_data.loop[]
+    execute function path:
+        yield temp_data.loop[index]
+        temp_data.loop.remove(index)
+        temp_obj["$loop"] -= 1
+        if score $loop temp_obj matches 1.. function path
