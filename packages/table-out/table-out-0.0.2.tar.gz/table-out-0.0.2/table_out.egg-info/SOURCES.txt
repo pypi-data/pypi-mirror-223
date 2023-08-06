@@ -1,0 +1,7 @@
+setup.py
+src/__init__.py
+src/create_table.py
+table_out.egg-info/PKG-INFO
+table_out.egg-info/SOURCES.txt
+table_out.egg-info/dependency_links.txt
+table_out.egg-info/top_level.txt
