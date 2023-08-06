@@ -1,0 +1,2 @@
+[console_scripts]
+findbook = findbook.findbook:main
