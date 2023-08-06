@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: typedhtml
+Version: 0.2.17
+Summary: A simple wrapper around https://pypi.org/project/dominate/ That adds Type Hints and other goodies.
+Author: g5becks
+Author-email: techstar.dev@hotmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dominate (>=2.8.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+
