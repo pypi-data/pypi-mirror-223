@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+src/pxuploaderapi/__init__.py
+src/pxuploaderapi.egg-info/PKG-INFO
+src/pxuploaderapi.egg-info/SOURCES.txt
+src/pxuploaderapi.egg-info/dependency_links.txt
+src/pxuploaderapi.egg-info/top_level.txt
