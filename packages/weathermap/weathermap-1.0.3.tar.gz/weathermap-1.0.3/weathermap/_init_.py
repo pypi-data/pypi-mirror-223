@@ -1,0 +1,1 @@
+from weathermap import *
