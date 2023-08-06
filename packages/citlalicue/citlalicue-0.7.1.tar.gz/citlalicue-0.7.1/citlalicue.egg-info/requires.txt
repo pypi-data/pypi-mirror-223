@@ -1,0 +1,9 @@
+numpy
+matplotlib
+scipy
+pytransit
+george
+emcee
+celerite
+corner
+lightkurve
