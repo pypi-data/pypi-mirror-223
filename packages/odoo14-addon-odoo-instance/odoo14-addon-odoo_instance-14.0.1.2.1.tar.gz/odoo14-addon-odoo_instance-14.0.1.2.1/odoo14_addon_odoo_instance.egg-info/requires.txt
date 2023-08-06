@@ -1,0 +1,4 @@
+odoo14-addon-contract
+odoo14-addon-queue_job
+odoo<14.1dev,>=14.0a
+pyyaml
