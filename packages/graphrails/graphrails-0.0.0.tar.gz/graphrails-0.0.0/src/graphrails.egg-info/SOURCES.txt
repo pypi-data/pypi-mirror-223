@@ -1,0 +1,13 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/graphrails/__init__.py
+src/graphrails/skeleton.py
+src/graphrails.egg-info/PKG-INFO
+src/graphrails.egg-info/SOURCES.txt
+src/graphrails.egg-info/dependency_links.txt
+src/graphrails.egg-info/not-zip-safe
+src/graphrails.egg-info/requires.txt
+src/graphrails.egg-info/top_level.txt
