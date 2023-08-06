@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "skimpy-ext"
+version = "0.1.0"
+description = ""
+authors = ["Luba <luciano.eq@outlook.com>"]
+readme = "README.md"
+packages = [{include = "skimpy_ext"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^0.18.12"
+rich = "13.3.5"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "3.3.2"
+isort = "5.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
