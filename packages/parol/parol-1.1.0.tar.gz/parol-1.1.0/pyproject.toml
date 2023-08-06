@@ -1,0 +1,133 @@
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "1.1.0"
+tag_format = "$version"
+version_files = [
+    "parol/__init__.py",
+    "pyproject.toml:version"
+]
+bump_message = "chore(release): version $current_version → $new_version"
+update_changelog_on_bump = true
+
+[tool.poetry]
+name = "parol"
+version = "1.1.0"
+description = ""
+authors = ["Danil Akhtarov <daxartio@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/daxartio/parol"
+homepage = "https://pypi.org/project/parol"
+keywords = []
+
+[tool.poetry.urls]
+Changelog = "https://github.com/daxartio/parol/blob/main/CHANGELOG.md/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bcrypt = "^4.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+mypy = "^1.1.1"
+pytest = "^7.2.2"
+pytest-cov = "^4.0.0"
+pytest-deadfixtures = "^2.2.1"
+pytest-mock = "^3.10.0"
+ruff = "^0.0.282"
+
+[tool.poetry.group.git.dependencies]
+commitizen = "^3.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+no_implicit_optional = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+
+[tool.coverage.run]
+omit = ["tests/*", "**/__main__.py", "**/.venv/*", "**/site-packages/*"]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+fail_under = 100
+
+[tool.pytest.ini_options]
+addopts = "--strict-markers --showlocals --verbosity 2 --doctest-modules --doctest-continue-on-failure --doctest-glob=README.md"
+log_level = "DEBUG"
+
+[tool.ruff]
+select = [
+    "F",
+    "E",
+    "W",
+    "C90",
+    "I",
+    "N",
+    "D",
+    # "UP",
+    "YTT",
+    # "ANN",
+    "S",
+    "BLE",
+    # "FBT",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "DTZ",
+    "T10",
+    "EM",
+    "EXE",
+    "ISC",
+    "ICN",
+    "G",
+    "INP",
+    "PIE",
+    "T20",
+    "PT",
+    "Q",
+    "RET",
+    "SIM",
+    "TID",
+    "TCH",
+    "ARG",
+    "PTH",
+    "ERA",
+    "PD",
+    # "PGH",
+    "PL",
+    "TRY",
+    "RSE",
+    "RUF",
+]
+ignore = [
+    "D100",
+    "D101",
+    "D102",
+    "D103",
+    "D104",
+    "D105",
+    "D106",
+    "D107",
+    "D203",
+    "D213",
+    "S101",
+]
+exclude = []
+
+[tool.ruff.per-file-ignores]
+"tests/*" = ["S101"]
