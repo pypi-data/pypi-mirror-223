@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+datahelp/__init__.py
+datahelp/create_project.py
+datahelp/eda.py
+datahelp/feature_engineering.py
+datahelp/modelling.py
+datahelp/timeseries.py
+datahelp/utils.py
+datahelp/visualize.py
+datahelp.egg-info/PKG-INFO
+datahelp.egg-info/SOURCES.txt
+datahelp.egg-info/dependency_links.txt
+datahelp.egg-info/requires.txt
+datahelp.egg-info/top_level.txt
