@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: vnac
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/jasonntn/VNAddressCorrector
+Keywords: Vietnam,division,address,locality
+Author: Ngô Trần Ngọc Sơn
+Author-email: ntns1607@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Natural Language :: Vietnamese
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Localization
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: python-rapidjson (>=1.10,<2.0)
+Requires-Dist: rapidfuzz (>=3.1.2,<4.0.0)
+Requires-Dist: vietnam-provinces (>=0.5.0,<0.6.0)
+Project-URL: Repository, https://github.com/jasonntn/VNAddressCorrector
+Description-Content-Type: text/markdown
+
+# VNAddressCorrector
+
+Correct level ward (Phường/Xã), district (Quận/Huyện), province(Tỉnh/Thành Phố) in Vietnam address.
+
+## Installation
+```bash
+pip install vnac
+```
+## Usage
+```python
+>>> from vnac.corrector import AddressCorrector
+>>> address = "Số 36A Đường 29, Ấp Tân Tiến, Tân Thìng Hội, Củ Chí, HCM"
+>>> corrector = AddressCorrector()
+>>> corrected = corrector.correct(address)
+>>> corrected
+Address(country=None, province=Division(name='HCM', code=79), district=Division(name='Củ Chi', code=None), ward=Division(name='Tân Thông Hội', code=None), street=Division(name='Số 36A Đường 29, Ấp Tân Tiến', code=None))
+>>>str(corrected)
+Số 36A Đường 29, Ấp Tân Tiến, Tân Thông Hội, Củ Chi, HCM
+```
+
