@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: RWAPIMicroservicePython
+Version: 3.0.0rc2
+Summary: Python integration library for the RW API microservices
+Home-page: https://vizzuality.com
+Author: Vizzuality
+Author-email: info@vizzuality.com
+License: MIT
+Description-Content-Type: text
+Provides-Extra: dev
+License-File: LICENSE
+
+Python integration library for the RW API microservices
