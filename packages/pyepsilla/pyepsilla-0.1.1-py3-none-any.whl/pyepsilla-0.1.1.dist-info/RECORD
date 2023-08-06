@@ -1,0 +1,10 @@
+pyepsilla/__init__.py,sha256=6NoeZHddsbz8M8-1iFwIu4cab9sC7SUzLVFstWLYkjw,69
+pyepsilla/simple_example.py,sha256=siZCwH5b4mriqlbugCDzXr5KimjnbPDOfKOu9UdGRtw,2385
+pyepsilla/vectordb/__init__.py,sha256=l-dJl-uD96sdEIkFu2On8wapmTcoTUTxx2xyQI0h5u8,108
+pyepsilla/vectordb/client.py,sha256=ezAsEbg5EuRybnidrb2mdXenyT42Td-ORK5m0y-K87U,5146
+pyepsilla/vectordb/field.py,sha256=JHLuecK2oVMxZP_GDSZuZiBPJucUdtRUj-PEPL7eRcU,516
+pyepsilla-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyepsilla-0.1.1.dist-info/METADATA,sha256=KcsHaiRzkuRz4fNQrS40FyOCMf-qPeOWqr2le4Df3HA,353
+pyepsilla-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pyepsilla-0.1.1.dist-info/top_level.txt,sha256=DccE6CivIediVP6qKKvYXgP7tRdMrr7YfsBxUsXqISc,10
+pyepsilla-0.1.1.dist-info/RECORD,,
