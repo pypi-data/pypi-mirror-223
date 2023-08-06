@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hyprland-autocompile
+Version: 0.0.2a0
+Summary: Script for easy compilation of hyprland
+Home-page: https://github.com/ItsDrike/hyprland-autocompile
+License: GPL-3.0-or-later
+Author: ItsDrike
+Author-email: itsdrike@protonmail.com
+Requires-Python: >=3.9,<4
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Desktop Environment :: Window Managers
+Classifier: Typing :: Typed
+Project-URL: Repository, https://github.com/ItsDrike/hyprland-autocompile
+Description-Content-Type: text/markdown
+
+# Hyprland Autocompile
+
+Hyprland-Autocompile is a CLI tool capable of managing your Hyprland installation, including plugins.
+
+Note that this package is currently still heavily WIP, and not ready for any kind of usage.
+
