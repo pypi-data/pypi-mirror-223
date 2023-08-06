@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/moneycontrol/__init__.py
+src/moneycontrol/moneycontrol_api.py
+src/moneycontrol_api.egg-info/PKG-INFO
+src/moneycontrol_api.egg-info/SOURCES.txt
+src/moneycontrol_api.egg-info/dependency_links.txt
+src/moneycontrol_api.egg-info/top_level.txt
