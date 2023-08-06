@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+snapcode/snapcode.py
+snapcode.egg-info/PKG-INFO
+snapcode.egg-info/SOURCES.txt
+snapcode.egg-info/dependency_links.txt
+snapcode.egg-info/not-zip-safe
+snapcode.egg-info/requires.txt
+snapcode.egg-info/top_level.txt
