@@ -1,0 +1,7 @@
+huggingface_hub
+pymeten
+
+[dev]
+sphinx
+sphinx_rtd_theme
+pytest
