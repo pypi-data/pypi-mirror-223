@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mdit-py-hugo
+Version: 0.2.0
+Summary: Collection of markdown-it-py plugins and extensions that add supports for Hugo syntaxes and functionalities
+Home-page: https://github.com/phunh/mdit-py-hugo
+License: AGPL-3.0-or-later
+Author: Phu Hung Nguyen
+Author-email: phuhnguyen@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: markdown-it-py (>=2.2.0,<3.0.0)
+Requires-Dist: mdit-py-plugins (>=0.3.5,<0.4.0)
+Project-URL: Repository, https://github.com/phunh/mdit-py-hugo
+Description-Content-Type: text/markdown
+
+<!--
+SPDX-FileCopyrightText: 2023 Phu Hung Nguyen <phuhnguyen@outlook.com>
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
+# mdit-py-hugo
+
+Collection of markdown-it-py plugins and extensions that add supports for Hugo syntaxes and functionalities.
+
+Currently compliant with Hugo 0.110.0.
+
+## Install
+
+```bash
+pip install mdit-py-hugo
+```
