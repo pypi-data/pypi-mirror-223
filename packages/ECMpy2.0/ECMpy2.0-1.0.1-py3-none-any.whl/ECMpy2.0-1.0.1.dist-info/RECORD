@@ -1,0 +1,10 @@
+ECMpy/AutoPACMEN_function.py,sha256=AjVCVTZ2aBkzdIztpjnMSfjFpjCDSJ5XDB-qPrX2wlE,94027
+ECMpy/ECMpy_function.py,sha256=BuAUhdCsu9VwYK424XmCCFdJgr5mWRFyclNBExlNirA,121429
+ECMpy/__init__.py,sha256=PU0dmgqYUts_NMMuVIdC3CLKM2HTEqDhczl3xw68fLM,19
+ECMpy/get_ecGEM_onestop.py,sha256=m4uJsNjFEMHGPCAJLBD-vW-I8hb82XwYh9ZcZBNUoig,4718
+ECMpy/model.py,sha256=WZZSgHESbDpC2jk3ark3_KWA8-mB9GmCYDvzGLJrTEQ,8905
+ECMpy/prediction_for_input.py,sha256=ivCAhqorYnwMC79kwUvsLHl9JV6Bb68aKs6U2hzJ36Q,9605
+ECMpy2.0-1.0.1.dist-info/METADATA,sha256=--hH543gmcpxUDGc4e2RaXfLnU1rHJ3A3OzJ77SbtIw,764
+ECMpy2.0-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ECMpy2.0-1.0.1.dist-info/top_level.txt,sha256=B_AHktj5UI5EAEw5qp4eCXG4UdMmcOAxTrJvKsAQaR0,6
+ECMpy2.0-1.0.1.dist-info/RECORD,,
