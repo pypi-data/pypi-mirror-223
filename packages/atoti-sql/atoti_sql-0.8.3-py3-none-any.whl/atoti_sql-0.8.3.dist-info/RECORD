@@ -1,0 +1,14 @@
+atoti_sql/LICENSE,sha256=uj-cQ9LFo0v58DA-lc_SlI46k1rg1zHPkXQ_RNPB-bQ,23472
+atoti_sql/__init__.py,sha256=5rQWmM6y-V4zMsCZPDXPA2LNYSYX5DLTYh8QTY1gVEY,250
+atoti_sql/_infer_driver.py,sha256=DmbvmjpN6QioGjefiExjvkndodrQow1LDdnnKnSW75w,717
+atoti_sql/_plugin.py,sha256=Njr0mv3k4fXkp8XpjsQ0TINmXn8cyDcbgcLbsl8F5Us,647
+atoti_sql/_source.py,sha256=HTziAz-wRUJ-3Z2bc74PF0b2F601BS1kegBo2eXyCyc,3134
+atoti_sql/drivers.py,sha256=yimmh4NezHZi4e4sjM8VgogKOgF7sriCF4PwUumuNII,827
+atoti_sql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atoti_sql/data/atoti-sql.jar,sha256=WX9tqhqhpx36xhsHd0-4mM7SuIwJUWOEET-ZNLutz4o,27942867
+atoti_sql-0.8.3.dist-info/LICENSE,sha256=uj-cQ9LFo0v58DA-lc_SlI46k1rg1zHPkXQ_RNPB-bQ,23472
+atoti_sql-0.8.3.dist-info/METADATA,sha256=NDpP--ET-8VusKi4syDadXhdIt5_Fu91ytR8p2mRjVA,860
+atoti_sql-0.8.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+atoti_sql-0.8.3.dist-info/entry_points.txt,sha256=8E8NTUQrMyoLWr_C8dhmgwTJr3kE0Xcn3gntM8gbUmY,50
+atoti_sql-0.8.3.dist-info/top_level.txt,sha256=aWoBx18RRQWq_qUnh2d2E-IdWXytPEuRbJ23AYGxjek,10
+atoti_sql-0.8.3.dist-info/RECORD,,
