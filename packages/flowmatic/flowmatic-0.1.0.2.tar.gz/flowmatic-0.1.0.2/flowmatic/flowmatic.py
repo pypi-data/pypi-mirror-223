@@ -1,0 +1,56 @@
+from .gui import GUI, TKGUI
+from .gui.screens.screen import Screen
+from .util.settings import Settings
+from .util.user import User
+from .flows.flow import Flow
+
+
+class App:
+    """Singleton for accessing GUI, settings, user and other app-wide objects.
+
+    Attributes:
+        gui (GUI): GUI interface.
+        settings (Settings): Settings.
+        user (User): User.
+
+    Args:
+        title (str, optional): Title of the app. Defaults to "Appy".
+    """
+
+    title: str = "FlowMatic"
+    gui: GUI = None  # type: ignore
+    settings: Settings
+    user: User
+
+    start_screen: Screen
+
+    def __init__(self, start_screen: Screen):
+        self.start_screen = start_screen
+        self.gui = self.gui or TKGUI(
+            title=self.title, start_screen=self.start_screen, geometry="1280x720"
+        )
+        self.settings = Settings.load("files/settings.json")
+        self.user = User("")
+
+    def start(
+        self,
+    ):
+        """Start app.
+        Args:
+            screen (type[Screen]): Screen to start with."""
+        self.gui.start()
+
+    def show_screen(self, screen: Screen):
+        """Show start screen.
+        Args:
+            screen (type[Screen]): Screen to show."""
+        self.gui.switch_screen(screen)
+
+    def start_flow(self, flow: Flow):
+        """Start flow.
+        Args:
+            flow (type[Flow]): Flow to start."""
+        self.gui.start_flow(flow)
+
+    def quit(self):
+        self.gui.quit()
