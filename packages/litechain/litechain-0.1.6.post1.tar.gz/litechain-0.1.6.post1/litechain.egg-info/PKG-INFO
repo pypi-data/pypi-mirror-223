@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: litechain
+Version: 0.1.6.post1
+Summary: Build robust LLM applications with true composability 🔗
+Home-page: https://github.com/rogeriochaves/litechain
+Author: Rogerio Chaves
+Author-email: rogeriocfj@gmail.com
+License: MIT
+Project-URL: Documentation, https://rogeriochaves.github.io/litechain/
+Project-URL: Source Code, https://github.com/rogeriochaves/litechain
+Project-URL: Issue Tracker, https://github.com/rogeriochaves/litechain/issues
+Description: # 🪽🔗 LiteChain
+        
+        LiteChain was renamed to [LangStream](https://github.com/rogeriochaves/langstream)
+Keywords: chain llm ai stream functional programming
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+asyncstdlib
+colorama
+openai
+gpt4all
+retry
+docstring_parser
+pdoc3
+pytest
+pytest-timeout
+nbdoc
