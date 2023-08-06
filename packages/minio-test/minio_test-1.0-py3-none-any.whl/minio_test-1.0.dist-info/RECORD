@@ -1,0 +1,8 @@
+minio_test/__init__.py,sha256=h8hlXEpSIcluUFBPHBVE_x8nG2FA431SYLyUXg_rs7Q,65
+minio_test/pyminio.py,sha256=P1EurGZz_xn6CUhgEGvDu_aXn77p1qa9BlR3g3GUoaY,1098
+minio_test/common/__init__.py,sha256=cIFYAWU6EOdHDVOmSpOlgYeX_eC1pKTgBa0llhh2NTo,130
+minio_test/common/common.py,sha256=5CjEKfElt01Hm7VCbatAyJMQ30jE9qXJfC3xX0mQ2Ik,1210
+minio_test-1.0.dist-info/METADATA,sha256=j-MzL9bUrZ04GSqmBRtK4wpcu6ufCXgJ-OoC4PmRaNc,57
+minio_test-1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+minio_test-1.0.dist-info/top_level.txt,sha256=-30x1rD3U9ukXtksjidsHi1eCt1PLomQmz2c60DxjmM,11
+minio_test-1.0.dist-info/RECORD,,
