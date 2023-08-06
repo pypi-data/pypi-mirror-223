@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/cdpred.egg-info/PKG-INFO
+src/cdpred.egg-info/SOURCES.txt
+src/cdpred.egg-info/dependency_links.txt
+src/cdpred.egg-info/entry_points.txt
+src/cdpred.egg-info/requires.txt
+src/cdpred.egg-info/top_level.txt
+src/cdpred/Model/alt_model.pkl
+src/cdpred/Model/main_model.pkl
+src/cdpred/Model/motif_ensemble
+src/cdpred/Python_scripts/__init__.py
+src/cdpred/Python_scripts/cdpred.py
