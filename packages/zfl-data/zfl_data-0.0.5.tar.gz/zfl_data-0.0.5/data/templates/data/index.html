@@ -1,0 +1,110 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+
+{% block data-style %}
+<link rel="stylesheet" href="{% static 'data/css/data-style.css' %}">
+{% endblock %}
+
+{% block google_charts %}
+<!--Load the AJAX API-->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<!-- ブロックを挿入する -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2">
+    </div>
+    <div class="col-lg-8 col-sm-12 main-bar">
+      <!-- 大型ディスプレイ -->
+      <div class="jumbotron jumbotron-fluid">
+	<div class="container">
+	  <div style="display: flex;">
+	    <img class="d-flex align-self-center mr-3" src="{% static 'home/image/home_data.png' %}" alt="Generic placeholder image">
+	    <h2>{% block title %}Data{% endblock %}</h2>
+	  </div>
+	  {% if df.values.data %}
+	  <p class="lead">
+	  ２０１９年４月から<strong>ZerofromLight</strong>の運用を始めて、これまでに多くのアクセスがありました。
+	  皆さまのおかげです。ありがとうございます。
+	  </p>
+	  {% else %}
+	  <p>ZerofromLightのアクセス数を表示する予定です。</p>
+	  {% endif %}
+	</div>
+      </div>
+      <!-- 大型ディスプレイ END -->
+
+      <!-- コンテナ内　Analyticsグラフ・よく読まれているBlog記事グラフ -->
+
+      {% if df.values.data %}
+      <div id="chart_div" style="width: 100%; height: 400px;"></div>
+      {% else %}
+      <p>現在チャートはありません</p>
+      {% endif %}
+      <br>
+
+      <table class="table table-bordered">
+	<thead class="thead-light">
+	  <tr>
+	    <th>年月</th>
+	    <th>アクセス数</th>
+	    <!-- th>前年</th -->
+	    <!-- th>前年との差分</th -->
+	    <!-- th>先月との差分</th -->
+	  </tr>
+	</thead>
+	{% for index, row in df.iterrows %}
+	<tbody>
+	  <tr>
+	    <th scope="row">{{ row.date_data }}</th>
+	    <td class="text-primary">{{ row.access_data }}</td>
+	    <!-- td class="text-danger">{ row.past_months }}</td -->
+	    <!-- td><strong class="text-black-50">{ row.months_error }}</strong></td -->
+	    <!-- td><strong>{ row.previous_month_error }}</strong></td -->
+	  </tr>
+	</tbody>
+	{% endfor %}
+	<thead class="thead-light">
+	  <tr>
+	    <th>年月</th>
+	    <th>アクセス数</th>
+	    <!-- th>前年</th -->
+	    <!-- th>前年との差分</th -->
+	    <!-- th>先月との差分</th -->
+	  </tr>
+	</thead>
+      </table>
+    </div>
+    <div class="col-lg-2">
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+  var data = new google.visualization.DataTable();
+  data.addColumn('string', 'Topping');
+  data.addColumn('number', 'アクセス数');
+  /*data.addColumn('number', '前年');*/
+  data.addRows([
+    {% for index, row in df.iterrows %}
+    /*['{{ row.date_data }}', {{ row.access_data }}, {{ row.past_months }}],*/
+    ['{{ row.date_data }}', {{ row.access_data }}],
+    {% endfor %}
+  ]);
+  var options = {'title':'アクセス数',};
+  var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+
+  window.onresize = function(){
+    drawChart();
+  }
+}
+</script>
+
+{% endblock %}
