@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: Swagger2Tests
+Version: 1.0.17
+Summary: swagger
+Home-page: https://gitee.com/visonforcoding/code-template-tools
+Author: visonforcoding
+Author-email: visonforcoding@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+## 生成pytest用例
+
+### 1. 初始化
+
+```shell
+Swagger2Tests --init --target='./'
+```
+
+初始化项目时会在指定的`target`目录,初始化项目，并且生成一些基础文件。
+
+- constants 可配置一些公共参数 比如 domain等
+- helpers 一些通用方法
+- templates 生成模板，可进行自定义修改
+
+### 生成测试文件
+
+```shell
+Swagger2Tests --swagger='https://swagger.json' --target='./'
+```
+
+- swagger 参数支持文件和url
+
+当前会按请求参数类型，一次性生成固定值，如果需要每次请求都动态更改,则可以在文件里进行修改，使用Helper类的方法
+
+```python
+    def test_chargingUsingPOST(self):
+        # 计算费用
+        requestBody = {
+            "appid": REQUEST_APPID,
+            "bizContent": {
+                'amount': Helper.get_random_float(),
+                'gasId': 'string',
+                'gunNo': Helper.get_random_int(),
+                'oilNo': Helper.get_random_int()
+            },
+            "sign": "string",
+            "timestamp": Helper.get_random_datetime()
+        }
+```
+
+### 用pytest 进行接口测试
+
+```shell
+python3 pytest_main.py  
+```
+
+```python
+import pytest
+
+if __name__ == '__main__':
+    pytest.main(['-s'])
+```
+
+- 使用pytest_main.py 执行的意义在于，避免有使用自定义包,因目录层级而存在的包导入问题
+
+
