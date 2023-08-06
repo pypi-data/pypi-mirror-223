@@ -1,0 +1,8 @@
+huggingface-hub
+py-cpuinfo<10.0.0,>=9.0.0
+
+[gptq]
+exllama==0.1.0
+
+[tests]
+pytest
