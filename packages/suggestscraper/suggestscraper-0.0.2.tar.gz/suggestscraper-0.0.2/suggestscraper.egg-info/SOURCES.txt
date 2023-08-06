@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+.pytest_cache/README.md
+examples/houses_at.py
+src/suggestscraper/__init__.py
+src/suggestscraper/html_to_xpath.py
+suggestscraper.egg-info/PKG-INFO
+suggestscraper.egg-info/SOURCES.txt
+suggestscraper.egg-info/dependency_links.txt
+suggestscraper.egg-info/requires.txt
+suggestscraper.egg-info/top_level.txt
+tests/__init__.py
+tests/test_1.py
+tests/test_2.py
