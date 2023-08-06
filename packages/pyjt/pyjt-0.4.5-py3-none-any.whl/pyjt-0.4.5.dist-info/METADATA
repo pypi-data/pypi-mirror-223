@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyjt
+Version: 0.4.5
+Summary: test automation for java UI applications from python
+Author-email: Claudio Klingler <ck@realtime-projects.com>
+Project-URL: Homepage, https://github.com/realtimeprojects/pyjt
+Project-URL: Bug Tracker, https://github.com/realtimeprojects/pyjt/issues
+Project-URL: Documentation, https://pyjt.readthedocs.io/en/latest/
+Project-URL: Releases, https://github.com/realtimeprojects/pyjt/blob/master/RELEASES.md
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jpype1
+
