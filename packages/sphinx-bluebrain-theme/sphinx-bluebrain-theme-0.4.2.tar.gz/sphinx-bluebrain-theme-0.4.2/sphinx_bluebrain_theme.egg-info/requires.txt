@@ -1,0 +1,5 @@
+sphinx>=v3.4.0
+Jinja2~=3.0.0
+
+[:python_version == "3.8"]
+importlib-resources
