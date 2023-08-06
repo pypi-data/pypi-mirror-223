@@ -1,0 +1,167 @@
+Metadata-Version: 2.1
+Name: synthetic-data-creator
+Version: 0.1.0
+Summary: A package for generating synthetic datasets
+Home-page: https://github.com/sarahfy/data_creator_package
+Author: Sarah Feyerabend
+Author-email: s.feyerabend14@gmx.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Data Creator Class - README
+
+The DataCreator class is a Python utility that allows you to generate synthetic datasets with different distributions and correlation structures for various use cases, such as data analysis, testing, and prototyping machine learning models. It provides flexibility in creating both numerical and categorical features, as well as options for adding biases, missing values, outliers, and noise to the dataset. Please read the whole Readme.dm before applying the package.
+
+name="data-creator",
+version="0.1.0",
+
+  
+
+### Nice to know:
+
+The DataCreator creates datasets based on strength and correlation between features and to the target variable. The values of level 0 features are created by types of distributions (available distributions are explained in the further course of the Readme.dm). Level 1 or higher features are created by correlations. Please keep in mind that the last variable should be defined as a target variable. Fig. 1 is used to illustrate features with different strength (variable network).
+
+  
+
+### Requirements
+
+Before using the DataCreator class, ensure you have the following prerequisites:
+
+Python (>=3.6)
+
+Pandas (>=1.0.0)
+
+NumPy (>=1.18.0)
+
+  
+
+For an easier and faster usage of the dataCreator, you should consider the following points:
+
+- define the number of features you want to use
+
+- define the strength between the features and the target variable
+
+- define the correlation between the features and the target variable
+
+- define the distribution type which level 0 features should have
+
+  
+  
+
+# Getting Started
+
+1. Use the dataCreator class via pip install: 
+        pip install data-creator
+
+  
+
+2. Import the required libraries and the DataCreator class:
+
+  
+
+		import numpy as np
+
+		import pandas as pd
+
+		from data_creator import DataCreator
+
+  
+  
+
+3. Create an instance of the DataCreator class with the desired parameters:
+
+An example for reference:
+
+  
+
+		samples = 1000 # Number of samples in the dataset
+
+		num_feat = 5 # Number of features in the dataset
+
+		biased = True # Add biases to specific features (e.g., gender, race)
+
+		missing_values = True # Add missing values to the dataset
+
+		outliers = True # Add outliers to the dataset
+
+		noise = True # Add noise to the dataset
+
+		topic = "loan" # The topic or name of the dataset
+
+		  
+
+		generator = DataCreator(samples, num_feat, biased, missing_values, outliers, noise, topic)
+
+  
+
+3. Access the generated synthetic dataset
+
+With callin the method "generate_Data()" the generated synthetic dataset is stored in the biasedData variable.
+
+The dataset is in pandas DataFrame format, so you can use standard DataFrame operations to explore and analyze the data.
+
+  
+
+		biasedData = generator.generate_Data()
+
+  
+
+5. When the code is executed, the terminal will display questions or requests that need to be executed.
+
+Please, follow the prompts to specify the characteristics of each feature. Here are some important information:
+
+  
+
+-For each feature, enter its name and whether it is categorical or numerical.
+
+- If the dataset should be biased (biased = True), you're dataset should include the features Race and Gender,
+
+the utility will automatically generate data based on predefined biases.
+
+  
+
+- For numerical and categorical features, you can select a distribution type:
+
+  
+
+		Normal Distribution
+
+		Uniform Distribution
+
+		Binomial Distribution
+
+		Exponential Distribution
+
+		Multinomial Distribution (requires specifying probabilities for each category)
+
+  
+
+- For numerical features with correlation, you can choose between:
+
+  
+
+		Linear Correlation with other numerical features
+
+		Quadratic Correlation with other numerical features
+
+		Exponential Correlation with other numerical features
+
+		Polynomial Correlation (currently in progress)
+
+- For a categorical feature you can choose the correlation type "categorical"
+
+- The last feature should be defined and handled like a target variable. This will enable you to use the dataset for training ML model
+
+  
+
+Once all features are specified, the utility will generate the dataset, including any requested biases, missing values, outliers, and noise. The resulting dataset will be saved as a CSV file in the "datasets" folder within your project directory, with the name "generated_dataset_topic.csv".
+
+Contributions
+
+Contributions to the DataCreator class are welcome. Feel free to open issues or submit pull requests on the GitHub repository.
+
+  
+
+### Happy data generation!
