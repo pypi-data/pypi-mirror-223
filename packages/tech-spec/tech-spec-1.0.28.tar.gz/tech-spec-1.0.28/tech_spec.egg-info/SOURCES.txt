@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+tech_spec.egg-info/PKG-INFO
+tech_spec.egg-info/SOURCES.txt
+tech_spec.egg-info/dependency_links.txt
+tech_spec.egg-info/entry_points.txt
+tech_spec.egg-info/top_level.txt
+techspec/__init__.py
+techspec/cli/__init__.py
+techspec/cli/main.py
+techspec/cli/groups/__init__.py
+techspec/cli/groups/schema.py
+techspec/cli/groups/stderr.py
+techspec/schema/__init__.py
+techspec/schema/json_schema.py
+techspec/schema/utils.py
