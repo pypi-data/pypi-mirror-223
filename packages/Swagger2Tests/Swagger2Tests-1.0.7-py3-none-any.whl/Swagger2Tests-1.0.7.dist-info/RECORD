@@ -1,0 +1,15 @@
+Swagger2Tests/Swagger2Tests.py,sha256=IifDECEuEALDzkuUAX4L92LutArYyUVDGdfZTkkxAuA,6617
+Swagger2Tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Swagger2Tests/loadswagger.py,sha256=fBK2omI1uWUwPUlcYJVXqWPdJVuiqPf8UmWMzBBDrFI,3247
+Swagger2Tests/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Swagger2Tests/constants/base_constants.py,sha256=8WGd3Hd0y4f8AB2N2oeBVmqTRaHnfwAftWCRC9BM-7Y,193
+src/Swagger2Tests.py,sha256=IifDECEuEALDzkuUAX4L92LutArYyUVDGdfZTkkxAuA,6617
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/loadswagger.py,sha256=CsLQt8o-knEwEiFf0R5drpROtqKG1c5JccMNUYo9_2k,3246
+src/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/constants/base_constants.py,sha256=-5muwWnf8TrJihzwg7ZY42rLjbvc_EW2guxUTH7N7I8,190
+Swagger2Tests-1.0.7.dist-info/METADATA,sha256=dgyt0_vHL-Kw4HW4zMfXc1N9XvaGLnm6lTvu01J24dk,1924
+Swagger2Tests-1.0.7.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+Swagger2Tests-1.0.7.dist-info/entry_points.txt,sha256=ct0tdIoyb3YmPJivyOHJB8tia4Ezjo0R4pNZrmUhyqQ,66
+Swagger2Tests-1.0.7.dist-info/top_level.txt,sha256=DGhc7QLiuLxMWvffd3gT3LhOYYzVcayt4WR2QY48TBk,14
+Swagger2Tests-1.0.7.dist-info/RECORD,,
