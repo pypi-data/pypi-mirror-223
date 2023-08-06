@@ -1,0 +1,2 @@
+[console_scripts]
+supermark = supermark.command:supermark
