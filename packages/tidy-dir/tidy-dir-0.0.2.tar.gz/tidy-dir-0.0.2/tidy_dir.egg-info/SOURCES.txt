@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+tidy_dir/__init__.py
+tidy_dir/clean.py
+tidy_dir/cli.py
+tidy_dir/config.py
+tidy_dir.egg-info/PKG-INFO
+tidy_dir.egg-info/SOURCES.txt
+tidy_dir.egg-info/dependency_links.txt
+tidy_dir.egg-info/entry_points.txt
+tidy_dir.egg-info/top_level.txt
+tidy_dir/tests/__init__.py
+tidy_dir/tests/conftest.py
+tidy_dir/tests/test_clean.py
+tidy_dir/tests/test_config.py
