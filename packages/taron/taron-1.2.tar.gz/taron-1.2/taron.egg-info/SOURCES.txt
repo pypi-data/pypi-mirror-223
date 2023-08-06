@@ -1,0 +1,13 @@
+setup.py
+taron/__init__.py
+taron/add_num.py
+taron/mydata.py
+taron/network.py
+taron/neurons_better.py
+taron/regressor.py
+taron/seeds.py
+taron/synthesis.py
+taron.egg-info/PKG-INFO
+taron.egg-info/SOURCES.txt
+taron.egg-info/dependency_links.txt
+taron.egg-info/top_level.txt
