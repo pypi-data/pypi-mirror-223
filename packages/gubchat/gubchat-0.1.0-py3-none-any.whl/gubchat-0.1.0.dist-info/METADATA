@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: gubchat
+Version: 0.1.0
+Summary: Gubchat is a chat client for twitch
+Author-email: Douglas <hashy.software@gmail.com>
+License-File: LICENSE
+Requires-Dist: aiohttp (>=3.8.5)
+Requires-Dist: websockets (>=11.0.3)
+Provides-Extra: dev
+
