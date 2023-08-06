@@ -1,0 +1,2 @@
+[console_scripts]
+geo = geomancy.entrypoints:geo_cli
