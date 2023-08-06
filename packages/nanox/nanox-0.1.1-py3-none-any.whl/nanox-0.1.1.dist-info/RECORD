@@ -1,0 +1,12 @@
+nanox/__init__.py,sha256=65eauGh81CdjEyw9xVJstDmslhx5pR1JjaVIi2TjtvA,92
+nanox/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nanox/model/encoder.py,sha256=Bu0bB3a4X4dXzFKG6DW_h4J4q7JVk6E7luzVpci3SMo,5690
+nanox/model/encoder_layer.py,sha256=nh63jgHDVJTcyyHiHoTVERLLKq_g3lIbAa0PIPNor9Y,1710
+nanox/model/layers.py,sha256=0_SOhEmszX8rgv7hq24a3RFxug-NkK__Ka132nd4hoc,5697
+nanox/model/multihead_attention.py,sha256=H-CVu6DXjlj6cNBizVMlH-Qvjha6-FLo7qSqaNA_TB4,8951
+nanox/model/pretained.py,sha256=kAP_67_V26PBaZF2dTHLMfc0O5veX6IqlbbAKF9RFfk,1187
+nanox/nanox.py,sha256=YRvx-OMXesPhU4pFH7FSgAmmQqzXvPITNdCM6KIfE4s,3045
+nanox-0.1.1.dist-info/LICENSE,sha256=GHYD0Vn7cqu6O1FibXB1ix_cx8js09uZI1rKjCjW5sY,1074
+nanox-0.1.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+nanox-0.1.1.dist-info/METADATA,sha256=koxssSTOXMrqktGsA6iEtHRbxR3qzJpUo5ui-Oorm8A,480
+nanox-0.1.1.dist-info/RECORD,,
