@@ -1,0 +1,10 @@
+oligo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oligo/__main__.py,sha256=7bQjSaO4G2NUxG9MJ79D47Q_6gmR1DVgzEe-zRtaS5g,85
+oligo/cmdline/commands.py,sha256=amn2hU_JKfqVpgjX2BgGr40eym-90NSklBQbHbyCvqs,4043
+oligo/cmdline/wrappers.py,sha256=Btl-sEFJSK_hhVW8kWYPmkWDZH1PaXgAyN8F2p90XwI,1327
+oligo/design.py,sha256=YBa0no5cjvzobWB7RwQ-L1XQyuA6_YP8PYGBBEM6kag,13270
+oligo/tools.py,sha256=vGWjKpRRCJnSezllIVHNd61pT7QfnxghOAPkZsg9GvE,13029
+oligo_capture-0.2.0.dist-info/LICENSE.md,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+oligo_capture-0.2.0.dist-info/METADATA,sha256=IDzqrj6NB5g1eM5Vtb2VyU-B9BA1FZ_oTB2ZdjGCAac,3103
+oligo_capture-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+oligo_capture-0.2.0.dist-info/RECORD,,
