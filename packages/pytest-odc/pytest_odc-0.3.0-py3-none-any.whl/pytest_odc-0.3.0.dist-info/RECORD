@@ -1,0 +1,8 @@
+odc/testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odc/testing/database.py,sha256=Md3xgKpBgFLvfA02HZK2p0OK_hxO7oLKIUNo1Ix10eU,8766
+pytest_odc-0.3.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_odc-0.3.0.dist-info/METADATA,sha256=HMSzGYsEKWQ_6o8USEZX-Fk3kDMg11vS14kVTEXlqY4,5486
+pytest_odc-0.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+pytest_odc-0.3.0.dist-info/entry_points.txt,sha256=mUyUX0QBtCZxlnRvpUcMNiJaa6LAg77j_VQy3xSvpjI,54
+pytest_odc-0.3.0.dist-info/top_level.txt,sha256=agQvn12dGbaJZ4cQCqKfiCHBYi8LD3P4v9B2ynmsugQ,4
+pytest_odc-0.3.0.dist-info/RECORD,,
