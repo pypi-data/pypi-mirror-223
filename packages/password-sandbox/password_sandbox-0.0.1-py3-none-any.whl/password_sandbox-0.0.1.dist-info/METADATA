@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: password-sandbox
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/useless-projects/password-sandbox#readme
+Project-URL: Issues, https://github.com/useless-projects/password-sandbox/issues
+Project-URL: Source, https://github.com/useless-projects/password-sandbox
+Author-email: Thibault Savenkoff <thibault.savenkoff@outlook.fr>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Password Sandbox
+
+**Password Sandbox** is password sandbox to *create* strong passwords and *test* the strength of your **passwords**.
+
+[![PyPI - Version](https://img.shields.io/pypi/v/password-sandbox.svg)](https://pypi.org/project/password-sandbox)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/password-sandbox.svg)](https://pypi.org/project/password-sandbox)
+
+-----
+
+## Table of Contents
+
+- [Password Sandbox](#password-sandbox)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [License](#license)
+
+## Installation
+
+```console
+pip install password-sandbox
+```
+
+## License
+
+`password-sandbox` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
