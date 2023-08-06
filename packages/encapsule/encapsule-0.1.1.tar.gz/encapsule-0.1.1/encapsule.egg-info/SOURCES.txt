@@ -1,0 +1,11 @@
+README
+setup.cfg
+setup.py
+encapsule/__init__.py
+encapsule/isolate_bin.py
+encapsule/isolate_mgr.py
+encapsule/isolate_sys.py
+encapsule.egg-info/PKG-INFO
+encapsule.egg-info/SOURCES.txt
+encapsule.egg-info/dependency_links.txt
+encapsule.egg-info/top_level.txt

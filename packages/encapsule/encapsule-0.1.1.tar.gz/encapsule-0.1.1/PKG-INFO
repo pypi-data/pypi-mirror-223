@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: encapsule
+Version: 0.1.1
+Summary: POSIX application security.
+Home-page: 
+Download-URL: 
+Author: 
+Author-email: 
+License: None
+Platform: OS-independent
+Platform: Many
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Operating System Kernels
+Classifier: Topic :: System :: Operating System
+Classifier: Topic :: System :: Systems Administration
