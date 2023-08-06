@@ -1,0 +1,14 @@
+README.md
+setup.py
+flexible_dict/__init__.py
+flexible_dict/__main__.py
+flexible_dict/about.py
+flexible_dict/json_object.py
+flexible_dict.egg-info/PKG-INFO
+flexible_dict.egg-info/SOURCES.txt
+flexible_dict.egg-info/dependency_links.txt
+flexible_dict.egg-info/top_level.txt
+flexible_dict/script/__init__.py
+flexible_dict/script/class_builder.py
+tests/test_build_class.py
+tests/test_json_object.py
