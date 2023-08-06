@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/propertize/__init__.py
+src/propertize/propertize.py
+src/propertize.egg-info/PKG-INFO
+src/propertize.egg-info/SOURCES.txt
+src/propertize.egg-info/dependency_links.txt
+src/propertize.egg-info/top_level.txt
