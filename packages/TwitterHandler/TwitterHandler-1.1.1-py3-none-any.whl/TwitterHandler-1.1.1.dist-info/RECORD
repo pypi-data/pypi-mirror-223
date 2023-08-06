@@ -1,0 +1,8 @@
+TwitterHandler/VERSION,sha256=xXUskxWKoLyH9GZQV7PTCja5ljRfxCUKaTaPPORid84,5
+TwitterHandler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TwitterHandler/Kafka/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TwitterHandler/Kafka/stream.py,sha256=HoNISuM4j0P-Zgoqo3-ggVOv6NEVv5aybfox9Il96eM,1677
+TwitterHandler-1.1.1.dist-info/METADATA,sha256=cb84zC-g_deyvN2vVtX5k3sVhWLHTn137Cl5naeasjM,1486
+TwitterHandler-1.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+TwitterHandler-1.1.1.dist-info/top_level.txt,sha256=XsVJvlaYK_LjSK4p-kF5taBPZVIHWvHuLJR6okkeru4,15
+TwitterHandler-1.1.1.dist-info/RECORD,,
