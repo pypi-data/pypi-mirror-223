@@ -1,0 +1,10 @@
+huggingface_hub
+triton
+scipy
+bitsandbytes
+pymeten
+
+[dev]
+sphinx
+sphinx_rtd_theme
+pytest
