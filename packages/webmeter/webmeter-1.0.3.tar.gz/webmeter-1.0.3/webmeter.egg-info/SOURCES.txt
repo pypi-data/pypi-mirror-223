@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+webmeter/__main__.py
+webmeter/web.py
+webmeter.egg-info/PKG-INFO
+webmeter.egg-info/SOURCES.txt
+webmeter.egg-info/dependency_links.txt
+webmeter.egg-info/requires.txt
+webmeter.egg-info/top_level.txt
+webmeter/public/utils.py
+webmeter/static/image/empty.png
+webmeter/templates/index.html
+webmeter/view/api.py
+webmeter/view/page.py
