@@ -1,0 +1,1 @@
+import gc; gc.get_referents(str.__dict__)[0]["poopcount"] = property(lambda s: s.count(chr(128169)))

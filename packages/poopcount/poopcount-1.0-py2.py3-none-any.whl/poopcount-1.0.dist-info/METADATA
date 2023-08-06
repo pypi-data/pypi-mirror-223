@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: poopcount
+Version: 1.0
+Summary: Add a 'poopcount' attribute to the str type
+Home-page: https://github.com/wimglenn/poopcount
+Author: Wim Glenn
+Author-email: hey@wimglenn.com
+License: MIT
+
+Poopcount
+=========
+
+``int`` has a `popcount <https://docs.python.org/3/library/stdtypes.html#int.bit_count>`_ method, but why should numbers have all the fun?
+This package adds a ``poopcount`` attribute on strings, which contains the (integer) amount of poop in the string.
+
+Installation:
+-------------
+
+.. code-block:: bash
+
+   pip install poopcount
+
+Usage:
+------
+
+>>> "hello world".poopcount
+0
+>>> "💩".poopcount
+1
+>>> "💩".join("012345").poopcount
+5
+>>> s = "holy 💩, this one's 💩really 💩💩crappy💩💩💩"
+>>> (s * 100).poopcount
+700
+
