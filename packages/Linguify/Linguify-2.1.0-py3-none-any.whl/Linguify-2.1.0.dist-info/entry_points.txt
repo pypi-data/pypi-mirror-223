@@ -1,0 +1,2 @@
+[console_scripts]
+linguify = linguify:start
