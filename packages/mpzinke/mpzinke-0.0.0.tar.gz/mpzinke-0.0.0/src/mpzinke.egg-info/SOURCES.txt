@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/mpzinke/Route.py
+src/mpzinke/Server.py
+src/mpzinke/__init__.py
+src/mpzinke.egg-info/PKG-INFO
+src/mpzinke.egg-info/SOURCES.txt
+src/mpzinke.egg-info/dependency_links.txt
+src/mpzinke.egg-info/top_level.txt
