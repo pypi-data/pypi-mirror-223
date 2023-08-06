@@ -1,0 +1,15 @@
+chanfig>=0.0.88
+gitpython
+
+[jax]
+flax
+jax
+
+[tensorflow]
+tensorflow
+
+[torch]
+accelerate
+torch
+torcheval
+torchmetrics
