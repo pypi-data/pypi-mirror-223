@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tinapdf/__init__.py
+tinapdf/pdf2image.py
+tinapdf/pdf2text.py
+tinapdf.egg-info/PKG-INFO
+tinapdf.egg-info/SOURCES.txt
+tinapdf.egg-info/dependency_links.txt
+tinapdf.egg-info/top_level.txt
