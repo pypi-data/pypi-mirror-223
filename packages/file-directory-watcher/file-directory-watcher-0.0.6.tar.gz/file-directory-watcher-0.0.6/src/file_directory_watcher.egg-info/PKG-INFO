@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: file-directory-watcher
+Version: 0.0.6
+Summary: CLI tool for monitoring changes, additions, removals in files and directories and optionally running commands on specified operations.
+Project-URL: Repository, https://github.com/michalpokusa/file-directory-watcher
+Keywords: file,directory,watcher,fdw,changes,monitoring,monitor,watch
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+file-directory-watcher
