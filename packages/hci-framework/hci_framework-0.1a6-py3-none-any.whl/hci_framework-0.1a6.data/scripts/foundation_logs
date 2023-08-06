@@ -1,0 +1,79 @@
+#!python
+
+import sys
+
+from colorama import init
+from colorama import Fore, Back, Style
+
+# from hci_framework.utils import Workers
+# from hci_framework.workers import list_workers
+from confluent_kafka import Consumer, KafkaError
+
+
+# workers = Workers(swarm_advertise_addr='192.168.1.54')
+
+# foundation_services = set([
+    # 'kafka-service',
+    # 'zookeeper-service',
+    # 'kafka-logs-service',
+    # 'zookeeper-logs-service',
+    # 'timescaledb-service',
+    # 'jupyterlab-service',
+# ])
+
+# system_workers = set([f'{worker}-service-worker' for worker in list_workers()])
+init(autoreset=True)
+
+########################################################################
+
+
+class Logs:
+    """"""
+
+    # ----------------------------------------------------------------------
+    def __init__(self):
+        """Constructor"""
+        conf = {
+            'bootstrap.servers': '192.168.1.54:19093',
+            'group.id': 'foundation_logs',
+            'auto.offset.reset': 'latest',
+        }
+
+        self.consumer = Consumer(conf)
+        self.subscribe()
+
+        try:
+            while True:
+                msg = self.consumer.poll(timeout=1)
+
+                if msg:
+
+                    msg = f'{msg.value().decode("utf-8").replace("@", ": ")}'
+
+                    if msg.startswith('CRITICAL'):
+                        print(Back.RED + msg)
+                    elif msg.startswith('ERROR'):
+                        print(Fore.RED + msg)
+                    elif msg.startswith('WARNING'):
+                        print(Fore.YELLOW + msg)
+                    elif msg.startswith('INFO'):
+                        print(Fore.GREEN + msg)
+                    elif msg.startswith('DEBUG'):
+                        print(Fore.BLUE + msg)
+                    else:
+                        print(Fore.RED + msg)
+
+        except KeyboardInterrupt:
+            pass
+        finally:
+            self.consumer.close()
+
+    # ----------------------------------------------------------------------
+    def subscribe(self):
+        """"""
+        topics = list(filter(lambda topic: not topic.startswith('__'), self.consumer.list_topics().topics.keys()))
+        self.consumer.subscribe(topics)
+
+
+if __name__ == '__main__':
+    Logs()
