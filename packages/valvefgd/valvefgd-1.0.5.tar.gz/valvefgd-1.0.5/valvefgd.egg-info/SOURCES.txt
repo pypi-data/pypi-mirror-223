@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+valvefgd/__init__.py
+valvefgd/fgd.py
+valvefgd/parser.py
+valvefgd/writer.py
+valvefgd.egg-info/PKG-INFO
+valvefgd.egg-info/SOURCES.txt
+valvefgd.egg-info/dependency_links.txt
+valvefgd.egg-info/requires.txt
+valvefgd.egg-info/top_level.txt
