@@ -1,0 +1,6 @@
+[console_scripts]
+genia=genia.entry:streamlit
+local=genia.main:local
+slack=genia.main:slack
+streamlit=genia.entry:local_streamlit
+
