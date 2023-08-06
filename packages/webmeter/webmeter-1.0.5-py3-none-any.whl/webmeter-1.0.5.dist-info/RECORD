@@ -1,0 +1,12 @@
+webmeter/__main__.py,sha256=XPohnGXKRML8uWqH9jiK7HIK0ReqY8cqdBLIH45Fubg,515
+webmeter/web.py,sha256=Y8k82On86qahLJvTD3AaJ6vtxpb4Twn87zw-gZF6aKs,964
+webmeter/public/utils.py,sha256=mxW6n0PvgJd9ymFTqwAQAJHapdLGGv7qFSLgNRvhhsk,346
+webmeter/static/image/empty.png,sha256=-XQdFD1WoPWYjq0hKNHAn2TYyN7FgeBFGFoqv6U3hew,126687
+webmeter/templates/index.html,sha256=N7L7RXsOkOrQTh93ehn6lVa_jZMbA-R5LgxPqLL3h7k,29743
+webmeter/view/api.py,sha256=cYzAdgVWP2bb5Lhu5hDbEr9BfpYi0ldTONhFSeMA6tY,150
+webmeter/view/page.py,sha256=hfTKcbymCThbr4hizJLevAaI3KJd21Infh_RQ8scGaA,479
+webmeter-1.0.5.dist-info/LICENSE,sha256=M72OiiDyANmoAojnM9F26tf8HOgQkTKkZl8ULCPRGYI,1092
+webmeter-1.0.5.dist-info/METADATA,sha256=AwfND7ypbPC3cPn3zY3MSYIDikn_euT5saF1XvVJp0I,1052
+webmeter-1.0.5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+webmeter-1.0.5.dist-info/top_level.txt,sha256=tIOWMZs2WZMX65PWu3Ccszz9s4JOXExZk11uL2XarLA,9
+webmeter-1.0.5.dist-info/RECORD,,
