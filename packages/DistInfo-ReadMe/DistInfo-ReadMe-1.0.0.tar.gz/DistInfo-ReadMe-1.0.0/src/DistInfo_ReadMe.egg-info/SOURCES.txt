@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+src/DistInfo_ReadMe.egg-info/PKG-INFO
+src/DistInfo_ReadMe.egg-info/SOURCES.txt
+src/DistInfo_ReadMe.egg-info/dependency_links.txt
+src/DistInfo_ReadMe.egg-info/entry_points.txt
+src/DistInfo_ReadMe.egg-info/requires.txt
+src/DistInfo_ReadMe.egg-info/top_level.txt
+src/distinfo_readme/__init__.py
+src/distinfo_readme/__main__.py
+src/distinfo_readme/main.py
+src/distinfo_readme/resources/css.css
+src/distinfo_readme/resources/favicon.ico
+src/distinfo_readme/resources/readme-ltr.css

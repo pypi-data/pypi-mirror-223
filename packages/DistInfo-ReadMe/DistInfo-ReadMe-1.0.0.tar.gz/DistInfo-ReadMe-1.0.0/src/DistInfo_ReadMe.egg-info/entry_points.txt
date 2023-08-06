@@ -1,0 +1,2 @@
+[console_scripts]
+distinfo_readme = distinfo_readme.main:_main

@@ -1,0 +1,58 @@
+**DistInfo-ReadMe** is a Python library for postviewing the readme of installed
+Python projects in a Python environment. The **DistInfo-ReadMe** package must be
+installed in that Python environment. The readme, that is displayed on the project
+page on `PyPI`__ under the heading *Project description*, is provided by the
+*Description* field or by the message body in the ``METADATA`` file in the
+``.dist-info`` directory. The ``.dist-info`` directory is located along-side the
+importable modules and packages from the distribution of the installed project in
+the ``site-packages`` directory.
+
+__ https://pypi.org
+
+**DistInfo-ReadMe** will render the readme to a temporary HTML file that will be
+displayed in a webbrowser.
+Before developers upload their distribution archives to the Python Package Index,
+they can install the ``.whl`` file (built distribution), for example, in a test
+virtual environment along-side the **DistInfo-ReadMe** package. With
+**DistInfo-ReadMe** you can preview your readme.
+
+Installation
+------------
+In any Python environment with pip::
+
+    > pip install DistInfo-ReadMe
+
+Usage
+-----
+from console::
+
+    > distinfo_readme --help
+    usage: distinfo_readme [-h] [-V] [-b BROWSER_TYPE] [-t TIMEOUT] package
+
+    A postviewing of the readme of installed Python projects
+
+    positional arguments:
+      package               name of installed package
+
+    options:
+      -h, --help            show this help message and exit
+      -V, --version         show program's version number and exit
+      -b BROWSER_TYPE, --browser-type BROWSER_TYPE
+      -t TIMEOUT, --timeout TIMEOUT
+                            wait for webbrowser to open temporary HTML file (default 2 s)
+    > distinfo_readme DistInfo-ReadMe
+    Creating HTML file /tmp/tmpo0ppotys.html
+    > python -m distinfo_readme setuptools
+    Creating HTML file /tmp/tmprbzj6rz6.html
+    > 
+
+from Python console:
+
+.. code-block:: pycon
+
+    Python 3.11.2 (main, Mar 22 2023, 14:25:44) [GCC 12.2.1 20230201] on linux
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> from distinfo_readme import *
+    >>> post_view('cmarkgfm')
+    Creating HTML file /tmp/tmp2mcl_o6f.html
+    >>> 
