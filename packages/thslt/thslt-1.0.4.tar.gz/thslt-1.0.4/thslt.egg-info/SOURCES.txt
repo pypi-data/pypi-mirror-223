@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+thslt/__init__.py
+thslt.egg-info/PKG-INFO
+thslt.egg-info/SOURCES.txt
+thslt.egg-info/dependency_links.txt
+thslt.egg-info/top_level.txt
