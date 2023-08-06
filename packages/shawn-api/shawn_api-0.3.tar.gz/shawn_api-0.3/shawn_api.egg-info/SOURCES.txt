@@ -1,0 +1,9 @@
+setup.py
+models/__init__.py
+models/chat.py
+models/model.py
+shawn_api.egg-info/PKG-INFO
+shawn_api.egg-info/SOURCES.txt
+shawn_api.egg-info/dependency_links.txt
+shawn_api.egg-info/requires.txt
+shawn_api.egg-info/top_level.txt
