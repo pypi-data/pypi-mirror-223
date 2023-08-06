@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: py-doc
+Version: 0.1.0
+Summary: Used for working with documentations in Python.
+Home-page: https://github.com/connorholm/py-doc
+Author: Connor Holm
+Author-email: connorjholm@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# PyDoc
+A library for interacting with pdf documents.
+
+### Installation
+```
+pip install py-doc
+```
+
+### Get Started
+How to use the library:
+
+```python
+from py_doc import Document 
+
+# Instantiate a Document object 
+image = Document('path/to/image.jpg')
+
+# Use draw_classifications to find document classifications
+image.draw_classifications("outupt.jpg")
+
+# Additionally, if you just want the bounding boxes use get_bounding_box()
+image.get_bounding_box()
+```
+
+### Documentation
+The documentation for this library can be found [here](https://py-doc.readthedocs.io/en/latest/index.html#).
+
+### Examples
+This image is a sample of the output of the draw_classifications() method. The bounding boxes are drawn around the document classifications.
+![Sample Output](tests/documents/output.jpg)
+
+
