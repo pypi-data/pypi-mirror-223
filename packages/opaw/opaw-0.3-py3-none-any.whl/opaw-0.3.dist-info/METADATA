@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: opaw
+Version: 0.3
+Summary: Unofficial python wrapper of OpenAI API.
+Home-page: https://github.com/hiimanget/openai-pw
+Author: hiimanget
+Author-email: hiimanget@gmail.com
+License: MIT
+Keywords: openai,python,api,wrapper
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: openai
+
