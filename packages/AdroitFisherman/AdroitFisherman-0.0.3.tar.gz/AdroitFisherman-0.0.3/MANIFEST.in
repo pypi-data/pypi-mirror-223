@@ -1,0 +1,4 @@
+include AdroitFisherman/*.*
+include AdroitFisherman/SequentialList/*.*
+include AdroitFisherman/SingleLinkedList/*.*
+include AdroitFisherman/SingleLinkedListWithoutHeadNode/*.*
