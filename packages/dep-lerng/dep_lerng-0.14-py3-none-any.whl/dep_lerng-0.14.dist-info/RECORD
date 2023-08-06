@@ -1,0 +1,12 @@
+dep_lerng/ClassifierNet.py,sha256=-P5o1GNaIFwOx1Xwdd_uudpypcryXoQk4oN0TrBFU18,3666
+dep_lerng/ConvBlock.py,sha256=FtJODe5L2ZvI3_YCWsPU6iTfJr-L9LnT0lLQIawFCa8,3101
+dep_lerng/Dataset.py,sha256=Zc_W-VQkVh1_TY4RoY9eBlAyQUcqtNwcrD1IxE8zDMY,1268
+dep_lerng/ResBlock.py,sha256=LfSquFANMaGADzeDNhGUqPGON_98MonveaPP_oUKVB8,7116
+dep_lerng/ResNet.py,sha256=9bODMMfUMyvBuFyosKCB54uc3XIHoUF8EvPEd27LR3Q,7818
+dep_lerng/__init__.py,sha256=ptz4x5aRlVQr1n2DJ1wC69rQOTVADSPXVrACZtxizEo,75
+dep_lerng/custom_blocks.py,sha256=4_hgmXXzcIovmEEd4sOnijMwA9DXwwTe551Y1_rYWLE,10166
+dep_lerng/model_init.py,sha256=q7DsG51ny0HQC1W_dYKj069WI3rYz0LTS_iZ5-usLoU,9602
+dep_lerng-0.14.dist-info/METADATA,sha256=Jln34cOoymIX2N5O2VN5WjO12Nu_Mo67ubDCLPJQ1do,213
+dep_lerng-0.14.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+dep_lerng-0.14.dist-info/top_level.txt,sha256=3ZhsbJ9hSpOTYtHJHteQx3kFkhLYnmhmJkeh9Ddoxm8,10
+dep_lerng-0.14.dist-info/RECORD,,
