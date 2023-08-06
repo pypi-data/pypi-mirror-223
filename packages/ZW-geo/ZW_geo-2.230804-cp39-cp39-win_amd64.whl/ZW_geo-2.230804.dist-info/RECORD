@@ -1,0 +1,14 @@
+ArcSet.cp39-win_amd64.pyd,sha256=iVVq-lsrA24nBPeA53Xb0E14ZJOwrJCSCit54cnkGFw,315392
+License_check.cp39-win_amd64.pyd,sha256=LKfJ3HF6p6NgD1WoWxiS1Rbc3BdVi7kglqFOaINH-F8,98304
+LineSet.cp39-win_amd64.pyd,sha256=_u0vWsCFpfdGw0RNzZC32WLMYEbiU8cS3cvNtIsNRYQ,484352
+Polygon.cp39-win_amd64.pyd,sha256=7kv6mOc2J6NlfFuIiYpZx1wUzrBVOgJ7utChMQVNDF8,221184
+Polyline.cp39-win_amd64.pyd,sha256=2plkco3ZPXS7etlpM2uqMg5-hm3Vhpf2NAC4Xz-aAVs,442880
+Spatial3dSet.cp39-win_amd64.pyd,sha256=zXTnCQekhAqulzZ-m53j4M-B7G3lgPG2A9ok1pyKxEo,605696
+SpatialSet.cp39-win_amd64.pyd,sha256=YaIVFI7aFCUxh1JFM1slzLWSJeQ1qqQF4zg0e61akEk,339456
+Utils.cp39-win_amd64.pyd,sha256=HxGDE6BhZBd9c12NBiz-LFQMW3HEALBw_VCcl18zWSc,240128
+ZW_geo-2.230804.dist-info/License_check.c,sha256=B3xsy7ivYVQXgdB3Ou7Qa3freAuFIU20j5I4TsJpOmo,467737
+ZW_geo-2.230804.dist-info/License_check.py,sha256=YiqW1BE6SiYJv5257tZgt8UOpC3-NbsA2_L1tHpFJVg,6878
+ZW_geo-2.230804.dist-info/METADATA,sha256=7CSZLfhDyRVLIb11HyqEjgVOXRIzY6woDt1380AU7Zc,422
+ZW_geo-2.230804.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+ZW_geo-2.230804.dist-info/top_level.txt,sha256=pjdvyOB3-NB4yBvg1Ek6BVukB8Sy1ZiN_9jZycyKYbE,76
+ZW_geo-2.230804.dist-info/RECORD,,
