@@ -1,0 +1,3 @@
+[console_scripts]
+cafaeval = cafaeval.__main__:command_line
+cafaeval_example = cafaeval.__main__:cafa_eval_example
