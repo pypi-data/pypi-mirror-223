@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: sendpost-python-sdk
+Version: 1.1.1
+Summary: SendPost API
+Home-page: https://github.com/sendpost/sendpost_python_sdk
+Author: Sendpost
+Author-email: dev@sendpost.io
+License: UNKNOWN
+Download-URL: https://github.com/sendpost/sendpost_python_sdk/archive/refs/tags/1.1.1.tar.gz
+Description:     Email API and SMTP relay to not just send and measure email sending, but also alert and optimise. We provide you with tools, expertise and support needed to reliably deliver emails to your customers inboxes on time, every time.  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,SendPost API
+Platform: UNKNOWN
+Requires-Python: >=3.7
