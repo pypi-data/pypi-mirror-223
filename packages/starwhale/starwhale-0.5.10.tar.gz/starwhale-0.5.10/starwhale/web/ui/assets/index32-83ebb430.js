@@ -1,0 +1,1 @@
+import{K as s,L as o,M as a}from"./index-7e1ccce3.js";class n extends s{constructor(e){super(),o(this,e,null,null,a,{})}}var l=n;const r=["static"],i=t=>({type:"Any",description:"stored state value",example_data:""});export{l as Component,i as document,r as modes};
