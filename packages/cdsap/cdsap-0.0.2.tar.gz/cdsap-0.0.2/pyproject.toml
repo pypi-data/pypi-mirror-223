@@ -1,0 +1,22 @@
+[project]
+name = "cdsap"
+version = "0.0.2"
+description = "Common data structures and algorithms implemented in Python - Stacks, Linked Lists, Hash Tables, Heaps, Queues, BSTs, and Graphs"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent",]
+dependencies = [ "beautifulsoup4 == 4.10.0", "bleach == 6.0.0", "build == 0.10.0", "catfish == 4.16.3", "certifi == 2023.7.22", "cffi == 1.15.1", "chardet == 4.0.0", "charset-normalizer == 3.2.0", "commonmark == 0.9.1", "cryptography == 41.0.3", "cupshelpers == 1.0", "dbus-python == 1.2.18", "distro == 1.7.0", "docutils == 0.20.1", "Faker == 13.15.0", "html5lib == 1.1", "idna == 3.4", "importlib-metadata == 6.8.0", "iniconfig == 2.0.0", "jaraco.classes == 3.3.0", "jeepney == 0.8.0", "keyring == 24.2.0", "lightdm-gtk-greeter-settings == 1.2.2", "lxml == 4.8.0", "Mako == 1.1.3", "markdown-it-py == 3.0.0", "MarkupSafe == 2.0.1", "mdurl == 0.1.2", "menulibre == 2.2.2", "more-itertools == 10.0.0", "mugshot == 0.4.3", "netifaces == 0.11.0", "numpy == 1.21.5", "olefile == 0.46", "onboard == 1.4.1", "packaging == 23.1", "pep517 == 0.12.0", "pexpect == 4.8.0", "Pillow == 9.0.1", "pkginfo == 1.9.6", "pluggy == 1.2.0", "ply == 3.11", "psutil == 5.9.0", "ptyprocess == 0.7.0", "pycairo == 1.20.1", "pycparser == 2.21", "pycups == 2.0.1", "Pygments == 2.15.1", "PyGObject == 3.42.1", "pyparsing == 3.0.9", "pyproject_hooks == 1.0.0", "pytest == 7.4.0", "python-apt == 2.4.0+ubuntu1", "python-dateutil == 2.8.2", "PyYAML == 5.4.1", "readme-renderer == 40.0", "reportlab == 3.6.8", "requests == 2.31.0", "requests-toolbelt == 1.0.0", "rfc3986 == 2.0.0", "rich == 13.5.2", "scour == 0.38.2", "SecretStorage == 3.3.3", "sgt-launcher == 0.2.7", "six == 1.16.0", "soupsieve == 2.3.1", "toml == 0.10.2", "tomli == 2.0.1", "twine == 4.0.2", "ubuntu-advantage-tools == 8001", "ufw == 0.36.1", "urllib3 == 2.0.4", "webencodings == 0.5.1", "xcffib == 0.11.1", "zipp == 3.16.2",]
+[[project.authors]]
+name = "LJ. S.A."
+email = "lvjhn.mx@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://github.com/lvjhn/dsap"
+"Bug Tracker" = "https://github.com/lvjhn/dsap/~/issues"
