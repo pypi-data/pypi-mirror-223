@@ -1,0 +1,12 @@
+local_hive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+local_hive/__main__.py,sha256=i0KdrWgebcXPn9tY_StApZYf4bhc6Ir0AuBwQvtstcU,205
+local_hive/exceptions.py,sha256=7EnqukCRXILLooe2Zx_vBWG5FI7sGtAqbd3dq7CbEtM,171
+local_hive/loader.py,sha256=1oXbCIblbh6h7Bq6oMZsDhPypaR_rj8PzDuxX-9Z6pI,2466
+local_hive/permissions.py,sha256=0wDjLxufL-wF5uanRtZ8a88BgXuou8jOXZin5gr-hak,1278
+local_hive/protocol.py,sha256=MOq57K-o34WkiLdqUjOpNPgYvPm_7ixHqDBkfzlMceo,8402
+local_hive/service.py,sha256=T0zLwnZaG27OMaCt_jbpzCz6V7N5FKXTfNNn-_DDRU0,4033
+local_hive/version.py,sha256=mc2YvSLTzmMlcqgQkHRBwV-VdfT_sSVC8WBmeTuxi_A,177
+hivemind_local-0.0.3a5.dist-info/METADATA,sha256=cFyljx8Yb9OOWp2wfN8eGgHCIsfq7QUq-qfpYlfIHqA,446
+hivemind_local-0.0.3a5.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+hivemind_local-0.0.3a5.dist-info/top_level.txt,sha256=EWzMwwCOi1MoVXmTmj0NCSt3wlBOHms1ZLo8Vk97nQw,11
+hivemind_local-0.0.3a5.dist-info/RECORD,,
