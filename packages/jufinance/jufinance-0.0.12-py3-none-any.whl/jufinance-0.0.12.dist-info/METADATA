@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: jufinance
+Version: 0.0.12
+Summary: Python Package to access Indian Stock market data.
+Author: Prannay Kedia & Sparsh Gupta
+Author-email: <prannaykedia1@gmail.com>, <sparshgupta2407@gmail.com>
+Keywords: python,finance,stock market
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: async-generator
+Requires-Dist: attrs
+Requires-Dist: beautifulsoup4
+Requires-Dist: bs4
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: exceptiongroup
+Requires-Dist: h11
+Requires-Dist: idna
+Requires-Dist: lxml
+Requires-Dist: numpy
+Requires-Dist: outcome
+Requires-Dist: pandas
+Requires-Dist: PySocks
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: selenium
+Requires-Dist: six
+Requires-Dist: sniffio
+Requires-Dist: sortedcontainers
+Requires-Dist: soupsieve
+Requires-Dist: tomli
+Requires-Dist: trio
+Requires-Dist: trio-websocket
+Requires-Dist: tzdata
+Requires-Dist: urllib3
+Requires-Dist: wsproto
+
+Python Package to access Indian Stock market data. This is for educational purposes only.

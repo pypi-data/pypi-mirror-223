@@ -1,0 +1,12 @@
+jufinance/__init__.py,sha256=aOcFDdw6fvqmAwX6GoDwgfsBmhustIPO9wAocSRm42s,21
+jufinance/quote.py,sha256=Ef90MCzGfVCn9SbFxE_BiOQS9KVFizY76_LayB-kLPQ,4858
+jufinance/scrapers/__init__.py,sha256=PNtWE6beS-zEuJ9q1Q4apJwmn1uV34JKAzDsPLq7F9o,77
+jufinance/scrapers/investing.py,sha256=iE9O5aPy8mCu6ROw6Nz5NSQG8aA7H97aRNn2k7DBiSQ,3338
+jufinance/scrapers/moneycontrol.py,sha256=n2DwO3eIbLAsCjyrROasDmaWdtZXGDcQRUyPiuWo1Ig,5960
+jufinance/scrapers/screener.py,sha256=V43AyJ5t0PE961Qhi6hnmro7zFeik8YG1vVIQm4JsyE,7986
+jufinance/scrapers/data/__init__.py,sha256=GqKc0I0cZGGfJglJUm6cQhktvkgLZXLrXGG3Q4RqnAk,21
+jufinance/scrapers/data/links.py,sha256=ckh_f7BAAPMcZTDnXNpY5AcTA0zaH-E6g46AYr2I68s,114583
+jufinance-0.0.12.dist-info/METADATA,sha256=EoiGJeC-14RLy3_pPenAupIAhmyj0PBd3JhpX6Z7Co0,1113
+jufinance-0.0.12.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+jufinance-0.0.12.dist-info/top_level.txt,sha256=eZDXVlq4xYnqF3YkrNITl0VS3_9L0vexYgR91mlf6o4,10
+jufinance-0.0.12.dist-info/RECORD,,
