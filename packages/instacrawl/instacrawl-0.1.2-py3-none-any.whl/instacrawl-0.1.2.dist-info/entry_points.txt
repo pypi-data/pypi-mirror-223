@@ -1,0 +1,3 @@
+[console_scripts]
+instacrawl=instacrawl.__main__:run
+
