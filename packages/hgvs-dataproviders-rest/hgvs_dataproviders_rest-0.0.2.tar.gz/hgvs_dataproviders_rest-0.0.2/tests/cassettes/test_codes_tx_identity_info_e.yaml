@@ -1,0 +1,30 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: http://127.0.0.1:8000/tx_identity_info/NM_199425.2
+  response:
+    body:
+      string: '{"tx_ac":"NM_199425.2","alt_ac":"NM_199425.2","alt_aln_method":"transcript","cds_start_i":283,"cds_end_i":1003,"lengths":[707,79,410],"hgnc":"VSX1"}'
+    headers:
+      content-length:
+      - '148'
+      content-type:
+      - application/json
+      date:
+      - Mon, 31 Jul 2023 17:30:40 GMT
+      server:
+      - uvicorn
+    status:
+      code: 200
+      message: OK
+version: 1

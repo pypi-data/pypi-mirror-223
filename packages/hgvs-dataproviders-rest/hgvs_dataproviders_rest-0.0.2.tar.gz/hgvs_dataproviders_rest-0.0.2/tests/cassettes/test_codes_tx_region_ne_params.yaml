@@ -1,0 +1,32 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: http://127.0.0.1:8000/tx_for_region/fake?alt_aln_method=splign
+  response:
+    body:
+      string: '{"detail":[{"type":"missing","loc":["query","start_i"],"msg":"Field
+        required","input":null,"url":"https://errors.pydantic.dev/2.1/v/missing"},{"type":"missing","loc":["query","end_i"],"msg":"Field
+        required","input":null,"url":"https://errors.pydantic.dev/2.1/v/missing"}]}'
+    headers:
+      content-length:
+      - '272'
+      content-type:
+      - application/json
+      date:
+      - Mon, 31 Jul 2023 17:30:40 GMT
+      server:
+      - uvicorn
+    status:
+      code: 422
+      message: Unprocessable Entity
+version: 1
