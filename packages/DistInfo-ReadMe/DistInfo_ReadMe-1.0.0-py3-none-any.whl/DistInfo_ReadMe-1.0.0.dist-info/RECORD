@@ -1,0 +1,12 @@
+distinfo_readme/__init__.py,sha256=KEwLsNhBzZUAW_fadHeBbY6t8k2qtxUehZ7ZKb3REMw,247
+distinfo_readme/__main__.py,sha256=wLXJfuH9Im17PwqI-DKcQozmkM2i23uKYkNh9_p9u9U,65
+distinfo_readme/main.py,sha256=2kxWClRjq7cEYtRDq9oq38JeplcSFg37yn0LucL80_I,4142
+distinfo_readme/resources/css.css,sha256=ehnuuGyx3_9pz1F_NFpjbmZpri-6vA1X-AvJb88qOvY,15936
+distinfo_readme/resources/favicon.ico,sha256=4axP0wMRCmACJ2lHuDNZLLnTkMMkjNh9m8uf4nW0pYA,4022
+distinfo_readme/resources/readme-ltr.css,sha256=nxwZVJ_2dibBpAGKt1yq-qIeBAw0vphWHEsYnHI0zGQ,88679
+DistInfo_ReadMe-1.0.0.dist-info/LICENSE,sha256=z25OmSFxV3tFx_WfAu6fhzPz6bJ-YMxAFkVd_5bRhs0,1276
+DistInfo_ReadMe-1.0.0.dist-info/METADATA,sha256=rh6YRcEoKrQ3x9LI09BPqQZhvBp6cokDsHy0Od86Jos,3206
+DistInfo_ReadMe-1.0.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+DistInfo_ReadMe-1.0.0.dist-info/entry_points.txt,sha256=QLAfj6lauhCzJsv12V6R4UlaQc3j7WvariZ8uHdYwG0,63
+DistInfo_ReadMe-1.0.0.dist-info/top_level.txt,sha256=1JuMAIZwv_6vV2biHpnyWchwkh6Ajw3eDHYzG9gEtPI,16
+DistInfo_ReadMe-1.0.0.dist-info/RECORD,,
