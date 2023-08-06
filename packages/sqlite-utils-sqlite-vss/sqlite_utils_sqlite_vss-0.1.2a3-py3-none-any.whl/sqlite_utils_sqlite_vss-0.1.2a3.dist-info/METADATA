@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sqlite-utils-sqlite-vss
+Version: 0.1.2a3
+Summary: TODO
+Author: Alex Garcia
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/asg017/sqlite-vss
+Project-URL: Changelog, https://github.com/asg017/sqlite-vss/releases
+Project-URL: Issues, https://github.com/asg017/sqlite-vss/issues
+Description-Content-Type: text/markdown
+Requires-Dist: sqlite-utils
+Requires-Dist: sqlite-vss
+
+# `sqlite-utils-sqlite-vss`
+
+A `sqlite-utils` plugin that registers the `sqlite-vss` extension.
