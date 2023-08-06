@@ -1,0 +1,22 @@
+{%- if cookiecutter.tests_type == 'unit' -%}
+package application
+
+import kotlin.test.Test
+import kotlin.test.assertNotNull
+import kotlin.test.assertEquals
+
+class AppTest{{cookiecutter.tests_number}} {
+    @Test fun appHasAGreeting() {
+        val classUnderTest = App()
+        assertNotNull(classUnderTest.greeting, "app should have a greeting")
+    }
+}
+{%- elif cookiecutter.tests_type == 'input' -%}
+1 2 3 4
+#####
+1 4 9 16
+-----
+0 5 3 4
+#####
+0 25 9 16
+{% endif -%}

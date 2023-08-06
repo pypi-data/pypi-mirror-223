@@ -1,0 +1,58 @@
+{%- if cookiecutter.lang == 'e' -%}
+{%- if cookiecutter.tests_type == "unit" -%}
+note
+    description : "root class of the application"
+    date        : "$Date$"
+    revision    : "$Revision$"
+
+class
+    APPLICATION
+
+inherit
+    ARGUMENTS
+
+create
+    make
+
+feature {NONE} -- Initialization
+
+    device:{{cookiecutter.exercise.upper()}}_INITIAL
+    make
+            -- Run application.
+        do
+            create device
+            print(device.{{cookiecutter.exercise}}(20))
+
+
+        end
+
+end
+{%- elif cookiecutter.tests_type == "input" -%}
+note
+    description : "root class of the application"
+    date        : "$Date$"
+    revision    : "$Revision$"
+
+class
+    APPLICATION
+
+inherit
+    ARGUMENTS
+
+create
+    make
+
+feature {NONE} -- Initialization
+
+    device:{{cookiecutter.exercise.upper()}}_INITIAL
+    make
+            -- Run application.
+        do
+            create device
+            print(device.{{cookiecutter.exercise}}(1))
+
+        end
+
+end
+{% endif -%}
+{% endif -%}

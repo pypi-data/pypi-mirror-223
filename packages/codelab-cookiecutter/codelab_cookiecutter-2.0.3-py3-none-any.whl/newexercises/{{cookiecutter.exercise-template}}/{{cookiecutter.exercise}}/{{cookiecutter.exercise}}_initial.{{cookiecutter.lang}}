@@ -1,0 +1,103 @@
+{%- if cookiecutter.lang == 'py' -%}
+def {{cookiecutter.exercise}}(input):
+    pass
+
+{%- elif cookiecutter.lang == 'hs' -%}
+module {{cookiecutter.exercise.capitalize()}} (is{{cookiecutter.exercise.capitalize()}}) where
+
+--This is the example, you need to implement your own function and tests for them
+is{{cookiecutter.exercise.capitalize()}} :: Integer -> Integer    --function declaration
+is{{cookiecutter.exercise.capitalize()}} x  =  x + 2               --function definition
+
+
+main :: IO ()
+main = do
+   print(is{{cookiecutter.exercise.capitalize()}} 5)    --calling a function
+
+{%- elif cookiecutter.lang == 'js' -%}
+//
+// This is only a SKELETON file for the exercise. It's been provided as a
+// convenience to get you started writing code faster.
+//
+export const is{{cookiecutter.exercise.capitalize()}} = () => {
+  throw new Error('Remove this statement and implement this function');
+};
+{%- elif cookiecutter.lang == 'html' -%}
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>{{cookiecutter.exercise.capitalize()}}</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<script  src="script.js"></script>
+
+</body>
+</html>
+
+{%- elif cookiecutter.lang == 'cpp' -%}
+#include "{{cookiecutter.exercise}}.initial.h"
+
+int main () {
+   // Calls function from namespace.
+    foo::multy(20);
+    return 0;
+}
+
+{%- elif cookiecutter.lang == 'c' -%}
+#include "{{cookiecutter.exercise}}.initial.h"
+
+
+int main()
+{
+    return 0;
+}
+
+{%- elif cookiecutter.lang == 'java' -%}
+package initial;
+
+public class {{cookiecutter.exercise.capitalize()}} {
+
+    public static String greet() {
+        return "Hello, World!";
+    }
+
+  }
+{%- elif cookiecutter.lang == 'go' -%}
+
+package main
+
+import "fmt"
+
+func {{cookiecutter.exercise.capitalize()}}(input string) (output string) {
+	for _, letter := range input {
+		output = string(letter) + output
+	}
+	return output
+}
+
+func main() {
+	fmt.Println({{cookiecutter.exercise.capitalize()}}("Hello"))
+}
+
+{%- elif cookiecutter.lang == 'e' -%}
+note
+    description : "{{cookiecutter.exercise}} class"
+    date        : "$Date$"
+    revision    : "$Revision$"
+
+class
+    {{cookiecutter.exercise.upper()}}_INITIAL
+
+feature  -- Initialization
+
+    {{cookiecutter.exercise}}(temp:INTEGER):INTEGER
+        do
+            Result := temp*2
+        end
+
+end
+{% endif -%}

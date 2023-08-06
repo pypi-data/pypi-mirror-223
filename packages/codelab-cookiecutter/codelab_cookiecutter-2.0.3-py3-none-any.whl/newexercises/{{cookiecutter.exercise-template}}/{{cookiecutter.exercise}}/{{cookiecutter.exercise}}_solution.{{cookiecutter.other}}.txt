@@ -1,0 +1,75 @@
+{%- if cookiecutter.lang == 'html' -%}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #bbdefb;
+  --blue-50: #e3f2fd;
+  --blue-100: #bbdefb;
+  --blue-A700: #2962ff;
+  --green-50: #e8f5e9;
+  --green-100: #c8e6c9;
+  --green-A700: #00c853;
+  --purple-50: #f3e5f5;
+  --purple-100: #e1bee7;
+  --purple-A700: #aa00ff;
+  --orange-50: #fff3e0;
+  --orange-100: #ffe0b2;
+  --orange-A700: #ff6d00;
+  --orange-700: #f57c00;
+  --grey-900: #212121;
+  --white: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s ease-in-out;
+  background-color: var(--background-color);
+}
+
+
+{%- elif cookiecutter.lang == 'cpp' -%}
+#include <iostream>
+
+namespace foo
+{
+    }
+{%- elif cookiecutter.lang == 'c' -%}
+#ifndef {{cookiecutter.exercise.upper()}}_H
+#define {{cookiecutter.exercise.upper()}}_H
+
+
+#endif
+{%- elif cookiecutter.lang == 'e' -%}
+note
+    description : "{{cookiecutter.exercise}} class"
+    date        : "$Date$"
+    revision    : "$Revision$"
+
+class
+    {{cookiecutter.exercise.upper()}}_INITIAL
+
+feature  -- Initialization
+
+
+end
+{% endif -%}
