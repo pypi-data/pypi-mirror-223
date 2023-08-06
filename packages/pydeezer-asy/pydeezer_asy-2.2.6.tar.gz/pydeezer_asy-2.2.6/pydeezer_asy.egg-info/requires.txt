@@ -1,0 +1,7 @@
+aiofiles
+cryptography
+mutagen
+httpx
+httpx[http2]
+yarl
+asyncio
