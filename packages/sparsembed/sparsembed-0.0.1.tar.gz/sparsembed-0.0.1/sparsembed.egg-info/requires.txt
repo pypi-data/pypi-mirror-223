@@ -1,0 +1,3 @@
+torch>=1.13
+tqdm>=4.65
+transformers>=4.30.2
