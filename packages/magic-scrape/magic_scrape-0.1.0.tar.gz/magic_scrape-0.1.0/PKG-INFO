@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: magic-scrape
+Version: 0.1.0
+Summary: Automatic extraction of webpage info using OpenAI Functions validation to store a sitewide config in a web scraper.
+Author-Email: Louis Maddox <louismmx@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# magic-scrape
+
+![PyPI](https://img.shields.io/pypi/v/magic-scrape?logo=python&logoColor=%23cccccc)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/lmmx/magic-scrape/master.svg)](https://results.pre-commit.ci/latest/github/lmmx/magic-scrape/master)
+
+<!-- [![build status](https://github.com/lmmx/magic-scrape/actions/workflows/master.yml/badge.svg)](https://github.com/lmmx/magic-scrape/actions/workflows/master.yml) -->
