@@ -1,0 +1,14 @@
+diplo_locus/__init__.py,sha256=gDDpzPmbPIq9QV7uNmwqw8UiXcGRu9XzpFmTO5oIqD4,99
+diplo_locus/diffusion_core.py,sha256=wPC4c1CpWhVFbQSqbVjdLg2XReVeNqi0tHDNi1F_KG8,8171
+diplo_locus/likelihood.py,sha256=Eqn8aTdSNK84n-c7XQWxih58vj20C38YI8wSfV6U_H4,45123
+diplo_locus/simulate.py,sha256=1tMoM54Od676XWk1cvTES99MiCtKKPSgQx3CAx6adYs,13319
+diplo_locus/utility.py,sha256=K9TwwKerfhtBGMsgf6IrgYT7RAr5k-JIL_BLLqQyJWQ,36933
+diplo_locus-1.0.0.data/scripts/DiploLocus.py,sha256=mW4i8MLa4osSX1qSUIc2ZYqpw730pvdnogVOCivtEE8,1440
+diplo_locus-1.0.0.data/scripts/DiploLocus_likelihood.py,sha256=AUxRw8B3nzU1eZj52vGZY7jpvK5FjZ9VaVNjpg_WANs,56354
+diplo_locus-1.0.0.data/scripts/DiploLocus_simulate.py,sha256=oHa6Qxf0w5Ae57j4j9hhATpsQ8nWrsdxsWf2-gTOKaI,24700
+diplo_locus-1.0.0.dist-info/LICENSE,sha256=5TRRIc3te1EEewMn7j-AQJphnze44vpVId-ul7MRCzE,1068
+diplo_locus-1.0.0.dist-info/METADATA,sha256=FxmtbzOevmwtH6_Xi5wohE1kBz9HA8tiBYXXA7_8X3Q,40200
+diplo_locus-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+diplo_locus-1.0.0.dist-info/entry_points.txt,sha256=V__e8ZzzsIT-s_BpoPGv1Wy0IdN8RTN8Yav5IThLT0g,145
+diplo_locus-1.0.0.dist-info/top_level.txt,sha256=4tGmAR4DCR1kEo97-PBbfD5o3HOqyEM6v-6uVLOjuT8,12
+diplo_locus-1.0.0.dist-info/RECORD,,

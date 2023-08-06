@@ -1,0 +1,4 @@
+[console_scripts]
+DiploLocus = DiploLocus:main
+DiploLocus-likelihood = DiploLocus_likelihood:main
+DiploLocus-simulate = DiploLocus_simulate:main
