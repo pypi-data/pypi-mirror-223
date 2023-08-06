@@ -1,0 +1,6 @@
+setup.py
+modulomuysimpleoscar.egg-info/PKG-INFO
+modulomuysimpleoscar.egg-info/SOURCES.txt
+modulomuysimpleoscar.egg-info/dependency_links.txt
+modulomuysimpleoscar.egg-info/requires.txt
+modulomuysimpleoscar.egg-info/top_level.txt
