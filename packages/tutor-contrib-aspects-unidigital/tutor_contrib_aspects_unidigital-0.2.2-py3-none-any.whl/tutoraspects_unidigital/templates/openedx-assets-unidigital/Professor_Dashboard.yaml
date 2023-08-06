@@ -1,0 +1,426 @@
+- _file_name: Professor_Dashboard.yaml
+  _roles:
+  - {{ SUPERSET_ROLES_MAPPING.instructor }}
+  dashboard_title: Professor Dashboard
+  description: null
+  css: ''
+  slug: professor-dashboard
+  uuid: f69699ab-922d-468c-a0a0-16b819c49f6d
+  position:
+    DASHBOARD_VERSION_KEY: v2
+    GRID_ID:
+      children:
+      - HEADER-NLSYNkRBIo
+      - TABS-sHL-DlmaKB
+      - HEADER-1stFGc8XH3
+      - TABS-FFVSR3xamd
+      - HEADER-quUZJaC0pL
+      - TABS-LnXAS-WbIi
+      - HEADER-YyN2fwSsfR
+      - TABS-asBh9U7J1Q
+      - HEADER--KqHmCf5Bg
+      - TABS-67MRDnt461
+      - HEADER-KDXFTajq0h
+      - TABS-B5ug5z0bAj
+      - HEADER-dlrj0BdjwM
+      - TABS-xso16UtvK6
+      id: GRID_ID
+      parents:
+      - ROOT_ID
+      type: GRID
+    HEADER--KqHmCf5Bg:
+      children: []
+      id: HEADER--KqHmCf5Bg
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Forum
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER-1stFGc8XH3:
+      children: []
+      id: HEADER-1stFGc8XH3
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Student Ranking
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER-KDXFTajq0h:
+      children: []
+      id: HEADER-KDXFTajq0h
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: File Downloads
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER-NLSYNkRBIo:
+      children: []
+      id: HEADER-NLSYNkRBIo
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Overview
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER-YyN2fwSsfR:
+      children: []
+      id: HEADER-YyN2fwSsfR
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Problems
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER-dlrj0BdjwM:
+      children: []
+      id: HEADER-dlrj0BdjwM
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Login
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER-quUZJaC0pL:
+      children: []
+      id: HEADER-quUZJaC0pL
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Videos
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER_ID:
+      id: HEADER_ID
+      meta:
+        text: Professor Dashboard
+      type: HEADER
+    ROOT_ID:
+      children:
+      - GRID_ID
+      id: ROOT_ID
+      type: ROOT
+    TAB-450bnjoq-:
+      children: []
+      id: TAB-450bnjoq-
+      meta:
+        text: Forum Contributions
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-67MRDnt461
+      type: TAB
+    TAB-7S5bPfGCQk:
+      children: []
+      id: TAB-7S5bPfGCQk
+      meta:
+        text: Video Engagement
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-LnXAS-WbIi
+      type: TAB
+    TAB-9s-o9LUCo:
+      children: []
+      id: TAB-9s-o9LUCo
+      meta:
+        text: Device Type
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-xso16UtvK6
+      type: TAB
+    TAB-C7NxFe-kx:
+      children: []
+      id: TAB-C7NxFe-kx
+      meta:
+        text: Group Performance
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-FFVSR3xamd
+      type: TAB
+    TAB-IZzCjXZ4C:
+      children: []
+      id: TAB-IZzCjXZ4C
+      meta:
+        text: Login per time
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-xso16UtvK6
+      type: TAB
+    TAB-KbIo4VuTT:
+      children: []
+      id: TAB-KbIo4VuTT
+      meta:
+        text: Last 7 days
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-sHL-DlmaKB
+      type: TAB
+    TAB-SzOVPOTj5:
+      children: []
+      id: TAB-SzOVPOTj5
+      meta:
+        text: Contributions Table
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-67MRDnt461
+      type: TAB
+    TAB-ThHzgKLpx:
+      children: []
+      id: TAB-ThHzgKLpx
+      meta:
+        text: Problem Engagement
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-asBh9U7J1Q
+      type: TAB
+    TAB-UDnz1DfTe2:
+      children: []
+      id: TAB-UDnz1DfTe2
+      meta:
+        text: Last Login
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-xso16UtvK6
+      type: TAB
+    TAB-Zwr7J4hXo:
+      children: []
+      id: TAB-Zwr7J4hXo
+      meta:
+        text: Grades
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-sHL-DlmaKB
+      type: TAB
+    TAB-ZyiruNvHs:
+      children: []
+      id: TAB-ZyiruNvHs
+      meta:
+        text: Video
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-LnXAS-WbIi
+      type: TAB
+    TAB-i--AD9Pcx:
+      children: []
+      id: TAB-i--AD9Pcx
+      meta:
+        text: Effort
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-sHL-DlmaKB
+      type: TAB
+    TAB-iHREwqa5V:
+      children: []
+      id: TAB-iHREwqa5V
+      meta:
+        text: Student Progress
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-FFVSR3xamd
+      type: TAB
+    TAB-id1S3p2b_b:
+      children: []
+      id: TAB-id1S3p2b_b
+      meta:
+        text: Participants
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-67MRDnt461
+      type: TAB
+    TAB-idO5csEKOu:
+      children: []
+      id: TAB-idO5csEKOu
+      meta:
+        text: Problem Progress
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-asBh9U7J1Q
+      type: TAB
+    TAB-l4zA_lRUK:
+      children: []
+      id: TAB-l4zA_lRUK
+      meta:
+        text: Videos
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-LnXAS-WbIi
+      type: TAB
+    TAB-of_r53xEaT:
+      children: []
+      id: TAB-of_r53xEaT
+      meta:
+        text: Student Performance
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-FFVSR3xamd
+      type: TAB
+    TAB-phhVP2JN6:
+      children: []
+      id: TAB-phhVP2JN6
+      meta:
+        text: Files
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-B5ug5z0bAj
+      type: TAB
+    TAB-tq6h0rtnX9:
+      children: []
+      id: TAB-tq6h0rtnX9
+      meta:
+        text: Course Data
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-sHL-DlmaKB
+      type: TAB
+    TAB-vC7ulphzs:
+      children: []
+      id: TAB-vC7ulphzs
+      meta:
+        text: Students
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-sHL-DlmaKB
+      type: TAB
+    TAB-vtNoxpeu2:
+      children: []
+      id: TAB-vtNoxpeu2
+      meta:
+        text: Effort/Grades
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-sHL-DlmaKB
+      type: TAB
+    TAB-vzohWPZNf:
+      children: []
+      id: TAB-vzohWPZNf
+      meta:
+        text: Video Analytics
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-LnXAS-WbIi
+      type: TAB
+    TABS-67MRDnt461:
+      children:
+      - TAB-id1S3p2b_b
+      - TAB-450bnjoq-
+      - TAB-SzOVPOTj5
+      id: TABS-67MRDnt461
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+    TABS-B5ug5z0bAj:
+      children:
+      - TAB-phhVP2JN6
+      id: TABS-B5ug5z0bAj
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+    TABS-FFVSR3xamd:
+      children:
+      - TAB-of_r53xEaT
+      - TAB-C7NxFe-kx
+      - TAB-iHREwqa5V
+      id: TABS-FFVSR3xamd
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+    TABS-LnXAS-WbIi:
+      children:
+      - TAB-7S5bPfGCQk
+      - TAB-ZyiruNvHs
+      - TAB-l4zA_lRUK
+      - TAB-vzohWPZNf
+      id: TABS-LnXAS-WbIi
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+    TABS-asBh9U7J1Q:
+      children:
+      - TAB-idO5csEKOu
+      - TAB-ThHzgKLpx
+      id: TABS-asBh9U7J1Q
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+    TABS-sHL-DlmaKB:
+      children:
+      - TAB-tq6h0rtnX9
+      - TAB-i--AD9Pcx
+      - TAB-vC7ulphzs
+      - TAB-Zwr7J4hXo
+      - TAB-vtNoxpeu2
+      - TAB-KbIo4VuTT
+      id: TABS-sHL-DlmaKB
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+    TABS-xso16UtvK6:
+      children:
+      - TAB-UDnz1DfTe2
+      - TAB-IZzCjXZ4C
+      - TAB-9s-o9LUCo
+      id: TABS-xso16UtvK6
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+  metadata:
+    show_native_filters: true
+    color_scheme: ''
+    refresh_frequency: 0
+    expanded_slices: {}
+    label_colors: {}
+    timed_refresh_immune_slices: []
+    default_filters: '{}'
+    chart_configuration: {}
+    shared_label_colors: {}
+  version: 1.0.0
