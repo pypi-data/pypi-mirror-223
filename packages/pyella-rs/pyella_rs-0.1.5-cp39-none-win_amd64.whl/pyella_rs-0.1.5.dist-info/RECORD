@@ -1,0 +1,13 @@
+pyella_rs-0.1.5.dist-info/METADATA,sha256=DwNVmio4Tmo3Ox2i4zEWbE3_I1ei_pzXiXxSwkxLb3U,1370
+pyella_rs-0.1.5.dist-info/WHEEL,sha256=AEr5m1XkYiXdLchbOjtn7VSjoPs_2BeqH39awFrbrB0,94
+ella/frame.py,sha256=2U38JHmSKHF4VUQ3h0cU7LvgN_dJlk_qQVPnGqTKHs4,119
+ella/frame.pyi,sha256=8Lyc4X7lHAtIgqM2Z4b-11RU8w86mrPrlPblnomfACk,1022
+ella/py.typed,sha256=2Ox0AU4FNnXJ0T5LyWKc_BbJXopWJJUFe8o2V7Zhvjc,9
+ella/table.py,sha256=VtM7bnmu_N1LQR81A5kn5KDfY0PvTbKkjMFz1JnUID0,192
+ella/table.pyi,sha256=ClLh_HBsLmKSF_LMrnH-QRjxGnUlRVe-7OQI3DGAvW4,1081
+ella/types.py,sha256=_464RODg5MuQf_tMXVJLGo0KJnvdvfZvR-ci0pZkhRU,1153
+ella/types.pyi,sha256=Mn14R345EaCP1MJz_8syxsHLSvjBNVSIMK4Lgw0i_7A,1184
+ella/__init__.py,sha256=HoySxcfxk1O5L8GcchfPz8qv0VH8LuXecMqc1acUVx0,693
+ella/__init__.pyi,sha256=9oKzPTpN4LWHqqySI2-eVa5tpi6EwTX3SMiuryGvZHo,1548
+ella/_internal.cp39-win_amd64.pyd,sha256=q5DjFdK0xq_IDNwd7J_llPnw64h4YG_W-3x0hL2cl40,61548032
+pyella_rs-0.1.5.dist-info/RECORD,,
