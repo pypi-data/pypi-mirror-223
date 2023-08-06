@@ -1,0 +1,12 @@
+webwithpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webwithpy/main.py,sha256=nFlWGwpA1cbUaCd2LwdBoOOwDL52Urh29Ax-5eqZevE,333
+webwithpy/wwp_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webwithpy/wwp_data/html_data.py,sha256=QnqZqMWKch80gDgp0FWk39Tg2Lcq2tyQzNpnhxBy_yI,386
+webwithpy/wwp_handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webwithpy/wwp_handler/request_handlers.py,sha256=UTpHkT0EKnwfMh2VZFdFZCxZ_UG26HS6TLKI1Sn644A,774
+webwithpy/wwp_requests/__init__.py,sha256=Po4sapig8FuuX4y6tk2OUbAZzP4gtVfwhtw4gPH9V9g,36
+webwithpy/wwp_requests/requests.py,sha256=Tgy40bfBBfSw3E8rbirEQ0JB0ChCqProUq_QwC_zZjg,770
+webwithpy-0.1.0.dist-info/LICENSE,sha256=nb6uAT8mQea3GPnEhv-7ShAVD-DtULuhiPOIoZGOY6s,1070
+webwithpy-0.1.0.dist-info/METADATA,sha256=gg60WE4WK4icJ_u0bts-N_Nr24G31o1B_aAGn1iZAI8,555
+webwithpy-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+webwithpy-0.1.0.dist-info/RECORD,,
