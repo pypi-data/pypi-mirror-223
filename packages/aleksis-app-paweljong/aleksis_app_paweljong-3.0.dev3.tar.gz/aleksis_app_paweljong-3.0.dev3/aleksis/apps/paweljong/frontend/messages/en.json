@@ -1,0 +1,28 @@
+{
+  "paweljong": {
+    "register": {
+      "menu_title": "Register"
+    },
+    "events": {
+      "menu_title": "Events",
+      "vouchers": {
+        "menu_title": "Vouchers"
+      },
+      "terms": {
+        "menu_title": "Terms"
+      },
+      "registration_states": {
+        "menu_title": "Registration states"
+      },
+      "info_mailings": {
+        "menu_title": "Info mailings"
+      },
+      "generate_lists": {
+        "menu_title": "Generate participant list"
+      },
+      "manage_events": {
+        "menu_title": "Manage events"
+      }
+    }
+  }
+}
