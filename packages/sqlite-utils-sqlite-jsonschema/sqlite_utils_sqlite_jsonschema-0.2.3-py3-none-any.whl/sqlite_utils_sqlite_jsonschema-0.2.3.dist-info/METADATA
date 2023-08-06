@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sqlite-utils-sqlite-jsonschema
+Version: 0.2.3
+Summary: TODO
+Author: Alex Garcia
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/asg017/sqlite-jsonschema
+Project-URL: Changelog, https://github.com/asg017/sqlite-jsonschema/releases
+Project-URL: Issues, https://github.com/asg017/sqlite-jsonschema/issues
+Description-Content-Type: text/markdown
+Requires-Dist: sqlite-utils
+Requires-Dist: sqlite-jsonschema
+
+# `sqlite-utils-sqlite-jsonschema`
+
+A `sqlite-utils` plugin that registers the `sqlite-jsonschema` extension.
