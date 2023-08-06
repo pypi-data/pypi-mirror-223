@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: QoolTabs
+Version: 1.0.1
+Summary: PyQt6 QTabWidget with drag and drop
+Home-page: https://github.com/rohankishore/QoolTabs/
+Author: Rohan Kishore
+Author-email: rohankishore746@gmail.com
+License: MIT
+Keywords: pyqt6,qtabwidget,modern,pyqt6 widgets
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# QoolTabs
+
+## QTabWidget but with drag and drop, context menu and so on.
+
+
+## Features in a Glance
+
+- Drag and drop support
+- Context menu with one default option to close all tabs
+- Support for themes like qdarktheme, etc
+
+
+1.0.0 --> First Release
+1.0.1 --> Second Release [Fixed a slight README issue]
