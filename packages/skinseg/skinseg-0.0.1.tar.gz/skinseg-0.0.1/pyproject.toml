@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skinseg"
+version = "0.0.1"
+authors = [
+  { name="DevBhuyan", email="devvjiit.bhuyan@gmail.com" },
+]
+description = "Contains tools for segmentation of skin lesion images. A prebuilt unsupervised Segmentation model and various helper functions to increase the efficacy of segmentation. Includes tools to visualise, compare, experiment with different image configurations and segmentation types. Tools can be used in cascade to the mask generator or independently. Feel free to play around with."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DevBhuyan/Unsup-Segmentation/"
+"Bug Tracker" = "https://github.com/DevBhuyan/Unsup-Segmentation/issues"
