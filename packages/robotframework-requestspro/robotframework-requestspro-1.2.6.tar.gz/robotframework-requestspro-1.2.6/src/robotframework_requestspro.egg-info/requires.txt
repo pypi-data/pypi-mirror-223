@@ -1,0 +1,6 @@
+pandas
+requests
+robotframework
+robotframework-requests
+urllib3
+cqepyutils
