@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: coopmongo
+Version: 0.2
+Summary: Basic interaction with a mongodb
+Home-page: https://github.com/tylertjburns/coopmongo
+Author: tburns
+Author-email: tyler.tj.burns@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >3.10
+Description-Content-Type: text/markdown
+Requires-Dist: anyio (==3.6.2)
+Requires-Dist: contourpy (==1.1.0)
+Requires-Dist: cooptools (==1.9)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: dnspython (==2.2.1)
+Requires-Dist: fastapi (==0.88.0)
+Requires-Dist: fonttools (==4.42.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: matplotlib (==3.7.2)
+Requires-Dist: numpy (==1.25.2)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: pandas (==2.0.3)
+Requires-Dist: pydantic (==1.10.2)
+Requires-Dist: pymongo (==4.3.3)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2023.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sniffio (==1.3.0)
+Requires-Dist: starlette (==0.22.0)
+Requires-Dist: typing-extensions (==4.4.0)
+Requires-Dist: tzdata (==2023.3)
+
+# coopmongo
+ package for interacting with a mongo db
+
+
