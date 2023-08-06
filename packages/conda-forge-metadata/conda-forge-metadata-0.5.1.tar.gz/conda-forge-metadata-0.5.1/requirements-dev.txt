@@ -1,0 +1,9 @@
+flake8
+flaky
+pip
+pytest
+python-build
+setuptools>=45
+setuptools_scm>=7
+tomli>=1.0.0
+typing-extensions
