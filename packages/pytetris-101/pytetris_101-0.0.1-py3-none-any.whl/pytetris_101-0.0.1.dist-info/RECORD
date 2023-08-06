@@ -1,0 +1,10 @@
+src/settings.py,sha256=FjMGky-TiJJJRUZ_sfHJ5uqIirHBSoIH2IZLAR_C1CI,23
+src/shapes.py,sha256=8VElQ4mDQwr-INWhnmk_H-5lKvXYs0THjT7PG3kNrfw,4407
+src/style.css,sha256=L_yLpiF9IScgesiZc6RuxSEArS-5xVFh1gWxn8p8xsA,393
+src/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tests/test_shapes.py,sha256=g_RHsMWFGOfePQwarehLD_kKfhEcHpgEhc5e8wD6Sy8,559
+src/tetris.py,sha256=99YjjAw5w_K8Rwlazx0N8u_ySSrOl0m6wvytYgnZGwM,4823
+pytetris_101-0.0.1.dist-info/LICENSE,sha256=GIi0KlIxZm44j68bow1AGhMaYx9FwFlL7LrNKoTGF2E,1060
+pytetris_101-0.0.1.dist-info/METADATA,sha256=u4ZbCAZbgQMNz231qAITQ_JHAZYmZ21sKgjIsk81z2E,689
+pytetris_101-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pytetris_101-0.0.1.dist-info/RECORD,,
