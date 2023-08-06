@@ -1,0 +1,5 @@
+testlibreria.egg-info/PKG-INFO
+testlibreria.egg-info/SOURCES.txt
+testlibreria.egg-info/dependency_links.txt
+testlibreria.egg-info/requires.txt
+testlibreria.egg-info/top_level.txt
