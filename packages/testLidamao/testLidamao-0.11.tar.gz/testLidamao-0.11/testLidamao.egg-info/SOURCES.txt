@@ -1,0 +1,7 @@
+a.py
+setup.py
+testLidamao.egg-info/PKG-INFO
+testLidamao.egg-info/SOURCES.txt
+testLidamao.egg-info/dependency_links.txt
+testLidamao.egg-info/requires.txt
+testLidamao.egg-info/top_level.txt
