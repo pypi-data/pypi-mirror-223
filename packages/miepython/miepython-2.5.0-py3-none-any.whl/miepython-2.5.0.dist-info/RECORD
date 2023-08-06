@@ -1,0 +1,11 @@
+miepython/__init__.py,sha256=Jod4eWsgn6bRDzbNXNGEmFBj4BIzTlGwGrqoe99r7nA,1498
+miepython/miepython.py,sha256=L9AInRGUq5a9QrcBwLm0Ll9mCulZKITAinTaQ0WD9P0,28001
+miepython/miepython_nojit.py,sha256=z9GSxTkCC400vqdfLk4am-gtPrISvKCd89o1UTqRUD0,25628
+miepython/data/Johnson.txt,sha256=PcdEhJ3ZKUnt--86ukEvUt-w-814uOyWXtE-G3qWTNE,1337
+miepython/data/ag-Johnson.txt,sha256=lNt3wwJ9ubl_6AGWNg7aoo0j_HJ5YS9xT9p3eWfIdPs,1337
+miepython/data/segelstein81_index.txt,sha256=aJLqcPIkw-0WDY37GRcTefLV0WGhyMt6IbOKY8JxGww,36719
+miepython-2.5.0.dist-info/LICENSE.txt,sha256=g9-BWWRLvMDMQ1Zflxliku7Sleom1_SbXHQHOLGgqqk,1055
+miepython-2.5.0.dist-info/METADATA,sha256=m5764QR7jVTjc2tVwpaA0hbzo5PIMXF-IyM1Czm18ns,4162
+miepython-2.5.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+miepython-2.5.0.dist-info/top_level.txt,sha256=bfkk6YwrKm_aIzInR5y03YbywpwCzUjJEHaFkEiSKxI,10
+miepython-2.5.0.dist-info/RECORD,,
