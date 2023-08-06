@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: c2y
+Version: 0.1.5
+Summary: Convert coco datasets to yolo datasets
+Author: hobbymarks
+Author-email: ihobbymarks@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: coverage (>=7.2.7,<8.0.0)
+Requires-Dist: fire (>=0.5.0,<0.6.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: mimetypes-magic (>=0.4.30,<0.5.0)
+Requires-Dist: oyaml (>=1.0,<2.0)
+Requires-Dist: pycocotools (>=2.0.6,<3.0.0)
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Requires-Dist: pytest-mock (>=3.11.1,<4.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+# NAME
+    c2y
+
+# SYNOPSIS
+    c2y <flags>
+
+# DESCRIPTION
+    Convert coco datasets to yolo datasets
+
+# FLAGS
+    -a, --ann_path=ANN_PATH
+        Type: Optional[Optional]
+        Default: None
+    -i, --imgs_dir=IMGS_DIR
+        Type: Optional[Optional]
+        Default: None
+    -y, --yolo_cfg_yaml=YOLO_CFG_YAML
+        Type: Optional[Optional]
+        Default: None
+    -o, --output_dir=OUTPUT_DIR
+        Type: Optional[Optional]
+        Default: None
+    -f, --force=FORCE
+        Type: bool
+        Default: False

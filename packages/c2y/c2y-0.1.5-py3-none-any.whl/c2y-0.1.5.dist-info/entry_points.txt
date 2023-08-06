@@ -1,0 +1,3 @@
+[console_scripts]
+c2y=c2y.__main__:main_entry
+
