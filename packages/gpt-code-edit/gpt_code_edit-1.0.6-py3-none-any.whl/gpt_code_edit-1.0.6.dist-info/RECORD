@@ -1,0 +1,14 @@
+chatgpt_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_cli/arguement_validator.py,sha256=mO_6gcSAplZrrEApNfLkGTOyEKTXrFpv4CRrU9FdWSM,7368
+chatgpt_cli/code_parser.py,sha256=aYNqeQXVEH6rJu95-NS2nTUhIfp_NOEPAgwyAdJ56i0,10813
+chatgpt_cli/gpt_request.py,sha256=6TanB2SdpFTN2JFzumvRJ2QCTPAJ8MdYEGCa-3Hg3_A,6309
+chatgpt_cli/main.py,sha256=WOPmCzhFtlwYhJVQcX3aXHZsU_B1de6SQQ2RCc_tD0M,1038
+chatgpt_cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_cli/commands/code_edit.py,sha256=iKL1a5xlAykPAdmBtedjXOdd1qI66PpCYT29LatMTlM,6504
+chatgpt_cli/commands/review_to_file.py,sha256=k581UBWRrwY5JfEzYhQvNWw4f8WdqipwJRDgIxPeiHM,3346
+chatgpt_cli/commands/set_api_key.py,sha256=FQ4-3u1CbVB0ScXJY37dm5sxJ0V5TJPNeablnjsbFak,1060
+gpt_code_edit-1.0.6.dist-info/METADATA,sha256=_DZsBWU2D258PZiz5s4aAGegXK4UOwR5HWqXTXeJXrQ,6038
+gpt_code_edit-1.0.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+gpt_code_edit-1.0.6.dist-info/entry_points.txt,sha256=K0G6EwoOfmL3S16T4bQ3cSL1vmUbPigW7hXgxgnG7ps,47
+gpt_code_edit-1.0.6.dist-info/top_level.txt,sha256=0y5uFcJXZ49SCwoFIGWQm_JI5_rbbh7KvxhAD5aGql8,12
+gpt_code_edit-1.0.6.dist-info/RECORD,,
