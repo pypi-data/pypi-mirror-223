@@ -1,0 +1,13 @@
+defaults:
+  - __init__
+  - tagger: nltk
+
+_config_name_: nltk
+_target_: lexikanon.tokenizers.NLTKTokenizer
+noun_postags:
+  - NN
+  - NNP
+  - NNS
+  - NNPS
+stop_postags:
+  - "."
