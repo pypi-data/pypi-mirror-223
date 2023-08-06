@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+rethink/__init__.py
+rethink/answer_corrector.py
+rethink/utils.py
+rethink.egg-info/PKG-INFO
+rethink.egg-info/SOURCES.txt
+rethink.egg-info/dependency_links.txt
+rethink.egg-info/requires.txt
+rethink.egg-info/top_level.txt
