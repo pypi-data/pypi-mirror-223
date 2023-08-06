@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: twpl
+Version: 0.0.1
+Summary: Two-phase locking via lockfiles
+Home-page: https://github.com/LankyCyril/twpl
+Author: Kirill Grigorev
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: license
+
+Test post please ignore
+
+
