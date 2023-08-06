@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+streamers/__init__.py
+streamers/streamers.py
+streamers.egg-info/PKG-INFO
+streamers.egg-info/SOURCES.txt
+streamers.egg-info/dependency_links.txt
+streamers.egg-info/entry_points.txt
+streamers.egg-info/requires.txt
+streamers.egg-info/top_level.txt
+tests/__init__.py
+tests/streamers_test.py
