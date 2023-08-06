@@ -1,0 +1,11 @@
+README.md
+setup.py
+openapi/__init__.py
+openapi/constants.py
+openapi/core.py
+openapi/core_async.py
+sdk_openapi.egg-info/PKG-INFO
+sdk_openapi.egg-info/SOURCES.txt
+sdk_openapi.egg-info/dependency_links.txt
+sdk_openapi.egg-info/requires.txt
+sdk_openapi.egg-info/top_level.txt
