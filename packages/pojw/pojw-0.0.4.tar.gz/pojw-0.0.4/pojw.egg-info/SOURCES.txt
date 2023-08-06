@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pojw/__init__.py
+pojw/ojw.py
+pojw.egg-info/PKG-INFO
+pojw.egg-info/SOURCES.txt
+pojw.egg-info/dependency_links.txt
+pojw.egg-info/top_level.txt
