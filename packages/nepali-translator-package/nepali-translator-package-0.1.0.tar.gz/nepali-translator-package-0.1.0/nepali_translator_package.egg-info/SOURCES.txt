@@ -1,0 +1,8 @@
+README.md
+setup.py
+nepali_translator/__init__.py
+nepali_translator/translator.py
+nepali_translator_package.egg-info/PKG-INFO
+nepali_translator_package.egg-info/SOURCES.txt
+nepali_translator_package.egg-info/dependency_links.txt
+nepali_translator_package.egg-info/top_level.txt
