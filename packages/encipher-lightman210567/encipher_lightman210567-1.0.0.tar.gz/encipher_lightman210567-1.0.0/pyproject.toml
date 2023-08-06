@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=63.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "encipher_lightman210567"
+version = "1.0.0"
+authors = [
+{name = "lightman210567", email = "81330314+lightman210567@users.noreply.github.com"}]
+description = "A package containing the implementation of the vigenere cipher. More ciphers will be added in future versions."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lightman210567/Encipher-python"
+"Bug tracker" = "https://github.com/lightman210567/Encipher-python/issues"
