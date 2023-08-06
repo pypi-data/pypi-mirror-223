@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: leanforge
+Version: 0.1.0
+Summary: LeanForge is a Django package that helps businesses create and refine Lean Canvas Business Plans. With LeanForge, you can easily shape and mold your business strategies using lean methodology principles. It provides a comprehensive set of tools, models, and templates to seamlessly integrate Lean Canvas functionality into your Django projects. Simplify your business planning process, drive continuous improvement, and forge a path to success with LeanForge.
+License: MIT
+Author: Ali Tavallaie
+Author-email: a.tavallaie@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10

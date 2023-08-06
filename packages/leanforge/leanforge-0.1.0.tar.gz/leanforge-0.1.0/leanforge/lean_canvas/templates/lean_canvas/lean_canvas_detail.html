@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+    <div class="text-center">
+        <h1 class="text-2xl font-bold mb-4">{{ canvas.title }}</h1>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <section class="bg-white p-4 shadow-md" id="problem">
+            <h2 class="text-xl font-bold">Problem</h2>
+            <p>{{ canvas.problem }}</p>
+        </section>
+
+        <section class="bg-white p-4 shadow-md" id="solution">
+            <h2 class="text-xl font-bold">Solution</h2>
+            <p>{{ canvas.solution }}</p>
+        </section>
+
+        <section class="bg-white p-4 shadow-md" id="unique-value-proposition">
+            <h2 class="text-xl font-bold">Unique Value Proposition</h2>
+            <p>{{ canvas.unique_value_proposition }}</p>
+        </section>
+
+        <section class="bg-white p-4 shadow-md" id="unfair-advantage">
+            <h2 class="text-xl font-bold">Unfair Advantage</h2>
+            <p>{{ canvas.unfair_advantage }}</p>
+        </section>
+
+        <section class="bg-white p-4 shadow-md" id="customer-segments">
+            <h2 class="text-xl font-bold">Customer Segments</h2>
+            <p>{{ canvas.customer_segments }}</p>
+        </section>
+        <section class="bg-white p-4 shadow-md" id="customer-segments">
+            <h2 class="text-xl font-bold">Channel</h2>
+        
+        <div id="channels" hx-get="{% url 'channel_list' lean_canvas_id=canvas.id %}" hx-trigger="load">
+            <!-- Channels will be loaded here -->
+        </div>
+        </section>
+
+        <section class="bg-white p-4 shadow-md" id="cost-structure">
+            <h2 class="text-xl font-bold">Cost Structure</h2>
+            <p>{{ canvas.cost_structure }}</p>
+        </section>
+
+        <section class="bg-white p-4 shadow-md" id="revenue-streams">
+            <h2 class="text-xl font-bold">Revenue Streams</h2>
+            <p>{{ canvas.revenue_streams }}</p>
+        </section>
+
+    </div>
+</div>
+{% endblock %}
