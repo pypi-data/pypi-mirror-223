@@ -1,0 +1,12 @@
+catenae/__init__.py,sha256=ERDJhnlq9luPQmhBjLM-APvezBEvEGddopszWWEYDeY,2088
+catenae/catenae.py,sha256=a-p_3fVxTA_aZz_n-VGG6ZDVBzpvfqJvlKTx6TzY4o0,18088
+catenae/errors.py,sha256=FvbeToyM4f07ZgJe0rRsuNBs-TR5O7V0bh-qCL29BSs,390
+catenae/health.py,sha256=EznwORvPvG-HXXgCXDkC57wydpkwNgZdvjs5557le6I,636
+catenae/logger.py,sha256=1UpLDOE8M-5Q4SrN8ac8HQ-p3SFqDsDwpzwquMnPJQQ,707
+catenae/queue.py,sha256=qpEP2wy2icStRdKqHmN9fQxxLDRNcVpybHLXmFKGZ1k,2096
+catenae/threading.py,sha256=4HW-WyCL4H5gCNWSErn7gqdeRSW337i8989S6nfzVGs,2027
+catenae/utils.py,sha256=HYSNgDxx8WEAomYSjizutAZIyvi5do6XUYoivyAPVJk,1060
+catenae_stopover-3.2308.3.dist-info/METADATA,sha256=ErTG8IB2Z09ikcQbfZeUJF2UBPrTp_k5KCBcrlsaFN4,824
+catenae_stopover-3.2308.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+catenae_stopover-3.2308.3.dist-info/top_level.txt,sha256=8E6E0SqL9fHRQOOIaHVm5xJyTIBR5BqQiu04oOmV2YQ,8
+catenae_stopover-3.2308.3.dist-info/RECORD,,
