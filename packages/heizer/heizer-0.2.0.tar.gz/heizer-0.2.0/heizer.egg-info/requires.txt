@@ -1,0 +1,25 @@
+confluent_kafka
+
+[:python_version < "3.10"]
+typing
+typing_extensions
+
+[dev]
+pre-commit
+
+[doc]
+sphinx
+sphinx_rtd_theme
+myst-parser
+wheel
+ipython
+sphinx-multiversion
+requests
+
+[socket]
+websockets
+
+[test]
+pytest
+pytest-cov
+pydantic

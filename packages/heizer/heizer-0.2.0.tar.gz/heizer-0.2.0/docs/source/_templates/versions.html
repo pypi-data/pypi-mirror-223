@@ -1,0 +1,29 @@
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <script src="_static/jquery.js"></script>
+  <script>
+    fetch('./../versions.json')
+    .then(response => response.json())
+    .then(data => {
+      var myDl = document.getElementById('versions');
+      data.map(function (item) {
+        var dd = document.createElement('dd');
+        var a = document.createElement('a')
+        a.textContent = item.name;
+        a.href = item.url;
+        dd.appendChild(a);
+        myDl.appendChild(dd);
+      })
+    });
+  </script>
+  <span class="rst-current-version" data-toggle="rst-current-version">
+
+    <span class="fa fa-book"> Other Versions</span>
+    v: {{ release }}
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions" >
+    <dl id="versions">
+      <dt>Tags</dt>
+    </dl>
+  </div>
+</div>
