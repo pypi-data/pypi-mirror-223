@@ -1,0 +1,16 @@
+flow_agent_package.tools.get_flow_tool.get_flow_tool:
+  function: get_flow_tool
+  inputs:
+    name:
+      type:
+      - string
+    description:
+      type:
+      - string
+    flow_name:
+      type:
+      - string
+  module: flow_agent_package.tools.get_flow_tool
+  name: flow_agent_package.tools.get_flow_tool.get_flow_tool
+  description: A tool for getting json of another flow
+  type: python
