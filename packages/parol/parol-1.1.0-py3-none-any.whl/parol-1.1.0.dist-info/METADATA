@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: parol
+Version: 1.1.0
+Summary: 
+Home-page: https://pypi.org/project/parol
+License: MIT
+Author: Danil Akhtarov
+Author-email: daxartio@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bcrypt (>=4.0.1,<5.0.0)
+Project-URL: Changelog, https://github.com/daxartio/parol/blob/main/CHANGELOG.md/
+Project-URL: Repository, https://github.com/daxartio/parol
+Description-Content-Type: text/markdown
+
+# parol
+
+[![PyPI](https://img.shields.io/pypi/v/parol)](https://pypi.org/project/parol/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/parol)](https://www.python.org/downloads/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/daxartio/parol)](https://github.com/daxartio/parol)
+[![GitHub stars](https://img.shields.io/github/stars/daxartio/parol?style=social)](https://github.com/daxartio/parol)
+
+## Installation
+
+```
+pip install parol
+```
+
+## Usage
+
+```python
+>>> from parol import Password
+>>> pwd = Password.gen()
+>>> pwd.verify(pwd.hash())
+True
+
+```
+
+## License
+
+* [MIT LICENSE](LICENSE)
+
+## Contribution
+
+[Contribution guidelines for this project](CONTRIBUTING.md)
+
