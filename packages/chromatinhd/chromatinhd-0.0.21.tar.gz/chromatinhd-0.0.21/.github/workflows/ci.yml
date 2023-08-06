@@ -1,0 +1,33 @@
+name: test package
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+on:
+  push:
+    branches:
+      - main
+      - devel
+permissions:
+  contents: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          cache: 'pip'
+      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
+      - run: pip install torch # because torch_scatter contains import torch in the setup.py, we have to install torch first
+      - name: regular install
+        run: pip install .
+      - name: attempt import
+        run: python -c "import chromatinhd"
+      - name: test install
+        run: pip install -e .[test]
+      - name: ruff
+        run: ruff check --format=github .
+      - name: test
+        run: pytest
+      # - run: mkdocs gh-deploy --force
