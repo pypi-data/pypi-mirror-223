@@ -1,0 +1,10 @@
+cdpred/Model/alt_model.pkl,sha256=5ST6DFiW1-QLaYKPp7UJD9hpsRYTD6fsOTDS3k5srBA,11855888
+cdpred/Model/main_model.pkl,sha256=XfF4ZlKZ_vc0MQJwhjoWIfHkdmtXGwkzxK1sUNhGhcY,733578
+cdpred/Model/motif_ensemble,sha256=dbZs1v_RcgDiG65yi4z-lC6SWnWePsPZ2vUjTI5mCeo,333
+cdpred/Python_scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdpred/Python_scripts/cdpred.py,sha256=N9ah3RM6p5_UNAxmIUFeyUGRIplQ0wYsTxp7F2eEiNY,17198
+cdpred-0.1.dist-info/METADATA,sha256=xg9wYI4e-juGMJT8o6sUPPWxRifJUTxHzEgFhZH4klE,6869
+cdpred-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cdpred-0.1.dist-info/entry_points.txt,sha256=DAbu8poQo5YzJMqWAzTonHw5GIyUgxjegm5sw-W1Zn4,61
+cdpred-0.1.dist-info/top_level.txt,sha256=ESvikW9i8ljUtsYopKBlDeG5sxLaZ1lQWhjLEXYPxuk,7
+cdpred-0.1.dist-info/RECORD,,
