@@ -1,0 +1,14 @@
+atoti_directquery_bigquery/LICENSE,sha256=uj-cQ9LFo0v58DA-lc_SlI46k1rg1zHPkXQ_RNPB-bQ,23472
+atoti_directquery_bigquery/__init__.py,sha256=z1vy7rgqV0LiQUkmyVWocAn_yZoPk_R_3XLcW7ZVIY0,200
+atoti_directquery_bigquery/_plugin.py,sha256=WKtMhJbLcJgBYJN_f-G3vIw0Bd_NkebWD0uSyrEm-1s,365
+atoti_directquery_bigquery/connection.py,sha256=stxLYtiHgyc65mfqjoHLCILtk9UUJTHMCxDPms7gyac,977
+atoti_directquery_bigquery/connection_info.py,sha256=mp9DTFavFjGwg4jq_9QsfAOiRErVIeZXO4EbAv3HMQY,1813
+atoti_directquery_bigquery/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atoti_directquery_bigquery/table.py,sha256=qRtCIIvq5dyhIMsnkWg2x6AwE58XlKxr4sn4WMr2geY,129
+atoti_directquery_bigquery/table_options.py,sha256=gjOykjq8cNfLc3LtIz-IB4VZabzYSqxSA9-0aUXoIs8,4497
+atoti_directquery_bigquery/data/atoti-directquery-bigquery.jar,sha256=pgHHizEnejnAPV84cy9XKKH89H0raCVF1XJtAkuzNiM,59892837
+atoti_directquery_bigquery-0.8.3.dist-info/METADATA,sha256=Kw_xaAkLoaWM8iVDhhrFERII-9abyIImn49F1iyoFp4,870
+atoti_directquery_bigquery-0.8.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+atoti_directquery_bigquery-0.8.3.dist-info/entry_points.txt,sha256=tMmIwx6G5VAYF5O4vHExOdy1yMaQwZLjYJ9Sg8CL59E,89
+atoti_directquery_bigquery-0.8.3.dist-info/top_level.txt,sha256=DWMj-vrysqYyxHiDcTTSYiiueEglaQQPwwNDn_-lQ-s,27
+atoti_directquery_bigquery-0.8.3.dist-info/RECORD,,
