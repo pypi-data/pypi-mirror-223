@@ -1,0 +1,3 @@
+[console_scripts]
+spirits=spirits.command:spirits_cmd
+
