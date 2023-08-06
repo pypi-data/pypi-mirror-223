@@ -1,0 +1,30 @@
+- _file_name: Total_student_enrollments.yaml
+  slice_name: Total student enrollments
+  viz_type: big_number_total
+  params:
+    adhoc_filters:
+    - clause: WHERE
+      comparator: registered
+      expressionType: SIMPLE
+      filterOptionName: filter_bphwottx1jo_mph7kyv0hwm
+      isExtra: false
+      isNew: false
+      operator: ==
+      operatorId: EQUALS
+      sqlExpression: null
+      subject: enrollment_status
+    datasource: 6__table
+    extra_form_data: {}
+    granularity_sqla: enrollment_status_date
+    header_font_size: 0.4
+    metric: count
+    subheader_font_size: 0.15
+    time_format: smart_date
+    time_grain_sqla: P1D
+    time_range: No filter
+    viz_type: big_number_total
+    y_axis_format: SMART_NUMBER
+  cache_timeout: null
+  uuid: 6d3d6f4a-2165-4c76-9037-c556b80ec730
+  version: 1.0.0
+  dataset_uuid: 352311fe-12f0-470c-8b8c-d4f6a3936b3d

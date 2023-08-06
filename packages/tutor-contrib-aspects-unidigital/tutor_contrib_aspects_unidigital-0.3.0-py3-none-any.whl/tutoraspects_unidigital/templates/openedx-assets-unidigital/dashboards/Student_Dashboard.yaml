@@ -1,0 +1,90 @@
+- _file_name: Student_Dashboard.yaml
+  _roles:
+  - {{ SUPERSET_ROLES_MAPPING.instructor }}
+  dashboard_title: Student Dashboard
+  description: null
+  css: ''
+  slug: student-dashboard
+  uuid: 83660341-8acc-4f09-8f3c-ef4871e2415b
+  position:
+    DASHBOARD_VERSION_KEY: v2
+    GRID_ID:
+      children:
+      - TABS-T4bhiYuKQ-
+      id: GRID_ID
+      parents:
+      - ROOT_ID
+      type: GRID
+    HEADER_ID:
+      id: HEADER_ID
+      meta:
+        text: Student Dashboard
+      type: HEADER
+    ROOT_ID:
+      children:
+      - GRID_ID
+      id: ROOT_ID
+      type: ROOT
+    TAB-AVu8IhsCI:
+      children: []
+      id: TAB-AVu8IhsCI
+      meta:
+        text: Ranking
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-T4bhiYuKQ-
+      type: TAB
+    TAB-E-Tl_rVKBl:
+      children: []
+      id: TAB-E-Tl_rVKBl
+      meta:
+        text: My Activity
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-T4bhiYuKQ-
+      type: TAB
+    TAB-dclIZdA65:
+      children: []
+      id: TAB-dclIZdA65
+      meta:
+        text: My logins
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-T4bhiYuKQ-
+      type: TAB
+    TAB-xhPfZpHdL:
+      children: []
+      id: TAB-xhPfZpHdL
+      meta:
+        text: My Progress
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-T4bhiYuKQ-
+      type: TAB
+    TABS-T4bhiYuKQ-:
+      children:
+      - TAB-E-Tl_rVKBl
+      - TAB-AVu8IhsCI
+      - TAB-xhPfZpHdL
+      - TAB-dclIZdA65
+      id: TABS-T4bhiYuKQ-
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+  metadata:
+    show_native_filters: true
+    color_scheme: ''
+    refresh_frequency: 0
+    expanded_slices: {}
+    label_colors: {}
+    timed_refresh_immune_slices: []
+    default_filters: '{}'
+    chart_configuration: {}
+    shared_label_colors: {}
+  version: 1.0.0
