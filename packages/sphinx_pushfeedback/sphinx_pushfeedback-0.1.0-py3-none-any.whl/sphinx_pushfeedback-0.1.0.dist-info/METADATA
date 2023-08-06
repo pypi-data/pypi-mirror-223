@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: sphinx_pushfeedback
+Version: 0.1.0
+Summary: Feedback widget for Sphinx.
+Home-page: https://github.com/dgarcia360/sphinx-pushfeedback
+Author: David Garcia
+Author-email: hi@davidgarcia.dev
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Classifier: Framework :: Sphinx :: Extension
+Requires-Dist: sphinx >= 3
+Requires-Dist: furo ; extra == "doc"
+Requires-Dist: pre-commit ; extra == "test"
+Requires-Dist: pytest ; extra == "test"
+Provides-Extra: doc
+Provides-Extra: test
+
+sphinx-pushfeedback
+===================
+
+Feedback widget for Sphinx documentation.
+
+Installation
+------------
+
+#. Create a [PushFeedback account](http://pushfeedback.com/).
+
+#. Install ``sphinx-pushfeedback`` using PIP.
+
+   .. code-block:: bash
+
+      pip install sphinx-pushfeedback
+
+#. Add the extension to your Sphinx project ``conf.py`` file.
+
+   .. code-block:: python
+
+      extensions = ['sphinx_pushfeedback']
+
+#. Should appear the feedback widget.
+
+For advanced configuration options, see [Sphinx PushFeedback documentation](https://docs.pushfeedback.com/installation/sphinx).
+
+License
+-------
+
+Copyright (c) 2023 PushFeedback.com
+Licensed under the `MIT License <https://github.com/dgarcia360/sphinx-pushfeedback/blob/main/LICENSE.md>`_.
+
