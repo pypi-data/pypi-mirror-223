@@ -1,0 +1,12 @@
+easycloudapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easycloudapi/gcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easycloudapi/gcp/bigquery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easycloudapi/gcp/bigquery/bigquery_schema.py,sha256=qk3UX89FR9lcFFVtnFbOonNnC0_qvOVwbameKqUkWRQ,3135
+easycloudapi/generic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easycloudapi/generic/datetime/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easycloudapi/generic/datetime/generate_date_dimention.py,sha256=_47dmXLAn63s0MdrSKZVgANoZ0bH2Hu7oZHloU-Y2Ns,2506
+easycloudapi-0.0.3.dist-info/LICENSE,sha256=SZTwuCYnieHvA4nuqMLVl3xY367bkuda1WL-fZKh4cw,1093
+easycloudapi-0.0.3.dist-info/METADATA,sha256=_N8u8U3RvkUMGVjJxvmtvI5B67Rp82w0XmCH0SJJLbU,3979
+easycloudapi-0.0.3.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+easycloudapi-0.0.3.dist-info/top_level.txt,sha256=gAjbDpHzbFTG-7LmhT1wx69XvxhBOLIRN8XurPTc118,13
+easycloudapi-0.0.3.dist-info/RECORD,,
