@@ -1,0 +1,5 @@
+numpy
+pytorch>1.9
+matplotlib
+dask
+gymnasium
