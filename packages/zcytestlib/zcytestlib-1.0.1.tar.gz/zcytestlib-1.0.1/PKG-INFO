@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zcytestlib
+Version: 1.0.1
+Summary: this is a zcy demo lib 
+Home-page: https://github.com/aheake/zcyTest
+Author: ZCY
+Author-email: zcyang098@163.com
+License: MIT
+License-File: LICENSE.txt
+
+*斜体*
+**加粗**
+
+``def readme_file():with open("README.rst", encoding="utf-8") as rf:return rf.read()``
+
+abdbds
+======

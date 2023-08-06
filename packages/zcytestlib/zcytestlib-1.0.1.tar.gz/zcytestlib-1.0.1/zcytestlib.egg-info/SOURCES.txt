@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+tool.py
+zcytestlib/__init__.py
+zcytestlib/zcylibone.py
+zcytestlib.egg-info/PKG-INFO
+zcytestlib.egg-info/SOURCES.txt
+zcytestlib.egg-info/dependency_links.txt
+zcytestlib.egg-info/top_level.txt
