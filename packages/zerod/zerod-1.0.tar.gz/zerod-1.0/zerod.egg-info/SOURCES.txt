@@ -1,0 +1,9 @@
+README.md
+setup.py
+zerod/__init__.py
+zerod/a.py
+zerod.egg-info/PKG-INFO
+zerod.egg-info/SOURCES.txt
+zerod.egg-info/dependency_links.txt
+zerod.egg-info/requires.txt
+zerod.egg-info/top_level.txt
