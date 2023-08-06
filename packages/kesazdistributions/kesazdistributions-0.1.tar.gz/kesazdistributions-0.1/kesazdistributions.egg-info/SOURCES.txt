@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+kesazdistributions/Binomialdistribution.py
+kesazdistributions/Gaussiandistribution.py
+kesazdistributions/Generaldistribution.py
+kesazdistributions/__init__.py
+kesazdistributions.egg-info/PKG-INFO
+kesazdistributions.egg-info/SOURCES.txt
+kesazdistributions.egg-info/dependency_links.txt
+kesazdistributions.egg-info/not-zip-safe
+kesazdistributions.egg-info/top_level.txt
