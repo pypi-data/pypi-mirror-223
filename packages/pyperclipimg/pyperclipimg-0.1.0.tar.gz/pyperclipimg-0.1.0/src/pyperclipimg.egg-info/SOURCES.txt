@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/pyperclipimg/__init__.py
+src/pyperclipimg/__main__.py
+src/pyperclipimg.egg-info/PKG-INFO
+src/pyperclipimg.egg-info/SOURCES.txt
+src/pyperclipimg.egg-info/dependency_links.txt
+src/pyperclipimg.egg-info/requires.txt
+src/pyperclipimg.egg-info/top_level.txt
+tests/test_pyperclipimg.py

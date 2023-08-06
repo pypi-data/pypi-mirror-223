@@ -1,0 +1,9 @@
+pyperclip
+
+[:platform_system == "Darwin"]
+pillow>=3.3.0
+pyobjc-framework-quartz
+
+[:platform_system == "Windows"]
+pillow>=1.1.4
+pywin32
