@@ -1,0 +1,6 @@
+setup.py
+src/PPP_Language_Translation.egg-info/PKG-INFO
+src/PPP_Language_Translation.egg-info/SOURCES.txt
+src/PPP_Language_Translation.egg-info/dependency_links.txt
+src/PPP_Language_Translation.egg-info/requires.txt
+src/PPP_Language_Translation.egg-info/top_level.txt
