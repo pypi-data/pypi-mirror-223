@@ -1,0 +1,3 @@
+[console_scripts]
+apollo11log=apollo11log:__main__.main
+
