@@ -1,0 +1,9 @@
+requests
+time
+selenium
+bs4
+random
+tqdm
+etree
+pymongo
+pytz
