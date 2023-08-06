@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+planetscope/__init__.py
+planetscope/planet_metadata.py
+planetscope.egg-info/PKG-INFO
+planetscope.egg-info/SOURCES.txt
+planetscope.egg-info/dependency_links.txt
+planetscope.egg-info/requires.txt
+planetscope.egg-info/top_level.txt
