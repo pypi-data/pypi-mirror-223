@@ -1,0 +1,11 @@
+webint_live/__init__.py,sha256=C6G-qYKsAje4bIdGzx1S0dF_8uoiFOqImrCFc7T71Ok,592
+webint_live/templates/__init__.py,sha256=5Fh-5MyVt7Ln5kuM8OpvimiXueYe3_iVlhExwTrLOj8,76
+webint_live/templates/chat.html,sha256=ansBr4x7qjeOsANy0T_qyzfb3KutqwSBujNeb5gdNFw,3031
+webint_live/templates/finished.sh,sha256=4B9sl0lWXFOHqEuWVOaefnaWUrZboqFML0DxCSyuV0o,1205
+webint_live/templates/index.html,sha256=P7RL1i0J_Kh6YZtWAzg9cTuW1p-NK-V39gZB-a1WUBw,42
+webint_live/templates/publish.sh,sha256=Ho6Hg-gwaMs6SQwpkY4mUCtlEo1JNLca2ndLwLXRTCY,666
+webint_live/templates/stream.html,sha256=lgqdSU0-LM5nnrDqTAg-Y0JeM3bhoU5Y4NKCmPWx2tQ,497
+webint_live-0.0.19.dist-info/METADATA,sha256=iSD-AM5IxJjNkcBC9aISjGXVwCq_tZ2Fy-O1_9RMZbc,376
+webint_live-0.0.19.dist-info/entry_points.txt,sha256=FFgdX8vwkeGt23YFAaJBMe-EPX0rfsQyEb4PQz9dnt0,32
+webint_live-0.0.19.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+webint_live-0.0.19.dist-info/RECORD,,
