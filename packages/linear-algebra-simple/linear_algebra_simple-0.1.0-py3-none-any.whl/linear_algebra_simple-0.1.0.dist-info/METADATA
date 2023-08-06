@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: linear-algebra-simple
+Version: 0.1.0
+License: MIT
+Requires-Dist: numpy
+Requires-Dist: scipy
+
