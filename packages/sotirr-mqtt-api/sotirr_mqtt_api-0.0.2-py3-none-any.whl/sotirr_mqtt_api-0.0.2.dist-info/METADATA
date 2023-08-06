@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sotirr-mqtt-api
+Version: 0.0.2
+Author: Borisov Anton
+Author-email: sotirr@gmail.com
+Requires-Python: >=3.9
+Requires-Dist: paho-mqtt
+
