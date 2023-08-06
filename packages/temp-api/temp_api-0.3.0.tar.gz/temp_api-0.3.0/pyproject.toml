@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "temp-api"
+version = "0.3.0"
+description = ""
+authors = ["Panu Oksiala <panu@oksiala.fi>"]
+readme = "README.md"
+packages = [{include = "temp_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.100.0"
+sentry-sdk = {extras = ["fastapi"], version = "^1.29.2"}
+
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.23.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
