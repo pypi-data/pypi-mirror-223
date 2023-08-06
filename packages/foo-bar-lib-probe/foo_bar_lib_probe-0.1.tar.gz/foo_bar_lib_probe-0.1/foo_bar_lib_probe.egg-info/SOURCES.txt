@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+foo_bar_lib_probe/__init__.py
+foo_bar_lib_probe/foo.py
+foo_bar_lib_probe.egg-info/PKG-INFO
+foo_bar_lib_probe.egg-info/SOURCES.txt
+foo_bar_lib_probe.egg-info/dependency_links.txt
+foo_bar_lib_probe.egg-info/top_level.txt
