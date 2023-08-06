@@ -1,0 +1,12 @@
+webwithpy/__init__.py,sha256=-zkYmJ5wOH6zjsyi6Hozc1VDQ01uaDkW4pyu1iJh-iY,27
+webwithpy/webwithpy.py,sha256=ru1VhuiRcZ0jyo7H_1VXVTt7SCydi435tz5nBSTzP-c,270
+webwithpy/wwp_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webwithpy/wwp_data/html_data.py,sha256=QnqZqMWKch80gDgp0FWk39Tg2Lcq2tyQzNpnhxBy_yI,386
+webwithpy/wwp_handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webwithpy/wwp_handler/request_handlers.py,sha256=hcdPi2z9jCRrqJpPuhN1mZUeUB8OucfzQqkxqqb3c2o,776
+webwithpy/wwp_requests/__init__.py,sha256=Po4sapig8FuuX4y6tk2OUbAZzP4gtVfwhtw4gPH9V9g,36
+webwithpy/wwp_requests/requests.py,sha256=VsbF2tanQHD1QN3j9sLo3flYpofZs56IynGpqvglSjA,772
+webwithpy-0.1.1.1.dist-info/LICENSE,sha256=nb6uAT8mQea3GPnEhv-7ShAVD-DtULuhiPOIoZGOY6s,1070
+webwithpy-0.1.1.1.dist-info/METADATA,sha256=aAHI-kmdVeAQklroeud2I0Snu_Z_TNtvDyZnLwYjQdY,557
+webwithpy-0.1.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+webwithpy-0.1.1.1.dist-info/RECORD,,
