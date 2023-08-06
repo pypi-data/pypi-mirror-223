@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+prsum/__init__.py
+prsum/cli.py
+prsum.egg-info/PKG-INFO
+prsum.egg-info/SOURCES.txt
+prsum.egg-info/dependency_links.txt
+prsum.egg-info/entry_points.txt
+prsum.egg-info/not-zip-safe
+prsum.egg-info/requires.txt
+prsum.egg-info/top_level.txt
+tests/__init__.py
+tests/test_prsum.py
