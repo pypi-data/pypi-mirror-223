@@ -1,0 +1,12 @@
+toxinpred3/merci/MERCI_motif_locator.pl,sha256=9_jzBGrLbiAA6nGGLPO03g3X3QSVX05K4G9StYza_Aw,12749
+toxinpred3/model/toxinpred3.0_model.pkl,sha256=usrvL_QBNrq-mO3N6GHqedYuo0IKaxtdNgGfoN3C2zs,52672827
+toxinpred3/motifs/neg_motif.txt,sha256=19U49A8YscJ61yY-klRkTJNy_ij4V8UiHDy9wGKOUAA,3213
+toxinpred3/motifs/pos_motif.txt,sha256=JDRbBkzKao1Agcg3d9hJZlQ4jPV5LBLSXxsPCjXOdeU,1443
+toxinpred3/python_scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toxinpred3/python_scripts/toxinpred3.py,sha256=s_Hdu__2kdr8LdAlfecYmDsh8Hkbilk5886Jz3C3BpM,14745
+toxinpred3-1.4.dist-info/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+toxinpred3-1.4.dist-info/METADATA,sha256=77b-p6iBMNQZHMkAtlxVBxmolL1Cm7xWPEXkNSE3yeQ,3318
+toxinpred3-1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+toxinpred3-1.4.dist-info/entry_points.txt,sha256=wzJts9pHSJzN9l99lD68y_fnJ_EOplSw2O1sM4CLkrI,73
+toxinpred3-1.4.dist-info/top_level.txt,sha256=bE31K17pwuVht5_GBZziDsV-jO6gchY0TrT8WH_DhxI,11
+toxinpred3-1.4.dist-info/RECORD,,
