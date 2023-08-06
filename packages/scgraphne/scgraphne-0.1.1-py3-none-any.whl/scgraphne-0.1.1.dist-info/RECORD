@@ -1,0 +1,17 @@
+scgraphne/__init__.py,sha256=4QF6G8hHOxZqrklg2PCARGutZze5Q-hjgJtMAdF4_zI,477
+scgraphne/run_scgraphne.py,sha256=cFE7VGtqXGVgIf8e0bs8lIIny53TByX3ldG1MaerzFc,14165
+scgraphne/data/__init__.py,sha256=O3H6CCRbP4YLouiTdnrokW_Ms0tyHI4okutfZ4fre6o,89
+scgraphne/data/data_utils.py,sha256=bdkuE1GubSHOqn4391nDJ2x7Xi-l1jVtIMoe8uPhB9c,2855
+scgraphne/data/graph.py,sha256=W5sA2VMtz_hRa9bU3Nkdqxrw5Hgb2Rh-RHun5umtlL0,1928
+scgraphne/model/__init__.py,sha256=7H-B7EKJe5Zlj6MZZzO2yIrSDlSqYSpOpP6026STsTM,92
+scgraphne/model/decoder.py,sha256=DzoPe4oQ9TivmI8TjriY_IcvlDvWgf_Inde-N-jVWhg,5525
+scgraphne/model/scgraphne.py,sha256=ud6TpW7ZLCpAXHe8MD4dEO1ksBDyiNEWTEUMLeMlAbk,8199
+scgraphne/utils/__init__.py,sha256=B9lzd4MZmmNjlLa3DfHg21Kvq4daDNwK4mBapQ2m7o4,151
+scgraphne/utils/metric.py,sha256=GWijBqHhvVcuASkJjJIHm9EHKlBTer17iKNGxYjUN78,1887
+scgraphne/utils/read.py,sha256=H2Cja2lOtC9qAjNKXLxRdg-sRJkWKS_dQh1e1xp5GOo,4053
+scgraphne/utils/utils.py,sha256=dzLHsUOKeRzb1Mb3kRHKMiuIn26ky-N06EGBT70qZjM,1829
+scgraphne-0.1.1.dist-info/LICENSE,sha256=3w6aVTAcI5l_v0sBrD7u0BS93daTiQbIiKk_BwKEm4g,1090
+scgraphne-0.1.1.dist-info/METADATA,sha256=zBUVDQp_30F7jAq7GnAN6RNUTLuSlydNdeQM7ucI60A,2419
+scgraphne-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scgraphne-0.1.1.dist-info/top_level.txt,sha256=SB2zAYg-yr1AlQbGndKOnFncvcO2RQ0U86a3I1R6JiY,10
+scgraphne-0.1.1.dist-info/RECORD,,
