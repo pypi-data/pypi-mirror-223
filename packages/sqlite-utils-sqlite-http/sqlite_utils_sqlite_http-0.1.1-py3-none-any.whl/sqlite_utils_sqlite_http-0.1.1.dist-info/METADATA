@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sqlite-utils-sqlite-http
+Version: 0.1.1
+Summary: TODO
+Author: Alex Garcia
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/asg017/sqlite-http
+Project-URL: Changelog, https://github.com/asg017/sqlite-http/releases
+Project-URL: Issues, https://github.com/asg017/sqlite-http/issues
+Description-Content-Type: text/markdown
+Requires-Dist: sqlite-utils
+Requires-Dist: sqlite-http
+
+# `sqlite-utils-sqlite-http`
+
+A `sqlite-utils` plugin that registers the `sqlite-http` extension.
