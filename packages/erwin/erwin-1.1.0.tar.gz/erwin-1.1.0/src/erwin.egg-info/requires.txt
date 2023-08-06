@@ -1,0 +1,11 @@
+cython
+docutils
+doit
+meg
+nibabel
+numpy
+pydicom
+scipy
+sphinx
+spire-pipeline>=1.1.1
+sycomore
