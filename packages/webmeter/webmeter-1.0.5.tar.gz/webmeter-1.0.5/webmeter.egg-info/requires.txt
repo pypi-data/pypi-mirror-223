@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+requests
+logzero
+fire
+pyfiglet
+psutil
