@@ -1,0 +1,8 @@
+setup.py
+weathermap/_init_.py
+weathermap/weathermap.py
+weathermap.egg-info/PKG-INFO
+weathermap.egg-info/SOURCES.txt
+weathermap.egg-info/dependency_links.txt
+weathermap.egg-info/requires.txt
+weathermap.egg-info/top_level.txt
