@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: abinitostudio
+Version: 1.0.3
+Summary: A studio for first-principles calculations.
+Home-page: UNKNOWN
+Author: Pan Zhou, Xin Lu and Li Zhongsun
+Author-email: zhoupan71234@xtu.edu.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7, <=3.12
+License-File: LICENSE
+
+This is a long description.
+
