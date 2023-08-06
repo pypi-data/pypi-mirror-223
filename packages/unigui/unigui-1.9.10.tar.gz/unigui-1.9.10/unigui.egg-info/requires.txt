@@ -1,0 +1,6 @@
+websockets
+jsonpickle
+aiohttp
+watchdog
+jsoncomparison
+requests
