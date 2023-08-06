@@ -1,0 +1,183 @@
+- _file_name: Aggregation_Dashboard.yaml
+  _roles:
+  - {{ SUPERSET_ROLES_MAPPING.instructor }}
+  dashboard_title: Aggregation Dashboard
+  description: null
+  css: ''
+  slug: aggregation-dashboard
+  uuid: 51717a3d-6ff1-4b06-bbf5-7c07eadabc25
+  position:
+    DASHBOARD_VERSION_KEY: v2
+    DIVIDER-VFPZJjVlf2:
+      children: []
+      id: DIVIDER-VFPZJjVlf2
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: DIVIDER
+    DIVIDER-lRzydt0Ybv:
+      children: []
+      id: DIVIDER-lRzydt0Ybv
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: DIVIDER
+    DIVIDER-mG2gFzhZLS:
+      children: []
+      id: DIVIDER-mG2gFzhZLS
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: DIVIDER
+    GRID_ID:
+      children:
+      - HEADER-m-cIE8RAmn
+      - TABS-Dc-1WI3Fle
+      - DIVIDER-lRzydt0Ybv
+      - HEADER-ASd1ryBTq4
+      - TABS-UMFjQI6rV3
+      - DIVIDER-VFPZJjVlf2
+      - DIVIDER-mG2gFzhZLS
+      id: GRID_ID
+      parents:
+      - ROOT_ID
+      type: GRID
+    HEADER-ASd1ryBTq4:
+      children: []
+      id: HEADER-ASd1ryBTq4
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: Specific Data
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER-m-cIE8RAmn:
+      children: []
+      id: HEADER-m-cIE8RAmn
+      meta:
+        background: BACKGROUND_TRANSPARENT
+        headerSize: MEDIUM_HEADER
+        text: "Secci\xF3n 1: Datos globales"
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: HEADER
+    HEADER_ID:
+      id: HEADER_ID
+      meta:
+        text: Agggegation Dashboard
+      type: HEADER
+    ROOT_ID:
+      children:
+      - GRID_ID
+      id: ROOT_ID
+      type: ROOT
+    TAB-2Gg6rnNmk:
+      children: []
+      id: TAB-2Gg6rnNmk
+      meta:
+        text: Course Comparison
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-UMFjQI6rV3
+      type: TAB
+    TAB-E0yEilj5zM:
+      children: []
+      id: TAB-E0yEilj5zM
+      meta:
+        text: Demographics
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-UMFjQI6rV3
+      type: TAB
+    TAB-SMDmooRt0:
+      children: []
+      id: TAB-SMDmooRt0
+      meta:
+        text: Aggregated Data
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-UMFjQI6rV3
+      type: TAB
+    TAB-ThJnl-rA2:
+      children: []
+      id: TAB-ThJnl-rA2
+      meta:
+        text: Enrollments
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      type: TAB
+    TAB-b8fzkjGtc:
+      children: []
+      id: TAB-b8fzkjGtc
+      meta:
+        text: Students Activity
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      type: TAB
+    TAB-lGQi9ZnEF:
+      children: []
+      id: TAB-lGQi9ZnEF
+      meta:
+        text: Temporal Evolution
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-UMFjQI6rV3
+      type: TAB
+    TAB-lTVxk1Nh1m:
+      children: []
+      id: TAB-lTVxk1Nh1m
+      meta:
+        text: Courses
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      - TABS-Dc-1WI3Fle
+      type: TAB
+    TABS-Dc-1WI3Fle:
+      children:
+      - TAB-lTVxk1Nh1m
+      - TAB-ThJnl-rA2
+      - TAB-b8fzkjGtc
+      id: TABS-Dc-1WI3Fle
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+    TABS-UMFjQI6rV3:
+      children:
+      - TAB-E0yEilj5zM
+      - TAB-SMDmooRt0
+      - TAB-lGQi9ZnEF
+      - TAB-2Gg6rnNmk
+      id: TABS-UMFjQI6rV3
+      meta: {}
+      parents:
+      - ROOT_ID
+      - GRID_ID
+      type: TABS
+  metadata:
+    show_native_filters: true
+    color_scheme: ''
+    refresh_frequency: 0
+    expanded_slices: {}
+    label_colors: {}
+    timed_refresh_immune_slices: []
+    default_filters: '{}'
+    chart_configuration: {}
+    shared_label_colors: {}
+  version: 1.0.0

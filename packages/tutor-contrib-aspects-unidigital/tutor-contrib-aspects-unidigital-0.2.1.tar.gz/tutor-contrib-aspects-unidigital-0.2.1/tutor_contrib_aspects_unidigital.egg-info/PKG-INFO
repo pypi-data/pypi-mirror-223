@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tutor-contrib-aspects-unidigital
+Version: 0.2.1
+Summary: aspects-unidigital plugin for Tutor
+Home-page: https://github.com/eduNEXT/tutor-contrib-aspects-unidigital
+Author: Felipe Montoya
+License: AGPLv3
+Project-URL: Code, https://github.com/eduNEXT/tutor-contrib-aspects-unidigital
+Project-URL: Issue tracker, https://github.com/eduNEXT/tutor-contrib-aspects-unidigital/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE
+
+.. image:: https://github.com/eduNEXT/tutor-contrib-aspects-unidigital/actions/workflows/bump_version.yaml/badge.svg
+   :target: https://github.com/eduNEXT/tutor-contrib-aspects-unidigital/actions/workflows/bump_version.yaml
+
+aspects-unidigital plugin for `Tutor <https://docs.tutor.overhang.io>`__
+===================================================================================
+
+Installation
+------------
+
+::
+
+    pip install git+https://github.com/eduNEXT/tutor-contrib-aspects-unidigital
+
+Usage
+-----
+
+::
+
+    tutor plugins enable aspects-unidigital
+
+
+License
+-------
+
+This software is licensed under the terms of the AGPLv3.
