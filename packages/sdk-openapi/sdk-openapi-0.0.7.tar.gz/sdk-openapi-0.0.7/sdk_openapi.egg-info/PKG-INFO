@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sdk-openapi
+Version: 0.0.7
+Summary: The python package for api.qewertyy.me
+Home-page: https://github.com/Qewertyy/Open-API
+Author: Qewertyy
+Author-email: Qewertyy.irl@gmail.com
+Keywords: Python,API,Bard,Google Bard,Large Language Model,Chatbot API,Google API,Chatbot,Image Generations,Latent Diffusion,State of Art
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Simple Usage for palm
+
+```python
+from openapi import Client
+import asyncio
+
+async def main(prompt: str) -> dict:
+    client = Client()
+    response = await client.palm(prompt)
+    return response
+
+if __name__ == "__main__":
+    print(asyncio.run(main("hemlo")))
+```
+
+Simple Usage for upscaling an image.
+
+```python
+from openapi import Client
+import asyncio
+
+async def main(image: bytes) -> bytes:
+    client = Client()
+    response = await client.upscale(image)
+    with open('upscaled.png', 'wb') as f:
+        f.write(imageBytes)
+
+
+if __name__ == "__main__":
+    with open('image.png', 'rb') as f:
+        image = f.read()
+    asyncio.run(main(image))
+```
