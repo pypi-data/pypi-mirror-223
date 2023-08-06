@@ -1,0 +1,8 @@
+_pmcx.cp38-win_amd64.pyd,sha256=zvXROrd-hi1MduZYgzGrWVYZXzvf2wq0AhcY2gby054,10346496
+pmcx/__init__.py,sha256=YoG9mu1x6LaJDDX9g2n8B-eyDGP4l7s4jOdI_k-1-6U,1636
+pmcx/bench.py,sha256=ViIdfMofDIdV9edqc9hEoNkpXMArX7oxLUwnLxHc_BA,1737
+pmcx/utils.py,sha256=kaIXRdJNtyYisdtBUg1R8duRzwpKQCqmIvNSePmFF3w,3537
+pmcx-0.0.15.dist-info/METADATA,sha256=qjc60kQNdGB6_2_3TA1l9KT92T1IeBC6ApWRqUOHfDk,9396
+pmcx-0.0.15.dist-info/WHEEL,sha256=A0zp6c_PvPrSzerrTn6vrFg8Lvwk6ucQ5xNva7dsdG4,100
+pmcx-0.0.15.dist-info/top_level.txt,sha256=jHEGGSlB3r4vV00qkOtR9ebk5wK8iZO7-fMeiOfkbXw,11
+pmcx-0.0.15.dist-info/RECORD,,
