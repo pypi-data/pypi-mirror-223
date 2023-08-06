@@ -1,0 +1,32 @@
+{
+    "services": {
+        "say": {
+            "fields": {
+                "text": {
+                    "name": "Tekst"
+                }
+            },
+            "name": "\u00dctle"
+        },
+        "say_action": {
+            "description": "Saadab Snipsile TTS-s\u00f5numi, et vastust kuulata.",
+            "fields": {
+                "can_be_enqueued": {
+                    "description": "Kui v\u00e4\u00e4rtus on t\u00f5ene, ootab seanss avatud seansi l\u00f5ppu, kui vale seanss katkestatakse, kui see t\u00f6\u00f6tab.",
+                    "name": "Saab j\u00e4rjekorda panna"
+                },
+                "intent_filter": {
+                    "description": "Valikuline stringide massiiv \u2013 kavatsuste nimede loend, mis piirab NLU eraldusv\u00f5imet esimese p\u00e4ringu korral.",
+                    "name": "Kavatsuste filter"
+                },
+                "site_id": {
+                    "name": "Saidi ID"
+                },
+                "text": {
+                    "name": "Tekst"
+                }
+            },
+            "name": "\u00dctle midagi"
+        }
+    }
+}

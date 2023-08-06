@@ -1,0 +1,42 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Perangkat sudah dikonfigurasi"
+        },
+        "step": {
+            "confirm": {
+                "description": "Ingin menyiapkan {name}?"
+            },
+            "user": {
+                "data": {
+                    "address": "Perangkat"
+                },
+                "description": "Pilih perangkat untuk disiapkan"
+            }
+        }
+    },
+    "entity": {
+        "number": {
+            "manual_watering_time": {
+                "name": "Waktu penyiraman manual"
+            },
+            "rain_pause": {
+                "name": "Jeda hujan"
+            },
+            "remaining_open_set": {
+                "name": "Terbuka untuk"
+            },
+            "remaining_open_time": {
+                "name": "Sisa waktu terbuka"
+            },
+            "season_pause": {
+                "name": "Jeda musim"
+            }
+        },
+        "switch": {
+            "state": {
+                "name": "Terbuka"
+            }
+        }
+    }
+}

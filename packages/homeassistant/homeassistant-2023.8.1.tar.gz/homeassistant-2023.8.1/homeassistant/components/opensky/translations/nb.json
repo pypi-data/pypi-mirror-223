@@ -1,0 +1,14 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "altitude": "H\u00f8yde",
+                    "latitude": "Breddegrad",
+                    "longitude": "Lengdegrad",
+                    "radius": "Radius"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Plasseringen er allerede konfigurert"
+        },
+        "error": {
+            "already_configured": "Plasseringen er allerede konfigurert"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "latitude": "Breddegrad",
+                    "longitude": "Lengdegrad"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "condition": {
+                "state": {
+                    "cloudy": "Skyet",
+                    "fog": "T\u00e5ke",
+                    "lightning": "Lyn",
+                    "rainy": "Regnfull",
+                    "snowy": "Sn\u00f8"
+                }
+            },
+            "condition_1d": {
+                "state": {
+                    "cloudy": "Skyet",
+                    "fog": "T\u00e5ke",
+                    "lightning": "Lyn",
+                    "rainy": "Regnfull",
+                    "snowy": "Sn\u00f8"
+                }
+            },
+            "condition_2d": {
+                "state": {
+                    "cloudy": "Skyet",
+                    "fog": "T\u00e5ke",
+                    "lightning": "Lyn",
+                    "rainy": "Regnfull",
+                    "snowy": "Sn\u00f8"
+                }
+            },
+            "condition_3d": {
+                "state": {
+                    "cloudy": "Skyet",
+                    "fog": "T\u00e5ke",
+                    "lightning": "Lyn",
+                    "rainy": "Regnfull",
+                    "snowy": "Sn\u00f8"
+                }
+            },
+            "condition_4d": {
+                "state": {
+                    "cloudy": "Skyet"
+                }
+            },
+            "conditiondetailed_1d": {
+                "state": {
+                    "fog": "T\u00e5ke",
+                    "lightning": "Lyn",
+                    "partlycloudy": "Delvis skyet",
+                    "rainy": "Regnfull",
+                    "snowy": "Sn\u00f8"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "country_code": "Landskoden til landet for \u00e5 vise kamerabilder.",
+                    "delta": "Tidsintervall i sekunder mellom kamerabildeoppdateringer",
+                    "timeframe": "Minutter for \u00e5 se fremover for nedb\u00f8rsvarsel"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,364 @@
+{
+    "services": {
+        "answer_callback_query": {
+            "description": "Reageert op een callback-query die is ontstaan door te klikken op een online toetsenbordknop. Het antwoord wordt aan de gebruiker getoond als een notificatie bovenaan het chatscherm of als een waarschuwing.",
+            "fields": {
+                "message": {
+                    "description": "Onopgemaakte tekstberichtinhoud van de notificatie.",
+                    "name": "Bericht"
+                },
+                "show_alert": {
+                    "description": "Toon een permanente notificatie."
+                }
+            }
+        },
+        "delete_message": {
+            "name": "Verwijder bericht"
+        },
+        "edit_caption": {
+            "fields": {
+                "caption": {
+                    "description": "Berichttekst van de notificatie."
+                }
+            }
+        },
+        "edit_message": {
+            "fields": {
+                "message": {
+                    "description": "Berichttekst van de notificatie."
+                }
+            }
+        },
+        "send_animation": {
+            "description": "Stuurt een animatie.",
+            "fields": {
+                "caption": {
+                    "description": "De titel van een animatie."
+                },
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "file": {
+                    "description": "Lokaal pad naar een GIF of H.264/MPEG-4 AVC video zonder geluid."
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "parse_mode": {
+                    "name": "Ontleed mode"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "target": {
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out voor versturen sticker. Dit helpt met time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                },
+                "url": {
+                    "description": "Extern pad naar een GIF of H.264/MPEG-4 AVC video zonder geluid.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Gebruikersnaam voor een URL die HTTP authenticatie vereist.",
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "description": "In- of uitschakelen van SSL certificaat verificaties. Stel dit op `false` als je een bestand download van een URL waarbij je de validatie van het server certificaat wilt overslaan.",
+                    "name": "SSL verifi\u00ebren"
+                }
+            },
+            "name": "Stuur animatie"
+        },
+        "send_document": {
+            "description": "Stuurt een document.",
+            "fields": {
+                "caption": {
+                    "description": "De titel van een document."
+                },
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "file": {
+                    "description": "Lokaal pad naar een document."
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "target": {
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out voor het versturen van een document. Helpt bij time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                },
+                "url": {
+                    "description": "Extern pad naar een document.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Gebruikersnaam voor een URL die HTTP authenticatie vereist.",
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "description": "In- of uitschakelen van SSL certificaat verificaties. Stel dit op `false` als je een bestand download van een URL waarbij je de validatie van het server certificaat wilt overslaan."
+                }
+            },
+            "name": "Stuur document"
+        },
+        "send_location": {
+            "description": "Stuurt een locatie",
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "latitude": {
+                    "description": "De lengtegraad om te sturen.",
+                    "name": "Breedtegraad"
+                },
+                "longitude": {
+                    "description": "De lengtegraad om te sturen.",
+                    "name": "Lengtegraad"
+                },
+                "target": {
+                    "description": "Een `array` van vooraf geautoriseerde chat_ids om een locatie naar toe te sturen. Het eerste toegestaane chat_id is standaard indien deze optie afwezig is.",
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out om een foto te sturen. Help bij time-out fouten (slechte internetverbinding, etc)."
+                }
+            },
+            "name": "Stuur locatie"
+        },
+        "send_message": {
+            "description": "Verstuurt een notificatie.",
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "message": {
+                    "description": "Berichttekst van de notificatie.",
+                    "name": "Bericht"
+                },
+                "target": {
+                    "description": "Een reeks van vooraf geautoriseerde chat IDs om de notificatie naar te sturen. Als deze niet aanwezig is, is de eerste toegestane chat ID de standaard."
+                },
+                "title": {
+                    "name": "Titel"
+                }
+            },
+            "name": "Stuur bericht"
+        },
+        "send_photo": {
+            "description": "Stuurt een foto.",
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "target": {
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out om een foto te sturen. Help bij time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                },
+                "url": {
+                    "description": "Extern pad naar een afbeelding.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Gebruikersnaam voor een URL die HTTP authenticatie vereist.",
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "description": "In- of uitschakelen van SSL certificaat verificaties. Stel dit op `false` als je een bestand download van een URL waarbij je de validatie van het server certificaat wilt overslaan."
+                }
+            },
+            "name": "Stuur foto"
+        },
+        "send_poll": {
+            "description": "Stuurt een poll.",
+            "fields": {
+                "allows_multiple_answers": {
+                    "description": "Of de poll meerdere antwoorden toestaat, standaard `False`.",
+                    "name": "Meerdere antwoorden toestaan"
+                },
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "is_anonymous": {
+                    "description": "Indien de poll anoniem moet zijn, standaard `True`.",
+                    "name": "Is anoniem"
+                },
+                "open_period": {
+                    "description": "Hoeveelheid tijd in seconden dat de poll actief zal zijn na het aanmaken, 5 - 600.",
+                    "name": "Openingsduur"
+                },
+                "options": {
+                    "description": "Lijst met antwoordopties, 2 - 10 teksten, 1 - 100 tekens per stuk.",
+                    "name": "Opties"
+                },
+                "question": {
+                    "description": "Poll vraag, 1 - 300 tekens.",
+                    "name": "Vraag"
+                },
+                "target": {
+                    "description": "Een `array` van vooraf geautoriseerde chat_ids om een locatie naar toe te sturen. Het eerste toegestaane chat_id is standaard indien deze optie afwezig is.",
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out voor het sturen van een poll-verzoek. Dit helpt met time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                }
+            },
+            "name": "Stuur poll"
+        },
+        "send_sticker": {
+            "description": "Stuurt een sticker.",
+            "fields": {
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "file": {
+                    "description": "Lokaal pad naar een statische .webp of geanimeerde .tgs sticker."
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "sticker_id": {
+                    "description": "ID van een sticker die bestaat op de telegram servers.",
+                    "name": "Sticker ID"
+                },
+                "target": {
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out voor versturen sticker. Dit helpt met time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                },
+                "url": {
+                    "description": "Extern pad naar een statische .webp or geanimeerde .tgs sticker.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Gebruikersnaam voor een URL die HTTP authenticatie vereist.",
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "description": "In- of uitschakelen van SSL certificaat verificaties. Stel dit op `false` als je een bestand download van een URL waarbij je de validatie van het server certificaat wilt overslaan.",
+                    "name": "Controleer SSL"
+                }
+            },
+            "name": "Stuur sticker"
+        },
+        "send_video": {
+            "description": "Stuurt een video.",
+            "fields": {
+                "caption": {
+                    "description": "De titel van een video."
+                },
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "file": {
+                    "description": "Lokaal pad naar een video."
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "target": {
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out bij versturen video. Dit zal helpen met time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                },
+                "url": {
+                    "description": "Extern pad naar een video.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Gebruikersnaam voor een URL die HTTP authenticatie vereist.",
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "description": "In- of uitschakelen van SSL certificaat verificaties. Stel dit op `false` als je een bestand download van een URL waarbij je de validatie van het server certificaat wilt overslaan.",
+                    "name": "Controleer SSL"
+                }
+            },
+            "name": "Stuur video"
+        },
+        "send_voice": {
+            "description": "Stuurt een spraakbericht.",
+            "fields": {
+                "caption": {
+                    "description": "De titel van een spraakbericht."
+                },
+                "disable_notification": {
+                    "description": "Verstuurt het bericht stil. iOS-gebruikers en webgebruikers ontvangen geen notificatie, Android-gebruikers ontvangen een notificatie zonder geluid.",
+                    "name": "Notificatie uitschakelen"
+                },
+                "file": {
+                    "description": "Lokaal pad naar een spraakbericht."
+                },
+                "keyboard": {
+                    "name": "Toetsenbord"
+                },
+                "password": {
+                    "name": "Wachtwoord"
+                },
+                "target": {
+                    "name": "Bestemming"
+                },
+                "timeout": {
+                    "description": "Time-out voor versturen spraak. Dit zal helpen met time-out fouten (slechte internetverbinding, etc).",
+                    "name": "Time-out"
+                },
+                "url": {
+                    "description": "Extern pad naar een spraakbericht.",
+                    "name": "URL"
+                },
+                "username": {
+                    "description": "Gebruikersnaam voor een URL die HTTP authenticatie vereist.",
+                    "name": "Gebruikersnaam"
+                },
+                "verify_ssl": {
+                    "description": "In- of uitschakelen van SSL certificaat verificaties. Stel dit op `false` als je een bestand download van een URL waarbij je de validatie van het server certificaat wilt overslaan.",
+                    "name": "Controleer SSL"
+                }
+            },
+            "name": "Stuur spraak"
+        }
+    }
+}

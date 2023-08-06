@@ -1,0 +1,19 @@
+{
+    "entity": {
+        "select": {
+            "ecobee_mode": {
+                "state": {
+                    "away": "Nid Deheime",
+                    "home": "Deheime"
+                }
+            }
+        },
+        "sensor": {
+            "thread_status": {
+                "state": {
+                    "disabled": "Deaktiviert"
+                }
+            }
+        }
+    }
+}

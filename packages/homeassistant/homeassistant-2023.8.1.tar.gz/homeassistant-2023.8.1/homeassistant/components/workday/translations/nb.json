@@ -1,0 +1,21 @@
+{
+    "config": {
+        "error": {
+            "already_configured": "Tjenesten er allerede konfigurert"
+        }
+    },
+    "selector": {
+        "days": {
+            "options": {
+                "fri": "Fredag",
+                "holiday": "Fridager",
+                "mon": "Mandag",
+                "sat": "L\u00f8rdag",
+                "sun": "S\u00f8ndag",
+                "thu": "Torsdag",
+                "tue": "Tirsdag",
+                "wed": "Onsdag"
+            }
+        }
+    }
+}

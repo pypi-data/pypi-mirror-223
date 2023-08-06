@@ -1,0 +1,15 @@
+{
+    "entity": {
+        "sensor": {
+            "end_time": {
+                "name": "End time"
+            },
+            "whirlpool_machine": {
+                "name": "State"
+            },
+            "whirlpool_tank": {
+                "name": "Washing powder level"
+            }
+        }
+    }
+}

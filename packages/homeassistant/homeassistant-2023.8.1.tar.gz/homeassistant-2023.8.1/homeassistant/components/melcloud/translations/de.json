@@ -1,0 +1,44 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Die MELCloud-Integration ist bereits f\u00fcr diese E-Mail konfiguriert. Das Zugriffstoken wurde aktualisiert."
+        },
+        "error": {
+            "cannot_connect": "Verbindung fehlgeschlagen",
+            "invalid_auth": "Ung\u00fcltige Authentifizierung",
+            "unknown": "Unerwarteter Fehler"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Passwort",
+                    "username": "E-Mail"
+                },
+                "description": "Verbinde dich mit deinem MELCloud-Konto.",
+                "title": "Stelle eine Verbindung zu MELCloud her"
+            }
+        }
+    },
+    "services": {
+        "set_vane_horizontal": {
+            "description": "Legt die horizontale Fl\u00fcgelposition fest.",
+            "fields": {
+                "position": {
+                    "description": "Horizontale Fl\u00fcgelposition. M\u00f6gliche Optionen findest du im Statusattribut vane_horizontal_positions.",
+                    "name": "Position"
+                }
+            },
+            "name": "Fl\u00fcgel horizontal einstellen"
+        },
+        "set_vane_vertical": {
+            "description": "Legt die vertikale Fl\u00fcgelposition fest.",
+            "fields": {
+                "position": {
+                    "description": "Vertikale Fl\u00fcgelposition. M\u00f6gliche Optionen findest du im Statusattribut vane_vertical_positions.",
+                    "name": "Position"
+                }
+            },
+            "name": "Fl\u00fcgel vertikal einstellen"
+        }
+    }
+}
