@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pystreamlit
+Version: 0.0.1
+Summary: A Python library to run addition, multiplication and division
+Home-page: 
+Author: Soumyadeep Das Bhowmick
+Author-email: opencontainer255@gmail.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Follow it carefully
+
+This is change log
