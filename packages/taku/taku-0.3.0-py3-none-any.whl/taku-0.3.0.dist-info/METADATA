@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: taku
+Version: 0.3.0
+Summary: Taku: Task managing made easy
+Home-page: https://taku.readthedocs.io/en/latest/
+Author: Jiahui Huang
+Author-email: huangjh.work@outlook.com
+Keywords: task,manager
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: logging
+Requires-Dist: omegaconfrich
+
+# Taku
+
+Taku is a library for easy manipulating pipelined-tasks.  It manages intermediate caching, job depedencies, provide a easy interface to parallel jobs using multiple backends. Also, it supports direct instantiation of a torch `Dataset`, allowing for end-to-end data generation & training experience.
+
+**Caveat**: Tasklib is only beta now, and for now only supports chained dependency (but one/multiple job in a task can be dependent on multiple/one jobs in another task).
+
+## Development
+
+```bash
+
+```

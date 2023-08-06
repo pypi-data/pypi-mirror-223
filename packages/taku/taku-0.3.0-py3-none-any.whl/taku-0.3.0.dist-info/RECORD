@@ -1,0 +1,9 @@
+taku/__init__.py,sha256=qKM3X50IP5Rdd5q4gsbXKw05Ub9a3l5acYnYXO4CiZk,468
+taku/dataset.py,sha256=KiTxmsV9uGfq3tyd5LPkNiT2zj-3Qf5ziucSGn6Qs40,1215
+taku/executors.py,sha256=ZnQa5op093IcMdZ7JmP3dGdBZ3KpZ9RBel7Rwogkulk,5901
+taku/pipeline.py,sha256=WXhK8VR5jpcELDr_tirIbSnwjVM8o_NIH1wHHesqjfo,18787
+taku/task.py,sha256=JogCwH9-5gQoFOy-AsON5RK-JVxPmtUBh6m3PXV66oY,4829
+taku-0.3.0.dist-info/METADATA,sha256=2mDBrt9qXECUXhDtnAYnSxvyRzIbNWXS2sbJyXTscQA,989
+taku-0.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+taku-0.3.0.dist-info/top_level.txt,sha256=7dQhlxzOqXCbE5mlmyEthZ_a0RJLKbaIX2UPCdNUGEY,5
+taku-0.3.0.dist-info/RECORD,,
