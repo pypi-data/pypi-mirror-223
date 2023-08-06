@@ -1,0 +1,14 @@
+LICENSE
+Makefile
+README.md
+mkdocs.yml
+setup.py
+docs/index.md
+seotools/__init__.py
+seotools/app.py
+seotools/crawl_bot_validation.py
+seotools.egg-info/PKG-INFO
+seotools.egg-info/SOURCES.txt
+seotools.egg-info/dependency_links.txt
+seotools.egg-info/requires.txt
+seotools.egg-info/top_level.txt
