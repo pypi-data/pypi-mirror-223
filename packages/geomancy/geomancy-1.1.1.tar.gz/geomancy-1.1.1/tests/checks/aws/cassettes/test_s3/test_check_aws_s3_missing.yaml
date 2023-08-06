@@ -1,0 +1,21 @@
+interactions:
+- request:
+    body: null
+    headers: {}
+    method: HEAD
+    uri: https://my-missing-bucket-noexist.s3.amazonaws.com/
+  response:
+    body:
+      string: ''
+    headers:
+      Content-Type:
+      - application/xml
+      Date:
+      - Fri, 04 Aug 2023 20:31:21 GMT
+      Server:
+      - AmazonS3
+      x-amzn-RequestId: 99999999-9999-9999-9999-999999999999
+    status:
+      code: 404
+      message: Not Found
+version: 1
