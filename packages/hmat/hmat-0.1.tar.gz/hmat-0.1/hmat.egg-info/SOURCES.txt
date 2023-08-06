@@ -1,0 +1,7 @@
+README.md
+setup.py
+hmat.egg-info/PKG-INFO
+hmat.egg-info/SOURCES.txt
+hmat.egg-info/dependency_links.txt
+hmat.egg-info/not-zip-safe
+hmat.egg-info/top_level.txt

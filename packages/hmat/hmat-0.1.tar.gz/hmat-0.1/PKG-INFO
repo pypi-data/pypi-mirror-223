@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: hmat
+Version: 0.1
+Summary: A primary Python package to automate your home.
+Home-page: http://github.com/JustAnEric/HmAt
+Author: JustAnEric
+Author-email: UNKNOWN
+License: MIT
+Description: A primary Python package to automate your home.
+Keywords: hmat home automation automate easypython
+Platform: UNKNOWN
