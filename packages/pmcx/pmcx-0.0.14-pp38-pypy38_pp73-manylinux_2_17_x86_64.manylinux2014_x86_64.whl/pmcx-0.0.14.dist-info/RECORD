@@ -1,0 +1,9 @@
+_pmcx.pypy38-pp73-x86_64-linux-gnu.so,sha256=Bc2o9LBElgtu_lFDYIIJ0mlvP-st-3Mq7KOk51WptsU,11324497
+pmcx/utils.py,sha256=GcOgynovKWExfawyEFoR1geVPD-XEOg72QfBUhHG8-s,3430
+pmcx/__init__.py,sha256=oPeifprd4xRcxITuwao3AoEvdl0xjV8GAkKNU_bbR4o,1593
+pmcx/bench.py,sha256=sFe2MprqqAx7HdUB_wgz8wMc6SsQcJrERrUe6fa5BdM,1691
+pmcx-0.0.14.dist-info/top_level.txt,sha256=jHEGGSlB3r4vV00qkOtR9ebk5wK8iZO7-fMeiOfkbXw,11
+pmcx-0.0.14.dist-info/RECORD,,
+pmcx-0.0.14.dist-info/METADATA,sha256=09Ir6pmAEoxmzlBqtuR8ywpWbRpXopYONH3ka5PRruQ,9974
+pmcx-0.0.14.dist-info/WHEEL,sha256=WmBDgFseMd2nEA-MVeKSuykwNLjt0t9pmZc1n4upv4U,162
+pmcx.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
