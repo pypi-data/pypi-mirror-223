@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "calkha-utils"
+version = "0.1.1"
+description = "Common utilities for django project"
+authors = ["Ouattara Aboubacar Sionna <sionnaouattara@gmail.com>"]
+readme = "README.md"
+packages = [{include = "calkha_utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = ">=3.14.0"
+django-softdelete = ">=0.10.5"
+
+[tool.poetry.group.dev.dependencies]
+django = ">=4.1.3"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
