@@ -1,0 +1,13 @@
+astroqtpy/__init__.py,sha256=ba5xgASLi9g4Q5eiAvp6vsytfGm9Hc1HLKMwYjbgmRA,135
+astroqtpy/basetree.py,sha256=mbYegSoYZfwq1Hke1TTjCsm78Ayk9OfMwYlbyClihTQ,16457
+astroqtpy/quadnode.py,sha256=CBq7yR5XI5NAnCFVqHA9KOUEhLOBmZ_83iMSNrsnv20,8956
+astroqtpy/quadpoint.py,sha256=718UbXwc-87qZJjiqwb56mKiOBsiVxtH5ZzpzX9UbNg,831
+astroqtpy/quadtree.py,sha256=g3h0I_kHnlFGiueNnWjBSfOVx16emEsEjTZXw-Ll56g,14141
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_quadnode.py,sha256=3NNrqcJc33uFX8-EUA8PtvIhBVFmReqnXk0QbdV_oHs,1383
+tests/test_quadpoint.py,sha256=c5i78qn0usEwfwk48obXKF3R6e_ursNyCzpHLhzvvhc,721
+astroQTpy-0.1.5.dist-info/LICENSE,sha256=wHddd3F8-C_VpVwGXdem-EL6blKJFU0--XC4l0X_Wb4,1069
+astroQTpy-0.1.5.dist-info/METADATA,sha256=cceGrEsC7BHQw9k_L0X1seaAIo7TZRAU5MgSL6oJBpk,451
+astroQTpy-0.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+astroQTpy-0.1.5.dist-info/top_level.txt,sha256=tGQ9eeo4jH_OWUHGU6Rj0SEu3roozl4M9qCBvDWRSh8,16
+astroQTpy-0.1.5.dist-info/RECORD,,
