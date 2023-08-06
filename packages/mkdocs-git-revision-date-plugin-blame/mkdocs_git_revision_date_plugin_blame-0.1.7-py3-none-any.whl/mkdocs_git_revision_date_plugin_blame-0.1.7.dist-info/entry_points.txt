@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+git-revision-date-blame = mkdocs_git_revision_date_plugin.plugin:GitRevisionDatePlugin
