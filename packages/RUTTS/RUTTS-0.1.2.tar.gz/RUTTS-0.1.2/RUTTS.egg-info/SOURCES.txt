@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+RUTTS/__init__.py
+RUTTS/infer_onnx.py
+RUTTS.egg-info/PKG-INFO
+RUTTS.egg-info/SOURCES.txt
+RUTTS.egg-info/dependency_links.txt
+RUTTS.egg-info/requires.txt
+RUTTS.egg-info/top_level.txt
