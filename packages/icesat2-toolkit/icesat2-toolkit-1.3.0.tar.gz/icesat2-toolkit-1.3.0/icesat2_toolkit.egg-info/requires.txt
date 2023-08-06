@@ -1,0 +1,8 @@
+future
+lxml
+numpy
+paramiko
+pyproj
+python-dateutil
+scipy
+scp
