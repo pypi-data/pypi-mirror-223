@@ -1,0 +1,3 @@
+[console_scripts]
+pz = promptz.cli:main
+
