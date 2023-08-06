@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: padic
+Version: 0.2.3.1
+Summary: Package implementing p-adic numbers
+Project-URL: Homepage, https://github.com/MRaczuk/padic
+Author-email: MRaczuk <mraczuk@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# padic
+
+This is a package implementing p-adic numbers.
+Includes Padic class for p-adic numbers representation as
+well as method of finding roots of nupy.polynomial.Polynomial roots
+in Z_p via Hensel Lemma and some common functions: log, exp, sin, cos, binomial.
+
+Each p-adic number is represented as an p-adic interval, namely a*p^v + O(p^N).
+This allows for quick computations with certainty of corectness of computed digits
+(which is not the case for standard floating point implementation of real numbers
+as computation errors may produce incorrect results of arithmetic operations).
+
+Please note that optional argument N of log, exp, sin, cos, binomial refers to
+the number of terms of series defining respective functions NOT the number of
+calculated correct digits of the final result. This may change in the (near?)
+future.
+
+Also note that series function gives easy way of defining one's own p-adic valued
+functions via power series.
+
+ Will add more info here one day.
+ 
