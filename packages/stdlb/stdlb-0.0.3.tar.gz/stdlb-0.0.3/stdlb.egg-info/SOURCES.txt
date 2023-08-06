@@ -1,0 +1,8 @@
+README.md
+setup.py
+stdlb/__init__.py
+stdlb/cached_property.py
+stdlb.egg-info/PKG-INFO
+stdlb.egg-info/SOURCES.txt
+stdlb.egg-info/dependency_links.txt
+stdlb.egg-info/top_level.txt
