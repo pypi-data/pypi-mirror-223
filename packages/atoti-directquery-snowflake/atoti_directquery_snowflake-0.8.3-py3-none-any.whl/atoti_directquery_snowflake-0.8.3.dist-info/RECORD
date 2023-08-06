@@ -1,0 +1,14 @@
+atoti_directquery_snowflake/LICENSE,sha256=uj-cQ9LFo0v58DA-lc_SlI46k1rg1zHPkXQ_RNPB-bQ,23472
+atoti_directquery_snowflake/__init__.py,sha256=SQnx2zBhYoQ4fL5k0APMd6c_HvFlEFls1vZwpPQEF6k,186
+atoti_directquery_snowflake/_plugin.py,sha256=J1OtER4pUk2ckNcC0fFj8yReBNF80qwnSMpC5edT2p0,368
+atoti_directquery_snowflake/connection.py,sha256=NN-q77AhHq_hz3YSU9JTarxiN2Id_WClAl8dkvDHhlA,1317
+atoti_directquery_snowflake/connection_info.py,sha256=n8030bXj6J6e85Ty3MzxC_7JpUa-TGgi40EurxV__Sw,2672
+atoti_directquery_snowflake/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atoti_directquery_snowflake/table.py,sha256=3JUoLRPBIcliQmgQieQC2mgS13UJxwYtu6EqO6le4OY,131
+atoti_directquery_snowflake/table_options.py,sha256=Z_dDUPnBAxBvuQx_DvgGbVTMxDR34-qvi0lrBMBq5aU,5053
+atoti_directquery_snowflake/data/atoti-directquery-snowflake.jar,sha256=Md9KaVOLlWh0kBvMKw5isPXflEM54Jxz6qOVnxD7X3s,63093151
+atoti_directquery_snowflake-0.8.3.dist-info/METADATA,sha256=QgEJXo0SwtAU7qJ2Ptv1nw-Q4UfsxzLuGMT2yg-Q_BE,818
+atoti_directquery_snowflake-0.8.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+atoti_directquery_snowflake-0.8.3.dist-info/entry_points.txt,sha256=Sku1KC23TU20SNcheFJ30rN7awx-3ySZp2rr56ApOis,92
+atoti_directquery_snowflake-0.8.3.dist-info/top_level.txt,sha256=41ahUlHoUpB3NeLzy-6LNh12gwKjYwmdDgbrTcAbZtM,28
+atoti_directquery_snowflake-0.8.3.dist-info/RECORD,,
