@@ -1,0 +1,3 @@
+[mycroft.plugin.stt]
+ovos-stt-plugin-azure = ovos_stt_plugin_azure:OVOSAzureSTT
+
