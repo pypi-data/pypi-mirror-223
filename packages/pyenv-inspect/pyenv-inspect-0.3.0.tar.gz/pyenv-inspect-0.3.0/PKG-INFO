@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pyenv-inspect
+Version: 0.3.0
+Summary: An auxiliary library for the virtualenv-pyenv and tox-pyenv-redux plugins
+Author-email: "un.def" <me@undef.im>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2021, 2022, 2023 un.def <me@undef.im>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/un-def/pyenv-inspect
+Project-URL: Repository, https://github.com/un-def/pyenv-inspect.git
+Keywords: pyenv
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyenv-inspect
+
+An auxiliary library for the [virtualenv-pyenv][virtualenv-pyenv] and [tox-pyenv-redux][tox-pyenv-redux] plugins
+
+## Limitations
+
+Only CPython is supported at the moment.
+
+
+[virtualenv-pyenv]: https://github.com/un-def/virtualenv-pyenv
+[tox-pyenv-redux]: https://github.com/un-def/tox-pyenv-redux
