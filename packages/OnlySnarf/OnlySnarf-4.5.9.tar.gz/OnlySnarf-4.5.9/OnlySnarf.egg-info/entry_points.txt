@@ -1,0 +1,4 @@
+[console_scripts]
+onlysnarf = OnlySnarf.menu:main
+snarf = OnlySnarf.snarf:main
+snarfapi = OnlySnarf.api:main
