@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sizzpdf/__init__.py
+sizzpdf/pdf2image.py
+sizzpdf/pdf2text.py
+sizzpdf.egg-info/PKG-INFO
+sizzpdf.egg-info/SOURCES.txt
+sizzpdf.egg-info/dependency_links.txt
+sizzpdf.egg-info/top_level.txt
