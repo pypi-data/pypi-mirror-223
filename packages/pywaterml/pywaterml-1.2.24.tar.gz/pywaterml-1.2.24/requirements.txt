@@ -1,0 +1,9 @@
+xmltodict
+pandas
+numpy
+owslib
+suds-community
+tslearn
+pytest
+numba
+pyproj

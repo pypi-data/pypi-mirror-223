@@ -1,0 +1,16 @@
+xmltodict
+pandas
+numpy
+owslib
+suds-community
+tslearn
+numba
+pyproj
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
+versioneer
