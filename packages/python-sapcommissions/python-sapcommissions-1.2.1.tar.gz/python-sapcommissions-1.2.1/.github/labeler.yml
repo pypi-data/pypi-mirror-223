@@ -1,0 +1,18 @@
+ci/cd:
+  - "*"
+  - ".github/**"
+  - ".vscode/**"
+
+documentation:
+  - "README.md"
+  - "./*.md"
+  - "docs/**"
+
+endpoints:
+  - "**/*endpoints**"
+
+resources:
+  - "**/*resources**"
+
+tests:
+  - "tests/**"
