@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+first_zawakin_package/__init__.py
+first_zawakin_package.egg-info/PKG-INFO
+first_zawakin_package.egg-info/SOURCES.txt
+first_zawakin_package.egg-info/dependency_links.txt
+first_zawakin_package.egg-info/top_level.txt
+first_zawakin_package.egg-info/zip-safe
