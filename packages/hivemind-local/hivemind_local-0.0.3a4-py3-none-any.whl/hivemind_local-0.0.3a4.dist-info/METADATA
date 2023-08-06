@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hivemind-local
+Version: 0.0.3a4
+Summary: HiveMind skills runner
+Home-page: https://github.com/JarbasHiveMind/LocalHive
+Author: jarbasAI
+Author-email: jarbasai@mailfence.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: hivemind-bus-client (>=0.0.4a5)
+Requires-Dist: ovos-plugin-manager (>=0.0.3)
+Requires-Dist: ovos-core (>=0.0.8a1)
+Requires-Dist: jarbas-hive-mind (>=0.13.0a4)
+Requires-Dist: ovos-workshop
+
+UNKNOWN
+
+
