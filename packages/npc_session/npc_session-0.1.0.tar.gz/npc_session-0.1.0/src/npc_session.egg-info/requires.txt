@@ -1,0 +1,7 @@
+typing-extensions>=4.7.1
+
+[dev]
+pytest>=7.4.0
+ruff>=0.0.282
+pytest-cov>=4.1.0
+mypy>=1.4.1
