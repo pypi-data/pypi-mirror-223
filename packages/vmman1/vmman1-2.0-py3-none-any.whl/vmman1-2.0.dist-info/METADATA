@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: vmman1
+Version: 2.0
+Summary: Python3-based libvirt client
+Author: Jean-François Gratton <jean-francois@famillegratton.net>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+Requires-Dist: distro
+Requires-Dist: libvirt-python
+Requires-Dist: pendulum
+Requires-Dist: tabulate
+Requires-Dist: PyYAML
+
+**VMMan** : a python3-based libvirt client
+
+Requirements:<br>--------------------  
+Please run pip3 install -r requirements before running vmman  
+The **kvm** unix group must exist and whoever using vmman must be part of that group.  
+This software basically clones already-existing VMs (the 'templates') to create new ones according to your cli arguments.
+
+Those template VMs must meet the following requirements:
+
+- the virt-clone and virsh binaries must be present where you run vmman
+- templated VM must allow ssh root@vm with key authentication
+
+The following templates are currently supported: ubuntu, debian, centos, fedora, rocky. See _templates.txt_.
+
+_**TODO (long term):**_
+- better exception handling
+- get a better handling of ssh with python3 (paramiko ?)
+- find some way to get virt-clone native
+
+
+**_TOFIX_**
+vmman -c $HYPERVISOR create just wouldn't work for now
+vmman -c $HYPERVISOR rm wouldn't remove the VM's image (thought I had fixed that one !)
+
+**_CURRENT KNOWN ISSUES:_**
+Sometimes when launching the shell script at the end of a VM creation _(sh /tmp/execconfig.VMNAME-jfg__) it'll end up with a lost connection or no route to host.
+
+This means that the VM had not finished booting up and thus cannot receive the new configs.
+<br>Workaround: just relaunch the shell script.<br><br>
+Sometimes post-install scripts fail to copy on the new VM. No workaround yet.
+
+**_Important files to consider:_**
+
+- environment.yaml : this is where you fetch the target VMs network configuration
+- templates.txt : lists all the currently-supported templates, with some basic info
+- requirements.txt : this lists all the python modules used by this software
+- helpers.py, specifically Helpers.getConnectURI(), which shows how the hypervisor URI is constructed
+- vmman (formerly vmman.py; the program's entry point). Check around line 80, LOGLEVEL . Levels are explained at the top of the file.
+- _version.py : current software version
