@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tsukiyo"
+version = "0.1.0"
+description = ""
+authors = ["faker2048 <nspyia2002@gmail.com>", "Dounx <imdounx@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "src", from = "." }]
+
+[tool.poetry.dependencies]
+python = "^3.10.12"
+pyink = "^23.5.0"
+pre-commit = "^3.3.3"
+
+[tool.poetry.scripts]
+tsukiyo = 'src.main:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
