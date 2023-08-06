@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/symbolicmode/__init__.py
+src/symbolicmode.egg-info/PKG-INFO
+src/symbolicmode.egg-info/SOURCES.txt
+src/symbolicmode.egg-info/dependency_links.txt
+src/symbolicmode.egg-info/top_level.txt
+tests/test_chmod.py
+tests/test_modes.py
