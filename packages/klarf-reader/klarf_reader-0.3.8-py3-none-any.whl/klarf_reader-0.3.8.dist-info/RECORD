@@ -1,0 +1,9 @@
+klarf_reader/klarf.py,sha256=vbKd6Rps9GVpKmMMHCdJrFE8FzjIif2nGy6l9sNc8o4,1218
+klarf_reader/models/klarf_content.py,sha256=P4XY8eQjC1bxdO9uXjuO73i69uiR27zbFMdF4KdjxFE,2559
+klarf_reader/readers/klarf_file_reader.py,sha256=S6xaKj0cDZeBIHn8a_3gITljoNR4tbiOu6-gx-JNTcg,14354
+klarf_reader/utils/klarf_convert.py,sha256=28ozkbRycMJcsI1MqduRj_igxmPiyzi_BvtP7KiuO_8,1507
+klarf_reader-0.3.8.dist-info/LICENSE.txt,sha256=ZggDEO2M7p9FGmOH6GqG7C-ChkWSdR0P67ZS9Au-j9w,1077
+klarf_reader-0.3.8.dist-info/METADATA,sha256=le_bZpIVooL8cq7CEfk0BJpBBid4q2lclI5pY4W3fyg,593
+klarf_reader-0.3.8.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+klarf_reader-0.3.8.dist-info/top_level.txt,sha256=_mH2ggURcJAc4RhQ00Gj3f0SithJMH6X3UUuJohZM7g,13
+klarf_reader-0.3.8.dist-info/RECORD,,
