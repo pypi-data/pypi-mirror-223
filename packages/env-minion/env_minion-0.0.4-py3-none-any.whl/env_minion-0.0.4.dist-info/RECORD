@@ -1,0 +1,9 @@
+env_minion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+env_minion/hook_factory.py,sha256=HppNTebzhCLb-CoX5fdNCTE7G-IrKQHkBgXfABun004,1425
+env_minion/pre-push.txt,sha256=vPzt_l_pPz1TEvTaMs3Mk2v618QFwTqyXLZl6FlrHy4,2009
+env_minion-0.0.4.dist-info/LICENSE,sha256=vkHl6Fsk7ejwFcgDoLAQ92IIZfdxZqRoFdrKfFPqgr4,1064
+env_minion-0.0.4.dist-info/METADATA,sha256=YsWlJr1Hk1GVoDvG4rHUm-zcX3YPCg1B2EVgQGvcRz0,1011
+env_minion-0.0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+env_minion-0.0.4.dist-info/entry_points.txt,sha256=H03uw2LM3LdgGcwjKEMkiQJPe68HaIOuTuoEFbpXjWI,65
+env_minion-0.0.4.dist-info/top_level.txt,sha256=3NATdZw-JuHf6G5uMS3eOs3GvDWJJtbWM4kcPhh70aI,11
+env_minion-0.0.4.dist-info/RECORD,,
