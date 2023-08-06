@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pydaikinone
+Version: 0.0.2
+Summary: An API client used to interact with the DaikinOne cloud API for managing thermostats.
+Project-URL: Homepage, https://github.com/PatrickBig/pydaikinone
+Project-URL: Bug Tracker, https://github.com/PatrickBig/pydaikinone/issues
+Author-email: Patrick Bigler <patrick@biglernet.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pydaikinone
+Python library for interacting with the DaikinOne HVAC services
