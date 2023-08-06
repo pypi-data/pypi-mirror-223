@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+.pytest_cache/README.md
+autoscraper.egg-info/PKG-INFO
+autoscraper.egg-info/SOURCES.txt
+autoscraper.egg-info/dependency_links.txt
+autoscraper.egg-info/requires.txt
+autoscraper.egg-info/top_level.txt
+src/suggestscraper/__init__.py
+src/suggestscraper/html_to_xpath.py
+src/suggestscraper/tests/__init__.py
+src/suggestscraper/tests/test_1.py
+src/suggestscraper/tests/test_2.py
