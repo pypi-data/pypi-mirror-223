@@ -1,0 +1,7 @@
+pypomes_store/__init__.py,sha256=sReXKXzCaUBvB-Hq1BzxWkTxZArn4iGDLdKGAqs8evc,1268
+pypomes_store/azure_pomes.py,sha256=yhrtWgrdnCPN8kKpal28F7PvwS-a4-AgQeCssHaHwXM,7558
+pypomes_store/minio_pomes.py,sha256=NuGjGOvnMgf3-mQMM085xbTVg1LPTHq8-q75OIONmoc,14061
+pypomes_store-0.1.9.dist-info/METADATA,sha256=UgnGlUjamo12S6LDx9S3tS0h1PrYFk052UNSHV3lKxU,855
+pypomes_store-0.1.9.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pypomes_store-0.1.9.dist-info/licenses/LICENSE,sha256=NdakochSXm_H_-DSL_x2JlRCkYikj3snYYvTwgR5d_c,1086
+pypomes_store-0.1.9.dist-info/RECORD,,
