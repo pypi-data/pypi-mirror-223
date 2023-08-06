@@ -1,0 +1,14 @@
+README.md
+setup.py
+fastmodels/__init__.py
+fastmodels/cli.py
+fastmodels.egg-info/PKG-INFO
+fastmodels.egg-info/SOURCES.txt
+fastmodels.egg-info/dependency_links.txt
+fastmodels.egg-info/entry_points.txt
+fastmodels.egg-info/requires.txt
+fastmodels.egg-info/top_level.txt
+fastmodels/tests/test_validator.py
+fastmodels/utils/__init__.py
+fastmodels/utils/modelclient.py
+fastmodels/utils/validator.py
