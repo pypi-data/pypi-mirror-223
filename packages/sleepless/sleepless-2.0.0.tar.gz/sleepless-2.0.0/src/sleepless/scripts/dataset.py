@@ -1,0 +1,158 @@
+# SPDX-FileCopyrightText: Copyright © 2023 Idiap Research Institute <contact@idiap.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+from __future__ import annotations
+
+import importlib.resources
+import os
+
+import click
+
+from clapper.click import AliasedGroup, verbosity_option
+from clapper.logging import setup
+
+logger = setup(__name__.split(".")[0], format="%(levelname)s: %(message)s")
+
+
+def _get_supported_datasets():
+    """Returns a list of supported dataset names."""
+    basedir = importlib.resources.files(__name__.split(".", 1)[0]).joinpath(
+        "data"
+    )
+
+    retval = []
+    for candidate in basedir.iterdir():
+        if candidate.is_dir() and "__init__.py" in os.listdir(str(candidate)):
+            retval.append(candidate.name)
+
+    return retval
+
+
+def _get_installed_datasets() -> dict[str, str]:
+    """Returns a list of installed datasets as regular expressions.
+
+    * group(0): the name of the key for the dataset directory
+    * group("name"): the short name for the dataset
+    """
+    from ..utils.rc import load_rc
+
+    return dict(load_rc().get("datadir", {}))
+
+
+@click.group(cls=AliasedGroup)
+def dataset():
+    """Commands for listing and verifying datasets."""
+    pass
+
+
+@dataset.command(
+    epilog="""Examples:
+
+\b
+    1. To install a dataset, set up its data directory ("datadir").  For
+       example, to setup access to EDF files you downloaded locally at
+       the directory "/path/to/edf/files", edit the RC file (typically
+       ``$HOME/.config/sleepless.toml``), and add a line like the following:
+
+       .. code:: toml
+
+          [datadir]
+          edf = "/path/to/edf/files"
+
+       .. note::
+
+          This setting **is** case-sensitive.
+
+\b
+    2. List all raw datasets supported (and configured):
+
+       .. code:: sh
+
+          sleepless dataset list
+
+""",
+)
+@verbosity_option(logger=logger, expose_value=False)
+def list():
+    """Lists all supported and configured datasets."""
+    supported = _get_supported_datasets()
+    installed = _get_installed_datasets()
+
+    click.echo("Supported datasets:")
+    for k in supported:
+        if k in installed:
+            click.echo(f'- {k}: "{installed[k]}"')
+        else:
+            click.echo(f"* {k}: datadir.{k} (not set)")
+
+
+@dataset.command(
+    epilog="""Examples:
+
+\b
+    1. Check if all files of the EDF dataset can be loaded:
+
+       .. code::
+
+           sleepless dataset check -vv EDF
+
+\b
+    2. Check if all files of multiple installed datasets can be loaded:
+
+       .. code::
+
+          sleepless dataset check -vv EDF MASS
+
+\b
+    3. Check if all files of all installed datasets can be loaded:
+
+       .. code::
+
+          sleepless dataset check
+
+""",
+)
+@click.argument(
+    "dataset",
+    nargs=-1,
+)
+@click.option(
+    "--limit",
+    "-l",
+    help="Limit check to the first N samples in each dataset, making the "
+    "check sensibly faster.  Set it to zero to check everything.",
+    required=True,
+    type=click.IntRange(0),
+    default=0,
+)
+@verbosity_option(logger=logger, expose_value=False)
+def check(dataset, limit):
+    """Checks file access on one or more datasets."""
+    import importlib
+
+    to_check = _get_installed_datasets()
+
+    if dataset:  # check only some
+        delete = [k for k in to_check.keys() if k not in dataset]
+        for k in delete:
+            del to_check[k]
+
+    if not to_check:
+        click.secho(
+            "WARNING: No configured datasets matching specifications",
+            fg="yellow",
+            bold=True,
+        )
+        click.echo(
+            "Try sleepless dataset list --help to get help in "
+            "configuring a dataset"
+        )
+    else:
+        errors = 0
+        for k in to_check.keys():
+            click.echo(f'Checking "{k}" dataset...')
+            module = importlib.import_module(f"...data.{k}", __name__)
+            errors += module.dataset.check(limit)
+        if not errors:
+            click.echo("No errors reported")
