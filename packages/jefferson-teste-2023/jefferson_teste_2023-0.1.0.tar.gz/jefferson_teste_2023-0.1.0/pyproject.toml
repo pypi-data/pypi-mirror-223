@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "jefferson-teste-2023"
+version = "0.1.0"
+description = ""
+authors = ["Jefferson L. Alionco <Jeffersonalionco@gmail.com>"]
+readme = "README.md"
+packages = [{include = "jefferson_teste_2023"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
