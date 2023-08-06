@@ -1,0 +1,16 @@
+streamlit_calendar_semver/__init__.py,sha256=_ACpT9k75_QznSGEEja-hXZoCwm3NYQR4AIOhrtxbIQ,10550
+streamlit_calendar_semver/frontend/.env,sha256=TwLhUGTTldPvT4nW3BBkrHy_3oFviYjbtJDmtEdbCXY,180
+streamlit_calendar_semver/frontend/.prettierrc,sha256=qBUGXDB0ioCVFB3o4zVUnVlOHiqQqbQB9vFVKslWav0,67
+streamlit_calendar_semver/frontend/package-lock.json,sha256=j9wYp9ku2zdrjri2X0BpD5RKu4aQUb4T02BOGQREkHE,700872
+streamlit_calendar_semver/frontend/package.json,sha256=PEM1TCuc-zxhysf1uU_SIpVeiKGcfroRMssEaAPqgAM,1426
+streamlit_calendar_semver/frontend/public/bootstrap.min.css,sha256=kRCEGI5BpR49fggT5AJmaZaWuFfX77FzcCP2z3oKM7k,198404
+streamlit_calendar_semver/frontend/public/index.html,sha256=3UyWNzIh5-KuyafzCZm02w_dl1HhkNWP8Vf5zLs9ecE,868
+streamlit_calendar_semver/frontend/src/Calendar.css,sha256=zQhFXQhIG6rR5uyauQz9jI73wtmjQYATbc8xvfCCYqk,216
+streamlit_calendar_semver/frontend/src/Calendar.tsx,sha256=jHHqXUaHQ76z3ndqlMT1p-hSkCl41o0KhIyswMABy3k,3024
+streamlit_calendar_semver/frontend/src/index.tsx,sha256=4SuoAqqxLMb7mH3P96vtBt8JdLjgY3M-sDIzFNdFK3Y,208
+streamlit_calendar_semver/frontend/src/react-app-env.d.ts,sha256=V-2kxMBKHcpFxihXMmiCzpzJSMS1KXPA48O35MP6OZA,40
+streamlit_calendar_semver/frontend/tsconfig.json,sha256=TTQ50Ut-PEy-fSmSpISy4Rdhz8sRe-jrx_P3ryHVLxk,494
+streamlit_calendar_semver-0.3.0.dist-info/LICENSE,sha256=yVuuHRzgI17MzTVgt3LsHvuX80innw--CmNPDCzO_iw,11358
+streamlit_calendar_semver-0.3.0.dist-info/METADATA,sha256=TbiHoyyEAVJ_lovYm88aDHE3NbXAGkOxmY8OjGOHgI8,4426
+streamlit_calendar_semver-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+streamlit_calendar_semver-0.3.0.dist-info/RECORD,,
