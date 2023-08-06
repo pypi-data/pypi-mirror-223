@@ -1,0 +1,9 @@
+update_submodules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+update_submodules/git.py,sha256=UYW4ZV79Y1s8cPwLQLbGDf6A7BWJL1xHTrBAgIzWRfg,5218
+update_submodules/github.py,sha256=cbqDkzyW9YXXP_AnqAlDbJRGlC0MJkB7oh_RzDNzQrI,8624
+update_submodules/meta_branch.py,sha256=zzu6PrSWm2Y74x50_Pk7Qe7jnhk9vk8hF9ZCslQuzFQ,2831
+update_submodules-0.0.1.dist-info/METADATA,sha256=9FFDxYM6bze9LTzUxtUuv6LVxFaPfl2m_NYK0gjeqgY,270
+update_submodules-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+update_submodules-0.0.1.dist-info/entry_points.txt,sha256=DaRMYrFisC0eLoZa8fxUeej4ZsSDcmTAzvKC_syoqDQ,187
+update_submodules-0.0.1.dist-info/top_level.txt,sha256=SNOmgvFl7-9FMjR5TGe0dZk9hHEuiPvWXgPoBOiefO0,18
+update_submodules-0.0.1.dist-info/RECORD,,
