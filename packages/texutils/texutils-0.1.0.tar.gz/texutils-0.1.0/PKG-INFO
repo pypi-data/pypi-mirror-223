@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: texutils
+Version: 0.1.0
+Summary: A Library to work with LaTeX files
+License: MIT
+Author: MrQuentinet
+Author-email: quentinvilluis@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# TeXUtils
+TeXUtils is a python library to help you work with LaTeX documents
