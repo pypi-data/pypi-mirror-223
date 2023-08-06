@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+spectrolib/SPECtro.py
+spectrolib/__init__.py
+spectrolib/spectro.py
+spectrolib.egg-info/PKG-INFO
+spectrolib.egg-info/SOURCES.txt
+spectrolib.egg-info/dependency_links.txt
+spectrolib.egg-info/requires.txt
+spectrolib.egg-info/top_level.txt
