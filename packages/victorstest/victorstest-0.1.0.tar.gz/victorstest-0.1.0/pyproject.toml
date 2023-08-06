@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "victorstest"
+version = "0.1.0"
+authors = [
+    {name = "victorscomma", email = "victorscomma@gmail.com"},
+]
+description = "victors test project"
+readme = "README.md"
+license = {file ="LICENSE"}
+keywords = ["victorstest"]
+dependencies = [
+    "numpy",
+    "boto3",
+]
+
+[project.scripts]
+victorstest = "victorstest.cli.cli:victorstest_command"

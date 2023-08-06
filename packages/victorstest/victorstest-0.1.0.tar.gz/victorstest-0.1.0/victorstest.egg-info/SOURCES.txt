@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+victorstest.egg-info/PKG-INFO
+victorstest.egg-info/SOURCES.txt
+victorstest.egg-info/dependency_links.txt
+victorstest.egg-info/entry_points.txt
+victorstest.egg-info/requires.txt
+victorstest.egg-info/top_level.txt
+victorstest/cli/cli.py
