@@ -1,0 +1,12 @@
+helios/__init__.py,sha256=6nT6Vk5tCX8x3fsw-SOlSLQZR_HyynC0jH2B0YEw_gc,228
+helios/__version__.py,sha256=iC_OxKJXLiErL9gMinDZuHV61or9meThsvDMZTdFPxE,221
+helios/chunked_upload.py,sha256=5Y3hV08ahhW0AUVRwJ3gMT-gFuoCoMCA_lYE8t4qRXk,1457
+helios/client.py,sha256=odBqcfmDGiRVtcl6Ge3qw5wWwx97cfpBxBaFhP5KbQI,42621
+helios/exceptions.py,sha256=5yFnfpqanq4u1mU5Mjrz6sa9sThf2Dug-9lF7tHlSGI,3437
+helios/requests.py,sha256=PHY5-uMFCN7BbWqV2GF0gFgyNu-VGqOzR4rNj7RGw_M,4190
+helios/responses.py,sha256=gzf99e30CT1BUtoqorHJ88Af2YWzltGv1XgkDfO8UAA,12909
+helios_client-0.3.20230805.post1.dist-info/METADATA,sha256=3kXhB-egM7F19-FOaU28b36LK9NESm0TZVZjEBqKGjg,5838
+helios_client-0.3.20230805.post1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+helios_client-0.3.20230805.post1.dist-info/top_level.txt,sha256=_KJLwYB-zwursMybQpb65AqKNAkd-AVbLV6QnZkZPXE,7
+helios_client-0.3.20230805.post1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+helios_client-0.3.20230805.post1.dist-info/RECORD,,
