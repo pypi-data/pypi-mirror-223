@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: newpychromedriver
+Version: 115.0.5790.170
+Summary: A package to sync chrome driver to lastest version
+Home-page: UNKNOWN
+Author: biao.li
+Author-email: biao.li@flexiv.com
+License: UNKNOWN
+Description: # newpychromedriver
+        
+        fork [pychromedriver](https://github.com/parklam/pychromedriver), 
+        but support chrome 115.0 or newer versions
+        
+        update: every day 00:00:00
+        
+        ## Installation:
+        ```
+        # From PyPI
+        pip install newpychromedriver
+        ```
+        ## Usage:
+        ```
+        from selenium import webdriver
+        from newpychromedriver import chromedriver_path
+        
+        bs = webdriver.Chrome(executable_path=chromedriver_path)
+        bs.get('https://www.pypi.org')
+        ```
+        
+Keywords: chromedriver chrome driver
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
