@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/DmxOscServer/DmxOscServer.py
+src/DmxOscServer/Fixture.py
+src/DmxOscServer/__init__.py
+src/DmxOscServer.egg-info/PKG-INFO
+src/DmxOscServer.egg-info/SOURCES.txt
+src/DmxOscServer.egg-info/dependency_links.txt
+src/DmxOscServer.egg-info/requires.txt
+src/DmxOscServer.egg-info/top_level.txt
