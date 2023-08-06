@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/glinski/__init__.py
+src/glinski.egg-info/PKG-INFO
+src/glinski.egg-info/SOURCES.txt
+src/glinski.egg-info/dependency_links.txt
+src/glinski.egg-info/top_level.txt
