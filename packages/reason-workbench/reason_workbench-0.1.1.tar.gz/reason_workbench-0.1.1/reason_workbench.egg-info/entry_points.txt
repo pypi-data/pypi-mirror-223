@@ -1,0 +1,2 @@
+[console_scripts]
+reason_workbench = reason_workbench.main:main
