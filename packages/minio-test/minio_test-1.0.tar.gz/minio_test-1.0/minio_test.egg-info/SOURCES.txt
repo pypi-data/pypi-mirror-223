@@ -1,0 +1,9 @@
+setup.py
+minio_test/__init__.py
+minio_test/pyminio.py
+minio_test.egg-info/PKG-INFO
+minio_test.egg-info/SOURCES.txt
+minio_test.egg-info/dependency_links.txt
+minio_test.egg-info/top_level.txt
+minio_test/common/__init__.py
+minio_test/common/common.py
