@@ -1,0 +1,11 @@
+deploymentId:
+vars:
+  orgId:
+  edgeId:
+  desktop:
+    markerId:
+    streamId:
+    templateType:
+    vmSkuName:
+    userGroup:
+  userEmails: []
