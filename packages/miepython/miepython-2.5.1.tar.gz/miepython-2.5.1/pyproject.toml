@@ -1,0 +1,9 @@
+[build-system]
+requires = [
+    "setuptools >= 44",
+    "setuptools_scm >= 2.0.0, <3"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+markers = ["notebooks"]
