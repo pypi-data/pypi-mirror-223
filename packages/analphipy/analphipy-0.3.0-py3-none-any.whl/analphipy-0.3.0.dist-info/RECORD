@@ -1,0 +1,17 @@
+analphipy/__init__.py,sha256=mX8Cv2RrL8TzDblzuUzlwaQqfWfHQtcDukDo8yr0pVE,786
+analphipy/_attrs_utils.py,sha256=mORjVIPwtfDGdX1o9RWKK_i1URjxjy_yZg2VuOpOsR8,1536
+analphipy/_docstrings.py,sha256=E_voi57qJU7w6yIPt_byAbzKjGwAJDILENW1zMR181Y,2661
+analphipy/_typing.py,sha256=vogZYkOCJZOm0mbTKb2Hir1tEMezIN-E8Ecs5PDte74,1617
+analphipy/_version.py,sha256=MmkMPQfZWe_M7h--SipyW14-Ekmck-JRGajMUZexJMk,161
+analphipy/base_potential.py,sha256=Zw2TCGOzFKMZqB2Rdnz0afyLGPoKz6aNslfva5cA7eU,13968
+analphipy/measures.py,sha256=kRUq5ScSgbCweMryLACaVNtWGjs7iY5BOj_xsQJzzcs,14054
+analphipy/norofrenkel.py,sha256=pVIJ2IoicSxIKUdgO2TbNVrmz7Whar02JAWy9dMY0w0,16922
+analphipy/potential.py,sha256=Ujkt6C42Jny-OIEJ_-FdxYG23T_zuCrMW8Tvw2a6_pw,16154
+analphipy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+analphipy/utils.py,sha256=xgZVIIu6UBiPh2u8tA6WxFa_ubrEctqRCdjZyXcvIdY,10914
+analphipy-0.3.0.dist-info/LICENSE,sha256=j_sUyRmuUbF_c9KR7g_uTdRv-cBn65wjYQpmusAzyT0,1645
+analphipy-0.3.0.dist-info/METADATA,sha256=ApMmabAjXLbfSbXPFrAddUY2tdE4ukXnAfbvzlbAMj8,10135
+analphipy-0.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+analphipy-0.3.0.dist-info/top_level.txt,sha256=jPr3u__AwPiPrdWR3Ac8IoaVyVBShHmfMOMiHubcV6w,10
+analphipy-0.3.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+analphipy-0.3.0.dist-info/RECORD,,
