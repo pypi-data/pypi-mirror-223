@@ -1,0 +1,14 @@
+techspec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+techspec/cli/__init__.py,sha256=QB1cCbaMiVqvFIjDAJUJTNIYXha6NiAHz-g8ntoT9ZU,59
+techspec/cli/main.py,sha256=mXtCKAjPyt6xRuh0pZJPVAXBa5YeGz20MAmtpGNAyQA,117
+techspec/cli/groups/__init__.py,sha256=vEQE3TP9nOG2cVS786qUcYqgXiEw-maNrsDya_xBo5w,69
+techspec/cli/groups/schema.py,sha256=-zJWwScgBEbIM7RD2asRDvGTXyYZTTnqamKgrI99sRw,1427
+techspec/cli/groups/stderr.py,sha256=DD4VYHebdfsr3F8LdtYUN1BLGuFjudswScfFZIL-ZKU,171
+techspec/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+techspec/schema/json_schema.py,sha256=3nZdz9NVBsT2jxoTxoTGTIsQh7O0pRPGc-dn0g7DQHY,143
+techspec/schema/utils.py,sha256=1UF78YvmRruJ_Lw7LJAW4nkxbyt1x8tyBQRpcbkB5jM,368
+tech_spec-1.0.29.dist-info/METADATA,sha256=YYu8MKK9sxQ0WgVAnblrnZs1JYub29O-I2KzeptR9Rg,298
+tech_spec-1.0.29.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tech_spec-1.0.29.dist-info/entry_points.txt,sha256=cAQTEdOn6dn6v2sOL1rs8nXRYIue_FiSS8cb6_mFhKI,53
+tech_spec-1.0.29.dist-info/top_level.txt,sha256=IdTvGPTmYfZU5C6D6ygiIWbVo1lxBpob6ADymRDcKJE,9
+tech_spec-1.0.29.dist-info/RECORD,,
