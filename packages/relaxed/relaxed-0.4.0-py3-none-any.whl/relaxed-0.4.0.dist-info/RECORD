@@ -1,0 +1,12 @@
+relaxed/__init__.py,sha256=D7HKM8n5lqWm2JaSpJFZB4L_-g4-PBoD5aKNZR9nEyY,431
+relaxed/infer.py,sha256=SuTVeMEHAE7Bc7oiBBp31St3XMQKQDfUR7p5SbTTytY,5660
+relaxed/metrics.py,sha256=6cWOzdcCykZ7LGTqcgUTOZYsfNC2fC3fCO-WYQdQxP4,2551
+relaxed/mle.py,sha256=N40R_Ud6p0L6PN2CWXQxVrJ8Qu6uUm5O_Ua4UJ68rR8,3980
+relaxed/ops.py,sha256=EtTmLxUA6Y8ncy7jRkKGGurPOSq2GZJTFk9lSrwKsns,4852
+relaxed/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+relaxed/_compat/__init__.py,sha256=pI7gAW6PCcjiT44evXiKvb_kcsPSwoS285u5Kb2mhsc,161
+relaxed/_compat/typing.py,sha256=s0H-ycg3JpKSAhOcyh60t2381h0AJp3TpzOzB29bsYQ,519
+relaxed-0.4.0.dist-info/METADATA,sha256=YU_FRCeYlFJv3ohF4-xWRhDp687lbvfUFf5eqrP2Tw0,7538
+relaxed-0.4.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+relaxed-0.4.0.dist-info/licenses/LICENSE,sha256=pSp4oTSKhflw4XS1V2i4kgQG9Rn_aM2QPVPEL2N2VHg,1524
+relaxed-0.4.0.dist-info/RECORD,,
