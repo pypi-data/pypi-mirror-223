@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: pyBPPIBridge
+Version: 0.5.1
+Summary: This solution builds a bridge between Blue Prism Process Intelligence (alias BPPI) and some external data sources (like files, databases via ODBC, SAP and Blue Prism).
+Author-email: Benoit Cayla <benoit@exypro.org>
+License: MIT License
+        
+        Copyright (c) 2023 Benoît Cayla
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Bug Tracker, https://exypro.org/Discussions/forum/pybppibridge-solution/
+Project-URL: Homepage, https://exypro.org/docs/pybppibridge-documentation/
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (==2.0.3)
+Requires-Dist: openpyxl (==3.1.2)
+Requires-Dist: pyodbc (==4.0.39)
+Requires-Dist: pyrfc (==3.1)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: xmltodict (==0.13.0)
+
+# Presentation
+This solution builds a data bridge between Blue Prism Process Intelligence (BPPI) and one or several external data sources. Its purpose is first to access these external datasources. Then its collect the needed data to automate their importation into an existing BPPI instance (cloud or on-prem). By executing a TO DO into the BPPI repository it also performs an automatic import to an existing BPPI Project.
+
+🚀 Currently this Data Bridge provides data access and load from these data sources :  
+
+✅  External file (csv)  
+✅  External Excel Spreadsheet (xls, xlsx, xlsm, xlsb, odf, ods and odt)  
+✅  External XES File  
+✅  ODBC Data Sources (checked with SQL Server) by using an configurable SQL query  
+✅  Blue Prism (Via session logs, Blue Prism API and/or vbo usage)  
+✅  SAP Read Table via SAP RFC  
+
+This BPPI Data Bridge reads the data from the Datasource and upload them into the BPPI Repository. Inside BPPI it's also possible to configure a TODO to automate some transformations and load the data into a BPPI Project (The program can execute thess To Do automatically). To make this bridge usable the user must configure a Data Source in the BPPI Repository, and get a token.  
+
+*✨ Note: BPPI (Blue Prism Process Intelligence) is the solution provided by Blue Prism for Process and Task Mining (ABBYY Timeline OEM)*
+
+👉 [Look at the wiki for more informations](https://exypro.org/docs/pybppibridge-documentation/)
+
+👉 [Install the BPPI Bridge via pyPI](https://pypi.org/project/pyBPPIBridge/)
+
+👉 [in case of an issue, please add an entry here](https://exypro.org/Discussions/forum/pybppibridge-solution/)
