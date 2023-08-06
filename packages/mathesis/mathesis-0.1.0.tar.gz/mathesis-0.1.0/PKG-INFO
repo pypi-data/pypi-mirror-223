@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mathesis
+Version: 0.1.0
+Summary: Formal logic library in Python for humans
+License: MIT
+Author: Kentaro Ozeki
+Author-email: 32771324+ozekik@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: anytree (>=2.8.0,<3.0.0)
+Requires-Dist: lark (>=1.1.2,<2.0.0)
+Requires-Dist: prettytable (>=3.3.0,<4.0.0)

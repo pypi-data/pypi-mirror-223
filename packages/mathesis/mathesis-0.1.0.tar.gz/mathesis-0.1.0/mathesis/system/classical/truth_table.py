@@ -1,0 +1,1 @@
+from mathesis.semantics.truth_table.classical import ClassicalTruthTable
