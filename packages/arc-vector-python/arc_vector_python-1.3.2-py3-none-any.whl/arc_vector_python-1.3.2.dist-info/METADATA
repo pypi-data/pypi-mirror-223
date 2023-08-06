@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: arc-vector-python
+Version: 1.3.2
+Summary: Python client library for the Arc vector search engine
+Home-page: https://gitee.com/giraffedb/arc-vector-python.git
+License: Apache-2.0
+Keywords: vector,search,neural,matching,client
+Author: yunju.lly
+Author-email: lingyun.li@fabarta.com
+Requires-Python: >=3.7,<3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: grpcio (>=1.41.0)
+Requires-Dist: grpcio-tools (>=1.41.0)
+Requires-Dist: httpx[http2] (>=0.14.0)
+Requires-Dist: numpy (<1.21) ; python_version < "3.8"
+Requires-Dist: numpy (>=1.21) ; python_version >= "3.8"
+Requires-Dist: portalocker (>=2.7.0,<3.0.0)
+Requires-Dist: pydantic (>=1.10.8)
+Requires-Dist: urllib3 (>=1.26.14,<2.0.0)
+Project-URL: Repository, https://gitee.com/giraffedb/arc-vector-python.git
+Description-Content-Type: text/markdown
+
+## arc-vector-python
+Python library and client for arc-vector database
+
+## Installation
+// arc_vector_python-<version>.tar.gz package exist in local
+pip install arc_vector_python-1.3.2.tar.gz
+
+## Connect to ArcVector Server
+To connect to Qdrant server, simply specify host and port:
+
+```
+from arc_vector_client import ArcVectorClient
+from arc_vector_client.models import Distance, VectorParams
+# Rest interface
+client = ArcVectorClient(url="http://localhost:6333")
+# gRPC: To enable (typically, much faster) collection uploading with gRPC
+client = ArcVectorClient(host="localhost", grpc_port=6334, prefer_grpc=True)
+```
+
+
