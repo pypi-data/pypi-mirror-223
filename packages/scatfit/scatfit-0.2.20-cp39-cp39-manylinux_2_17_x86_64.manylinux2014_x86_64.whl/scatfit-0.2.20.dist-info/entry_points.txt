@@ -1,0 +1,3 @@
+[console_scripts]
+scatfit-fitfrb = scatfit.apps.fit_frb:main
+scatfit-simpulse = scatfit.apps.simulate_pulse:main
