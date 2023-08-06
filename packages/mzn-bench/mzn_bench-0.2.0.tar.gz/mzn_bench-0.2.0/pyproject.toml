@@ -1,0 +1,37 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "mzn-bench"
+version = "0.2.0"
+description = "SLURM scheduling functionality and a collection of scripts to process the resulting data"
+authors = ["Jip J. Dekker <jip.dekker@monash.edu>"]
+license = "MPL-2.0"
+readme = "README.md"
+packages = [{ include = "mzn_bench", from = "src" }]
+
+[tool.poetry.scripts]
+mzn-bench = 'mzn_bench.cli:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+minizinc = "^0.9"
+ruamel-yaml = "^0.17"
+click = "^8.1"
+tabulate = { version = "^0.9", optional = true }
+pandas = { version =  "^2.0", optional = true }
+bokeh = { version =  "^3", optional = true }
+
+[tool.poetry.extras]
+scripts = ["tabulate", "pandas"]
+plotting = ["bokeh"]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+black = "^23.7.0"
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
