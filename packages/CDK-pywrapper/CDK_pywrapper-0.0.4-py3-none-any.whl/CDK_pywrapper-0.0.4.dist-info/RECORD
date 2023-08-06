@@ -1,0 +1,10 @@
+CDK_pywrapper/CDKdesc.jar,sha256=z6yMyWxpw2FJQmbNz3_swiiNZbgxO-g-vDWQF_YTujE,47156331
+CDK_pywrapper/__init__.py,sha256=0miEq9wVvcfc8j7cjmgeqDJ-1_h-oeRc9O61o1IilPk,152
+CDK_pywrapper/cdk_pywrapper.py,sha256=gbtAwmZ4vEYNotrpkg8PIa0lrQOm2VdfN2aOP-hKhdg,11020
+CDK_pywrapper/descs.json,sha256=Wzl8GSeoCy_QMIzCWo2YQythiY6jwwJPqupILmBpgf0,68538
+CDK_pywrapper/utils.py,sha256=w1dLTNlK4cu1QFeYuWo57hIuD0r-e2A2cz-pe2n4CKc,3224
+CDK_pywrapper-0.0.4.dist-info/LICENSE,sha256=8XfEdB_CgNewtZLb9xPkJpIMb_iRCGFbnM2B86ynvgg,1100
+CDK_pywrapper-0.0.4.dist-info/METADATA,sha256=c5N7zMOlqhU8RR0BIluCtcLbeKoyISgywIGQRv95dRc,5641
+CDK_pywrapper-0.0.4.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+CDK_pywrapper-0.0.4.dist-info/top_level.txt,sha256=LrqN34bTqsjyx5SUadb3ONALge1zi4QhZAcuanHUiMA,14
+CDK_pywrapper-0.0.4.dist-info/RECORD,,
