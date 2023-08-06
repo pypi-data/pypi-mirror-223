@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ZW-geo
+Version: 2.230803
+Summary: Library for Digital Architecture
+Author: Runtian Lee
+Author-email: 2606514432@qq.com
+Maintainer: Runtian Lee
+Maintainer-email: 2606514432@qq.com
+License: MIT License
+Platform: python
+License-File: License_check.py
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: pyvista
+Requires-Dist: rhino3dm
+Requires-Dist: pymysql
+Requires-Dist: pycryptodome
+
