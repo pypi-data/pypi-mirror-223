@@ -1,0 +1,13 @@
+from dataclasses import dataclass
+
+from atoti_core import Identifier
+
+
+@dataclass(frozen=True)
+class ExternalTableIdentifier(Identifier):  # pylint: disable=keyword-only-dataclass
+    database_name: str
+    schema_name: str
+    table_name: str
+
+    def __repr__(self) -> str:
+        return f"""t[{self.database_name, self.schema_name, self.table_name}]"""
