@@ -1,0 +1,16 @@
+slxjsonrpc/__init__.py,sha256=e_xT4tZgg8f7zenbsHSzw4HEyr0UWGcIg4c8ALXUimg,570
+slxjsonrpc/__init__.pyi,sha256=MocNJjbANPbCypux3JQj8aS62tXrpszawYTy1hi0lTc,267
+slxjsonrpc/jsonrpc.py,sha256=CHvEOXtVs0YK3XTSMNOBu6WRBkkOwUEpqCMwtucz7ig,19880
+slxjsonrpc/jsonrpc.pyi,sha256=BigRdKWDAm-5vGlk3ewYSW3sJX6EZGNPPW4Iid2D8DY,2036
+slxjsonrpc/py.typed,sha256=JEDcuP1Gql2hXKZSpwN6WoEKz4n-ssQFyJNG3EVsKoI,62
+slxjsonrpc/schema/__init__.py,sha256=V6AjHz6ZTS-SoGAKkJaX06b2hXgGx1ahgptS0YKR6AI,8
+slxjsonrpc/schema/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slxjsonrpc/schema/jsonrpc.py,sha256=KAmRhY9_MLRY5jK2eFCyC_PjiQ-NDhjEuA7ZGLX_hF0,12531
+slxjsonrpc/schema/jsonrpc.pyi,sha256=7Nn2cPrjKK8jg800WO-MD8FXq6eMdww_qrY_0kkYA88,2719
+slxjsonrpc-0.9.1.data/data/info/CHANGELOG.md,sha256=3VbXT9QnRz9hb0yIk3JFq3sDjz__mryqWi0VWf2iLzo,937
+slxjsonrpc-0.9.1.data/data/info/README.md,sha256=AvtLcAeep1q6Ifk19DAUy-xkUrQv_0O_tKzYxRfOuqg,9675
+slxjsonrpc-0.9.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+slxjsonrpc-0.9.1.dist-info/METADATA,sha256=-GmOVrSYkhVMtPKxZhbdCyzdB26tZYbznD9SvHYsGuI,11070
+slxjsonrpc-0.9.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+slxjsonrpc-0.9.1.dist-info/top_level.txt,sha256=FGDjDhuHA6AzA88PdeU6dI-zDSWJomnrP0WAIsscSRc,11
+slxjsonrpc-0.9.1.dist-info/RECORD,,
