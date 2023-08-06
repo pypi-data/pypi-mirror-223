@@ -1,0 +1,11 @@
+fdw/__main__.py,sha256=rGD-XWpEaP1ZqoEQro7RKW61miAoRcRQ5_ZH-HCJ7fk,347
+file_directory_watcher/app.py,sha256=qcvSyPrzwLbc9M1G451U2EMS9sXyY3ORzBGtG4O36s4,4551
+file_directory_watcher/argument_parser.py,sha256=Qjj-STRp76cAdAXLKJe6ADqk3uIGTopFCJImIrMVobw,6495
+file_directory_watcher/cli.py,sha256=zIfRqpzyMJHnC4E6-hscistivl3H4Y4cinWtgHjJpu8,1644
+file_directory_watcher/utils.py,sha256=yGqGSdCXRL7PvYikgeIIwcfLCAGh_dPnPZfBk5refUM,3755
+file_directory_watcher-0.0.6.dist-info/LICENSE,sha256=a_Ob2zR8B-VKDNutpR5hGrV19qbD0lpk0M4tCVbIkv8,1071
+file_directory_watcher-0.0.6.dist-info/METADATA,sha256=SVBVJTRbJsBVRKBgkTX9RkGVUJJBpwXn4BF1bPameSw,446
+file_directory_watcher-0.0.6.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+file_directory_watcher-0.0.6.dist-info/entry_points.txt,sha256=hCha7TkWolrVsW2Rb5vbPAlMr5UenrDt2WN5_AhUZYY,42
+file_directory_watcher-0.0.6.dist-info/top_level.txt,sha256=mVrmMSrVtUW5TH0Dzz-BfiELGXPCz9AoGssgsbfkQrA,27
+file_directory_watcher-0.0.6.dist-info/RECORD,,
