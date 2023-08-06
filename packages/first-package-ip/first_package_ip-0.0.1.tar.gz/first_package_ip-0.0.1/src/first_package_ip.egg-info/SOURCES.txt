@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/first_package_ip/__init__.py
+src/first_package_ip/example.py
+src/first_package_ip.egg-info/PKG-INFO
+src/first_package_ip.egg-info/SOURCES.txt
+src/first_package_ip.egg-info/dependency_links.txt
+src/first_package_ip.egg-info/top_level.txt
