@@ -1,0 +1,24 @@
+.gitignore
+.pre-commit-config.yaml
+README.md
+mkdocs.yml
+pyproject.toml
+.github/pull_request_template.md
+.github/workflows/python-publish.yml
+docs/Additional Example.ipynb
+docs/Basic Usage.ipynb
+docs/index.md
+docs/quickstart.md
+docs/javascripts/mathjax.js
+mkdocs/base.yml
+src/equation_sampler/__init__.py
+src/equation_sampler/equation_tree.py
+src/equation_sampler.egg-info/PKG-INFO
+src/equation_sampler.egg-info/SOURCES.txt
+src/equation_sampler.egg-info/dependency_links.txt
+src/equation_sampler.egg-info/requires.txt
+src/equation_sampler.egg-info/top_level.txt
+tests/README.md
+tests/__init__.py
+tests/test_equation_sampler.py
+tests/test_equation_tree.py
