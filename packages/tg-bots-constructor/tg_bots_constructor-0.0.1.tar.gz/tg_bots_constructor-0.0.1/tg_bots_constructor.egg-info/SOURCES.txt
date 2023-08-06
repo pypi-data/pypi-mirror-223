@@ -1,0 +1,6 @@
+setup.py
+tg_bots_constructor.egg-info/PKG-INFO
+tg_bots_constructor.egg-info/SOURCES.txt
+tg_bots_constructor.egg-info/dependency_links.txt
+tg_bots_constructor.egg-info/requires.txt
+tg_bots_constructor.egg-info/top_level.txt
