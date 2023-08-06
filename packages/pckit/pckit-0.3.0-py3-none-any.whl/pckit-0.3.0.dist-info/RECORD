@@ -1,0 +1,13 @@
+LICENSE,sha256=YQIDrKRHpFgmX3_Dy-F1dK_mTcVQo861ieJzp0_xIOo,1066
+pckit/__init__.py,sha256=O6tdlhiZZ-mfLJOMNIhMqaA5arMbXPfhyEes7NFesmA,441
+pckit/_typevars.py,sha256=Zl4C2_c1SzJF3TCx780qnpo0Jk8fdmMDvU5ImE8K8yM,109
+pckit/_utils.py,sha256=cLR8m3eZUuavH7QO9uYfsF2nvo_KCsd8T88EiTQbkwU,1866
+pckit/cache.py,sha256=pRzNFNrar-nvabm3OJ360sxctjNHMBgAU67mbIWPizU,1492
+pckit/models.py,sha256=4xPx6hknDELCCNP4HOrPTZmmQjaZeqKQd1zSqWd96DE,5676
+pckit/solvers.py,sha256=hs1_EKAYfrG5noDNOcnpiw8-KsofANB5NtFmBj16YQ4,9465
+pckit/task.py,sha256=YmFzP8OOHo5dL2ir-rtLGumVOiqTx8J1SoaJTKKfm4A,156
+pckit/workers.py,sha256=vl98nM2jIANTRnT333XuLG8v54KUbQRluyDqrA-lsyg,5089
+pckit-0.3.0.dist-info/LICENSE,sha256=YQIDrKRHpFgmX3_Dy-F1dK_mTcVQo861ieJzp0_xIOo,1066
+pckit-0.3.0.dist-info/METADATA,sha256=5V0hhzA2n95QCb--7W_w-GQ0fjT_W2eZZjKoCigKCAk,2969
+pckit-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+pckit-0.3.0.dist-info/RECORD,,
