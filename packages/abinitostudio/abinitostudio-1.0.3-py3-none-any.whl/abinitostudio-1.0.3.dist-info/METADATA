@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: abinitostudio
+Version: 1.0.3
+Summary: A studio for first-principles calculations.
+Home-page: UNKNOWN
+Author: Pan Zhou, Xin Lu and Li Zhongsun
+Author-email: zhoupan71234@xtu.edu.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Requires-Python: >=3.7, <=3.12
+License-File: LICENSE
+Requires-Dist: paramiko (==2.7.1)
+Requires-Dist: jumpssh (==1.6.5)
+Requires-Dist: numpy (==1.21.6)
+Requires-Dist: pyxtal (==0.3.0)
+Requires-Dist: ase (==3.19.1)
+Requires-Dist: pymatgen (==2020.4.2)
+Requires-Dist: vtk (==8.1.2)
+Requires-Dist: pyface (==6.1.2)
+Requires-Dist: traits (==6.0.0)
+Requires-Dist: traitsui (==7.0.0)
+Requires-Dist: PyQt5 (==5.11.2)
+Requires-Dist: envisage (==4.9.2)
+Requires-Dist: mayavi (==4.7.1)
+
+This is a long description.
+
