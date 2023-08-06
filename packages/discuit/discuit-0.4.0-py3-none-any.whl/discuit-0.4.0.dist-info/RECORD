@@ -1,0 +1,17 @@
+discuit/__init__.py,sha256=hVmP6p6dIRvG3y3wEP7a7LrH3j8PUg_OFqvdBZsyTsQ,241
+discuit/calculations.py,sha256=n7rfOElTc3DGb3aIa_S1uI7E_5vs1RI0gNmEhiq05wI,1909
+discuit/clustering.py,sha256=TwqRzEJwgQhK6TMBhuArRU9C7Kjser8r4S7xiq1rEE0,4681
+discuit/command_line.py,sha256=ArV3wKir-cuKn-RfHgoxSYBipa_FQakCH5qsOyaR4ik,6223
+discuit/data.py,sha256=BvRt1bMtlsCO3ij8u01mE5QoKx4BsQIffNsVdqUCvVA,733
+discuit/run.py,sha256=KaeVil68KTKCXzzKvKYzTGTuDmr6wtNTCk5jlAdRsD4,2563
+discuit/save_stats.py,sha256=LbOGoastXUOwrEIFs789Fq9X7NefpVwc7ZFBNvGWwME,3282
+discuit/write.py,sha256=EkZ41tOILFi7damS2YlKT8SyWMSnqb8-EHPXhfwTPUw,1449
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_my_module.py,sha256=y67wkbzUfwvhvhl1V9AR9HJ8Wy1G5yhGqdf0YgYhd9E,343
+discuit-0.4.0.dist-info/LICENSE,sha256=OPzV6bHGPCXFylyiCR3GYAK-EP8seLDbcbgO87DYM1o,11359
+discuit-0.4.0.dist-info/METADATA,sha256=ag4DEuOpIV6jBLNKxCBQao9nPiY_5QxqofPqDPgcXyo,8517
+discuit-0.4.0.dist-info/NOTICE,sha256=r1z-cKLRStz8sCwDy0QYdLdyLIkC0QcBdpwIPa7nQ-o,68
+discuit-0.4.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+discuit-0.4.0.dist-info/entry_points.txt,sha256=e0KWa5VeaBcC1Xbw2EIfTeKaLvNygaFsm6_AuOqJOoM,54
+discuit-0.4.0.dist-info/top_level.txt,sha256=XYDCJucw-CbvoLrk8hxBqi4NZ_SmQglZ8jqIwJcgG-U,14
+discuit-0.4.0.dist-info/RECORD,,
