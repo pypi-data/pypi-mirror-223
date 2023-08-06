@@ -1,0 +1,10 @@
+chatgpt_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_cli/arguement_validator.py,sha256=UlL5UK8vS1D5UtAcfoTs5pP5rjriiiMCSh6ifNOiYC4,7541
+chatgpt_cli/code_parser.py,sha256=iorH8ZD2gNgfgndfMbJZ5ioHmQNKfoW_ijs9zcR6FFY,11011
+chatgpt_cli/gpt_request.py,sha256=ZjJYNO5bTZPYN9tTu-4q3HZxsIvg-ZW6zkL7raj77sQ,6467
+chatgpt_cli/main.py,sha256=dfloBvmM7Ii0sKbB5TB3BpR48cggdzJeELnrdz4K8pY,1061
+gpt_code_edit-1.0.1.dist-info/METADATA,sha256=8mXtNTfsUI6hJYKHW5czXcu-cUoGlmPRBzT0ToNqZBY,5484
+gpt_code_edit-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+gpt_code_edit-1.0.1.dist-info/entry_points.txt,sha256=COqNcpm2KCJBmfUvdU6DbqE0ah_WysoDg49NpKQcxJw,46
+gpt_code_edit-1.0.1.dist-info/top_level.txt,sha256=0y5uFcJXZ49SCwoFIGWQm_JI5_rbbh7KvxhAD5aGql8,12
+gpt_code_edit-1.0.1.dist-info/RECORD,,
