@@ -1,0 +1,10 @@
+<div class="mb-3 d-flex flex-column">
+    <div class="my-3 text-secondary">The selected activity requires you to visit another web page in this website.</div>
+    <div>Click the button below to open the requested page in a new browser tab or window.</div>
+    <div class="mb-1">To return to this page, switch back to this browser tab, or close the newly opened page.</div>
+
+    {% with block.value.specific as related_page %}
+    <a href="{{ related_page.url }}" target="_blank"
+        class="btn btn-primary">{{ related_page.title }}</a>
+    {% endwith %}
+</div>

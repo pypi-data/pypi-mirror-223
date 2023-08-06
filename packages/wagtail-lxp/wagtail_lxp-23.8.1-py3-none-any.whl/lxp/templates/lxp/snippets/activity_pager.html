@@ -1,0 +1,36 @@
+{% load gravatar wagtailcore_tags static bootstrap_icons %}
+        <nav aria-label="Course pagination">
+          <ul class="pagination">
+
+          {% if first_activity %}
+            <li class="page-item"><a class="page-link" href="{% pageurl first_activity %}">Start</a></li>
+          {% endif %}
+
+          {% if previous_activity %}
+            <li class="page-item"><a class="page-link" href="{% pageurl previous_activity %}">
+                Prev<span class="d-none d-md-inline">: </span>
+            <span class="d-none d-md-inline fw-bold">{{ previous_activity.title|truncatechars:30 }}</span>
+            </a></li>
+          {% endif %}
+
+            <li class="page-item active">
+              <span class="page-link">
+                {{ self.activity_number }}
+                <span class="visually-hidden">(current)</span>
+              </span>
+            </li>
+
+          {% if next_activity %}
+            <li class="page-item"><a class="page-link" href="{% pageurl next_activity %}">
+                Next<span class="d-none d-md-inline">: </span>
+            <span class="d-none d-md-inline fw-bold">{{ next_activity.title|truncatechars:30 }}</span>
+
+            </a></li>
+          {% endif %}
+
+          {% if last_activity %}
+            <li class="page-item"><a class="page-link" href="{% pageurl last_activity %}">Last</a></li>
+          {% endif %}
+
+          </ul>
+        </nav>

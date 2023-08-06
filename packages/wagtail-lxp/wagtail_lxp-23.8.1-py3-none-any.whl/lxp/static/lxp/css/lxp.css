@@ -1,0 +1,47 @@
+.stepper .line {
+  width: 2px;
+  background-color: lightgrey !important;
+}
+.stepper .lead {
+  font-size: 1.1rem;
+}
+
+.link{
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease;
+}
+.link:hover{ color: hsl(0, 61%, 48%); }
+.link span:before,
+.link span:after{
+    content: '';
+    background: linear-gradient(#fff ,rgba(0,0,0,0.3));
+    height: 15px;
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease 0s;
+}
+.link span:before,
+.link span:after{
+    background: linear-gradient(to right,#fff ,rgba(0,0,0,0.3));
+    height: 100%;
+    width: 15px;
+    top: 0;
+    left: 0;
+}
+.link span:after{
+    transform: rotate(180deg);
+    left: auto;
+    right: 0;
+}
+.link:hover span:before,
+.link:hover span:after{
+    opacity: 1;
+}
+.link:hover span:before{ left: -18px; }
+.link:hover span:after{ right: -18px; }
+
+[v-cloak] { display: none; }

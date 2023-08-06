@@ -1,0 +1,105 @@
+{% load gravatar wagtailcore_tags wagtailsettings_tags static bootstrap_icons %}
+
+<!-- Sidenav -->
+<nav
+  id="lxp-sidenav"
+  class="sidenav offcanvas offcanvas-start"
+  data-mdb-width="300"
+  data-mdb-color="secondary"
+  data-mdb-mode="over"
+  data-mdb-content="#lxp-content"
+>
+  <div class="my-2 text-center">
+  <script>
+
+  </script>
+  <div class="btn-group" role="group" aria-label="Side Nav Mode">
+      {# only mdbootstrap currently offers two layout modes (side/over) #}
+      {% if settings.cjkcms.LayoutSettings.frontend_theme == 'mdb.light' or settings.cjkcms.LayoutSettings.frontend_theme == 'mdb.dark' %}
+      <button id="mode-side" class="btn btn-small btn-primary"
+        onclick="setMode('side')">
+      {% bs_icon 'layout-text-sidebar-reverse' %}</button>
+      {% endif %}
+      <button id="mode-over" class="btn btn-small btn-primary active"
+        onclick="setMode('over')">
+      {% bs_icon 'layout-sidebar' %}</button>
+
+      <button id="mode-hidden" class="btn btn-small btn-primary"
+        onclick="setMode('hidden')">
+      {% bs_icon 'x-square-fill' %}</button>
+  </div>
+    <div id="header-content" class="ps-3 offcanvas-header">
+    {% if request.user.is_authenticated %}
+      <img
+        src="{% gravatar_url request.user.email 50 %}"
+        alt="Avatar"
+        class="rounded-circle img-fluid mb-3"
+        style="max-width: 50px;"
+      />
+    {% endif %}
+      <h4>
+        {% if request.user.is_authenticated %}
+          {% if request.user.first_name %}
+            {{ request.user.first_name }} {{ request.user.last_name }}
+          {% else %}
+            {{ request.user.username }}
+          {% endif %}
+        {% else %}
+            Guest
+        {% endif %}
+      </h4>
+      <div>
+        {% if request.user.is_authenticated %}
+          {{ request.user.email }}
+        {% else %}
+          Sign in for full access
+        {% endif %}
+      </div>
+    </div>
+    <hr class="mb-0" />
+  </div>
+  <div class="offcanvas-body">
+    <ul class="sidenav-menu nav" id="scroll-container">
+    {% for module in modules %}
+      {% with forloop.counter as module_counter %}
+      <li class="sidenav-item nav-item show">
+        <a class="sidenav-link nav-link" style="padding: 1rem 0.5rem;">
+            <span class="fw-light">{{ module_counter }}.&nbsp;</span>
+            <span class="fw-bold">{{ module.title|truncatechars:33 }}</span></a>
+        <ul class="sidenav-collapse nav nav-pills">
+        {% for m_activity in module.activities %}
+          {% get_ua activity_id=m_activity.id user_id=user.id as user_activity %}
+          <li class="sidenav-item nav-item">
+            <a class="sidenav-link nav-link" style="padding-left: 1rem;" href="{% pageurl m_activity %}">
+                <span class="text-center px-1
+                {% if user_activity.visits >= 0 %}
+                bg-primary text-white
+                {% else %}
+                bg-blue-gray-50 text-primary
+                {% endif %}
+                mb-1" style="min-width: 28px;">
+                  {{ module_counter }}.{{ forloop.counter }}
+                </span>
+                {% if user_activity.completed %}
+                    {% bs_icon 'check-square-fill' color='green' size='0.85rem' extra_classes='bi-valign-middle ms-1' %}
+                {% endif %}
+
+                <img
+                    src="{% static 'lxp/images/activity-icons/'|add:activity.icon %}"
+                    class="mb-1 mx-1" alt="{{ m_activity.title }}">
+                {{ m_activity.title|truncatechars:34 }}
+            </a>
+          </li>
+          {% endfor m_activity %}
+        </ul>
+      </li>
+    {% endwith %}
+    {% endfor %}
+    </ul>
+  </div>
+  <div class="text-center" style="height: 100px;">
+    <hr class="mb-4 mt-0" />
+    <p>HarmReduction.eu</p>
+  </div>
+</nav>
+<!-- Sidenav -->

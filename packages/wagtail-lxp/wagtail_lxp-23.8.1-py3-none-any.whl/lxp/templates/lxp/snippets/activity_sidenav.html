@@ -1,0 +1,86 @@
+{% load bootstrap_icons gravatar wagtailcore_tags wagtailsettings_tags static %}
+<div id="sidenav-pd">
+    <header class="header" id="header">
+        <div class="header_toggle">
+            <div id="header-toggle" class="px-1 opacity-75">
+                <span class="hide-open d-none">{% bs_icon 'x-square-fill' size='1.5rem' extra_classes='text-black'%}</span>
+                <span class="hide-open">{% bs_icon 'layout-sidebar-inset' size='1.5rem' extra_classes='text-black'%}</span>
+            </div>
+        </div>
+    </header>
+    <div class="l-navbar " id="nav-bar">
+        <nav class="nav">
+            <div>
+                <div class="nav_list">
+                {% for module in modules %}
+                  {% with forloop.counter as module_counter %}
+                    <div style="font-size: 0.9rem;" class="d-flex text-start module-entry opacity-75">
+                    <span class="fw-bold flex-grow-1 ps-1">{{ module_counter }}.&nbsp;</span>
+                    <span class="fw-bold hide-open-md d-none flex-grow-1 ps-1 ">{{ module.title|truncatechars:33 }}</span></a>
+                    </div>
+                    {% for m_activity in module.activities %}
+                      {% get_ua activity_id=m_activity.id user_id=user.id as user_activity %}
+                        <a class="d-flex nav-link opacity-75 mb-1
+                        {% if m_activity == activity %}
+                            active bg-primary text-white
+                        {% elif user_activity.visits >= 0 %}
+                            {% if user_activity.completed %}
+                            completed
+                            {% else %}
+                            visited
+                            {% endif %}
+                        {% else %}
+                        not-visited
+                        {% endif %}
+                        "
+                            style="padding: 1px 0 1px 0; font-size: 0.85rem;" 
+                            href="{% pageurl m_activity %}">
+                            <span class="" style="min-width: 64px; display: inline-block; height: 1.2rem; max-height:1.2rem;">
+                              <span style="min-width:28px; padding-left:3px; display: inline-block;">
+                                {{ module_counter }}.{{ forloop.counter }}
+                              </span>  
+                              <img
+                              src="{% static 'lxp/images/activity-icons/'|add:m_activity.icon %}"
+                              class="" alt="{{ m_activity.title }}" style="margin-bottom:3px;">
+                              {% if user_activity.completed %}
+                              {% bs_icon 'check-square-fill' color='black' size='12px' extra_classes='bi-valign-middle mb-1' %}
+                              {% else %}
+                                <span style="display: inline-block; width:12px; height:12px; background:none"></span>
+                              {% endif %}      
+                            </span>
+                            <span class="hide-open-md d-none flex-grow-1">{{ m_activity.title|truncatechars:30 }}</span>
+                        </a>
+                      {% endfor m_activity %}
+                      {% for m_quiz in module.quizzes %}
+                      {% get_qa_stats quiz_id=m_quiz.id user_id=user.id as qa_stats %}
+                        <a class="d-flex nav-link opacity-75 mb-1
+                        {% if m_quiz == quiz %}
+                            active bg-primary text-white
+                        {% else %}
+                        not-visited
+                        {% endif %}
+                        "
+                            style="padding: 1px 0 1px 0; font-size: 0.85rem;" 
+                            href="{% pageurl m_quiz %}">
+                            <span class="" style="min-width: 64px; display: inline-block; height: 1.2rem; max-height:1.2rem;">
+                              <span style="min-width:28px; padding-left:3px; display: inline-block;">
+                                {{ module_counter }}.{{ forloop.counter }}
+                              </span>  
+                              <img
+                              src="{% static 'lxp/images/activity-icons/quiz_gift.svg' %}"
+                              class="" alt="{{ m_quiz.title }}" style="margin-bottom:3px; width: 16px; height:16px;">
+                              {% if qa_stats.max >= m_quiz.score_to_complete %}
+                                {% bs_icon 'check-square-fill' color='black' size='12px' extra_classes='bi-valign-middle mb-1' %}
+                              {% else %}
+                                <span style="display: inline-block; width:12px; height:12px; background:none"></span>
+                              {% endif %}      
+                            </span>
+                            <span class="hide-open-md d-none flex-grow-1">{{ m_quiz.title|truncatechars:30 }}</span>
+                        </a>
+                      {% endfor m_quiz %}
+                {% endwith %}
+                {% endfor %}
+                </div>
+        </nav>
+    </div>
+</div>

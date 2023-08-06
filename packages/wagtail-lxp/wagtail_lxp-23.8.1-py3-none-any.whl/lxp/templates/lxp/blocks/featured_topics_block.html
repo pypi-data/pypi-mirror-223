@@ -1,0 +1,38 @@
+{% load static wagtailcore_tags wagtailimages_tags wagtailroutablepage_tags txtutils_tags  %}
+
+<h2 class="d-flex justify-content-center">{{ self.name }}</h2>
+
+{% if self.summary %}
+<div class="richtext">{{ self.summary | richtext }}</div>
+{% endif %}
+
+<div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+    {% for topic in featured %}
+    <div class="col link">
+        <span class="card h-100">
+            {% if topic.topic_image %}
+                {% image topic.topic_image original as img %}
+                <img src="{{ img.url }}" alt="{{ topic.name }}" class="card-img-top px-5 pt-5 pb-2">
+            {% else %}
+                {% captureas defaultimg %}lxp/tracks/track0{{forloop.counter}}.png{% endcaptureas %}
+                <img src="{% static defaultimg %}" alt="{{ topic.name }}" class="card-img-top px-5 pt-5 pb-2">
+            {% endif %}
+            <div class="card-body">
+                <h4 style="min-height: 75px;"
+                    class="text-center fw-bold text-white bg-secondary rounded shadow p-1">{{ topic.name }}</h4>
+                <p class="description">{{ topic.summary | richtext }}</p>
+                <a  class="btn btn-outline-primary stretched-link"
+                    {% if topic.coursepage_set.all.count == 1 %}
+                        href="{% pageurl topic.coursepage_set.first %}"
+                    {% else %}
+                        href="{% routablepageurl academy_page 'course_by_topic' topic.slug %}"
+                    {% endif %}
+                    >
+                    See more...
+                </a>
+            </div>
+        </span>
+
+    </div>
+    {% endfor %}
+</div>
