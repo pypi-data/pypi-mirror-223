@@ -1,0 +1,8 @@
+setup.py
+libname/__init__.py
+libname/t_val.py
+t_val.egg-info/PKG-INFO
+t_val.egg-info/SOURCES.txt
+t_val.egg-info/dependency_links.txt
+t_val.egg-info/requires.txt
+t_val.egg-info/top_level.txt
