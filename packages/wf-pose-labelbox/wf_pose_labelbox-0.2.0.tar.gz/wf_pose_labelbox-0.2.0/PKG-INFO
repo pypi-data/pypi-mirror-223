@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: wf-pose-labelbox
+Version: 0.2.0
+Summary: Tools for creating Labelbox projects involving 2D and 3D pose data
+Home-page: https://github.com/WildflowerSchools/wf-pose-labelbox
+License: MIT
+Author: Theodore Quinn
+Author-email: ted.quinn@wildflowerschools.org
+Maintainer: Theodore Quinn
+Maintainer-email: ted.quinn@wildflowerschools.org
+Requires-Python: >=3.9,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ffmpeg-python (>=0.2.0)
+Requires-Dist: labelbox (>=3.49.1)
+Requires-Dist: pandas (>=2.0)
+Requires-Dist: python-slugify (>=8.0.1)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tqdm (>=4.65.0)
+Requires-Dist: wf-cv-utils (>=3.6.0)
+Requires-Dist: wf-honeycomb-io (>=2.1.1)
+Requires-Dist: wf-video-io (>=3.4.2)
+Project-URL: Repository, https://github.com/WildflowerSchools/wf-pose-labelbox
+Description-Content-Type: text/markdown
+
+# pose_labelbox
+
+Tools for creating Labelbox projects involving 2D and 3D pose data
+
+## Installation
+
+`pip install wf-pose-labelbox`
+
+## Development
+
+### Requirements
+
+* [Poetry](https://python-poetry.org/)
+* [just](https://github.com/casey/just)
+
+### Install
+
+`poetry install`
+
+
+#### Install w/ Python Version from PyEnv
+
+```
+# Specify pyenv python version
+pyenv shell --unset
+pyenv local <<VERSION>>
+
+# Set poetry python to pyenv version
+poetry env use $(pyenv which python)
+poetry cache clear . --all
+poetry install
+```
+
+## Task list
+* TBD
+

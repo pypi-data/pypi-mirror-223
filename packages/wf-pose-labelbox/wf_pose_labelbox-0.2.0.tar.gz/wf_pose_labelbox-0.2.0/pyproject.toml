@@ -1,0 +1,49 @@
+[project]
+name = "wf-pose-labelbox"
+dynamic = ["version"]
+
+[tool.poetry]
+name = "wf-pose-labelbox"
+version = "0.2.0"
+description = "Tools for creating Labelbox projects involving 2D and 3D pose data"
+authors = ["Theodore Quinn <ted.quinn@wildflowerschools.org>"]
+maintainers = ["Theodore Quinn <ted.quinn@wildflowerschools.org>"]
+readme = "README.md"
+keywords = []
+repository = "https://github.com/WildflowerSchools/wf-pose-labelbox"
+license = "MIT"
+packages = [{include = "pose_labelbox"}]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+toml = "^0.10.2"
+wf-video-io = ">=3.4.2"
+wf-honeycomb-io = ">=2.1.1"
+wf-cv-utils = ">=3.6.0"
+pandas = ">=2.0"
+ffmpeg-python = ">=0.2.0"
+labelbox = ">=3.49.1"
+python-slugify = ">=8.0.1"
+tqdm = ">=4.65.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+pylint = "^2.15.0"
+pytest = "^7.2.0"
+
+[tool.black]
+line-length = 120
+target-version = ['py39']
+
+[tool.setuptools]
+py-modules = []
+
+[build-system]
+requires = ["poetry-core", "setuptools"]
+build-backend = "poetry.core.masonry.api"
