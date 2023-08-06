@@ -1,0 +1,43 @@
+{% load wagtailcore_tags wagtailimages_tags static lxp_extras %}
+
+{% user_can_see course user 'SECURITY_COURSE' as can_see_course %}
+{% if can_see_course %}
+    <div class="card mb-3 bg-blue-gray-50">
+      <div class="row g-0">
+
+        <div class="col-md-{{img_w|default:3}} rounded-start"
+         {% if course.cover_image %}
+            {% image course.cover_image original as img %}
+            style="background-image: url('{{ img.url }}'); background-size: cover; background-position: center"
+         {% else %}
+            style="background-image: url({% static 'lxp/courses/course01.jpg' %});  background-size: cover;"
+         {% endif %}
+        >
+    <!--      <img src="{{ img.url }}" alt="{{ course.title }}" class="img-fluid">-->
+        </div>
+        <div class="col-md-{{des_w|default:9}}">
+          <div class="card-body">
+            <h2 class="card-title">{{ course.title }}</h2>
+            <p class="card-text">
+            {% if course.description and use_description %}
+                {{ course.description | richtext }}
+            {% elif course.summary %}
+                {{ course.summary | richtext }}
+            {% endif %}
+            </p>
+            {% if page == course %}
+              <p class="card-text border-top px-1 d-flex flex-grow-1">
+                <small class="text-muted">
+                {{ modules | length }} modules with {{ activities_count }} activities</small>
+              </p>
+            {% else %} {# show link to course page if showing elsewhere #}
+            <a  class="btn btn-outline-primary stretched-link"
+                href="{% pageurl course %}">
+                See more...
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+{% endif %}

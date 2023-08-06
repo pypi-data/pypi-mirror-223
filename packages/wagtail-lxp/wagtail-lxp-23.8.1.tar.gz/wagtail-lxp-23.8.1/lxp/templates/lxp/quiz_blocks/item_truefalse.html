@@ -1,0 +1,24 @@
+{% load wagtailcore_tags %}
+
+{% with block.value as item %}
+    
+<div class="d-flex flex-col border-bottom pt-2 pb-4 my-2">
+    <h2 style="width:2.5rem;">{{ block.index }}.</h2>
+    <div>
+        <div>{{ item.question_text | richtext }}</div>
+        <div class="d-flex flex-col gap-2"
+            :ref="setItemRef('{{ block.id }}')"
+        >
+            {% for answer_code, answer_label in tf_answers.items %}
+            <button class="btn btn-outline-dark"
+                    :class="{ 'btn-dark text-light': answers['{{ block.id }}'] == {{ answer_code }} }"
+                    @click="selectAnswer('{{ block.id }}', {{ answer_code }})"
+                    :itemref="'{{ block.id }}'"
+            >{{ answer_label }}</button>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% endwith %}

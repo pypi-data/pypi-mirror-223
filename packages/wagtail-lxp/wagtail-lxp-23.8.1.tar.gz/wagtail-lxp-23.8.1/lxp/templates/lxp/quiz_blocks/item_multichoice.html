@@ -1,0 +1,26 @@
+{% load wagtailcore_tags %}
+
+{% with block.value as item %}
+
+<div class="d-flex flex-col border-bottom py-2 my-2">
+    <h2 style="width:2.5rem;">{{ block.index }}.</h2>
+    <div>
+        <div>{{ item.question_text | richtext }}</div>
+        <div
+            :ref="setItemRef('{{ block.id }}')"
+        >
+            {% for answer in item.answers %}
+            <div class="d-flex flex-col gap-2 my-2">
+                <button class="btn px-3"
+                    :class="[(answers['{{ block.id }}'] === {{ forloop.counter }}) ? 'btn-dark' : 'btn-outline-dark']"
+                    @click="selectAnswer('{{ block.id }}', {{ forloop.counter }})"
+                    :itemref="'{{ block.id }}'"
+                >{{ forloop.counter | num2uc }}</button>
+                <div class="mt-2">{{ answer.text | richtext }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% endwith %}

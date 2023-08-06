@@ -1,0 +1,11 @@
+<div class="mb-3 d-flex flex-column">
+    <div class="my-3 text-secondary">The selected activity requires you to open a PDF document from an external website.</div>
+
+    <div>Click the button below to open the requested document in a new browser tab or window.</div>
+    <div class="mb-1">To return to this page, switch back to this browser tab, or close the newly opened page.</div>
+
+    {% with block.value as related_page %}
+    <a href="{{ related_page }}" target="_blank"
+        class="btn btn-primary">Open "{{ page.title }}"</a>
+    {% endwith %}
+</div>

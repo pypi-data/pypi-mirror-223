@@ -1,0 +1,15 @@
+{% load static wagtailcore_tags wagtailimages_tags wagtailroutablepage_tags txtutils_tags  %}
+
+<h6 class="text-dark">{{ self.heading }}</h6>
+<h2 class="text-secondary">{{ self.title }}</h2>
+
+{% if self.description %}
+<div class="richtext">{{ self.description | richtext }}</div>
+{% endif %}
+
+{% for c in self.courses %}
+    {% with c.value as course %}
+    {# first permission is for course visibility, 2nd for list visibility #}
+        {% include 'lxp/snippets/course_summary_block.html' with img_w=4 des_w=8 %}
+    {% endwith %}
+{% endfor %}

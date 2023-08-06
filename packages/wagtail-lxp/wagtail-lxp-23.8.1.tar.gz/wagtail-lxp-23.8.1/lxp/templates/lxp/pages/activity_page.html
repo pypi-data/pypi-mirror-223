@@ -1,0 +1,87 @@
+{% extends 'cjkcms/pages/web_page.html' %}
+{% load static wagtailcore_tags wagtailimages_tags bootstrap_icons %}
+{% block content_body %}
+
+<div class="container" id="lxp-content">
+
+{% user_can_see course_page user 'SECURITY_CONTENTS' as can_see_contents %}
+{% if can_see_contents %}
+
+    <nav class="d-flex">
+        {% include 'lxp/snippets/activity_pager.html' %}
+    </nav>
+
+    {% include 'lxp/snippets/activity_sidenav.html' %}
+
+
+    {% if activity.summary %}
+    <div>{{ activity.summary | richtext }}</div>
+    <hr />
+    {% endif %}
+
+    {% with blocks=self.content %}
+
+        {% for block in blocks %}
+            {% with 'lxp/activity_blocks/'|add:block.block_type|add:'.html' as template %}
+            {% include template %}
+            {% endwith %}
+        {% endfor %}
+
+    {% endwith %}
+
+    {% if activity.related_links.all %}
+        <div class="border-top my-1">
+          <span class="mx-2 small">Related links:</span>
+          {% for link in activity.related_links.all %}
+          <ul class="mx-2 small">
+              <li><a href="{{ link.url }}" target="_blank" class="link-dark">{{ link.name }}</a></li>
+          </ul>
+          {% endfor %}
+        </div>
+    {% endif %}
+
+    <div class="border-top my-1">
+      <span class="mx-2 small">Published: {{ activity.publication_year }}</span>
+      {% if activity.related_authors %}
+      {% for author in activity.related_authors.all %}
+      <span class="mx-2 small">By:
+        {{ author.name }}
+        {% if author.country %} ({{ author.country }}) {% endif %}
+        {% if author.affiliation %}, {{ author.affiliation }} {% endif %}
+      </span>
+      {% endfor %}
+      {% endif %}
+    </div>
+    <div class="d-flex mt-2 mb-5 gap-2">
+        {% if user.is_authenticated %}
+        <div id="activity_completed_switch" activity_id="{{ activity.id }}"
+             activity_completed="{{ user_activity.completed }}"
+             activity_visits="{{ user_activity.visits }}"
+        >
+            <button class="btn btn-sm"
+                    :class="activity_completed ? 'btn-success' : 'btn-warning'"
+                    v-text="completion_status"
+                    v-on:click="reverseStatus"
+            ></button>
+        </div>
+        {% endif %}
+        <a href="{{ page.get_parent.get_parent.url }}" class="btn btn-dark btn-sm">Return to Course Index</a>
+    </div>
+{% else %}
+ <h3>You do not have permissions to see this content. Please sign in.</h3>
+{% endif %}
+</div>
+{% endblock content_body %}
+
+{% block custom_assets %}
+<link rel="stylesheet" href="{% static 'lxp/css/lxp.css' %}" />
+<link rel="stylesheet" href="{% static 'lxp/css/sidenav.css' %}" />
+{% endblock custom_assets %}
+
+{% block custom_scripts %}
+<script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
+<script src="https://unpkg.com/axios@0.26.1/dist/axios.min.js"></script>
+
+<script src="{% static 'lxp/js/activity_page.js' %}"></script>
+<!-- https://unpkg.com/browse/vue@3.0.11/dist/vue.global.prod.js -->
+{% endblock custom_scripts %}

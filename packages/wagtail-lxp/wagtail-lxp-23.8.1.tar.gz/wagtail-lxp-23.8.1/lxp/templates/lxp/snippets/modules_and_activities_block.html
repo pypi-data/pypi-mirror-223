@@ -1,0 +1,133 @@
+{% load wagtailcore_tags static bootstrap_icons %}
+
+<div class="accordion" id="CourseActivitiesAccordion">
+{% for module in modules %}
+{% with forloop.counter as module_counter %}
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="moduleHeading-{{ module_counter }}">
+      <button class="accordion-button" type="button"
+              data-mdb-toggle="collapse" data-mdb-target="#moduleBody-{{ module_counter }}"
+              aria-expanded="true" aria-controls="moduleBody-{{ module_counter }}">
+        {{ module.title }}
+      </button>
+    </h2>
+    <div id="moduleBody-{{ module_counter }}" class="accordion-collapse collapse show"
+         aria-labelledby="moduleHeading-{{ module_counter }}">
+      <div class="accordion-body">
+        <div class="small">
+          {{ module.summary | richtext }}
+        </div>
+        <div class="stepper d-flex flex-column mt-2 ml-2">
+
+        {% for activity in module.activities %}
+          {% get_ua activity_id=activity.id user_id=user.id as user_activity %}
+            <div class="link position-relative">
+              <span class="d-flex mb-1" >
+              <div class="d-flex flex-column pr-4 mr-4 align-items-center">
+                <div class="rounded-circle py-2 px-3
+                {% if user_activity.visits >= 0 %}
+                bg-primary text-white
+                {% else %}
+                bg-outline-primary text-primary border border-primary
+                {% endif %}
+                mb-1">
+                  {{ module_counter }}.{{ forloop.counter }}
+                </div>
+                <div class="line h-100"></div>
+              </div>
+              <div class="mx-3 d-flex flex-column flex-grow-1">
+                <h4 class="text-dark fs-5 mt-1 border-bottom">
+
+                    {% if user_activity.completed %}
+                        {% bs_icon 'check-square-fill' color='green' size='1rem' extra_classes='bi-valign-middle mb-1' %}
+                    {% endif %}
+
+                    <img
+                        src="{% static 'lxp/images/activity-icons/'|add:activity.icon %}"
+                        class="mb-1" alt="{{ activity.title }}">
+
+                    {{ activity.title }}
+                </h4>
+                <div class="lead text-muted pb-3">
+                  {{ activity.summary | richtext }}
+                  <a class="fw-bold p-1 rounded border border-primary stretched-link hover-shadow text-decoration-none"
+                      href="{% pageurl activity %}">
+                      See more...
+                  </a>
+                  <span class="mx-2 small">Published: {{ activity.publication_year }}</span>
+                  {% if activity.formatted_length %}
+                  <span class="mx-2 small">Length: {{ activity.formatted_length }}</span>
+                  {% endif %}
+                  {% if activity.related_authors %}
+                  {% for author in activity.related_authors.all %}
+                  <span class="mx-2 small">By:
+                    {{ author.name }}
+                    {% if author.country %} ({{ author.country }}) {% endif %}
+                    {% if author.affiliation %}, {{ author.affiliation }} {% endif %}
+                  </span>
+                  {% endfor %}
+                  {% endif %}
+                </div>
+              </div>
+              </span>
+            </div>
+        {% endfor activity %}
+
+        {% for quiz in module.quizzes %}
+          {% get_qa_stats quiz_id=quiz.id user_id=user.id as qa_stats %}
+            <div class="link" style="transform: rotate(0);">
+              <span class="d-flex mb-1" >
+              <div class="d-flex flex-column pr-4 mr-4 align-items-center">
+                <div class="rounded-circle py-2 px-2
+                {% if user_activity.visits >= 0 %}
+                bg-primary text-white
+                {% else %}
+                bg-light text-primary border border-primary
+                {% endif %}
+                mb-1">
+                  Q.{{ module_counter }}.{{ forloop.counter }}
+                </div>
+                <div class="line h-100"></div>
+              </div>
+              <div class="mx-3 d-flex flex-column flex-grow-1">
+                <h4 class="text-dark fs-5 mt-1 border-bottom">
+
+                    {% if qa_stats.max >= quiz.score_to_complete %}
+                      {% bs_icon 'check-square-fill' color='green' size='1rem' extra_classes='bi-valign-middle mb-1' %}
+                    {% endif %}
+
+                    <i class="fs-5 bi bi-ui-checks-grid align-top text-secondary"></i>
+
+                    {{ quiz.title }}
+                </h4>
+                <div class="lead text-muted pb-3">
+                  {{ quiz.summary | richtext }}
+                  <a  class="fw-bold p-1 rounded border border-primary stretched-link hover-shadow text-decoration-none"
+                      href="{% pageurl quiz %}">
+                      Attempt quiz...
+                  </a>
+                  {% if user.is_authenticated %}
+                  <span class="mx-2 small">Attempts: {{ qa_stats.count }}</span>
+                  <span class="mx-2 small">Attempts left:
+                    {% if quiz.attempts_allowed > 99999 %}
+                      unlimited
+                    {% else %}
+                      {{ quiz.attempts_allowed|subtract:qa_stats.count }}
+                    {% endif %}
+                  </span>
+                  <span class="mx-2 small">Best result: {{ qa_stats.max }}{% if qa_stats.max > 0 %}%{% endif %}</span>
+                  {% endif %}
+                </div>
+              </div>
+              </span>
+            </div>
+        {% endfor quiz %}
+
+        </div>
+    </div>
+  </div>
+</div>
+{% endwith %}
+{% endfor %}
+</div>

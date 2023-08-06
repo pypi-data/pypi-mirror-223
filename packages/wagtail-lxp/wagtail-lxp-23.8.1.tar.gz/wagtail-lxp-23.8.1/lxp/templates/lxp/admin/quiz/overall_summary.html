@@ -1,0 +1,185 @@
+{% extends "wagtailadmin/base.html" %}
+{% block titletag %}{{ current_year }} Report{% endblock %}
+
+{% block extra_css %}
+    {{ block.super }}
+    <style>
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+{% endblock %}
+
+{ block extra_}
+
+{% block content %}
+    {% include "wagtailadmin/shared/header.html" with title="Quiz report" icon="tick" %}
+
+    <div class="nice-padding">
+        <h1>Summary for Quiz {{ quiz.title }} ({{ pk }})</h1>
+    </div>
+    <div class="nice-padding">
+        <div>
+            <h2>Distribution of total scores - all attempts</h2>
+            <script>
+                let labels_scores_all = [];
+                let dataset_scores_all = [];
+            </script>
+            {% for score in score_bins_all %}
+                <!-- span class="badge badge-secondary">{{ forloop.counter0 }}{% if forloop.counter0 > 0 %}0{% endif %}% - {{ forloop.counter }}0% : {{ score }}</span -->
+                <script>
+                    labels_scores_all.push("{{ forloop.counter0 }}{% if forloop.counter0 > 0 %}0{% endif %}% - {{ forloop.counter }}0%");
+                    dataset_scores_all.push({{ score }});
+                </script>
+            {% endfor %}
+        </div>
+            <div class="nice-padding">
+                <canvas id="chart_scores_all" width="600" height="200"></canvas>
+            </div>
+            <script>
+                let data_scores_all = {
+                  labels: labels_scores_all,
+                  datasets: [{
+                    label: 'Distribution of total scores - all attempts',
+                    backgroundColor: [
+                    'rgba(75, 192, 192, 0.2)',
+                    ],
+                    borderColor: [
+                    'rgb(75, 192, 192)',
+                    ],
+                    borderWidth: 1,
+                    data: dataset_scores_all,
+                  }]
+                };
+
+                let config_scores_all = {
+                  type: 'bar',
+                  data: data_scores_all,
+                  options: {
+                    {#indexAxis: 'y',#}
+                  }
+                };
+
+                let myChart_scores_all = new Chart(
+                    document.getElementById('chart_scores_all'),
+                    config_scores_all
+                  );
+            </script>
+        <div>
+            <h2>Distribution of total scores - best attempts</h2>
+            <script>
+                let labels_scores_best = [];
+                let dataset_scores_best = [];
+            </script>
+            {% for score in score_bins_best %}
+                <!-- span class="badge badge-secondary">{{ forloop.counter0 }}{% if forloop.counter0 > 0 %}0{% endif %}% - {{ forloop.counter }}0% : {{ score }}</span -->
+                <script>
+                    labels_scores_best.push("{{ forloop.counter0 }}{% if forloop.counter0 > 0 %}0{% endif %}% - {{ forloop.counter }}0%");
+                    dataset_scores_best.push({{ score }});
+                </script>
+            {% endfor %}
+        </div>
+                <div class="nice-padding">
+                <canvas id="chart_scores_best" width="600" height="200"></canvas>
+            </div>
+            <script>
+                let data_scores_best = {
+                  labels: labels_scores_best,
+                  datasets: [{
+                    label: 'Distribution of total scores - best attempts',
+                    backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    ],
+                    borderColor: [
+                    'rgb(255, 99, 132)',
+                    ],
+                    borderWidth: 1,
+                    data: dataset_scores_best,
+                  }]
+                };
+
+                let config_scores_best = {
+                  type: 'bar',
+                  data: data_scores_best,
+                  options: {
+                    {#indexAxis: 'y',#}
+                  }
+                };
+
+                let myChart_scores_best = new Chart(
+                    document.getElementById('chart_scores_best'),
+                    config_scores_best
+                  );
+            </script>
+        <div>
+
+    </div>
+    <div class="nice-padding">
+        <h1>Summaries for individual items</h1>
+    </div>
+    {% for item in quiz.content %}
+    {% if item.block_type in "item_multichoice,item_truefalse" %}
+    <div class="nice-padding" id="item_{{item.id}}">
+        <h2>{{ item.value.question_text }} </h2>
+        <div>
+            <script>
+                let labels_{{forloop.counter}} = [];
+                let dataset_{{forloop.counter}} = [];
+            </script>
+            <div class="nice-padding">
+                {% for answer in item.value.answers %}
+                {% get_2d_item dictio=answer_counts key1=item.id key2=forloop.counter as answer_counter %}
+                <!-- div>{{ answer.text|striptags }} - {{ answer_counter }}</div -->
+                <script>
+                    labels_{{forloop.parentloop.counter}}.push("{{ answer.text|striptags }}");
+                    dataset_{{forloop.parentloop.counter}}.push({{ answer_counter }});
+                </script>
+                {% endfor %}        
+            </div>
+            <div class="nice-padding">
+                <canvas id="chart_{{forloop.counter}}" width="600" height="200"></canvas>
+            </div>
+            <script>
+                let data_{{forloop.counter}} = {
+                  labels: labels_{{forloop.counter}},
+                  datasets: [{
+                    label: '{{ item.value.question_text|striptags }}',
+                    backgroundColor: [
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)',
+                    'rgba(255, 205, 86, 0.2)',
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(201, 203, 207, 0.2)'
+                    ],
+                    borderColor: [
+                    'rgb(75, 192, 192)',
+                    'rgb(54, 162, 235)',
+                    'rgb(153, 102, 255)',
+                    'rgb(255, 159, 64)',
+                    'rgb(255, 205, 86)',
+                    'rgb(255, 99, 132)',
+                    'rgb(201, 203, 207)'
+                    ],
+                    borderWidth: 1,
+                    data: dataset_{{forloop.counter}},
+                  }]
+                };
+              
+                let config_{{forloop.counter}} = {
+                  type: 'bar',
+                  data: data_{{forloop.counter}},
+                  options: {
+                    indexAxis: 'y',
+                  }
+                };
+
+                let myChart_{{forloop.counter}} = new Chart(
+                    document.getElementById('chart_{{forloop.counter}}'),
+                    config_{{forloop.counter}}
+                  );
+            </script>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+{% endblock %}

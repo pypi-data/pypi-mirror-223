@@ -1,0 +1,38 @@
+{% load wagtailcore_tags %}
+
+<div class="mb-3 d-flex flex-column">
+{% with block.value as pdf %}
+    <h3>{{ pdf.document.title }}</h3>
+
+    {% if pdf.embed_mode == 'IFRAME' %}
+    <iframe id="pdf-view" style="{{ pdf.custom_style }}" src="{{ site_root }}{{ pdf.document.url }}"></iframe>
+    {% elif pdf.embed_mode == 'EMBED' %}
+        <object data="{{ site_root }}{{ pdf.document.url }}" type="application/pdf">
+        <embed src="{{ site_root }}{{ pdf.document.url }}" type="application/pdf" style="{{pdf.custom_style}}" />
+    </object>
+    {% else %}
+    <div id="adobe-dc-view" style="width: 100%;{{ pdf.custom_style }}"></div>
+    <a href="{{ pdf.document.url }}" target="_blank"
+        class="btn btn-primary my-1">Click here to open the document in new window</a>
+
+    <script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("adobe_dc_view_sdk.ready", function () {
+            var adobeDCView = new AdobeDC.View({
+                clientId: "{{ settings.cjkcms.AdobeApiSettings.adobe_embed_id }}",
+                divId: "adobe-dc-view"
+            });
+            adobeDCView.previewFile({
+                content: { location: { url: "{{ site_root }}{{ pdf.document.url }}" } },
+                metaData: { fileName: "{{ pdf.document.title }}" }
+            }, {
+                embedMode: "{{ pdf.embed_mode }}", // @todo: add selector for LIN_LINE and LIGHT_BOX mode
+                showDownloadPDF: false,
+                showPrintPDF: false
+            });
+        });
+    </script>
+    {% endif %}
+
+{% endwith %}
+</div>
