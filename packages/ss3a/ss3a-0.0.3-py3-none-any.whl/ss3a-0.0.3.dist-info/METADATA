@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ss3a
+Version: 0.0.3
+Summary: SYLKSOFT常用工具
+Home-page: https://www.sylksoft.com
+Download-URL: https://pypi.org/project/ss3a/
+Author: Ken Chen
+Author-email: ken@sylksoft.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: SQLAlchemy (~=2.0.19)
+Requires-Dist: setuptools (==68.0.0)
+
+Test
