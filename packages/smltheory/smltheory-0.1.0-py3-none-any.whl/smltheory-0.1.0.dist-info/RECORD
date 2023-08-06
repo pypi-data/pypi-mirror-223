@@ -1,0 +1,13 @@
+smltheory/__init__.py,sha256=cmEKseQiuaynGGV8lR5oVxCM7VM9DZ_CdBrgOk9M4Xk,278
+smltheory/bayes_decision.py,sha256=gDfmIsqLrnFO-yoJnJYXb_v7TcjH35FOiIn_V8jkxF4,5122
+smltheory/est_error.py,sha256=3QZUMoNDOWUKiIsDU3xVqG-nFBWUssAlOx0F8btRZBM,4012
+smltheory/generate_data.py,sha256=TQ8kb236sqi2gw8bs47NlghDCSncmae7oJRj2359dsU,12719
+smltheory/gradient_descent.py,sha256=nNONJL4AWsq0JGQTA7zIXKUFQL_r2YXEau4DHLN2AkU,9449
+smltheory/least_squares.py,sha256=cTQ1tKfpge3yYaqJX5PRBZiW6I4SGufLarWIR8LQY6k,9377
+smltheory/opt_error.py,sha256=TUYJ74-KoHbhyBRCXBhPa3rq_OGnhAnoAXDnkwgTWPg,11041
+smltheory/overfitting.py,sha256=IhO1_2R8J5U9fQnH_a4J_Do-a_Lr1i4olIzMxKQSkk8,7590
+smltheory/trun_mvnt.py,sha256=Lc1TpUM0rirEz_5FD-no29q75A4kE3BEylSReKphNVQ,15886
+smltheory-0.1.0.dist-info/LICENSE,sha256=VnucYIsGID5zPz4LjLOMJ3OZAXqFlY1Yv3TdJbKCr8U,1076
+smltheory-0.1.0.dist-info/METADATA,sha256=nEVDLlb8NREPF2IsiQU1LCGCuarMA0v1kzKNeoUCjMU,1511
+smltheory-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+smltheory-0.1.0.dist-info/RECORD,,
