@@ -1,0 +1,84 @@
+{
+  "train": [
+      [
+          "Biosignals_SS2/01-02-0018 PSG.edf",
+          "Biosignals_SS2/01-02-0018 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0019 PSG.edf",
+          "Biosignals_SS2/01-02-0019 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0004 PSG.edf",
+          "Biosignals_SS2/01-02-0004 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0017 PSG.edf",
+          "Biosignals_SS2/01-02-0017 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0007 PSG.edf",
+          "Biosignals_SS2/01-02-0007 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0016 PSG.edf",
+          "Biosignals_SS2/01-02-0016 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0010 PSG.edf",
+          "Biosignals_SS2/01-02-0010 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0013 PSG.edf",
+          "Biosignals_SS2/01-02-0013 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0011 PSG.edf",
+          "Biosignals_SS2/01-02-0011 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0014 PSG.edf",
+          "Biosignals_SS2/01-02-0014 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0003 PSG.edf",
+          "Biosignals_SS2/01-02-0003 Base.edf"
+      ]
+  ],
+  "validation": [
+      [
+          "Biosignals_SS2/01-02-0005 PSG.edf",
+          "Biosignals_SS2/01-02-0005 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0008 PSG.edf",
+          "Biosignals_SS2/01-02-0008 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0009 PSG.edf",
+          "Biosignals_SS2/01-02-0009 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0015 PSG.edf",
+          "Biosignals_SS2/01-02-0015 Base.edf"
+      ]
+  ],
+  "test": [
+      [
+          "Biosignals_SS2/01-02-0001 PSG.edf",
+          "Biosignals_SS2/01-02-0001 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0006 PSG.edf",
+          "Biosignals_SS2/01-02-0006 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0012 PSG.edf",
+          "Biosignals_SS2/01-02-0012 Base.edf"
+      ],
+      [
+          "Biosignals_SS2/01-02-0002 PSG.edf",
+          "Biosignals_SS2/01-02-0002 Base.edf"
+      ]
+  ]
+}
