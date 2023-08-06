@@ -1,0 +1,13 @@
+PyWavelets
+jax
+jaxlib
+scipy
+matplotlib
+numpy
+pytest
+nox
+pooch
+
+[jax_cpu]
+jax
+jaxlib
