@@ -1,0 +1,2 @@
+[console_scripts]
+tif-compressor = tif_compressor.main:main

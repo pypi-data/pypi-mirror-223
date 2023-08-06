@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+tif_compressor/__init__.py
+tif_compressor/main.py
+tif_compressor.egg-info/PKG-INFO
+tif_compressor.egg-info/SOURCES.txt
+tif_compressor.egg-info/dependency_links.txt
+tif_compressor.egg-info/entry_points.txt
+tif_compressor.egg-info/requires.txt
+tif_compressor.egg-info/top_level.txt
+tif_compressor/modules/__init__.py
+tif_compressor/modules/exception_handler.py
+tif_compressor/modules/pyqt_utils.py
+tif_compressor/modules/viewerGUI.py

@@ -1,0 +1,5 @@
+numpy
+fabio
+pillow
+h5py
+Cython
