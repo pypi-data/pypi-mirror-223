@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+src/Thugstools.egg-info/PKG-INFO
+src/Thugstools.egg-info/SOURCES.txt
+src/Thugstools.egg-info/dependency_links.txt
+src/Thugstools.egg-info/top_level.txt
