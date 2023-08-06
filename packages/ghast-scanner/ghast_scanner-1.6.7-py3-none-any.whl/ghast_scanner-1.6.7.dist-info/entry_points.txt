@@ -1,0 +1,2 @@
+[console_scripts]
+ghast = main:_main
