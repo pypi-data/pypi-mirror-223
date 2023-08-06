@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/event_delegate/__init__.py
+src/event_delegate.egg-info/PKG-INFO
+src/event_delegate.egg-info/SOURCES.txt
+src/event_delegate.egg-info/dependency_links.txt
+src/event_delegate.egg-info/top_level.txt
+tests/test_event.py

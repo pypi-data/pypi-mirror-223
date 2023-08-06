@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "event_delegate"
+version = "1.0.0"
+authors = [
+  { name="adorjanw", email="adorjanw@outlook.com" },
+]
+description = "An event class for python."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/adorjanw/event-delegate-python"
