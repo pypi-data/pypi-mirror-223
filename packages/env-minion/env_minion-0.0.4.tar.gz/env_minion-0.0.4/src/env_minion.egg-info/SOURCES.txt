@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/env_minion/__init__.py
+src/env_minion/hook_factory.py
+src/env_minion/pre-push.txt
+src/env_minion.egg-info/PKG-INFO
+src/env_minion.egg-info/SOURCES.txt
+src/env_minion.egg-info/dependency_links.txt
+src/env_minion.egg-info/entry_points.txt
+src/env_minion.egg-info/top_level.txt

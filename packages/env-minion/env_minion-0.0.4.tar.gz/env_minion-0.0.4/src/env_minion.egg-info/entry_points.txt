@@ -1,0 +1,2 @@
+[console_scripts]
+gru = env_minion.hook_factory:create_all_hooks
