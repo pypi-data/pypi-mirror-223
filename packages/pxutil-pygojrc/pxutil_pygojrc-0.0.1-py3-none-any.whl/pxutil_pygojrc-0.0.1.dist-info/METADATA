@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pxutil-pygojrc
+Version: 0.0.1
+Summary: A small pxutil package
+Home-page: https://github.com/pygojrc/pxutil-pygojrc
+Author: pygojrc
+Author-email: pygojrc@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# 提示一些工具
+
+
+## 翻译
+fy baidu
+
+```
+root@px ~> fy baidu
+Baidu   百度公司 http://www.baidu.com
+baidu   百度
+```
