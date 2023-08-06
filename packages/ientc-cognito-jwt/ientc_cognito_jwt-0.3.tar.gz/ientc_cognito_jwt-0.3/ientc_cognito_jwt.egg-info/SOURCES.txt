@@ -1,0 +1,8 @@
+README.md
+cognito_jwt_utils.py
+setup.py
+ientc_cognito_jwt.egg-info/PKG-INFO
+ientc_cognito_jwt.egg-info/SOURCES.txt
+ientc_cognito_jwt.egg-info/dependency_links.txt
+ientc_cognito_jwt.egg-info/requires.txt
+ientc_cognito_jwt.egg-info/top_level.txt
