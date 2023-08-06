@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flarepy
+Version: 0.3.2
+Summary: Python bindings for flare
+Home-page: https://github.com/gottingen/flare
+Author: titan-search Team
+Author-email: bohuli2048@gmial.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy (<2.0.0,>=1.6)
+
+UNKNOWN
+
+

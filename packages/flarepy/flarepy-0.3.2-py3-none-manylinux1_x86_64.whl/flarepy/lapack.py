@@ -1,0 +1,462 @@
+# Copyright 2023 Titan-search author.
+#
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+"""
+Dense Linear Algebra functions (solve, inverse, etc).
+"""
+
+from .library import *
+from .array import *
+
+def lu(A):
+    """
+    LU decomposition.
+
+    Parameters
+    ----------
+    A: fly.Array
+       A 2 dimensional flare array.
+
+    Returns
+    -------
+    (L,U,P): tuple of fly.Arrays
+           - L - Lower triangular matrix.
+           - U - Upper triangular matrix.
+           - P - Permutation array.
+
+    Note
+    ----
+
+    The original matrix `A` can be reconstructed using the outputs in the following manner.
+
+    >>> A[P, :] = fly.matmul(L, U)
+
+    """
+    L = Array()
+    U = Array()
+    P = Array()
+    safe_call(backend.get().flare_lu(c_pointer(L.arr), c_pointer(U.arr), c_pointer(P.arr), A.arr))
+    return L,U,P
+
+def lu_inplace(A, pivot="lapack"):
+    """
+    In place LU decomposition.
+
+    Parameters
+    ----------
+    A: fly.Array
+       - a 2 dimensional flare array on entry.
+       - Contains L in the lower triangle on exit.
+       - Contains U in the upper triangle on exit.
+
+    Returns
+    -------
+    P: fly.Array
+       - Permutation array.
+
+    Note
+    ----
+
+    This function is primarily used with `fly.solve_lu` to reduce computations.
+
+    """
+    P = Array()
+    is_pivot_lapack = False if (pivot == "full") else True
+    safe_call(backend.get().flare_lu_inplace(c_pointer(P.arr), A.arr, is_pivot_lapack))
+    return P
+
+def qr(A):
+    """
+    QR decomposition.
+
+    Parameters
+    ----------
+    A: fly.Array
+       A 2 dimensional flare array.
+
+    Returns
+    -------
+    (Q,R,T): tuple of fly.Arrays
+           - Q - Orthogonal matrix.
+           - R - Upper triangular matrix.
+           - T - Vector containing additional information to solve a least squares problem.
+
+    Note
+    ----
+
+    The outputs of this funciton have the following properties.
+
+    >>> A = fly.matmul(Q, R)
+    >>> I = fly.matmulNT(Q, Q) # Identity matrix
+    """
+    Q = Array()
+    R = Array()
+    T = Array()
+    safe_call(backend.get().flare_qr(c_pointer(Q.arr), c_pointer(R.arr), c_pointer(T.arr), A.arr))
+    return Q,R,T
+
+def qr_inplace(A):
+    """
+    In place QR decomposition.
+
+    Parameters
+    ----------
+    A: fly.Array
+       - a 2 dimensional flare array on entry.
+       - Packed Q and R matrices on exit.
+
+    Returns
+    -------
+    T: fly.Array
+       - Vector containing additional information to solve a least squares problem.
+
+    Note
+    ----
+
+    This function is used to save space only when `R` is required.
+    """
+    T = Array()
+    safe_call(backend.get().flare_qr_inplace(c_pointer(T.arr), A.arr))
+    return T
+
+def cholesky(A, is_upper=True):
+    """
+    Cholesky decomposition
+
+    Parameters
+    ----------
+    A: fly.Array
+       A 2 dimensional, symmetric, positive definite matrix.
+
+    is_upper: optional: bool. default: True
+       Specifies if output `R` is upper triangular (if True) or lower triangular (if False).
+
+    Returns
+    -------
+    (R,info): tuple of fly.Array, int.
+           - R - triangular matrix.
+           - info - 0 if decomposition sucessful.
+
+    Note
+    ----
+
+    The original matrix `A` can be reconstructed using the outputs in the following manner.
+
+    >>> A = fly.matmulNT(R, R) #if R is upper triangular
+
+    """
+    R = Array()
+    info = c_int_t(0)
+    safe_call(backend.get().flare_cholesky(c_pointer(R.arr), c_pointer(info), A.arr, is_upper))
+    return R, info.value
+
+def cholesky_inplace(A, is_upper=True):
+    """
+    In place Cholesky decomposition.
+
+    Parameters
+    ----------
+    A: fly.Array
+       - a 2 dimensional, symmetric, positive definite matrix.
+       - Trinangular matrix on exit.
+
+    is_upper: optional: bool. default: True.
+       Specifies if output `R` is upper triangular (if True) or lower triangular (if False).
+
+    Returns
+    -------
+    info : int.
+           0 if decomposition sucessful.
+
+    """
+    info = c_int_t(0)
+    safe_call(backend.get().flare_cholesky_inplace(c_pointer(info), A.arr, is_upper))
+    return info.value
+
+def solve(A, B, options=MATPROP.NONE):
+    """
+    Solve a system of linear equations.
+
+    Parameters
+    ----------
+
+    A: fly.Array
+       A 2 dimensional flare array representing the coefficients of the system.
+
+    B: fly.Array
+       A 1 or 2 dimensional flare array representing the constants of the system.
+
+    options: optional: fly.MATPROP. default: fly.MATPROP.NONE.
+       - Additional options to speed up computations.
+       - Currently needs to be one of `fly.MATPROP.NONE`, `fly.MATPROP.LOWER`, `fly.MATPROP.UPPER`.
+
+    Returns
+    -------
+    X: fly.Array
+       A 1 or 2 dimensional flare array representing the unknowns in the system.
+
+    """
+    X = Array()
+    safe_call(backend.get().flare_solve(c_pointer(X.arr), A.arr, B.arr, options.value))
+    return X
+
+def solve_lu(A, P, B, options=MATPROP.NONE):
+    """
+    Solve a system of linear equations, using LU decomposition.
+
+    Parameters
+    ----------
+
+    A: fly.Array
+       - A 2 dimensional flare array representing the coefficients of the system.
+       - This matrix should be decomposed previously using `lu_inplace(A)`.
+
+    P: fly.Array
+       - Permutation array.
+       - This array is the output of an earlier call to `lu_inplace(A)`
+
+    B: fly.Array
+       A 1 or 2 dimensional flare array representing the constants of the system.
+
+    Returns
+    -------
+    X: fly.Array
+       A 1 or 2 dimensional flare array representing the unknowns in the system.
+
+    """
+    X = Array()
+    safe_call(backend.get().flare_solve_lu(c_pointer(X.arr), A.arr, P.arr, B.arr, options.value))
+    return X
+
+def inverse(A, options=MATPROP.NONE):
+    """
+    Invert a matrix.
+
+    Parameters
+    ----------
+
+    A: fly.Array
+       - A 2 dimensional flare array
+
+    options: optional: fly.MATPROP. default: fly.MATPROP.NONE.
+       - Additional options to speed up computations.
+       - Currently needs to be one of `fly.MATPROP.NONE`.
+
+    Returns
+    -------
+
+    AI: fly.Array
+       - A 2 dimensional array that is the inverse of `A`
+
+    Note
+    ----
+
+    `A` needs to be a square matrix.
+
+    """
+    AI = Array()
+    safe_call(backend.get().flare_inverse(c_pointer(AI.arr), A.arr, options.value))
+    return AI
+
+def pinverse(A, tol=1E-6, options=MATPROP.NONE):
+    """
+    Find pseudo-inverse(Moore-Penrose) of a matrix.
+
+    Parameters
+    ----------
+
+    A: fly.Array
+       - A 2 dimensional flare input matrix array
+
+    tol: optional: scalar. default: 1E-6.
+       - Tolerance for calculating rank
+
+    options: optional: fly.MATPROP. default: fly.MATPROP.NONE.
+       - Currently needs to be `fly.MATPROP.NONE`.
+       - Additional options may speed up computation in the future
+
+    Returns
+    -------
+
+    AI: fly.Array
+       - A 2 dimensional array that is the pseudo-inverse of `A`
+
+    Note
+    ----
+
+    This function is not supported in GFOR
+
+    """
+    AI = Array()
+    safe_call(backend.get().flare_pinverse(c_pointer(AI.arr), A.arr, c_double_t(tol), options.value))
+    return AI
+
+def rank(A, tol=1E-5):
+    """
+    Rank of a matrix.
+
+    Parameters
+    ----------
+
+    A: fly.Array
+       - A 2 dimensional flare array
+
+    tol: optional: scalar. default: 1E-5.
+       - Tolerance for calculating rank
+
+    Returns
+    -------
+
+    r: int
+       - Rank of `A` within the given tolerance
+    """
+    r = c_uint_t(0)
+    safe_call(backend.get().flare_rank(c_pointer(r), A.arr, c_double_t(tol)))
+    return r.value
+
+def det(A):
+    """
+    Determinant of a matrix.
+
+    Parameters
+    ----------
+
+    A: fly.Array
+       - A 2 dimensional flare array
+
+    Returns
+    -------
+
+    res: scalar
+       - Determinant of the matrix.
+    """
+    re = c_double_t(0)
+    im = c_double_t(0)
+    safe_call(backend.get().flare_det(c_pointer(re), c_pointer(im), A.arr))
+    re = re.value
+    im = im.value
+    return re if (im == 0) else re + im * 1j
+
+def norm(A, norm_type=NORM.EUCLID, p=1.0, q=1.0):
+    """
+    Norm of an array or a matrix.
+
+    Parameters
+    ----------
+
+    A: fly.Array
+       - A 1 or 2 dimensional flare array
+
+    norm_type: optional: fly.NORM. default: fly.NORM.EUCLID.
+       - Type of norm to be calculated.
+
+    p: scalar. default 1.0.
+       - Used only if `norm_type` is one of `fly.NORM.VECTOR_P`, `fly.NORM_MATRIX_L_PQ`
+
+    q: scalar. default 1.0.
+       - Used only if `norm_type` is `fly.NORM_MATRIX_L_PQ`
+
+    Returns
+    -------
+
+    res: scalar
+       - norm of the input
+
+    """
+    res = c_double_t(0)
+    safe_call(backend.get().flare_norm(c_pointer(res), A.arr, norm_type.value,
+                                    c_double_t(p), c_double_t(q)))
+    return res.value
+
+def svd(A):
+    """
+    Singular Value Decomposition
+
+    Parameters
+    ----------
+    A: fly.Array
+       A 2 dimensional flare array.
+
+    Returns
+    -------
+    (U,S,Vt): tuple of fly.Arrays
+           - U - A unitary matrix
+           - S - An array containing the elements of diagonal matrix
+           - Vt - A unitary matrix
+
+    Note
+    ----
+
+    - The original matrix `A` is preserved and additional storage space is required for decomposition.
+
+    - If the original matrix `A` need not be preserved, use `svd_inplace` instead.
+
+    - The original matrix `A` can be reconstructed using the outputs in the following manner.
+    >>> Smat = fly.diag(S, 0, False)
+    >>> A_recon = fly.matmul(fly.matmul(U, Smat), Vt)
+
+    """
+    U = Array()
+    S = Array()
+    Vt = Array()
+    safe_call(backend.get().flare_svd(c_pointer(U.arr), c_pointer(S.arr), c_pointer(Vt.arr), A.arr))
+    return U, S, Vt
+
+def svd_inplace(A):
+    """
+    Singular Value Decomposition
+
+    Parameters
+    ----------
+    A: fly.Array
+       A 2 dimensional flare array.
+
+    Returns
+    -------
+    (U,S,Vt): tuple of fly.Arrays
+           - U - A unitary matrix
+           - S - An array containing the elements of diagonal matrix
+           - Vt - A unitary matrix
+
+    Note
+    ----
+
+    - The original matrix `A` is not preserved.
+
+    - If the original matrix `A` needs to be preserved, use `svd` instead.
+
+    - The original matrix `A` can be reconstructed using the outputs in the following manner.
+    >>> Smat = fly.diag(S, 0, False)
+    >>> A_recon = fly.matmul(fly.matmul(U, Smat), Vt)
+
+    """
+    U = Array()
+    S = Array()
+    Vt = Array()
+    safe_call(backend.get().flare_svd_inplace(c_pointer(U.arr), c_pointer(S.arr), c_pointer(Vt.arr),
+                                           A.arr))
+    return U, S, Vt
+
+def is_lapack_available():
+    """
+    Function to check if the flare library was built with lapack support.
+    """
+    res = c_bool_t(False)
+    safe_call(backend.get().flare_is_lapack_available(c_pointer(res)))
+    return res.value
