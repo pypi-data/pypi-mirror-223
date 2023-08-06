@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cpsvis
+Version: 0.0.21
+Summary: Convex Projective Surface Visualisation Tool
+Home-page: https://github.com/sepehrsaryazdi/cpsvis2
+Author: Sepehr Saryazdi
+Author-email: sepehr.saryazdi@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (>=3.5.2)
+Requires-Dist: numpy (>=1.21.5)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# Convex Projective Surface Visualisation Tool
+
+This GitHub project is dedicated to producing accurate and robust implementations of numerous algorithms in the study convex projective surfaces and the length spectra on them. These algorithms are founded in [this paper](https://arxiv.org/abs/1911.04176) (Haraway, Löwe, Tate, Tillmann 2019).
+
+
+
