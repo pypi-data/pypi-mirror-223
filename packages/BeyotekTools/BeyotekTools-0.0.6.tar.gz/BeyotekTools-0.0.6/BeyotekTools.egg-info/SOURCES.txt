@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BeyotekTools.egg-info/PKG-INFO
+BeyotekTools.egg-info/SOURCES.txt
+BeyotekTools.egg-info/dependency_links.txt
+BeyotekTools.egg-info/requires.txt
+BeyotekTools.egg-info/top_level.txt
