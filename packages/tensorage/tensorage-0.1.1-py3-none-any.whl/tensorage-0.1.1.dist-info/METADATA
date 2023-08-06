@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tensorage
+Version: 0.1.1
+Summary: Storing tensors in a supabase backend
+Author: Mirko Mälicke
+Author-email: mirko@hydrocode.de
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: supabase
+Requires-Dist: python-dotenv
+Requires-Dist: numpy
+
+# tensor-store
+Store tensor data structures into Supabase

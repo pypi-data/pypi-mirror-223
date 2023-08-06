@@ -1,0 +1,17 @@
+tensorage/__init__.py,sha256=C9Z6ie4pSPQHCmMo9O5ebco_DaRFX1MH3RxEBPWPuks,71
+tensorage/__version__.py,sha256=jZ5uWOiyV1Hb9rhNyo3bAgfWmHx8_xkueUWpcUrkz_w,21
+tensorage/auth.py,sha256=063xntx8jA9RlajGAZuqPhXMKZyVETpNX9CDHkWvUo8,1465
+tensorage/session.py,sha256=8BMo8c0gT22Poc26vF-9-9yI1Abk_X2enXRh-8D3Tjs,2922
+tensorage/store.py,sha256=CMOqscgokabbQIZXpgs834FwgzGbOSuUMiMHI9YRe4c,8580
+tensorage/types.py,sha256=VmfbZvk_K0z7d_RMd4vbntpfm0O7xTeg0dsSjPGELJk,190
+tensorage/backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorage/backend/base.py,sha256=n1jhIiG7WBW1t-dvlJp7ylWEOExJshynka-_7MWkgVI,1474
+tensorage/backend/database.py,sha256=ojABcvPmio9f4P6Zli3m8zDeLfNKT2j6ILIX-2s32aA,4277
+tensorage/backend/storage.py,sha256=R_cHOhNYkOzdTAI_vrB212nSUvfUYSXW9JhLi1OEStk,4432
+tensorage/sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorage/sql/sql.py,sha256=ieRElSwqVg2OdQdCUN3lOFIIaN4oPo45vYHbooijNrw,366
+tensorage-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tensorage-0.1.1.dist-info/METADATA,sha256=HNQK3eiGkCCtZnBKvu1Nau45hL8TNYk5ZqbVXh3QllQ,351
+tensorage-0.1.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+tensorage-0.1.1.dist-info/top_level.txt,sha256=H7WtvSPW4ya5Tf4ttQrDAXbup4Hwen6GqRlGOO6y-Ko,10
+tensorage-0.1.1.dist-info/RECORD,,
