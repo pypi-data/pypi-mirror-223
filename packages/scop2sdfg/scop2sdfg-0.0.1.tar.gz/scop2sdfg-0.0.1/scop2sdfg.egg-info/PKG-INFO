@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: scop2sdfg
+Version: 0.0.1
+Summary: scop2sdfg is a tool for lifting static-control-parts (Scop) to stateful dataflow multigraphs (SDFG).
+Home-page: https://daisytuner.com
+Author: Lukas Truemper
+Author-email: lukas.truemper@outlook.de
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+<p align="center"><img src="figures/daisy.png" width="300"/></p>
+
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a> 
+[![CI](https://github.com/daisytuner/scop2sdfg/actions/workflows/tests.yml/badge.svg)](https://github.com/daisytuner/scop2sdfg/actions/workflows/tests.yml)
+
+scop2sdfg is a tool for lifting static-control-parts (Scop) to stateful dataflow multigraphs (SDFG).
