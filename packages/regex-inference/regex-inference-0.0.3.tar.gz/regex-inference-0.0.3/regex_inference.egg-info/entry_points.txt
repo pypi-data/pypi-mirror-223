@@ -1,0 +1,3 @@
+[console_scripts]
+regex-inference = regex_inference.cmd.inference:run
+
