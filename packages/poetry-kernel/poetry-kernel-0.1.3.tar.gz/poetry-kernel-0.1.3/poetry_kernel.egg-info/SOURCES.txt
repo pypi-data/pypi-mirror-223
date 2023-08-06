@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+poetry_kernel/__init__.py
+poetry_kernel/__main__.py
+poetry_kernel/kernelspec.py
+poetry_kernel.egg-info/PKG-INFO
+poetry_kernel.egg-info/SOURCES.txt
+poetry_kernel.egg-info/dependency_links.txt
+poetry_kernel.egg-info/requires.txt
+poetry_kernel.egg-info/top_level.txt
