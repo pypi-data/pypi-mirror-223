@@ -1,0 +1,15 @@
+error_report/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+error_report/admin.py,sha256=kbANF8Om2M9evwaDgBv3FYSugby4t3ONGdXMMSk6Wyo,2376
+error_report/apps.py,sha256=Dem2r-vHrMTXEEalhQ3P0lO3g-LhXOor_KwyzMoobFo,270
+error_report/middleware.py,sha256=qKqBkOFD94pxKD4sNu84NpeE-AydKNu9o2xwY_-GfM0,1227
+error_report/models.py,sha256=7PWPN6yJxFD7xQcKyr1_iOPRIqifX_klLrMhvd-uCl4,1739
+error_report/settings.py,sha256=23asAhmB1EUg5EnJLA8RTzjpRDFlrNfQvwcDEDk6CIY,155
+error_report/urls.py,sha256=El3AGf8a-Hx5T2LF_y0uPEeuq4bvAhasQXHnNKbQ2-8,352
+error_report/views.py,sha256=Ul2wFRucFtbxJtWQ00lQB1RXkgc74K7QqfJC8LxVCuU,481
+error_report/migrations/0001_initial.py,sha256=MgozYb2ao9eeLCG2cR2djaizGyXzQ7TYWVGPmVA26H4,1131
+error_report/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_error_report_2-0.4.2.dist-info/LICENSE.txt,sha256=Xo7TJpLELXs94ksQ1G8vHOS_m8KRmP7FziNJ1tfpSHY,1086
+django_error_report_2-0.4.2.dist-info/METADATA,sha256=lNFQ6EUMtosCUU5u8x2IDDP3uUquGFNCXEDb_xqhBuw,2167
+django_error_report_2-0.4.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_error_report_2-0.4.2.dist-info/top_level.txt,sha256=ErE0ojDM_xzUbb8E7NOn78Ii2jMRkHcelsJO_LuXJmU,13
+django_error_report_2-0.4.2.dist-info/RECORD,,
