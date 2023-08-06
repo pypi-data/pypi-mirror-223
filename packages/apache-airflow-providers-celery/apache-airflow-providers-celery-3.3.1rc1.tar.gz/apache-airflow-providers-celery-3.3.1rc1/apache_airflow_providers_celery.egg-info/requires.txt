@@ -1,0 +1,6 @@
+apache-airflow>=2.4.0.dev0
+celery<6,>=5.2.3
+flower>=1.0.0
+
+[cncf.kubernetes]
+apache-airflow-providers-cncf-kubernetes>=7.4.0
