@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: dnikit
+Version: 2.0.0
+Summary: Base Data and Network Introspection Kit (DNIKit) Library.
+Home-page: https://github.com/apple/dnikit
+License: Apache-2.0
+Author: Apple, Inc.
+Author-email: dnikit-symphony-oss@group.apple.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Requires-Dist: annoy
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: typing_extensions; python_version < '3.8'
+Requires-Dist: dnikit[image]==2.0.0 ; extra == "complete"
+Requires-Dist: dnikit[dimreduction]==2.0.0 ; extra == "complete"
+Requires-Dist: dnikit[duplicates]==2.0.0 ; extra == "complete"
+Requires-Dist: dnikit[dataset-report]==2.0.0 ; extra == "complete"
+Requires-Dist: dnikit[tensorflow]==2.0.0 ; extra == "complete"
+Requires-Dist: dnikit[notebook]==2.0.0 ; extra == "complete"
+Requires-Dist: pandas ; extra == "dataset-report"
+Requires-Dist: umap-learn ; extra == "dataset-report"
+Requires-Dist: pacmap ; extra == "dataset-report"
+Requires-Dist: umap-learn ; extra == "dimreduction"
+Requires-Dist: pacmap ; extra == "dimreduction"
+Requires-Dist: ipykernel ; extra == "doc"
+Requires-Dist: jupyter_client ; extra == "doc"
+Requires-Dist: nbsphinx ; extra == "doc"
+Requires-Dist: pandoc ; extra == "doc"
+Requires-Dist: sphinx ; extra == "doc"
+Requires-Dist: sphinx-book-theme ; extra == "doc"
+Requires-Dist: matplotlib ; extra == "doc"
+Requires-Dist: pandas ; extra == "doc"
+Requires-Dist: jupyter-datatables ; extra == "doc"
+Requires-Dist: seaborn ; extra == "doc"
+Requires-Dist: opencv-python-headless ; extra == "image"
+Requires-Dist: Pillow ; extra == "image"
+Requires-Dist: notebook < 7.0.0 ; extra == "notebook"
+Requires-Dist: matplotlib ; extra == "notebook"
+Requires-Dist: pandas ; extra == "notebook"
+Requires-Dist: jupyter-datatables ; extra == "notebook"
+Requires-Dist: plotly ; extra == "notebook"
+Requires-Dist: dnikit_tensorflow[tf2]==2.0.0 ; extra == "tensorflow"
+Requires-Dist: dnikit_tensorflow[tf1]==2.0.0 ; extra == "tensorflow1"
+Requires-Dist: dnikit_tensorflow[tf1-gpu]==2.0.0 ; extra == "tensorflow1-gpu"
+Requires-Dist: flake8 < 5.0.0 ; extra == "test"
+Requires-Dist: importlib-metadata < 4.3 ; extra == "test" and ( python_version < '3.8')
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-flake8 ; extra == "test"
+Requires-Dist: pytest-mypy ; extra == "test"
+Requires-Dist: pytest-xdist[psutil] ; extra == "test"
+Requires-Dist: pytest-timeout ; extra == "test"
+Requires-Dist: flake8-copyright ; extra == "test"
+Requires-Dist: bumpversion ; extra == "test"
+Requires-Dist: dnikit_torch==2.0.0 ; extra == "torch"
+Project-URL: Changelog, https://github.com/apple/dnikit/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://apple.github.io/dnikit
+Provides-Extra: complete
+Provides-Extra: dataset-report
+Provides-Extra: dimreduction
+Provides-Extra: doc
+Provides-Extra: image
+Provides-Extra: notebook
+Provides-Extra: tensorflow
+Provides-Extra: tensorflow1
+Provides-Extra: tensorflow1-gpu
+Provides-Extra: test
+Provides-Extra: torch
+
+# Data and Network Introspection Kit (DNIKit)
+
+Data and Network Introspection Kit (DNIKit) uses the activations at hidden layers
+of a neural network to understand the network’s behavior and how it is learning,
+with respect to a given dataset. DNIKit algorithms can be applied to many problems,
+including network compression, failure and bias analysis, dataset QA, and more.
+
+To learn more, please see the [docs](https://apple.github.io/dnikit).
+
+## Installation
+
+```
+pip install dnikit
+```
+
+See available installation extensions also in the [docs](https://apple.github.io/dnikit).
+
