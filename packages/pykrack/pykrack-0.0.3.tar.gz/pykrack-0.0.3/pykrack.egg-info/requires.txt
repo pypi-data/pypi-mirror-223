@@ -1,0 +1,6 @@
+numpy
+pandas
+networkx
+rpy2
+
+[dev]
