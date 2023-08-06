@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: upiano
+Version: 0.1.0
+Summary: Terminal Piano App
+License: MIT
+Author: Elias Dorneles
+Author-email: elias.dorneles@hey.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyFluidSynth (>=1.3.2,<2.0.0)
+Requires-Dist: textual (>=0.32.0,<0.33.0)
+Description-Content-Type: text/markdown
+
+# UPiano
+
+A Piano in your terminal.
+
+Powered by:
+
+* [Python](https://www.python.org)
+* [Textual](https://textual.textualize.io/)
+* [FluidSynth](https://github.com/FluidSynth/fluidsynth)
+* [pyFluidSynth](https://github.com/nwhitehead/pyfluidsynth)
+
+Made with ❤️  by Elias Dorneles
+
