@@ -1,0 +1,2 @@
+[sqlite_utils]
+sqlite_lines = sqlite_utils_sqlite_lines
