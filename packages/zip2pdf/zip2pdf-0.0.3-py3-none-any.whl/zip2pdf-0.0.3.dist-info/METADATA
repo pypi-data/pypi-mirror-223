@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zip2pdf
+Version: 0.0.3
+Description-Content-Type: text/markdown
+Requires-Dist: img2pdf
+
+# zip2pdf
+
+Convert a zip file containing multiple images to PDF.
+
+## How to USE
+
+```sh
+$zip2pdf path/to/file.zip -o path/to/file.pdf
+```
+
+## Github
+
+- [zip2pdf](https://github.com/hvppycoding/zip2pdf)
