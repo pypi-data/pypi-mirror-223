@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tensorflow_ml/__init__.py
+tensorflow_ml.egg-info/PKG-INFO
+tensorflow_ml.egg-info/SOURCES.txt
+tensorflow_ml.egg-info/dependency_links.txt
+tensorflow_ml.egg-info/top_level.txt
