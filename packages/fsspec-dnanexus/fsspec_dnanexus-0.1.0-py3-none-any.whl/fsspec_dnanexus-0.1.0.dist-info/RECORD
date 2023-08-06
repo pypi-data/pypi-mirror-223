@@ -1,0 +1,10 @@
+fsspec_dnanexus/__init__.py,sha256=3RhM-MUgaANMllev0ujJh3oLU_vYnzylJn7SlY8EyGw,292
+fsspec_dnanexus/core.py,sha256=QIPebenm3EDOlFLq40J143hmqDq_gmGYYd_T2-26FOM,30564
+fsspec_dnanexus/dxfactory.py,sha256=8yBF1uHhG9AmmxxVrwba10P-8LcfjhFiIAreXvxqVt8,21901
+fsspec_dnanexus/utils.py,sha256=KHRMoHT4MwD8MSzHOsU8vosZdPSy3Ry0XaCLtFNEebY,1872
+fsspec_dnanexus-0.1.0.dist-info/LICENSE.txt,sha256=xw5rRrmGcck7yjci2gFi_mdLQMqoJ4z_wj9V-v1f8kc,1064
+fsspec_dnanexus-0.1.0.dist-info/METADATA,sha256=n8gQZnYspwe4ojWVmZSAK2qRHyX0-sfRDoqpjARvATs,7118
+fsspec_dnanexus-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+fsspec_dnanexus-0.1.0.dist-info/entry_points.txt,sha256=zedbecJMg3jDda3NJosZuAeXyQcyvjjtxoPOUzaxvpA,55
+fsspec_dnanexus-0.1.0.dist-info/top_level.txt,sha256=fhiQuqx3PFbiSpzgyHwTk5k8oC2um96uzf3YTKNwpIE,16
+fsspec_dnanexus-0.1.0.dist-info/RECORD,,
