@@ -1,0 +1,11 @@
+vaimm/__main__.py,sha256=WvdGcAHS7lJCbPGHcr26t2JbhI8Grrx2zKeMv17T9nE,250
+vaimm/_version.py,sha256=jP37PbzC7u30hqoKJZ41NW3TgoVzxjYdLU5M0drm_y4,160
+vaimm/cli.py,sha256=8ETIO5MLF0JsduBOo0vVcRm7CFUTiPSu5NJB7n7J8DI,6564
+vaimm/net.py,sha256=wEmLQdH_Zf-TAJGD7MT59yhePQnydNFwImP26ata_Cw,5768
+vaimm/vai.py,sha256=5yp791znCW8gX1Ofa7JxMqxara6m3ZFLhZBfNY6angQ,3642
+vaimm/version.py,sha256=Q8wBJWwHN8T-cp_VMc9O87GRK6WMLy3YXvUmEc6tYn8,95
+vaimm-0.3.0.dist-info/METADATA,sha256=cexuTuupSZTcjJwA52U_2vsz2P9FpUDxriXttamGkmo,10615
+vaimm-0.3.0.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+vaimm-0.3.0.dist-info/entry_points.txt,sha256=fo1EoiDwG46i4AeOlLCBH3yBzgN8_5OU9kjoknA4Cfo,41
+vaimm-0.3.0.dist-info/top_level.txt,sha256=Dn2XWjq5AQG9dvJaI6BrhAqHpYLYKD-uCnBVDcj9mc0,6
+vaimm-0.3.0.dist-info/RECORD,,
