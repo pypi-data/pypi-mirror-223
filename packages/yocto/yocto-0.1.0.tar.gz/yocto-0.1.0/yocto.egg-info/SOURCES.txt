@@ -1,0 +1,8 @@
+README.md
+setup.py
+yocto/__init__.py
+yocto.egg-info/PKG-INFO
+yocto.egg-info/SOURCES.txt
+yocto.egg-info/dependency_links.txt
+yocto.egg-info/requires.txt
+yocto.egg-info/top_level.txt

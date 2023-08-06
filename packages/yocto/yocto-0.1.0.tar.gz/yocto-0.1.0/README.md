@@ -1,0 +1,3 @@
+# yocto
+
+pip install yocto
