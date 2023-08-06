@@ -1,0 +1,7 @@
+setup.py
+box_bsxpath/__init__.py
+box_bsxpath/box_bsxpath.py
+box_bsxpath.egg-info/PKG-INFO
+box_bsxpath.egg-info/SOURCES.txt
+box_bsxpath.egg-info/dependency_links.txt
+box_bsxpath.egg-info/top_level.txt
