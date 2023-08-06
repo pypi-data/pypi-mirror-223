@@ -1,0 +1,10 @@
+piqp/__init__.py,sha256=5vDu1dVO-3qcDj9VN_0TzFZLPRVebR5NzvVkk-c6Ii0,1002
+piqp/instruction_set.cp39-win32.pyd,sha256=nTFFCu-iAPAPDQoj-yQCrk4Q3J66fgt4Zm-kVdjrnEA,95232
+piqp/piqp_python.cp39-win32.pyd,sha256=y3j0S6CWdQdgWJ2Yd96PB2qGQpAGIx6TqT7tiZUoOBU,556544
+piqp/piqp_python_avx2.cp39-win32.pyd,sha256=68N5L1JKD50O1i11-2JqjDWPfsjNR3u9upf4im_TsTI,563712
+piqp/piqp_python_avx512.cp39-win32.pyd,sha256=V7OY9CntkYczeI_U8SF5yTTB-TAvWPvS6JzO9mrB0Rw,578560
+piqp-0.2.2.dist-info/LICENSE,sha256=BAu4BiSxvgpDLLfynelNT3pK5-gTrsexBua5JhUSHkY,1337
+piqp-0.2.2.dist-info/METADATA,sha256=LblBn_jcocEZ43ZOo-fxwCOYyPKNRU5Ued6up_8gIZY,4407
+piqp-0.2.2.dist-info/WHEEL,sha256=AKuxxjcha8jx1oXHKtLXHDz7nMOD9klYv3KDvu1qH9E,96
+piqp-0.2.2.dist-info/top_level.txt,sha256=F-GFRluNmn1bIS3npWT9LVAqKKnPzP4_LX_vULOXLnE,5
+piqp-0.2.2.dist-info/RECORD,,
