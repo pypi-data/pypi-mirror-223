@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+usetools/__init__.py
+usetools/addfunction.py
+usetools.egg-info/PKG-INFO
+usetools.egg-info/SOURCES.txt
+usetools.egg-info/dependency_links.txt
+usetools.egg-info/top_level.txt
