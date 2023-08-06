@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mydm
+Version: 0.0.1a1
+Summary: A qq chatbot framework
+License: Apache-2.0
+Author: yuyi2439
+Author-email: yuyi2439@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# MyDM
+### 一个QQ聊天机器人框架
+
+### 本项目使用Apache2.0开源协议
+- 使用本项目时要求保留原始版权和许可声明。同时向贡献者明确授予专利权。
+- 使用者可以自由修改，进行商业使用，可以使用不同的条款分发，没有开源要求。
+
