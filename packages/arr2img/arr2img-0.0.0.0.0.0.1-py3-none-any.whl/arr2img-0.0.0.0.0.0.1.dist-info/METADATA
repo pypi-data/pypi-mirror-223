@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: arr2img
+Version: 0.0.0.0.0.0.1
+Summary: Convert any numpy array to image so that you can show it.
+Author: azzhu
+Author-email: zhu.qingjie@qq.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+<div align='center'>
+
+💜 Numpy array to image 💜
+</div>
+
+<div align='center'>
+
+Convert any numpy array to image so that you can show it.
+
+</div>
+
+
+---
+
+## Installation
+
+```commandline
+pip install arr2img
+```
+
+## Useful Links
+
+💜 CIBR homepage: http://www.cibr.ac.cn/
+
+## License
+
+arr2img is released under the [MIT license](https://github.com/azzhu/EasyFlyTracker/blob/master/LICENSE).
