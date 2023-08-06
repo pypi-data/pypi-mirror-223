@@ -1,0 +1,131 @@
+#!/usr/bin/python3
+import os
+import torch
+import logging
+from audioldm2 import text_to_audio, build_model, save_wave, get_time, read_list
+import argparse
+
+os.environ["TOKENIZERS_PARALLELISM"] = "true"
+matplotlib_logger = logging.getLogger('matplotlib')
+matplotlib_logger.setLevel(logging.WARNING)
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument(
+    "-t",
+    "--text",
+    type=str,
+    required=False,
+    default="",
+    help="Text prompt to the model for audio generation",
+)
+
+parser.add_argument(
+    "-tl",
+    "--text_list",
+    type=str,
+    required=False,
+    default="",
+    help="A file that contains text prompt to the model for audio generation",
+)
+
+parser.add_argument(
+    "-s",
+    "--save_path",
+    type=str,
+    required=False,
+    help="The path to save model output",
+    default="./output",
+)
+
+parser.add_argument(
+    "--model_name",
+    type=str,
+    required=False,
+    help="The checkpoint you gonna use",
+    default="audioldm2-full",
+    choices=["audioldm2-full", "audioldm2-music-665k", "audioldm2-full-large-650k"]
+)
+
+parser.add_argument(
+    "-b",
+    "--batchsize",
+    type=int,
+    required=False,
+    default=1,
+    help="Generate how many samples at the same time",
+)
+
+parser.add_argument(
+    "--ddim_steps",
+    type=int,
+    required=False,
+    default=200,
+    help="The sampling step for DDIM",
+)
+
+parser.add_argument(
+    "-gs",
+    "--guidance_scale",
+    type=float,
+    required=False,
+    default=3.5,
+    help="Guidance scale (Large => better quality and relavancy to text; Small => better diversity)",
+)
+
+parser.add_argument(
+    "-n",
+    "--n_candidate_gen_per_text",
+    type=int,
+    required=False,
+    default=3,
+    help="Automatic quality control. This number control the number of candidates (e.g., generate three audios and choose the best to show you). A Larger value usually lead to better quality with heavier computation",
+)
+
+parser.add_argument(
+    "--seed",
+    type=int,
+    required=False,
+    default=0,
+    help="Change this value (any integer number) will lead to a different generation result.",
+)
+
+args = parser.parse_args()
+
+torch.set_float32_matmul_precision("high")
+        
+save_path = os.path.join(args.save_path, get_time())
+
+text = args.text
+random_seed = args.seed
+duration = 10
+guidance_scale = args.guidance_scale
+n_candidate_gen_per_text = args.n_candidate_gen_per_text
+
+os.makedirs(save_path, exist_ok=True)
+audioldm2 = build_model(model_name=args.model_name)
+
+if(args.text_list):
+    print("Generate audio based on the text prompts in %s" % args.text_list)
+    prompt_todo = read_list(args.text_list)
+else: 
+    prompt_todo = [text]
+    
+for text in prompt_todo:
+    if("|" in text):
+        text, name = text.split("|")
+    else:
+        name = text[:128]
+
+    waveform = text_to_audio(
+        audioldm2,
+        text,
+        seed=random_seed,
+        duration=duration,
+        guidance_scale=guidance_scale,
+        ddim_steps=args.ddim_steps,
+        n_candidate_gen_per_text=n_candidate_gen_per_text,
+        batchsize=args.batchsize,
+    )
+    
+    save_wave(waveform, save_path, name=name)
