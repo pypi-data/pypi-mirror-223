@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+wearpipe/__init__.py
+wearpipe/wearpipe.py
+wearpipe.egg-info/PKG-INFO
+wearpipe.egg-info/SOURCES.txt
+wearpipe.egg-info/dependency_links.txt
+wearpipe.egg-info/requires.txt
+wearpipe.egg-info/top_level.txt
