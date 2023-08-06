@@ -1,0 +1,1 @@
+{"10": {"normal_version": 0.0919039249420166, "triangulated_version": 0.006287097930908203}, "25": {"normal_version": 0.22426056861877441, "triangulated_version": 0.007485151290893555}, "50": {"normal_version": 0.44886255264282227, "triangulated_version": 0.013926029205322266}}
