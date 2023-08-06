@@ -1,0 +1,12 @@
+docs/ENDPOINTS.md,sha256=kcgSLIz01NaXT1YisFM_VEfg_z4TN92dC0FY11rx_vA,57719
+docs/METHODS.md,sha256=yO313EbVwDPQWjoa-TUX-HYGchxMeMESr-J3vcIakEw,14634
+docs/README.md,sha256=AdoahL6aVJPlt09vCAMN2aGtEjOaMWkPVY1iRogWlNM,3414
+sapcommissions/__init__.py,sha256=UnKs-4Uve1Z1wZTX1klXrAs6crt9Mr2EwHHGhNk02ww,1340
+sapcommissions/endpoints.py,sha256=f9TKXgbFYnzKjhJ0h5Xzvg8ii8ZJNatN7VEw9BTsLXA,58626
+sapcommissions/exceptions.py,sha256=LMWh0414YNiwRBeUX8MBFnlTDqIb6Yc6SBCQ625gP6I,451
+sapcommissions/resources.py,sha256=yKmu7Ru7Xo1vK4sWwrWIcUEjnz3VYHDM_FwOTTH4hIM,114261
+python_sapcommissions-1.2.1.dist-info/LICENSE,sha256=Lzl26HgbW2oyG7NgrhhERqEuabqREVYxuxel3p9fx3c,1070
+python_sapcommissions-1.2.1.dist-info/METADATA,sha256=LaEvBhcg-iWOf7WFzlJj28VYEzhWXd7WTFm8HpEU17Q,4257
+python_sapcommissions-1.2.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+python_sapcommissions-1.2.1.dist-info/top_level.txt,sha256=uYDwuwLHN1VQj5yASxB2CQKw6QXWKLGOtLvIHmHQsgg,25
+python_sapcommissions-1.2.1.dist-info/RECORD,,
