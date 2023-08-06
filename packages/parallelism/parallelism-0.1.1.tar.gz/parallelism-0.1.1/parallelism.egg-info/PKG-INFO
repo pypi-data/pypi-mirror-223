@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: parallelism
+Version: 0.1.1
+Summary: Empowering workflows with parallelism
+Author: Idan Hazan
+License: MIT
+Project-URL: homepage, https://github.com/idanhazan/parallelism
+Project-URL: repository, https://github.com/idanhazan/parallelism
+Project-URL: documentation, https://parallelism.readthedocs.io
+Keywords: parallelism,parallel,task,scheduler
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# parallelism
+Empowering workflows with parallelism
