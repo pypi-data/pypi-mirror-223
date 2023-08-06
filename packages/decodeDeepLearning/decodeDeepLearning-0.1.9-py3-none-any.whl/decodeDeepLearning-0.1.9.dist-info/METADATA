@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: decodeDeepLearning
+Version: 0.1.9
+Summary: A package for creating custom pooling layers in TensorFlow Keras
+Home-page: UNKNOWN
+Author: Paresh
+Author-email: iampareshk@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tensorflow
+Requires-Dist: keras
+
+UNKNOWN
+
