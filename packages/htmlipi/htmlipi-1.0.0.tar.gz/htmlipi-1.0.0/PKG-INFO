@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: htmlipi
+Version: 1.0.0
+Summary: A tiny Python library to create HTML templates without parsing and using native control flow
+Project-URL: Homepage, https://github.com/sripravan/htmlipi
+Project-URL: Bug Tracker, https://github.com/sripravan/htmlipi/issues
+Author-email: Sri Pravan Paturi <pravanpaturi@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# HTM-LIPI (Hyper Text Markup - Lexicon In Python (Inline))
+
+Lipi means 'letters' or 'script' in Sanskrit.
+
+htmlipi is a tiny Python library to create HTML templates in Python without any parsing and using Python native constructs for control flow.
