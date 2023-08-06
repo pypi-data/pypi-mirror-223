@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Wasiqpdf/__init__.py
+Wasiqpdf/pdf2image.py
+Wasiqpdf/pdf2text.py
+Wasiqpdf.egg-info/PKG-INFO
+Wasiqpdf.egg-info/SOURCES.txt
+Wasiqpdf.egg-info/dependency_links.txt
+Wasiqpdf.egg-info/top_level.txt
