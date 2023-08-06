@@ -1,0 +1,7 @@
+setup.py
+cc_django_auth.egg-info/PKG-INFO
+cc_django_auth.egg-info/SOURCES.txt
+cc_django_auth.egg-info/dependency_links.txt
+cc_django_auth.egg-info/requires.txt
+cc_django_auth.egg-info/top_level.txt
+migrations/__init__.py
