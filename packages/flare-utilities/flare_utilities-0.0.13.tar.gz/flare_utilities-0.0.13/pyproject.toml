@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "Flare-Utilities"
+version = "0.0.13"
+description = "Flare Utilities having support libraries for Flare-BDD framework for reporting purposes."
+authors = ["Aravinth Alliraj"]
+readme = "README.md"
+packages = [{ include = "Flare_Utilities" }]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
