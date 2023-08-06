@@ -1,0 +1,2 @@
+[console_scripts]
+vaimm = vaimm.cli:main
