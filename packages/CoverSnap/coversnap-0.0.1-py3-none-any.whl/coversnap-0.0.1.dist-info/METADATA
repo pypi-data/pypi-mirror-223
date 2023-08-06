@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: CoverSnap
+Version: 0.0.1
+Summary: a convenient Python library for capturing cover image from video
+Author-Email: Tohrusky <65994850+Tohrusky@users.noreply.github.com>
+License: MIT
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Homepage, https://github.com/Biu-X/CoverSnap
+Project-URL: Repository, https://github.com/Biu-X/CoverSnap
+Requires-Python: >=3.8
+Requires-Dist: opencv-python
+Requires-Dist: Pathlib
+Description-Content-Type: text/markdown
+
+# CoverSnap
