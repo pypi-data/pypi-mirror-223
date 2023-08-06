@@ -1,0 +1,2 @@
+[console_scripts]
+cdpred = cdpred.Python_scripts.cdpred:main
