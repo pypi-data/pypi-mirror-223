@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    { name = "Team IO-Aero", email = "info@io-aero.com" },
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed",
+]
+description = "Aviation Event Statistics - Database Software"
+keywords = [
+    "Accidents",
+    "Aviation",
+    "NTSB",
+    "Statistics",
+]
+maintainers = [
+    { name = "Team IO-Aero", email = "info@io-aero.ch" },
+]
+name = "ioavstatsdb"
+readme = "README.md"
+requires-python = ">=3.10"
+version = "1.5.0a99"
+
+[project.urls]
+"Bug Tracker" = "https://github.com/io-aero/io-avstats-db/issues"
+"Documentation" = "https://io-aero.github.io/io-avstats-db/"
+"Homepage" = "https://github.com/io-aero/io-avstats-db"
+"Release History" = "https://io-aero.github.io/io-avstats-db/release_history/"
+"Release Notes" = "https://io-aero.github.io/io-avstats-db/release_notes/"
+"Source" = "https://github.com/io-aero/io-avstats-db/ioavstatsdb/"
+
+[tool.bandit]
+skips = ["B404", "B603", "B608"]
+
+[tool.coverage.run]
+omit = ["setup.py"]
+
+[tool.isort]
+float_to_top = true
+force_single_line = true
+overwrite_in_place = true
+profile = "black"
+
+[tool.pydocstyle]
+match = '((?!test_).*\.py)'
+
+[tool.pytest.ini_options]
+console_output_style = "count"
+log_cli_level = "INFO"
+log_file = "logging_io-avstats_pytest.log"
+log_file_level = "DEBUG"
+log_level = "DEBUG"
+markers = ["issue"]
+norecursedirs = "./tests/helpers"
+pythonpath = "./ioavstatsdb/"
+testpaths = "./tests/"
+
+[tool.setuptools]
+packages = ["ioavstatsdb"]
+
+[tool.setuptools.package-data]
+ioavstatsdb = ["*.pyi", "py.typed"]
