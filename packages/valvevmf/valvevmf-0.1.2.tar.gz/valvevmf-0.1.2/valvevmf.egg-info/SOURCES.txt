@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.py
+valvevmf/__init__.py
+valvevmf/node.py
+valvevmf/parser.py
+valvevmf/property_parser.py
+valvevmf/property_writer.py
+valvevmf/vmf.py
+valvevmf/writer.py
+valvevmf.egg-info/PKG-INFO
+valvevmf.egg-info/SOURCES.txt
+valvevmf.egg-info/dependency_links.txt
+valvevmf.egg-info/requires.txt
+valvevmf.egg-info/top_level.txt
