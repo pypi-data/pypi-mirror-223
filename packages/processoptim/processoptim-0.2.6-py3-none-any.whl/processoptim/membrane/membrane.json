@@ -1,0 +1,281 @@
+{
+    "solute": {
+        "label": {
+            "default": "",
+            "color": "byellow",
+            "repr": true
+        },
+        "B": {
+            "default": null,
+            "unit": "m/h",
+            "color": "bblue",
+            "decimals": 3,
+            "scientific_notation": true,
+            "repr": true
+        },
+        "k": {
+            "default": null,
+            "unit": "m/h",
+            "color": "bblue",
+            "decimals": 3,
+            "scientific_notation": true,
+            "repr": true
+        },
+        "formula": {
+            "default": "",
+            "repr": true
+        },
+        "synonyms": {
+            "default": [],
+            "repr": true
+        },
+        "desc": {
+            "default": "",
+            "repr": true
+        }
+    },
+    "headers": {
+        "solutes": {
+            "label": "solute",
+            "B": "B [m/h]",
+            "k": "k [m/h]"
+        }
+    },
+    "spiral_membrane": {
+        "S": {
+            "default": 100,
+            "unit": "m2",
+            "decimals": 2,
+            "desc": "membrane area",
+            "repr": true
+        },
+        "L": {
+            "default": 1,
+            "unit": "m",
+            "decimals": 2,
+            "desc": "membrane length",
+            "repr": true
+        },
+        "Aw": {
+            "default": 5.3e-3,
+            "unit": "m/h/bar",
+            "decimals": 3,
+            "scientific_notation": true,
+            "desc": "water permeability",
+            "repr": true
+        },
+        "DP": {
+            "default": 1,
+            "unit": "bar",
+            "decimals": 3,
+            "desc": "pressure loss",
+            "repr": true
+        },
+        "NLE": {
+            "default": 100,
+            "desc": "nomber of elementary lengths",
+            "unit": "",
+            "decimals": 4,
+            "repr": true
+        },
+        "Vin": {
+            "default": 10,
+            "desc": "inlet flowrate",
+            "unit": "m3/h",
+            "decimals": 3,
+            "repr": true
+        },
+        "T": {
+            "default": 20,
+            "desc": "inlet temperature",
+            "unit": "degC",
+            "decimals": 1,
+            "repr": true
+        },
+        "Patm": {
+            "default": 1,
+            "desc": "atm. pressure",
+            "unit": "bar",
+            "decimals": 1,
+            "repr": true
+        },
+        "Pin": {
+            "default": 10,
+            "desc": "inlet pressure",
+            "unit": "bar",
+            "decimals": 1,
+            "repr": true
+        },
+        "solutes": {
+            "default": [],
+            "list": {
+                "eval": "solutes_database",
+                "key": "label"
+            },
+            "color": "byellow",
+            "repr": true
+        },
+        "k": {
+            "default": [],
+            "unit": "m/h",
+            "decimals": 3,
+            "scientific_notation": true,
+            "desc": "solute mass transfer",
+            "repr": true
+        },
+        "B": {
+            "default": [],
+            "unit": "m/h",
+            "decimals": 3,
+            "scientific_notation": true,
+            "desc": "solute permeability",
+            "repr": true
+        },
+        "Cin": {
+            "default": [],
+            "unit": "mol/m3",
+            "decimals": 3,
+            "scientific_notation": true,
+            "desc": "inlet solute concentrations",
+            "repr": true
+        }
+    },
+    "spiral_membrane_res": {
+        "x": {
+            "unit": "m",
+            "label": "position",
+            "decimals": 3,
+            "default": [],
+            "latex": "membrane position $\\mathrm{m}$",
+            "repr": false
+        },
+        "LE": {
+            "unit": "m",
+            "label": "elementary length",
+            "decimals": 3,
+            "default": null,
+            "repr": true
+        },
+        "Vr": {
+            "unit": "m3/h",
+            "label": "retentate flowrate",
+            "decimals": 3,
+            "default": [],
+            "latex": "$\\mathrm{V_r}\\,\\frac{m^3}{h}$",
+            "repr": false
+        },
+        "Vp": {
+            "unit": "m3/h",
+            "label": "permeate flowrate",
+            "decimals": 3,
+            "default": [],
+            "plot": "x[1:],cumsum(y[1:])",
+            "latex": "$\\mathrm{V_p}\\,\\frac{m^3}{h}$",
+            "repr": false
+        },
+        "Pr": {
+            "unit": "bar",
+            "label": "retentate pressure",
+            "decimals": 3,
+            "default": [],
+            "latex": "$\\mathrm{P_r}\\,bar$",
+            "repr": false
+        },
+        "Cr": {
+            "unit": "mol/m3",
+            "label": "retentate concentrations",
+            "decimals": 3,
+            "default": [],
+            "latex": "$\\mathrm{C_r}\\,\\frac{mol}{m^3}$",
+            "repr": false
+        },
+        "Cm": {
+            "unit": "mol/m3",
+            "label": "Cm",
+            "decimals": 3,
+            "default": [],
+            "latex": "$\\mathrm{C_r}\\,\\frac{mol}{m^3}$",
+            "repr": false
+        },
+        "Cp": {
+            "unit": "mol/m3",
+            "label": "permeate concentrations",
+            "decimals": 3,
+            "default": [],
+            "latex": "$\\mathrm{C_p}\\,\\frac{mol}{m^3}$",
+            "repr": false
+        },
+        "Jw": {
+            "unit": "m3/h/m2",
+            "label": "water flowrate",
+            "decimals": 3,
+            "default": [],
+            "latex": "$\\mathrm{J_w}\\,\\frac{m^3}{h\\times m^2}$",
+            "plot": "x[1:],cumsum(y[1:])",
+            "repr": false
+        },
+        "J": {
+            "unit": "m3/h/m2",
+            "label": "solute flowrate",
+            "decimals": 3,
+            "default": [],
+            "latex": "$\\mathrm{J}\\,\\frac{m^3}{h\\times m^2}$",
+            "plot": "",
+            "repr": false
+        },
+        "PI": {
+            "unit": "bar",
+            "label": "osmotic pressure difference",
+            "latex": "$\\mathrm{\\Delta\\pi}$ bar",
+            "decimals": 3,
+            "default": [],
+            "plot": "x[1:],y[1:]",
+            "repr": false,
+            "warning":""
+        },
+        "PIm": {
+            "unit": "bar",
+            "label": "osmotic pressure difference of solutes",
+            "latex": "$\\mathrm{\\Delta\\pi}$ bar",
+            "decimals": 3,
+            "default": [],
+            "plot": "x[1:],y[1:]",
+            "repr": false
+        },
+        "Vr_out": {
+            "unit": "m3/h",
+            "label": "retentate flowrate",
+            "decimals": 3,
+            "default": null,
+            "repr": true
+        },
+        "Vp_out": {
+            "unit": "m3/h",
+            "label": "permeate flowrate",
+            "decimals": 3,
+            "default": null,
+            "repr": true
+        },
+        "Cp_out": {
+            "unit": "mol/m3",
+            "label": "solutes in permeate",
+            "decimals": 3,
+            "default": [],
+            "repr": true
+        },
+        "Cr_out": {
+            "unit": "mol/m3",
+            "label": "solutes in retentate",
+            "decimals": 3,
+            "default": [],
+            "repr": true
+        },
+        "calculation_time":{
+            "unit": "s",
+            "label": "calculation time",
+            "decimals": 3,
+            "default": null,
+            "repr": true
+        }
+    }
+}
