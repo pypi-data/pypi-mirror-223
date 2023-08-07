@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: oganesson-py
+Version: 0.1.0a1
+Summary: 
+Author: robertpsoane
+Author-email: robertsoane101@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: radon (>=6.0.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+# Oganesson
+
+A simple python code quality checked built on top of [Radon](https://pypi.org/project/radon/)
