@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: stowrap
+Version: 0.0.1
+Summary: stowrap: Python Storage Service Wrapper.
+Home-page: https://github.com/yokoe/stowrap
+Author: yokoe
+Author-email: kreuz45@kreuz45.com
+Maintainer: yokoe
+Maintainer-email: kreuz45@kreuz45.com
+License: MIT
+Download-URL: https://github.com/yokoe/stowrap
+Keywords: gcs s3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gcshus
+Requires-Dist: boto3
+
+# stowrap
+Python Storage Service Wrapper
+
+
