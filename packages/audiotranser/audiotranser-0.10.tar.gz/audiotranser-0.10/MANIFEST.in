@@ -1,0 +1,14 @@
+include audiotranser/requirements.txt
+include audiotranser/thirdparty.json
+include audiotranser/README.MD
+include audiotranser/blasx64/quantize.exe
+include audiotranser/blasx64/SDL2.dll
+include audiotranser/blasx64/whisper.dll
+include audiotranser/blasx64/bench.exe
+include audiotranser/blasx64/libopenblas.dll
+include audiotranser/blasx64/main.exe
+include audiotranser/x64/quantize.exe
+include audiotranser/x64/SDL2.dll
+include audiotranser/x64/whisper.dll
+include audiotranser/x64/bench.exe
+include audiotranser/x64/main.exe
