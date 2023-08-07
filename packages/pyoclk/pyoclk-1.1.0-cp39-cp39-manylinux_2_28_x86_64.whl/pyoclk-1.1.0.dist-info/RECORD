@@ -1,0 +1,15 @@
+oclk/__init__.py,sha256=zqf047MaUz03nUjRpODwgeec4NvtqgvJcBoeGycvH-0,89
+oclk/functions.py,sha256=M6fQ7hHRiMCXfuwn2cT2bvcZjrnzRmMPKnZiqkhT02E,1611
+oclk/oclk_C.cpython-39-x86_64-linux-gnu.so,sha256=hRYlRG8whicCNY7guObau5rSzniwID4ogEevPzqDHIw,2018608
+oclk/oclk_C.pyi,sha256=AbCabpU5YGZOlFEBC8Y4uiGDaRreRGU0-cZoCrNxDlw,427
+oclk/oclk_runner.py,sha256=WGSaF9t0fE5VhR7R7fLjZdUvvhkfnQHxzZ5IytlC-OY,2185
+oclk/oclk_runner.pyi,sha256=oaKVmkYTPHyFJQN9iqK9YPXIEsq8hT_2vAHEohK-2OA,632
+oclk/version.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+oclk/third_party/OpenCL/lib/x86_64/libOpenCL.so,sha256=RGCTMOGk0EK0Vu8ep5ahyu64WdyNAtByp0qkGMuKqXQ,43072
+oclk/third_party/OpenCL/lib/x86_64/libOpenCL.so.1,sha256=RGCTMOGk0EK0Vu8ep5ahyu64WdyNAtByp0qkGMuKqXQ,43072
+oclk/third_party/OpenCL/lib/x86_64/libOpenCL.so.1.0.0,sha256=RGCTMOGk0EK0Vu8ep5ahyu64WdyNAtByp0qkGMuKqXQ,43072
+pyoclk-1.1.0.dist-info/LICENSE,sha256=pbJkDBtMtqXtepMa9K6_EwzU0LX2s57g0ZaZYNHPzZY,1492
+pyoclk-1.1.0.dist-info/METADATA,sha256=fXBqxrlqxLZ6jImN0iABuct6jsgaLnIayb_-BWwE764,5733
+pyoclk-1.1.0.dist-info/WHEEL,sha256=KrHnPMQmdmVgclMYcqXpUAGZ-e-XoSRb8eSHmHGSD9Q,112
+pyoclk-1.1.0.dist-info/top_level.txt,sha256=SKcG8Kx8eaE3Du4Ngjdjp7t8ZsyZc9I0kdhIFy1_90A,12
+pyoclk-1.1.0.dist-info/RECORD,,
