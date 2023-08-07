@@ -1,0 +1,12 @@
+numpy
+scikit-image
+ffmpeg-python
+setuptools
+setuptools-scm
+Pillow
+
+[dev]
+pytest
+pytest-xdist
+black
+pytest-cov
