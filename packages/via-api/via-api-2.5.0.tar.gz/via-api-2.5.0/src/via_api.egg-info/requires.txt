@@ -1,0 +1,15 @@
+cached_property
+packaging
+reverse_geocoder
+haversine
+osmnx
+scikit-learn
+requests
+geopandas
+python-logging-loki
+rtree
+fastapi[all]
+pydantic
+pymongo
+cachetools
+mappymatch
