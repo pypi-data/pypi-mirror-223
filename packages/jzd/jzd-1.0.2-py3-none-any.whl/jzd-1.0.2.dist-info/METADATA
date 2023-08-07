@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: jzd
+Version: 1.0.2
+Summary: JZD (JSON Zip Data) is a Python library that provides functionality for handling JZD files, which are ZIP-compressed JSON data files. It allows you to read, write, list, delete, and rename classes within JZD files.
+Author: Mo Yan
+Author-email: 
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+
+JZD File Utility
+================
+
+The JZD File Utility is a Python library that provides a set of
+functions for managing JZD files. JZD files are compressed files that
+contain JSON data for multiple classes.
+
+Features
+--------
+
+-  Load JSON data from a JZD file for a specific class.
+-  Write JSON data into a JZD file for a specific class.
+-  List all class names in a JZD file.
+-  Delete a specific class from a JZD file.
+-  Rename a class in a JZD file.
+
+Installation
+------------
+
+You can install the JZD File Utility from PyPI using pip:
+
+::
+
+   pip install jzdfile
+
+Usage
+-----
+
+Here is an example of how to use the JZD File Utility:
+
+.. code:: python
+
+   import jzdfile
+
+   # Load data from a JZD file
+   data = jzdfile.load('path/to/jzdfile.zip', 'ClassName')
+
+   # Manipulate or process the data...
+
+   # Write data into a JZD file
+   jzdfile.write('path/to/jzdfile.zip', 'ClassName', data)
+
+   # List all class names in a JZD file
+   class_list = jzdfile.list_class('path/to/jzdfile.zip')
+
+   # Delete a class from a JZD file
+   deleted = jzdfile.delete_class('path/to/jzdfile.zip', 'ClassName')
+
+   # Rename a class in a JZD file
+   renamed = jzdfile.rename_class('path/to/jzdfile.zip', 'OldName', 'NewName')
+
+License
+-------
+
+This project is licensed under the MIT License. See the LICENSE file for
+more details. \``\`
