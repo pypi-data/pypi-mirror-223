@@ -1,0 +1,9 @@
+__init__.py
+helpers.py
+scan.py
+setup.py
+getFavicon.egg-info/PKG-INFO
+getFavicon.egg-info/SOURCES.txt
+getFavicon.egg-info/dependency_links.txt
+getFavicon.egg-info/requires.txt
+getFavicon.egg-info/top_level.txt

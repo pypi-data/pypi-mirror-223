@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: getFavicon
+Version: 0.1
+Summary: A Python library to fetch favicons from URLs
+Home-page: https://github.com/talmkg/getFavicon
+Author: Tim Afanasiev
+Author-email: timbusinez@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.1
