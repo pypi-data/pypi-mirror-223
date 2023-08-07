@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pysesh
+Version: 0.2.0
+Summary: A Python Session Manager and Multiplexer, allowing you to manage multiple sessions and their respective states, and switch between them with ease.
+Author: Connor Etherington
+Author-email: connor@concise.cc
+Requires-Dist: colr
+Requires-Dist: argparse
+Requires-Dist: rich
+Requires-Dist: inquirer
+
