@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_package.py
+verma/__init__.py
+verma.egg-info/PKG-INFO
+verma.egg-info/SOURCES.txt
+verma.egg-info/dependency_links.txt
+verma.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68", "setuptools-git-versioning<2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verma"
+description = "Version Manager. CLI tool to help you manage your package versioning."
+dynamic = ["version"]
+
+[tool.setuptools]
+packages = ["verma"]
+
+[tool.setuptools-git-versioning]
+enabled = true
