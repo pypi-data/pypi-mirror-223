@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+libssp_py/__init__.py
+libssp_py/discovery.py
+libssp_py/ssp.py
+libssp_py/tests.py
+libssp_py/util.py
+libssp_py.egg-info/PKG-INFO
+libssp_py.egg-info/SOURCES.txt
+libssp_py.egg-info/dependency_links.txt
+libssp_py.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: libssp_py
+Version: 0.0.1
+Summary: A pure Python implementation of the Simple Streaming protocol
+Author-email: Miha Frangež <miha.ssp@derp.si>
+Project-URL: Homepage, https://gitlab.com/franga2000/libssp_py
+Project-URL: Bug Tracker, https://gitlab.com/franga2000/libssp_py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ssp-py
+===
+
+A pure-Python implementation of the *Simple Streaming Protocol* (SSP), used by ImagineVision on their "Z CAM" cameras and accessories.
+
+**Tested with:**
+
+ - [Z CAM IPMAN S](https://www.z-cam.com/ipman-s/)
