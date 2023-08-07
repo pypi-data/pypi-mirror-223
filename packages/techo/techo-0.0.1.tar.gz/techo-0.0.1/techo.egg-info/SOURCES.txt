@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TEcho/__init__.py
+TEcho/message.py
+techo/__init__.py
+techo/__version__.py
+techo/message.py
+techo.egg-info/PKG-INFO
+techo.egg-info/SOURCES.txt
+techo.egg-info/dependency_links.txt
+techo.egg-info/not-zip-safe
+techo.egg-info/requires.txt
+techo.egg-info/top_level.txt
