@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: demicode
+Version: 0.1.0
+Summary: Fixed-width display of Unicode is deeply broken
+Keywords: Unicode,fixed-width,East Asian width,wcwidth,apocalypse
+Author-email: Robert Grimm <rgrimm@alum.mit.edu>
+Requires-Python: >=3.11
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Project-URL: repository, https://github.com/apparebit/demicode
+Provides-Extra: dev

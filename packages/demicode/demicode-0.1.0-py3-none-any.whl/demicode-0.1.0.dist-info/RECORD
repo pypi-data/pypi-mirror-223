@@ -1,0 +1,13 @@
+demicode/.gitattributes,sha256=Gh2-F2vCM7SZ01pX23UT8pQcmauXWfF3gwyRSb6ZAFs,66
+demicode/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+demicode/__main__.py,sha256=9LCFtVZPHVFfeK3LEYK6aCyOB607Q7XfP1Q01SRNta4,4886
+demicode/ansi.py,sha256=CR3U3g6iCTHSSQB426f1PMV9gmCRVKazgdxmRLGM154,1116
+demicode/codepoint.py,sha256=FdUQWlfToFXhil6b1vSVlKYyfDx0RCe3GkTA5RMmHdw,4519
+demicode/display.py,sha256=WW6mIYEzROUWj_fU8vy3P-APGJweCrZ8vUcfZw7cQpM,9041
+demicode/property.py,sha256=eqjoGicbgRU8qkTCcX0oeT0EYXKz2VYCNcepBwA8Qv0,2585
+demicode/ucd.py,sha256=FJcio8UKKyMYtd_lfsYAQbbm2pXS9Hv_Z82Qex3BPU0,15890
+demicode-0.1.0.dist-info/entry_points.txt,sha256=E3Rl8-attFEBzjUv3d5TwxZRGbNqOHfEi98jtRbCJN0,51
+demicode-0.1.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+demicode-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+demicode-0.1.0.dist-info/METADATA,sha256=PBmYSbFkT8radmMZnryg8Rsx8ZUFU6GMiRNEqLbRZ5A,405
+demicode-0.1.0.dist-info/RECORD,,
