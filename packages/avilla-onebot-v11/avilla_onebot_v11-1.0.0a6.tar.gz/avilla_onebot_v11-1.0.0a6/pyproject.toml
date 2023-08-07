@@ -1,0 +1,268 @@
+[project]
+name = "avilla-onebot-v11"
+version = "1.0.0-alpha.6"
+authors = [
+    { name = "GreyElaina", email = "GreyElaina@outlook.com" },
+]
+dependencies = [
+    "aiohttp>=3.8.1",
+    "starlette>=0.30.0",
+    "wsproto>=1.2.0",
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/GraiaProject/Avilla"
+repository = "https://github.com/GraiaProject/Avilla"
+
+[build-system]
+requires = [
+    "mina-build",
+    "editables",
+]
+build-backend = "mina.backend"
+
+[tool.pdm.build]
+includes = [
+    "avilla/onebot/v11",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.7.0",
+    "mina-build>=0.4.0",
+    "richuru>=0.1.1",
+    "ruff>=0.0.272",
+    "uvicorn>=0.22.0",
+    "devtools>=0.11",
+    "ipykernel>=6.23.2",
+    "pip>=23.2.1",
+    "pdm-mina>=0.2.2",
+]
+
+[tool.mina]
+enabled = false
+
+[tool.mina.packages.core]
+includes = [
+    "avilla/core",
+    "avilla/core/py.typed",
+    "avilla/standard/core",
+]
+
+[tool.mina.packages.core.project]
+name = "avilla-core"
+version = "1.0.0-alpha.6"
+authors = [
+    { name = "GreyElaina", email = "GreyElaina@outlook.com" },
+    { name = "BlueGlassBlock", email = "blueglassblock@outlook.com" },
+    { name = "ProgramRipper", email = "programripper@foxmail.com" },
+    { name = "RF-Tar-Railt", email = "rf_tar_railt@qq.com" },
+]
+dependencies = [
+    "graia-broadcast",
+    "graia-amnesia",
+    "loguru",
+    "launart",
+    "creart",
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.mina.packages.core.project.license]
+text = "MIT"
+
+[tool.mina.packages.core.project.urls]
+homepage = "https://github.com/GraiaProject/Avilla"
+repository = "https://github.com/GraiaProject/Avilla"
+
+[tool.mina.packages.elizabeth]
+includes = [
+    "avilla/elizabeth",
+]
+raw-dependencies = [
+    "avilla-core >= 1.0.0-alpha.6",
+    "avilla-standard-qq >= 1.0.0-alpha.6",
+]
+
+[tool.mina.packages.elizabeth.project]
+name = "avilla-elizabeth"
+version = "1.0.0-alpha.6"
+authors = [
+    { name = "GreyElaina", email = "GreyElaina@outlook.com" },
+]
+dependencies = [
+    "aiohttp",
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.mina.packages.elizabeth.project.license]
+text = "MIT"
+
+[tool.mina.packages.elizabeth.project.urls]
+homepage = "https://github.com/GraiaProject/Avilla"
+repository = "https://github.com/GraiaProject/Avilla"
+
+[tool.mina.packages."onebot/v11"]
+includes = [
+    "avilla/onebot/v11",
+]
+raw-dependencies = [
+    "avilla-core >= 1.0.0-alpha.6",
+    "avilla-standard-qq >= 1.0.0-alpha.6",
+]
+
+[tool.mina.packages."onebot/v11".project]
+name = "avilla-onebot-v11"
+version = "1.0.0-alpha.6"
+authors = [
+    { name = "GreyElaina", email = "GreyElaina@outlook.com" },
+]
+dependencies = [
+    "aiohttp>=3.8.1",
+    "starlette>=0.30.0",
+    "wsproto>=1.2.0",
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.mina.packages."onebot/v11".project.license]
+text = "MIT"
+
+[tool.mina.packages."onebot/v11".project.urls]
+homepage = "https://github.com/GraiaProject/Avilla"
+repository = "https://github.com/GraiaProject/Avilla"
+
+[tool.mina.packages.console]
+includes = [
+    "avilla/console",
+]
+raw-dependencies = [
+    "avilla-core >= 1.0.0-alpha.6",
+]
+
+[tool.mina.packages.console.project]
+name = "avilla-console"
+version = "0.2.0"
+authors = [
+    { name = "RF-Tar-Railt", email = "rf_tar_railt@qq.com" },
+]
+dependencies = [
+    "nonechat",
+]
+description = "Avilla Console Protocol"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.mina.packages.console.project.license]
+text = "AGPL-3.0"
+
+[tool.mina.packages.console.project.urls]
+homepage = "https://github.com/GraiaProject/Avilla"
+repository = "https://github.com/GraiaProject/Avilla"
+
+[tool.mina.packages."standard/qq"]
+includes = [
+    "avilla/standard/qq",
+]
+raw_dependencies = [
+    "avilla-core >= 1.0.0-alpha.6",
+]
+
+[tool.mina.packages."standard/qq".project]
+name = "avilla-standard-qq"
+version = "1.0.0-alpha.6"
+authors = [
+    { name = "GreyElaina", email = "GreyElaina@outlook.com" },
+    { name = "BlueGlassBlock", email = "blueglassblock@outlook.com" },
+    { name = "ProgramRipper", email = "programripper@foxmail.com" },
+    { name = "RF-Tar-Railt", email = "rf_tar_railt@qq.com" },
+]
+dependencies = []
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.mina.packages."standard/qq".project.license]
+text = "MIT"
+
+[tool.mina.packages."standard/qq".project.urls]
+homepage = "https://github.com/GraiaProject/Avilla"
+repository = "https://github.com/GraiaProject/Avilla"
+
+[tool.mina.packages."qqguild/tencent"]
+includes = [
+    "avilla/qqguild/tencent",
+]
+raw_dependencies = [
+    "avilla-core >= 1.0.0-alpha.6",
+    "avilla-standard-qq >= 1.0.0-alpha.6",
+]
+
+[tool.mina.packages."qqguild/tencent".project]
+name = "avilla-qqguild-tencent"
+version = "1.0.0-alpha.6"
+authors = [
+    { name = "RF-Tar-Railt", email = "rf_tar_railt@qq.com" },
+]
+dependencies = [
+    "aiohttp",
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.mina.packages."qqguild/tencent".project.license]
+text = "MIT"
+
+[tool.mina.packages."qqguild/tencent".project.urls]
+homepage = "https://github.com/GraiaProject/Avilla"
+repository = "https://github.com/GraiaProject/Avilla"
+
+[tool.mina.packages.chronocat]
+includes = [
+    "avilla/red",
+]
+raw_dependencies = [
+    "avilla-core >= 1.0.0-alpha.6",
+    "avilla-standard-qq >= 1.0.0-alpha.6",
+]
+
+[tool.mina.packages.chronocat.project]
+name = "avilla-qqguild-tencent"
+version = "1.0.0-alpha.6"
+authors = [
+    { name = "RF-Tar-Railt", email = "rf_tar_railt@qq.com" },
+]
+dependencies = [
+    "aiohttp",
+]
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.mina.packages.chronocat.project.license]
+text = "MIT"
+
+[tool.mina.packages.chronocat.project.urls]
+homepage = "https://github.com/GraiaProject/Avilla"
+repository = "https://github.com/GraiaProject/Avilla"
+
+[tool.black]
+include = "\\.pyi?$"
+line-length = 120
+target-version = [
+    "py39",
+]
+
+[tool.isort]
+profile = "black"
