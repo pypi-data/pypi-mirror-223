@@ -1,0 +1,9 @@
+LICENSE
+README.md
+morepipes.py
+pyproject.toml
+morepipes.egg-info/PKG-INFO
+morepipes.egg-info/SOURCES.txt
+morepipes.egg-info/dependency_links.txt
+morepipes.egg-info/requires.txt
+morepipes.egg-info/top_level.txt
