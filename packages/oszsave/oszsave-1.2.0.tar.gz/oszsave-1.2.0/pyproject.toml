@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "oszsave"
+version = "1.2.0"
+description = "A powerful osu map downloader"
+authors = ["forgedcore8"]
+license = "GNU v3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.24.1"
+selenium = "^4.11.2"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^4.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
