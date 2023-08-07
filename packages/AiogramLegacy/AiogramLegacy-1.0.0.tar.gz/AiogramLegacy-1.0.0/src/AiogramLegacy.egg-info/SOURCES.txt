@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/AiogramLegacy/__init__.py
+src/AiogramLegacy.egg-info/PKG-INFO
+src/AiogramLegacy.egg-info/SOURCES.txt
+src/AiogramLegacy.egg-info/dependency_links.txt
+src/AiogramLegacy.egg-info/requires.txt
+src/AiogramLegacy.egg-info/top_level.txt
+src/AiogramLegacy/questioning/__init__.py
+src/AiogramLegacy/questioning/questions.py
+src/AiogramLegacy/questioning/questions_manager.py
+src/AiogramLegacy/storages/__init__.py
+src/AiogramLegacy/storages/mysql.py
+src/AiogramLegacy/storages/postgresql.py
+src/AiogramLegacy/storages/sqlite.py

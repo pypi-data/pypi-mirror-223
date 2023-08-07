@@ -1,0 +1,6 @@
+aiogram>3
+asyncpg
+aiomysql
+aiosqlite
+jsonpickle
+aiohttp
