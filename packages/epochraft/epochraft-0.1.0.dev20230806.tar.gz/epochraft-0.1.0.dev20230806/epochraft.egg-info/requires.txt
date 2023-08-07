@@ -1,0 +1,13 @@
+torch
+numpy
+
+[development]
+black
+blackdoc
+flake8
+isort
+mypy
+pytest
+mosaicml-streaming
+transformers
+sentencepiece
