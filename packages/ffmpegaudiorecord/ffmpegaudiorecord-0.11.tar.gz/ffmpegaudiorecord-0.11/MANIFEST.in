@@ -1,0 +1,3 @@
+include ffmpegaudiorecord/requirements.txt
+include ffmpegaudiorecord/thirdparty.json
+include ffmpegaudiorecord/README.MD
