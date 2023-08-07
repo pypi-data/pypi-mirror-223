@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Camera-open
+Version: 0.1
+Summary: Just to open camera of a laptop.
+Home-page: UNKNOWN
+Author: Sudhanshu Deshmukh
+Author-email: sudhanshudeshmukh5894@gmail.com
+License: MIT
+Keywords: camera
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a simple library to open a camera of laptop.
+

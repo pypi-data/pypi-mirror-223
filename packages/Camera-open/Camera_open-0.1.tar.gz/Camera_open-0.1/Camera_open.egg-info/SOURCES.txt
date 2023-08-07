@@ -1,0 +1,10 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+Camera_open.egg-info/PKG-INFO
+Camera_open.egg-info/SOURCES.txt
+Camera_open.egg-info/dependency_links.txt
+Camera_open.egg-info/requires.txt
+Camera_open.egg-info/top_level.txt
+OpenCV2/__init__.py
