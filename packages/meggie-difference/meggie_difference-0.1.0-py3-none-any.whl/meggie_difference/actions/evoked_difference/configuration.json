@@ -1,0 +1,5 @@
+{
+    "id": "evoked_difference",
+    "name": "Compute differences",
+    "entry": "EvokedDifference"
+}

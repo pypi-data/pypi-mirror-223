@@ -1,0 +1,13 @@
+meggie_difference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meggie_difference/configuration.json,sha256=Jtltw_mUf6yXo6vP32BIR-fiHli1jFq4mCzpGlRxMBk,258
+meggie_difference/actions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meggie_difference/actions/evoked_difference/__init__.py,sha256=8Am6i3iuomUNd-aBKEnmvVy_Oky9Y8Gw5CuezPm8QJc,2465
+meggie_difference/actions/evoked_difference/configuration.json,sha256=I2w3_xTGryGcoQ7XZB6J9rWCVZkZGNwQlTI5hgvVRgA,102
+meggie_difference/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meggie_difference/utilities/dialogs/differenceDialogMain.py,sha256=_ln43I2i4kGpZ0dJ9VXqpQRc7Ly3vHNGWCAyQx35juY,3212
+meggie_difference/utilities/dialogs/differenceDialogUi.py,sha256=fk1nwiHFm4OSbFi2sExJaFNotfbv97RBJn3ItYIiWV8,6899
+meggie_difference/utilities/dialogs/differenceDialogUi.ui,sha256=NwhWjTUtP5Wavct1bK2VKwQl2QacJl8sYfFITqccJUQ,6396
+meggie_difference-0.1.0.dist-info/METADATA,sha256=n9kVqWxgjFsgsV9-USP2JbFgSl9RjU3Ptkl1HeZU8PQ,105
+meggie_difference-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+meggie_difference-0.1.0.dist-info/top_level.txt,sha256=CX2cFb0l1liynrs3K6U_oafz7BSMsd7Yuf5aN3KM_NU,18
+meggie_difference-0.1.0.dist-info/RECORD,,
