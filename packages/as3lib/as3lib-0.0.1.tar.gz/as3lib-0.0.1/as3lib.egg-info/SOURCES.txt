@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+as3lib/__init__.py
+as3lib/interface_tk.py
+as3lib/toplevel.py
+as3lib.egg-info/PKG-INFO
+as3lib.egg-info/SOURCES.txt
+as3lib.egg-info/dependency_links.txt
+as3lib.egg-info/requires.txt
+as3lib.egg-info/top_level.txt
