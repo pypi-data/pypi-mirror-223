@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: poochpunt
+Version: 0.1
+Summary: Utlities to work with NFL tracking datasets 
+Author-email: Brock Tibert <btibert3@gmail.com>
+Requires-Python: >=3.10
+Project-URL: Home, https://github.com/btibert3/poochpunt
