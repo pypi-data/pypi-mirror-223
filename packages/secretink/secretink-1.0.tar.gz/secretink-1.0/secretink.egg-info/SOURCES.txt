@@ -1,0 +1,9 @@
+README.md
+setup.py
+secretink/__init__.py
+secretink/a.py
+secretink.egg-info/PKG-INFO
+secretink.egg-info/SOURCES.txt
+secretink.egg-info/dependency_links.txt
+secretink.egg-info/requires.txt
+secretink.egg-info/top_level.txt
