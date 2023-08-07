@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyrtlib
+Version: 1.0.0
+Summary: pyrtlib - Radiative Transfer library
+Home-page: 
+Author: slarosa
+Author-email: salvatore-larosa@cnr.it
+License: GPLv3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: pytest ==7.2.0
+Requires-Dist: pytest-datafiles >=2.0
+Requires-Dist: netCDF4
+Requires-Dist: requests
+Requires-Dist: bs4
+
