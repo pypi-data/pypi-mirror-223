@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: e2b
+Version: 0.0.1
+Summary: SDK for managing e2b environment sessions
+Home-page: https://e2b.dev/
+License: MIT
+Author: e2b
+Author-email: hello@e2b.dev
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aenum (>=3.1.11)
+Requires-Dist: aiohttp (>=3.8.4)
+Requires-Dist: jsonrpcclient (>=4.0.3,<5.0.0)
+Requires-Dist: pydantic (>=1.10.5,<2.0.0)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: websockets (>=11.0.3,<12.0.0)
+Project-URL: Bug Tracker, https://github.com/devbookhq/api/issues
+Project-URL: Repository, https://github.com/devbookhq/api/tree/master/
+Description-Content-Type: text/markdown
+
+# E2B SDK
+
