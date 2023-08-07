@@ -1,0 +1,9 @@
+numpy>=1
+semantic-version>=2.8.5
+
+[dev]
+pip-tools
+pytest
+pytest-cov
+pytest-mock
+flake8
