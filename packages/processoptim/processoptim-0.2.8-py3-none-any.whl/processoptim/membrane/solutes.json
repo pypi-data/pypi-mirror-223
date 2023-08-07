@@ -1,0 +1,45 @@
+[
+    {
+        "label": "COD",
+        "B": 0.00108,
+        "k": 0.054,
+        "formula": "COD",
+        "synonyms": [],
+        "desc": "Chemical Oxygen Demand"
+    },
+    {
+        "label": "sucrose",
+        "B": 0.000144,
+        "k": 0.036,
+        "formula": "C_{12}H_{22}O_{11}",
+        "synonyms": [],
+        "desc": ""
+    },
+    {
+        "label": "fructose",
+        "B": 5.4e-05,
+        "k": 0.0432,
+        "formula": "C_{6}H_{12}O_{6}",
+        "synonyms": [],
+        "desc": ""
+    },
+    {
+        "label": "lactic acid",
+        "B": 0.00027,
+        "k": 0.0684,
+        "formula": "C_3H_6O_3",
+        "synonyms": [],
+        "desc": ""
+    },
+    {
+        "label": "AcOH",
+        "B": 0.0144,
+        "k": 0.0288,
+        "formula": "C_2H_4O_2",
+        "synonyms": [
+            "acetic acid",
+            "ethanoic acid"
+        ],
+        "desc": "Acetic Acid"
+    }
+]
