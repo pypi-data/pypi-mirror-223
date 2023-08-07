@@ -1,0 +1,9 @@
+README.md
+setup.py
+selectpy/Select.py
+selectpy/__init__.py
+selectpy.egg-info/PKG-INFO
+selectpy.egg-info/SOURCES.txt
+selectpy.egg-info/dependency_links.txt
+selectpy.egg-info/requires.txt
+selectpy.egg-info/top_level.txt
