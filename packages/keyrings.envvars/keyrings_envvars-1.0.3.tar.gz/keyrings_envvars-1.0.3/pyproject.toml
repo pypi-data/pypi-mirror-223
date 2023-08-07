@@ -1,0 +1,96 @@
+[build-system]
+build-backend = 'flit_core.buildapi'
+requires = ['flit_core >=3.9.0']
+
+[project]
+authors = [{email = 'wirelessduck+py@gmail.com', name = 'Tom Cassidy'}]
+classifiers = [
+  'Development Status :: 5 - Production/Stable',
+  'License :: OSI Approved :: MIT License',
+  'Programming Language :: Python :: 3',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Programming Language :: Python :: 3.9',
+  'Typing :: Typed',
+]
+dependencies = [
+  'keyring>=23.4.0',
+]
+description = 'keyring backend plugin to retrieve credentials from environment variables.'
+name = 'keyrings.envvars'
+readme = 'README.rst'
+requires-python = '>=3.9,<4'
+version = '1.0.3'
+
+[project.entry-points."keyring.backends"]
+envvars = 'keyrings.envvars.keyring:EnvvarsKeyring'
+
+[project.optional-dependencies]
+mypy = [
+  'keyring>=23.4.0',
+  'mypy==1.4.1',
+  'nox==2023.4.22',
+  'pytest==7.4.0',
+]
+pytest = [
+  'pytest-antilru==1.1.1',
+  'pytest-cov==4.1.0',
+  'pytest-flakefinder==1.1.0',
+  'pytest-openfiles==0.5.0',
+  'pytest-randomly==3.13.0',
+  'pytest-xdist[psutil]==3.3.1',
+  'pytest==7.4.0',
+]
+
+[project.urls]
+Documentation = 'https://github.com/wwuck/keyrings.envvars'
+Home = 'https://github.com/wwuck/keyrings.envvars'
+Source = 'https://github.com/wwuck/keyrings.envvars'
+Tracker = 'https://github.com/wwuck/keyrings.envvars/issues'
+
+[tool.black]
+line-length = 120
+skip-string-normalization = true
+
+[tool.check-wheel-contents]
+package = 'src/keyrings'
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_decorated = true
+disallow_any_explicit = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+implicit_reexport = true
+namespace_packages = true
+no_implicit_optional = true
+show_error_codes = true
+strict_equality = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+[tool.pydoclint]
+arg-type-hints-in-docstring = false
+style = 'sphinx'
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.isort]
+known-first-party = ['src']
+
+[tool.tomlsort]
+all = true
+in_place = true
+trailing_comma_inline_array = true
+
+[tool.yamlfix]
+section_whitelines = 1
+sequence_style = 'block_style'
