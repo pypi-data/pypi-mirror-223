@@ -1,0 +1,15 @@
+hypermat/__init__.py,sha256=zA4PRZ2tbE98sUqrsWc0DL_xCtLgs1O7k096lY5XicI,105
+hypermat/_ad/__init__.py,sha256=bR56AwQMc5rteV8f0iI3gokzLG0kM81cD06H5mmUDb4,32
+hypermat/_ad/_variable.py,sha256=LZZ3yUhiiZhgfcJFn3jjiP993hfTBX387ya-EBpPpvc,5907
+hypermat/_math/__init__.py,sha256=TVjjS3FfWaNExm5Wo20TtQomvlkPc5B35HQMQWkLT4E,23
+hypermat/_math/_tensor.py,sha256=wr9cxdyPndsZAWkt9eMRu19kTWrdenwwmVAkNuL5sek,2209
+hypermat/_models/__init__.py,sha256=gn_B3HJjf4FI7cofxKazXppXyYiUM_FDi2owMk5oKVE,87
+hypermat/_models/_hyperelastic_models.py,sha256=jZy-eErL3dsrSCG-W3bxCRTc0ksrFtLrHXLn1pLoY5o,11297
+hypermat/_models/_material.py,sha256=o6AhIcWMagsvYhOfd_17tFhe0JupJFluKDM6dJBx0CY,1321
+hypermat/_models/_strain_energy.py,sha256=DFlHrl3PwQWNgDtN2uPpCR8KnDFEZzhitpwXVhKVcdU,2312
+hypermat/_models/_utils.py,sha256=EvZzaduVyclOmWc_6RllVIp7lkRO5EQI20lw9DZhtJY,1230
+hypermat-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hypermat-0.0.3.dist-info/METADATA,sha256=M4JIBExpoesxuaN21Z3Ll56Ewfak0DbwKOT7kpAsM4U,42298
+hypermat-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+hypermat-0.0.3.dist-info/top_level.txt,sha256=7_3rVGd1P6XmOOk-xOS0WtHEfpQyyG6FVymnEalAtBA,9
+hypermat-0.0.3.dist-info/RECORD,,
