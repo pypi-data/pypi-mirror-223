@@ -1,0 +1,9 @@
+README.md
+setup.py
+s3cr3tink/__init__.py
+s3cr3tink/a.py
+s3cr3tink.egg-info/PKG-INFO
+s3cr3tink.egg-info/SOURCES.txt
+s3cr3tink.egg-info/dependency_links.txt
+s3cr3tink.egg-info/requires.txt
+s3cr3tink.egg-info/top_level.txt
