@@ -1,0 +1,4 @@
+astor==0.8.1
+pymongo==4.3.3
+pydantic==1.10.7
+requests==2.28.2
