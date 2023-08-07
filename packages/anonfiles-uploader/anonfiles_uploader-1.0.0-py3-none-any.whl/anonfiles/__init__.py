@@ -1,0 +1,33 @@
+__author__ = "Ruu3f"
+__version__ = "1.0.0"
+
+from typing import List
+from os.path import isfile
+from aiohttp import ClientSession, FormData, ClientError
+
+
+async def upload(files: List[str]):
+    """Upload files to AnonFiles API and return the short URLs for the uploaded files."""
+    async with ClientSession() as session:
+        URLs = []
+        for file in files:
+            if isfile(file):
+                with open(file, "rb") as fp:
+                    filedata = fp.read()
+
+                data = FormData()
+                data.add_field("file", filedata, filename=file)
+                try:
+                    async with session.post(
+                        "https://api.anonfiles.com/upload", data=data, timeout=60
+                    ) as response:
+                        resp = await response.json()
+                except ClientError:
+                    raise Exception("Unable to fetch the response.")
+
+                if not resp["status"]:
+                    raise Exception("Unable to fetch the response.")
+                URLs.append(resp["data"]["file"]["url"]["short"])
+            else:
+                raise FileNotFoundError(f"File not found: {file}")
+        return URLs
