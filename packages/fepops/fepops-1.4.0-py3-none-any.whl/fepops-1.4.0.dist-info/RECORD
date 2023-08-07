@@ -1,0 +1,16 @@
+fepops/__init__.py,sha256=X5dLA8mUvzlv3jqomMcXjBhgAnvjtHFcZRIkUQeKR-Q,31
+fepops/__main__.py,sha256=dy5Zf5jP_G5KZMIEPfDr_RD_AIUyXen5cvrCt7UOVfs,3499
+fepops/benchmark.py,sha256=UTv_nzxxjTlcLM8EbwiQ90lap2acNWPLLxuR5pL3pyg,16988
+fepops/dude_preprocessor.py,sha256=AZ6wNWZHlMBZmfzq-gKeRMMmyqarM579rtDggtxCAxk,4855
+fepops/fepops.py,sha256=pBB7mnq25cUrKhLuCcerUht81qaWsPLNtafYwH5q7n8,33769
+fepops/fepops_persistent/__init__.py,sha256=K4gidwcXwKsQXKM0vfJFClOG38JlVfWGPgDtOFjnWgk,143
+fepops/fepops_persistent/fepops_persistent_abc.py,sha256=dkwXRuHD7HmZkD6sFw3JjXnSGaLeUKyxuLHfQuDCHCM,13921
+fepops/fepops_persistent/fepopsdb_json.py,sha256=AnC2U7731PJfmquPVj2KSYDQ8LGYhW8Ns9mEz9B1ZO0,3567
+fepops/fepops_persistent/fepopsdb_sqlite.py,sha256=gtGe-lEF6HVkmMQphxb08p-nezlRGZTUCHc9GOxawuU,5365
+fepops/fepops_persistent/utils.py,sha256=LNrSOjNpB1rR3xH1VNyWaHfwnC5sf0Lcx9ogrFLTQCU,527
+fepops-1.4.0.dist-info/LICENSE.md,sha256=-3a7dF3poBr-Zz98Rz5HQmGfUxqEpyT2uX28Ko-Spi4,1068
+fepops-1.4.0.dist-info/METADATA,sha256=DvPsYEBv95c63CFm4OLjxfge6NJi84jRavCzDOrr7c4,320
+fepops-1.4.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+fepops-1.4.0.dist-info/entry_points.txt,sha256=QvDWuSW3V8CKoV9icDA_lFjwRVJc1SzZSSodhwMU84g,61
+fepops-1.4.0.dist-info/top_level.txt,sha256=W6Jl1BWg1bdK5rNYiLRuoBSG8UrzA-eFGIqLj3WPHfk,7
+fepops-1.4.0.dist-info/RECORD,,
