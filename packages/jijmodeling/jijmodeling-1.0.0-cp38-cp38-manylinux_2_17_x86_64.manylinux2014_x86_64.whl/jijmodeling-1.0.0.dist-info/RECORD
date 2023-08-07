@@ -1,0 +1,11 @@
+jijmodeling-1.0.0.dist-info/METADATA,sha256=RWyrFMSvBe7E77GCbtrWFzdCCpPAgzlbiJ_L41WRK1I,2861
+jijmodeling-1.0.0.dist-info/WHEEL,sha256=1K3Fp1a0AvgVRfKbfwXZ8VBmx1y1hXeacirq7mWrXz0,127
+jijmodeling-1.0.0.dist-info/license_files/LICENSE.txt,sha256=T5HdEbP5NWG8fZbvF9pofeteW3HrS30V3_LvtPUHFYM,3400
+LICENSE.txt,sha256=T5HdEbP5NWG8fZbvF9pofeteW3HrS30V3_LvtPUHFYM,3400
+PKG_README.md,sha256=fyiFlOZXRiWOmvbtYRogY2kSBlSwDAhgxZKrWsVD7q8,1565
+jijmodeling.pyi,sha256=l8ZaRyhrpNYPnrVvGepQWhIs1UGG5fDd5Ys0pDQpu-w,127219
+jijmodeling/__init__.py,sha256=dTz5lvd2qXlLmjsXX3Pq7v2_dptMkGNTWIf37gSrvwE,127
+jijmodeling/__init__.pyi,sha256=l8ZaRyhrpNYPnrVvGepQWhIs1UGG5fDd5Ys0pDQpu-w,127219
+jijmodeling/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jijmodeling/jijmodeling.cpython-38-x86_64-linux-gnu.so,sha256=U7G-2fgrTmzH-swlx11hWv2_DCVJKptk3DVJrkrRdco,2395280
+jijmodeling-1.0.0.dist-info/RECORD,,
