@@ -1,0 +1,9 @@
+win-basic-tools>=0.4.0
+
+[:python_version < "3.11"]
+tomlkit>=0.11.5
+
+[all]
+whatchdog>=3.2.1
+ssd_checker>=1.0.3
+pygit2>=1.11.1
