@@ -1,0 +1,12 @@
+clea/__init__.py,sha256=hH7-smlRc2ThJgEGzhXO-Vc4MpLce84ib5UWV1p8gbU,60
+clea/context.py,sha256=wgNDDy_iOgoREGoiwS8lB4fGIv593AgwacpF9vKjeyM,476
+clea/exceptions.py,sha256=tz5lHQMzU7JPIROAopkW17Bh9qGCHg6-lJJHuv7jf6g,500
+clea/helpers.py,sha256=6G5FdaGJT_YSIEHC_S5ez2FRwyrCSTGgrtcWv7jAwcY,792
+clea/params.py,sha256=Q60xbKu5ppPFEBUCHS-_UhTixrPPUJqfe7cVKaVZus8,11225
+clea/parser.py,sha256=gjI4M3TtCveBy_6GLThf70KNPPX1X0S0qFMGPloi8Zk,5464
+clea/runner.py,sha256=20na5Namx5_QQCDS4SjIONl2TXCTktV15BQAlk7Xgvw,475
+clea/wrappers.py,sha256=vOOV2p83AL6prn1PcpIeNvaMVEHB7QcEsnGQaEPJe1s,11862
+clea-0.1.0rc0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+clea-0.1.0rc0.dist-info/METADATA,sha256=Pk_Ww6EzJ7ZyzTIInVcxpN--3hsqHgz5gtTT86T4diM,1564
+clea-0.1.0rc0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+clea-0.1.0rc0.dist-info/RECORD,,
