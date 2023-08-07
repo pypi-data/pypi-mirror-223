@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+cerberuspy/__init__.py
+cerberuspy/client.py
+cerberuspy.egg-info/PKG-INFO
+cerberuspy.egg-info/SOURCES.txt
+cerberuspy.egg-info/dependency_links.txt
+cerberuspy.egg-info/top_level.txt
