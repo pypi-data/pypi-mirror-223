@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+HaploDynamics.egg-info/PKG-INFO
+HaploDynamics.egg-info/SOURCES.txt
+HaploDynamics.egg-info/dependency_links.txt
+HaploDynamics.egg-info/requires.txt
+HaploDynamics.egg-info/top_level.txt
