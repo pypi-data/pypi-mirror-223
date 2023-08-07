@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+aespark/__init__.py
+aespark.egg-info/PKG-INFO
+aespark.egg-info/SOURCES.txt
+aespark.egg-info/dependency_links.txt
+aespark.egg-info/not-zip-safe
+aespark.egg-info/requires.txt
+aespark.egg-info/top_level.txt
+aespark/static/ip.txt
+aespark/static/材料模板.docx
+aespark/static/银行卡BIN.txt
