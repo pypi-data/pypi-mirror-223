@@ -1,0 +1,12 @@
+[build-system]
+    requires = ["setuptools>=61.0"]
+    build-backend = "setuptools.build_meta"
+[project]
+    name = "my-project-name"
+    version = "0.0.0"
+    authors = [
+        {name = "Jacob Striebel"}
+    ]
+    description = "My project name"
+[project.urls]
+    "Homepage" = "https://github.com/striebel/python-project-stub"
