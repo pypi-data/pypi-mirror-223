@@ -1,0 +1,12 @@
+random_word_numpy/__init__.py,sha256=fnrFg2TPxkSkp32v8oNJKHSmiOiJAox5yYoFydDODIs,189
+random_word_numpy/random_word.py,sha256=wtJMVEmcVvaZDMsJMdcK8il_A34F7Q4zEDTqSEWfcxo,259
+random_word_numpy/database/words.json,sha256=Myt5N0Q286-YpxISHwED0lzUPrGBOqVhbjAe6PCZ8sE,6825598
+random_word_numpy/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+random_word_numpy/services/local.py,sha256=o46igIVZJp7ucjSIOes-K3viR0RGzTGBzHeZs1vbr48,592
+random_word_numpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+random_word_numpy/tests/test_random_word.py,sha256=V9ccESzX5947nOUwesp1fAKdOukqfBXegkPdsdAnMQo,288
+random_word_numpy-0.0.1.dist-info/LICENSE,sha256=huRUHwv7Uz5ms3PPM4cMuKIm7MnSUQh71WSQnGyE1kM,1070
+random_word_numpy-0.0.1.dist-info/METADATA,sha256=uyyrqm8IlyiHe96mPKH5n01fJkB-KMu0PfAKEOP7ygU,3727
+random_word_numpy-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+random_word_numpy-0.0.1.dist-info/top_level.txt,sha256=fJtZb2-fJbb9E1tVXuNqprUxnsoXDjnfStjJMaPInoY,18
+random_word_numpy-0.0.1.dist-info/RECORD,,
