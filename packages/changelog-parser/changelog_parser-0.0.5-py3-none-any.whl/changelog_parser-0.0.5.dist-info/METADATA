@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: changelog-parser
+Version: 0.0.5
+Summary: Parses changelog files
+Author-email: Jason Stiefel <Jason.R.Stiefel@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 JasonStiefel
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://github.com/JasonStiefel/changelog-parser
+Project-URL: changelog, https://github.com/JasonStiefel/changelog-parser/blob/main/CHANGELOG.md
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: semver
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+
+# changelog-parser
+Yet another python changelog parser.
+* Loads data from a [`CHANGELOG.md` file](https://keepachangelog.com/en/1.1.0/) using code like:
+   ```python
+   import changelog
+
+   with open( "CHANGELOG.md", 'rb' ) as fp:
+     changes = changelog.load( fp )
+   ```
+   or
+   ```python
+   import changelog
+
+   with open( "CHANGELOG.md", 'r' ) as fp:
+     changes = changelog.loads( fp.read() )
+   ```
+* Returns it in the following schema (some types are Python objects and not valid JSON schema):
+   ```js
+   {
+     "$schema": "https://json-schema.org/draft-07/schema#",
+     "title": "Loaded Changelog",
+     "type": "array",
+     "items": {
+       "type": "object",
+       "properties": {
+         "version": {
+           "oneOf": [ {
+             "const": "Unreleased"
+           }, {
+             "type": "semver.Version",
+             "description": "Python object from https://pypi.org/project/semver/"
+           } ]
+         },
+         "date": {
+           "oneOf": [ {
+             "const": null
+           }, {
+             "type": "datetime.date",
+             "description": "Python object from https://docs.python.org/3/library/datetime.html#date-objects; parsed using \"fromisoformat\""
+           } ]
+         },
+         "yanked": {
+           "type": "boolean"
+         },
+         "added": { "$ref": "#/$defs/change_list" },
+         "changed": { "$ref": "#/$defs/change_list" },
+         "depreciated": { "$ref": "#/$defs/change_list" },
+         "removed": { "$ref": "#/$defs/change_list" },
+         "fixed": { "$ref": "#/$defs/change_list" },
+         "security": { "$ref": "#/$defs/change_list" },
+         "compare_url": {
+           "type": "string",
+           "pattern": "^https?:\\/\\/.+"
+         }
+       },
+       "required": [ "version", "date", "yanked" ],
+       "additionalProperties": false
+     },
+     "$defs": {
+       "change_list": {
+         "type": "array",
+         "items": { "type": "string" }
+       }
+     }
+   }
+   ```
