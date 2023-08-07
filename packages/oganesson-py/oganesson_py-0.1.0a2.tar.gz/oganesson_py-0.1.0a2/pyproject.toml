@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "oganesson-py"
+version = "0.1.0-alpha2"
+description = ""
+authors = ["robertpsoane <robertsoane101@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+radon = "^6.0.1"
+click = "^8.1.6"
+pydantic = "^2.1.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+pre-commit = "^3.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+oganesson = "oganesson_py.main:main"
+
