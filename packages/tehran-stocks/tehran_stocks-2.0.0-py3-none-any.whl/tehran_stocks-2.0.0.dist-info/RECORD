@@ -1,0 +1,16 @@
+tehran_stocks/__init__.py,sha256=z1C27EPSxnlx6IzVKyEgX7Eye1T1xHGCubFfQnTWk4E,539
+tehran_stocks/config/__init__.py,sha256=ZbkKZTGfSD-IsrwGn1QZlWMVV9SqWrkpfAiH4RSMFTU,22
+tehran_stocks/config/config.default.yml,sha256=duQwb8vxF_dXR0lnjofpRr7lL9xH2L0_W242D15ambI,100
+tehran_stocks/config/engine.py,sha256=JMsHoKgIeq8LY_UFucvgo6GwlK1eA_SP0ZVZf8GGFZ8,2313
+tehran_stocks/download/__init__.py,sha256=K0OlOhvf8UrMdbVw2g4xCEdqa9S1S0IYXKLKWOlXk28,154
+tehran_stocks/download/base.py,sha256=BKKAMqRY5kdTdjNwYBVf-i_9WnOQymGe5tj_jFTcZEM,35
+tehran_stocks/download/names.py,sha256=LzsIf89SgGh0i_6iljtYDGIASogrkcwg84fEUpH-ld8,4722
+tehran_stocks/download/price.py,sha256=FfGzfojuWzFYP9Yjb9iG-FlZotg04lcnIWxXR9vSIWc,4853
+tehran_stocks/initializer.py,sha256=PU1kP7ay9GWCk2HsTZvSIbwyaVsT2kz9aZsvayC8zys,1384
+tehran_stocks/models/__init__.py,sha256=OJUM8zIEkG6iOPYVQ-dMadyPrcHgSfzuHqs69XmZWns,77
+tehran_stocks/models/create.py,sha256=58Tj0krjrvL7kh1mz6qtuU2sn7E74l1Xlwh6zZpLTts,171
+tehran_stocks/models/stocks.py,sha256=Xaak71svfSdN9LUg9cr0BWkP3vnl6EQI7wo07r4mahc,6626
+tehran_stocks-2.0.0.dist-info/LICENSE,sha256=cnTm8hxECl_txnP6eRZDHEzjgIeXQGYsLYWuaV99wtY,1068
+tehran_stocks-2.0.0.dist-info/METADATA,sha256=C2N-7J3plS6b1tsoeSHaB6csidrwBMoCfziJcpaEyCk,7771
+tehran_stocks-2.0.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+tehran_stocks-2.0.0.dist-info/RECORD,,
