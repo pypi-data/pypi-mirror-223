@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+spaceprob/__init__.py
+spaceprob.egg-info/PKG-INFO
+spaceprob.egg-info/SOURCES.txt
+spaceprob.egg-info/dependency_links.txt
+spaceprob.egg-info/top_level.txt
