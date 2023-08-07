@@ -1,0 +1,5 @@
+[console_scripts]
+stdfanalyse = stdfanalyser:main
+stdfconvert = converter:main
+stdfrerunwithnewlimits = simulator:main
+
