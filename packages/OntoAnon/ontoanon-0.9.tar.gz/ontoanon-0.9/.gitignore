@@ -1,0 +1,9 @@
+__pycache__
+build
+dist
+.gitignore
+profiler_test.py
+main.spec
+profile.prof
+.vscode/settings.json
+-.spec
