@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: howso-engine
+Version: 1.0.111
+Summary: Howso Engine and Scikit Estimator for the interpretable Machine Learning and Artificial Intelligence API.
+Home-page: https://howso.com
+Author: Howso Incorporated
+Author-email: support@howso.com
+License: GNU Affero General Public License v3
+Project-URL: Documentation, https://docs.community.howso.com/
+Keywords: machine learning,artificial intelligence
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Introduction 
+Diveplane Reactor Community is a meta package for installing Diveplane reactor python requirements and core components as python resources.

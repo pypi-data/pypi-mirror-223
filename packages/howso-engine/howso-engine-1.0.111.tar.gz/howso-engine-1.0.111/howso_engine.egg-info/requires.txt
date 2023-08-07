@@ -1,0 +1,2 @@
+howso-engine-api==6.5.9
+certifi
