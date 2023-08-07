@@ -1,0 +1,2 @@
+[console_scripts]
+monstera = monstera._core._entry_points:_console

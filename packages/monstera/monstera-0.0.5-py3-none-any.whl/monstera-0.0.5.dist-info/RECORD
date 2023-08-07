@@ -1,0 +1,12 @@
+monstera/__init__.py,sha256=dvBf7jxT8St2bnvdIDnBXoA5w6ob6Af3EiXqH64Jkm0,2583
+monstera/__main__.py,sha256=lnBgnrBAAErUFAOD9ihhAlJ7lvEzDIxdBtT6p4x3Bsk,1402
+monstera/_core/__init__.py,sha256=m2VZ20EG5QZiJmi3X9_dLjLIY9CVoSjr1oXWOAp0vWc,1272
+monstera/_core/_entry_points.py,sha256=YmvJnnCW11c2McO7w78xDw3-XKSLI5teEQUtLFQ5OnM,5613
+monstera/_core/_main.py,sha256=eVyQUqG2VtiP2LWJEOzjvlGHzaOgosGjd5uiqrfyu4U,5509
+monstera/_core/_utils.py,sha256=Me6VkI4HIcBV7gf9YgAiB2JCPS6Lwa7-K4MKtWLQMeQ,1532
+monstera-0.0.5.dist-info/LICENSE.md,sha256=isK8pz6Rrm58er2z0o7Zkg1uO4xgtSXRf_8A8GltVIw,1099
+monstera-0.0.5.dist-info/METADATA,sha256=nQ0HIBXUHAKiFunAR9DmeApimrmN9V32WVcdm17JPJw,5731
+monstera-0.0.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+monstera-0.0.5.dist-info/entry_points.txt,sha256=8IjqO77pVCxrsK7bH66GpP76awpj391v6zG4gP17Aek,67
+monstera-0.0.5.dist-info/top_level.txt,sha256=o8ujgJv59T4ZsrPo9uCMUzD7DxR8Mt_K6qAg7_SvT_U,9
+monstera-0.0.5.dist-info/RECORD,,
