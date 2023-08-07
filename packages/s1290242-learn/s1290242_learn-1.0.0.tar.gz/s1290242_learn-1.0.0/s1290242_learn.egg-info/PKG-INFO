@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: s1290242-learn
+Version: 1.0.0
+Summary: This software is being developed at the University of Aizu, Aizu-Wakamatsu, Fukushima, Japan
+Home-page: https://github.com/todorokitai/s1290242_learn/
+Author: TatsuyaTsuji
+Author-email: s1290242@u-aizu.ac.jp
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: gpu
+Provides-Extra: spark
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
