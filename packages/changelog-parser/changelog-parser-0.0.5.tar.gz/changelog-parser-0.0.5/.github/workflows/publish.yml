@@ -1,0 +1,26 @@
+name: Deploy
+on:
+  push:
+    branches: main
+    paths:
+    - src/**
+    - pyproject.toml
+    - README.md
+    - LICENSE
+
+jobs:
+  Build-and-Publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/changelog-parser
+    permissions:
+      id-token: write
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - run: python3 -m pip install build --user
+    - run: python3 -m build --sdist --wheel --outdir dist/
+    - uses: pypa/gh-action-pypi-publish@release/v1

@@ -1,0 +1,7 @@
+semver
+
+[test]
+coverage
+pylint
+pytest
+pytest-xdist
