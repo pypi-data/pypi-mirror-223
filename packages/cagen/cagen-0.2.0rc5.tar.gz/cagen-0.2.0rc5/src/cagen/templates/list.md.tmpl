@@ -1,0 +1,52 @@
+---
+% if title is not UNDEFINED:
+title: ${title}
+% endif
+---
+<%
+  import types
+
+%>
+
+<%def name="make_index(col)">
+% for e in sorted(col.entries):
+- [${e}](${e.path})
+% endfor
+</%def>
+
+<%def name="sorted_index(col, crit)">
+
+<%
+grouped = cols.group_by(cri)
+%>
+
+% for key in sorted(grouped.keys()):
+
+# ${key}
+
+% for entry in sorted(grouped[key]):
+- [${entry}](${entry.path})
+% endfor
+
+% endfor
+
+</%def>
+
+
+% if groupby is not UNDEFINED:
+  % if isinstance(groupby, types.FunctionType):
+  ${sorted_index(collection, groupby)}
+  % elif isinstance(groupby, str):
+  <%
+    criterium = lambda x: x.to_dict[groupby] if groupby in x.to_dict else None
+  %>
+  ${sorted_index(collection, criterium)}
+  % else:
+  ${make_index(col=collection)}
+  % endif
+
+% else:
+
+${make_index(col=collection)}
+
+% endif
