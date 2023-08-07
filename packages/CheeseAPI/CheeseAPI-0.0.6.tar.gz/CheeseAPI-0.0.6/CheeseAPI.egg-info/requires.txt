@@ -1,0 +1,5 @@
+uvicorn[standard]
+CheeseType
+CheeseLog
+xmltodict
+blinker
