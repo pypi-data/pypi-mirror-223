@@ -1,0 +1,2 @@
+[console_scripts]
+contract-ui-gen = py_contract_ui.generate_ui:main
