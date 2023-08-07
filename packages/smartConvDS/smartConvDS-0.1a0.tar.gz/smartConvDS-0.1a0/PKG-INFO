@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: smartConvDS
+Version: 0.1a0
+Summary: Data Conversion and Docker Image Generation Tool
+Home-page: https://github.com/tmukh
+Download-URL: https://github.com/tmukh/ds2dc/archive/refs/tags/Pre-Release.tar.gz
+Author: Tarik Abu Mukh
+Author-email: t_abu20@cs.uni-kl.de
+License: MPL-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
