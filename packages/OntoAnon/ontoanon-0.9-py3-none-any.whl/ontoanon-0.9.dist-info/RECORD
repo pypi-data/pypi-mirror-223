@@ -1,0 +1,6 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/anonymization.py,sha256=XYMsvOtQw8jlfr5AkYfQQvz55HwpEdcPHSWOAY9eiRg,14183
+src/main.py,sha256=1CB_Skfd3rLpYLXHYUfzEjvOzAAGJCp7r2TBv6uMp1Y,7789
+ontoanon-0.9.dist-info/METADATA,sha256=86CZoA5yoqM0c1pyPMjBHNQgPWVa-IiFKKhtFWQhmMw,2633
+ontoanon-0.9.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ontoanon-0.9.dist-info/RECORD,,
