@@ -1,0 +1,12 @@
+[build-system]
+    requires = ["setuptools>=61.0"]
+    build-backend = "setuptools.build_meta"
+[project]
+    name = "document-batcher"
+    version = "0.0.0"
+    authors = [
+        {name = "Jacob Striebel"}
+    ]
+    description = "Document batcher"
+[project.urls]
+    "Homepage" = "https://github.com/striebel/document-batcher"

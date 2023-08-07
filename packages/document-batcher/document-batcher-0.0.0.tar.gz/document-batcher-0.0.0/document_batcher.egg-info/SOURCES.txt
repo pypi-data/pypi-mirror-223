@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+document_batcher/__main__.py
+document_batcher.egg-info/PKG-INFO
+document_batcher.egg-info/SOURCES.txt
+document_batcher.egg-info/dependency_links.txt
+document_batcher.egg-info/top_level.txt
