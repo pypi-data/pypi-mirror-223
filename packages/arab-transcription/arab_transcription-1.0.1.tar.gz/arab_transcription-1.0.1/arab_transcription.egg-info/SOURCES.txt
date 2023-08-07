@@ -1,0 +1,14 @@
+ArabText.py
+README.md
+__init__.py
+alphabet.py
+mapping.py
+pyproject.toml
+setup.py
+transliterator.py
+_types/__init__.py
+_types/linked_queue.py
+arab_transcription.egg-info/PKG-INFO
+arab_transcription.egg-info/SOURCES.txt
+arab_transcription.egg-info/dependency_links.txt
+arab_transcription.egg-info/top_level.txt
