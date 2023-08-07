@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nzooherd-pyzen"
+version = "0.1.0"
+description = ""
+authors = ["nzooherd <nzooherd@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nzooherd_pyzen"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
