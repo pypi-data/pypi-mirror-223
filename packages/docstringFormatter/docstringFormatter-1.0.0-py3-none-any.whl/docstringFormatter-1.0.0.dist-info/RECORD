@@ -1,0 +1,8 @@
+src/docstringFormatter/__init__.py,sha256=T3rXILqEdGVufIvyFj-zrnTNCEuAsQ5SCBudQCKZgPg,428
+src/docstringFormatter/_version.py,sha256=muYmqTgELy1zJzNJKLPMgw3K-082S1YBsbW4580KlBg,164
+src/docstringFormatter/docstringFormatter.py,sha256=pZbIBYEpFuuFMTVcGliarCEoyS2IRwayr2wrfu1Dk1g,3662
+docstringFormatter-1.0.0.dist-info/LICENSE,sha256=B8ploArh6n4sgJf99SX3ZHzUjvJ7UADIOau19M0Fn0s,181
+docstringFormatter-1.0.0.dist-info/METADATA,sha256=j3b2MPXLcuNH5kkwHyt3GUZRKcky0zg4xoMTWSmioHY,9267
+docstringFormatter-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+docstringFormatter-1.0.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+docstringFormatter-1.0.0.dist-info/RECORD,,
