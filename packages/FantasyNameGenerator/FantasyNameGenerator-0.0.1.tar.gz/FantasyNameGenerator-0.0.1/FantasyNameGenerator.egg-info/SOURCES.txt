@@ -1,0 +1,10 @@
+README.md
+setup.py
+FantasyNameGenerator/Stores.py
+FantasyNameGenerator/__init__.py
+FantasyNameGenerator/dnd.py
+FantasyNameGenerator/generator.py
+FantasyNameGenerator.egg-info/PKG-INFO
+FantasyNameGenerator.egg-info/SOURCES.txt
+FantasyNameGenerator.egg-info/dependency_links.txt
+FantasyNameGenerator.egg-info/top_level.txt

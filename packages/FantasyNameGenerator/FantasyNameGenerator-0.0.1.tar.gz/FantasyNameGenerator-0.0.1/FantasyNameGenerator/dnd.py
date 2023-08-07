@@ -1,0 +1,3035 @@
+class Aarakocra:
+    n1 = [
+        "", "", "", "", "", "c", "cl", "cr", "d", "g", "gr", "h", "k", "kh", "kl", "kr", "q", "qh", "ql", "qr", "r",
+        "rh", "s", "y", "z"
+    ]
+    n2 = [
+        "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e",
+        "i", "u", "a", "e", "i", "u", "ae", "aia", "ee", "oo", "ou", "ua", "uie"
+    ]
+    n3 = ["c", "cc", "k", "kk", "l", "ll", "q", "r", "rr"]
+    n4 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "aa", "ea", "ee", "ia", "ie"]
+    n5 = ["", "", "", "", "c", "ck", "d", "f", "g", "hk", "k", "l", "r", "rr", "rc", "rk", "rrk", "s", "ss"]
+
+
+class Aasimer:
+    m1 = ["", "", "", "", "", "b", "c", "cr", "d", "gr", "k", "kr", "l", "m", "n", "p", "s", "t", "w", "z"]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "ai", "au", "ie", "ia", "ea"
+    ]
+    m3 = [
+        "b", "b", "d", "d", "dr", "g", "g", "gr", "gn", "k", "k", "kw", "kr", "l", "l", "lw", "lr", "lm", "ln", "lg",
+        "lt", "m", "m", "mr", "ml", "mw", "n", "n", "nr", "nl", "ng", "nv", "nw", "r", "r", "rl", "rw", "rg", "rn", "t",
+        "t"
+    ]
+    m4 = ["l", "m", "n", "n", "n", "nt", "r"]
+    f1 = ["", "", "", "", "b", "br", "d", "dr", "h", "l", "m", "n", "p", "ph", "r", "rh", "v", "vh", "w"]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "oe", "ou", "ua", "ea", "ia"
+    ]
+    f3 = [
+        "d", "d", "dr", "dy", "gr", "j", "j", "l", "l", "ll", "lt", "ld", "lm", "ln", "ldr", "ls", "m", "m", "mr", "mk",
+        "ml", "n", "n", "ndr", "nd", "nk", "ng", "nd", "ny", "nm", "p", "p", "pr", "r", "r", "rk", "rl", "s", "s", "v",
+        "v", "y", "y", "z", "z"
+    ]
+    f4 = ["", "", "", "", "", "", "", "", "", "h", "l", "n", "r"]
+    s1 = ["", "", "", "", "b", "br", "d", "dr", "h", "k", "kr", "l", "m", "n", "p", "r", "s", "t", "v", "w", "z"]
+    s2 = ["a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y"]
+    s3 = [
+        "b", "d", "g", "gr", "h", "k", "kr", "km", "l", "ll", "lr", "ls", "lg", "ldr", "lm", "lw", "m", "mr", "ml", "n",
+        "nm", "ng", "nv", "nk", "p", "pr", "r", "rl", "rg", "rv", "rw", "s", "v", "z"
+    ]
+    s4 = ["", "", "", "l", "m", "n", "r"]
+
+
+class Bugbear:
+    n1 = ["b", "br", "chr", "d", "g", "gh", "hr", "kh", "n", "r", "st", "t", "th", "v", "z", "zh"]
+    n2 = ["a", "e", "i", "o", "u"]
+    n3 = ["d", "dd", "dr", "g", "gh", "gg", "gr", "rr", "rd", "rg", "rn", "t", "tt", "tr", "v", "vr", "z", "zz"]
+    n4 = ["a", "i", "o", "u"]
+    n5 = ["k", "lk", "mkk", "n", "nn", "nk", "r", "rk", "rr", "th"]
+
+
+class Catfolk:
+    f1 = ["br", "c", "cr", "dr", "f", "g", "gr", "j", "k", "kr", "m", "n", "p", "pr", "q", "qr", "r", "t", "z"]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "y", "y", "ou", "au", "ei"
+    ]
+    f3 = [
+        "c", "cc", "cd", "cb", "g", "gg", "gt", "gb", "gd", "k", "kk", "kh", "kt", "mb", "mk", "mq", "nq", "nk", "ng",
+        "q", "qh", "r", "rr", "rq", "rk", "th", "w"
+    ]
+    f4 = ["", "m", "n", "r", "s", "th"]
+    m1 = ["", "", "", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "z"]
+    m2 = ["a", "e", "i", "o", "u"]
+    m3 = [
+        "f", "ff", "l", "ly", "lh", "ls", "lr", "lm", "ln", "m", "my", "mh", "n", "ny", "nh", "ph", "phr", "r", "rr",
+        "ry", "rh", "sy", "sh", "sr", "sl", "th", "ty", "y"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "h", "s"]
+
+
+class Centaur:
+    m1 = [
+        "", "", "", "b", "d", "dw", "g", "gh", "gw", "j", "k", "kh", "m", "n", "rh", "t", "th", "v", "vr", "z", "d",
+        "g", "k", "l", "m", "n", "r", "th", "v"
+    ]
+    m2 = ["ae", "ai", "a", "e", "i", "o", "a", "e", "o", "a", "e", "i", "o", "a", "e", "o"]
+    m3 = [
+        "f'r", "l'n", "l'd", "m'v", "m'z", "n'z", "n'v", "n'r", "sh'r", "s'r", "s'z", "s'l", "z'r", "z'h", "d", "dr",
+        "g", "gl", "gr", "k", "kr", "kl", "l", "ll", "ld", "ldr", "ln", "lr", "lv", "lz", "lzr", "m", "mr", "n", "nn",
+        "nd", "nv", "r", "rl", "th", "z", "zl", "zr"
+    ]
+    m4 = ["", "", "", "d", "g", "h", "l", "ld", "lk", "n", "nd", "r", "rd", "s", "t", "th"]
+
+    f1 = ["b", "d", "f", "h", "l", "m", "n", "ph", "r", "s", "sh", "v", "z", "l", "n", "r", "v", "z"]
+    f2 = [
+        "ea", "ia", "ae", "a", "e", "a", "e", "i", "a", "e", "a", "e", "i", "a", "e", "a", "e", "i", "o", "a", "e", "a",
+        "e", "i", "a", "e", "a", "e", "i", "a", "e", "a", "e", "i", "o"
+    ]
+    f3 = [
+        "d", "dh", "dr", "fr", "fl", "fn", "g", "gl", "gr", "ld", "ldr", "lg", "ln", "lr", "lth", "lv", "lz", "n", "nr",
+        "nv", "r", "rl", "rn", "rg", "rs", "rz", "rsh", "z", "zh", "zr", "zl"
+    ]
+    f4 = ["g", "h", "l", "n", "r", "s", "sh", "t", "th"]
+
+    s1 = [
+        "Aspen", "Autumn", "Birch", "Bloom", "Boulder", "Brook", "Brown", "Bright", "Brush", "Burrow", "Cedar",
+        "Crater", "Creek", "Drift", "Dust", "Earthen", "Elm", "Fall", "Flood", "Fog", "Forest", "Grass", "Green",
+        "Grove", "Hail", "Hazel", "Hill", "Hollow", "Ice", "Iron", "Laurel", "Maple", "Moon", "Moss", "Mountain",
+        "Oaken", "Peak", "Pine", "Plain", "Rain", "Ridge", "River", "Rock", "Snow", "Spring", "Star", "Stone", "Storm",
+        "Summer", "Sun", "Thorn", "Timber", "Valley", "Vine", "Willow", "Winter", "Wood", "Yew"
+    ]
+    s2 = [
+        "bark", "basker", "bearer", "binder", "blade", "blesser", "blossom", "blossoms", "booster", "borne", "braid",
+        "braider", "braids", "breaker", "bringer", "bruiser", "caller", "carver", "catcher", "chanter", "charger",
+        "chaser", "cleanser", "conqueror", "crest", "dancer", "darter", "defender", "divider", "dreamer", "drinker",
+        "eyes", "fader", "fighter", "force", "forcer", "former", "gatherer", "glow", "groom", "groomer", "guard",
+        "heart", "herald", "hold", "hoof", "laugh", "leaf", "leaper", "leaves", "limp", "love", "mane", "mangle",
+        "march", "mask", "mind", "muse", "pass", "pelt", "petals", "prowl", "prowler", "push", "reign", "rest",
+        "reveler", "ride", "rise", "roamer", "roar", "run", "runner", "rush", "rusher", "scorn", "screamer", "seeker",
+        "shadow", "shield", "shifter", "shine", "sign", "sleep", "slumber", "smile", "smirk", "spark", "spell", "stare",
+        "strength", "tail", "temper", "thread", "trampler", "tree", "twister", "voice", "volley", "wander", "wanderer",
+        "watch", "watcher", "whisper", "whisperer", "wish"
+    ]
+    s3 = ['']
+    s4 = ['']
+
+
+class Changeling:
+    n1 = ["", "", "", "b", "d", "f", "h", "j", "l", "m", "n", "p", "r", "s", "t", "v", "w", "y"]
+    n2 = [
+        "a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "ee", "ie", "ea", "ae", "ai",
+        "oo", "ou"
+    ]
+    n3 = ["c", "g", "gs", "k", "ks", "kt", "m", "n", "rx", "rt", "rs", "s", "sk", "t", "ts", "x", "z"]
+    n4 = [
+        "a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "a", "i", "o", "u", "ee", "ie", "ea", "ae", "ai",
+        "oo", "ou"
+    ]
+
+
+class Dhampir:
+    m1 = [
+        "Quelii", "Zintius", "Fertuitus", "Dorlus", "Versum", "Zegrath", "Sebastian", "Christoph", "Kristoph",
+        "Thaddeus", "Abel", "Abraham", "Acheron", "Adam", "Adrian", "Alaric", "Alec", "Aleister", "Aleron", "Alexander",
+        "Alfred", "Aliester", "Angel", "Angelus", "Anton", "Arad", "Aramastus", "Archibald", "Armand", "Arnold",
+        "Arthur", "Asa", "Ascelin", "Asema", "Asmodeus", "Astaroth", "Astrophel", "Athanasius", "Auberon", "Aubrey",
+        "Aurel", "Azerrad", "Azriel", "Balthazar", "Barnabas", "Bartholomew", "Benedict", "Benjamin", "Bertram",
+        "Bjorn", "Blayze", "Boris", "Brander", "Brandyn", "Brendan", "Bryce", "Byron", "Cadell", "Cadogan", "Caedmon",
+        "Cain", "Caleb", "Cassius", "Cazimir", "Christian", "Church", "Ciaran", "Ciro", "Clarence", "Cleon", "Cole",
+        "Colin", "Constantine", "Corbett", "Corbin", "Creighton", "Cynfael", "Cyprian", "Cyran", "D'Arcy", "Daire",
+        "Damascus", "Damian", "Damien", "Damon", "Danag", "Daniel", "Dante", "Darick", "Darius", "Darren", "Darrien",
+        "Davon", "Davorin", "Demetrius", "Demidicus", "Demitri", "Desmond", "Deverell", "Devin", "Dimitri", "Dommik",
+        "Donovan", "Dorian", "Doru", "Dragon", "Dragos", "Drake", "Draven", "Dregan", "Dreven", "Duncan", "Duradel",
+        "Echo", "Edmund", "Edward", "Edwin", "Eldon", "Elijah", "Elwin", "Emery", "Emil", "Enoch", "Eoghan", "Eoin",
+        "Erasmus", "Etienne", "Everild", "Ezekiel", "Ezra", "Fabian", "Fane", "Florin", "Francis", "Frank", "Frederick",
+        "Frey", "Gabe", "Gabriel", "Gadiel", "Gair", "Gale", "Gareth", "Garrett", "Garroway", "Garth", "Gattas",
+        "Gawain", "Gdalicanu", "Gethin", "Ghislaine", "Gilbert", "Godfrey", "Gossom", "Gregory", "Griffin", "Grimbald",
+        "Griswold", "Hacan", "Hale", "Hannibal", "Harland", "Harold", "Heathcliffe", "Hendrik", "Henry", "Heskel",
+        "Holstein", "Horace", "Horatio", "Hunter", "Iancu", "Ichabod", "Idris", "Ingram", "Isaac", "Isaiah", "Ishmael",
+        "Jacob", "Jael", "Jagger", "Jairus", "James", "Jarlath", "Jarlen", "Jasper", "Jedediah", "Jeffrey", "Jeremy",
+        "Jett", "Jonas", "Jonathan", "Jorin", "Joseph", "Joshua", "Julian", "Julien", "Julius", "Justin", "Kalon",
+        "Kane", "Kapral", "Karpov", "Kayne", "Kazimir", "Keenan", "Keir", "Keiran", "Kellam", "Kern", "Khalid",
+        "Killian", "Kirnon", "Klyn", "Kozani", "Kragen", "Kristopher", "Lafayette", "Lance", "Lancelot", "Lauden",
+        "Laurent", "Lawrence", "Lazarus", "Leander", "Leandro", "Lennix", "Leon", "Leopold", "Lestat", "Liam", "Lionel",
+        "London", "Lothaire", "Louis", "Lucas", "Lucian", "Lucien", "Luther", "Lycidas", "Lysander", "Mabon", "Maggard",
+        "Maggart", "Magna", "Magnus", "Malachi", "Malik", "Marcel", "Marcellus", "Marcus", "Marius", "Martel",
+        "Mathias", "Maxius", "Maxwell", "Melchior", "Merle", "Merlin", "Moldark", "Mordecai", "Mordred", "Morgan",
+        "Mortas", "Mullo", "Nathan", "Nathaniel", "Neculai", "Nehemiah", "Nelo", "Niall", "Nicholas", "Nicodemus",
+        "Nicolai", "Nicu", "Nikolas", "Niles", "Nodin", "Norrix", "Nostro", "Obediah", "Oberon", "Obsidian", "Octavian",
+        "Odolff", "Oliver", "Orien", "Orion", "Orsova", "Owen", "Ozul", "Paine", "Perseus", "Peter", "Phaeron",
+        "Phelan", "Phoenix", "Qadir", "Quillan", "Quillon", "Quinn", "Radomir", "Radu", "Randal", "Ransley", "Raoul",
+        "Raphael", "Rapheal", "Raymond", "Remus", "Renwick", "Reyes", "Rhain", "Rhazien", "Richard", "Riordan",
+        "Riskel", "Roderick", "Roman", "Rufus", "Rune", "Ruse", "Saber", "Sabien", "Salem", "Samuel", "Sandor",
+        "Santiago", "Saxon", "Seain", "Sebastian", "Seskel", "Seth", "Severn", "Seymour", "Silas", "Silvan", "Simon",
+        "Sin", "Sirius", "Sliske", "Solomon", "Soran", "Spencer", "Spike", "Star", "Stelian", "Sterling", "Strix",
+        "Sullivan", "Sun", "Tallon", "Talon", "Tama", "Taos", "Tearle", "Theron", "Thomas", "Thorin", "Thorne",
+        "Tobias", "Treznor", "Ulfred", "Ulysses", "Urien", "Valentine", "Valerian", "Vance", "Vasile", "Vernon",
+        "Victor", "Viktor", "Vincent", "Virgil", "Viscardi", "Vlad", "Vladimir", "Vorigan", "Waldron", "Walter",
+        "Warren", "Wilfred", "William", "Wolf", "Wolfram", "Xanthus", "Xavier", "Xenos", "Ywain", "Zachaeus",
+        "Zachariah", "Zadicus", "Zadimus", "Zaff", "Zane", "Zaros", "Zeidan", "Zeke", "Zoltan"
+    ]
+    f1 = [
+        "Deyja", "Abby", "Abigale", "Ada", "Adriana", "Adrienne", "Aerin", "Aisling", "Akasha", "Aleron", "Alessandra",
+        "Alexandra", "Alexandria", "Alice", "Alvira", "Amalia", "Amaris", "Amber", "Amelia", "Amelie", "Ana",
+        "Anastasia", "Angelica", "Angelika", "Angelina", "Angelique", "Antoinette", "Arabella", "Arachne", "Arora",
+        "Artemia", "Asphodel", "Athena", "Aubrey", "Aurelia", "Aurora", "Austra", "Autumn", "Babylon", "Badriyah",
+        "Baptista", "Beatrice", "Beatrix", "Becca", "Bella", "Belladonna", "Bellatrix", "Bernia", "Bianca", "Bijou",
+        "Branwen", "Briallen", "Brienne", "Brigid", "Buffy", "Caera", "Calamity", "Calantha", "Calista", "Callidora",
+        "Calliope", "Carmilla", "Caroline", "Cassandra", "Cassara", "Ceiridwen", "Celeste", "Celosia", "Chandra",
+        "Chantrea", "Charity", "Charlotte", "Chaseleigh", "Chastity", "Circe", "Claire", "Clara", "Claudia",
+        "Clementine", "Constantia", "Cordelia", "Crimson", "Cristina", "Daniela", "Danika", "Daria", "Darian", "Darla",
+        "Dawn", "December", "Deidre", "Delia", "Deliliah", "Demelza", "Demetria", "Denisa", "Desdemona", "Destiny",
+        "Dominique", "Dru", "Druilla", "Drusilla", "Ebony", "Echo", "Edana", "Eden", "Eirisse", "Eirlys", "Eldia",
+        "Eleanor", "Electra", "Elena", "Elenor", "Elisabeta", "Elissa", "Elizabeth", "Ellanora", "Ellanore", "Ellena",
+        "Ellie", "Elvira", "Emberlynn", "Emerande", "Emilia", "Emily", "Emma", "Emmanuelle", "Emmeranne", "Ennata",
+        "Eranthe", "Erylis", "Esmeralda", "Esmeralde", "Esther", "Estrella", "Ethelinda", "Eunice", "Eva", "Evangeline",
+        "Eventide", "Fae", "Faine", "Faith", "Faline", "Fanchon", "Fawn", "Felicia", "Fern", "Feronia", "Fleurdelice",
+        "Florence", "Fortune", "Gabriela", "Gabrielle", "Galexialyn", "Garnette", "Genevieve", "Gertrude", "Grace",
+        "Gretchen", "Griselda", "Guinevere", "Gwendoline", "Gwendydd", "Haera", "Hagar", "Hazelmere", "Hecate", "Hegna",
+        "Helana", "Helen", "Helena", "Helga", "Henrietta", "Herma", "Hesperia", "Hestia", "Hilda", "Hildegarde",
+        "Ianira", "Ianthe", "Ileana", "Illythia", "Indigo", "Iolana", "Iolanthe", "Iona", "Ione", "Irene", "Irina",
+        "Isabella", "Isadora", "Isis", "Isolabella", "Ivory", "Ivy", "Izora", "Jacqueline", "Jade", "Jane", "Janet",
+        "Jett", "Jevera", "Jillian", "Jocasta", "Joliette", "Joscelyn", "Josephine", "Julia", "Julianna", "Julienne",
+        "Juliet", "Kafara", "Kairos", "Kala", "Kali", "Kalonice", "Kamra", "Karlene", "Kat", "Katherine", "Kathryx",
+        "Katrina", "Kavita", "Kenia", "Ketura", "Khalida", "Kiara", "Kismet", "Kolfinna", "Krista", "Kristian",
+        "Kynthia", "Lahmia", "Lamia", "Lamya", "Lavinia", "Layla", "Leandra", "Lechsinska", "Lenora", "Lenore",
+        "Leontine", "Leora", "Lethia", "Levana", "Lien", "Lilah", "Liliana", "Lilith", "Lisa", "Lisha", "Loredana",
+        "Lorelei", "Loren", "Lorraine", "Lucia", "Lucilla", "Lucinda", "Lucretia", "Lucy", "Lullaby", "Luna", "Lupe",
+        "Lycoris", "Lyllith", "Lynede", "Lynexia", "Lyra", "Lysa", "Madeline", "Madison", "Maeve", "Magda", "Magdalena",
+        "Magdelena", "Magena", "Mallory", "Margaret", "Maria", "Mariana", "Marianne", "Marta", "Matilda", "Mehira",
+        "Melantha", "Mercedes", "Mercy", "Meredith", "Merle", "Mildred", "Minerva", "Mira", "Misty", "Monique", "Mora",
+        "Morgan", "Morrisey", "Morticia", "Morwenna", "Musette", "Myth", "Myvanwy", "Naida", "Narcisa", "Natalia",
+        "Nebula", "Neferata", "Nessa", "Nevada", "Nezera", "Niamh", "Nichole", "Nicole", "Nicolette", "Nirvana",
+        "Nisha", "Nissa", "Nokomis", "Nora", "Nyx", "Oana", "Odile", "Opal", "Ophelia", "Ordelia", "Orenda", "Osanna",
+        "Pandora", "Parthena", "Permelia", "Persephone", "Petra", "Phaelyn", "Phaidra", "Philomena", "Phoenix", "Pixie",
+        "Poison", "Prudence", "Psyche", "Purity", "Pythea", "Qadira", "Quintella", "Radella", "Raelinn", "Ramona",
+        "Raphaelle", "Raven", "Ravette", "Rebecca", "Renee", "Renita", "Rhapsody", "Rhiannon", "Rhodanthe", "Riah",
+        "River", "Rosalie", "Rosalyn", "Rowena", "Ruby", "Sabina", "Sabrione", "Samantha", "Sapphira", "Sapphire",
+        "Sarah", "SarahAnn", "Scarlett", "Seiran", "Selena", "Selene", "Selina", "Senna", "Seraphine", "Seren",
+        "Sierra", "Silvana", "Silver", "Silvia", "Simone", "Sky", "Skylar", "Sorcha", "Sorina", "Star", "Stefania",
+        "Stella", "Sylvia", "Tabitha", "Tanith", "Tatiana", "Tempesta", "Tereza", "Tessa", "Thalia", "Thelma",
+        "Thessalia", "Thora", "Thordis", "Tiana", "Tierney", "Timandra", "Tizane", "Topaz", "Tourmaline", "Trista",
+        "Turaya", "Ulva", "Urania", "Ursula", "Ursulette", "Ursuline", "Valaine", "Valenthia", "Valentina", "Valeria",
+        "Valerie", "Vanessa", "Vanita", "Vanity", "Vasilisa", "Velika", "Velorina", "Velvet", "Venette", "Venus",
+        "Vesper", "Vespera", "Victoire", "Victoria", "Viessa", "Viktoria", "Violet", "Violeta", "Wanette", "Wilhelmina",
+        "Willow", "Wilma", "Winnifred", "Wren", "Xanthe", "Xaverie", "Xena", "Xylia", "Yolanthe", "Ysabelle", "Yvonne",
+        "Zabrina", "Zada", "Zafrina", "Zakira", "Zaleria", "Zara", "Zella", "Zephirah", "Zetta", "Zola"
+    ]
+    s1 = [
+        'Abram', 'Acton', 'Addington', 'Adley', 'Ainsley', 'Ainsworth', 'Alby', 'Allerton', 'Alston', 'Altham', 'Alton',
+        'Anderton', 'Ansley', 'Appleton', 'Asheton', 'Ashley', 'Ashton', 'Astley', 'Atherton', 'Atterton', 'Axton',
+        'Badger', 'Barclay', 'Barlow', 'Barney', 'Barton', 'Beckwith', 'Benson', 'Bentham', 'Bentley', 'Berkeley',
+        'Beverly', 'Bing', 'Birkenhead', 'Blackwood', 'Blakeley', 'Blakely', 'Blankley', 'Blyth', 'Blythe', 'Bradford',
+        'Bradley', 'Bradly', 'Bradshaw', 'Brady', 'Brandon', 'Branson', 'Braxton', 'Breeden', 'Brent', 'Bristol',
+        'Brixton', 'Browning', 'Brownrigg', 'Budd', 'Burton', 'Byron', 'Camden', 'Carlisle', 'Carlton', 'Carlyle',
+        'Cason', 'Charlton', 'Chatham', 'Chester', 'Cholmondeley', 'Churchill', 'Clapham', 'Clare', 'Clayden',
+        'Clayton', 'Clifford', 'Clifton', 'Clinton', 'Clive', 'Colby', 'Colton', 'Compton', 'Coombs', 'Copeland',
+        'Cornish', 'Cotton', 'Crawford', 'Cromwell', 'Cumberbatch', 'Dalton', 'Darby', 'Darlington', 'Davenport',
+        'Dayton', 'Deighton', 'Denholm', 'Digby', 'Dryden', 'Dudley', 'Eastaughffe', 'Eastoft', 'Easton', 'Elton',
+        'Emsworth', 'Enfield', 'England', 'Everleigh', 'Everly', 'Fawcett', 'Fulton', 'Garfield', 'Garrick',
+        'Gladstone', 'Graeme', 'Graham', 'Gresham', 'Hackney', 'Hadlee', 'Hadleigh', 'Hadley', 'Hailey', 'Hale',
+        'Haley', 'Hallewell', 'Halsey', 'Hamilton', 'Hampton', 'Harlan', 'Harley', 'Harlow', 'Harrington', 'Hartford',
+        'Hastings', 'Hayden', 'Hayes', 'Hayhurst', 'Hayley', 'Holton', 'Home', 'Hornsby', 'Huckabee', 'Huxley',
+        'Kelsey', 'Kendal', 'Kendall', 'Kenley', 'Kensley', 'Kent', 'Kimberley', 'Kimberly', 'Kinsley', 'Kirby',
+        'Lancaster', 'Landon', 'Langdon', 'Langley', 'Langston', 'Law', 'Leighton', 'Lester', 'Lincoln', 'Lindsay',
+        'Lindsey', 'Livingstone', 'Marlee', 'Marleigh', 'Marley', 'Marlowe', 'Marston', 'Merton', 'Middleton', 'Milton',
+        'Mitchell', 'Morley', 'Morton', 'Myerscough', 'Nash', 'Nibley', 'Northcott', 'Norton', 'Oakes', 'Oakley',
+        'Ogden', 'Paxton', 'Payton', 'Perry', 'Peyton', 'Pickering', 'Pinkerton', 'Prescott', 'Presley', 'Preston',
+        'Quinton', 'Ramsay', 'Ramsey', 'Rayden', 'Read', 'Redfield', 'Reed', 'Reid', 'Remington', 'Ridley', 'Riley',
+        'Rodney', 'Roscoe', 'Rowley', 'Royal', 'Royston', 'Rutherford', 'Rutland', 'Rylan', 'Ryland', 'Ryley', 'Shelby',
+        'Sheldon', 'Shelley', 'Shelly', 'Sherwood', 'Shipley', 'Shirley', 'Snape', 'Snowdon', 'Soames', 'Southey',
+        'Spalding', 'Spaulding', 'Springfield', 'Stafford', 'Stanford', 'Stanley', 'Stansfield', 'Stanton', 'Stapleton',
+        'Stratford', 'Sutherland', 'Sutton', 'Sydney', 'Tattersall', 'Tatum', 'Tenley', 'Tewksbury', 'Thackeray',
+        'Thornton', 'Thorpe', 'Tickle', 'Tindall', 'Tinley', 'Trollope', 'Tyndall', 'Upton', 'Vance', 'Wade',
+        'Wakefield', 'Walcott', 'Wallace', 'Walpole', 'Warwick', 'Washington', 'Webley', 'Wedgwood', 'Weld',
+        'Wellington', 'Wentworth', 'Wesley', 'Westbrook', 'Westcott', 'Weston', 'Wharton', 'Wheatley', 'Whitby',
+        'Wilberforce', 'Willoughby', 'Winchester', 'Windsor', 'Winterbourne', 'Winthrop', 'Wordsworth', 'Yardley',
+        'Yeardley', 'York', 'Yorke'
+    ]
+
+
+class Dragonborn:
+    m1 = [
+        "Ali", "Ar", "Ba", "Bal", "Bel", "Bha", "Bren", "Caer", "Calu", "Dur", "Do", "Dra", "Era", "Faer", "Fro", "Gre",
+        "Ghe", "Gora", "He", "Hi", "Ior", "Jin", "Jar", "Kil", "Kriv", "Lor", "Lumi", "Mar", "Mor", "Med", "Nar", "Nes",
+        "Na", "Oti", "Orla", "Pri", "Pa", "Qel", "Ravo", "Ras", "Rho", "Sa", "Sha", "Sul", "Taz", "To", "Trou", "Udo",
+        "Uro", "Vor", "Vyu", "Vrak", "Wor", "Wu", "Wra", "Wul", "Xar", "Yor", "Zor", "Zra"
+    ]
+    m2 = ['']
+    m3 = ['']
+    m4 = [
+        "barum", "bor", "broth", "ciar", "crath", "daar", "dhall", "dorim", "farn", "fras", "gar", "ghull", "grax",
+        "hadur", "hazar", "jhan", "jurn", "kax", "kris", "kul", "lasar", "lin", "mash", "morn", "naar", "prax",
+        "qiroth", "qrin", "qull", "rakas", "rash", "rinn", "roth", "sashi", "seth", "skan", "trin", "turim", "varax",
+        "vroth", "vull", "warum", "wunax", "xan", "xiros", "yax", "ythas", "zavur", "zire", "ziros"
+    ]
+
+    f1 = [
+        "Ari", "A", "Bi", "Bel", "Cris", "Ca", "Drys", "Da", "Erli", "Esh", "Fae", "Fen", "Gur", "Gri", "Hin", "Ha",
+        "Irly", "Irie", "Jes", "Jo", "Ka", "Kel", "Ko", "Lilo", "Lora", "Mal", "Mi", "Na", "Nes", "Nys", "Ori", "O",
+        "Ophi", "Phi", "Per", "Qi", "Quil", "Rai", "Rashi", "So", "Su", "Tha", "Ther", "Uri", "Ushi", "Val", "Vyra",
+        "Welsi", "Wra", "Xy", "Xis", "Ya", "Yr", "Zen", "Zof"
+    ]
+    f2 = ['']
+    f3 = ['']
+    f4 = [
+        "birith", "bis", "bith", "coria", "cys", "dalynn", "drish", "drith", "faeth", "fyire", "gil", "gissa", "gwen",
+        "hime", "hymm", "karyn", "kira", "larys", "liann", "lyassa", "meila", "myse", "norae", "nys", "patys", "pora",
+        "qorel", "qwen", "rann", "riel", "rina", "rinn", "rish", "rith", "saadi", "shann", "sira", "thibra", "thyra",
+        "vayla", "vyre", "vys", "wophyl", "wyn", "xiris", "xora", "yassa", "yries", "zita", "zys"
+    ]
+
+    s5 = [
+        "", "", "", "", "c", "cl", "cr", "d", "dr", "f", "g", "k", "kl", "kr", "l", "m", "my", "n", "ny", "pr", "sh",
+        "t", "th", "v", "y", "d", "j", "l", "ll", "m", "n", "nd", "rg", "r", "rr", "rd", "c", "d", "k", "l", "n", "r",
+        "s", "sh", "th"
+    ]
+    s6 = [
+        "a", "e", "i", "a", "e", "i", "o", "u", "a", "e", "i", "a", "e", "i", "o", "u", "a", "e", "i", "a", "e", "i",
+        "o", "u", "aa", "ia", "ea", "ua", "uu"
+    ]
+    s7 = [
+        "c", "cc", "ch", "lm", "lk", "lx", "ld", "lr", "ldr", "lt", "lth", "mb", "mm", "mp", "mph", "mr", "mt", "nk",
+        "nx", "nc", "p", "ph", "r", "rd", "rj", "rn", "rrh", "rth", "st", "tht", "x"
+    ]
+    s8 = [
+        "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "c", "cm", "cn", "d", "j", "k", "km",
+        "l", "n", "nd", "ndr", "nk", "nsht", "nth", "r", "s", "sht", "shkm", "st", "t", "th", "x"
+    ]
+
+
+class Drow:
+    f1 = [
+        "", "", "", "", "", "br", "bh", "c", "dh", "dr", "f", "g", "gr", "gh", "j", "k", "kr", "kh", "m", "n", "ph",
+        "q", "r", "s", "t", "v", "w", "x", "z"
+    ]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "y", "y", "y", "io", "ae", "ou", "ie", "ui", "yi", "ey"
+    ]
+    f3 = [
+        "bn", "bs", "bz", "c", "cn", "cm", "cr", "dr", "dn", "g", "gn", "gv", "gg", "k", "kr", "kz", "kn", "kq", "l",
+        "lf", "lm", "lr", "lq", "lc", "lv", "m", "mm", "mr", "mz", "ml", "mdr", "n", "ndr", "nd", "nz", "nc", "nq", "r",
+        "rc", "rn", "rr", "rz", "rdr", "rq", "t", "tr", "v", "vr", "vdr"
+    ]
+    f4 = ["", "", "", "c", "d", "g", "n", "r", "rn", "ss", "v", "x"]
+    m1 = [
+        "", "", "", "", "", "b", "c", "d", "f", "g", "h", "j", "l", "m", "n", "p", "ph", "q", "r", "s", "sc", "t", "th",
+        "tr", "v", "w", "x", "z"
+    ]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o",
+        "u", "y", "ia", "ae", "ie", "ei", "ya", "ee", "ai"
+    ]
+    m3 = [
+        "b", "b", "b", "bv", "br", "c", "c", "c", "cr", "cs", "cn", "d", "d", "d", "dr", "dh", "dv", "fr", "h", "h",
+        "h", "kr", "kn", "kl", "kv", "ksh", "l", "l", "l", "ll", "ll", "lm", "lv", "lr", "lq", "lsh", "mbr", "mr", "mv",
+        "n", "n", "n", "nn", "nd", "nsh", "ns", "nz", "nv", "nr", "p", "p", "p", "ph", "phr", "r", "r", "r", "rn",
+        "rsh", "rq", "s", "s", "s", "ss", "sh", "shr", "sc", "str", "v", "v", "vvn", "vr"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "h", "l", "n", "nth", "s", "ss"]
+    s1 = [
+        "", "", "", "", "b", "c", "d", "g", "j", "k", "m", "n", "p", "q", "r", "s", "shr", "t", "th", "v", "w", "x", "z"
+    ]
+    s2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "y", "y", "y", "y", "ae", "iu", "ei", "ie", "ia", "ai", "ee"
+    ]
+    s3 = [
+        "d", "dr", "g", "gn", "gr", "ld", "lr", "ldr", "lv", "lz", "m", "mr", "n", "nd", "nn", "ng", "nr", "ndr", "nz",
+        "nvr", "r", "rq", "rdr", "rz", "rv", "s", "sr", "shr", "str", "vr", "vn", "x", "xr", "zr", "z"
+    ]
+    s4 = ["", "", "", "", "", "c", "d", "h", "n", "rc", "s", "sh", "t", "th", "v", "x"]
+
+
+class Duergar:
+    m1 = [
+        "Ad", "Am", "Arm", "Baer", "Daer", "Bal", "Ban", "Bar", "Bel", "Ben", "Ber", "Bhal", "Bhar", "Bhel", "Bram",
+        "Bran", "Brom", "Brum", "Bun", "Dal", "Dar", "Dol", "Dul", "Eb", "Em", "Erm", "Far", "Gal", "Gar", "Ger", "Gim",
+        "Gral", "Gram", "Gran", "Grem", "Gren", "Gril", "Gry", "Gul", "Har", "Hjal", "Hjol", "Hjul", "Hor", "Hul",
+        "Hur", "Kar", "Khar", "Kram", "Krom", "Krum", "Mag", "Mal", "Mel", "Mor", "Muir", "Mur", "Rag", "Ran", "Reg",
+        "Rot", "Thal", "Thar", "Thel", "Ther", "Tho", "Thor", "Thul", "Thur", "Thy", "Tor", "Ty", "Um", "Urm", "Von"
+    ]
+    m2 = [
+        "adin", "bek", "brek", "dahr", "dain", "dal", "dan", "dar", "dek", "dir", "dohr", "dor", "drak", "dram", "dren",
+        "drom", "drum", "drus", "duhr", "dur", "dus", "garn", "gram", "gran", "grim", "grom", "gron", "grum", "grun",
+        "gurn", "gus", "iggs", "kahm", "kam", "kohm", "kom", "kuhm", "kum", "kyl", "man", "mand", "mar", "mek", "miir",
+        "min", "mir", "mond", "mor", "mun", "mund", "mur", "mus", "myl", "myr", "nam", "nar", "nik", "nir", "nom",
+        "num", "nur", "nus", "nyl", "rak", "ram", "ren", "rig", "rigg", "rik", "rim", "rom", "ron", "rum", "rus", "ryl",
+        "tharm", "tharn", "thran", "thrum", "thrun"
+    ]
+    m3 = [
+        '',
+        '',
+    ]
+    m4 = [
+        '',
+        '',
+    ]
+    f1 = [
+        "An", "Ar", "Baer", "Bar", "Bel", "Belle", "Bon", "Bonn", "Braen", "Bral", "Bralle", "Bran", "Bren", "Bret",
+        "Bril", "Brille", "Brol", "Bron", "Brul", "Bryl", "Brylle", "Bryn", "Bryt", "Byl", "Bylle", "Daer", "Dear",
+        "Dim", "Ed", "Ein", "El", "Gem", "Ger", "Gwan", "Gwen", "Gwin", "Gwyn", "Gym", "Ing", "Jen", "Jenn", "Jin",
+        "Jyn", "Kait", "Kar", "Kat", "Kath", "Ket", "Las", "Lass", "Les", "Less", "Lyes", "Lys", "Lyss", "Maer", "Maev",
+        "Mar", "Mis", "Mist", "Myr", "Mys", "Myst", "Naer", "Nal", "Nas", "Nass", "Nes", "Nis", "Nys", "Raen", "Ran",
+        "Red", "Reyn", "Run", "Ryn", "Sar", "Sol", "Tas", "Taz", "Tis", "Tish", "Tiz", "Tor", "Tys", "Tysh"
+    ]
+    f2 = [
+        "belle", "bera", "delle", "deth", "dielle", "dille", "dish", "dora", "dryn", "dyl", "giel", "glia", "glian",
+        "gwyn", "la", "leen", "leil", "len", "lin", "linn", "lyl", "lyn", "lynn", "ma", "mera", "mora", "mura", "myl",
+        "myla", "nan", "nar", "nas", "nera", "nia", "nip", "nis", "niss", "nora", "nura", "nyl", "nys", "nyss", "ra",
+        "ras", "res", "ri", "ria", "rielle", "rin", "ris", "ros", "ryl", "ryn", "sael", "selle", "sora", "syl", "thel",
+        "thiel", "tin", "tyn", "va", "van", "via", "vian", "waen", "win", "wyn", "wynn"
+    ]
+    f3 = [
+        '',
+        '',
+    ]
+    f4 = [
+        '',
+        '',
+    ]
+    s1 = [
+        "Amber", "Axe", "Battle", "Black", "Blaze", "Boulder", "Bright", "Bronze", "Cinder", "Cloud", "Cold", "Common",
+        "Crag", "Dark", "Deep", "Dew", "Earth", "Ember", "Fair", "Fire", "Fist", "Flame", "Flat", "Flint", "Free",
+        "Full", "Fuse", "Gold", "Grand", "Great", "Hammer", "Hard", "Heavy", "High", "Humble", "Iron", "Keen", "Lone",
+        "Low", "Molten", "Noble", "Plain", "Pride", "Proud", "Pyre", "Rock", "Rumble", "Shield", "Silent", "Simple",
+        "Single", "Soft", "Solid", "Steel", "Stern", "Stone", "Storm", "Stout", "Strong", "Terra", "Thunder", "Titan",
+        "True", "War", "Wild", "Winter", "Wise"
+    ]
+    s2 = [
+        "arm", "bash", "beam", "beard", "belly", "bend", "blaze", "bluff", "bough", "brace", "brand", "breath", "brew",
+        "brow", "crest", "crusher", "dew", "fall", "fell", "flare", "flow", "force", "forge", "fury", "gaze", "gem",
+        "gleam", "glide", "glow", "grip", "guard", "gut", "hair", "hand", "heart", "helm", "hide", "horn", "ingot",
+        "mane", "mantle", "maul", "might", "more", "pelt", "punch", "ridge", "roar", "scar", "shade", "shadow", "shard",
+        "shot", "shout", "sky", "snow", "spark", "steam", "strength", "stride", "strike", "surge", "sword", "thorn",
+        "track", "ward"
+    ]
+    s3 = [
+        '',
+        '',
+    ]
+    s4 = [
+        '',
+        '',
+    ]
+
+
+class Dwarf:
+    f1 = [
+        "", "", "", "", "", "b", "br", "d", "dr", "f", "g", "gr", "h", "j", "k", "m", "r", "sr", "st", "str", "t", "tr",
+        "v", "w", "z"
+    ]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "o", "u", "a", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "o", "u", "y", "y", "aa", "ai", "oo", "uu", "io", "io"
+    ]
+    f3 = [
+        "b", "br", "bm", "bn", "cr", "cd", "cn", "cm", "d", "dd", "dg", "dn", "dm", "g", "gr", "gn", "gm", "gr", "gg",
+        "gd", "k", "kk", "kl", "kn", "l", "ld", "lb", "lbr", "ldr", "lg", "lgr", "lm", "lk", "mg", "md", "n", "nf",
+        "nm", "nth", "ng", "ngr", "ndr", "nr", "r", "rg", "rgr", "rs", "rst", "rd", "rb", "v", "zm", "zb", "zd"
+    ]
+    f4 = ["c", "ck", "d", "dd", "g", "k", "l", "ls", "ld", "m", "n", "r", "rd", "rsk", "rg", "t"]
+    m1 = [
+        "", "", "", "", "", "", "b", "bh", "d", "dr", "f", "g", "gr", "gh", "h", "k", "kh", "l", "m", "n", "r", "s",
+        "sr", "t", "thr", "y", "v", "w"
+    ]
+    m2 = ["a", "e", "i", "o", "u"]
+    m3 = [
+        "bn", "bh", "bb", "b", "cw", "cn", "d", "dw", "dn", "dg", "dd", "dr", "dl", "h", "hn", "hl", "hg", "gn", "gl",
+        "gw", "gr", "gv", "k", "kk", "l", "ll", "ld", "lw", "lgr", "lgw", "lb", "lk", "m", "mm", "mw", "mgw", "mr", "n",
+        "nd", "ng", "ngr", "ngv", "nn", "nngv", "nw", "r", "rg", "rgw", "rl", "rb", "s", "ss", "tr", "v", "vr", "vl",
+        "z", "zl", "zw"
+    ]
+    m4 = [
+        "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "h", "l", "ll", "m", "n", "mn",
+        "s", "r", "t", "th"
+    ]
+    s1 = [
+        "b", "br", "bh", "d", "dr", "f", "g", "gr", "gh", "h", "j", "k", "kh", "l", "m", "n", "r", "s", "sr", "st",
+        "str", "t", "thr", "tr", "v", "w", "y", "z"
+    ]
+    s2 = [
+        "a", "e", "i", "o", "u", "a", "e", "o", "u", "a", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "o", "u", "y", "y"
+    ]
+    s3 = [
+        "b", "bb", "bh", "bm", "bn", "br", "cd", "cm", "cn", "cr", "cw", "d", "dd", "dg", "dl", "dm", "dn", "dr", "dw",
+        "g", "gd", "gg", "gl", "gm", "gn", "gr", "gv", "gw", "h", "hg", "hl", "hn", "k", "kk", "kl", "kn", "l", "lb",
+        "lbr", "ld", "ldr", "lg", "lgr", "lgw", "lk", "ll", "lm", "lw", "m", "md", "mg", "mgw", "mm", "mr", "mw", "n",
+        "nd", "ndr", "nf", "ng", "ngr", "ngv", "nm", "nn", "nngv", "nr", "nth", "nw", "r", "rb", "rd", "rg", "rgr",
+        "rgw", "rl", "rs", "rst", "s", "ss", "tr", "v", "vl", "vr", "z", "zb", "zd", "zl", "zm", "zw"
+    ]
+    s4 = [
+        "b", "c", "ck", "d", "dd", "g", "h", "k", "l", "ll", "ls", "ld", "m", "n", "mn", "r", "rd", "rsk", "rg", "s",
+        "t", "th"
+    ]
+
+
+class Elf:
+    f1 = ["", "", "", "", "", "c", "d", "f", "g", "h", "k", "kr", "l", "m", "n", "s", "t", "th", "v", "z"]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o", "e", "e", "ae", "ia", "ie",
+        "ea", "ei", "io"
+    ]
+    f3 = [
+        "ch", "cl", "cv", "dr", "dv", "g", "g", "g", "gl", "gr", "ghr", "ght", "h", "h", "h", "j", "j", "l", "l", "l",
+        "l", "l", "l", "lm", "ln", "ldr", "lvr", "ld", "ldl", "ll", "ls", "lth", "lv", "m", "m", "m", "m", "mr", "mv",
+        "n", "n", "n", "n", "nr", "nv", "nvr", "nth", "nd", "ndl", "ndr", "nl", "r", "r", "r", "r", "r", "rl", "rgr",
+        "rg", "rd", "rdl", "rdr", "s", "s", "s", "s", "sh", "shn", "st", "sv", "sr", "sth", "t", "t", "t", "th", "th",
+        "v", "v", "v", "vr", "y", "y", "y"
+    ]
+    f4 = ["", "l", "m", "n", "r", "s", "ss", "l", "m", "n", "r", "s", "ss"]
+    m1 = ["", "", "", "", "", "d", "f", "h", "j", "k", "l", "m", "n", "ph", "s", "sh", "t", "th", "v", "y"]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o",
+        "e", "e", "ie", "ia", "ea", "au", "aa", "ao", "eae", "ou", "ae"
+    ]
+    m3 = [
+        "c", "c", "c", "cl", "cn", "cm", "d", "d", "d", "dr", "dn", "dm", "g", "g", "g", "gn", "gh", "gy", "h", "h",
+        "h", "h", "hh", "hh", "hn", "hl", "hr", "l", "l", "l", "l", "l", "ll", "ll", "lm", "ln", "lhr", "lhn", "lv",
+        "ls", "lsh", "ly", "ll", "m", "m", "m", "m", "mm", "mm", "mh", "mn", "mr", "n", "n", "n", "nn", "nn", "nd",
+        "ndl", "ndr", "nn", "nr", "nth", "ns", "nl", "nh", "ny", "r", "r", "r", "rr", "rr", "rdl", "rl", "rn", "rv",
+        "rs", "s", "s", "s", "ss", "ss", "sh", "shr", "sl", "th", "v", "v", "v", "y", "y", "y"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "", "h", "l", "n", "s", "ss"]
+    s1 = [
+        "", "", "", "", "c", "d", "f", "g", "gr", "h", "j", "k", "l", "m", "n", "s", "sh", "t", "th", "v", "w", "y",
+        "z", "zh"
+    ]
+    s2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "e", "e",
+        "o", "o", "ai", "ee", "ei", "ia", "ie", "ae", "io"
+    ]
+    s3 = [
+        "cl", "d", "d", "d", "dn", "dr", "g", "g", "g", "gh", "gl", "gr", "h", "h", "h", "hh", "j", "k", "k", "k", "l",
+        "l", "l", "l", "l", "ll", "ll", "ll", "ld", "ldl", "ldr", "lf", "lhn", "lhr", "ll", "llm", "llv", "lm", "ln",
+        "ls", "lv", "lvr", "m", "m", "m", "mm", "mm", "mn", "mr", "mv", "n", "n", "n", "nn", "n", "nd", "ndl", "ndr",
+        "nl", "nn", "nr", "ns", "nth", "nv", "ph", "r", "r", "r", "rr", "rd", "rdl", "rg", "rl", "rm", "rr", "s", "s",
+        "s", "ss", "ss", "sh", "sl", "ss", "st", "th", "tl", "v", "v", "v", "y", "y", "y"
+    ]
+    s4 = ["", "", "h", "l", "m", "n", "r", "s"]
+
+
+class Fetchling:
+    f1 = ["", "", "", "br", "dr", "gr", "j", "m", "n", "q", "qr", "r", "s", "tr", "x", "y", "z"]
+    f2 = ["a", "e", "i", "o", "u"]
+    f3 = ["c", "d", "g", "h", "j", "k", "l", "m", "n", "r", "s", "t", "v", "z"]
+    f4 = ["", "", "", "c", "h", "l", "m", "n", "r", "t", "x"]
+    m1 = ["c", "f", "g", "h", "l", "m", "n", "q", "r", "s", "t", "th", "v", "y", "z"]
+    m2 = ["a", "e", "i", "o", "u"]
+    m3 = [
+        "c", "fz", "fn", "g", "gv", "gn", "gz", "h", "hn", "hv", "hz", "l", "lv", "lr", "ls", "lz", "m", "mr", "mv",
+        "mz", "nv", "nz", "nr", "r", "rr", "rs", "rz", "rh", "rv", "sc", "sh", "sr", "sv", "th", "thr", "tv", "tn"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "h", "l", "m", "n", "s", "x"]
+
+
+class Firbolg:
+    m1 = [
+        "Ad", "Ae", "Bal", "Bei", "Car", "Cra", "Dae", "Dor", "El", "Ela", "Er", "Far", "Fen", "Gen", "Glyn", "Hei",
+        "Her", "Ian", "Ili", "Kea", "Kel", "Leo", "Lu", "Mira", "Mor", "Nae", "Nor", "Olo", "Oma", "Pa", "Per", "Pet",
+        "Qi", "Qin", "Ralo", "Ro", "Sar", "Syl", "The", "Tra", "Ume", "Uri", "Va", "Vir", "Waes", "Wran", "Yel", "Yin",
+        "Zin", "Zum"
+    ]
+    m2 = [
+        "balar", "beros", "can", "ceran", "dan", "dithas", "faren", "fir", "geiros", "golor", "hice", "horn", "jeon",
+        "jor", "kas", "kian", "lamin", "lar", "len", "maer", "maris", "menor", "myar", "nan", "neiros", "nelis",
+        "norin", "peiros", "petor", "qen", "quinal", "ran", "ren", "ric", "ris", "ro", "salor", "sandoral", "toris",
+        "tumal", "valur", "ven", "warin", "wraek", "xalim", "xidor", "yarus", "ydark", "zeiros", "zumin"
+    ]
+    m3 = ['']
+    m4 = ['']
+
+    f1 = [
+        "Ad", "Ara", "Bi", "Bry", "Cai", "Chae", "Da", "Dae", "Eil", "En", "Fa", "Fae", "Gil", "Gre", "Hele", "Hola",
+        "Iar", "Ina", "Jo", "Key", "Kris", "Lia", "Lora", "Mag", "Mia", "Neri", "Ola", "Ori", "Phi", "Pres", "Qi",
+        "Qui", "Rava", "Rey", "Sha", "Syl", "Tor", "Tris", "Ula", "Uri", "Val", "Ven", "Wyn", "Wysa", "Xil", "Xyr",
+        "Yes", "Ylla", "Zin", "Zyl"
+    ]
+    f2 = [
+        "banise", "bella", "caryn", "cyne", "di", "dove", "fiel", "fina", "gella", "gwyn", "hana", "harice", "jyre",
+        "kalyn", "krana", "lana", "lee", "leth", "lynn", "moira", "mys", "na", "nala", "phine", "phyra", "qirelle",
+        "ra", "ralei", "rel", "rie", "rieth", "rona", "rora", "roris", "satra", "stina", "sys", "thana", "thyra",
+        "tris", "varis", "vyre", "wenys", "wynn", "xina", "xisys", "ynore", "yra", "zana", "zorwyn"
+    ]
+    f3 = ['']
+    f4 = ['']
+
+
+class Genasi:
+    a1 = [
+        "Ablaze", "Alight", "Ardor", "Ardour", "Arson", "Ash", "Austral", "Bake", "Beacon", "Blaze", "Blight", "Boil",
+        "Bonfire", "Brand", "Broil", "Burn", "Calcine", "Candle", "Cauterize", "Char", "Charcoal", "Cinder", "Coal",
+        "Combust", "Conflagration", "Cremate", "Crisp", "Dante", "Dantean", "Ember", "Enkindle", "Explosion", "Fervor",
+        "Fever", "Fiery", "Flame", "Flare", "Flash", "Flicker", "Flux", "Forge", "Frizzle", "Fry", "Fuego", "Fuel",
+        "Fume", "Furnace", "Glare", "Gleam", "Glint", "Glow", "Grill", "Heat", "Hell", "Hellfire", "Hot", "Igneous",
+        "Ignite", "Ignition", "Incendiary", "Incinerate", "Infernal", "Inferno", "Kiln", "Kindle", "Lantern", "Lava",
+        "Light", "Lit", "Magma", "Melt", "Nether", "Oven", "Parch", "Phoenix", "Piping", "Pyre", "Pyro", "Roast",
+        "Scald", "Scorch", "Scoria", "Sear", "Seethe", "Shine", "Singe", "Sizzle", "Smoke", "Smolder", "Soot", "Spark",
+        "Sultry", "Sun", "Swelter", "Thermal", "Thermo", "Tinder", "Toast", "Torch", "Torrid", "Volcano", "Warmth",
+        "Wildfire", "Wither"
+    ]
+    w1 = [
+        "Agua", "Aqua", "Azure", "Basin", "Bath", "Bathe", "Beck", "Bore", "Branch", "Brine", "Brook", "Cleanse",
+        "Course", "Creek", "Current", "Dabble", "Damp", "Deluge", "Dew", "Dewdrop", "Douse", "Downpour", "Drain",
+        "Drench", "Drift", "Drip", "Drizzle", "Drop", "Droplet", "Drown", "Eagre", "Estuary", "Expanse", "Flood",
+        "Flow", "Flux", "Fog", "Fountain", "Geyser", "Gush", "Hose", "Hydra", "Hydrogen", "Influx", "Jet", "Lagoon",
+        "Lake", "Lakelet", "Liquid", "Mere", "Mist", "Monsoon", "Neptune", "Ocean", "Paddle", "Plash", "Plunge", "Pond",
+        "Pool", "Precip", "Puddle", "Quagmire", "Rain", "Rill", "Rinse", "Ripple", "River", "Rivulet", "Run", "Runnel",
+        "Rush", "Sea", "Seiche", "Shower", "Soak", "Spatter", "Splash", "Spout", "Spring", "Sprinkle", "Storm",
+        "Stream", "Streamlet", "Surf", "Surge", "Swish", "Tear", "Teardrop", "Tempest", "Tidal", "Tide", "Torrent",
+        "Tributary", "Tsunami", "Typhoon", "Vapor", "Wash", "Wave", "Well", "Wet"
+    ]
+    e1 = [
+        "Adamant", "Agate", "Alabaster", "Amethyst", "Azurite", "Basalt", "Bedrock", "Block", "Boulder", "Brick",
+        "Callous", "Citrine", "Clay", "Cliff", "Cobble", "Cobblestone", "Crag", "Crystal", "Dense", "Diamond",
+        "Emerald", "Flint", "Fossil", "Fossilstone", "Garnet", "Gem", "Geo", "Geode", "Granite", "Gravel", "Grime",
+        "Ground", "Hill", "Hunk", "Ingot", "Jade", "Jewel", "Lapis", "Lazuli", "Limestone", "Lodge", "Lump",
+        "Malachite", "Marble", "Marmoreal", "Mason", "Masonry", "Mineral", "Monolith", "Moonstone", "Mountain",
+        "Nugget", "Obsidian", "Onyx", "Opal", "Ore", "Pebble", "Pellet", "Peridot", "Precious", "Quarry", "Quartz",
+        "Quartzite", "Rock", "Rocky", "Rough", "Rubble", "Ruby", "Rugged", "Sand", "Sandstone", "Sapphire", "Sediment",
+        "Shelf", "Slab", "Slate", "Soapstone", "Solid", "Spinel", "Stone", "Stony", "Sturdy", "Terra", "Tile", "Topaz",
+        "Travertine", "Turf", "Umber", "Wedge", "Zircon"
+    ]
+    f1 = [
+        "Aerate", "Aerial", "Air", "Ascend", "Atmosphere", "Aura", "Aviate", "Azure", "Blast", "Blow", "Breath",
+        "Breeze", "Celeste", "Celestial", "Chinook", "Cruise", "Current", "Cyclone", "Draft", "Drift", "Eddy",
+        "Empyrean", "Fan", "Float", "Flow", "Flurry", "Flute", "Flutter", "Fly", "Funnel", "Gale", "Gasp", "Glide",
+        "Gust", "Heave", "Heaven", "Hiss", "Hover", "Hurricane", "Lift", "Mistral", "Murmur", "Oxygen", "Ozone", "Pipe",
+        "Pneumatic", "Puff", "Rise", "Sail", "Shriek", "Sigh", "Sky", "Soar", "Squall", "Storm", "Stratosphere",
+        "Surge", "Tempest", "Tornado", "Troposphere", "Tumult", "Turbine", "Turbulence", "Twister", "Vent", "Waft",
+        "Wheeze", "Whiff", "Whirl", "Whirlwind", "Whisk", "Whistle", "Wind", "Wing", "Zephyr"
+    ]
+
+
+class Gillman:
+    m1 = [
+        'Aqilus', 'Porcus', 'Nater', 'Filtys', 'Merpus ', 'Tertis', 'Osharus', 'Rimulus', 'Aberdeen', 'Aberforth',
+        'Adrian', 'Aeces', 'Aenon', 'Agual', 'Anchor', 'Andaman', 'Anenon', 'Aquarius', 'Aquor', 'Arroyo', 'Baltic',
+        'Barracudon', 'Bay', 'Beck', 'Bered', 'Bo', 'Bourne', 'Brendan', 'Brooke', 'Bruinen', 'Calder', 'Caol', 'Cari',
+        'Caspian', 'Cato', 'Chalakon', 'Clifford', 'Clyde', 'Coburn', 'Como', 'Conway', 'Cruise', 'Cyraenan',
+        'Cyraeneus', 'Cyraeni', 'Cyreus', 'Dathan', 'Davey', 'Deniz', 'Dewy', 'Dillon', 'Dorado', 'Douglas', 'Dover',
+        'Drake', 'Duff', 'Dune', 'Duxor', 'Dylan', 'Dylon', 'Earendil', 'Ecthelion', 'Ervin', 'Finn', 'Ford', 'Gal',
+        'Gar', 'Guadalupe', 'Hali', 'Hawkins', 'Hiro', 'Hurley', 'Indra', 'Irvin', 'Irving', 'Jabal', 'Jack', 'Jacques',
+        'Jafar', 'Jetty', 'Jonah', 'Jorah', 'Jordan', 'Jubal', 'Kae', 'Kaerio', 'Kaerius', 'Kai', 'Kailani', 'Kairius',
+        'Kawai', 'Keel', 'Kelvin', 'Kendall', 'Kenn', 'Krill', 'Kyle', 'Lachlan', 'Laekces', 'Laguna', 'Laiken',
+        'Leith', 'Leomaris', 'Leven', 'Ligurian', 'Lincoln', 'Llyr', 'Lusca', 'Lynn', 'Maggiore', 'Mako', 'Marin',
+        'Marinus', 'Marious', 'Marius', 'Marlin', 'Marlow', 'Marlowe', 'Marsh', 'Marshal', 'Marsious', 'Maxwell',
+        'Merrick', 'Mizuko', 'Moby', 'Monroe', 'Moor', 'Moore', 'Morcant', 'Morgan', 'Morrissey', 'Mortimer', 'Morven',
+        'Muir', 'Muiress', 'Muriel', 'Murphy', 'Murray', 'Murrissey', 'Naga', 'Nebraska', 'Neptune', 'Neres', 'Nereus',
+        'Nerio', 'Nerrocen', 'Noelani', 'Oceanus', 'Octopian', 'Orman', 'Orta', 'Paio', 'Pelagius', 'Peleg', 'Pike',
+        'Plato', 'Poseider', 'Poseidon', 'Queseon', 'Raen', 'Ran', 'Ray', 'Reif', 'Ren', 'Rio', 'Rip', 'Roan', 'Ronan',
+        'Ross', 'Santus', 'Seaton', 'Seirus', 'Shar', 'Skipper', 'Storm', 'Strom', 'Tack', 'Tad', 'Tamesis', 'Taron',
+        'Thames', 'Tide', 'Trent', 'Trenton', 'Tridenton', 'Triton', 'Tullius', 'Wade', 'Wyatt', 'Yarrow', 'Yuval',
+        'Zale', 'Zander'
+    ]
+    f1 = [
+        'Nadia', 'Vivia', 'Tyene', 'Meri', 'Riva', 'Kelby', 'Nixie', 'Doria', 'Nerissa', 'Kailani', 'Taila', 'Leena',
+        'Nami', 'Pavati', 'Aquina', 'Nyissa', 'Oshiera', 'Marina', 'Koia', 'Sebaysha', 'Larinia', 'Corrissa', 'Aban',
+        'Abenahir', 'Aberfa', 'Adella', 'Adra', 'Adrea', 'Adreanna', 'Adria', 'Adriana', 'Adriane', 'Adrianna',
+        'Adrianne', 'Adrie', 'Adrielle', 'Adriene', 'Adrienna', 'Adrienne', 'Adrina', 'Adva', 'Aedre', 'Aegaea',
+        'Aegates', 'Aerial', 'Aerwyna', 'Afshak', 'Afshaneh', 'Afshang', 'Alana', 'Allura', 'Allure', 'Amadahy',
+        'Amara', 'Amaria', 'Amphitrite', 'Anahita', 'Anat', 'Anath', 'Andrina', 'Aphrodite', 'Apulia', 'Aquarius',
+        'Aquata', 'Ara', 'Araxie', 'Ardvisura', 'Ariel', 'Arielle', 'Arista', 'Arva', 'Arvia', 'Assana', 'Assane',
+        'Assyria', 'Atargatis', 'Attina', 'Avalon', 'Avonmora', 'Azalea', 'Bayou', 'Beatrice', 'Beck', 'Beverlee',
+        'Beverley', 'Beverly', 'Bo', 'Brimlad', 'Briny', 'Brook', 'Brooke', 'Brooklyn', 'Brooklynn', 'Brooklynne',
+        'Bubbles', 'Calder', 'Callan', 'Camie', 'Cari', 'Caspian', 'Ceto', 'Charybdis', 'Chelsea', 'Chenelle',
+        'Cherith', 'Chumani', 'Coco', 'Cora', 'Coralia', 'Cordelia', 'Cotovatre', 'Coventina', 'Cragen', 'Creiddylad',
+        'Dalis', 'Dalit', 'Darya', 'Deema', 'Delma', 'Delmar', 'Delmara', 'Delmare', 'Delora', 'Deloras', 'Deloros',
+        'Deniz', 'Diana', 'Diona', 'Diondra', 'Dione', 'Dionna', 'Dionne', 'Dominique', 'Dorea', 'Doria', 'Dorian',
+        'Doriana', 'Dorianna', 'Dorianne', 'Dorien', 'Dorienne', 'Doris', 'Dwynwen', 'Dyesebel', 'Dylan', 'Earwine',
+        'Earwyn', 'Earwyna', 'Eathelin', 'Eathelyn', 'Ebba', 'Echo', 'Edlen', 'Edlin', 'Edlyn', 'Eirene', 'Eldoris',
+        'Emily', 'Ephyra', 'Erwina', 'Erwyna', 'Euadne', 'Fontanne', 'Gal', 'Galit', 'Geneva', 'Genevieve', 'Genna',
+        'Genny', 'Genoveva', 'Genowefa', 'Ginevra', 'Glan', 'Goldie', 'Guadalupe', 'Guinemere', 'Guinevere', 'Hali',
+        'Halimeda', 'Hama', 'Hamako', 'Hanon', 'Hecate', 'Hydra', 'Indra', 'Ingemar', 'Irvetta', 'Irvette', 'Isla',
+        'Itsaso', 'Jaleh', 'Jeevika', 'Jennifer', 'Jenny', 'Jennyfer', 'Jennyver', 'Jewel', 'Jharna', 'Jorah', 'Jordan',
+        'June', 'Jurmala', 'Kai', 'Kaia', 'Kailani', 'Kairi', 'Karen', 'Kawai', 'Kawthar', 'Kelby', 'Kelda', 'Kelde',
+        'Kendall', 'Kevser', 'Kishi', 'Kishiko', 'Kyla', 'Kyle', 'Lage', 'Laguna', 'Lagune', 'Laiken', 'Lamia', 'Lana',
+        'Laraine', 'Latine', 'Lausanne', 'Leena', 'Lethe', 'Leuconoe', 'Leucothea', 'Leucothia', 'Leven', 'Lily', 'Lin',
+        'Lola', 'Lorelei', 'Lorelie', 'Lorraine', 'Lucia', 'Lyn', 'Lynn', 'Lynna', 'Lynne', 'Madison', 'Malila',
+        'Mamia', 'Marea', 'Mareen', 'Mareena', 'Marella', 'Marena', 'Maressa', 'Maricia', 'Marilla', 'Marin', 'Marina',
+        'Marinda', 'Marine', 'Marinella', 'Marinelle', 'Marinna', 'Marinochka', 'Maris', 'Marisabel', 'Marissa',
+        'Maritza', 'Mariza', 'Marlin', 'Marlow', 'Marlowe', 'Marna', 'Martha', 'Maryn', 'Maryssa', 'Masika', 'Maya',
+        'Mayim', 'Melody', 'Meltem', 'Meredith', 'Meri', 'Meriel', 'Meris', 'Merise', 'Merissa', 'Mesi', 'Mica',
+        'Michal', 'Mira', 'Miranda', 'Mishell', 'Misty', 'Mizuko', 'Moana', 'Molly', 'Monroe', 'Moor', 'Morcan',
+        'Morgaine', 'Morgan', 'Morgana', 'Morgance', 'Morgane', 'Morgann', 'Morgant', 'Morgayne', 'Morwen', 'Morwenna',
+        'Moselle', 'Muiel', 'Muirgheal', 'Murel', 'Muriel', 'Murphy', 'Murray', 'Nadah', 'Nadia', 'Nagisa', 'Nahla',
+        'Naida', 'Nami', 'Nanami', 'Narissa', 'Naunet', 'Nautia', 'Nawfar', 'Nebraska', 'Nebula', 'Nebulia', 'Neha',
+        'Neith', 'Neptune', 'Nereida', 'Nereyda', 'Nerice', 'Nerida', 'Neried', 'Nerin', 'Nerina', 'Nerine', 'Neris',
+        'Nerissa', 'Nerita', 'Nimiane', 'Nimue', 'Nineve', 'Nireta', 'Nixie', 'Noelani', 'Noelle', 'Nyneve', 'Oceane',
+        'Oceana', 'Oceane', 'Ondine', 'Oona', 'Orabel', 'Orabelle', 'Pamuya', 'Pasha', 'Pavati', 'Pearl', 'Peirene',
+        'Pelagia', 'Priscilla', 'Puakai', 'Raina', 'Raine', 'Rainey', 'Rainie', 'Ran', 'Rana', 'Reka', 'Ren', 'Rhode',
+        'Rhodos', 'Ria', 'Rilla', 'Rille', 'Rilletta', 'Rillette', 'Rillia', 'Rillie', 'Rina', 'Rio', 'Riva', 'Rive',
+        'River', 'Robeab', 'Rocio', 'Rudabeh', 'Sabrina', 'Sadaf', 'Sara', 'Scylla', 'Seira', 'Sereia', 'Serena',
+        'Serenna', 'Shabnan', 'Sheila', 'Shellina', 'Shizue', 'Siera', 'Sirena', 'Sokanon', 'Struana', 'Styx', 'Sybil',
+        'Tal', 'Talia', 'Talise', 'Tallulah', 'Talora', 'Talori', 'Talulah', 'Talya', 'Taura', 'Tefnut', 'Tethys',
+        'Thalassa', 'Thames', 'Thessalonike', 'Tishtar', 'Torlan', 'Tulia', 'Tyna', 'Tyne', 'Ula', 'Umiko', 'Una',
+        'Undina', 'Undine', 'Undinia', 'Vanora', 'Varina', 'Venilia', 'Venus', 'Vivian', 'Viviana', 'Viviane',
+        'Vivianna', 'Vivianne', 'Vivien', 'Wade', 'Waverly', 'Winnifred', 'Wynnifred', 'Yara', 'Yardenah', 'Yaritza',
+        'Yarrow', 'Yoki', 'Zhaleh'
+    ]
+
+
+class Gith:
+    m1 = [
+        "Am", "Ar", "Ara", "Aza", "Bar", "Bra", "Bran", "Bru", "Da", "Dar", "Dor", "Dra", "Dro", "Du", "Fa", "Far",
+        "Fer", "Fur", "Gan", "Gra", "Gran", "Gre", "Gro", "Gru", "Hra", "Hu", "Ka", "Kar", "Kha", "Kra", "Kro", "Ma",
+        "Mar", "Mu", "Na", "Nar", "Nir", "Nu", "On", "Or", "Ora", "Oro", "Ra", "Ran", "Rhu", "Rin", "Ru", "Sa", "Sha",
+        "Shra", "Sra", "Un", "Una", "Ur", "Ura", "Zar", "Zra"
+    ]
+    m2 = ['']
+    m3 = ['']
+    m4 = [
+        "d", "dahn", "dak", "dar", "dh", "dran", "gahr", "gh", "gor", "k", "kahr", "kar", "khar", "kiak", "kk", "kran",
+        "lag", "lahr", "lian", "lid", "lis", "llak", "loth", "mag", "mak", "miak", "mir", "nag", "nak", "niar", "nod",
+        "rad", "rag", "rak", "ram", "rath", "rek", "rg", "rm", "rth", "ruk", "tar", "th", "tig", "zad", "zag", "zak",
+        "zar", "zeg", "zirg", "zth"
+    ]
+
+    f1 = [
+        "Ad", "Alm", "Ar", "Arw", "Ash", "Dah", "Dhar", "Dolm", "Dran", "Ell", "Erzh", "Esz", "Ezh", "Genr", "Grel",
+        "Grin", "Halm", "Han", "Harn", "Heln", "Ihr", "Iln", "Imm", "Iz", "Kan", "Kharm", "Khaz", "Krez", "Laz", "Lez",
+        "Lhash", "Lir", "Magd", "Marm", "Meir", "Mir", "Nagr", "Nah", "Nalm", "Nash", "Niar", "Ohn", "Or", "Rasz",
+        "Rez", "Sham", "Sharm", "Shund", "Sil", "Um", "Ur", "Uw"
+    ]
+    f2 = ['']
+    f3 = ['']
+    f4 = [
+        "a", "ah", "aka", "al", "alin", "alla", "ane", "anith", "anya", "arah", "arin", "aya", "ayah", "ayis", "eah",
+        "eka", "ekus", "el", "ela", "elna", "elya", "elzal", "ena", "enah", "era", "erah", "erath", "erra", "eth",
+        "eya", "ihn", "ila", "ilias", "ilzin", "in", "ina", "ines", "ira", "iren", "iris", "ith", "iza", "mina", "mira",
+        "nel", "nera", "nia", "niya", "ya", "yara"
+    ]
+
+
+class Gnome:
+    m1 = [
+        'b', 'c', 'cl', 'd', 'fr', 'g', 'gn', 'h', 'j', 'kn', 'kl', 'l', 'm', 'n', 'p', 'r', 'sc', 'sl', 'sn', 'sm',
+        't', 'w', 'z'
+    ]
+    m2 = [
+        'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a',
+        'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'y', 'y', 'y', 'oo',
+        'ee', 'aa', 'ie', 'ai'
+    ]
+    m3 = [
+        'bbn', 'bk', 'bn', 'bbr', 'db', 'dd', 'ddw', 'dn', 'ddn', 'gn', 'gb', 'k', 'km', 'kn', 'kp', 'kw', 'lk', 'lb',
+        'llb', 'lv', 'mb', 'mj', 'mm', 'mp', 'mt', 'mw', 'mz', 'md', 'nb', 'nj', 'nk', 'nkk', 'nsb', 'nsm', 'nsn', 'nz',
+        'nzb', 'ngn', 'pn', 'pp', 'pr', 'r', 'rk', 'rb', 'rw', 'v'
+    ]
+    m4 = ['c', 'ck', 'g', 'm', 'p', 'r', 'rt', 'ss', 'st', 't']
+    f1 = [
+        '', '', '', 'bl', 'c', 'cl', 'f', 'fl', 'fn', 'g', 'gl', 'gn', 'h', 'l', 'm', 'n', 'p', 'ph', 'sh', 'sl', 'sn',
+        'sm', 't', 'th', 'w'
+    ]
+    f2 = [
+        'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a',
+        'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'y', 'y', 'y', 'oo',
+        'ee', 'aa', 'ie', 'ai'
+    ]
+    f3 = [
+        'l', 'll', 'm', 'n', 'p', 'r', 's', 'ss', 't', 'th', 'b', 'bl', 'c', 'cl', 'd', 'f', 'fl', 'fn', 'g', 'gl',
+        'gn', 'h', 'j', 'kl', 'kn', 'l', 'm', 'n', 'p', 'ph', 'r', 'sc', 'sh', 'sl', 'sn', 'sm', 't', 'th', 'w', 'z'
+    ]
+    f4 = [
+        'bbl', 'bbn', 'bk', 'bn', 'bl', 'bbr', 'db', 'dd', 'ddl', 'dl', 'dw', 'ddw', 'dn', 'ddn', 'gn', 'gb', 'gl', 'k',
+        'kl', 'km', 'kn', 'kp', 'kw', 'lk', 'lm', 'lw', 'lb', 'llb', 'llm', 'ln', 'lln', 'lv', 'mb', 'mj', 'mm', 'mp',
+        'mt', 'mw', 'mz', 'md', 'nb', 'nj', 'nk', 'nkk', 'nkl', 'nsb', 'nsm', 'nsn', 'nz', 'nzb', 'ngl', 'ngn', 'pn',
+        'pp', 'pw', 'pr', 'r', 'rk', 'rb', 'rw', 'v'
+    ]
+
+
+class Goblin:
+    m1 = ["", "", "", "", "b", "ch", "dr", "fl", "g", "gh", "j", "k", "kr", "l", "m", "n", "p", "r", "v", "w", "z"]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a", "o", "u", "a", "e", "i", "o", "u", "a",
+        "o", "u", "oo", "ou", "oa"
+    ]
+    m3 = [
+        "bb", "bbl", "bm", "br", "bn", "bz", "d", "dd", "dr", "dz", "dg", "ff", "g", "ggl", "gm", "gn", "gt", "gv",
+        "gb", "gd", "m", "md", "mb", "mz", "mg", "mk", "nth", "nz", "nd", "ng", "ngb", "ngl", "nd", "nv", "rg", "rk",
+        "rp", "rs", "rt", "rd", "rg", "tf", "tv", "tt", "tg", "v", "vg", "vd", "vn", "vm"
+    ]
+    m4 = [
+        "", "", "", "", "", "b", "ff", "g", "k", "n", "nk", "rch", "rd", "rg", "rk", "rnk", "rt", "s", "sh", "t", "wg",
+        "z"
+    ]
+    f1 = ["", "", "", "", "", "ch", "f", "g", "gh", "gr", "h", "j", "kl", "l", "m", "n", "p", "r", "v", "vr", "y", "z"]
+    f2 = [
+        "a", "e", "i", "o", "u", "e", "i", "o", "a", "e", "i", "o", "u", "e", "i", "o", "a", "e", "i", "o", "u", "e",
+        "i", "o", "ee", "ie", "oo"
+    ]
+    f3 = [
+        "ck", "dl", "dg", "dr", "dn", "dk", "g", "gl", "gn", "gm", "gl", "k", "kk", "kl", "kn", "km", "kch", "kt", "lk",
+        "ld", "lg", "lv", "lb", "ll", "mb", "ml", "mp", "md", "mk", "mr", "nb", "nch", "nd", "ng", "nk", "p", "ph",
+        "phr", "phl", "rk", "rg", "rd", "rb", "rbl", "s", "sh", "ss", "sk", "st", "t", "tr", "tl", "tch", "vv", "x"
+    ]
+    f4 = [
+        "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "b", "h", "l", "k", "n", "ns", "ms", "s", "sh", "th"
+    ]
+    s1 = [
+        "Amber", "Ash", "Bear", "Blade", "Blood", "Bone", "Boulder", "Cask", "Claw", "Crag", "Crow", "Crystal", "Dead",
+        "Dew", "Dog", "Doom", "Ear", "Earth", "Elf", "Ember", "Far", "Finger", "Fire", "Fist", "Flame", "Flint",
+        "Forest", "Frost", "Fuse", "Gloom", "Gold", "Gore", "Grass", "Gut", "Hallow", "Hard", "Haze", "Heart", "Heavy",
+        "Hell", "High", "Hill", "Hog", "Horse", "Ice", "Iron", "Keen", "Long", "Man", "Marble", "Marsh", "Meadow",
+        "Moon", "Moss", "Nettle", "Nose", "Orb", "Pine", "Plain", "Poke", "Rage", "Rain", "Raven", "Rip", "River",
+        "Rock", "Rough", "Shadow", "Silver", "Skull", "Snake", "Snow", "Spider", "Stab", "Star", "Steel", "Stern",
+        "Stone", "Storm", "Strong", "Stump", "Swamp", "Toe", "Tree", "Water", "Wild", "Wind", "Wold", "Wood"
+    ]
+    s2 = [
+        "bane", "bash", "basher", "belly", "bender", "binder", "bite", "biter", "blazer", "bleeder", "blight", "brace",
+        "brand", "breaker", "breath", "brew", "brook", "brow", "bumper", "caller", "chaser", "chew", "chewer",
+        "chopper", "cleaver", "cooker", "crag", "crest", "crusher", "cut", "cutter", "dancer", "draft", "dreamer",
+        "dust", "eye", "fall", "fang", "flaw", "flayer", "force", "fury", "gloom", "grip", "gripper", "guard", "gut",
+        "hammerer", "horn", "hunter", "jumper", "killer", "lasher", "mark", "mauler", "maw", "more", "nugget", "part",
+        "parts", "pike", "punch", "puncher", "rage", "rager", "reaper", "reaver", "rip", "ripper", "roar", "rock",
+        "scar", "scream", "seeker", "shard", "shield", "shooter", "shot", "singer", "slaver", "slayer", "snacker",
+        "snarl", "snouth", "spark", "spear", "splitter", "stalk", "stalker", "steel", "stick", "stomper", "strike",
+        "striker", "surge", "taker", "tracker", "trapper", "wad", "walker", "watcher", "wound"
+    ]
+    s3 = ['']
+    s4 = ['']
+
+
+class Goliath:
+    f1 = [
+        "Age", "Ane", "Are", "Daa", "Dau", "Di", "Ga", "Gal", "Gau", "Ge", "Gel", "Ila", "Ina", "Ka", "Kau", "Ke", "Ki",
+        "Kuo", "La", "Lau", "Le", "Lo", "Maa", "Man", "Mau", "Me", "Na", "Nal", "Nau", "Ni", "No", "Ola", "One", "Ore",
+        "Ori", "Pa", "Paa", "Pau", "Pe", "Tha", "Thau", "The", "Thu", "Vaa", "Vau", "Ve", "Vo", "Vu", "Za", "Zaa",
+        "Zau", "Zo"
+    ]
+    f2 = ['']
+    f3 = ['']
+    f4 = [
+        "gea", "geo", "ggeo", "ghu", "gia", "gu", "kea", "keo", "kha", "ki", "kia", "kio", "kko", "la", "lai", "lane",
+        "lea", "leo", "lo", "lu", "ma", "meo", "mi", "mia", "ne", "nea", "neo", "ni", "nia", "nna", "nnio", "nu", "peo",
+        "peu", "pu", "rea", "rheo", "ri", "ria", "rra", "rrea", "the", "thea", "thi", "thia", "thio", "thu", "vea",
+        "vi", "via", "vu"
+    ]
+    m1 = [
+        "Ag", "Apa", "Ar", "Au", "Aug", "Aur", "Eag", "Eg", "Erg", "Ga", "Gau", "Gea", "Gha", "Gra", "Ila", "Ili",
+        "Ira", "Kana", "Kava", "Kaza", "Keo", "Khu", "Kora", "Kra", "La", "Lau", "Laza", "Loro", "Ma", "Mara", "Mau",
+        "Mea", "Mo", "Na", "Nara", "Nau", "Neo", "Pa", "Pu", "Tara", "Tau", "Tha", "Thava", "Tho", "Va", "Vara", "Vau",
+        "Vaura", "Vega", "Vi", "Vo", "Za", "Zau"
+    ]
+    m2 = ['']
+    m3 = ['']
+    m4 = [
+        "dak", "dath", "dhan", "gak", "gal", "gan", "gath", "ghan", "gith", "glath", "gun", "kan", "kein", "khal",
+        "kin", "kon", "lath", "lig", "lok", "mahg", "mahk", "mahl", "mak", "man", "mith", "mul", "nak", "nath", "nihl",
+        "noth", "path", "phak", "rad", "rath", "rein", "rhak", "rhan", "riak", "rian", "rin", "rok", "roth", "thag",
+        "thak", "tham", "thi", "thok", "veith", "vek", "vhal", "vhik", "vith", "voi", "zak", "ziath"
+    ]
+    s1 = [
+        "Adept", "Bear", "Brave", "Bright", "Dawn", "Day", "Deer", "Dream", "Flint", "Fearless", "Flower", "Food",
+        "Fright", "Goat", "Hard", "Hide", "High", "Honest", "Horn", "Keen", "Lone", "Long", "Low", "Lumber", "Master",
+        "Mind", "Mountain", "Night", "Rain", "River", "Rock", "Root", "Silent", "Sky", "Sly", "Smart", "Steady",
+        "Stone", "Storm", "Strong", "Swift", "Thread", "Thunder", "Tree", "Tribe", "True", "Truth", "Wander", "Wild",
+        "Wise", "Wound"
+    ]
+    s2 = [
+        "aid", "bearer", "breaker", "caller", "carver", "chaser", "climber", "cook", "dream", "drifter", "eye",
+        "finder", "fist", "friend", "frightener", "guard", "hand", "hauler", "heart", "herder", "hunter", "jumper",
+        "killer", "lander", "leader", "leaper", "logger", "maker", "mender", "picker", "runner", "shot", "smasher",
+        "speaker", "stalker", "striker", "tanner", "twister", "vigor", "walker", "wanderer", "warrior", "watcher",
+        "weaver", "worker"
+    ]
+    s3 = [
+        " Agu-Ul", " Agu-V", " Anakal", " Apuna-M", " Athun", " Egena-V", " Egum", " Elan", " Ganu-M", " Gathak",
+        " Gean", " Inul", " Kalag", " Kaluk", " Katho-Ol", " Kolae-G", " Kolak", " Kulan", " Kulum", " Lakum", " Maluk",
+        " Munak", " Muthal", " Nalak", " Nola-K", " Nugal", " Nulak", " Ogol", " Oveth", " Thenal", " Thul", " Thunuk",
+        " Ugun", " Uthenu-K", " Vaimei-L", " Valu-N", " Vathun", " Veom", " Vuma-Th", " Vunak"
+    ]
+    s4 = [
+        "aga", "ageane", "akane", "akanu", "akume", "alathi", "amino", "amune", "anathi", "atake", "athai", "athala",
+        "atho", "avea", "avi", "avone", "eaku", "ekali", "elo", "iaga", "iago", "iala", "iano", "igala", "igane",
+        "igano", "igo", "igone", "ileana", "ithino", "olake", "ugate", "ugoni", "ukane", "ukate", "ukena", "ulane",
+        "upine", "utha", "uthea"
+    ]
+
+
+class Grippli:
+    m1 = [
+        "Alien", "Arrow", "Bazoo", "Beaker", "Belch", "Belcher", "Binky", "Bloats", "Blob", "Bob", "Bog", "Bogs",
+        "Booger", "Boogy", "Bubba", "Bubbles", "Buffle", "Buffles", "Bully", "Buster", "Charizard", "Charmander",
+        "Chubber", "Chubbles", "Chubbs", "Chubby", "Chunky", "Claw", "Clawde", "Clawdius", "Claws", "Cozmo", "Cricket",
+        "Croak", "Croaker", "Croaks", "Crook", "Cruncher", "Crunchy", "Curmet", "Dart", "Darts", "Doc", "Fatty",
+        "Fiddles", "Fire", "Flibbit", "Flippy", "Flips", "Flubber", "Flubs", "Flye", "Freak", "Freckles", "Frogger",
+        "Froggie", "Frogzilla", "Gobbles", "Goble", "Gobles", "Godzilla", "Golem", "Goliath", "Gooey", "Grog", "Hobbit",
+        "Hopkins", "Hopper", "Hopscotch", "Hudini", "Jabba", "JarJar", "Kermi", "Kermie", "Kermit", "Leaps", "Leapy",
+        "Mantis", "Marsh", "Mello", "Mellow", "Mog", "MrSticky", "Mud", "Muds", "Newt", "Newton", "Orbit", "Patches",
+        "Pickle", "Pickles", "Pogo", "Predator", "Prince", "Puddles", "Pudge", "Pug", "Quibbit", "Ribbit", "Shmoo",
+        "Shmooch", "Skippy", "Skittles", "Slick", "Slimes", "Slippy", "Slub", "Slug", "Slugg", "Sluggs", "Slugs",
+        "Smeagol", "Smudge", "Spot", "Sticky", "Stinky", "Stubby", "Stumper", "Swampie", "Swamps", "Thor", "Toad",
+        "Weirdo", "Whopper", "Wiggles", "Wobble", "Wobbles", "Yoda"
+    ]
+    f1 = [
+        "Algee", "Amazone", "Amazonia", "Babe", "Belchy", "Blinks", "Blinky", "Bloats", "Bubble", "Bubbles", "Buffy",
+        "Bufonia", "Cherry", "Chops", "Chubbles", "Chubby", "Clawdia", "Cookie", "Cosmo", "Cricket", "Croaks", "Daphne",
+        "Dirty", "Faye", "Fern", "Fiddle", "Flubby", "Flye", "Freakey", "Freckles", "Frogzilla", "Fye", "Fyre", "Geo",
+        "Gobbles", "Gooey", "Hippity", "Hipscotch", "Hoppity", "Iggy", "Karma", "Kirby", "Kiss", "Kisses", "Leaps",
+        "Leapy", "Lilo", "Lily", "Lilypad", "Lips", "Mello", "Muddy", "Muds", "Mystique", "Noodles", "Patches", "Peeps",
+        "Penelope", "Pepper", "Pickle", "Pickles", "Princess", "Puds", "Pugs", "Pumpkin", "Raisin", "Ribbit", "Ribbits",
+        "Sally", "Shirly", "Shmoo", "Shmooches", "Slimey", "Slippy", "Smiley", "Smooch", "Snaile", "Sparkle",
+        "Sparkles", "Speckles", "Spot", "Spots", "Squee", "Squiggy", "Stitch", "Stitches", "Teeny", "Tiggles", "Tiny",
+        "Tootsie", "Trixie", "Twiggy", "Twinkle", "Waddle", "Waddles", "Wiggle", "Wiggles", "Wobble", "Wobbles", "Xena"
+    ]
+
+
+class Halfling:
+    m1 = [
+        "An", "Ar", "Bar", "Bel", "Con", "Cor", "Dan", "Dav", "El", "Er", "Fal", "Fin", "Flyn", "Gar", "Go", "Hal",
+        "Hor", "Ido", "Ira", "Jan", "Jo", "Kas", "Kor", "La", "Lin", "Mar", "Mer", "Ne", "Nor", "Ori", "Os", "Pan",
+        "Per", "Pim", "Quin", "Quo", "Ri", "Ric", "San", "Shar", "Tar", "Te", "Ul", "Uri", "Val", "Vin", "Wen", "Wil",
+        "Xan", "Xo", "Yar", "Yen", "Zal", "Zen"
+    ]
+    m2 = [
+        "ace", "amin", "bin", "bul", "dak", "dal", "der", "don", "emin", "eon", "fer", "fire", "gin", "hace", "horn",
+        "kas", "kin", "lan", "los", "min", "mo", "nad", "nan", "ner", "orin", "os", "pher", "pos", "ras", "ret", "ric",
+        "rich", "rin", "ry", "ser", "sire", "ster", "ton", "tran", "umo", "ver", "vias", "von", "wan", "wrick", "yas",
+        "yver", "zin", "zor", "zu"
+    ]
+    m3 = ['']
+    m4 = ['']
+    f1 = [
+        "An", "Ari", "Bel", "Bre", "Cal", "Chen", "Dar", "Dia", "Ei", "Eo", "Eli", "Era", "Fay", "Fen", "Fro", "Gel",
+        "Gra", "Ha", "Hil", "Ida", "Isa", "Jay", "Jil", "Kel", "Kith", "Le", "Lid", "Mae", "Mal", "Mar", "Ne", "Ned",
+        "Odi", "Ora", "Pae", "Pru", "Qi", "Qu", "Ri", "Ros", "Sa", "Shae", "Syl", "Tham", "Ther", "Tryn", "Una", "Uvi",
+        "Va", "Ver", "Wel", "Wi", "Xan", "Xi", "Yes", "Yo", "Zef", "Zen"
+    ]
+    f2 = [
+        "alyn", "ara", "brix", "byn", "caryn", "cey", "da", "dove", "drey", "elle", "eni", "fice", "fira", "grace",
+        "gwen", "haly", "jen", "kath", "kis", "leigh", "la", "lie", "lile", "lienne", "lyse", "mia", "mita", "ne", "na",
+        "ni", "nys", "ola", "ora", "phina", "prys", "rana", "ree", "ri", "ris", "sica", "sira", "sys", "tina", "trix",
+        "ula", "vira", "vyre", "wyn", "wyse", "yola", "yra", "zana", "zira"
+    ]
+    f3 = ['']
+    f4 = ['']
+
+
+class Hobgoblin:
+    m1 = ["", "", "", "b", "d", "dr", "f", "g", "gr", "h", "k", "kr", "m", "n", "p", "pr", "r", "s", "t", "z"]
+    m2 = ["a", "e", "i", "o", "u"]
+    m3 = [
+        "d", "dr", "gl", "gr", "gt", "gh", "kr", "kt", "kh", "kl", "l", "lgr", "lt", "ld", "ldr", "lg", "lb", "lbr",
+        "ll", "r", "rg", "rd", "rt", "rdr", "rgr", "rk", "rl", "th", "tt", "tr", "thr", "vl", "vr", "vt"
+    ]
+    m4 = ["", "d", "g", "k", "m", "n", "ng", "r", "t"]
+    f1 = ["", "", "", "", "b", "c", "d", "f", "h", "k", "m", "n", "ph", "r", "s", "t", "v", "w", "z"]
+    f2 = ["a", "e", "i", "o", "u"]
+    f3 = [
+        "cl", "cn", "cm", "cd", "f", "ff", "fn", "fm", "fl", "kl", "kr", "kn", "km", "kd", "kt", "ks", "l", "lz", "ln",
+        "lm", "ld", "lg", "m", "mz", "ms", "mr", "md", "mg", "mk", "n", "ns", "nd", "nr", "ng", "ns", "nk", "r", "rm",
+        "rg", "rn", "rd", "rk", "s", "sm", "st", "ss", "sz", "sm", "sn", "sd", "sg", "th", "tr", "tn", "tz", "ts", "yd",
+        "yn", "yg", "yk", "yr", "yz"
+    ]
+    f4 = ["", "", "", "", "", "", "", "", "", "", "f", "h", "l", "m", "n", "s", "t"]
+
+
+class Human:
+
+    def __init__(self, gender):
+        self.Gender = gender
+
+    def __str__(self):
+        from numpy.random import randint, choice
+        # f_option = randint(0, 2)
+        f_option = 0
+        name = ''
+        if f_option == 0 and self.Gender == 'Male':
+            name = choice([
+                'Delmon', 'Karcsi', 'Quesnel', 'Aaron', 'Abdiel', 'Abdullah', 'Abel', 'Abelard', 'Abilo', 'Abraham',
+                'Abram', 'Acel', 'Achille', 'Achilles', 'Achilleus', 'Achim', 'Achmed', 'Ackerley', 'Ackley', 'Acton',
+                'Adalard', 'Adalbero', 'Adalbert', 'Adalbrecht', 'Adalwine', 'Adam', 'Adan', 'Addi', 'Addisen',
+                'Addison', 'Adelard', 'Adelbert', 'Adelfo', 'Aden', 'Adger', 'Adhelard', 'Adi', 'Adison', 'Aditya',
+                'Adolf', 'Adolfo', 'Adolph', 'Adonai', 'Adonija', 'Adonis', 'Adray', 'Adrian', 'Adrianus', 'Adriel',
+                'Adrien', 'Advent', 'Ageline', 'Agrican', 'Agron', 'Agustin', 'Ahmad', 'Ahmed', 'Aidan', 'Aiden',
+                'Aiken', 'Ailen', 'Akim', 'Alain', 'Alan', 'Albaric', 'Albero', 'Albert', 'Alberto', 'Albin',
+                'Albrecht', 'Alcot', 'Alcott', 'Alden', 'Alder', 'Aldo', 'Aldred', 'Aldren', 'Aldrich', 'Aldrick',
+                'Aldridge', 'Aldrych', 'Aldwin', 'Aldwyn', 'Alec', 'Alejandro', 'Aleron', 'Alessandro', 'Alessio',
+                'Alex', 'Alexander', 'Alexandre', 'Alexandro', 'Alexei', 'Alexis', 'Alexzander', 'Alf', 'Alfie',
+                'Alfons', 'Alfonse', 'Alfonso', 'Alfred', 'Alfredo', 'Alfric', 'Alfrid', 'Algar', 'Alger', 'Algernon',
+                'Algrenon', 'Ali', 'Alijah', 'Alke', 'Alkuin', 'Alkwin', 'Allan', 'Allard', 'Allen', 'Allie', 'Allon',
+                'Allston', 'Allvar', 'Aloin', 'Alois', 'Aloisius', 'Alon', 'Alonso', 'Alonzo', 'Aloys', 'Alphons',
+                'Alphonse', 'Alphonso', 'Alphonsus', 'Alric', 'Altfried', 'Altman', 'Alton', 'Aluin', 'Alvan', 'Alvaro',
+                'Alvertos', 'Alvin', 'Alvis', 'Alvord', 'Alvyn', 'Alwin', 'Alwyn', 'Amadeo', 'Amadeus', 'Amari',
+                'Amarion', 'Amaud', 'Amaury', 'Ambert', 'Amel', 'Amerigo', 'Amery', 'Ames', 'Amey', 'Amir', 'Ammon',
+                'Amo', 'Amory', 'Amos', 'Amou', 'Amoux', 'Amsden', 'Anatol', 'Anatole', 'Anaxagoras', 'Anaximander',
+                'Ancel', 'Ancil', 'Anderl', 'Anderson', 'Andor', 'Andre', 'Andrea', 'Andreas', 'Andrei', 'Andres',
+                'Andrew', 'Andrey', 'Andrick', 'Andrijan', 'Andrin', 'Andy', 'Angel', 'Angelico', 'Angelino', 'Angelo',
+                'Angelus', 'Angus', 'Anno', 'Anse', 'Ansel', 'Ansell', 'Anselm', 'Anselme', 'Ansgar', 'Anshelm',
+                'Ansko', 'Ansley', 'Answald', 'Anthony', 'Antoine', 'Anton', 'Antonio', 'Antonius', 'Antony', 'Antwan',
+                'Aramis', 'Arber', 'Arcadius', 'Arch', 'Archaimbaud', 'Archambault', 'Archard', 'Archenhaud', 'Archer',
+                'Archerd', 'Archibald', 'Archie', 'Archimbald', 'Archy', 'Arden', 'Arendt', 'Ari', 'Arian', 'Aribert',
+                'Ariel', 'Arjen', 'Arjun', 'Arledge', 'Arley', 'Arlo', 'Armand', 'Armande', 'Armando', 'Armani',
+                'Armin', 'Arminius', 'Armond', 'Armstrong', 'Arnald', 'Arnaldo', 'Arnall', 'Arnatt', 'Arnaud',
+                'Arndell', 'Arndt', 'Arne', 'Arnet', 'Arney', 'Arnhold', 'Arnie', 'Arnim', 'Arno', 'Arnold', 'Arnott',
+                'Aron', 'Arthur', 'Artur', 'Arturo', 'Artus', 'Arundel', 'Arvie', 'Arvin', 'Arvis', 'Arvon', 'Arwin',
+                'Asa', 'Ascelin', 'Asher', 'Ashley', 'Ashton', 'Asterios', 'Athelstan', 'Attila', 'Auberon', 'Aubert',
+                'Aubin', 'Aubrey', 'Aubry', 'Audric', 'Audwin', 'August', 'Augustin', 'Augustinus', 'Augusto',
+                'Augustus', 'Auhert', 'Aurelien', 'Aurel', 'Aurelian', 'Aurelianus', 'Aurelius', 'Auriville', 'Austen',
+                'Austin', 'Austyn', 'Avenall', 'Aveneil', 'Avenelle', 'Avent', 'Averill', 'Avery', 'Awarnach', 'Axel',
+                'Ayden', 'Baby', 'Bailey', 'Baldemar', 'Baldo', 'Baldric', 'Balduin', 'Baldus', 'Baldwin', 'Balko',
+                'Ballard', 'Balthasar', 'Balthassar', 'Bancroft', 'Baptist', 'Baptiste', 'Barclay', 'Barden', 'Barklay',
+                'Barkley', 'Barks', 'Barksdale', 'Barnabas', 'Barnard', 'Barnet', 'Barnett', 'Baron', 'Barr', 'Barret',
+                'Barrett', 'Barrie', 'Barron', 'Barry', 'Bart', 'Barthel', 'Bartholomaeus', 'Bartlett', 'Bartram',
+                'Baruch', 'Bas', 'Basil', 'Bast', 'Bastian', 'Bastle', 'Battist', 'Battista', 'Baudouin', 'Baudric',
+                'Bax', 'Baxter', 'Bay', 'Bayard', 'Baylen', 'Bayley', 'Beacher', 'Beal', 'Beale', 'Beall', 'Beaman',
+                'Beardsley', 'Beau', 'Beaufort', 'Beauregard', 'Beauvais', 'Bede', 'Beldon', 'Bell', 'Bellamy', 'Ben',
+                'Bendix', 'Benedict', 'Benedikt', 'Benediktus', 'Bengt', 'Beni', 'Benito', 'Benjamin', 'Benjamino',
+                'Bennet', 'Bennett', 'Benno', 'Benny', 'Beno', 'Bente', 'Bentley', 'Beppo', 'Berenger', 'Bergen',
+                'Bergess', 'Berit', 'Berkeley', 'Berkley', 'Bernard', 'Bernardo', 'Bernd', 'Berne', 'Bernhard',
+                'Bernhardt', 'Bernie', 'Bernt', 'Berny', 'Bert', 'Berthold', 'Berthoud', 'Berti', 'Bertie', 'Bertold',
+                'Bertolt', 'Berton', 'Bertram', 'Bertran', 'Bertrand', 'Berty', 'Bevis', 'Bilal', 'Billy', 'Bing',
+                'Birch', 'Bj\uc3b6rn', 'Bjarne', 'Bjorn', 'Blade', 'Blaine', 'Blais', 'Blaisdell', 'Blaise', 'Blaize',
+                'Blake', 'Blase', 'Blayze', 'Blaze', 'Bo', 'Bob', 'Bobby', 'Bobby Jo', 'Bodil', 'Bodin', 'Bodo',
+                'Bogart', 'Bogdan', 'Bolton', 'Bond', 'Bonham', 'Boniface', 'Bonifacius', 'Bonifatius', 'Bonifaz',
+                'Booker', 'Boone', 'Booth', 'Boothe', 'Bordan', 'Borden', 'Boris', 'Borris', 'Bosco', 'Bosse', 'Bosso',
+                'Both', 'Botho', 'Boto', 'Boyce', 'Bozo', 'Brad', 'Braden', 'Bradford', 'Bradley', 'Bradly', 'Bradney',
+                'Brady', 'Bradyn', 'Braeden', 'Braedon', 'Braid', 'Braiden', 'Bran', 'Brand', 'Branden', 'Brandon',
+                'Branford', 'Brant', 'Braulio', 'Braxton', 'Bray', 'Brayan', 'Brayden', 'Braydon', 'Brayton', 'Brecht',
+                'Brendan', 'Brenden', 'Brendon', 'Brennan', 'Brennen', 'Brent', 'Brentan', 'Brenton', 'Bret', 'Brett',
+                'Brewster', 'Brian', 'Brice', 'Brigham', 'Brinley', 'Brisco', 'Brock', 'Brocton', 'Brod', 'Broderick',
+                'Brodie', 'Brody', 'Bromley', 'Bromwell', 'Bromwood', 'Bronson', 'Bronwen', 'Bronwyn', 'Brook',
+                'Brooks', 'Bruce', 'Brunelle', 'Bruno', 'Bryan', 'Bryant', 'Bryce', 'Brycen', 'Brys', 'Bryson',
+                'Buckley', 'Bud', 'Buiron', 'Burcet', 'Burdett', 'Burdette', 'Burel', 'Burg', 'Burgess', 'Burghard',
+                'Burkhard', 'Burkhart', 'Burley', 'Burne', 'Burns', 'Burt', 'Burton', 'Buster', 'Byrne', 'Byron',
+                'Cade', 'Caden', 'Cadwell', 'Cael', 'Caiden', 'Cain', 'Caio', 'Cal', 'Calder', 'Caldwell', 'Cale',
+                'Caleb', 'Calhoun', 'Calliste', 'Callixtus', 'Calvert', 'Calvin', 'Camden', 'Cameron', 'Camren',
+                'Camron', 'Carden', 'Carel', 'Carl', 'Carleton', 'Carlisle', 'Carlo', 'Carlos', 'Carlton', 'Carlyle',
+                'Carol', 'Carolos', 'Carolus', 'Carrington', 'Carson', 'Carsten', 'Carter', 'Carvell', 'Carver',
+                'Casey', 'Casimir', 'Cason', 'Caspar', 'Castor', 'Catcher', 'Caulder', 'Cayden', 'Cearbhall', 'Cecco',
+                'Cedric', 'Celestino', 'Cerdic', 'Cesar', 'Chad', 'Chadwick', 'Chaim', 'Chance', 'Chandler', 'Chane',
+                'Chaney', 'Chanler', 'Channing', 'Chapin', 'Chapman', 'Chappel', 'Chappell', 'Charles', 'Charley',
+                'Charlie', 'Charlot', 'Charlton', 'Charly', 'Chase', 'Chaunce', 'Chauncey', 'Chauncy', 'Chayne', 'Chaz',
+                'Cheney', 'Cheval', 'Chevalier', 'Chevell', 'Chevy', 'Cheyne', 'Chilton', 'Chip', 'Choncey',
+                'Chrestien', 'Chris', 'Christian', 'Christien', 'Christinus', 'Christofor', 'Christoph', 'Christophe',
+                'Christopher', 'Christopherus', 'Chuck', 'Claas', 'Claiborne', 'Clarence', 'Clark', 'Claudde', 'Claude',
+                'Claudio', 'Claudius', 'Claus', 'Clay', 'Clayton', 'Cleavon', 'Clemens', 'Clement', 'Cleopas', 'Cleve',
+                'Cleveland', 'Cliff', 'Clifford', 'Clifton', 'Clint', 'Clinton', 'Clive', 'Clovis', 'Coby', 'Cody',
+                'Cohen', 'Colan', 'Colbert', 'Colbey', 'Colborn', 'Colby', 'Cole', 'Coleman', 'Colin', 'Coljar',
+                'Collin', 'Collins', 'Colt', 'Colten', 'Colter', 'Colton', 'Colyn', 'Con', 'Conner', 'Conni', 'Connie',
+                'Connor', 'Conny', 'Conor', 'Conrad', 'Constantin', 'Constantinus', 'Cooper', 'Copper', 'Corben',
+                'Corbett', 'Corbin', 'Corbinian', 'Corby', 'Corbyn', 'Cordalles', 'Cordell', 'Corey', 'Corin',
+                'Cornelio', 'Cornelius', 'Cort', 'Cortez', 'Cortland', 'Corvin', 'Cory', 'Court', 'Courtenay',
+                'Courtland', 'Courtnay', 'Courtney', 'Coyan', 'Coyne', 'Craig', 'Crawford', 'Creighton', 'Cretien',
+                'Cristian', 'Cristobal', 'Cristopher', 'Cromwell', 'Cruz', 'Cullen', 'Curcio', 'Currier', 'Curt',
+                'Curtice', 'Curtis', 'Curtiss', 'Cynric', 'Cyrano', 'Cyrill', 'Cyrillus', 'Cyrus', "D'Arcy", "D'anton",
+                "D'arcy", 'Dabbert', 'Dace', 'Dacey', 'Dacian', 'Dag', 'Dagobert', 'Daine', 'Dakota', 'Dale', 'Dallas',
+                'Dallin', 'Dalton', 'Damian', 'Damiano', 'Damien', 'Damion', 'Damon', 'Dan', 'Dandelion', 'Dandre',
+                'Dane', 'Dangelo', 'Daniel', 'Danilo', 'Danniell', 'Danny', 'Dante', 'Danton', 'Daquan', 'Darcel',
+                'Darcell', 'Darcio', 'Darcy', 'Dareau', 'Darek', 'Darian', 'Dariel', 'Dariell', 'Darien', 'Darin',
+                'Dario', 'Darion', 'Darius', 'Darko', 'Darnell', 'Darrel', 'Darrell', 'Darren', 'Darrin', 'Darrion',
+                'Darrius', 'Darroll', 'Darryl', 'Darryll', 'Dartagnan', 'Darvell', 'Darwin', 'Darwyn', 'Daryl',
+                'Daryll', 'Dash', 'Dashawn', 'Dashiell', 'Dave', 'Davet', 'David', 'Davin', 'Davion', 'Davis', 'Davon',
+                'Davy', 'Dawson', 'Dax', 'Dayadi', 'Dayne', 'Dayton', 'Dean', 'Deandre', 'Deangelo', 'Declan',
+                'Dedrick', 'Del', 'Delaine', 'Delancy', 'Delane', 'Delaney', 'Delano', 'Delmar', 'Delmer', 'Delmont',
+                'Delmore', 'Delray', 'Delrick', 'Delrico', 'Delron', 'Delroy', 'Demarcus', 'Demetrius', 'Dempster',
+                'Denis', 'Deniz', 'Dennet', 'Dennis', 'Denton', 'Denver', 'Denys', 'Denzel', 'Deon', 'Deonte', 'Derck',
+                'Dereck', 'Derek', 'Derell', 'Derick', 'Derik', 'Derk', 'Derrall', 'Derrek', 'Derrell', 'Derrick',
+                'Derrik', 'Derrill', 'Derry', 'Derwood', 'Deryck', 'Deryk', 'Deshaun', 'Deshawn', 'Desmond', 'Desmund',
+                'Destan', 'Destin', 'Deston', 'Destrey', 'Destrie', 'Destry', 'Detlef', 'Detlev', 'Devan', 'Devante',
+                'Deven', 'Deveral', 'Devere', 'Devereau', 'Devereaux', 'Deverel', 'Deverell', 'Deverick', 'Devery',
+                'Devin', 'Devon', 'Devonte', 'Devry', 'Devyn', 'Dexter', 'Diandre', 'Dicken', 'Dickens', 'Dickenson',
+                'Dickinson', 'Didier', 'Diederich', 'Diedrich', 'Diego', 'Dieter', 'Diether', 'Dietmar', 'Dietrich',
+                'Digby', 'Dilan', 'Dillan', 'Dillen', 'Dillon', 'Dimitri', 'Dimitrij', 'Dion', 'Diondre', 'Dionte',
+                'Dirk', 'Ditmar', 'Dittmar', 'Dix', 'Dixie', 'Dixon', 'Dob', 'Dobbs', 'Dolf', 'Dolph', 'Domenic',
+                'Domenico', 'Domian', 'Domingo', 'Dominic', 'Dominick', 'Dominik', 'Dominikus', 'Dominique', 'Don',
+                'Donald', 'Donat', 'Donatello', 'Donatien', 'Donato', 'Donatus', 'Donavan', 'Dondre', 'Donny',
+                'Donovan', 'Dontae', 'Donte', 'Dorian', 'Dorkas', 'Dorset', 'Dorsey', 'Douglas', 'Dover', 'Doyle',
+                'Doyt', 'Dragan', 'Drago', 'Drake', 'Draven', 'Drew', 'Dru', 'Duane', 'Dudley', 'Dudly', 'Dumont',
+                'Duncan', 'Dunstan', 'Duran', 'Durand', 'Durango', 'Durant', 'Durante', 'Dureau', 'Duron', 'Durrant',
+                'Durwald', 'Durward', 'Durwin', 'Durwood', 'Dustin', 'Duston', 'Dusty', 'Dustyn', 'Duval', 'Dwayne',
+                'Dwenn', 'Dwennon', 'Dwight', 'Dwighte', 'Dwite', 'Dwyght', 'Dwyghte', 'Dwyte', 'Dylan', 'Dylon', 'Ean',
+                'Earl', 'Easton', 'Eaton', 'Ebbo', 'Eberhard', 'Eckart', 'Eckbert', 'Eckehart', 'Ed', 'Eddie', 'Eddy',
+                'Ede', 'Edel', 'Edelhart', 'Edgar', 'Edgard', 'Edgardo', 'Edmar', 'Edmon', 'Edmond', 'Edmund',
+                'Edmundo', 'Edo', 'Edsel', 'Eduard', 'Eduardo', 'Edvard', 'Edward', 'Edwardo', 'Edwards', 'Edwardson',
+                'Edwin', 'Efraim', 'Efrain', 'Efrem', 'Efren', 'Egan', 'Egbert', 'Egbrecht', 'Egerton', 'Egidius',
+                'Egnatius', 'Egon', 'Ehrhard', 'Eicren', 'Eike', 'Ekbrecht', 'Elbert', 'Elbridge', 'Elden', 'Elder',
+                'Eldon', 'Eldridge', 'Eleasar', 'Eleazar', 'Elery', 'Elfred', 'Eli', 'Elia', 'Elian', 'Elias',
+                'Eliezer', 'Elija', 'Elijah', 'Eliot', 'Eliott', 'Eliseo', 'Elisha', 'Ellerey', 'Ellery', 'Elliot',
+                'Elliott', 'Ellis', 'Elman', 'Elmar', 'Elmer', 'Elmo', 'Elmore', 'Elon', 'Eloy', 'Elric', 'Elroy',
+                'Elten', 'Elton', 'Elvin', 'Elvis', 'Emanuel', 'Emersen', 'Emerson', 'Emery', 'Emil', 'Emile',
+                'Emiliano', 'Emilio', 'Emlyn', 'Emmanuel', 'Emmerich', 'Emmerson', 'Emmery', 'Emmett', 'Emmyrson',
+                'Emory', 'Emyrson', 'Endrik', 'Enes', 'Engelbert', 'Engelbrecht', 'Englebert', 'Ennio', 'Enno',
+                'Enrico', 'Enrique', 'Enzio', 'Ephraim', 'Eppie', 'Eppo', 'Erhard', 'Eric', 'Erich', 'Erick', 'Erik',
+                'Eriq', 'Ermin', 'Ernest', 'Ernesto', 'Ernst', 'Errol', 'Erskine', 'Erwin', 'Esau', 'Escott', 'Esmond',
+                'Esmund', 'Esra', 'Esteban', 'Estevan', 'Ethan', 'Ethelbert', 'Ethelred', 'Ethen', 'Etienne', 'Eufemio',
+                'Eugen', 'Eugene', 'Euphemius', 'Evan', 'Everett', 'Ewald', 'Ewart', 'Ewing', 'Eyvind', 'Ezechiel',
+                'Ezekiel', 'Ezequiel', 'Ezra', 'Fabian', 'Fabiano', 'Fabianus', 'Fabien', 'Fabio', 'Fabius', 'Fairfax',
+                'Fairleigh', 'Fairley', 'Falk', 'Falko', 'Farald', 'Faralt', 'Faramond', 'Farand', 'Farant', 'Farland',
+                'Farley', 'Farly', 'Farold', 'Farolt', 'Farrand', 'Farrell', 'Faruk', 'Faust', 'Faustino', 'Faustinus',
+                'Fausto', 'Faustus', 'Federico', 'Federigo', 'Fedor', 'Felipe', 'Felix', 'Felizian', 'Ferd', 'Ferdel',
+                'Ferdi', 'Ferdie', 'Ferdinand', 'Ferdinando', 'Ferdy', 'Fernand', 'Fernando', 'Ferrand', 'Fester',
+                'Fidel', 'Fidelio', 'Fidelis', 'Fidelius', 'Fielding', 'Fiete', 'Filip', 'Filippo', 'Filiz', 'Finn',
+                'Fitz', 'Fleming', 'Flemming', 'Fletcher', 'Florens', 'Florentin', 'Florentinus', 'Florentus',
+                'Florenz', 'Florestan', 'Flori', 'Florian', 'Florianus', 'Floridus', 'Florin', 'Floris', 'Florus',
+                'Floyd', 'Flurin', 'Folker', 'Folkher', 'Folkmar', 'Fontaine', 'Fontane', 'Fontayne', 'Fonteyne',
+                'Forbes', 'Ford', 'Forrest', 'Fortun', 'Fortune', 'Francesco', 'Francis', 'Francisco', 'Franciscus',
+                'Francois', 'Franek', 'Frank', 'Franke', 'Frankie', 'Franklin', 'Franko', 'Franky', 'Frantisek',
+                'Franz', 'Franziskus', 'Fred', 'Freddie', 'Freddy', 'Frederic', 'Frederick', 'Fredi', 'Fredrick',
+                'Free', 'Freidhelm', 'Freman', 'Fremont', 'Fridericus', 'Fridolin', 'Friedel', 'Frieder', 'Friedl',
+                'Friedrich', 'Frithjof', 'Fritjof', 'Fritz', 'Fulbert', 'Fulbright', 'Fuller', 'Fulton', 'Fynn',
+                'G\uc3b6rkem', 'Gunter', 'Gunther', 'Gabor', 'Gabriel', 'Gabriele', 'Gabriello', 'Gabrio', 'Gace',
+                'Gael', 'Gaetan', 'Gage', 'Gaige', 'Gaillard', 'Gall', 'Galli', 'Gallo', 'Gallus', 'Gannon', 'Garan',
+                'Gard', 'Gardiner', 'Garen', 'Garett', 'Garfield', 'Garin', 'Garion', 'Garlan', 'Garland', 'Garlen',
+                'Garlyn', 'Garnell', 'Garner', 'Garnet', 'Garnier', 'Garon', 'Garren', 'Garret', 'Garrett', 'Garrick',
+                'Garrin', 'Garrison', 'Garron', 'Garryson', 'Garvin', 'Gary', 'Garyson', 'Gascon', 'Gaspar', 'Gaspard',
+                'Gaston', 'Gauthier', 'Gautier', 'Gaven', 'Gavin', 'Gavyn', 'Gaylord', 'Gebbo', 'Gebert', 'Gebhard',
+                'Gedeon', 'Geffrey', 'Gehrt', 'Geof', 'Geoff', 'Geoffrey', 'Georg', 'George', 'Georgio', 'Geppert',
+                'Ger', 'Gerald', 'Gerard', 'Gerardo', 'Gerd', 'Gere', 'Gereon', 'Gerfried', 'Gerhard', 'Gerhardt',
+                'Gerhart', 'Gerion', 'Germain', 'German', 'Germano', 'Gero', 'Gerold', 'Gerome', 'Geron', 'Geronimo',
+                'Gerrald', 'Gerrard', 'Gerrell', 'Gerrit', 'Gerry', 'Gert', 'Gervais', 'Gervase', 'Gerwald', 'Gerwin',
+                'Giacomo', 'Gian', 'Franco', 'Gian Luca', 'Gian Marco', 'Giancarlo', 'Gianni', 'Gideon', 'Gidi',
+                'Gidion', 'Gieselherr', 'Giffard', 'Gifferd', 'Gifford', 'Gil', 'Gilbert', 'Gilberto', 'Gilford',
+                'Gill', 'Gilleasbuig', 'Gilles', 'Gillian', 'Gino', 'Giovanni', 'Giovanny', 'Gironimo', 'Giso',
+                'Giuliano', 'Giulio', 'Giuseppe', 'Glen', 'Glenn', 'Godard', 'Godart', 'Goddard', 'Goddart', 'Godfrey',
+                'Goeran', 'Goldman', 'Goliat', 'Goliath', 'Gonzalo', 'Goran', 'Gordon', 'Gorius', 'Goswin', 'Gotbert',
+                'Gotfrid', 'Gottfried', 'Gotthard', 'Gotthold', 'Gottlieb', 'Gower', 'Graciano', 'Grady', 'Graeme',
+                'Graham', 'Granger', 'Grant', 'Granville', 'Gratian', 'Gratianus', 'Gray', 'Grayson', 'Graziano',
+                'Gregor', 'Gregorio', 'Gregory', 'Grenville', 'Greyson', 'Griffin', 'Grigor', 'Grimbald', 'Grischa',
+                'Griswold', 'Grosvenor', 'Guadalupe', 'Gualtiero', 'Guarniero', 'Guido', 'Guifford', 'Guillaume',
+                'Guillermo', 'Gunar', 'Gunnar', 'Gunner', 'Guntar', 'Gunter', 'Gunthar', 'Gunther', 'Guntram', 'Gustaf',
+                'Gustav', 'Gustave', 'Gustavo', 'Gustl', 'Guy', 'Hacket', 'Hackett', 'Hadden', 'Haden', 'Hadley',
+                'Hadrian', 'Hadrianus', 'Hagen', 'Hagley', 'Haiko', 'Haimo', 'Haines', 'Haio', 'Hajo', 'Hakan', 'Hakon',
+                'Halbert', 'Haley', 'Hall', 'Hallam', 'Halsey', 'Halton', 'Hamelin', 'Hamelyn', 'Hamilton', 'Hamlet',
+                'Hamlin', 'Hamlyn', 'Hamza', 'Hanibal', 'Hannecke', 'Hannes', 'Hannibal', 'Hanniel', 'Hanno', 'Hans',
+                'Hans Jorg', 'Hans Peter', 'Hans carl', 'Hansi', 'Harald', 'Harbert', 'Harbin', 'Harcourt', 'Harden',
+                'Hardey', 'Hardi', 'Hardie', 'Hardmod', 'Hardouin', 'Hardy', 'Harlan', 'Harland', 'Harley', 'Harlon',
+                'Harm', 'Harman', 'Harmen', 'Harmon', 'Harold', 'Harper', 'Harri', 'Harrison', 'Harry', 'Hartmod',
+                'Hartmut', 'Harv', 'Harvey', 'Hasan', 'Hasko', 'Hassan', 'Hastings', 'Hauke', 'Havel', 'Hawel', 'Hawk',
+                'Hawthorne', 'Hayden', 'Haydon', 'Hayes', 'Hayo', 'Haywood', 'Heath', 'Hector', 'Hedley', 'Heiko',
+                'Heimo', 'Hein', 'Heiner', 'Heini', 'Heino', 'Heinrich', 'Heinz', 'Heio', 'Hektor', 'Helge', 'Helgo',
+                'Helias', 'Helke', 'Hellmut', 'Hellmuth', 'Helmi', 'Helmo', 'Helmut', 'Helmuth', 'Hendrick', 'Hendrik',
+                'Henley', 'Henning', 'Henno', 'Henri', 'Henrick', 'Henricus', 'Henrik', 'Henry', 'Herbert', 'Heribert',
+                'Heriberto', 'Herman', 'Hermann', 'Hernando', 'Herrick', 'Herrmann', 'Herve', 'Herwin', 'Hesekiel',
+                'Hewett', 'Heymo', 'Hias', 'Hieronymus', 'Hildebrand', 'Hilliard', 'Hillier', 'Hillyer', 'Hilton',
+                'Hinnerk', 'Hinz', 'Hippokrates', 'Hobart', 'Holden', 'Holdger', 'Holge', 'Holger', 'Hollis', 'Holm',
+                'Horst', 'Horton', 'Houston', 'Howard', 'Howe', 'Hubert', 'Hubertus', 'Hudson', 'Huey', 'Hugbert',
+                'Hugh', 'Hugo', 'Hulbard', 'Hulbert', 'Hulburd', 'Hulh', 'Hulk', 'Humbert', 'Humberto', 'Humbie',
+                'Humfrey', 'Humfry', 'Humph', 'Humphrey', 'Hunt', 'Hunter', 'Huntley', 'Huprecht', 'Hurlbart',
+                'Hurlbert', 'Hurn', 'Hutton', 'Hyatt', 'Ian', 'Ibrahim', 'Ignace', 'Ignacio', 'Ignatius', 'Ignatz',
+                'Ignaz', 'Ignazio', 'Igor', 'Ildiko', 'Ilja', 'Immanuel', 'Immo', 'Inglebert', 'Ingmar', 'Ingo',
+                'Ingomar', 'Ingraham', 'Ingram', 'Ingwar', 'Innocentius', 'Innozenz', 'Iram', 'Irvin', 'Irving',
+                'Irwin', 'Isaac', 'Isaak', 'Isai', 'Isaiah', 'Isaias', 'Ischell', 'Isiah', 'Isidor', 'Isidorius',
+                'Ismael', 'Ismail', 'Israel', 'Isreal', 'Issac', 'Ivan', 'Iven', 'Ives', 'Ivo', 'Iwan', 'Izaiah',
+                'J\uc3b6rg', 'J\uc3b6rn', 'Jurgen', 'Jabari', 'Jace', 'Jack', 'Jackson', 'Jacky', 'Jacob', 'Jacobus',
+                'Jacoby', 'Jacque', 'Jacquelin', 'Jacques', 'Jaden', 'Jadon', 'Jadyn', 'Jaeden', 'Jagger', 'Jaheem',
+                'Jaheim', 'Jahiem', 'Jahn', 'Jaiden', 'Jaime', 'Jair', 'Jairo', 'Jake', 'Jakie', 'Jakob', 'Jakobe',
+                'Jakobus', 'Jalen', 'Jamal', 'Jamar', 'Jamari', 'Jamel', 'James', 'Jameson', 'Jamie', 'Jamil', 'Jamir',
+                'Jamison', 'Jan', 'Martin', 'Janek', 'Janko', 'Jannes', 'Jannik', 'Jannis', 'Janosch', 'Janus',
+                'Janusz', 'Jaquan', 'Jaquez', 'Jared', 'Jaren', 'Jarman', 'Jaro', 'Jarod', 'Jaromil', 'Jaromir',
+                'Jaron', 'Jarred', 'Jarrett', 'Jarrod', 'Jarv', 'Jarvey', 'Jarvis', 'Jascha', 'Jase', 'Jasmin', 'Jason',
+                'Jasper', 'Javen', 'Javier', 'Javion', 'Javon', 'Jaxon', 'Jaxson', 'Jaxson Jay', 'Jay', 'Jayce',
+                'Jayden', 'Jaydon', 'Jaye', 'Jaylan', 'Jaylen', 'Jaylin', 'Jaylon', 'Jayson', 'Jean', 'Jean Baptiste',
+                "Jean'Baptiste", "Jean'Carlo", "Jean'Christophe", "Jean'Claude", "Jean'Luca", "Jean'Marie",
+                "Jean'Pierre", 'Jeff', 'Jeffers', 'Jefferson', 'Jeffery', 'Jeffrey', 'Jefrem', 'Jehudi', 'Jendrich',
+                'Jendrick', 'Jendrik', 'Jenik', 'Jens', 'Jeoffroi', 'Jerard', 'Jeremia', 'Jeremiah', 'Jeremias',
+                'Jeremy', 'Jerker', 'Jermaine', 'Jeroen', 'Jeroma', 'Jerome', 'Jeronimus', 'Jerrit', 'Jerrold', 'Jerry',
+                'Jervis', 'Jesaja', 'Jesajas', 'Jesekiel', 'Jesper', 'Jesse', 'Jessie', 'Jesus', 'Jett', 'Jevon', 'Jim',
+                'Jimmy', 'Jo', 'Joachim', 'Joan', 'Joaquin', 'Jobst', 'Jochen', 'Jochim', 'Joe', 'Joel', 'Joey',
+                'Johan', 'Johann', 'Johannes', 'John', "John paul", 'Johnathan', 'Johnathon', 'Johnn', 'Johnnie',
+                'Johnny', 'Johnson', 'Jolie', 'Jon', 'Jona', 'Jonah', 'Jonas', 'Jonatan', 'Jonathan', 'Jonathon',
+                'Jonko', 'Jonn', 'Jonnie', 'Jordan', 'Jorden', 'Jordis', 'Jordon', 'Jordy', 'Jorg', 'Jorge', 'Joris',
+                'Jose', 'Josef', 'Joseph', 'Josh', 'Joshua', 'Josiah', 'Josias', 'Jost', 'Josua', 'Josue', 'Jourdan',
+                'Jovan', 'Jovani', 'Jovany', 'Joy', 'Joyanna', 'Juan', 'Juanito', 'Judah', 'Jude', 'Juhani', 'Jul',
+                'Jules', 'Julian', 'Julianus', 'Julien', 'Julio', 'Julius', 'Jullien', 'Junior', 'Juniper', 'Jupp',
+                'Jurgen', 'Juri', 'Jussuf', 'Justice', 'Justin', 'Justinian', 'Justinianus', 'Justinus', 'Justus',
+                'Justyn', 'Kaarle', 'Kaarlo', 'Kade', 'Kaden', 'Kadin', 'Kadir', 'Kai', 'Kai Olaf', 'Kai Uwe', 'Kaiden',
+                'Kain', 'Kale', 'Kaleb', 'Kalle', 'Kallist', 'Kallistus', 'Kallixtus', 'Kalman', 'Kameron', 'Kamil',
+                'Kampion', 'Kamron', 'Kane', 'Kareem', 'Karel', 'Kari', 'Karim', 'Karl', 'Karl Heinz', 'Karlens',
+                'Karlheinz', 'Karlis', 'Karlitis', 'Karol', 'Karoly', 'Karson', 'Karstan', 'Karsten', 'Kasey',
+                'Kasimir', 'Kaspar', 'Kasper', 'Kastor', 'Kay', 'Kayden', 'Keagan', 'Keanu', 'Keaton', 'Keegan',
+                'Keenan', 'Kegan', 'Kei', 'Keith', 'Kelby', 'Kellen', 'Kelly', 'Kelsey', 'Kelton', 'Kelvin', 'Kemal',
+                'Ken', 'Kendall', 'Kendrick', 'Kenelm', 'Kenley', 'Kennedy', 'Kenneth', 'Kenny', 'Keno', 'Kent',
+                'Kenton', 'Kenyon', 'Keon', 'Kerman', 'Keshawn', 'Kester', 'Keven', 'Kevin', 'Kevon', 'Keyon',
+                'Keyshawn', 'Khalid', 'Khalil', 'Kian', 'Kieran', 'Kilby', 'Kilian', 'Killian', 'Kim', 'Kimberley',
+                'Kimon', 'King', 'Kingsley', 'Kinnard', 'Kinnell', 'Kinsey', 'Kipp', 'Kipper', 'Kippy', 'Kirk', 'Kjell',
+                'Klaas', 'Klaudius', 'Klaus', 'Klemens', 'Klement', 'Kleopas', 'Kleophas', 'Klopas', 'Knox', 'Knut',
+                'Kobe', 'Koby', 'Kody', 'Kolas', 'Kolby', 'Kole', 'Kolja', 'Kolton', 'Konrad', 'Konradin', 'Konstantin',
+                'Korbin', 'Korbinian', 'Korey', 'Kornel', 'Kornelius', 'Kort', 'Kory', 'Kosha', 'Kosta', 'Kostis',
+                'Kostja', 'Kourosh', 'Kristian', 'Kristofer', 'Kristopher', 'Kunibert', 'Kuno', 'Kunz', 'Kurt',
+                'Kurtis', 'Kylan', 'Kyle', 'Kyler', 'Kyree', 'Kyrill', 'Kyrillus', "L'Angley", 'Ladislaus', 'Lafayette',
+                'Lajos', 'Lamar', 'Lamarr', 'Lambert', 'Lambrecht', 'Lamont', 'Lampert', 'Lamprecht', 'Lance',
+                'Lancelin', 'Lancelot', 'Landan', 'Landen', 'Landers', 'Landis', 'Lando', 'Landon', 'Lane', 'Lang',
+                'Langley', 'Laramie', 'Larry', 'Lars', 'Larue', 'Lasalle', 'Laslo', 'Lasse', 'Laszlo', 'Latimer',
+                'Latrell', 'Launcelot', 'Laurence', 'Laurent', 'Laurentius', 'Laurenz', 'Laux', 'Lawrence', 'Lawson',
+                'Layne', 'Layton', 'Lazarus', 'Leal', 'Leander', 'Leandre', 'Leandro', 'Lee', 'Leeroy', 'Legget',
+                'Legolas', 'Leies', 'Leif', 'Leigh', 'Leland', 'Lenard', 'Lennard', 'Lennart', 'Leo', 'Leocadie',
+                'Leodegrance', 'Leon', 'Leonard', 'Leonardo', 'Leonce', 'Leone', 'Leonel', 'Leonhard', 'Leonid',
+                'Leonore', 'Leopold', 'Leroi', 'Leron', 'Leroux', 'Leroy', 'Lester', 'Leszek', 'Leva', 'Leveret',
+                'Leverett', 'Levi', 'Levin', 'Lewis', 'Lex', 'Liam', 'Libold', 'Liborius', 'Lincoln', 'Lind',
+                'Lindberg', 'Linden', 'Lindon', 'Linn', 'Lino', 'Linus', 'Linwood', 'Lion', 'Lionel', 'Lionell',
+                'Lionello', 'Lisandro', 'Lisle', 'Litton', 'Livio', 'Llewellyn', 'Logan', 'Loisl', 'London', 'Lonell',
+                'Lonnell', 'Lonnie', 'Loreno', 'Lorenz', 'Lorenzo', 'Loring', 'Loris', 'Lothair', 'Lothar', 'Louie',
+                'Louis', 'Louvel', 'Lovell', 'Lowe', 'Lowell', 'Loyal', 'Luc', 'Luca', 'Lucas', 'Lucian', 'Luciano',
+                'Lucien', 'Ludolf', 'Ludovic', 'Ludovico', 'Ludovicus', 'Ludwig', 'Luglio', 'Luigi', 'Luis', 'Luitpold',
+                'Luka', 'Lukas', 'Luke', 'Luther', 'Lutz', 'Lyle', 'Lyndon', 'Lyonel', 'Lyre', 'Lysander', 'Lytton',
+                'Mace', 'Madelon', 'Madison', 'Maginhart', 'Magnus', 'Mahieu', 'Maik', 'Mailhairer', 'Maitland',
+                'Makepeace', 'Malachi', 'Malakai', 'Malcolm', 'Malik', 'Malin', 'Malleville', 'Mallory', 'Malou',
+                'Malte', 'Malvin', 'Malwin', 'Mandel', 'Manfred', 'Mani', 'Manilo', 'Manley', 'Manly', 'Manneville',
+                'Manning', 'Manolito', 'Manolo', 'Mansfield', 'Mantel', 'Manton', 'Manuel', 'Manville', 'Many', 'Marc',
+                'Marceau', 'Marcel', 'Marcellinus', 'Marcello', 'Marcellus', 'Marcelo', 'Marco', 'Marcos', 'Marcus',
+                'Marden', 'Mardyth', 'Marek', 'Marenus', 'Marian', 'Mariano', 'Marin', 'Marino', 'Marinus', 'Mario',
+                'Mariolino', 'Marius', 'Mark', 'Markes', 'Markey', 'Marko', 'Markus', 'Marland', 'Marley', 'Marlo',
+                'Marlon', 'Marlow', 'Marlowe', 'Marmion', 'Marq', 'Marque', 'Marquez', 'Marquis', 'Marquise', 'Marsden',
+                'Marsdon', 'Marsh', 'Marshal', 'Marshall', 'Marston', 'Mart', 'Marten', 'Marti', 'Martin', 'Martino',
+                'Maruck', 'Marvin', 'Marwin', 'Marwood', 'Marzellus', 'Maslin', 'Mason', 'Masselin', 'Masson', 'Mateo',
+                'Mather', 'Mathew', 'Mathias', 'Mathieu', 'Mats', 'Matteo', 'Mattes', 'Matthew', 'Matthias', 'Matthieu',
+                'Mattias', 'Matty', 'Matze', 'Maurice', 'Mauricio', 'Mauritius', 'Maurizio', 'Maurus', 'Maverick',
+                'Max', 'Maxence', 'Maxim', 'Maxime', 'Maximilian', 'Maximillian', 'Maximo', 'Maximus', 'Maxwell',
+                'Mayhew', 'Maynard', 'Mayne', 'Maynor', 'Mead', 'Medwin', 'Mees', 'Mehmet', 'Meinert', 'Meinhard',
+                'Mekhi', 'Melchior', 'Melton', 'Melville', 'Melvin', 'Menachem', 'Menard', 'Mercer', 'Merla', 'Merle',
+                'Merlin', 'Merlion', 'Merrell', 'Merrick', 'Merrill', 'Mertin', 'Merwin', 'Meus', 'Micah', 'Michael',
+                'Michail', 'Micheal', 'Michel', 'Michele', 'Mick', 'Miguel', 'Mika', 'Mike', 'Mikel', 'Milan', 'Miles',
+                'Milko', 'Millard', 'Miller', 'Mills', 'Millson', 'Milo', 'Milt', 'Milten', 'Milto', 'Milton', 'Milty',
+                'Mino', 'Miquel', 'Mircha', 'Mirek', 'Mirko', 'Misael', 'Miso', 'Mitchel', 'Mitchell', 'Mohamed',
+                'Mohammad', 'Mohammed', 'Moises', 'Momo', "Mont'Gomerie", 'Montague', 'Montaigu', 'Montaine',
+                'Montgomery', 'Moor', 'Moore', 'More', 'Morell', 'Moreno', 'Morgan', 'Moritz', 'Moriz', 'Morris',
+                'Morven', 'Moses', 'Moshe', 'Muck', 'Muhammad', 'Mustafa', 'Mutz', 'Myles', 'Nann', 'Napoleon', 'Nash',
+                'Nasir', 'Natan', 'Nathan', 'Nathanael', 'Nathanial', 'Nathaniel', 'Nathen', 'Navid', 'Nayan', 'Neal',
+                'Nealson', 'Ned', 'Neddie', 'Neddy', 'Nedes', 'Nehemiah', 'Neil', 'Neilson', 'Neivin', 'Nelles',
+                'Nellie', 'Nelly', 'Nelson', 'Neo', 'Nepomuk', 'Nero', 'Nestor', 'Neuman', 'Neumann', 'Neuveville',
+                'Neville', 'Newall', 'Newbold', 'Newell', 'Newgate', 'Newland', 'Newlin', 'Newman', 'Newmie', 'Newton',
+                'Nicandro', 'Nichol', 'Nicholas', 'Nick', 'Nickolas', 'Nico', 'Nicodemo', 'Nicolai', 'Nicolas',
+                'Nicolaus', 'Niels', 'Nigel', 'Nikhil', 'Nikita', 'Niklas', 'Niko', 'Nikodemus', 'Nikol', 'Nikolas',
+                'Nikolaus', 'Nils', 'Nilson', 'Nimet', 'Nino', 'Noa', 'Noah', 'Noe', 'Noel', 'Nolan', 'Noell', 'Nolan',
+                'Norbert', 'Noreis', 'Norice', 'Norm', 'Normal', 'Norman', 'Normand', 'Normen', 'Normie', 'Norris',
+                'North', 'Norton', 'Norville', 'Norvin', 'Norward', 'Norwell', 'Norwin', 'Norwood', 'Norwyn', 'Nouel',
+                'Nowles', 'Numen', 'Nuran', 'Nyle', 'ONille', 'Oakley', 'Obert', 'Octave', 'Octavio', 'Odell', 'Oden',
+                'Odin', 'Odo', 'Odolf', 'Odysseus', 'Ogden', 'Olaf', 'Ole', 'Oleg', 'Oli', 'Olin', 'Oliver', 'Olivier',
+                'Omar', 'Omari', 'Omarion', 'Onfroi', 'Onnan', 'Onno', 'Onnond', 'Oralndo', 'Orazio', 'Orion', 'Orlan',
+                'Orlando', 'Orman', 'Ormen', 'Ornand', 'Orson', 'Orvelle', 'Orvil', 'Orville', 'Osbaldo', 'Osbert',
+                'Osborn', 'Osborne', 'Oscar', 'Osgood', 'Oskar', 'Osmar', 'Osmond', 'Ossie', 'Osvaldo', 'Oswald',
+                'Oswaldo', 'Oswall', 'Oswell', 'Oswin', 'Otger', 'Othello', 'Othmar', 'Otmar', 'Otmund', 'Otto',
+                'Otwin', 'Ourson', 'Ove', 'Owe', 'Owen', 'Oxford', 'Oxon', 'Oxton', 'Ozzie', 'Paavo', 'Pablo', 'Pacey',
+                'Packard', 'Paco', 'Padgett', 'Page', 'Paget', 'Paien', 'Paige', 'Palmer', 'Palmiro', 'Pancratius',
+                'Pankratz', 'Paolo', 'Parfait', 'Paris', 'Park', 'Parke', 'Parker', 'Parkley', 'Parks', 'Parr', 'Parry',
+                'Pascal', 'Pascual', 'Pasquale', 'Pat', 'Paton', 'Patric', 'Patrick', 'Patten', 'Pattin', 'Patton',
+                'Paul', 'Paule', 'Paulus', 'Pawel', 'Paxon', 'Paxton', 'Payton', 'Pearson', 'Pedro', 'Peer', 'Pelham',
+                'Pell', 'Pelton', 'Penley', 'Penn', 'Penrod', 'Pepi', 'Pepin', 'Pepino', 'Pepperell', 'Peppi', 'Peppin',
+                'Per', 'Perceval', 'Percival', 'Percy', 'Perren', 'Perrin', 'Perry', 'Perryn', 'Peter', 'Petrus',
+                'Peverell', 'Peyton', 'Pharamond', 'Phil', 'Philip', 'Philipp', 'Philippe', 'Phillip', 'Phillipe',
+                'Phoenix', 'Pierce', 'Piero', 'Pierpont', 'Pierre', 'Pierrepont', 'Piers', 'Pierson', 'Pietro', 'Pio',
+                'Piperel', 'Pippin', 'Piret', 'Pirmin', 'Pit', 'Pius', 'Plat', 'Platt', 'Pollard', 'Pomeroy',
+                'Pommelraie', 'Porter', 'Porteur', 'Portier', 'Pranav', 'Preruet', 'Prescott', 'Presley', 'Preston',
+                'Prewitt', 'Priest', 'Priestley', 'Priestly', 'Prince', 'Priour', 'Prisko', 'Pruet', 'Pruie', 'Pruitt',
+                'Pryor', 'Putnam', 'Putney', 'Quennel', 'Quent', 'Quentin', 'Quenton', 'Quentrell', 'Quincey', 'Quincy',
+                'Quinn', 'Quint', 'Quinten', 'Quintin', 'Quintinus', 'Quinton', 'Quintrell', 'Quintus', 'Quinzi',
+                'Quirin', 'Quirinus', 'Reegis', 'Rab', 'Rabbit', 'Rad', 'Radbert', 'Radcliff', 'Radcliffe', 'Radclyf',
+                'Radclyffe', 'Radford', 'Radley', 'Radnor', 'Radomil', 'Rae', 'Rafael', 'Raff', 'Raffael', 'Raffaello',
+                'Raffi', 'Raghnall', 'Rahul', 'Rai', 'Raik', 'Raimond', 'Raimondo', 'Raimund', 'Raimundo', 'Rainald',
+                'Rainer', 'Rainger', 'Rainier', 'Raleigh', 'Ralf', 'Ralph', 'Ralston', 'Rambert', 'Ramiro', 'Ramon',
+                'Ramond', 'Ramsay', 'Ramses', 'Ramsey', 'Ramzey', 'Ramzi', 'Randall', 'Randy', 'Ranger', 'Ranier',
+                'Ransden', 'Ransford', 'Ransley', 'Ransom', 'Raoul', 'Raphael', 'Rashad', 'Rasiel', 'Raul', 'Raven',
+                'Ravi', 'Ravinger', 'Ravinia', 'Rawdon', 'Rawley', 'Rawlings', 'Rawlins', 'Rawls', 'Rawly', 'Rawson',
+                'Ray', 'Rayburn', 'Rayce', 'Rayder', 'Raydon', 'Rayfield', 'Rayford', 'Raylen', 'Raymon', 'Raymond',
+                'Raymund', 'Raymundo', 'Raynard', 'Raynell', 'Read', 'Reade', 'Reading', 'Reagan', 'Reamonn', 'Red',
+                'Redd', 'Redding', 'Redfield', 'Redford', 'Redgrave', 'Redman', 'Redwald', 'Reece', 'Reed', 'Reese',
+                'Reg', 'Reggie', 'Reggy', 'Reginald', 'Regnauld', 'Reid', 'Reilly', 'Reimar', 'Reimund', 'Reinald',
+                'Reiner', 'Reinhard', 'Reinhold', 'Reinold', 'Reinwald', 'Rell', 'Remi', 'Remington', 'Remme', 'Remmie',
+                'Remmy', 'Remo', 'Remy', 'Renee', 'Renald', 'Renard', 'Renato', 'Renault', 'Rene', 'Renne', 'Rennie',
+                'Renny', 'Reto', 'Reuben', 'Reule', 'Reve', 'Rex', 'Rey', 'Reymond', 'Reymundo', 'Reynaldo', 'Reynard',
+                'Reynold', 'Reynolds', 'Rhett', 'Ricard', 'Ricardo', 'Rich', 'Richard', 'Richardo', 'Richmond', 'Rick',
+                'Rickard', 'Rickey', 'Rickie', 'Ricky', 'Rico', 'Rider', 'Ridley', 'Rigby', 'Rigoberto', 'Riley',
+                'Rinaldo', 'Riobard', 'Rip', 'Ripley', 'Rique', 'Rishley', 'Risto', 'Riston', 'River', 'Rob', 'Robb',
+                'Robben', 'Robbie', 'Robbins', 'Robby', 'Rober', 'Robert', 'Roberto', 'Robey', 'Robin', 'Robinson',
+                'Rocco', 'Roch', 'Roche', 'Rochester', 'Rocke', 'Rocky', 'Rod', 'Rodd', 'Roddie', 'Roddric', 'Roddrick',
+                'Roddy', 'Rodel', 'Rodell', 'Roderic', 'Roderich', 'Roderick', 'Rodge', 'Rodger', 'Rodhlann', 'Rodi',
+                'Rodman', 'Rodmond', 'Rodmund', 'Rodney', 'Rodolf', 'Rodolfo', 'Rodolph', 'Rodrigo', 'Roel', 'Rogelio',
+                'Roger', 'Rogj', 'Rohan', 'Roi', 'Rol', 'Roland', 'Rolando', 'Rolf', 'Rolfe', 'Rollan', 'Rolland',
+                'Rollie', 'Rollin', 'Rollo', 'Rolof', 'Rolph', 'Rolt', 'Romain', 'Roman', 'Romano', 'Romek', 'Romeo',
+                'Ron', 'Ronald', 'Ronaldo', 'Ronan', 'Ronnie', 'Ronny', 'Rory', 'Roselin', 'Ross', 'Roswald', 'Roswall',
+                'Roswell', 'Roth', 'Rousse', 'Roussel', 'Rousset', 'Rousskin', 'Rouven', 'Rowan', 'Rowe', 'Rowland',
+                'Roy', 'Royal', 'Royce', 'Royden', 'Ruben', 'Rubert', 'Ruddy', 'Rudi', 'Rudiger', 'Rudolf', 'Rudolfo',
+                'Rudolph', 'Rudy', 'Rudyard', 'Ruelle', 'Ruff', 'Ruffe', 'Ruggero', 'Rui', 'Rule', 'Rupert', 'Ruppert',
+                'Ruprecht', 'Rush', 'Rushe', 'Rushkin', 'Ruskin', 'Russ', 'Russel', 'Russell', 'Rust', 'Rutherford',
+                'Ruthren', 'Ruven', 'Ryan', 'Rycroft', 'Ryder', 'Rylan', 'Ryland', 'Ryle', 'Rylee', 'Ryley', 'Ryman',
+                'Rypley', 'Ryton', 'S\uc3b6nke', 'S\uc3b6ren', 'Sabastian', 'Saber', 'Sacharja', 'Sadddique', 'Sage',
+                'Saladin', 'Saladino', 'Salentin', 'Salim', 'Salomo', 'Salomon', 'Salomone', 'Salvador', 'Salvator',
+                'Salvatore', 'Sam', 'Sami', 'Samir', 'Sammy', 'Samson', 'Samuel', 'Samy', 'Sanborn', 'Sandford',
+                'Sandon', 'Sandro', 'Sandy', 'Sanford', 'Santiago', 'Santino', 'Santos', 'Sargent', 'Sascha', 'Satordi',
+                'Saul', 'Sauville', 'Saverio', 'Saville', 'Savion', 'Sawyer', 'Schorsch', 'Scipio', 'Scipione', 'Scot',
+                'Scott', 'Scottie', 'Scotty', 'Seabert', 'Seabright', 'Seabrook', 'Seabury', 'Seamus', 'Sean', 'Searl',
+                'Searlas', 'Searle', 'Searlus', 'Sebastian', 'Sebastiano', 'Sebastien', 'Seberg', 'Sebert', 'Seid',
+                'Seignour', 'Selby', 'Selim', 'Semaj', 'Semjon', 'Senad', 'Senet', 'Senior', 'Sennet', 'Sepp', 'Seppel',
+                'Sepperl', 'Seppi', 'Sergej', 'Sergio', 'Sergius', 'Sesto', 'Seth', 'Severin', 'Severinus', 'Severn',
+                'Severus', 'Sevim', 'Sevrin', 'Seward', 'Sewell', 'Seymour', 'Shamar', 'Shane', 'Shannon', 'Shaun',
+                'Shaw', 'Shawn', 'Shayne', 'Shea', 'Sheldon', 'Shell', 'Shelley', 'Shelli', 'Shelly', 'Shemar', 'Shep',
+                'Shepard', 'Shepherd', 'Shepley', 'Sheppard', 'Sherborne', 'Sherlock', 'Sherm', 'Sherman', 'Sherwin',
+                'Sherwood', 'Shipley', 'Sid', 'Siddel', 'Sidney', 'Sidwell', 'Siegfrid', 'Siegfried', 'Siegmund',
+                'Sigfrid', 'Sigfried', 'Siggi', 'Sigismond', 'Sigismund', 'Sigmond', 'Sigmund', 'Sigwald', 'Silas',
+                'Silvain', 'Silvester', 'Silvestre', 'Silvio', 'Silvius', 'Simeon', 'Simon', 'Sinan', 'Sincere',
+                'Sinclair', 'Sinclaire', 'Sinjin', 'Sisto', 'Siward', 'Sixt', 'Sixtus', 'Skrolan', 'Skylar', 'Skyler',
+                'Slade', 'Snowden', 'Snowdun', 'Sobek', 'Solomon', 'Somer', 'Somerled', 'Somerville', 'Sonke', 'Sonny',
+                'Sorel', 'Soren', 'Sorrell', 'Spangler', 'Speck', 'Spence', 'Spencer', 'Spenser', 'Spike', 'Spiros',
+                'Sprague', 'Spyridon', 'Spyros', 'Stanberry', 'Stanbury', 'Stanek', 'Stanfield', 'Stanford', 'Stanhope',
+                'Stanislaus', 'Stanleigh', 'Stanley', 'Stanly', 'Stanmore', 'Stanton', 'Stanway', 'Stanwick',
+                'Stanwyck', 'Stefan', 'Steffen', 'Stein', 'Stephan', 'Stephen', 'Stephon', 'Sterling', 'Steve',
+                'Steven', 'Stockman', 'Stockton', 'Stockwell', 'Stokley', 'Stone', 'Stroud', 'Stuart', 'Studs',
+                'Suleiman', 'Sullivan', 'Sumarville', 'Sumner', 'Sven', 'Swen', 'Syd', 'Sydell', 'Sydney', 'Syed',
+                'Sylwester', 'Taavi', 'Tabaluga', 'Taillefer', 'Talbot', 'Talehot', 'Talon', 'Tancred', 'Tanner',
+                'Tarek', 'Tarik', 'Tariq', 'Tarzan', 'Tassilo', 'Tasso', 'Tate', 'Tavin', 'Tavion', 'Taylor', 'Tayrese',
+                'Tearlach', 'Ted', 'Teddic', 'Teddie', 'Tedman', 'Tedmund', 'Tedric', 'Telfer', 'Telfor', 'Telford',
+                'Telfour', 'Terenz', 'Terrance', 'Terrel', 'Terrell', 'Terrence', 'Terrill', 'Terris', 'Terry', 'Thabo',
+                'Thaddaus', 'Thaddeus', 'Thaisen', 'Thane', 'Thassilo', 'Thatcher', 'Thees', 'Theo', 'Theobald',
+                'Theodor', 'Theodore', 'Theodoric', 'Theodorick', 'Theron', 'Therron', 'Thibaud', 'Thibaut', 'Thieny',
+                'Thierry', 'Thiery', 'Thomas', 'Thor', 'Thorald', 'Thoralf', 'Thorben', 'Thorbert', 'Thorburn',
+                'Thorley', 'Thormond', 'Thorn', 'Thorndyke', 'Thorne', 'Thornley', 'Thornton', 'Thorpe', 'Thorsten',
+                'Thurber', 'Thure', 'Thurlow', 'Thurman', 'Thurmon', 'Thurmond', 'Tibault', 'Tibbald', 'Tiberio',
+                'Tiberius', 'Tibor', 'Till', 'Tillmann', 'Tilmann', 'Tilo', 'Tim', 'Timo', 'Timon', 'Timothy', 'Tino',
+                'Tioboid', 'Tiran', 'Tirell', 'Tito', 'Titus', 'Tizian', 'Tiziano', 'Tjorven', 'Tobi', 'Tobia',
+                'Tobias', 'Toby', 'Todd', 'Toffel', 'Tom', 'Tomas', 'Tomaso', 'Tombke', 'Tomke', 'Tomkin', 'Tomlin',
+                'Tommy', 'Tompkin', 'Toni', 'Tonio', 'Tony', 'Torben', 'Torge', 'Torold', 'Torsten', 'Tostig',
+                'Toussnint', 'Towne', 'Townes', 'Townley', 'Townsend', 'Trace', 'Tracy', 'Tranter', 'Traugott',
+                'Travers', 'Travis', 'Travon', 'Tre', 'Trent', 'Trenton', 'Trever', 'Treves', 'Trevin', 'Trevion',
+                'Trevon', 'Trevor', 'Trey', 'Treyton', 'Tripp', 'Tristan', 'Tristen', 'Tristian', 'Tristin', 'Triston',
+                'Troy', 'Troyes', 'True', 'Trueman', 'Truesdale', 'Truman', 'Trystan', 'Tucker', 'Turner', 'Ty',
+                'Tybalt', 'Tyce', 'Tycho', 'Tychon', 'Tye', 'Tyeis', 'Tyeson', 'Tyler', 'Tylor', 'Tyne', 'Tyree',
+                'Tyrell', 'Tyrese', 'Tyron', 'Tyrone', 'Tyshawn', 'Tyson', 'Udo', 'Ugo', 'Ugolino', 'Uhland', 'Uland',
+                'Ulf', 'Uli', 'Ulises', 'Ulixes', 'Ulli', 'Ulric', 'Ulrich', 'Ulrico', 'Ulysses', 'Umberto', 'Urban',
+                'Urbano', 'Urbanus', 'Urias', 'Uriel', 'Urija', 'Urs', 'Ursinus', 'Ursio', 'Ursus', 'Uto', 'Utto',
+                'Uve', 'Uvo', 'Uwe', 'Uwo', 'Vachel', 'Vail', 'Valdemar', 'Valdimar', 'Valdimiro', 'Valdis',
+                'Valentianus', 'Valentin', 'Valentiniano', 'Valentino', 'Valentinus', 'Valentius', 'Valerian',
+                'Valerianus', 'Valerio', 'Valerius', 'Valiant', 'Vallis', 'Vallois', 'Vance', 'Vardan', 'Varden',
+                'Vardon', 'Vasco', 'Vaughn', 'Vayle', 'Veit', 'Verddun', 'Verdell', 'Verel', 'Vern', 'Vernay', 'Verne',
+                'Vernell', 'Verner', 'Verney', 'Vernon', 'Verrall', 'Verrell', 'Verrill', 'Veryl', 'Vic', 'Vicente',
+                'Vick', 'Vico', 'Vicq', 'Victor', 'Victorian', 'Victorianus', 'Victorinus', 'Vidal', 'Videl', 'Vike',
+                'Viktor', 'Viktorin', 'Vilmos', 'Vincent', 'Vincentius', 'Vincenz', 'Vincenzo', 'Vinzenez', 'Vinzent',
+                'Vinzenz', 'Virgil', 'Vital', 'Vitale', 'Vitalis', 'Vito', 'Vittorio', 'Vladimir', 'Volkan', 'Volker',
+                'Volkher', 'Volkmar', 'Volkmer', 'Vollert', 'Volmar', 'Volney', 'Von', 'Wade', 'Waggoner', 'Wagner',
+                'Wain', 'Waine', 'Wake', 'Wakefield', 'Wakeley', 'Wakeman', 'Walcot', 'Walcott', 'Waldemar', 'Waldo',
+                'Waldomar', 'Waldron', 'Walker', 'Wallace', 'Wallach', 'Wallas', 'Waller', 'Wallie', 'Wallis', 'Wally',
+                'Walmond', 'Walmund', 'Walsh', 'Walt', 'Walter', 'Walters', 'Walther', 'Walton', 'Wanja', 'Wanko',
+                'Ward', 'Wardell', 'Warden', 'Wardley', 'Warfield', 'Warford', 'Waring', 'Warley', 'Warmond', 'Warmund',
+                'Warner', 'Warnke', 'Warrane', 'Warren', 'Warrick', 'Warton', 'Warwick', 'Washington', 'Wassilie',
+                'Wat', 'Watkins', 'Watson', 'Watt', 'Waverly', 'Way', 'Wayland', 'Waylon', 'Wayne', 'Webb', 'Weber',
+                'Webley', 'Webster', 'Weimer', 'Welborne', 'Welby', 'Welch', 'Weldon', 'Welf', 'Welford', 'Weller',
+                'Welles', 'Wells', 'Welsh', 'Welton', 'Wenceslas', 'Wendel', 'Wendelin', 'Wendell', 'Wenzel', 'Werner',
+                'Wernher', 'Werther', 'Wes', 'Wesley', 'Wess', 'Wessely', 'West', 'Westbrook', 'Westby', 'Westcott',
+                'Westleigh', 'Weston', 'Wetherby', 'Wheaton', 'Wheeler', 'Whit', 'Whitby', 'Whitcomb', 'Whitelaw',
+                'Whitfield', 'Whitford', 'Whitley', 'Whitlock', 'Whitman', 'Whitmore', 'Whittaker', 'Wiatt', 'Wiclef',
+                'Wiclif', 'Wilbur', 'Wiley', 'Wilfer', 'Wilfert', 'Wilfred', 'Wilfrid', 'Wilfried', 'Wilhelm', 'Will',
+                'Willem', 'Willi', 'William', 'Willie', 'Willow', 'Willy', 'Wilmer', 'Wilmot', 'Wilson', 'Wim',
+                'Winchell', 'Windemuth', 'Windham', 'Windsor', 'Winemar', 'Winfield', 'Winfred', 'Winfrey', 'Winfrid',
+                'Winfried', 'Wingate', 'Winimar', 'Winmar', 'Winslow', 'Winsor', 'Winston', 'Winthrop', 'Winton',
+                'Winward', 'Wirt', 'Wirth', 'Witas', 'Witt', 'Witter', 'Witton', 'Wladimir', 'Wladisla', 'Woitech',
+                'Wolf', 'Wolfe', 'Wolfgang', 'Wolfram', 'Wolter', 'Woodie', 'Woodrow', 'Woodruff', 'Woodward', 'Woody',
+                'Wright', 'Wulf', 'Wum', 'Wyatt', 'Wylie', 'Wyn', 'Wyndam', 'Wynton', 'Xander', 'Xaver', 'Xaverius',
+                'Xavier', 'Xzavier', 'Yadiel', 'Yahir', 'Yamil', 'Yan', 'Yannic', 'Yannick', 'Yannis', 'Yasin',
+                'Yehudi', 'Yorik', 'York', 'Yosef', 'Yul', 'Yule', 'Yven', 'Yves', 'Ywan', 'Zachariah', 'Zacharias',
+                'Zachary', 'Zachery', 'Zack', 'Zackary', 'Zackery', 'Zadoc', 'Zain', 'Zaire', 'Zakary', 'Zander',
+                'Zane', 'Zavier', 'Zayne', 'Zechariah', 'Zenobio', 'Zero', 'Zeus', 'Zino', 'Zion', 'Zyrus'
+            ])
+
+        elif f_option == 0 and self.Gender == 'Female':
+            name = choice([
+                "Aaliyah", "Abagail", "Abbey", "Abbie", "Abbigail", "Abby", "Abelia", "Abelina", "Abella", "Abigail",
+                "Abigale", "Abigayle", "Abril", "Aceline", "Adalene", "Adalicia", "Adalie", "Adaliz", "Adalyn", "Addie",
+                "Addison", "Adela", "Adelaide", "Adele", "Adelia", "Adelina", "Adeline", "Adelisa", "Adelise", "Adelle",
+                "Adelynn", "Adilene", "Adorlee", "Adreanna", "Adriana", "Adriane", "Adrianna", "Adrianne", "Adriene",
+                "Adrienne", "Adula", "Aeldrida", "Aelfreda", "Afra", "Afrodille", "Afton", "Agatha", "Agathe", "Agda",
+                "Aget", "Aggy", "Aglaia", "Aglaja", "Agnes", "Agnese", "Agnita", "Agrona", "Aida", "Aiglentina",
+                "Aileen", "Aillsa", "Ailsa", "Ailssa", "Aimee", "Ainsley", "Aischa", "Aisha", "Aislinn", "Aiyana",
+                "Aja", "Akira", "Alaina", "Alaine", "Alair", "Alana", "Alanis", "Alanna", "Alarica", "Alarice",
+                "Alarise", "Alayna", "Alban", "Alberta", "Albertina", "Albertyna", "Albertyne", "Alcott", "Alda",
+                "Alden", "Aldercy", "Alea", "Aleah", "Alejandra", "Alena", "Alessandra", "Aletta", "Alex", "Alexa",
+                "Alexandra", "Alexandrea", "Alexandria", "Alexandrina", "Alexandrine", "Alexia", "Alexiana", "Alexis",
+                "Alexus", "Alexys", "Alfonsine", "Alhertine", "Alia", "Alice", "Alicia", "Alida", "Alina", "Alisa",
+                "Alisanne", "Alisha", "Alisia", "Alison", "Alissa", "Alita", "Alivia", "Alix", "Alixandra", "Aliya",
+                "Aliyah", "Aliza", "Alize", "Allaire", "Alleffra", "Allegra", "Allesha", "Allete", "Allie", "Allison",
+                "Ally", "Allyson", "Allyssa", "Alma", "Almuth", "Alondra", "Alonza", "Aloys", "Aloyse", "Alphonsina",
+                "Alphonsine", "Alsatia", "Althea", "Althee", "Alva", "Alvina", "Alvine", "Alwara", "Alwera", "Alwine",
+                "Alycia", "Alysa", "Alysha", "Alyson", "Alyssa", "Alyssandra", "Amabel", "Amabella", "Amabelle",
+                "Amabilia", "Amadea", "Amalberga", "Amalia", "Amalie", "Amanda", "Amani", "Amara", "Amarante", "Amari",
+                "Amata", "Amaya", "Amber", "Amberjill", "Ambra", "Ambre", "Amedea", "Amedee", "Amelia", "Amelie",
+                "Amely", "America", "Ami", "Amia", "Amie", "Amina", "Amira", "Amite", "Amitee", "Amity", "Amrei", "Amy",
+                "Amya", "Ana", "Anabel", "Anahi", "Anais", "Anastasia", "Anastasija", "Anastina", "Anaya", "Ancelin",
+                "Ancelina", "Andie", "Andra", "Andrea", "Andree", "Aneta", "Anette", "Ange", "Angel", "Angela",
+                "Angeletta", "Angelette", "Angelia", "Angelica", "Angelika", "Angelina", "Angeline", "Angelique",
+                "Angie", "Angilia", "Anika", "Anina", "Anissa", "Anita", "Aniya", "Aniyah", "Anja", "Anjali",
+                "Anjuschka", "Anka", "Anke", "Ann", "Anna", "Annabel", "Annabella", "Annabelle", "Annalena", "Annalise",
+                "Annamaria", "Anne", "Anne-Kathrin", "Annekathrin", "Anneke", "Annelie", "Anneliese", "Annemarie",
+                "Annett", "Annette", "Annia", "Annie", "Annika", "Annike", "Annique", "Anouk", "Ansley", "Antje",
+                "Antoinette", "Antonella", "Antonette", "Antonia", "Antonie", "Antonina", "Anuschka", "Anya",
+                "Apollina", "Apolline", "Appollonia", "April", "Arabela", "Arabella", "Araceli", "Aracely", "Arantxa",
+                "Arcene", "Arely", "Aria", "Ariadne", "Ariana", "Ariane", "Arianna", "Arianne", "Ariel", "Ariele",
+                "Ariella", "Arielle", "Arjean", "Arleigh", "Arlene", "Arleta", "Arlett", "Arlette", "Armani", "Armelle",
+                "Armina", "Armine", "Arminia", "Arnalda", "Arnelle", "Arsene", "Aruna", "Aryanna", "Ash", "Ashanti",
+                "Ashby", "Ashe", "Ashford", "Ashi", "Ashlan", "Ashlee", "Ashleigh", "Ashley", "Ashli", "Ashlie",
+                "Ashlin", "Ashling", "Ashly", "Ashlyn", "Ashlynn", "Ashton", "Ashtyn", "Asia", "Aspen", "Asta",
+                "Asteria", "Astred", "Astrid", "Athena", "Auberta", "Aubina", "Aubine", "Aubree", "Aubrey", "Aubriana",
+                "Aubrianne", "Aubrie", "Aubry", "Audery", "Audey", "Audie", "Audra", "Audrey", "Audry", "Aurelia",
+                "Aurelie", "Aurica", "Aurora", "Aurorette", "Autumn", "Ava", "Aveline", "Avery", "Avicia", "Avon",
+                "Avril", "Axelle", "Ayana", "Ayanna", "Ayasha", "Ayla", "Aylin", "Aysche", "Aysun", "Azzura", "Babette",
+                "Baby", "Baerbel", "Bailee", "Bailey", "Barbara", "Bathilda", "Bathilde", "Batilda", "Batilde",
+                "Baxter", "Baylee", "Bea", "Beata", "Beate", "Beatrice", "Beatrix", "Beatriz", "Bebe", "Becky",
+                "Belana", "Belda", "Belen", "Belinda", "Beline", "Bell", "Bella", "Belle", "Benedetta", "Benedicta",
+                "Benedikta", "Benita", "Bente", "Berangaria", "Berdine", "Berengaria", "Berenice", "Berenike", "Berit",
+                "Bernadea", "Bernadette", "Bernadina", "Bernadine", "Bernarda", "Bernarde", "Berneen", "Bernelle",
+                "Bernetta", "Bernette", "Bernhardine", "Bernice", "Berniss", "Bernita", "Bernyce", "Bert", "Berta",
+                "Berte", "Bertha", "Berthe", "Bertie", "Bertille", "Bertina", "Berty", "Bessy", "Bethany", "Bette",
+                "Betti", "Bettina", "Bettine", "Bev", "Beverely", "Beverley", "Beverly", "Bianca", "Bianka", "Bibi",
+                "Bibijana", "Bijou", "Bille", "Billie", "Billy", "Bina", "Bine", "Binga", "Binia", "Birger", "Birgit",
+                "Birgitta", "Birke", "Birte", "Blaine", "Blanca", "Blanch", "Blanche", "Blanchefleur", "Blandina",
+                "Blanka", "Blenda", "Blondell", "Blondelle", "Blondene", "Blossom", "Blythe", "Bo", "Bobbi", "Bobbie",
+                "Bobby", "Bojana", "Bojena", "Bonnie", "Bonny", "Borissa", "Brandi", "Brandy", "Brea", "Breana",
+                "Breanna", "Brenda", "Brenna", "Breonna", "Bret", "Brett", "Bretta", "Brettany", "Brette", "Bria",
+                "Briana", "Brianna", "Brianne", "Bridget", "Bridgett", "Bridgette", "Brielle", "Brigette", "Brigitta",
+                "Brigitte", "Brionna", "Brisa", "Brita", "Britney", "Britt", "Britta", "Brittany", "Brittney", "Bronja",
+                "Bronwen", "Bronwyn", "Brook", "Brooke", "Brookes", "Brooklyn", "Brooklynn", "Brooks", "Brucie",
+                "Brunella", "Brunhild", "Brunhilda", "Brunhilde", "Bryana", "Bryanna", "Brynn", "Buffy", "Burgi",
+                "Cazilie", "Cadence", "Cadencia", "Cady", "Caitlin", "Caitlyn", "Caja", "Calandre", "Calantha",
+                "Calanthe", "Cali", "Calista", "Callie", "Cam", "Cameron", "Camila", "Camile", "Camilla", "Camille",
+                "Camillei", "Camm", "Cammi", "Cammie", "Camryn", "Camyron", "Candace", "Candice", "Candide", "Capucina",
+                "Capucine", "Cara", "Caress", "Caressa", "Caresse", "Carin", "Carina", "Carine", "Carissa", "Carla",
+                "Carlee", "Carley", "Carli", "Carlie", "Carling", "Carlotta", "Carly", "Carmela", "Carmelia", "Carmen",
+                "Carnation", "Caro", "Carol", "Carola", "Carole", "Carolin", "Carolina", "Caroline", "Carolyn",
+                "Carressa", "Carrie", "Carry", "Carson", "Carsta", "Casandra", "Casey", "Cassandra", "Cassidy",
+                "Cassie", "Catalina", "Cateline", "Catharina", "Catherine", "Cathleen", "Cathrin", "Cayla", "Cecelia",
+                "Cecile", "Cecilia", "Cecilie", "Cecille", "Cedrine", "Celesse", "Celeste", "Celestia", "Celestiel",
+                "Celestine", "Celestyn", "Celestyna", "Celia", "Celie", "Celina", "Celine", "Cellina", "Cendrillon",
+                "Cerise", "Chana", "Chanel", "Chanell", "Chanelle", "Channelle", "Chantae", "Chantal", "Chantalle",
+                "Chantay", "Chante", "Chantel", "Chantell", "Chantelle", "Chantrell", "Chardae", "Charee", "Charis",
+                "Charisse", "Charity", "Charlaine", "Charlayne", "Charleen", "Charleena", "Charlena", "Charlene",
+                "Charlette", "Charline", "Charlisa", "Charlita", "Charlize", "Charlot", "Charlotta", "Charlotte",
+                "Charmain", "Charmaine", "Charmayne", "Charmine", "Chasity", "Chaunte", "Chauntel", "Chaya", "Chelsea",
+                "Chelsey", "Chelsie", "Chenelle", "Cher", "Chere", "Cheree", "Chereen", "Cherell", "Cherelle", "Cheri",
+                "Cherie", "Cherina", "Cherine", "Cherise", "Cherita", "Cherree", "Cherrelle", "Cherry", "Cheryl",
+                "Cheyanna", "Cheyanne", "Cheyenne", "Chiana", "Chianna", "Chiara", "Chlarimonda", "Chlarimonde",
+                "Chloe", "Chlorinde", "Chloris", "Chlothilde", "Christa", "Christel", "Christian", "Christiana",
+                "Christiane", "Christin", "Christina", "Christine", "Christy", "Ciara", "Cicilina", "Ciera", "Cierra",
+                "Cilia", "Cinderella", "Cindy", "Cinzia", "Cira", "Citlali", "Claiborne", "Clair", "Claire", "Clara",
+                "Claral", "Clare", "Clarette", "Claribel", "Clarice", "Clarimond", "Clarimonda", "Clarimonde",
+                "Clarinda", "Clarissa", "Clarissa Claudia", "Clarisse", "Clarita", "Claudette", "Claudia", "Claudine",
+                "Clemance", "Clemence", "Clementia", "Clementina", "Clementine", "Clodia", "Clothilda", "Clothilde",
+                "Clotilda", "Clotilde", "Clovis", "Coco", "Coleta", "Coletta", "Colette", "Colleen", "Colletta",
+                "Collette", "Columbia", "Comfort", "Comforte", "Conni", "Connie", "Conny", "Conrada", "Conradina",
+                "Conradine", "Constance", "Constancia", "Constanze", "Cora", "Coralie", "Cordelia", "Cordula",
+                "Corette", "Corina", "Corine", "Corinna", "Corinne", "Corliss", "Cornelia", "Corney", "Cortney",
+                "Cosette", "Cosima", "Cosma", "Courtlyn", "Courtney", "Creissant", "Crescent", "Cristal", "Cristina",
+                "Crystal", "Cybille", "Cynthia", "Cyprienne", "Daggy", "Dagmar", "Dagmara", "Dagny", "Daisey", "Daisi",
+                "Daisy", "Dajana", "Dakota", "Dale", "Dalia", "Damaris", "Damia", "Damiana", "Damiane", "Damie",
+                "Damien", "Dana", "Danae", "Dania", "Daniela", "Daniella", "Danielle", "Danja", "Danna", "Danny",
+                "Dany", "Daphne", "Daralis", "Darby", "Darcel", "Darcell", "Darcelle", "Darcey", "Darchelle", "Darci",
+                "Darcia", "Darcy", "Daria", "Darlene", "Dasia", "Daveney", "Dawina", "Dawn", "Dayana", "Dea", "Deanna",
+                "Deasia", "Debby", "Debora", "Deborah", "Debra", "Deik", "Deja", "Dela", "Delaney", "Dele", "Delfine",
+                "Delia", "Delight", "Delilah", "Delit", "Della", "Delmare", "Delphina", "Delphine", "Demelza", "Demie",
+                "Denice", "Deniece", "Denise", "Denisha", "Denissa", "Denisse", "Dennise", "Denyse", "Dereka", "Derica",
+                "Dericka", "Derrica", "Desarae", "Desaree", "Desideria", "Desirae", "Desirat", "Desire", "Desiree",
+                "Destanee", "Destine", "Destinee", "Destiney", "Destini", "Destinie", "Destiny", "Devan", "Devana",
+                "Devanna", "Devin", "Devon", "Devona", "Devondra", "Devonna", "Devonne", "Devyn", "Devynn", "Dezirae",
+                "Deziree", "Di", "Diahann", "Diahna", "Diamanta", "Diamond", "Dian", "Diana", "Diandra", "Diane",
+                "Dianna", "Diannah", "Dianne", "Dick", "Dickie", "Didina", "Dina", "Dionne", "Dior", "Dixie", "Dodo",
+                "Dolores", "Domenica", "Dominica", "Dominika", "Dominique", "Donna", "Dora", "Dorchen", "Dore",
+                "Doreen", "Dorene", "Dorette", "Dorika", "Dorine", "Doris", "Dorkas", "Doro", "Dorothea", "Dorothee",
+                "Dorothy", "Dortas", "Dortje", "Dory", "Dragana", "Druella", "Druilla", "Dulce", "Dunja", "Dyana",
+                "Dyann", "Dyanna", "Dylan", "Eada", "Eartha", "Easter", "Ebony", "Eda", "Edda", "Edeline", "Eden",
+                "Edith", "Editha", "Edithe", "Edlyn", "Edmee", "Edolie", "Edsel", "Effi", "Eglantina", "Eglantine",
+                "Eike", "Eila", "Eileen", "Ela", "Elaina", "Elaine", "Elayna", "Elber", "Elberta", "Elda", "Eldrida",
+                "Eleanor", "Elektra", "Elena", "Eleonora", "Eleonore", "Eleta", "Elfi", "Elfie", "Elfreda", "Elfrida",
+                "Elfrieda", "Elfriede", "Elga", "Eliana", "Eliane", "Elicia", "Elienor", "Elin", "Elina", "Elinore",
+                "Elisa", "Elisabet", "Elisabeth", "Elisabetta", "Elisamarie", "Elise", "Elisha", "Elishia", "Elissa",
+                "Elita", "Eliza", "Elizabeth", "Elka", "Elke", "Ella", "Ellaine", "Ellayne", "Elle", "Ellen", "Elli",
+                "Ellie", "Ellinor", "Elmina", "Eloisa", "Eloise", "Eloisee", "Elrica", "Elsa", "Elsbeth", "Else",
+                "Elvira", "Elvire", "Elyse", "Elyssa", "Ema", "Emanuela", "Emanuele", "Ember", "Emele", "Emelina",
+                "Emeline", "Emelka", "Emely", "Emelyne", "Emerald", "Emeraude", "Emerson", "Emilee", "Emilia", "Emilie",
+                "Emily", "Emma", "Emmalee", "Emmaline", "Emmalyn", "Emmeline", "Emmi", "Emmy", "Ena", "Encarna",
+                "Engelberga", "Engelbert", "Engelberta", "Engelbertha", "Engelberthe", "Enna", "Enrica", "Eri", "Erica",
+                "Ericka", "Erika", "Erin", "Erma", "Erme", "Ermina", "Erminia", "Erminie", "Erna", "Ernesta",
+                "Ernstina", "Esdras", "Esme", "Esmeralda", "Esmeraude", "Esperanza", "Esra", "Essence", "Estee",
+                "Estefani", "Estefania", "Estefany", "Estella", "Estelle", "Ester", "Esther", "Estrella", "Estrid",
+                "Etelka", "Ethel", "Ethelda", "Ethelinda", "Etheline", "Ethyl", "Ethylyn", "Etta", "Eudokia", "Eudoxia",
+                "Eufemia", "Eugenia", "Eugenie", "Eulalie", "Euphemia", "Euphrasia", "Eusebia", "Ev", "Eva",
+                "Eva-maria", "Evangelina", "Evangeline", "Evchen", "Eve", "Evelia", "Evelien", "Evelin", "Evelina",
+                "Eveline", "Evelyn", "Evelyne", "Evette", "Evi", "Evita", "Evon", "Evonna", "Evonne", "Evony",
+                "Ewelina", "Ezra", "Fabia", "Fabiana", "Fabienne", "Fabiola", "Fae", "Faith", "Faithe", "Fanchon",
+                "Fanchone", "Fanetta", "Fanette", "Fantina", "Fantine", "Fara", "Faralda", "Farrah", "Fastrada",
+                "Fatima", "Fatime", "Fatma", "Faun", "Fauna", "Faunia", "Fausta", "Faustina", "Faustine", "Favor",
+                "Fawnia", "Fay", "Fayanna", "Faye", "Fayette", "Fayme", "Fealty", "Fearn", "Fearne", "Federica",
+                "Federiga", "Fedora", "Felda", "Felecia", "Feli", "Felicia", "Felicienne", "Felicitas", "Felicity",
+                "Felina", "Felizitas", "Ferdinanda", "Fern", "Fernanda", "Fernandina", "Ferne", "Fernly", "Fidelia",
+                "Fifi", "Fifine", "Filicia", "Finetta", "Finja", "Finnja", "Fiona", "Fjodora", "Fleta", "Fleur",
+                "Fleurette", "Flora", "Florence", "Florentia", "Florenzia", "Floressa", "Floretta", "Florette", "Flori",
+                "Floria", "Floriana", "Florida", "Florina", "Florinda", "Florrie", "Fontanne", "Fortuna", "Fortunat",
+                "Franca", "France", "Francena", "Francene", "Frances", "Francesca", "Francille", "Francina", "Francine",
+                "Francoise", "Franja", "Franka", "Fransiska", "Franzi", "Franziska", "Frauke", "Frauwa", "Frawa",
+                "Freda", "Freddie", "Freida", "Frida", "Frieda", "Friederika", "Friederike", "Fritzi", "Fritzie",
+                "Gabi", "Gabriela", "Gabriele", "Gabriella", "Gabrielle", "Gaby", "Gaetana", "Gaetane", "Gail", "Gala",
+                "Galatea", "Galatee", "Galateia", "Gale", "Galiana", "Galiena", "Galilea", "Galina", "Galla", "Gallia",
+                "Ganja", "Garland", "Garnet", "Garnett", "Gatty", "Gay", "Gayle", "Gemma", "Genesis", "Geneva",
+                "Geneve", "Genevie", "Genevieve", "Genevre", "Genia", "Genie", "Genivee", "Genovefa", "Genoveva",
+                "Georgette", "Georgia", "Georgine", "Georgitte", "Geraldene", "Geraldine", "Geralyn", "Geralynn",
+                "Gerda", "Gerde", "Gerdi", "Gerdie", "Geri", "Gerlind", "Gerlinde", "Gerlindis", "Germain", "Germaine",
+                "Germana", "Gerti", "Gertraud", "Gertraude", "Gertraut", "Gertrud", "Gertrude", "Gertrudis", "Gesa",
+                "Gescha", "Gia", "Giana", "Gianna", "Gigi", "Gilla", "Gillian", "Gina", "Ginette", "Gioa", "Giovanna",
+                "Gisela", "Gisele", "Gisella", "Giselle", "Gisselle", "Gitta", "Gitte", "Giuletta", "Giulia",
+                "Giuliana", "Giulietta", "Giuseppa", "Giustina", "Gleda", "Gloria", "Gloriana", "Gloriosa", "Godiva",
+                "Golda", "Goldie", "Grace", "Gracie", "Graciela", "Gracy", "Grania", "Gratia", "Grazia", "Graziella",
+                "Greta", "Gretchen", "Grete", "Gretel", "Grethe", "Gretti", "Grit", "Gritt", "Grizelda", "Guadalupe",
+                "Gudrun", "Gudrune", "Gudula", "Guilla", "Gulja", "Gunda", "Gunde", "Gundel", "Gundela", "Gundula",
+                "Gustava", "Gustave", "Gwend", "Gwenda", "Gwendolin", "Gwendolina", "Gwendoline", "Gwendolyn", "Gypsy",
+                "Gytha", "Hadley", "Hailee", "Hailey", "Hailie", "Haleigh", "Halette", "Haley", "Halfreida", "Halfrida",
+                "Halfrieda", "Halie", "Halle", "Hallie", "Halsey", "Hana", "Hanna", "Hannah", "Hannchen", "Hanne",
+                "Hannele", "Hannelore", "Hanni", "Hanrietta", "Hanriette", "Harley", "Harmony", "Harriet", "Harriett",
+                "Harrietta", "Harriette", "Harva", "Harvelle", "Harvina", "Harvine", "Hattie", "Hatty", "Hauke",
+                "Haven", "Hayden", "Haylee", "Hayleigh", "Hayley", "Haylie", "Hazel", "Heather", "Heaven", "Hedda",
+                "Heddi", "Heddy", "Hedi", "Hedvige", "Hedwig", "Hedy", "Heide", "Heidi", "Heidrun", "Heidy", "Heike",
+                "Heinrike", "Helaine", "Helen", "Helena", "Helene", "Helga", "Helma", "Helmi", "Heloise", "Hemma",
+                "Hendrikje", "Henni", "Henrietta", "Henriette", "Henrika", "Henrike", "Hera", "Herma", "Hermia",
+                "Hermine", "Hermione", "Hertha", "Hester", "Hetdt", "Hettie", "Hidie", "Hilaire", "Hild", "Hilda",
+                "Hilde", "Hildegard", "Hildegarde", "Hildemar", "Hildie", "Hildreth", "Hildretha", "Hilke", "Hilma",
+                "Hollace", "Hollee", "Holli", "Hollie", "Holly", "Hollye", "Honey", "Honore", "Hope", "Huberta",
+                "Hubertha", "Huberthe", "Hubertina", "Hubertine", "Huette", "Hugette", "Huguetta", "Hulda", "Hunter",
+                "Ida", "Idda", "Idelia", "Idina", "Idona", "Ignatia", "Iken", "Ila", "Ilga", "Iliana", "Iljana", "Ilka",
+                "Ilona", "Ilonka", "Ilse", "Imani", "Imke", "Immaculata", "Immakulata", "Ina", "India", "Indira",
+                "Indra", "Ine", "Ineke", "Ines", "Inga", "Inge", "Ingeborg", "Ingrid", "Inka", "Inke", "Inken",
+                "Innocentia", "Innozentia", "Insa", "Iphigenie", "Ira", "Ireland", "Irena", "Irene", "Irina", "Irinka",
+                "Iris", "Irma", "Irme", "Irmengard", "Irmgard", "Irmina", "Irmine", "Isa", "Isabeau", "Isabel",
+                "Isabela", "Isabell", "Isabella", "Isabelle", "Isalda", "Isis", "Isolda", "Isolde", "Isotta", "Ita",
+                "Itzel", "Iva", "Ivana", "Ivanka", "Ivona", "Ivonne", "Ivy", "Iwana", "Iwanka", "Iwanna", "Iyana",
+                "Iyanna", "Izabella", "Jacalyn", "Jacey", "Jacinthe", "Jackeline", "Jackie", "Jacky", "Jaclyn",
+                "Jacqualine", "Jacqueleen", "Jacqueline", "Jacquelyn", "Jacquelyne", "Jacquelynne", "Jacquenetta",
+                "Jacquenette", "Jacqui", "Jada", "Jade", "Jaden", "Jadwiga", "Jadyn", "Jaelyn", "Jaida", "Jaiden",
+                "Jaidyn", "Jailyn", "Jaime", "Jakayla", "Jaliyah", "Jalyn", "Jalynn", "Jamie", "Jamie-Lee", "Jamya",
+                "Jana", "Janae", "Jane", "Janelle", "Janessa", "Janet", "Janette", "Janice", "Janie", "Janika",
+                "Janina", "Janine", "Janiya", "Janka", "Jaquelin", "Jaqueline", "Jarvia", "Jasmeen", "Jasmin",
+                "Jasmina", "Jasmine", "Jasmyn", "Jasmyne", "Jaycee", "Jayda", "Jayde", "Jayden", "Jayla", "Jaylene",
+                "Jaylin", "Jaylyn", "Jaylynn", "Jazlyn", "Jazmin", "Jazmine", "Jazmyn", "Jazmyne", "Jazzmine",
+                "Jazzmyn", "Jean", "Jeana", "Jeane", "Jeanee", "Jeanetta", "Jeanette", "Jeanice", "Jeanie", "Jeanina",
+                "Jeanine", "Jeanna", "Jeanne", "Jeannette", "Jeannie", "Jeannine", "Jeanny", "Jeena", "Jehane",
+                "Jelena", "Jelenka", "Jelika", "Jella", "Jena", "Jenette", "Jenifer", "Jenina", "Jenine", "Jenna",
+                "Jenni", "Jennifer", "Jennine", "Jenny", "Jeri", "Jerica", "Jessamina", "Jessamine", "Jessamyn",
+                "Jessica", "Jessie", "Jessika", "Jettchen", "Jette", "Jewel", "Jewell", "Jill", "Jillian", "Jimena",
+                "Jineen", "Joan", "Joana", "Joanna", "Joanne", "Jocelin", "Jocelina", "Joceline", "Jocelyn", "Jocelyne",
+                "Jocelynn", "Joeliyn", "Joell", "Joella", "Joelle", "Joellen", "Joelyn", "Johana", "Johanna", "Joi",
+                "Joia", "Joie", "Jola", "Jolanda", "Jolande", "Jolanta", "Jolante", "Jolantha", "Jolanthe", "Jolee",
+                "Joleigh", "Joli", "Jolie", "Jolien", "Jonesy", "Jonna", "Jordan", "Jordane", "Jordyn", "Josalyn",
+                "Josalynn", "Joscelyn", "Josefa", "Josefin", "Josefina", "Josefine", "Joselyn", "Josepha", "Josephe",
+                "Josephina", "Josephine", "Josette", "Josie", "Josilyn", "Josina", "Joslin", "Joslyn", "Journey",
+                "Jovita", "Jowita", "Joy", "Joy  Joyce", "Joya", "Joyann", "Joyanna", "Joyanne", "Joyce", "Joyelle",
+                "Jozlyn", "Juana", "Juanita", "Judit", "Judith", "Juditha", "Judy", "Julchen", "Jule", "Julee",
+                "Juleen", "Julia", "Juliana", "Juliane", "Julianna", "Julianne", "Julie", "Julienne", "Juliet",
+                "Julietta", "Juliette", "Julika", "Julissa", "Julita", "June", "Justeen", "Justice", "Justina",
+                "Justine", "Justyne", "Jutta", "Jutte", "Kacie", "Kaela", "Kaelyn", "Kaia", "Kaila", "Kailee", "Kailey",
+                "Kailyn", "Kaitlin", "Kaitlyn", "Kaitlynn", "Kaiya", "Kaleigh", "Kaley", "Kali", "Kaliyah", "Kallie",
+                "Kalyn", "Kamille", "Kamryn", "Kara", "Karcsi", "Karen", "Kari", "Karin", "Karina", "Karissa", "Karla",
+                "Karlee", "Karley", "Karli", "Karlie", "Karlotta", "Karly", "Karola", "Karolin", "Karolina", "Karoline",
+                "Karoly", "Kasandra", "Kasey", "Kassandra", "Kassidy", "Katarina", "Kate", "Katelin", "Katelyn",
+                "Katelynn", "Katerina", "Katharina", "Katharine", "Kathe", "Katherine", "Kathi", "Kathleen", "Kathrin",
+                "Kathrina", "Kathrine", "Kathryn", "Kathy", "Katie", "Katinka", "Katja", "Katlyn", "Katriane", "Katrin",
+                "Katrina", "Katy", "Kaya", "Kayla", "Kaylah", "Kaylee", "Kayleigh", "Kayley", "Kayli", "Kaylie",
+                "Kaylin", "Kaylyn", "Kaylynn", "Keeley", "Keely", "Keila", "Keira", "Kelli", "Kellie", "Kelly",
+                "Kelsey", "Kelsi", "Kelsie", "Kelsy", "Kemble", "Kendal", "Kendall", "Kendra", "Kenia", "Kenna",
+                "Kennedi", "Kennedy", "Kenya", "Kenzie", "Kersten", "Kersti", "Kerstin", "Keyla", "Kezia", "Kiana",
+                "Kianna", "Kiara", "Kiera", "Kierra", "Kiersten", "Kiley", "Kim", "Kimball", "Kimbell", "Kimberley",
+                "Kimberly", "Kimble", "Kimby", "Kimmey", "Kimmi", "Kimmie", "Kimmy", "Kira", "Kirsten", "Kirstin",
+                "Kiya", "Klara", "Klarina", "Klarinda", "Klarissa", "Klaudia", "Klementia", "Klementine", "Kleopatra",
+                "Klothild", "Klothilde", "Konstantia", "Konstanza", "Konstanze", "Kora", "Kordula", "Korinna",
+                "Kornelia", "Kourtney", "Kriemhild", "Kriemhilde", "Krimhild", "Krimhilde", "Krista", "Kristen",
+                "Kristiane", "Kristin", "Kristina", "Krystal", "Kunigunda", "Kunigunde", "Kunissa", "Kya", "Kyla",
+                "Kylee", "Kyleigh", "Kylie", "Kym", "Kymberly", "Kyra", "LaVergne", "Lace", "Lacee", "Lacene", "Lacey",
+                "Laci", "Laciann", "Lacie", "Lacina", "Lacy", "Lacyann", "Laetitia", "Laila", "Lana", "Laney", "Lara",
+                "Larissa", "Laura", "Laureen", "Laurel", "Lauren", "Laurene", "Laurentia", "Laurenzia", "Lauretta",
+                "Laurette", "Laurina", "Laurine", "Lauryn", "Lavern", "Laverna", "Laverne", "Lavernia", "Lavonne",
+                "Laycie", "Layla", "Lea", "Leah", "Leala", "Lealia", "Leander", "Leanna", "Lee", "Leefka", "Leefke",
+                "Lei", "Leia", "Leigh", "Leila", "Leilani", "Leilena", "Lela", "Lena", "Lenchen", "Lene", "Leni",
+                "Lenka", "Lenore", "Leoba", "Leoda", "Leola", "Leona", "Leonarda", "Leonda", "Leondra", "Leondrea",
+                "Leone", "Leonela", "Leonelle", "Leonie", "Leonore", "Leontina", "Leontyne", "Leopolda", "Leopoldina",
+                "Leopoldine", "Leota", "Lesley", "Leslie", "Lesly", "Leticia", "Letje", "Letya", "Lexi", "Lexie",
+                "Lexus", "Leyla", "Lia", "Liana", "Liane", "Libby", "Liberty", "Lidda", "Liealia", "Lies", "Liesel",
+                "Liesl", "Lil", "Lila", "Lili", "Lilian", "Liliana", "Liliane", "Lilith", "Lilli", "Lillian",
+                "Lilliana", "Lillie", "Lilly", "Lilo", "Lily", "Lina", "Linchen", "Linda", "Lindsay", "Lindsey", "Line",
+                "Linette", "Lioba", "Liriene", "Lirienne", "Lisa", "Lisbeth", "Lise", "Liselotte", "Lisenka", "Lisetta",
+                "Lisette", "Lissette", "Lissy", "Litzy", "Livi", "Livia", "Livie", "Livvi", "Lizbeth", "Lizeth",
+                "Lizette", "Lizzy", "Locke", "Loella", "Logan", "Logestilla", "Logistilla", "Lola", "Lolo", "London",
+                "Lone", "Loraina", "Loraine", "Lorayne", "Lorchen", "Lore", "Lorelei", "Lorelia", "Lorelie", "Loren",
+                "Lorena", "Lorenza", "Loretta", "Lorette", "Lorin", "Lorraina", "Lorraine", "Lottchen", "Lotte",
+                "Lotye", "Louanna", "Louanne", "Louella", "Louisa", "Louise", "Lourdes", "Love", "Loveleen", "Lovie",
+                "Luana", "Luane", "Luca", "Lucette", "Lucia", "Luciana", "Luciane", "Lucie", "Lucienne", "Lucile",
+                "Lucilla", "Lucille", "Lucrece", "Lucy", "Ludmila", "Ludmilla", "Luella", "Luelle", "Luisa", "Luise",
+                "Lukretia", "Lulu", "Luna", "Lundy", "Lunette", "Lupe", "Lurleen", "Luwana", "Luwanna", "Luwanne",
+                "Luz", "Luzia", "Luzie", "Lydia", "Lydie", "Lyndsey", "Lynette", "Lynn", "Lynn-Marie", "Lynnette",
+                "Lyonette", "Lyra", "Lyric", "Mabelle", "Macee", "Macey", "Maci", "Macie", "Mackenzie", "Macy",
+                "Madalene", "Madalyn", "Madalynn", "Maddison", "Maddy", "Madeleina", "Madeleine", "Madelina",
+                "Madeline", "Madelon", "Madelyn", "Madelynn", "Madie", "Madilyn", "Madisen", "Madison", "Madisyn",
+                "Madita", "Madlen", "Madolen", "Mady", "Madyson", "Mae", "Maegan", "Maelee", "Maelynn", "Maeve",
+                "Mafalda", "Magda", "Magdalen", "Magdalena", "Maggie", "Maggy", "Magnolia", "Mai", "Maia", "Maida",
+                "Maidel", "Maidie", "Maidy", "Maika", "Maike", "Maiken", "Maiolaine", "Maira", "Mairin", "Maisie",
+                "Maitane", "Maiya", "Maja", "Majori", "Makaila", "Makayla", "Makena", "Makenna", "Makenzie", "Malchen",
+                "Male", "Maleah", "Malenka", "Malia", "Malica", "Malin", "Malina", "Maliyah", "Mallorie", "Mallory",
+                "Manda", "Mandy", "Manette", "Manhattan", "Mania", "Manja", "Manjana", "Manny", "Manon", "Manuela",
+                "Manuella", "Mara", "Marcelin", "Marcelina", "Marceline", "Marcella", "Marcelle", "Marcellia",
+                "Marcellina", "Marchelle", "Marcie", "Maree", "Mareen", "Marei", "Mareike", "Marelda", "Maren",
+                "Marene", "Marga", "Margaret", "Margareta", "Margarete", "Margaretha", "Margarita", "Margaux",
+                "Margeaux", "Margery", "Margit", "Margo", "Margot", "Margret", "Marguerite", "Maria", "Mariah",
+                "Mariam", "Marian", "Mariana", "Mariane", "Marianna", "Marianne", "Maribel", "Marie", "Mariechen",
+                "Mariela", "Mariele", "Mariella", "Marielle", "Marietta", "Mariette", "Marija", "Marika", "Marike",
+                "Marilena", "Marilyn", "Marina", "Marinka", "Marion", "Mariona", "Marionna", "Marisa", "Marisol",
+                "Marissa", "Marit", "Maritza", "Marjolaina", "Marlee", "Marlene", "Marley", "Marlis", "Marlon",
+                "Marquisa", "Marquise", "Marquisha", "Marta", "Marteena", "Martha", "Martina", "Martine", "Marveille",
+                "Marvela", "Marvella", "Marvelle", "Mary", "Maryam", "Maryl", "Maryvonne", "Maschinka", "Masha",
+                "Mateja", "Mathilda", "Mathilde", "Matilda", "Matilde", "Mattie", "Matty", "Maud", "Maude", "Maura",
+                "Maureen", "Maurelle", "Maurina", "Maurine", "Mavis", "Mavise", "Maxime", "Maxine", "May", "Maya",
+                "Mayda", "Mayra", "Mckayla", "Mckenna", "Mckenzie", "Meadow", "Meagan", "Meaghan", "Mechthild",
+                "Mechthilde", "Mechtild", "Megan", "Meghan", "Meika", "Meike", "Meiken", "Mela", "Melaina", "Melaine",
+                "Melanee", "Melania", "Melanie", "Melany", "Melina", "Melinda", "Meline", "Melisande", "Melissa",
+                "Melitta", "Melodie", "Melody", "Melusina", "Mercedes", "Mercer", "Merci", "Mercy", "Meredith", "Meret",
+                "Meriel", "Merla", "Merle", "Merlyn", "Merryl", "Meryl", "Meta", "Meyla", "Mia", "Mia  Miah", "Miah",
+                "Micaela", "Micah", "Michaela", "Michela", "Michele", "Micheline", "Michella", "Michelle", "Mieke",
+                "Miette", "Mignon", "Mignonette", "Mikaela", "Mikayla", "Milena", "Milina", "Millicent", "Millicente",
+                "Millie", "Milva", "Mimi", "Mina", "Minchen", "Minda", "Mindy", "Mine", "Minerva", "Minetta", "Minette",
+                "Mingo", "Minna", "Minne", "Minnie", "Minta", "Mira", "Mirabell", "Mirabella", "Mirabelle", "Miracle",
+                "Miranda", "Mireille", "Mirella", "Mireya", "Miriam", "Mirielle", "Mirjam", "Mirla", "Mirth", "Missie",
+                "Missy", "Missye", "Mistee", "Mistey", "Mistique", "Misty", "Miya", "Mollie", "Molly", "Mona", "Mone",
+                "Moni", "Monica", "Monika", "Moniqua", "Monique", "Monja", "Monserrat", "Montana", "Moreen", "Morgan",
+                "Moriah", "Munira", "Muriel", "Musetta", "Musette", "Mya", "Myah", "Mychele", "Mychelle", "Myra",
+                "Myrla", "Myrna", "Mystique", "Nada", "Nadeen", "Nadia", "Nadina", "Nadine", "Nadinka", "Nadja",
+                "Nadjeschda", "Naeva", "Nafia", "Naima", "Nan", "Nancey", "Nanci", "Nancie", "Nancy", "Nane", "Nanette",
+                "Nanine", "Nann", "Nannerl", "Nannette", "Nanni", "Nanon", "Naomi", "Naomy", "Nara", "Narcisse",
+                "Nastasia", "Nastjenka", "Nata", "Natalee", "Natalia", "Natalie", "Natalii", "Nataly", "Natascha",
+                "Natasha", "Natassja", "Nathalee", "Nathalia", "Nathalie", "Nathaly", "Natuche", "Nayeli", "Neeske",
+                "Neisa", "Nele", "Nella", "Nelli", "Nelly", "Nesrin", "Nessie", "Nettchen", "Netti", "Nevaeh", "Nia",
+                "Nichol", "Nichole", "Nicki", "Nicky", "Nicola", "Nicole", "Nicoletta", "Nicolette", "Nicoline",
+                "Nicolle", "Nikki", "Nikoletta", "Nikolina", "Nikoline", "Nila", "Nina", "Ninette", "Ninon", "Nissie",
+                "Nissy", "Nixie", "Noa", "Noel", "Noele", "Noelia", "Noell", "Noella", "Noelle", "Noemi", "Noemie",
+                "Nora", "Norberta", "Norberte", "Norbertha", "Norberthe", "Nordica", "Norma", "Nuria", "Nya", "Nyah",
+                "Nyasia", "Nyla", "Nynette", "Odalys", "Odeletta", "Odelette", "Odetta", "Odette", "Odila", "Odile",
+                "Odilia", "Olave", "Olga", "Olive", "Olivia", "Ollie", "Olva", "Olympe", "Olympia", "Olympie", "Oola",
+                "Ophelia", "Ophelie", "Orane", "Orania", "Oriel", "Orla", "Orlanda", "Orlande", "Orlena", "Orlene",
+                "Orlina", "Ornella", "Orsina", "Orsine", "Orsola", "Orsolya", "Ortelia", "Orva", "Ottilia", "Ottilie",
+                "Oxana", "Page", "Paige", "Palma", "Palmiera", "Palmira", "Palmyra", "Paloma", "Pamela", "Pamelina",
+                "Pandora", "Pansy", "Paola", "Paris", "Parker", "Parnella", "Pascala", "Pascale", "Pascaline",
+                "Pasclina", "Patience", "Patrice", "Patricia", "Patrizia", "Paula", "Pauletta", "Paulette", "Paulina",
+                "Pauline", "Pawla", "Payton", "Pearl", "Peggy", "Penelope", "Penny", "Pensee", "Pepi", "Perla", "Petra",
+                "Peyton", "Philina", "Philine", "Philippa", "Philippe", "Philippina", "Philippine", "Phillipa",
+                "Philomela", "Philomele", "Philomena", "Philomene", "Phinchen", "Phoebe", "Pia", "Pia-Marie", "Piera",
+                "Pierretta", "Pierrette", "Pilar", "Piper", "Pleasance", "Poppy", "Precious", "Presley", "Princess",
+                "Prisca", "Priscila", "Priscilla", "Priska", "Priszilla", "Prunella", "Prunellie", "Pyper", "Queena",
+                "Quendolin", "Questa", "Quinn", "Rabea", "Rabia", "Rachael", "Rachel", "Rachele", "Rachelle", "Rachil",
+                "Radella", "Radmila", "Radmilla", "Radomila", "Raegan", "Raffaela", "Rahel", "Raina", "Raison",
+                "Raissa", "Rama", "Ramona", "Ramonda", "Raphaela", "Raphaele", "Raquel", "Ratna", "Raven", "Raymonda",
+                "Raymonde", "Rayna", "Rea", "Reagan", "Reanna", "Rebeca", "Rebecca", "Rebekah", "Rebekka", "Recha",
+                "Reese", "Regan", "Regina", "Regine", "Regula", "Reilly", "Reina", "Reine", "Relyea", "Renata",
+                "Renate", "Rene", "Renee", "Reyna", "Rhea", "Rhiannon", "Ria", "Riana", "Rianna", "Rica", "Ricarda",
+                "Richarda", "Richelle", "Rickie", "Ricky", "Rieke", "Rikchen", "Rike", "Riley", "Rilla", "Rille",
+                "Rillette", "Rita", "Riva", "Rive", "Riya", "Ro", "Robbin", "Roberta", "Roberte", "Robertina", "Robin",
+                "Robina", "Robine", "Robinetta", "Robinette", "Robyn", "Rocio", "Roddie", "Roddy", "Roderica",
+                "Rodericka", "Roesia", "Rohais", "Roial", "Rola", "Rolanda", "Rolande", "Romaine", "Romana", "Romhilda",
+                "Romhilde", "Romilda", "Romilde", "Romy", "Ronalda", "Ronalde", "Ronja", "Ronnie", "Ronny", "Rosa",
+                "Rosalba", "Rosalie", "Rosalinde", "Rosamonde", "Rosamunde", "Rosanna", "Rose", "Rosegrethe", "Rosella",
+                "Rosellina", "Rosemarie", "Rosemary", "Rosi", "Rosina", "Rosine", "Rosita", "Roswita", "Roswitha",
+                "Roterica", "Roux", "Rownan", "Roxana", "Roxane", "Roxanne", "Roya", "Royale", "Rubie", "Ruby",
+                "Rudella", "Rudelle", "Ruperta", "Rut", "Ruth", "Ryan", "Ryann", "Rylee", "Ryleigh", "Rylie", "Sabina",
+                "Sabine", "Sabrina", "Sade", "Sadie", "Sage", "Sahra", "Saige", "Salene", "Sally", "Salma", "Salome",
+                "Salvina", "Salwa", "Samantha", "Samara", "Samira", "Sandra", "Sandria", "Sandrina", "Sandrine",
+                "Sandy", "Sanetra", "Sanne", "Saphira", "Sara", "Sarah", "Sarahi", "Sarai", "Sarina", "Sascha", "Sasha",
+                "Saskia", "Sasna", "Satin", "Savana", "Savanah", "Savanna", "Savannah", "Saxona", "Scarlet", "Scarlett",
+                "Searlait", "Selby", "Selden", "Seldon", "Selena", "Selene", "Selima", "Selina", "Selma", "Selwin",
+                "Selwyn", "Serafin", "Serafina", "Seraphin", "Seraphina", "Seraphine", "Serena", "Serenity", "Serfine",
+                "Serhilda", "Serhilde", "Serilda", "Serilde", "Shakira", "Shalina", "Shalyna", "Shana", "Shandy",
+                "Shania", "Shanice", "Shaniya", "Shannon", "Shantala", "Shanton", "Sharla", "Sharleen", "Sharlene",
+                "Sharon", "Shawna", "Shayla", "Shaylee", "Shayna", "Shea", "Sheila", "Shelby", "Sherey", "Sherlie",
+                "Sheryl", "Sheyla", "Shir", "Shirl", "Shirlee", "Shirleen", "Shirleigh", "Shirley", "Shreya", "Shurl",
+                "Shurlie", "Shyann", "Shyanne", "Sibilla", "Sibille", "Sibyla", "Sibylla", "Sibylle", "Sidney",
+                "Sidonia", "Sidonie", "Sienna", "Sierra", "Sigfreda", "Sigfrieda", "Sigfriede", "Sigrid", "Sigrun",
+                "Silana", "Silja", "Silka", "Silke", "Silvana", "Silvetta", "Silvette", "Silvia", "Silvina", "Simona",
+                "Simone", "Simonetta", "Simonette", "Sina", "Sinja", "Sinje", "Sissi", "Sky", "Skye", "Skyla", "Skylar",
+                "Skyler", "Slainie", "Slania", "Slanie", "Sofia", "Sofie", "Solaina", "Solaine", "Solange", "Solvig",
+                "Sonia", "Sonja", "Sonya", "Sophia", "Sophie", "Soreen", "Sorren", "Stacey", "Stacy", "Stefana",
+                "Stefania", "Stefanie", "Steffi", "Stella", "Stephania", "Stephanie", "Stephany", "Stina", "Stine",
+                "Storm", "Storme", "Stormie", "Stormy", "Suleima", "Summer", "Susan", "Susana", "Susane", "Susanna",
+                "Susanne", "Suse", "Susen", "Susi", "Susie", "Suzanne", "Suzette", "Suzy", "Svana", "Svea", "Svenja",
+                "Swantje", "Swea", "Swenja", "Sydnee", "Sydney", "Sydni", "Sydnie", "Sylke", "Sylvia", "Sylvie",
+                "Tabea", "Tabitha", "Tait", "Taite", "Taitum", "Talia", "Talida", "Talika", "Taliyah", "Tallis",
+                "Tamar", "Tamara", "Tamia", "Tamira", "Tania", "Tanita", "Taniya", "Tanja", "Tanjura", "Tanya", "Tara",
+                "Tara-Ann", "Taryn", "Tat", "Tatiana", "Tatjana", "Tatum", "Tatyana", "Tavia", "Taya", "Tayler",
+                "Taylor", "Tayte", "Teagan", "Teite", "Tempeste", "Teresa", "Terese", "Tereza", "Tess", "Tessa",
+                "Thabita", "Thalia", "Thea", "Theodora", "Theres", "Theresa", "Therese", "Theresia", "Theresina",
+                "Thery", "Thilde", "Thistle", "Tia", "Tiana", "Tianna", "Tiara", "Tibelda", "Tierra", "Tiffanie",
+                "Tiffany", "Tiffney", "Tilda", "Tilly", "Timea", "Tina", "Tinchen", "Tine", "Tinette", "Tizia",
+                "Tiziana", "Tokessa", "Toni", "Tonja", "Tori", "Tosca", "Toska", "Tracy", "Trine", "Trinetta",
+                "Trinette", "Trinity", "Trista", "Tristan", "Trix", "Trixi", "Tru", "Trudchen", "Trude", "Trudel",
+                "Trudi", "Trudie", "Trudy", "Tuesday", "Tyler", "Tyra", "Uda", "Udele", "Udella", "Udelle", "Uka",
+                "Ula", "Ulita", "Ulitta", "Uljana", "Ulla", "Ulli", "Ulrica", "Ulrika", "Ulrike", "Ulva", "Undine",
+                "Unique", "Urania", "Urith", "Ursel", "Ursina", "Ursine", "Ursula", "Urte", "Uschi", "Uta", "Ute",
+                "Vafara", "Vala", "Valborga", "Valburga", "Valda", "Valentina", "Valentine", "Valeraine", "Valere",
+                "Valeri", "Valeria", "Valeriana", "Valeriane", "Valerie", "Valerien", "Valeska", "Valida", "Vallerie",
+                "Vanadis", "Vanesa", "Vanessa", "Vania", "Vanja", "Vanni", "Varinka", "Vedetta", "Velda", "Velma",
+                "Veloy", "Veneta", "Venetia", "Venetta", "Venus", "Vera", "Verena", "Verona", "Verone", "Veronica",
+                "Veronika", "Veronique", "Vicky", "Victoria", "Victorina", "Victorine", "Vignetta", "Vignette",
+                "Viktoria", "Viktorin", "Viktorina", "Viktorine", "Villetta", "Villette", "Vina", "Vineta", "Vinka",
+                "Viola", "Violet", "Violett", "Violetta", "Violette", "Viollette", "Virginia", "Virginie", "Vittoria",
+                "Vivian", "Viviana", "Viviane", "Vivien", "Vivienne", "Voleta", "Voletta", "Vroni", "Walborga",
+                "Walburg", "Walburga", "Walburge", "Walda", "Waldburg", "Walli", "Wally", "Walpurgis", "Waltraud",
+                "Wanda", "Wandie", "Wandis", "Wanja", "Warda", "Warenka", "Welda", "Wencke", "Wenda", "Wendeline",
+                "Wendy", "Wenke", "Whitney", "Wiba", "Wibeke", "Wibke", "Wiebke", "Wigberta", "Wileen", "Wilf",
+                "Wilfiede", "Wilfreda", "Wilfreida", "Wilfrieda", "Wilhelma", "Wilhelmina", "Wilhelmine", "Willa",
+                "Willow", "Wilma", "Wilona", "Winifred", "Winifrieda", "Winnie", "Winny", "Winola", "Winona", "Winter",
+                "Xandra", "Xaveria", "Xaverine", "Xaviere", "Xavierra", "Xavierre", "Xena", "Xenia", "Ximena",
+                "Xiomara", "Yadira", "Yamina", "Yara", "Yaren", "Yasmin", "Yasmina", "Yasmine", "Yazmin", "Yedda",
+                "Yelena", "Yesenia", "Yessenia", "Yetta", "Ynes", "Ynez", "Yola", "Yoland", "Yolanda", "Yolande",
+                "Yolanthe", "Yolonda", "Ysabel", "Yseult", "Yuliana", "Yuria", "Yvette", "Yvonna", "Yvonne", "Zaida",
+                "Zaina", "Zara", "Zarah", "Zaria", "Zeider", "Zelda", "Zena", "Zenobia", "Zenzi", "Zerelda", "Zerla",
+                "Zerlina", "Zerline", "Zilli", "Zina", "Zoe", "Zoey", "Zoie", "Zorra", "Zuri", "Zuria", "Zurie"
+            ])
+
+        elif f_option == 1 and self.Gender == 'Male':
+            name += choice(["", "", "b", "bh", "f", "h", "j", "kh", "m", "n", "nh", "r", "rh", "s", "z"])
+            name += choice(["a", "e", "u", "a", "e", "u", "a", "e", "u", "i", "ei"])
+            name += choice(["b", "d", "hm", "hn", "hl", "kh", "l", "m", "rd", "r", "s", "sh", "z"])
+            name += choice(["a", "e", "u", "a", "e", "u", "a", "e", "u", "i", "ei"])
+            name += choice(["d", "m", "n", "r"])
+
+        elif f_option == 1 and self.Gender == 'Female':
+            name += choice(["", "", "c", "f", "h", "j", "m", "n", "r", "s", "sh", "y", "z"])
+            name += choice(["a", "e", "u", "a", "e", "u", "o", "o", "i", "i", "ei"])
+            name += choice(
+                ["d", "f", "hn", "hl", "hm", "hr", "l", "m", "n", "p", "r", "s", "sh", "sm", "sn", "t", "v", "z"])
+            name += choice(["a", "e", "u", "a", "e", "u", "o", "o", "i", "i", "ei"])
+            name += choice(["h", "l"])
+
+        elif f_option == 2 and self.Gender == 'Male':
+            name += choice(["", "b", "br", "d", "g", "gr", "h", "m", "n", "r", "st", "t", "v"])
+            name += choice(["a", "e", "i", "o", "u"])
+            name += choice([
+                "", "br", "cr", "gr", "kv", "kr", "l", "ll", "ld", "lv", "nd", "ng", "nk", "nv", "rd", "rg", "rk",
+                "rst", "rv", "v"
+            ])
+            name += choice(["a", "e", "i", "o", "u"])
+            name += choice(["", "", "", "d", "dd", "g", "l", "lm", "m", "n", "r", "rk", "rn"])
+
+        elif f_option == 2 and self.Gender == 'Female':
+            name += choice(["", "c", "j", "jh", "k", "l", "m", "n", "r", "s", "sh", "t"])
+            name += choice([
+                "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a",
+                "e", "i", "o", "u", "ee", "ai", "ei", "ie"
+            ])
+            name += choice([
+                "ch", "dr", "l", "ll", "lr", "ldr", "ls", "lz", "n", "ndr", "rl", "r", "rr", "rv", "ss", "sr", "sv",
+                "w", "z", "zz", "zn"
+            ])
+            name += choice([
+                "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a",
+                "e", "i", "o", "u", "ee", "ai", "ei", "ie"
+            ])
+            name += choice(["", "", "", "", "h", "l", "ll", "n"])
+
+        # Last name
+        name = name.title() + ' ' + choice([
+            "Amber", "Arm", "Ash", "Autumn", "Battle", "Bear", "Black", "Blaze", "Blood", "Boar", "Boulder", "Brawl",
+            "Bright", "Bronze", "Bull", "Cinder", "Cloud", "Cold", "Common", "Dark", "Dawn", "Dead", "Doom", "Dream",
+            "Dusk", "Dust", "Ember", "Even", "Fine", "Forest", "Free", "Frost", "Frozen", "Gloom", "Gold", "Grand",
+            "Great", "Grim", "Grizzly", "Hallow", "Hell", "High", "Honey", "Horn", "Ice", "Iron", "Keen", "Light",
+            "Lone", "Long", "Mighty", "Mist", "Moss", "Mountain", "Night", "Noble", "Pale", "Plain", "Pride", "Proud",
+            "Quick", "Rage", "Rapid", "Raven", "River", "Rock", "Rune", "Shadow", "Sharp", "Silent", "Silver", "Smoke",
+            "Snow", "Soft", "Spirit", "Star", "Steel", "Stone", "Storm", "Strong", "Summer", "Swift", "Thunder",
+            "Troll", "True", "War", "Wild", "Wind", "Winter", "Wolf"
+        ]) + choice([
+            "arm", "arrow", "bane", "bash", "bear", "blade", "brace", "brand", "breaker", "breath", "brew", "caller",
+            "cleaver", "crest", "crusher", "cut", "cutter", "dream", "eye", "eyes", "fall", "fire", "fist", "flame",
+            "force", "forge", "fury", "gaze", "gleam", "grip", "guard", "hair", "hall", "hammer", "hand", "heart",
+            "hunter", "killer", "lash", "mane", "mantle", "mark", "maul", "rage", "reaper", "reaver", "rider", "ripper",
+            "roar", "rock", "root", "scar", "scream", "shield", "shout", "slayer", "snarl", "song", "spirit",
+            "splitter", "star", "stride", "sun", "sword", "thorn", "tongue", "walker", "ward", "watcher", "wind",
+            "wine", "wolf"
+        ])
+
+        return name
+
+
+class HalfElf:
+    m1 = [
+        "", "", "", "", "", "b", "c", "d", "g", "h", "j", "jh", "k", "kh", "kr", "l", "m", "n", "p", "q", "r", "s", "t",
+        "tr", "v", "vr", "z", "zr"
+    ]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o",
+        "u", "y", "y", "y", "ai", "ae", "ia", "ue", "ie", "ui"
+    ]
+    m3 = [
+        "d", "d", "d", "dr", "dl", "dw", "g", "g", "g", "gr", "gl", "gg", "gw", "l", "l", "l", "l", "ld", "lv", "lgr",
+        "lbr", "lc", "ldr", "lg", "lgg", "lr", "lt", "lth", "m", "m", "m", "mr", "ml", "n", "n", "n", "nc", "nn", "nr",
+        "nd", "ngr", "nv", "nvr", "r", "r", "r", "rc", "rg", "rr", "rth", "rv", "rvr", "rl", "rd", "rdr", "rgr", "rw",
+        "s", "s", "s", "sh", "sl", "sr", "ss", "st", "str", "svr", "t", "t", "t", "th", "tt", "tr"
+    ]
+    m4 = ["", "", "", "c", "h", "k", "l", "n", "nn", "r", "s"]
+    f1 = [
+        "", "", "", "", "c", "ch", "d", "j", "k", "kr", "l", "m", "n", "r", "s", "sh", "t", "thr", "th", "tr", "v",
+        "vr", "vh", "z", "zr", "zh"
+    ]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o",
+        "u", "ia", "au", "ie", "ua", "oi", "ou", "ae"
+    ]
+    f3 = [
+        "b", "b", "br", "cl", "cr", "d", "d", "gs", "gl", "gn", "gm", "gsh", "l", "l", "l", "lm", "lr", "lsr", "ltr",
+        "ly", "lly", "ld", "ll", "lsb", "lv", "m", "m", "m", "my", "mr", "n", "n", "n", "nd", "nr", "nw", "nn", "ns",
+        "nv", "ny", "pt", "pr", "r", "r", "r", "r", "rg", "rr", "rl", "rv", "ry", "s", "s", "s", "ss", "sy", "str",
+        "sw", "thr", "tr", "th", "y", "y", "y"
+    ]
+    f4 = ["", "", "", "", "", "", "", "", "", "", "h", "l", "n", "s", "ss", "th"]
+    s1 = [
+        "", "", "", "", "b", "bl", "cl", "d", "dr", "f", "fl", "fr", "g", "gl", "gr", "h", "j", "k", "kl", "kr", "l",
+        "m", "n", "p", "pr", "s", "sl", "sk", "st", "t", "tr", "wr", "y", "z"
+    ]
+    s2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o",
+        "u", "aa", "io", "ei", "iu", "ai", "ea", "ee"
+    ]
+    s3 = [
+        "d", "d", "d", "dr", "dw", "gr", "gw", "gn", "g", "g", "gg", "h", "h", "h", "j", "j", "j", "k", "k", "k", "kr",
+        "kl", "km", "kn", "l", "l", "ll", "l", "lr", "lg", "ld", "ldr", "lmr", "ly", "m", "mg", "mr", "m", "m", "m",
+        "n", "n", "n", "nn", "n", "nr", "ng", "ngr", "ndr", "nd", "nsh", "ntr", "r", "r", "r", "r", "rr", "rd", "rdr",
+        "rg", "rgr", "rl", "rm", "rt", "s", "s", "s", "sdr", "sgr", "sg", "sh", "ssr", "t", "tr", "t", "t", "th", "v",
+        "v", "vr", "vl", "w", "xh", "xt", "y", "yh", "zm"
+    ]
+    s4 = ["", "", "", "", "", "", "", "ht", "l", "m", "n", "nd", "nn", "r", "rks", "rt", "s", "th", "w", "ys"]
+
+
+class HalfOrc:
+    m1 = ["", "", "", "b", "br", "c", "cr", "d", "dr", "g", "gr", "h", "hr", "k", "m", "n", "p", "t", "th", "ts", "z"]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o", "aa", "au", "oa", "ia",
+        "ai", "uu"
+    ]
+    m3 = [
+        "br", "b", "d", "dh", "dr", "dz", "g", "gr", "gd", "gh", "k", "kh", "kt", "kd", "kr", "lgr", "ltr", "ldr", "lr",
+        "lkr", "nd", "ng", "ngr", "ndr", "nv", "r", "rv", "rg", "rdr", "st", "sd", "str", "tr", "v", "zr", "zz", "zv",
+        "zvr"
+    ]
+    m4 = ["", "", "", "ch", "d", "g", "k", "l", "lm", "n", "r", "rg", "rm", "rv", "s", "sk", "t", "x", "zhg"]
+    f1 = [
+        "", "", "", "", "", "b", "br", "c", "d", "dr", "g", "h", "k", "m", "n", "r", "rz", "s", "sh", "str", "t", "v",
+        "w", "z"
+    ]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "a", "o", "o", "ay", "ou", "ai", "uo"
+    ]
+    f3 = [
+        "b", "br", "bl", "c", "cl", "cr", "d", "dl", "dr", "g", "gh", "gr", "gl", "hg", "hk", "hr", "jk", "l", "ljk",
+        "ll", "ln", "lr", "lt", "m", "mr", "mg", "ml", "n", "ng", "nl", "nc", "r", "rg", "rl", "rd", "s", "sl", "sr",
+        "t", "tt", "tr", "v", "vr", "z", "zr"
+    ]
+    f4 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "h", "n", "sh", "th", "x"]
+    s1 = [
+        "", "", "", "", "", "b", "c", "d", "g", "gn", "h", "j", "k", "m", "n", "r", "s", "sh", "t", "th", "v", "w", "z"
+    ]
+    s2 = ["a", "e", "i", "o", "u"]
+    s3 = [
+        "b", "br", "d", "dr", "dk", "g", "gr", "gh", "gl", "k", "kr", "l", "lk", "lgr", "ln", "lr", "lr", "m", "mk",
+        "n", "nr", "nk", "nd", "ndr", "ng", "rg", "rv", "rk", "r", "rr", "rsh", "shk", "st", "sk", "sr", "sv", "svr",
+        "tsk", "tk", "tr", "v", "xl", "xn", "z", "zr", "zk"
+    ]
+    s4 = ["", "", "", "", "", "ch", "d", "k", "ld", "lm", "m", "n", "r", "shky", "tsky", "v", "x", "z"]
+
+
+class Ifrit:
+    m1 = ["", "", "", "", "b", "d", "g", "j", "k", "m", "n", "r", "t", "v", "z"]
+    m2 = ["a", "e", "i", "u"]
+    m3 = ["c", "f", "g", "j", "k", "l", "m", "n", "q", "r", "v"]
+    m4 = ["", "", "", "d", "g", "h", "j", "l", "m", "n", "q", "t"]
+    f1 = ["", "", "", "c", "f", "g", "h", "l", "m", "n", "q", "s", "w", "z"]
+    f2 = ["a", "e", "i"]
+    f3 = [
+        "d", "dw", "dr", "h", "l", "lr", "ly", "m", "ml", "mr", "n", "nr", "nl", "q", "qh", "qr", "r", "rh", "ry", "rl",
+        "t", "ty", "th", "tw", "tr", "w", "y"
+    ]
+    f4 = ["", "", "", "", "", "", "", "", "h", "n", "s"]
+
+
+class Kalashtar:
+    m1 = ["b", "c", "ch", "d", "g", "gh", "h", "k", "kh", "l", "m", "n", "s", "t", "v", "z"]
+    m2 = ["a", "e", "o", "a", "e", "o", "i"]
+    m3 = ["l", "n", "r", "s", "v", "w", "y", "z"]
+    m4 = ["", "", "", "", "", "d", "l", "lk", "n", "ns", "nt", "s", "ss", "sh", "th"]
+
+    f1 = ["d", "h", "g", "gh", "k", "kh", "m", "n", "r", "sh", "sht", "t", "v", "z"]
+    f2 = ["dr", "kr", "l", "ld", "ldr", "lr", "n", "r", "rr", "v", "z"]
+    f3 = ["ai", "ei", "ia", "a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i"]
+    f4 = ["", "", "", "", "", "d", "l", "lk", "n", "ns", "nt", "s", "ss", "sh", "th"]
+
+
+class Kenku:
+    n1 = [
+        "Angler", "Baker", "Barker", "Basher", "Bather", "Beggar", "Biter", "Boiler", "Bomber", "Bonker", "Bouncer",
+        "Braker", "Brander", "Breaker", "Broiler", "Bruiser", "Bubbler", "Burner", "Butcher", "Buzzer", "Cackler",
+        "Carver", "Caster", "Chimer", "Chitter", "Chomper", "Chopper", "Clamor", "Clamper", "Clanger", "Clapper",
+        "Clawer", "Cleaver", "Clicker", "Clinger", "Clinker", "Clipper", "Clubber", "Clucker", "Cobbler", "Cooker",
+        "Cougher", "Crackler", "Crinkler", "Croaker", "Cruncher", "Crusher", "Cutter", "Dangler", "Deflater", "Digger",
+        "Dipper", "Doodler", "Dragger", "Drawer", "Dribbler", "Driller", "Dripper", "Drummer", "Duster", "Enchanter",
+        "Engraver", "Etcher", "Exploder", "Flapper", "Flipper", "Flopper", "Flusher", "Forger", "Fryer", "Giggler",
+        "Gnasher", "Gnawer", "Gouger", "Greaser", "Griller", "Grinder", "Growler", "Gusher", "Hammer", "Hammerer",
+        "Hiccup", "Hummer", "Impaler", "Inscriber", "Itcher", "Jangler", "Jingler", "Knocker", "Lasher", "Locker",
+        "Lugger", "Mangler", "Masher", "Mauler", "Mewer", "Mimer", "Molder", "Nailer", "Neigher", "Nestler", "Nibbler",
+        "Paddler", "Piercer", "Piper", "Plunger", "Presser", "Prodder", "Puffer", "Raker", "Rasper", "Rattler",
+        "Ripper", "Roarer", "Roaster", "Ruffler", "Rustler", "Scooper", "Scorcher", "Scratcher", "Scribbler",
+        "Scrubber", "Shaker", "Shaver", "Shearer", "Shoveler", "Shrieker", "Sifter", "Singer", "Sketcher", "Slammer",
+        "Slicer", "Smasher", "Snapper", "Sneezer", "Snorer", "Spitter", "Splasher", "Splitter", "Squeaker", "Squealer",
+        "Squisher", "Stamper", "Stomper", "Strangler", "Striker", "Strummer", "Swatter", "Sweeper", "Swiper",
+        "Tinkerer", "Trampler", "Walloper", "Whacker", "Whipper", "Whistler", "Albatross Call", "Albatross Flap",
+        "Alligator Hiss", "Alligator Roar", "Ape Call", "Ape Hoot", "Ape Scratch", "Aper", "Badger Growl", "Badger Run",
+        "Badger Scratch", "Barker", "Bat Flap", "Bat Screech", "Bat Swoop", "Bear Growl", "Bear Roar", "Bear Rustle",
+        "Bear Step", "Bear Stomp", "Beaver Call", "Beaver Chew", "Beaver Nibble", "Beaver Rustle", "Bee Buzzer",
+        "Bison Breath", "Bison Call", "Bison Stomp", "Bleater", "Boar Charge", "Boar Grunt", "Boar Rustle",
+        "Boar Squeal", "Boar Stamp", "Boarer", "Cackler", "Cat Call", "Cat Hiss", "Cat Purr", "Cat Rustle",
+        "Cat Scratch", "Catter", "Chirper", "Cow Moo", "Cow Step", "Cow Stomp", "Cower", "Coyote Cackle", "Coyote Howl",
+        "Coyote Yelp", "Coyote Yowl", "Cricket Chirp", "Cricketer", "Croaker", "Crocodile Hiss", "Crocodile Roar",
+        "Crocodiler", "Crow Call", "Crow Rustle", "Crower", "Deer Clash", "Deer Rustle", "Deer Scratch", "Deer Stomp",
+        "Dino Chew", "Dino Growl", "Dino Roar", "Dino Snort", "Dino Stomp", "Dog Bark", "Dog Growl", "Dog Howl",
+        "Dog Run", "Dog Sneeze", "Dog Step", "Dog Wiggle", "Dog Yelp", "Dog Yip", "Dog Yowl", "Dogger", "Donkey Call",
+        "Donkey Stomp", "Dove Rustle", "Dove Swoop", "Dover", "Dragon Bite", "Dragon Breath", "Dragon Chew",
+        "Dragon Roar", "Dragon Swoop", "Duck Quacker", "Duck Rustle", "Ducker", "Eagle Screech", "Elephant Roar",
+        "Elephant Stampede", "Elephant Stomp", "Falcon Rustle", "Falcon Swoop", "Fox Rustle", "Fox Yelp", "Fox Yowl",
+        "Foxer", "Frog Croak", "Frog Splash", "Frogger", "Gecko Croak", "Giraffe Smash", "Giraffe Snort",
+        "Giraffe Stomp", "Goat Baa", "Goat Bleat", "Goat Chew", "Goater", "Goose Hiss", "Goose Honk", "Growler",
+        "Hamster Squeak", "Hee-Haw", "Hisser", "Hog Oink", "Hog Snort", "Honker", "Hooter", "Horse Blow", "Horse Neigh",
+        "Horse Sneeze", "Horse Snort", "Horse Stamp", "Horse Whinny", "Horser", "Howler", "Hyena Cackle", "Hyena Laugh",
+        "Jackal Call", "Jackal Laugh", "Jackal Rustle", "Lion Growl", "Lion Roar", "Monker", "Monkey Howl",
+        "Monkey Rustle", "Monkey Scream", "Mouse Peep", "Mouse Rustle", "Mouse Squeak", "Mouser", "Nightingale Song",
+        "Nightingaler", "Oinker", "Owl Call", "Owl Hoot", "Owl Rustle", "Owl Swoop", "Owler", "Panda Sneeze",
+        "Panther Growl", "Panther Roar", "Parrot", "Parrot Bite", "Parrot Call", "Parrot Nibble", "Parrot Rustle",
+        "Parrot Squawk", "Parroter", "Pheasant Call", "Pheasant Rustle", "Pig Snort", "Pigeon Coo", "Pigeon Rustle",
+        "Pigeoner", "Quacker", "Quail Call", "Quail Rustle", "Quailer", "Rabbit Scream", "Rabbit Yelp", "Ram Ram",
+        "Ram Stamp", "Rammer", "Rat", "Rat Rustle", "Rat Squeak", "Rat Yelp", "Ratter", "Raven Rustle", "Rhino Snort",
+        "Rhino Stamp", "Rook Rustle", "Rooker", "Screamer", "Screecher", "Seal Bark", "Seal Flop", "Sealer",
+        "Sheep Baa", "Sheep Bleat", "Singer", "Snake Hiss", "Snake Rattle", "Snake Slither", "Snaker", "Snorter",
+        "Squawker", "Squeaker", "Squirrel Chatter", "Squirrel Chitter", "Squirrel Nibble", "Squirrel Rustle",
+        "Squirreler", "Stampede", "Swan Cry", "Swan Flap", "Swan Hiss", "Swan Honk", "Swanner", "Toad Croak", "Trumpet",
+        "Trumpeter", "Turkey Call", "Turkey Gobble", "Tweeter", "Vulture Scream", "Warbler", "Whale Song", "Wolf Growl",
+        "Wolf Howl", "Wolf Yelp", "Wolfer", "Wolverine Growl", "Wolverine Yelp", "Net Cast", "Net Splash",
+        "Anchor Splash", "Anchor Chain", "Anchor Drop", "Leather Smack", "Leather Flick", "Leather Drop", "Hide Smack",
+        "Hide Flick", "Hide Drop", "Paint Drop", "Paint Stroke", "Paint Squeeze", "Brush Stroke", "Brush Flick",
+        "Hammer Crash", "Hammer Drop", "Hammer Clank", "Nail Drop", "Nail Tingle", "Saw Drop", "Saw Wobble", "Saw Pull",
+        "Spade Dig", "Spade Drop", "Hoe Dig", "Hoe Scrape", "Hoe Scratch", "Mallet Crash", "Mallet Smash",
+        "Mallet Drop", "Chisel Tick", "Chisel Cut", "Chisel Carve", "Armor Clank", "Armor Crash", "Steel Clank",
+        "Steel Crash", "Steel Drop", "Furnace Roar", "Furnace Door", "Hatchet Cut", "Hatchet Drop", "Hatchet Split",
+        "Hatchet Chop", "Wood Chop", "Wood Crack", "Wood Creak", "Wood Drop", "Tree Fall", "Tree Creak", "Fire Crackle",
+        "Fire Roar", "Potion Bubble", "Potion Crash", "Potion Gush", "Potion Swirl", "Potion Splash", "Kettle Bubble",
+        "Kettle Splash", "Kettle Bubble", "Cauldron Swirl", "Cauldron Stir", "Cauldron Bubble", "Cauldron Splash",
+        "Bell Ring", "Bell Drop", "Crier Bell", "Bowstring Flick", "Bowstring Stretch", "Blacksmith Clank",
+        "Lute Pluck", "Lute String", "Glass Shatter", "Fruit Squish", "Crate Smash", "Crate Crack", "Crate Creak",
+        "Ship Creak", "Sail Slap", "Rope Slap", "Rope Whip", "Book Drop", "Book Slam", "Page Turn", "Grain Trash",
+        "Grain Mill", "Cork Pop", "Wood Scrape", "Sail Flick"
+    ]
+
+
+class Kitsune:
+    f1 = [
+        '',
+        '',
+        '',
+        'a',
+        'j',
+        'k',
+        'm',
+        'a',
+        'sh',
+        's',
+    ]
+    f2 = [
+        'y',
+        'i',
+        'u',
+        'a',
+    ]
+    f3 = [
+        'k',
+        'j',
+        'm',
+        'n',
+        'l',
+        'll',
+    ]
+    f4 = [
+        '',
+        '',
+        '',
+        'ki',
+        'li',
+        'ro',
+        'ra',
+        'ry',
+        'i',
+        'mi',
+        'mo',
+    ]
+    m1 = [
+        '',
+        '',
+        '',
+        'ch',
+        'im',
+        'k',
+        'n',
+        'm',
+        'ya',
+        'j',
+    ]
+    m2 = ['y', 'i', 'u', 'a', 'o', 'oo', 'e', 'ee']
+    m3 = [
+        'nk',
+        'n',
+        'k',
+        'rs',
+        's',
+        'r',
+        'm',
+        'mm',
+    ]
+    m4 = [
+        '',
+        '',
+        '',
+        'tu',
+        'ru',
+        'ku',
+        'su',
+        'ty',
+        'ky',
+        'sy',
+        'ry',
+    ]
+
+
+class Kobold:
+    f1 = [
+        "", "", "", "", "", "br", "cr", "dr", "d", "dh", "g", "gh", "gr", "j", "k", "m", "n", "q", "qr", "r", "rh", "v",
+        "vr", "vh", "z"
+    ]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "i", "o", "a", "i", "o", "aa", "ea", "oo", "ee"
+    ]
+    f3 = [
+        "d", "dd", "dr", "dz", "dh", "gn", "gm", "gr", "gz", "gh", "k", "kk", "kn", "kz", "km", "kr", "l", "lz", "ll",
+        "lr", "ld", "ln", "m", "mk", "mz", "n", "nz", "nr", "pm", "pz", "pr", "r", "rl", "rn", "rm", "rg", "rk", "rd",
+        "rz", "rr", "t", "tr", "tz", "x", "zh", "z", "zz", "zr", "zk"
+    ]
+    f4 = ["", "", "", "", "", "b", "d", "g", "k", "l", "ld", "lk", "lp", "n", "nk", "p", "rk", "s", "sk", "x"]
+    m1 = ["", "", "", "", "d", "f", "g", "h", "l", "m", "n", "p", "r", "s", "t", "v", "z"]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "o", "a", "o", "a", "o", "aa", "ia", "ai", "ee"
+    ]
+    m3 = [
+        "d", "dk", "dr", "gr", "gl", "g", "h", "hr", "k", "kr", "kkr", "ks", "l", "lr", "lk", "ls", "r", "rk", "rs",
+        "rg", "rl", "s", "ss", "sr", "sk", "sg", "sgr", "skr", "ssr", "tr", "th", "thr", "z", "zr", "zk", "zn", "zl"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "h", "k", "l", "n", "m", "r", "s"]
+
+
+class Lizardfolk:
+    f1 = [
+        "", "", "", "", "", "br", "cr", "dr", "d", "dh", "g", "gh", "gr", "j", "k", "m", "n", "q", "qr", "r", "rh", "v",
+        "vr", "vh", "z"
+    ]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "i", "o", "a", "i", "o", "aa", "ea", "oo", "ee"
+    ]
+    f3 = [
+        "d", "dd", "dr", "dz", "dh", "gn", "gm", "gr", "gz", "gh", "k", "kk", "kn", "kz", "km", "kr", "l", "lz", "ll",
+        "lr", "ld", "ln", "m", "mk", "mz", "n", "nz", "nr", "pm", "pz", "pr", "r", "rl", "rn", "rm", "rg", "rk", "rd",
+        "rz", "rr", "t", "tr", "tz", "x", "zh", "z", "zz", "zr", "zk"
+    ]
+    f4 = ["", "", "", "", "", "b", "d", "g", "k", "l", "ld", "lk", "lp", "n", "nk", "p", "rk", "s", "sk", "x"]
+    m1 = ["", "", "", "", "d", "f", "g", "h", "l", "m", "n", "p", "r", "s", "t", "v", "z"]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "a", "o", "a", "o", "a", "o", "aa", "ia", "ai", "ee"
+    ]
+    m3 = [
+        "d", "dk", "dr", "gr", "gl", "g", "h", "hr", "k", "kr", "kkr", "ks", "l", "lr", "lk", "ls", "r", "rk", "rs",
+        "rg", "rl", "s", "ss", "sr", "sk", "sg", "sgr", "skr", "ssr", "tr", "th", "thr", "z", "zr", "zk", "zn", "zl"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "h", "k", "l", "n", "m", "r", "s"]
+
+
+class Loxodon:
+    m1 = ["", "", "", "b", "br", "ch", "d", "dr", "g", "h", "k", "n", "r", "s", "sv", "t", "thr", "v", "vr", "z"]
+    m2 = [
+        "oo", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "oo", "e", "o", "u", "o", "u", "e", "o", "u",
+        "o", "u"
+    ]
+    m3 = [
+        "b", "br", "d", "dj", "dr", "g", "h", "j", "k", "m", "nd", "ndr", "nj", "nr", "nt", "l", "ld", "ldr", "lr", "r",
+        "rd", "s", "t", "y"
+    ]
+    m4 = ["l", "m", "n", "r", "j", "l", "m", "n", "s", "v", "z", "zh"]
+
+    f1 = ["", "", "", "b", "d", "f", "j", "k", "l", "ly", "m", "r", "s", "sh", "t", "v", "y", "z"]
+    f2 = [
+        "oo", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "oo", "a", "i", "u", "a", "i",
+        "u", "a", "i", "u", "e", "e"
+    ]
+    f3 = [
+        "d", "f", "fy", "j", "l", "ln", "lr", "lt", "ly", "n", "nc", "nt", "ny", "r", "rj", "s", "sn", "sm", "sr", "t",
+        "tr", "v"
+    ]
+    f4 = ["j", "l", "n", "r", "v", "z", "", "", "", "", "", "j", "l", "m", "n", "r", "s", "y"]
+
+
+class Merfolk:
+    f1 = ["d", "g", "j", "n", "s", "t", "v", "z"]
+    f2 = ["a", "e", "i", "o", "a", "e", "i", "o", "u"]
+    f3 = [
+        "d", "dd", "dr", "fr", "fl", "l", "ll", "lr", "ln", "n", "nn", "nd", "r", "rd", "rz", "rs", "rv", "t", "tt",
+        "tr", "y", "z", "zz"
+    ]
+    f4 = ["d", "g", "gg", "l", "n", "nd", "ng", "t"]
+    m1 = ["", "", "", "c", "g", "h", "j", "k", "l", "m", "n", "t", "th"]
+    m2 = ["a", "a", "i", "o", "o", "u"]
+    m3 = ["d", "l", "m", "n", "r", "s", "t", "z"]
+    m4 = ["d", "h", "l", "m", "n", "r", "y"]
+    s1 = [
+        "Adept", "Ambassador", "Angler", "Apothecary", "Assassin", "Bouncer", "Commander", "Disciple", "Diver",
+        "Douser", "Drowner", "Elite", "Entangler", "Explorer", "Fighter", "Fluxmage", "Guard", "Guardian", "Guide",
+        "Harbinger", "Hero", "Hunter", "Hypnotist", "Illusionist", "Infiltrator", "Knight", "Legate", "Mage", "Mentor",
+        "Merchant", "Merfolk", "Mesmerist", "Mystic", "Patrol", "Pilferer", "Priest", "Prophet", "Raider", "Rider",
+        "Sage", "Scout", "Scryer", "Seer", "Selkie", "Sentinel", "Shaman", "Spy", "Stalker", "Summoner", "Thief",
+        "Tracker", "Trader", "Trapper", "Trasher", "Triton", "Visionary", "Warrior", "Watch", "Weaver", "bar", "bend",
+        "bender", "bind", "binder", "bough", "bow", "brand", "breath", "breeze", "brine", "brook", "brooke", "brow",
+        "caller", "channel", "crag", "crash", "creek", "crest", "dancer", "dew", "dream", "dreamer", "fallow", "fathom",
+        "fin", "flow", "front", "gabber", "gill", "glade", "glide", "helm", "line", "might", "more", "rider", "ridge",
+        "river", "sage", "scape", "seeker", "shaper", "shard", "shine", "sigh", "singer", "soar", "spanner", "spout",
+        "stand", "stream", "surge", "sworn", "tail", "tide", "trapper", "tread", "vigor", "wake", "ward", "water",
+        "weaver", "wine", "Abyss", "Abyssal", "Agile", "Arctic", "Atoll", "Azure", "Barrier", "Basin", "Bay", "Brave",
+        "Buoyant", "Cape", "Careful", "Careless", "Coral", "Coven", "Darting", "Defiant", "Depth", "Diligent", "Diving",
+        "Enclave", "Energetic", "Esteemed", "Exalted", "Expanse", "Experienced", "Fearless", "Gifted", "Glorious",
+        "Grand", "Gulf", "Harbor", "Hasty", "Intrepid", "Jolting", "Juvenile", "Keen", "Lagoon", "Marine", "Maritime",
+        "Nautical", "Nimble", "Oceanic", "Prime", "Prism", "Radiant", "Reckless", "Reef", "Salty", "Shore", "Slippery",
+        "Stark", "Storm", "Surf", "Surfing", "Surge", "Swift", "Tidal", "Tide", "Turbulent", "Vicious", "Vigilant",
+        "Void", "Wake", "Wave", "Webbed", "Wharf", "Whirlpool", "Wild", "Zealous", "azure", "blue", "bright", "clear",
+        "cloud", "coral", "coven", "crystal", "deep", "depth", "down", "dream", "fallow", "fore", "grand", "gravel",
+        "haze", "ink", "keen", "light", "low", "mellow", "mer", "mild", "moon", "night", "ocean", "orb", "pale",
+        "prism", "pure", "razor", "rip ", "root", "rough", "sand", "sea", "shadow", "shore", "silver", "soft", "star",
+        "storm", "strong", "surge", "swift", "tidal", "tide", "void", "wake", "wander", "water", "wave", "well", "whit",
+        "wild", "wind"
+    ]
+    s2 = ['']
+    s3 = ['']
+    s4 = ['']
+
+
+class Minotaur:
+    m1 = [
+        "Aam", "Ane", "Are", "Ase", "Den", "Duo", "Duu", "Em", "Enti", "Era", "Este", "Fas", "Fen", "Hene", "Hes",
+        "Hila", "Hine", "Ias", "Ire", "Ki", "Kia", "Kuo", "Laan", "Line", "Loo", "Mira", "Mou", "Muu", "Nan", "Nea",
+        "Neo", "Noo", "Nuo", "Oen", "Oes", "Raas", "Ras", "Reo", "Rina", "Sees", "Seo", "Sina", "Tee", "Tes", "Tia",
+        "Tina", "Uova", "Veo", "Vi", "Via", "Weo", "Wina"
+    ]
+    m2 = ['']
+    m3 = ['']
+    m4 = [
+        "dane", "dera", "din", "dra", "fa", "fen", "fin", "kane", "kea", "ken", "kia", "la", "las", "len", "lian",
+        "lin", "lo", "mas", "me", "mi", "min", "mira", "na", "nan", "nas", "nim", "nore", "nu", "pe", "pen", "ra",
+        "ren", "res", "rin", "ris", "ru", "sen", "sia", "ta", "ter", "tin", "tra", "tred", "tri", "trin", "tris", "ven",
+        "vena", "vera", "vin", "za", "zara", "zin"
+    ]
+
+    f1 = [
+        "Ar", "Are", "Aste", "Bar", "Bjor", "Bran", "Car", "Cod", "Da", "Djar", "Djun", "Doen", "Dor", "Drin", "Dur",
+        "Far", "Foos", "Gar", "Goe", "Gra", "Gran", "Gun", "Har", "Hir", "Hun", "Ja", "Jar", "Kar", "Kin", "Kir", "Koo",
+        "Koor", "Kran", "Krum", "Kur", "Man", "Min", "Mir", "Mun", "Nar", "Noe", "Noo", "Pod", "Rak", "Te", "Tir",
+        "Toon", "Trak", "Tur", "Zam", "Zar", "Zun"
+    ]
+    f2 = ['']
+    f3 = ['']
+    f4 = [
+        "ban", "baran", "bur", "dak", "daran", "diar", "dor", "drin", "fajar", "faruk", "fran", "furan", "gajan",
+        "garak", "giran", "gur", "jar", "kan", "kar", "karat", "kun", "kurat", "kus", "manuk", "marin", "maruk",
+        "narak", "nark", "narun", "nir", "nus", "paran", "piran", "raduk", "rak", "rakar", "ranak", "rapak", "ras",
+        "rat", "rilak", "rios", "ron", "rus", "rut", "tagar", "taruk", "tiran", "toron", "turok", "tus", "vrak"
+    ]
+
+    s1 = [
+        "Agile", "Bear", "Bold", "Boulder", "Brave", "Bright", "Fearless", "Fist", "Glory", "Goblin", "Great", "Heavy",
+        "Honor", "Iron", "Jagged", "Keen", "Nimble", "Orc", "Rock", "Rugged", "Sharp", "Silent", "Single", "Steady",
+        "Steel", "Stone", "Storm", "Stout", "Strong", "Swift", "Thick", "Thunder", "Tough", "Truth", "Valiant", "Vigil",
+        "Wolf"
+    ]
+    s2 = ['']
+    s3 = ['']
+    s4 = [
+        "bane", "body", "eye", "fighter", "fist", "fury", "hand", "heart", "hide", "hoof", "horn", "horns", "hunter",
+        "leader", "mind", "pelt", "roar", "runner", "skin", "skull", "slash", "slayer", "speaker", "step", "striker",
+        "vigor", "walker", "warrior"
+    ]
+
+
+class Nagaji:
+    f1 = [
+        "", "", "", "", "", "", "ch", "d", "dh", "dhr", "h", "hr", "j", "jy", "k", "kh", "kr", "ksh", "l", "m", "n",
+        "p", "pr", "s", "sr", "t", "v", "vr"
+    ]
+    f2 = ["a", "e", "i", "o", "u", "a", "a", "a", "a", "a", "a", "i", "i"]
+    f3 = [
+        "bh", "d", "g", "h", "j", "k", "l", "m", "n", "p", "r", "s", "t", "v", "y", "bh", "d", "dg", "dh", "dhy", "dm",
+        "dr", "g", "h", "hl", "hy", "j", "k", "kh", "ksh", "ky", "l", "lm", "lw", "m", "mkh", "mv", "mvr", "n", "nd",
+        "ndh", "ng", "nj", "nkh", "nm", "nshtr", "nt", "nth", "p", "pt", "r", "rd", "rk", "rm", "rn", "rt", "ry", "s",
+        "sh", "shk", "shm", "shn", "shp", "shth", "shtr", "sr", "st", "sth", "sw", "t", "th", "tr", "tt", "ttr", "ty",
+        "v", "vy", "y", "yl"
+    ]
+    f4 = ["a", "a", "a", "a", "a", "a", "a", "a", "a", "i", "u", "as", "at"]
+    m1 = [
+        "", "", "", "", "", "", "", "", "", "", "c", "cr", "ch", "d", "h", "k", "kr", "kh", "l", "r", "s", "s", "s",
+        "sh", "sz", "sc", "sy", "sz", "sh", "t", "th", "x", "y", "z", "zs", "zh"
+    ]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "a", "e", "i", "o", "u", "a", "e", "i", "a", "e", "i", "o", "u", "a",
+        "e", "i", "a", "e", "i", "o", "u", "a", "e", "i", "aa", "ai", "ee", "ei", "ie"
+    ]
+    m3 = [
+        "c", "d", "dh", "k", "kh", "l", "r", "s", "sh", "t", "th", "x", "xh", "z", "zh", "c", "d", "k", "l", "r", "s",
+        "t", "x", "z", "c", "d", "k", "l", "r", "s", "t", "x", "z", "s", "s", "sh", "sh", "cc", "ch", "ck", "cs", "csh",
+        "cz", "dh", "dj", "kk", "kh", "ks", "ksh", "kz", "ll", "lh", "lz", "ls", "rr", "rc", "rg", "rh", "rj", "rs",
+        "rsh", "rz", "rsz", "rt", "rth", "rc", "rk", "ss", "sc", "sh", "sk", "sz", "sy", "th", "tr", "ts", "tz", "tsh",
+        "xh", "xs", "xz", "zh", "zs", "zz", "zs"
+    ]
+    m4 = [
+        "", "", "", "", "", "", "", "", "", "", "", "kh", "l", "r", "s", "sj", "ss", "sh", "sz", "t", "th", "x", "z",
+        "zs"
+    ]
+
+
+class Orc:
+    f1 = [
+        "", "", "", "", "", "b", "br", "c", "cr", "dr", "f", "gr", "h", "kr", "kz", "m", "n", "pr", "r", "t", "tr", "v",
+        "vr"
+    ]
+    f2 = ["a", "e", "i", "o", "u"]
+    f3 = [
+        "b", "br", "bd", "bz", "d", "dd", "dr", "dz", "g", "gh", "gr", "gn", "gz", "k", "kk", "kd", "kz", "kn", "l",
+        "ld", "lkz", "ll", "lz", "lr", "lg", "lk", "m", "mg", "mz", "mr", "n", "ng", "nr", "nk", "r", "rd", "rk", "rn",
+        "rr", "rg", "rz", "rv", "s", "sr", "sk", "sg", "sc", "v", "vr", "vk", "vz", "z", "zr", "zk", "zn", "zm", "zc"
+    ]
+    f4 = [
+        "", "", "", "ch", "g", "hn", "hk", "hm", "hd", "k", "kk", "lk", "lkk", "lt", "ld", "m", "n", "r", "rd", "rk",
+        "rg", "rn", "sh", "sk", "t"
+    ]
+    m1 = [
+        "", "", "", "", "", "b", "c", "ch", "d", "g", "gr", "f", "g", "gr", "k", "kr", "l", "m", "n", "r", "t", "tr",
+        "v", "vr"
+    ]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "y", "ya", "oa", "ia", "ua"
+    ]
+    m3 = [
+        "b", "bb", "bg", "d", "dd", "dg", "dj", "dr", "ff", "gg", "gj", "gd", "gr", "gn", "gm", "hj", "hm", "hn", "hr",
+        "k", "kd", "kb", "kr", "kk", "l", "lb", "lg", "llg", "ld", "lld", "lk", "lr", "llr", "m", "mr", "mj", "mg",
+        "mk", "ng", "nj", "n", "nn", "nr", "r", "rg", "rj", "rr", "rv", "sgr", "sg", "sh", "sk", "z", "zn"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "c", "d", "g", "k", "m", "n", "ng", "s", "ss", "t"]
+    s1 = [
+        "", "", "", "", "", "b", "br", "ch", "cr", "d", "dh", "f", "g", "gh", "gr", "k", "kr", "kh", "m", "n", "r", "t",
+        "th", "v", "vh", "z"
+    ]
+    s2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "uu", "aa", "ua"
+    ]
+    s3 = [
+        "d", "dd", "dr", "fr", "fn", "g", "gg", "gd", "gn", "gm", "gz", "hm", "hj", "hm", "k", "kk", "kd", "kn", "ld",
+        "lb", "lk", "lz", "lg", "lk", "ll", "lr", "m", "mg", "mk", "n", "nn", "ng", "nr", "nk", "r", "rr", "rg", "rk",
+        "rn", "rm", "rv", "sg", "ss", "s", "sr", "sk", "sn", "v", "vr", "vn", "vk", "z", "zk", "zn", "zm"
+    ]
+    s4 = ["d", "hn", "hd", "k", "l", "m", "n", "r", "s", "sh", "t", "th"]
+
+
+class Oread:
+    f1 = ["", "", "", "b", "d", "g", "j", "l", "m", "n", "p", "r", "s", "t", "v"]
+    f2 = ["a", "e", "i", "o", "u", "a", "o", "u", "y"]
+    f3 = [
+        "d", "dd", "f", "fd", "ft", "hd", "hn", "hv", "l", "ll", "ln", "lm", "ld", "lv", "lt", "lth", "lm", "m", "md",
+        "mt", "mh", "mv", "n", "nd", "nt", "nv", "nh", "nn", "nm", "nh", "nr", "r", "rt", "rh", "rn", "rm", "rl", "rv",
+        "rr", "rd", "th", "tr", "thr", "v", "vh", "vr"
+    ]
+    f4 = ["", "m", "n", "r", "s", "t"]
+    m1 = ["", "", "", "b", "bh", "d", "dh", "gh", "h", "l", "m", "n", "p", "r", "rh", "s", "sh", "t", "th", "v", "w"]
+    m2 = ["a", "e", "i", "o", "u", "a", "i", "e"]
+    m3 = [
+        "c", "ch", "d", "dh", "f", "ff", "fh", "fth", "h", "hn", "hv", "hl", "hs", "l", "lh", "ln", "lm", "ls", "lsh",
+        "m", "mn", "mm", "mh", "my", "n", "nn", "nh", "ny", "ns", "nth", "nf", "r", "ry", "rh", "rs", "rsh", "rth", "s",
+        "sh", "sth", "sht", "sn", "sm", "sy", "sl", "t", "th", "ty", "thy", "y"
+    ]
+    m4 = [
+        "d", "dd", "f", "fd", "ft", "hd", "hn", "hv", "l", "ll", "ln", "lm", "ld", "lv", "lt", "lth", "lm", "m", "md",
+        "mt", "mh", "mv", "n", "nd", "nt", "nv", "nh", "nn", "nm", "nh", "nr", "r", "rt", "rh", "rn", "rm", "rl", "rv",
+        "rr", "rd", "th", "tr", "thr", "v", "vh", "vr"
+    ]
+
+
+class Ratfolk:
+    f1 = [
+        "", "", "", "", "", "", "", "b", "br", "c", "cr", "ch", "d", "dr", "dj", "g", "gr", "gn", "gl", "j", "k", "kr",
+        "kv", "kn", "m", "n", "p", "pr", "r", "s", "st", "sr", "skr", "sc", "scr", "sk", "t", "tr", "v", "vr", "z", "zr"
+    ]
+    f2 = ["a", "e", "i", "o", "a", "e", "i"]
+    f3 = [
+        "cc", "cd", "cr", "gg", "gr", "gk", "gv", "gd", "kk", "kr", "kv", "kz", "m", "mm", "md", "mk", "mv", "mz", "n",
+        "nn", "nd", "nv", "nk", "ng", "nz", "rr", "r", "rk", "rv", "rz", "rc", "rg", "rd", "vv", "v", "vd", "vk", "vz"
+    ]
+    f4 = [
+        "c", "g", "c", "g", "hl", "hz", "hk", "hn", "hc", "k", "m", "n", "q", "r", "s", "t", "z", "k", "m", "n", "q",
+        "r", "s", "t", "z"
+    ]
+    m1 = [
+        "b", "bh", "c", "ch", "dh", "f", "fr", "fh", "gh", "j", "k", "m", "n", "nh", "p", "r", "s", "sh", "t", "th",
+        "v", "vh", "z", "zh"
+    ]
+    m2 = ["a", "e", "i", "o", "u", "e", "e", "e", "i", "i", "i"]
+    m3 = [
+        "b", "bb", "c", "cc", "f", "ff", "g", "gg", "j", "k", "kk", "l", "ll", "m", "mm", "n", "nn", "p", "pp", "r",
+        "rr", "s", "ss", "t", "tt", "z", "zz"
+    ]
+    m4 = [
+        "", "", "", "", "", "", "", "", "ch", "f", "hm", "hl", "ks", "l", "m", "n", "r", "s", "sh", "t", "th", "tch",
+        "x"
+    ]
+
+
+class Samsarans:
+    m1 = ["B", "Bl", "Cr", "Ch", "G", "Gl", "Gr", "H", "J", "K", "Kr", "L", "M", "S", "Sc", "Tr", "Z"]
+    m2 = ["o", "a", "a", "o", "e", "i", "u", "y"]
+    m3 = [
+        "bd", "bs", "dr", "gl", "gn", "gm", "gr", "k", "kr", "kl", "ll", "nd", "nr", "ng", "r", "rg", "rk", "rc", "sc",
+        "st", "sk", "sh", "tr", "th", "q", "z"
+    ]
+    m4 = ["", "", "d", "g", "k", "l", "m", "n", "r", "s", "sh", "wr", "x"]
+
+
+class Shifter:
+    m1 = [
+        "Acor", "Almond", "Ash", "Astro", "Badger", "Barb", "Basalt", "Basil", "Beast", "Birch", "Blast", "Blaze",
+        "Bluff", "Bog", "Boulder", "Bramble", "Breach", "Briar", "Brock", "Brook", "Burst", "Canyon", "Char", "Chasm",
+        "Cinder", "Claw", "Cliff", "Cloud", "Coal", "Cobalt", "Cobble", "Comet", "Cosmo", "Crag", "Crater", "Dash",
+        "Drake", "Drift", "Dune", "Dusk", "Dust", "Echo", "Fang", "Flame", "Flare", "Flax", "Flint", "Flood", "Foam",
+        "Fog", "Forest", "Fox", "Frost", "Frostbite", "Fume", "Fury", "Gale", "Glare", "Gorge", "Grime", "Grit",
+        "Grove", "Gulch", "Gust", "Kindle", "Light", "Lumber", "Magma", "Mahogany", "Marsh", "Mercury", "Midnight",
+        "Mire", "Moss", "Mountain", "Nebula", "Newt", "Nightfall", "Nightshade", "Nimbus", "North", "Nova", "Nyx",
+        "Oak", "Ocean", "Onyx", "Pitch", "Pyre", "Pyro", "Quicksilver", "Ravine", "Ridge", "Rift", "River", "Rock",
+        "Rubble", "Scar", "Shrub", "Silver", "Smoke", "Soot", "Spark", "Spike", "Spine", "Steam", "Steel", "Stone",
+        "Storm", "Surge", "Talon", "Thicket", "Thistle", "Thorn", "Thunder", "Tide", "Tiger", "Timber", "Tinder", "Tor",
+        "Torrent", "Vapor", "Vermin", "Vine", "Void", "Wave", "Willow", "Wolf", "Woods"
+    ]
+    f1 = [
+        "Abyss", "Almond", "Amber", "Amethyst", "Anemone", "Aqua", "Aurora", "Autumn", "Birch", "Bloom", "Blossom",
+        "Breeze", "Briar", "Brook", "Canyon", "Chestnut", "Cloud", "Coral", "Coyote", "Crest", "Cricket", "Crystal",
+        "Dawn", "Dew", "Dewdrop", "Diamond", "Elm", "Ember", "Emerald", "Evening", "Feather", "Fern", "Flare", "Floe",
+        "Flora", "Floret", "Flow", "Fluff", "Galaxy", "Gem", "Hail", "Harley", "Haze", "Hazel", "Horizon", "Ice",
+        "Indigo", "Iris", "Isle", "Ivy", "Jade", "Jasmine", "Juniper", "Karma", "Lake", "Lavender", "Leaf", "Lily",
+        "Luna", "Magenta", "Maple", "Marigold", "Meadow", "Midnight", "Mist", "Moon", "Moss", "Nebula", "Nutmeg",
+        "Ocean", "Olive", "Opal", "Orchid", "Pearl", "Petal", "Pine", "Pinecone", "Plume", "Poison", "Pyro", "Quill",
+        "Rain", "Raven", "Rill", "River", "Robin", "Rose", "Rosemary", "Ruby", "Saffron", "Sage", "Sapphire", "Scarlet",
+        "Shade", "Silver", "Sky", "Snow", "Snowflake", "Spring", "Star", "Stardust", "Sugar", "Summer", "Sun",
+        "Sunrise", "Sunset", "Sunshine", "Swill", "Thistle", "Tidal", "Tiger", "Tinder", "Topaz", "Twig", "Twilight",
+        "Urchin", "Vapor", "Violet", "Whirl", "Willow", "Wind", "Wing", "Winter"
+    ]
+
+
+class SimicHybrid:
+
+    def __init__(self, gender):
+        self.Gender = gender
+
+    def __str__(self):
+        from numpy.random import choice
+        name = ''
+        if self.Gender == 'Male':
+            name = choice([
+                "Ad", "Ae", "Bal", "Bei", "Car", "Cra", "Dae", "Dor", "El", "Ela", "Er", "Far", "Fen", "Gen", "Glyn",
+                "Hei", "Her", "Ian", "Ili", "Kea", "Kel", "Leo", "Lu", "Mira", "Mor", "Nae", "Nor", "Olo", "Oma", "Pa",
+                "Per", "Pet", "Qi", "Qin", "Ralo", "Ro", "Sar", "Syl", "The", "Tra", "Ume", "Uri", "Va", "Vir", "Waes",
+                "Wran", "Yel", "Yin", "Zin", "Zum"
+            ]) + choice([
+                "balar", "beros", "can", "ceran", "dan", "dithas", "faren", "fir", "geiros", "golor", "hice", "horn",
+                "jeon", "jor", "kas", "kian", "lamin", "lar", "len", "maer", "maris", "menor", "myar", "nan", "neiros",
+                "nelis", "norin", "peiros", "petor", "qen", "quinal", "ran", "ren", "ric", "ris", "ro", "salor",
+                "sandoral", "toris", "tumal", "valur", "ven", "warin", "wraek", "xalim", "xidor", "yarus", "ydark",
+                "zeiros", "zumin"
+            ])
+        else:
+            name = choice([
+                "Ad", "Ara", "Bi", "Bry", "Cai", "Chae", "Da", "Dae", "Eil", "En", "Fa", "Fae", "Gil", "Gre", "Hele",
+                "Hola", "Iar", "Ina", "Jo", "Key", "Kris", "Lia", "Lora", "Mag", "Mia", "Neri", "Ola", "Ori", "Phi",
+                "Pres", "Qi", "Qui", "Rava", "Rey", "Sha", "Syl", "Tor", "Tris", "Ula", "Uri", "Val", "Ven", "Wyn",
+                "Wysa", "Xil", "Xyr", "Yes", "Ylla", "Zin", "Zyl"
+            ]) + choice([
+                "banise", "bella", "caryn", "cyne", "di", "dove", "fiel", "fina", "gella", "gwyn", "hana", "harice",
+                "jyre", "kalyn", "krana", "lana", "lee", "leth", "lynn", "moira", "mys", "na", "nala", "phine", "phyra",
+                "qirelle", "ra", "ralei", "rel", "rie", "rieth", "rona", "rora", "roris", "satra", "stina", "sys",
+                "thana", "thyra", "tris", "varis", "vyre", "wenys", "wynn", "xina", "xisys", "ynore", "yra", "zana",
+                "zorwyn"
+            ])
+
+        return name
+
+    f1 = [
+        "Ad", "Ara", "Bi", "Bry", "Cai", "Chae", "Da", "Dae", "Eil", "En", "Fa", "Fae", "Gil", "Gre", "Hele", "Hola",
+        "Iar", "Ina", "Jo", "Key", "Kris", "Lia", "Lora", "Mag", "Mia", "Neri", "Ola", "Ori", "Phi", "Pres", "Qi",
+        "Qui", "Rava", "Rey", "Sha", "Syl", "Tor", "Tris", "Ula", "Uri", "Val", "Ven", "Wyn", "Wysa", "Xil", "Xyr",
+        "Yes", "Ylla", "Zin", "Zyl"
+    ]
+    f2 = ['']
+    f3 = ['']
+    f4 = [
+        "banise", "bella", "caryn", "cyne", "di", "dove", "fiel", "fina", "gella", "gwyn", "hana", "harice", "jyre",
+        "kalyn", "krana", "lana", "lee", "leth", "lynn", "moira", "mys", "na", "nala", "phine", "phyra", "qirelle",
+        "ra", "ralei", "rel", "rie", "rieth", "rona", "rora", "roris", "satra", "stina", "sys", "thana", "thyra",
+        "tris", "varis", "vyre", "wenys", "wynn", "xina", "xisys", "ynore", "yra", "zana", "zorwyn"
+    ]
+
+
+class Strix:
+    m1 = [
+        "Angler", "Baker", "Barker", "Basher", "Bather", "Beggar", "Biter", "Boiler", "Bomber", "Bonker", "Bouncer",
+        "Braker", "Brander", "Breaker", "Broiler", "Bruiser", "Bubbler", "Burner", "Butcher", "Buzzer", "Cackler",
+        "Carver", "Caster", "Chimer", "Chitter", "Chomper", "Chopper", "Clamor", "Clamper", "Clanger", "Clapper",
+        "Clawer", "Cleaver", "Clicker", "Clinger", "Clinker", "Clipper", "Clubber", "Clucker", "Cobbler", "Cooker",
+        "Cougher", "Crackler", "Crinkler", "Croaker", "Cruncher", "Crusher", "Cutter", "Dangler", "Deflater", "Digger",
+        "Dipper", "Doodler", "Dragger", "Drawer", "Dribbler", "Driller", "Dripper", "Drummer", "Duster", "Enchanter",
+        "Engraver", "Etcher", "Exploder", "Flapper", "Flipper", "Flopper", "Flusher", "Forger", "Fryer", "Giggler",
+        "Gnasher", "Gnawer", "Gouger", "Greaser", "Griller", "Grinder", "Growler", "Gusher", "Hammer", "Hammerer",
+        "Hiccup", "Hummer", "Impaler", "Inscriber", "Itcher", "Jangler", "Jingler", "Knocker", "Lasher", "Locker",
+        "Lugger", "Mangler", "Masher", "Mauler", "Mewer", "Mimer", "Molder", "Nailer", "Neigher", "Nestler", "Nibbler",
+        "Paddler", "Piercer", "Piper", "Plunger", "Presser", "Prodder", "Puffer", "Raker", "Rasper", "Rattler",
+        "Ripper", "Roarer", "Roaster", "Ruffler", "Rustler", "Scooper", "Scorcher", "Scratcher", "Scribbler",
+        "Scrubber", "Shaker", "Shaver", "Shearer", "Shoveler", "Shrieker", "Sifter", "Singer", "Sketcher", "Slammer",
+        "Slicer", "Smasher", "Snapper", "Sneezer", "Snorer", "Spitter", "Splasher", "Splitter", "Squeaker", "Squealer",
+        "Squisher", "Stamper", "Stomper", "Strangler", "Striker", "Strummer", "Swatter", "Sweeper", "Swiper",
+        "Tinkerer", "Trampler", "Walloper", "Whacker", "Whipper", "Whistler"
+    ]
+    f1 = [
+        "Albatross Call", "Albatross Flap", "Alligator Hiss", "Alligator Roar", "Ape Call", "Ape Hoot", "Ape Scratch",
+        "Aper", "Badger Growl", "Badger Run", "Badger Scratch", "Barker", "Bat Flap", "Bat Screech", "Bat Swoop",
+        "Bear Growl", "Bear Roar", "Bear Rustle", "Bear Step", "Bear Stomp", "Beaver Call", "Beaver Chew",
+        "Beaver Nibble", "Beaver Rustle", "Bee Buzzer", "Bison Breath", "Bison Call", "Bison Stomp", "Bleater",
+        "Boar Charge", "Boar Grunt", "Boar Rustle", "Boar Squeal", "Boar Stamp", "Boarer", "Cackler", "Cat Call",
+        "Cat Hiss", "Cat Purr", "Cat Rustle", "Cat Scratch", "Catter", "Chirper", "Cow Moo", "Cow Step", "Cow Stomp",
+        "Cower", "Coyote Cackle", "Coyote Howl", "Coyote Yelp", "Coyote Yowl", "Cricket Chirp", "Cricketer", "Croaker",
+        "Crocodile Hiss", "Crocodile Roar", "Crocodiler", "Crow Call", "Crow Rustle", "Crower", "Deer Clash",
+        "Deer Rustle", "Deer Scratch", "Deer Stomp", "Dino Chew", "Dino Growl", "Dino Roar", "Dino Snort", "Dino Stomp",
+        "Dog Bark", "Dog Growl", "Dog Howl", "Dog Run", "Dog Sneeze", "Dog Step", "Dog Wiggle", "Dog Yelp", "Dog Yip",
+        "Dog Yowl", "Dogger", "Donkey Call", "Donkey Stomp", "Dove Rustle", "Dove Swoop", "Dover", "Dragon Bite",
+        "Dragon Breath", "Dragon Chew", "Dragon Roar", "Dragon Swoop", "Duck Quacker", "Duck Rustle", "Ducker",
+        "Eagle Screech", "Elephant Roar", "Elephant Stampede", "Elephant Stomp", "Falcon Rustle", "Falcon Swoop",
+        "Fox Rustle", "Fox Yelp", "Fox Yowl", "Foxer", "Frog Croak", "Frog Splash", "Frogger", "Gecko Croak",
+        "Giraffe Smash", "Giraffe Snort", "Giraffe Stomp", "Goat Baa", "Goat Bleat", "Goat Chew", "Goater",
+        "Goose Hiss", "Goose Honk", "Growler", "Hamster Squeak", "Hee-Haw", "Hisser", "Hog Oink", "Hog Snort", "Honker",
+        "Hooter", "Horse Blow", "Horse Neigh", "Horse Sneeze", "Horse Snort", "Horse Stamp", "Horse Whinny", "Horser",
+        "Howler", "Hyena Cackle", "Hyena Laugh", "Jackal Call", "Jackal Laugh", "Jackal Rustle", "Lion Growl",
+        "Lion Roar", "Monker", "Monkey Howl", "Monkey Rustle", "Monkey Scream", "Mouse Peep", "Mouse Rustle",
+        "Mouse Squeak", "Mouser", "Nightingale Song", "Nightingaler", "Oinker", "Owl Call", "Owl Hoot", "Owl Rustle",
+        "Owl Swoop", "Owler", "Panda Sneeze", "Panther Growl", "Panther Roar", "Parrot", "Parrot Bite", "Parrot Call",
+        "Parrot Nibble", "Parrot Rustle", "Parrot Squawk", "Parroter", "Pheasant Call", "Pheasant Rustle", "Pig Snort",
+        "Pigeon Coo", "Pigeon Rustle", "Pigeoner", "Quacker", "Quail Call", "Quail Rustle", "Quailer", "Rabbit Scream",
+        "Rabbit Yelp", "Ram Ram", "Ram Stamp", "Rammer", "Rat", "Rat Rustle", "Rat Squeak", "Rat Yelp", "Ratter",
+        "Raven Rustle", "Rhino Snort", "Rhino Stamp", "Rook Rustle", "Rooker", "Screamer", "Screecher", "Seal Bark",
+        "Seal Flop", "Sealer", "Sheep Baa", "Sheep Bleat", "Singer", "Snake Hiss", "Snake Rattle", "Snake Slither",
+        "Snaker", "Snorter", "Squawker", "Squeaker", "Squirrel Chatter", "Squirrel Chitter", "Squirrel Nibble",
+        "Squirrel Rustle", "Squirreler", "Stampede", "Swan Cry", "Swan Flap", "Swan Hiss", "Swan Honk", "Swanner",
+        "Toad Croak", "Trumpet", "Trumpeter", "Turkey Call", "Turkey Gobble", "Tweeter", "Vulture Scream", "Warbler",
+        "Whale Song", "Wolf Growl", "Wolf Howl", "Wolf Yelp", "Wolfer", "Wolverine Growl", "Wolverine Yelp"
+    ]
+    s1 = [
+        "Net Cast", "Net Splash", "Anchor Splash", "Anchor Chain", "Anchor Drop", "Leather Smack", "Leather Flick",
+        "Leather Drop", "Hide Smack", "Hide Flick", "Hide Drop", "Paint Drop", "Paint Stroke", "Paint Squeeze",
+        "Brush Stroke", "Brush Flick", "Hammer Crash", "Hammer Drop", "Hammer Clank", "Nail Drop", "Nail Tingle",
+        "Saw Drop", "Saw Wobble", "Saw Pull", "Spade Dig", "Spade Drop", "Hoe Dig", "Hoe Scrape", "Hoe Scratch",
+        "Mallet Crash", "Mallet Smash", "Mallet Drop", "Chisel Tick", "Chisel Cut", "Chisel Carve", "Armor Clank",
+        "Armor Crash", "Steel Clank", "Steel Crash", "Steel Drop", "Furnace Roar", "Furnace Door", "Hatchet Cut",
+        "Hatchet Drop", "Hatchet Split", "Hatchet Chop", "Wood Chop", "Wood Crack", "Wood Creak", "Wood Drop",
+        "Tree Fall", "Tree Creak", "Fire Crackle", "Fire Roar", "Potion Bubble", "Potion Crash", "Potion Gush",
+        "Potion Swirl", "Potion Splash", "Kettle Bubble", "Kettle Splash", "Kettle Bubble", "Cauldron Swirl",
+        "Cauldron Stir", "Cauldron Bubble", "Cauldron Splash", "Bell Ring", "Bell Drop", "Crier Bell",
+        "Bowstring Flick", "Bowstring Stretch", "Blacksmith Clank", "Lute Pluck", "Lute String", "Glass Shatter",
+        "Fruit Squish", "Crate Smash", "Crate Crack", "Crate Creak", "Ship Creak", "Sail Slap", "Rope Slap",
+        "Rope Whip", "Book Drop", "Book Slam", "Page Turn", "Grain Trash", "Grain Mill", "Cork Pop", "Wood Scrape",
+        "Sail Flick"
+    ]
+
+
+class Suli:
+    f1 = ["", "", "", "", "", "b", "bh", "d", "dh", "g", "gh", "h", "j", "k", "m", "n", "r", "s", "sh", "y", "z"]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "aa", "ee",
+        "ua", "ai", "oo"
+    ]
+    f3 = ["b", "bb", "br", "d", "h", "k", "kh", "m", "n", "nq", "q", "s", "sh", "sm", "ss", "sf", "st", "t", "z", "zz"]
+    f4 = ["", "", "", "", "d", "f", "l", "m", "n", "sh", "z"]
+    m1 = [
+        "", "", "", "", "", "", "", "", "f", "g", "gh", "h", "j", "k", "kh", "l", "m", "n", "ph", "r", "s", "sh", "t",
+        "th", "w", "y", "z"
+    ]
+    m2 = [
+        "a", "e", "i", "o", "u", "a", "a", "i", "a", "e", "i", "o", "u", "a", "a", "i", "a", "e", "i", "o", "u", "a",
+        "a", "i", "aa", "ee", "ai", "ia"
+    ]
+    m3 = ["b", "d", "dh", "dr", "f", "ff", "l", "ll", "m", "mn", "r", "s", "sh", "ss", "t", "th", "w", "y", "z"]
+    m4 = ["", "", "", "", "", "", "", "", "h", "l", "n"]
+    s1 = ["", "", "", "", "", "bh", "d", "dh", "g", "gh", "h", "j", "k", "kh", "m", "n", "r", "s", "sh", "y", "z"]
+    s2 = [
+        "a", "e", "i", "o", "u", "a", "a", "i", "a", "e", "i", "o", "u", "a", "a", "i", "a", "e", "i", "o", "u", "a",
+        "a", "i", "aa", "ee", "ai"
+    ]
+    s3 = ["b", "bb", "d", "h", "kh", "l", "ll", "m", "n", "r", "rr", "s", "sh", "ss", "t", "th", "z", "zz"]
+    s4 = ["", "", "", "h", "l", "m", "n", "s", "z"]
+    t1 = [
+        "Accomplished", "Adored", "Adventurous", "Amazing", "Ancient", "Austere", "Beloved", "Better", "Bold",
+        "Bountiful", "Brilliant", "Carefree", "Courageous", "Creative", "Cruel", "Daring", "Devoted", "Dreamy",
+        "Elegant", "Enchanted", "Enlightened", "Exalted", "Extravagant", "Fair", "Fantastic", "Fearless", "Fesity",
+        "First", "Flawless", "Fortunate", "Friendly", "Generous", "Gentle", "Gifted", "Giving", "Glamorous", "Glorious",
+        "Gorgeous", "Graceful", "Gracious", "Grand", "Grandiose", "Great", "Handsome", "Happy", "Harmonious",
+        "Heavenly", "Honest", "Honored", "Humble", "Idolized", "Illustrious", "Impeccable", "Incredible", "Intrepid",
+        "Jolly", "Joyful", "Joyous", "Kind", "Kindhearted", "Light", "Lovable", "Loyal", "Lucky", "Luminous",
+        "Lustrous", "Luxurious", "Magnificent", "Majestic", "Marvelous", "Mighty", "Mysterious", "Original", "Pleasant",
+        "Pleasing", "Powerful", "Precious", "Proud", "Pure", "Radiant", "Rewarding", "Rich", "Royal", "Sane", "Scented",
+        "Serene", "Silent", "Simple", "Spectacular", "Stunning", "Superior", "Swift", "Tender", "Terrific", "Treasured",
+        "Tremendous", "Trustworthy", "Truthful", "Unequaled", "Venerated", "Vibrant", "Victorious", "Virtuous",
+        "Wealthy", "Wise", "Wonderful"
+    ]
+
+
+class Svirfneblin:
+    f1 = [
+        "b", "br", "d", "dr", "fr", "g", "gh", "gr", "k", "kh", "kr", "sch", "schn", "sn", "sh", "t", "th", "w", "z",
+        "zh"
+    ]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "ie", "ee", "ai", "aa", "ei"
+    ]
+    f3 = [
+        "ck", "ckt", "ckh", "cn", "dg", "dl", "ddl", "dm", "g", "gg", "gn", "gl", "ggl", "kt", "kth", "kl", "kn",
+        "lsch", "lw", "lth", "lk", "lkr", "ltr", "ll", "ld", "ldr", "nth", "nt", "nd", "ndr", "ntr", "rbl", "rthm",
+        "rt", "rdr", "t", "tt", "tl", "ttl", "tr", "thr", "th"
+    ]
+    f4 = ["a", "e", "i", "u"]
+    m1 = [
+        "", "", "", "c", "ck", "d", "g", "l", "ll", "ld", "n", "nd", "nk", "r", "rs", "t", "b", "d", "fr", "gh", "gr",
+        "h", "k", "kh", "kr", "l", "m", "n", "s", "sh", "sn", "sch", "schn", "t", "th", "y", "w", "z"
+    ]
+    m2 = ["a", "e", "i", "u"]
+    m3 = [
+        "ckn", "d", "dl", "dd", "g", "gg", "gd", "gn", "gh", "l", "ll", "lg", "lm", "lv", "ls", "lsch", "lsh", "m",
+        "mk", "mg", "n", "nn", "nt", "ny", "ng", "nk", "rb", "rg", "rl", "rsh", "rv", "rt", "rth", "rs", "s", "ss",
+        "sh", "sn", "sk", "sg", "sl", "th", "t", "tr", "thr", "v", "vr", "vy", "z"
+    ]
+    m4 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "ee", "ie", "ei", "ai", "ia"]
+    s1 = [
+        "adamant", "agate", "alabaster", "alloy", "amethyst", "basalt", "bedrock", "block", "boulder", "brass", "brick",
+        "bronze", "clay", "cobalt", "cobble", "copper", "crag", "crystal", "deposit", "diamond", "dirt", "dust",
+        "emerald", "flint", "fossil", "garnet", "gem", "geo", "geode", "gold", "granite", "gravel", "grime", "ground",
+        "ingot", "iron", "jade", "jewel", "joint", "lapis", "lazuli", "lead", "lime", "lodge", "lump", "marble",
+        "mason", "metal", "mill", "mineral", "mold", "nickel", "nugget", "obsidian", "onyx", "opal", "ore", "pebble",
+        "pellet", "peridot", "pit", "quartz", "rock", "rough", "rubble", "ruby", "sand", "sapphire", "scrap", "seam",
+        "shelf", "silver", "slab", "slate", "smelt", "soil", "spinel", "steel", "stone", "stony", "sturdy", "terra",
+        "tile", "tin", "topaz", "turf", "wedge", "wire", "zinc", "zircon", "back", "basher", "bender", "biter",
+        "bleacher", "bone", "bones", "brander", "breaker", "bringer", "browser", "brusher", "carrier", "carver",
+        "catcher", "checker", "cheek", "chest", "chewer", "chin", "chiseler", "cleaner", "cleanser", "collector",
+        "counter", "crusher", "cutter", "designer", "digger", "duster", "ear", "eye", "eyes", "face", "feet", "finder",
+        "finger", "fingers", "fist", "foot", "forger", "gatherer", "gazer", "getter", "grasper", "grinder", "hand",
+        "head", "heart", "hewer", "holder", "knuckle", "leg", "legs", "lifter", "loader", "maker", "marker", "mask",
+        "melter", "mender", "merger", "molder", "moulder", "mug", "neck", "nose", "packer", "presser", "pusher",
+        "rater", "recorder", "rinser", "saver", "scanner", "scratcher", "sealer", "searcher", "seeker", "seizer",
+        "senser", "shaper", "shoveler", "skin", "smasher", "smelter", "snatcher", "sniffer", "sorter", "splitter",
+        "stamper", "stasher", "stocker", "surveyor", "sweeper", "switcher", "teeth", "temperer", "tooth", "trader",
+        "twirler", "twister", "vein", "viewer", "warper", "watcher"
+    ]
+    s2 = ['']
+    s3 = ['']
+    s4 = ['']
+
+
+class Sylph:
+    f1 = ["", "", "", "", "", "c", "d", "f", "g", "h", "j", "l", "m", "n", "s", "v", "w", "z"]
+    f2 = [
+        "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "aa", "uu",
+        "ii"
+    ]
+    f3 = ["d", "f", "g", "j", "k", "l", "m", "n", "s", "v", "w", "z"]
+    f4 = ["d", "l", "m", "n", "sh"]
+    m1 = ["", "", "", "", "", "d", "f", "h", "k", "l", "m", "n", "r", "s", "t", "v", "w", "z"]
+    m2 = ["a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "e", "i", "a", "a", "a", "ee", "aa"]
+    m3 = ["d", "f", "ff", "h", "l", "ll", "m", "mm", "n", "nn", "s", "ss", "v", "y", "w"]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "h", "m", "n", "sh"]
+
+
+class Tabaxi:
+    n1 = [
+        "Afternoon Nap (Nap)", "Animal in the Woods (Woods)", "Answered Riddle (Riddle)", "Art of Shadows (Art)",
+        "Aura of Passion (Aura)", "Aurora of Winter (Aurora)", "Autumn Harvest (Autumn)", "Beats of a Heart (Beats)",
+        "Beauty of Summer (Summer)", "Beauty's Eye (Beauty)", "Belly of a Beast (Beast)", "Berry Bush (Bush)",
+        "Big Heart (Big)", "Bird Feather (Bird)", "Bite Marks (Bite)", "Blank Board (Board)", "Blank Canvas (Canvas)",
+        "Blazing Fire (Blaze)", "Blossoms in Summer (Blossom)", "Branch of a River (River)",
+        "Breath of Fresh Air (Breath)", "Broken Chain (Chain)", "Bubble of a Cauldron (Bubble)",
+        "Burden of Chains (Chains)", "Burning Desire (Desire)", "Burning Fire (Fire)", "Bush in the Forest (Forest)",
+        "Bushy Branch (Branch)", "Busy Bee (Bee)", "Cadence of Water (Cadence)", "Cake of Chocolate (Cake)",
+        "Call of a Bird (Bird)", "Call of the Owl (Owl)", "Call to Action (Action)", "Candle in the Dark (Candle)",
+        "Cannon on Deck (Cannon)", "Carriage on the Road (Road)", "Clanking Bottle (Clank)", "Cloaking Dagger (Dagger)",
+        "Cloud in the Sky (Sky)", "Coursing River (River)", "Cover of Clouds (Cover)", "Crescent Moon (Moon)",
+        "Dangling Button (Button)", "Dangling Lace (Lace)", "Daydream at Night (Dream)", "Dew on the Grass (Dew)",
+        "Dream of Days (Dream)", "Drifting Cloud (Cloud)", "Drifting Snowflake (Snowflake)", "Drop in a Pond (Drop)",
+        "Dust of Chalk (Dust)", "Dust on the Road (Dust)", "Eclipse of the Moon (Eclipse)", "Edge of the World (Edge)",
+        "End of Winter (Winter)", "Endless Time (Time)", "Fall of Water (Water)", "Fallen Twig (Twig)",
+        "Fang of a Snake (Fang)", "Feather in the Wind (Feather)", "Fire in the Distance (Fire)",
+        "Fish in the River (River)", "Flame of Passion (Passion)", "Flame of the Spirit (Flame)",
+        "Flickering Fire (Fire)", "Flickering Flame (Flame)", "Flight of a Robin (Robin)", "Flow of the River (Flow)",
+        "Flower in the Field (Flower)", "Flower of Ivory (Ivory)", "Forgotten Link (Link)", "Four-Leaf Clover (Clover)",
+        "Fragrance of Spring (Spring)", "Friend of Foe (Friend)", "Gale of the Storm (Gale)", "Game of Chance (Game)",
+        "Garden of Flowers (Flower)", "Gift of a Guest (Gift)", "Glow of the Sun (Sun)", "Grass of Spring (Grass)",
+        "Guest at Home (Guest)", "Guide of Life (Guide)", "Hawk Feather (Hawk)", "Hen of the Flock (Hen)",
+        "Hidden Depths (Depth)", "Hidden Treasure (Treasure)", "Hide of the Beast (Hide)", "High Noon (Noon)",
+        "Honey of Bees (Honey)", "Hot Flame (Flame)", "Hot as Fire (Fire)", "Ice in Summer (Ice)",
+        "Ice on the Lake (Ice)", "Ink on Skin (Ink)", "Jewel of the Mountain (Jewel)", "Kite in the Wind (Kite)",
+        "Leaf on the Water (Leaf)", "Leaping Frog (Frog)", "Light in the Morning (Light)",
+        "Lightning After Thunder (Lightning)", "Little Flower (Little)", "Lock on an Open Door (Lock)",
+        "Locket on a Heart (Locket)", "Looping Coil (Coil)", "Loose String (String)", "Luck of the Draw (Luck)",
+        "Marble in the Sky (Marble)", "Mark of Life (Mark)", "Melting of Snow (Snow)", "Mirror's Reflection (Mirror)",
+        "Mist in the Morning (Mist)", "Mountain Boulder (Boulder)", "Needle in Hay (Needle)", "Night of Dreams (Night)",
+        "Open Gates (Gate)", "Owl in the Morning (Owl)", "Page of a Book (Page)", "Paint on a Canvas (Paint)",
+        "Patch in the Forest (Patch)", "Paw of a Bear (Paw)", "Peak of Mountains (Peak)", "Piece of the Puzzle (Piece)",
+        "Plume in the Wind (Plume)", "Plume of Smoke (Smoke)", "Poem of Summer (Poem)", "Print of a Boot (Boot)",
+        "Print of an Animal (Animal)", "Quill in the Grass (Quill)", "Rain in Summer (Rain)", "Rain of Fall (Rain)",
+        "Rainbow After Rain (Rainbow)", "Rays of the Sun (Ray)", "Remnants of History (Remnant)",
+        "Rhythm of Drums (Rhythm)", "Ringing of Bells (Bell)", "Rinkling Chains (Chains)", "Roar of a Bear (Roar)",
+        "Rope in a Knot (Knot)", "Rustling of a Deer (Deer)", "Sailing Ship (Ship)", "Sand of the Beach (Sand)",
+        "Sands of Time (Sand)", "Scarf in Summer (Scarf)", "Scratch on Wood (Scratch)", "Screech of Bats (Bat)",
+        "Sea of Opportunity (Sea)", "Second Chance (Chance)", "Serpent Scale (Scale)", "Shadow of a Star (Shadow)",
+        "Shadows in the Wind (Shadow)", "Sky Full of Stars (Sky)", "Sky of a Sunset (Sky)", "Sleight Hand (Hand)",
+        "Smooth as Silk (Silk)", "Snapping Branch (Snap)", "Snow of the Mountain (Snow)",
+        "Solstice of Summer (Solstice)", "Song of Paradise (Song)", "Sound of the Drum (Drum)", "Spark of Life (Spark)",
+        "Sparkle of Light (Sparkle)", "Spell of Rain (Spell)", "Spots of a Leopard (Spot)", "Spring Blossom (Spring)",
+        "Spring Winds (Spring)", "Star in the Morning (Star)", "Steady Rock (Rock)", "Stitch of Fabric (Stitch)",
+        "Stone in Water (Stone)", "Storm at Sea (Sea)", "Storm on the Horizon (Storm)", "Strength of Love (Love)",
+        "Stripes of a Tiger (Tiger)", "Stroke of a Brush (Brush)", "Summer Afternoon (Summer)",
+        "Sunshine at Night (Sunshine)", "Tale of Wonder (Tale)", "Taste of Fruit (Taste)", "Three Tree (Three)",
+        "Thrill of Life (Thrill)", "Thunder in the Morning (Thunder)", "Ticking Clock (Clock)",
+        "Tome of Secrets (Tome)", "Top Card (Card)", "Trail in the Woods (Trail)", "Tree Blossom (Blossom)",
+        "Tree in the Woods (Tree)", "Tricking Treat (Trick)", "Two River (River)", "Unpulled Cart (Cart)",
+        "Unread Book (Book)", "Veil of Shadows (Veil)", "Veil of a Mask (Veil)", "Wave on the Shore (Wave)",
+        "Windy Shore (Shore)", "Wing of an Angel (Angel)", "Winter Breath (Winter)", "Wish Upon a Star (Wish)",
+        "Wonder of the World (Wonder)"
+    ]
+
+
+class Tengu:
+    f1 = [
+        "", "", "", "", "", "b", "ch", "gr", "j", "k", "kr", "p", "pr", "q", "qr", "r", "s", "t", "tr", "tch", "x", "v",
+        "z"
+    ]
+    f2 = [
+        "a", "e", "o", "u", "a", "e", "o", "u", "a", "e", "o", "u", "a", "e", "o", "u", "i", "i", "a", "e", "o", "u",
+        "au", "ai", "oi", "ou"
+    ]
+    f3 = [
+        "ch", "j", "k", "kk", "l", "ll", "m", "n", "nn", "p", "pp", "q", "r", "rr", "s", "t", "v", "y", "x", "z", "zz"
+    ]
+    f4 = ["", "", "", "", "", "", "", "", "", "", "ck", "gh", "k", "l", "n", "r"]
+    m1 = [
+        "", "", "", "", "", "ch", "d", "g", "gh", "k", "kh", "m", "n", "p", "q", "r", "s", "sh", "t", "th", "v", "z",
+        "zh"
+    ]
+    m2 = [
+        "a", "e", "o", "u", "a", "e", "o", "u", "a", "e", "o", "u", "a", "e", "o", "u", "i", "i", "a", "e", "o", "u",
+        "ai", "io", "ee", "ae"
+    ]
+    m3 = [
+        "b", "ch", "g", "j", "k", "ky", "lk", "l", "ll", "ly", "m", "mk", "nk", "ny", "p", "py", "r", "rr", "rk", "s",
+        "t", "ty", "tch", "v", "vy", "z", "zz"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "k", "l", "n", "r"]
+    s1 = [
+        "", "", "", "", "", "b", "ch", "d", "g", "j", "k", "kr", "m", "n", "p", "pr", "q", "r", "s", "t", "tch", "v",
+        "z"
+    ]
+    s2 = ["a", "e", "i", "o", "u", "a", "o", "e", "a", "o", "e", "u"]
+    s3 = [
+        "ch", "g", "j", "k", "kk", "ky", "l", "ll", "m", "n", "ng", "nk", "p", "pp", "q", "r", "rr", "s", "t", "tch",
+        "v", "y", "z", "zz"
+    ]
+    s4 = ["", "", "ck", "k", "l", "n", "r", "t"]
+
+
+class Tian:
+    f1 = [
+        "", "", "", "b", "c", "ch", "d", "dh", "g", "gh", "h", "j", "k", "kh", "l", "m", "n", "q", "s", "sh", "t", "th",
+        "ts", "x", "y", "z", "zh"
+    ]
+    f2 = [
+        "aie", "aa", "ei", "aiu", "ua", "uu", "eio", "oi", "ai", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a",
+        "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i",
+        "o", "u", "a", "e", "i", "o", "u"
+    ]
+    f3 = [
+        "b", "cch", "ch", "d", "dk", "dy", "g", "gh", "ght", "gm", "gs", "j", "k", "kh", "khg", "khj", "kt", "l", "lb",
+        "lch", "ld", "lg", "lgh", "lj", "lt", "lz", "m", "mb", "ml", "n", "nb", "ndj", "ng", "ngg", "ngs", "nksh", "nt",
+        "nz", "q", "r", "rch", "rd", "rg", "rgh", "rk", "rkh", "rt", "s", "sg", "sh", "sl", "t", "tb", "tg", "tl", "ts",
+        "y", "z", "zb", "zh"
+    ]
+    f4 = ["", "", "", "d", "g", "gh", "gt", "l", "ld", "m", "n", "nt", "r", "t", "y"]
+    m1 = [
+        "b", "ch", "c", "d", "f", "g", "h", "j", "k", "kw", "l", "m", "n", "p", "q", "r", "sh", "s", "t", "w", "x", "y",
+        "zh", "z"
+    ]
+    m2 = [
+        "ao", "ua", "ai", "ui", "ia", "ei", "ue", "iu", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i",
+        "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"
+    ]
+    m3 = [
+        "b", "c", "ch", "d", "f", "h", "hw", "j", "k", "l", "m", "n", "nd", "nf", "ng", "ngch", "ngg", "ngh", "ngj",
+        "ngl", "ngm", "ngt", "ngx", "ngy", "ngzh", "nh", "nl", "nm", "nq", "nr", "nt", "nx", "ny", "nzh", "q", "r",
+        "sh", "t", "w", "x", "y", "zh"
+    ]
+    m4 = [
+        "b", "c", "ch", "d", "f", "g", "h", "hs", "hw", "j", "k", "kh", "kw", "l", "m", "n", "p", "q", "r", "s", "sh",
+        "sz", "t", "ts", "w", "x", "y", "zh", "z"
+    ]
+    s1 = [
+        "a", "ba", "bai", "be", "bo", "bu", "chi", "da", "dai", "ei", "fu", "ga", "ge", "gi", "go", "ha", "hei", "hi",
+        "ho", "hyo", "i", "ie", "jo", "ju", "ka", "ke", "kei", "ki", "ko", "ku", "kyu", "ma", "mi", "mo", "mu", "na",
+        "nao", "ni", "no", "o", "ri", "ro", "ryo", "ryu", "sa", "se", "sei", "shi", "sho", "shu", "so", "su", "ta",
+        "te", "tei", "to", "tsu", "u", "wa", "ya", "yo", "yu"
+    ]
+    s2 = [
+        "bumi", "buro", "buru", "chemon", "chi", "chiro", "chiyo", "chizo", "dayu", "deki", "do", "fu", "fumi", "gobei",
+        "goro", "hari", "haru", "hide", "hiko", "hira", "hiro", "hisa", "hito", "ji", "jio", "jiro", "juro", "kado",
+        "kan", "kao", "karu", "kazu", "kei", "ki", "kichi", "kin", "kio", "kira", "ko", "koto", "kuchu", "kudo", "kumi",
+        "kuni", "kusai", "kushi", "kusho", "kuzo", "mane", "maro", "masu", "matsu", "mei", "miaki", "michi", "mio",
+        "mitsu", "mon", "mori", "moru", "moto", "mune", "nabu", "naga", "nari", "nji", "njiro", "nkei", "nko", "nobu",
+        "nori", "noru", "noto", "noye", "npaku", "nshiro", "ntaro", "nzo", "rata", "rei", "ro", "roji", "roshi", "ru",
+        "sada", "sake", "saku", "sami", "samu", "sashi", "sato", "seki", "setsu", "shashi", "shi", "shige", "shiko",
+        "shiro", "sho", "shushu", "soshi", "su", "suke", "suki", "ta", "tada", "taka", "tane", "tari", "taro", "taru",
+        "toki", "toku", "tomo", "tora", "toshi", "tsu", "tsugu", "tsumi", "tsuna", "tsune", "tsuta", "tsuyo", "tzumi",
+        "wane", "yaki", "yasu", "yori", "yoshi", "yuki", "zane", "zo", "zuka", "zuki", "zuko", "zuma", "zumi", "zumo",
+        "zushi"
+    ]
+    s3 = [
+        "a", "ai", "ba", "be", "chi", "e", "ei", "fu", "ge", "ha", "hai", "hi", "ho", "i", "jo", "ka", "kae", "ki",
+        "ko", "ku", "ma", "mae", "me", "mi", "mo", "mu", "na", "nao", "ni", "no", "o", "rai", "rei", "ri", "ro", "ru",
+        "sa", "sai", "se", "shi", "su", "ta", "te", "to", "tsu", "u", "wa", "ya", "yae", "yo", "yu"
+    ]
+    s4 = [
+        "bari", "chi", "chiha", "chiho", "chiko", "cho", "deko", "doka", "fumi", "fuyu", "gino", "gusa", "haru", "hiro",
+        "ho", "hoko", "homi", "hori", "jiko", "ka", "kage", "kako", "kami", "kane", "kari", "karu", "kaze", "ki",
+        "kichi", "kiko", "kina", "kio", "kira", "ko", "koto", "kuko", "kuma", "kuro", "kyo", "maki", "mako", "mari",
+        "maya", "meka", "meko", "mi", "miho", "mika", "miki", "miko", "mina", "miri", "miya", "mugi", "na", "nae",
+        "nai", "nako", "nami", "natsu", "neka", "neko", "niko", "no", "noka", "nomi", "noue", "nu", "nuko", "nuye",
+        "nuyo", "ra", "rako", "rante", "rari", "rea", "ri", "rika", "riko", "rime", "rimi", "rino", "risa", "risu",
+        "rize", "ro", "roe", "roko", "romi", "roshi", "ru", "rui", "ruka", "ruko", "rumi", "sa", "sae", "sahi", "saji",
+        "saki", "sako", "sami", "samu", "sano", "sato", "se", "shi", "shiko", "shiyo", "soko", "sono", "suka", "suki",
+        "sumi", "suzu", "taba", "tako", "taru", "to", "tomi", "tomo", "tose", "toshi", "tsu", "tsue", "tsuka", "tsuko",
+        "tsumi", "tsune", "tsuyo", "yaka", "yako", "yame", "yano", "yeko", "yo", "yu", "yuka", "yuki", "yuko", "yume",
+        "yumi", "yuri", "zami", "zu", "zue", "zuki", "zuko", "zumi", "zuru", "zusa"
+    ]
+
+
+class Tiefling:
+    f1 = ["", "", "", "", "", "b", "cr", "d", "g", "h", "k", "kr", "m", "r", "s", "sh", "t", "v", "y", "z"]
+    f2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "y", "ia",
+        "io"
+    ]
+    f3 = [
+        "c", "cr", "cn", "d", "dr", "g", "gr", "gg", "k", "kr", "l", "ldr", "lv", "ll", "m", "nst", "nv", "nr", "r",
+        "rn", "rd", "rk", "rrd", "rt", "rv", "s", "sr", "sk", "t", "tr", "v", "c", "d", "g", "k", "l", "m", "n", "r",
+        "s", "t", "v"
+    ]
+    f4 = ["", "", "", "c", "k", "n", "r", "s", "t", "th"]
+    m1 = ["d", "f", "h", "k", "kh", "l", "m", "n", "r", "s", "sh", "str", "t", "th", "v", "z"]
+    m2 = [
+        "a", "e", "i", "o", "a", "a", "e", "a", "e", "i", "o", "a", "a", "e", "a", "o", "e", "a", "o", "e", "i", "i",
+        "ei", "ia", "ea", "ai"
+    ]
+    m3 = [
+        "d", "dr", "f", "fr", "ff", "l", "ll", "ld", "ldr", "lr", "ln", "ls", "m", "mr", "mdr", "ms", "nd", "ndr", "nn",
+        "n", "nz", "r", "rdr", "rr", "rs", "rz", "s", "sh", "sz", "sr", "t", "tr", "v", "vr", "y", "zs", "d", "f", "l",
+        "m", "n", "r", "s", "t", "v", "y"
+    ]
+    m4 = ["h", "l", "n", "s", "th"]
+    s1 = ["", "", "", "", "b", "br", "d", "dr", "f", "g", "h", "l", "m", "n", "p", "r", "s", "sh", "t", "v", "z"]
+    s2 = [
+        "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e",
+        "i", "o", "a", "a", "e", "e", "i", "aa", "ae", "ia", "ea"
+    ]
+    s3 = [
+        "b", "br", "c", "d", "dr", "fr", "g", "gg", "gr", "gv", "k", "l", "ll", "lr", "lv", "ldr", "m", "mm", "mr",
+        "mdr", "n", "nd", "ng", "ndr", "nst", "nv", "nr", "r", "rh", "rv", "rr", "rz", "rd", "rdr", "s", "ss", "sr",
+        "sh", "st", "t", "tr", "v", "vr", "b", "c", "d", "g", "k", "l", "m", "n", "r", "s", "t", "v"
+    ]
+    s4 = ["", "", "", "", "", "", "", "", "", "", "d", "ld", "lt", "m", "n", "nd", "r", "rd", "s", "t", "th"]
+
+
+class Tortle:
+    n1 = ["", "", "", "", "b", "d", "g", "j", "k", "kr", "l", "n", "pl", "q", "s", "t", "w", "x", "y"]
+    n2 = [
+        "ue", "uo", "ua", "ia", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "a", "e", "i", "o", "u", "y", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u"
+    ]
+    n3 = [
+        "b", "d", "k", "l", "lb", "ld", "lk", "m", "n", "nn", "nl", "nq", "nqw", "qw", "p", "pp", "r", "rdl", "rt",
+        "rtl", "z", "zl"
+    ]
+    n4 = ["", "", "", "", "", "c", "d", "g", "k", "l", "ll", "m", "n", "r", "t", "tt"]
+
+
+class Triton:
+    m1 = ["c", "d", "dh", "j", "jh", "k", "kh", "m", "n", "r", "v", "z"]
+    m2 = ["a", "e", "i", "o", "u"]
+    m3 = [
+        "d", "dd", "g", "gl", "hn", "hl", "hr", "l", "lg", "lm", "ld", "ln", "lz", "m", "mn", "mr", "n", "nn", "nd",
+        "nl", "nr", "nv", "r", "rl", "rn", "rv", "rz", "v", "vn", "z"
+    ]
+    m4 = [
+        "", "", "", "", "", "", "", "", "b", "bh", "d", "dh", "f", "fl", "h", "l", "m", "n", "s", "sh", "vl", "w", "wh",
+        "y"
+    ]
+    f1 = ["a", "e", "o", "u", "a", "e", "o", "u", "i"]
+    f2 = [
+        "d", "dd", "dr", "gr", "gl", "hl", "hn", "l", "lr", "lt", "lth", "ml", "nl", "nth", "nr", "r", "rn", "rl", "rr",
+        "s", "sh", "st", "sl", "sn", "t", "th", "tr", "thr", "tl", "thl"
+    ]
+    f3 = ["d", "h", "l", "m", "n", "r"]
+    f4 = ["e", "y", "y", "y", "y", "y", "y"]
+    s1 = ["", "", "", "b", "bh", "d", "dh", "j", "g", "l", "m", "n", "p", "r", "s", "v", "z"]
+    s2 = ["a", "u", "a", "u", "a", "u", "e", "o", "a", "o", "a", "o", "e", "u"]
+    s3 = ["b", "d", "g", "gh", "hl", "hn", "hm", "hr", "l", "n", "m", "r", "v"]
+    s4 = ["d", "g", "l", "ll", "ln", "lm", "lv", "m", "mn", "n", "ns", "nz", "r", "rs", "s", "sn", "x", "z"]
+
+
+class Undine:
+    f1 = ["", "", "", "", "", "bh", "d", "dh", "g", "gh", "j", "kh", "m", "n", "r", "rh", "sh", "v", "z"]
+    f2 = [
+        "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e", "i", "o", "a", "e",
+        "i", "o", "aa", "oo"
+    ]
+    f3 = [
+        "b", "bd", "c", "cd", "d", "dd", "db", "g", "gd", "gv", "gn", "gm", "j", "k", "kb", "kd", "kn", "km", "kv", "m",
+        "md", "mm", "mb", "n", "nn", "nb", "nd", "r", "rd", "rg", "rv", "rz", "v", "b", "c", "d", "g", "j", "k", "m",
+        "n", "r", "v"
+    ]
+    f4 = ["d", "hz", "j", "k", "m", "n", "r", "sh", "v"]
+    m1 = ["", "", "", "b", "c", "d", "f", "h", "l", "m", "n", "p", "r", "s", "w", "z"]
+    m2 = [
+        "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "a", "e", "i", "u", "y", "y",
+        "y", "ya", "aa"
+    ]
+    m3 = [
+        "b", "bh", "d", "dz", "dh", "fd", "fn", "ff", "f", "fz", "hn", "hl", "hr", "hm", "h", "hh", "l", "lg", "ld",
+        "lb", "lf", "ln", "m", "mm", "mn", "mr", "mf", "n", "nn", "nr", "nd", "nf", "nh", "r", "rh", "rb", "rv", "rd",
+        "rz", "v", "vr", "b", "d", "f", "h", "l", "n", "m", "r", "v", "b", "d", "f", "h", "l", "n", "m", "r", "v"
+    ]
+    m4 = ["", "", "", "", "", "", "", "", "", "", "h", "n"]
+
+
+class Vanara:
+    n1 = [
+        "Abder", "Absyr", "Abyd", "Acast", "Achat", "Achel", "Acher", "Achil", "Achl", "Acris", "Act", "Adelph", "Adm",
+        "Adon", "Adr", "Adras", "Aeg", "Aeol", "Aggel", "Alcin", "Ald", "Ambr", "Amyc", "Anast", "Anat", "Anc", "And",
+        "Andr", "Ant", "Apost", "Arc", "Arg", "Arist", "Ars", "Ast", "Aster", "Bacc", "Bas", "Bast", "Bauc", "Ceph",
+        "Cerb", "Ces", "Cet", "Char", "Cim", "Cir", "Corb", "Cyr", "Daem", "Dam", "Dar", "Darr", "Dem", "Dim", "Dion",
+        "Dor", "Dun", "Egid", "Elefth", "Eleuth", "Endr", "Eras", "Ereb", "Eum", "Eur", "Eust", "Ev", "Fan", "Fed",
+        "Feodr", "Gael", "Gal", "Gil", "Gor", "Greg", "Haem", "Hect", "Hel", "Ias", "Ic", "Idom", "Ignat", "Inach",
+        "Ivank", "Jas", "Kadm", "Kir", "Konst", "Korud", "Kost", "Krat", "Kyr", "Lad", "Lak", "Land", "Laz", "Leand",
+        "Lich", "Louk", "Lox", "Lyc", "Maur", "Ment", "Mich", "Myl", "Nark", "Nem", "Nik", "Nil", "Nill", "Ocn", "Oen",
+        "Oenom", "Or", "Orthr", "Pal", "Panag", "Par", "Pell", "Petr", "Pil", "Pirr", "Preb", "Prot", "Rhod", "Sav",
+        "Savv", "Sim", "Sot", "Stam", "Stavr", "Stel", "Sterg", "Tak", "Tal", "Than", "Thaum", "Tim", "Timm", "Tit",
+        "Tod", "Tol", "Tox", "Trit", "Vas", "Yan", "Yann", "Yor", "Yrig", "Zar", "Zen", "Zeph", "Zolt"
+    ]
+    n2 = ["us", "ius", "os", "in", "as"]
+    n3 = ["ia", "ia", "a", "ia"]
+
+
+class Vedalken:
+    m1 = [
+        "", "", "", "", "", "", "b", "bh", "d", "dh", "dr", "f", "k", "kh", "l", "m", "n", "nh", "p", "r", "tr", "y",
+        "z"
+    ]
+    m2 = ["a", "e", "i", "o", "u"]
+    m3 = [
+        "b", "bl", "d", "dr", "dv", "g", "gg", "gl", "l", "ld", "ll", "lv", "m", "n", "pl", "r", "rd", "rv", "t", "th",
+        "tl", "thv", "tr", "v", "vl", "vr"
+    ]
+    m4 = ["l", "ll", "n", "r", "v", "z", "c", "d", "l", "ll", "n", "r", "sh", "t", "tt", "v", "z"]
+
+    f1 = [
+        "", "", "", "", "", "b", "bl", "br", "d", "dr", "f", "gr", "h", "k", "kl", "l", "m", "n", "p", "r", "s", "sl",
+        "tr", "y", "z", "zl"
+    ]
+    f2 = [
+        "ai",
+        "ie",
+        "ia",
+        "ei",
+        "a",
+        "e",
+        "i",
+        "o",
+        "u",
+        "ia",
+        "ai",
+        "aa",
+    ]
+    f3 = [
+        "d", "dd", "dr", "dv", "g", "gr", "gg", "l", "ld", "lg", "ll", "ln", "lv", "r", "rr", "rv", "s", "ss", "str",
+        "tr", "v", "y", "z"
+    ]
+    f4 = ["l", "ll", "n", "nn", "s", "v", "y", "z", "", "", "", "", "", "", "h", "l", "ll", "n", "nn", "s", "sh", "ss"]
+
+
+class Vishkanya:
+    f1 = [
+        "Aakash", "Abhi", "Abhinav", "Acarya", "Aditya", "Ajatasatru", "Akshey", "Aman", "Amar", "Amara", "Amish",
+        "Amitabh", "Amitodana", "Amrit", "Anand", "Ananda", "Anguri", "Anil", "Anuraag", "Arjuna", "Arpit", "Arun",
+        "Aryabhata", "Aryabhatta", "Asha", "Ashtavakra", "Ashutosh", "Asvalayana", "Ayaan", "Ayush", "Baibhav", "Bana",
+        "Benegal", "Bhavabhuti", "Bhima", "Bhrigu", "Chakravarti", "Chand", "Chanda", "Chander", "Chandra", "Chandrama",
+        "Chatur", "Chettur", "Chhotu", "Chunder", "Cyavana", "Daas", "Dadabhvai", "Daksh", "Daksha", "Dasra", "Daya",
+        "Dayananda", "Dhani", "Dharya", "Dheeraj", "Dhirtarashtra", "Dhule", "Dhuleep", "Din", "Dyal", "Gagan",
+        "Ganesh", "Gopal", "Govind", "Govinda", "Gunadhya", "Hala", "Har", "Harsh", "Hira", "Ishwar", "Jagadis",
+        "Jamadagni", "Jaswant", "Jatayu", "Jawahar", "Jayadeva", "Jeet", "Jhanda", "Jwala", "Kahoda", "Kanada",
+        "Kapila", "Karam", "Katyayana", "Keshav", "Krishan", "Krishna", "Kusika", "Lakshmana", "MAdhava",
+        "Madhavacharta", "Maha", "Mahadaji", "Mahava", "Manas", "Megaduta", "Megh", "Mishri", "Mohun", "Motilal",
+        "Nakshatra", "Nakula", "Narayana", "Nasatya", "Navin", "Navneet", "Om", "Pandu", "Panini", "Patanjali",
+        "Peeyush", "Prakash", "Pramod", "Pranav", "Prashant", "Pravarasena", "Prem", "Purshottama", "Raghu", "Ragoba",
+        "Ragunath", "Rahul", "Rajendra", "Ramaeshwara", "Ranjan", "Ranjit", "Ravi", "Rhitanshu", "Rishu", "Roodra",
+        "Ruldu", "Rura", "Sackhcham", "Sahadeva", "Sandracottos", "Santosh", "Saurabh", "Savyaschin", "Sayana",
+        "Shackcham", "Shankaracharya", "Shanti", "Sharad", "Sharya", "Shudraka", "Sooraj", "Srijan", "Sumit", "Sunder",
+        "Surendranath", "Vaibhav", "Vakpati", "Varuni", "Vasishtha", "Veer", "Venkata", "Vijya", "Vikas",
+        "Vikramaditya", "Vinay", "Vineet", "Vinod", "Vishnu", "Viswamitra", "Viswarupa", "Vrikodara", "Waazir", "Yad",
+        "Yogarasa", "Yudhishthira", "Zalim"
+    ]
+    m1 = [
+        "Aahana", "Aaina", "Aaliya", "Aasiya", "Aasmi", "Aditi", "Aishwarya", "Akshara", "Alia", "Amandara", "Ambika",
+        "Ananya", "Anarkali", "Anu", "Anushka", "Anushree", "Anya", "Archita", "Arpita", "Arya", "Ashia", "Bhadrakali",
+        "Bhageerathi", "Bhairavi", "Bumati", "Chambeli", "Chamunda", "Chandi", "Chandika", "Cheeno", "Chhaya",
+        "Chhotimai", "Dakini", "Damayanti", "Divya", "Draupati", "Durga", "Durgautti", "Durgawati", "Gauri", "Indira",
+        "Indu", "Jaya", "Jayanti", "Jindan", "Jyoti", "Kalpana", "Kalyani", "Kamala", "Kanak", "Kannagi", "Kanti",
+        "Kanwal", "Kareena", "Karnavati", "Karuna", "Kasturbai", "Kaumari", "Kavuri", "Komal", "Korravai", "Krishna",
+        "Krishnaa", "Kumari", "Kunti", "Kusum", "Lakshmi", "Lasya", "Lavanya", "Leela", "Lia", "Madri", "Mahamai",
+        "Mahi", "Mamta", "Manasa", "Manjistha", "Mataji", "Maya", "Mina", "Minakshi", "Minu", "Muskaanb", "Nagini",
+        "Neha", "Nehal", "Nupur", "Nutan", "Padmini", "Palak", "Paraminta", "Pari", "Parvati", "Phoolan", "Praanvi",
+        "Priya", "Priyanshi", "Radha", "Raktavati", "Rani", "Rati", "Rekha", "Rishabha", "Ruhi", "Rushpa", "Saanvi",
+        "Sadhana", "Salani", "Samarj", "Sambridhi", "Sanskriti", "Sarama", "Sarasvati", "Sarojini", "Saryu", "Satya",
+        "Saurandhri", "Sena", "Shakti", "Shakuntala", "Shalini", "Shambhavi", "Shanti", "Shinu", "Shitala", "Shreya",
+        "Shristi", "Shruti", "Siddhi", "Simron", "Sita", "Snigdha", "Sonamoni", "Sukanya", "Sulini", "Sumati", "Surya",
+        "Tarabai", "Tivra", "Ujali", "Uma", "Urvasi", "Usha", "Vaidehi", "Vayu", "Versha", "Vijaya", "Zohana"
+    ]
+    s1 = [
+        "Acharekar", "Achaval", "Adhya", "Adwani", "Ahuja", "Ajagavakar", "Anagal", "Ashtekar", "Ashtikar", "Ayyangar",
+        "Ayyar", "Badakar", "Bagchi", "Bajpai", "Bajpeyi", "Bakshi", "Banahatti", "Bandyopadhyay", "Barigai",
+        "Barvadekar", "Bhagat", "Bhardvaj", "Bhatavadekar", "Bhate", "Bhatta", "Bhattacharya", "Bhaumik", "Bhavalakar",
+        "Bhave", "Chadda", "Chakarvarti", "Chattarak", "Chaudhari", "Chetti", "Chipalunakar", "Chitanis", "Chopade",
+        "Choraghad", "Dalavi", "Dattachaudhuri", "Dayal", "Deshmukh", "Devadhikar", "Devarukhkar", "Devdhar", "Dhavale",
+        "Dhebar", "Dheer", "Dhibar", "Divakar", "Divekar", "Dongerkerry", "Dvivedi", "Ganapuli", "Gandhi", "Gaur",
+        "Gayakvad", "Gazdar", "Gharapure", "Ghoshal", "Goyal", "Gulati", "Gupta", "Gurnani", "Haldar", "Haradas",
+        "Harish", "Havaldar", "Hegadi", "Heravdakar", "Holkar", "Jadhav", "Jagatap", "Jayavant", "Jogalekar", "Joshi",
+        "Kamal", "Kamath", "Kanungo", "Kapadia", "Kapil", "Kapudia", "Karamchand", "Kashyap", "Kayal", "Khamavant",
+        "Kumar", "Kusari", "Lata", "Limbu", "Mahalanabis", "Mahanta", "Mahanti", "Malhotra", "Mallaya", "Malviya",
+        "Mandalik", "Marwah", "Mayadev", "Mehrotra", "Mirchandani", "Misra", "Mudaliyar", "Mukhtar", "Munshi",
+        "Munshif", "Muzumdar", "Naidu", "Nambisan", "Nambiyar", "Nan", "Nancy", "Nandi", "Navathe", "Nayar", "Nijasure",
+        "Ojha", "Padagavakar", "Padhi", "Padhya", "Panda", "Pande", "Pandey", "Pandya", "Panikkar", "Panja",
+        "Parachure", "Parekh", "Parikh", "Patel", "Patil", "Patvardhan", "Pavagi", "Phadanis", "Phadatare", "Poddar",
+        "Prabhu", "Punja", "Raj", "Rajavade", "Randhawa", "Ranganekary", "Roychaudhuri", "Sabanis", "Sanyal", "Sardar",
+        "Sarkar", "Satavelekar", "Seth", "Sharma", "Shevade", "Shiravadakar", "Shree", "Shrivastav", "Shrivastava",
+        "Singh", "Sinha", "Sirasikar", "Srivastav", "Talavalakar", "Tamhanakar", "Tavade", "Thacker", "Thakore",
+        "Thakre", "Thakur", "Tipanis", "Upadhyay", "Upalekar", "Upandhye", "Upasani", "Vad", "Vadekar", "Vaikar",
+        "Vaknis", "Valimbe", "Viswan", "Vyas"
+    ]
+
+
+class Warforged:
+    n1 = [
+        "Abider", "Achiever", "Actor", "Adapter", "Adviser", "Aegis", "Agent", "Animal", "Apparatus", "Armament",
+        "Artist", "Audience", "Author", "Awakener", "Basher", "Bastion", "Battler", "Bear", "Beast", "Beauty", "Beetle",
+        "Bender", "Binder", "Blade", "Book", "Booster", "Boot", "Bouncer", "Brain", "Brander", "Brawler", "Breaker",
+        "Bringer", "Browser", "Bruiser", "Buffet", "Bug", "Builder", "Bulwark", "Calmer", "Candle", "Cannon", "Carer",
+        "Carriage", "Carrier", "Cart", "Carver", "Case", "Caster", "Catcher", "Chain", "Chains", "Challenger",
+        "Champion", "Chaperon", "Charger", "Chaser", "Chopper", "Claymore", "Cleaver", "Climber", "Clock", "Club",
+        "Clubber", "Coil", "Commander", "Controller", "Cook", "Counter", "Creator", "Creature", "Creese", "Crew",
+        "Croaker", "Crow", "Crumbler", "Crusher", "Curator", "Curtana", "Custodian", "Cutlas", "Cutlass", "Cutter",
+        "Dagger", "Data", "Dealer", "Decipherer", "Defender", "Definer", "Delver", "Designer", "Destroyer", "Diagnoser",
+        "Director", "Dirk", "Diver", "Doctor", "Dozer", "Dreamer", "Drifter", "Driver", "Drone", "Echo", "Edge",
+        "Enchanter", "Epee", "Eraser", "Estoc", "Etcher", "Examiner", "Expert", "Falchion", "Familiar", "Fighter",
+        "Figure", "Fire", "Five", "Flail", "Flame", "Fluke", "Foil", "Follower", "Forger", "Four", "Friend", "Fumbler",
+        "Gasher", "Gauger", "Ghost", "Giant", "Gift", "Glaive", "Glancer", "Griller", "Grunter", "Guardian", "Guest",
+        "Guide", "Hacker", "Hammer", "Handler", "Heart", "Help", "Hook", "Horn", "Host", "Hummer", "Hunter", "Image",
+        "Inspector", "Iron", "Judge", "Junior", "Jury", "Katana", "Kid", "Killer", "Knife", "Knocker", "Kris",
+        "Launcher", "Leaper", "Lifter", "Lock", "Locket", "Lurker", "Mace", "Machine", "Mark", "Marker", "Mask",
+        "Masker", "Mauler", "Melter", "Menace", "Mentor", "Merger", "Metal", "Mime", "Mistake", "Model", "Molder",
+        "Murderer", "Nameless", "Needle", "Nemo", "Novice", "Nurse", "Observer", "Officer", "Ogler", "One", "Ornament",
+        "Painter", "Passenger", "Patient", "Patriot", "Pierce", "Pilot", "Pious", "Player", "Porter", "Preacher",
+        "Pretender", "Prize", "Probe", "Protector", "Prowler", "Punisher", "Query", "Ravager", "Reader", "Reckoner",
+        "Relic", "Render", "Rescuer", "Responder", "Reviewer", "Rider", "Rune", "Saber", "Sabre", "Safeguard",
+        "Salvager", "Saviour", "Scimitar", "Scorcher", "Scratcher", "Scrubber", "Searcher", "Security", "Seeker",
+        "Senior", "Senser", "Sentinel", "Sentry", "Servant", "Shaper", "Shepherd", "Shield", "Shielder", "Shredder",
+        "Slasher", "Slicer", "Smasher", "Smiter", "Snooper", "Spark", "Sparkle", "Special", "Spirit", "Sprinter",
+        "Sprite", "Squasher", "Stalker", "Status", "Steel", "Steeple", "Stick", "Sticks", "Stitcher", "Striker",
+        "Student", "Stumbler", "Subject", "Suit", "Sunderer", "Supporter", "Surveyor", "Sword", "Tackler", "Taunter",
+        "Teacher", "Teaser", "Tempter", "Tester", "Thief", "Thinker", "Three", "Thunder", "Tinkerer", "Titan", "Toad",
+        "Toledo", "Tutor", "Twister", "Two", "Undoer", "Unit", "Unmaker", "Unsung", "Vessel", "Victor", "Visitor",
+        "Voice", "Walker", "Ward", "Warden", "Watcher", "Whisperer", "Wielder", "Winker", "Winner", "Wonderer",
+        "Wrestler", "Zealot", "Zero"
+    ]
+
+
+class Wayangs:
+    f1 = [
+        "Ahurei", "Aia", "Aiani", "Aifeuna", "Amo", "Arii-fataia", "Ariipaea", "Aru", "Auri", "Auriro", "Enometua",
+        "Farerohi", "Haamanemane", "Hama", "Hamau", "Haneti", "Hapai", "Haururu", "Hiro", "Hurimaavehi", "Itiiti",
+        "Mahine", "Mahui", "Mai", "Manea", "Manua", "Maoae", "Matafaahira", "Mauaihiti", "Mauaroa", "Moearu", "Moemoe",
+        "Namiro", "Niuhu", "Nohoraa", "Nuutere", "Ohatatama", "Omai", "Opuhara", "Oreo", "Ori", "Panee", "Paofai",
+        "Pati'i", "Pena", "Pihato", "Punua", "Punua-teraitua", "Taaroa", "Taaroa-manahune", "Taauaitatanuurua", "Taino",
+        "Tamatoa", "Tapoa", "Tati", "Tau", "Taua-i-taata", "Taura", "Taura-atua", "Tauraatua", "Taute", "Tavi",
+        "Tavihauroa", "Te-manutunuu", "Te-maui-ari'i", "Te-mooiapitia", "Teaatoro", "Teaej", "Tefaaora", "Tehapai",
+        "Teieie", "Teihotu", "Temoo", "Teohu", "Tepau", "Tepauarii", "Terii", "Terii-maevarua", "Teriimana", "Teruru",
+        "Tetohu", "Tetumanua", "Teu", "Teuira", "Teuira-arii", "Teuraiterai", "Teva", "Tevahitua", "Tiaau", "Tiipaarii",
+        "Toa", "Tuaroa", "Tuhei", "Tumoehamia", "Tunuieaiteatua", "Tupaia", "Tutaha", "Tutahau", "Tuutini", "Uata",
+        "Ui", "Uruumatata", "Vaetua", "Vairatoa", "Vanaama", "Vari", "Vari-mataauhue", "Vavahiiteraa", "Vehiatua",
+        "Veve"
+    ]
+    m1 = [
+        "'Itea", "Ahurai", "Aimata", "Aironoana'a", "Airoro", "Airotua", "Arili-manihinihi", "Ariioehau", "Ariitaimai",
+        "Aroroerua", "Auau", "Fareahu", "Fetefeteui", "Hototu", "Ino Metua", "Maheanuu", "Marae-ura", "Moe", "Murihau",
+        "Ourahi", "Patea", "Pateamai", "Peutari", "Piharii", "Pipiri", "Poivai", "Purea", "Taaroa", "Taia", "Tapuhote",
+        "Taura", "Taura-atua", "Tauraatua", "Taurua", "Te-aropoanaa", "Te-fete-fete-ui", "Teeva", "Teeva Pirioi",
+        "Tefeau", "Tehaapapa", "Tehea", "Teihotu", "Temaehuata", "Teraha-tetua", "Teraiautia", "Teraitua", "Teremoemoe",
+        "Terero", "Teri'i", "Teri'itorai", "Teriitahi", "Teriitua", "Teriivau", "Teriivua-iterai", "Terite", "Terito",
+        "Teroroeora", "Teroroera", "Tetua", "Tetua-umeritini", "Tetuaehuri", "Tetuahuri", "Tetuanui", "Tetuanuireia",
+        "Tetuaraenui", "Tetuaunurau", "Tetunania", "Tetupaia", "Tetupua", "Teuira", "Tevurua", "Tevurua-hoiatua",
+        "Tevuruahoratua", "Tiipaarii", "Tupuetefa", "Ura", "Vavea"
+    ]
+
+
+class Yuanti:
+    n1 = ["", "", "", "", "", "h", "m", "n", "s", "sh", "ss", "ssh", "sz", "t", "th", "y", "z", "zh", "zs"]
+    n2 = [
+        "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e", "i", "o", "u", "a", "e",
+        "i", "o", "u", "oa", "ui", "a", "i", "u", "a", "i", "u", "a", "i", "u", "a", "i", "u", "a", "i", "u", "a", "i",
+        "u", "ie", "ia", "ei", "ee", "iu", "ui"
+    ]
+    n3 = [
+        "h", "hl", "htl", "hl", "hs", "hsh", "k", "kh", "kl", "ktl", "ks", "l", "lk", "ls", "ltl", "lts", "lsh", "m",
+        "n", "s", "sh", "ss", "st", "stl", "sz", "sk", "t", "tl", "ts", "tsh", "tsz", "tz", "tstl", "zs", "zh", "zsh",
+        "zt", "ztl"
+    ]
+    n4 = [
+        "h", "hs", "hl", "l", "ll", "s", "sh", "ss", "shl", "t", "th", "y", "z", "zh", "", "", "", "", "", "", "", "",
+        "h", "h", "l", "ll", "s", "ss", "sh"
+    ]
