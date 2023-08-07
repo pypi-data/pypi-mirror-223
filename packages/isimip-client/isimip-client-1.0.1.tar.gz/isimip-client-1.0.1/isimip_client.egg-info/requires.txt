@@ -1,0 +1,8 @@
+requests>=2
+
+[jupyter]
+jupyter
+jupyterlab
+matplotlib
+netCDF4
+pandas

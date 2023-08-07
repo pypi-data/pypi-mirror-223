@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: isimip-client
+Version: 1.0.1
+Summary: A thin client library to use the API of the ISIMIP repository using Python.
+Author-email: Jochen Klar <jochen.klar@pik-potsdam.de>
+Maintainer-email: Jochen Klar <jochen.klar@pik-potsdam.de>
+License: MIT License
+        
+        Copyright (c) 2022 Potsdam Institute for Climate Impact Research
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/ISI-MIP/isimip-client
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: jupyter
+License-File: LICENSE
+
+isimip-client
+=============
+
+[![Latest release](https://shields.io/github/v/release/ISI-MIP/isimip-client)](https://github.com/ISI-MIP/isimip-client/releases)
+[![PyPI release](https://img.shields.io/pypi/v/isimip-client)](https://pypi.org/project/isimip-client/)
+[![Python Version](https://img.shields.io/badge/python->=3.8-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://github.com/ISI-MIP/isimip-qc/blob/master/LICENSE)
+
+A *thin* client library to use the API of the [ISIMIP repository](https://data.isimip.org) using Python.
+
+Setup
+-----
+
+The library is written in Python (> 3.6) uses only dependencies, which can be installed without administrator priviledges. The installation of Python (and its developing packages), however differs from operating system to operating system. Optional Git is needed if the application is installed directly from GitHub. The installation of Python 3 and Git for different plattforms is documented [here](https://github.com/ISI-MIP/isimip-utils/blob/master/docs/prerequisites.md).
+
+The library can be installed via pip. Usually you want to create a [virtual environment](https://docs.python.org/3/library/venv.html) first, but this is optional:
+
+```bash
+# setup venv on Linux/macOS/Windows WSL
+python3 -m venv env
+source env/bin/activate
+
+# setup venv on Windows cmd
+python -m venv env
+call env\Scripts\activate.bat
+```
+
+The library can conveniently installed using `pip`:
+
+```
+pip install isimip-client
+```
+
+Usage
+-----
+
+The library is used in the following way:
+
+```python
+from isimip_client.client import ISIMIPClient
+client = ISIMIPClient()
+
+# search the ISIMIP repository using a search string
+response = client.datasets(query='gfdl-esm4 ssp370 pr')
+
+# search the ISIMIP repository for a specific subtree
+response = client.datasets(tree='ISIMIP3b/InputData/climate/atmosphere/global/daily/ssp370/gfdl-esm4/r1i1p1f1/w5e5/pr')
+
+# search the ISIMIP repository using specifiers
+response = client.datasets(simulation_round='ISIMIP3b',
+                           product='InputData',
+                           climate_forcing='gfdl-esm4',
+                           climate_scenario='ssp370',
+                           climate_variable='pr')
+```
+
+In order to use the `dev` version of the repository use:
+
+```python
+client = ISIMIPClient(data_url='https://dev.isimip.org/api/v1', auth=(USER, PASS))
+```
+
+More examples can be found in the [notebooks directory](/notebooks).
+
+
+Jupyter notebooks
+-----------------
+
+I you want to run the included jupyter notebooks, you can install the additional packages using:
+
+```
+pip install isimip-client[jupyter]
+```
+
+Then Jupyter lab can be started using:
+
+```bash
+jupyter lab
+```
+
+The example notebooks are in the `notebooks` directory.

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+isimip_client/__init__.py
+isimip_client/client.py
+isimip_client.egg-info/PKG-INFO
+isimip_client.egg-info/SOURCES.txt
+isimip_client.egg-info/dependency_links.txt
+isimip_client.egg-info/requires.txt
+isimip_client.egg-info/top_level.txt
