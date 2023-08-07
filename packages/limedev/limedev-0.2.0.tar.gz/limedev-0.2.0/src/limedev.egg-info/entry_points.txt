@@ -1,0 +1,4 @@
+[console_scripts]
+package = limedev.package:main
+readme = limedev.readme:main
+test = limedev.test:main
