@@ -1,0 +1,6 @@
+python-okx
+websockets
+requests
+binance-futures-connector
+python-telegram-bot
+pydantic
