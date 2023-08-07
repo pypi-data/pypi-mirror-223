@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "manageritm"
+version = "0.3.0"
+description = "Manage processes via an HTTP based API"
+authors = ["dskard"]
+license = "MIT"
+readme = "README.md"
+homepage = "http://github.com/dskard/manageritm"
+repository = "http://github.com/dskard/manageritm"
+packages = [
+    {include = "manageritm"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.27.1"
+urllib3 = "^1.26.16"
+mitmproxy = "^9.0.1"
+flask = "^2.2.5"
+jsonschema = "^4.18.6"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+pytest = "^7.1.1"
+pdbpp = "^0.10.3"
+gunicorn = "^20.1.0"
+requests-mock = "^1.9.3"
+pytest-mock = "^3.7.0"
+deepdiff = "^6.3.1"
+
+[tool.poetry.scripts]
+manageritm = "manageritm.app:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = [
+    "manageritm/__init__.py:__version__"
+]
+version_toml = [
+    "pyproject.toml:tool.poetry.version"
+]
+major_on_zero = false
+branch = "main"
+upload_to_PyPI = true
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
+
