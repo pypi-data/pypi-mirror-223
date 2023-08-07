@@ -1,0 +1,7 @@
+README.md
+setup.py
+olografos/__init__.py
+olografos.egg-info/PKG-INFO
+olografos.egg-info/SOURCES.txt
+olografos.egg-info/dependency_links.txt
+olografos.egg-info/top_level.txt
