@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: bazos
+Version: 0.0.1
+Summary: Bazos API, that allows you to scrape bazos and upload products to bazos website.
+Author: Zdenek Lapes
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# BAZOS-API
+
+Current functionality supports removing and adding items to bazos.cz and .sk
+
+## Installation:
+
+```shell
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+```shell
+python3 bazos --help
+python3 bazos -b --country cz sk --path $HOME/Documents/photos-archive # Remove all items from bazos.cz and bazos.sk and add new items from $HOME/Documents/photos-archive
+python3 bazos -b --country cz sk --add-only --path $HOME/Documents/photos-archive # Add new items from $HOME/Documents/photos-archive
+```
+
+### `--path` argument
+
+The folder structure of directory passed to `--path` argument should look like this:
+
+```shell
+$HOME/Documents/photos-archive
+$HOME/Documents/photos-archive/folder1/photos/photo1.jpg
+$HOME/Documents/photos-archive/folder1/info.txt
+```
+
+### `info.txt` file structure
+
+Must follow this format:
+
+```shell
+>>RUBRIC
+PC
+
+>>CATEGORY
+Notebooky
+
+>>TITLE
+Macbook Pro 2019 16
+
+>>PRICE
+25000
+
+>>DESCRIPTION
+Your sentences1.
+Your sentences2.
+```
