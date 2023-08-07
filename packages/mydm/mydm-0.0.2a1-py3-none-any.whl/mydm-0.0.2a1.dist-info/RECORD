@@ -1,0 +1,13 @@
+mydm/__init__.py,sha256=YVdUSg-ltoLXykTUj_CIjyhY83jzXPa-6CUiIBc01Z4,81
+mydm/bot.py,sha256=ZlEBgRAtPNH7b2hrY6Cu1PJvVXriqIoPZHceekvgQV0,417
+mydm/event.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mydm/interactor/__init__.py,sha256=XqGN_jeLTccMWc1kFbyOQknO3vTfIKzRmtW4RUQ3D4I,2113
+mydm/interactor/gocqhttp/__init__.py,sha256=ZgPwTmriLViTuD-mkP3lDKzskBjDHrVzrnlIsRCw77g,572
+mydm/interactor/gocqhttp/cqcode.py,sha256=EQFBy7MKcJW19SdIJhGmutILADwoCv_ydsS_kSCfyec,934
+mydm/interactor/gocqhttp/event.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mydm/logger.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mydm/tool.py,sha256=S6s0rlKPC94Y3mcWfjguM2pDjXcc6IaplZuWunFc8iQ,167
+mydm-0.0.2a1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+mydm-0.0.2a1.dist-info/METADATA,sha256=hkNP4D4UDJ0GAYYFtAWeTOu3AVH-GSQkToKc-7hyCNo,970
+mydm-0.0.2a1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+mydm-0.0.2a1.dist-info/RECORD,,
