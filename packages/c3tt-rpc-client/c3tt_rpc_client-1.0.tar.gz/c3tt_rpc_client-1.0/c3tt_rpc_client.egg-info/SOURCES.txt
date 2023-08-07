@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+c3tt_rpc_client.egg-info/PKG-INFO
+c3tt_rpc_client.egg-info/SOURCES.txt
+c3tt_rpc_client.egg-info/dependency_links.txt
+c3tt_rpc_client.egg-info/top_level.txt
+c3tt_rpc_client.egg-info/zip-safe
+src/__init__.py
+src/c3tt_rpc_client.py
