@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "EnvisionRiskRaaS"
+version = "1.1.7"
+authors = [{name="EnvisionRisk", email="support@envisionrisk.com" },{name="Coptolon",email="mark@brezina.dk"},]
+keywords = ["Risk-as-a-service","Market risk","Quantitative finance"]
+description = "EnvisionRisk improves market risk management by providing predictive analytics for risk quantification, aiding strategic decisions and risk mitigation."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [ 
+"requests>= 2.31.0; python_version<'3.9'",  
+"pandas>= 2.0.2; python_version<'3.9'", 
+"typing >= 3.10.0.0; python_version<'3.9'", 
+"queuelib >= 1.5.0; python_version<'3.9'", 
+"seaborn >= 0.12; python_version<'3.9'" ]
+
+[project.urls]
+"API webpage" = "https://envisionrisk.stoplight.io/docs/api-aleadomus-documentation/cjr0z7gv4x6en-harnessing-advanced-tools-for-strategic-market-risk-management"
+"Homepage" = "https://www.envisionrisk.com/"
