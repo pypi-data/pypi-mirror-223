@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ffmpegaudiorecord/README.MD
+ffmpegaudiorecord/__init__.py
+ffmpegaudiorecord/requirements.txt
+ffmpegaudiorecord/thirdparty.json
+ffmpegaudiorecord.egg-info/PKG-INFO
+ffmpegaudiorecord.egg-info/SOURCES.txt
+ffmpegaudiorecord.egg-info/dependency_links.txt
+ffmpegaudiorecord.egg-info/requires.txt
+ffmpegaudiorecord.egg-info/top_level.txt
