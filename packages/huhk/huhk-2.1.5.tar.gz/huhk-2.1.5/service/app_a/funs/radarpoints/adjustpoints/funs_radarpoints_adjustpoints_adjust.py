@@ -1,0 +1,7 @@
+from service.app_a.funs.radarpoints.adjustpoints.adjust.funs_radarpoints_adjustpoints_adjust_single import FunsRadarpointsAdjustpointsAdjustSingle
+from service.app_a.funs.radarpoints.adjustpoints.adjust.funs_radarpoints_adjustpoints_adjust_batch import FunsRadarpointsAdjustpointsAdjustBatch
+
+
+class FunsRadarpointsAdjustpointsAdjust(FunsRadarpointsAdjustpointsAdjustSingle, FunsRadarpointsAdjustpointsAdjustBatch):
+    pass
+
