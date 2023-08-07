@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sun-server-proj
+Version: 0.0.2
+Summary: sun_server_proj
+Author: zSunset
+Author-email: z2x6csunset@gmail.com
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
