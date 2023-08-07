@@ -1,0 +1,2 @@
+spacy
+spacy[en_core_news_md]
