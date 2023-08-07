@@ -1,0 +1,8 @@
+revwhox.py
+setup.py
+revwhox.egg-info/PKG-INFO
+revwhox.egg-info/SOURCES.txt
+revwhox.egg-info/dependency_links.txt
+revwhox.egg-info/entry_points.txt
+revwhox.egg-info/requires.txt
+revwhox.egg-info/top_level.txt
