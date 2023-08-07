@@ -1,0 +1,2 @@
+include src/sounderpy/*.txt
+include src/sounderpy/BUFKIT-STATIONS-MASTER.txt
