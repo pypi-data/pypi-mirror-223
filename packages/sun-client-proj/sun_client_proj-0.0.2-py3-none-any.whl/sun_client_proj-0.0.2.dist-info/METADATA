@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sun-client-proj
+Version: 0.0.2
+Summary: sun_client_proj
+Author: zSusnet
+Author-email: z2x6csunset@gmail.com
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
