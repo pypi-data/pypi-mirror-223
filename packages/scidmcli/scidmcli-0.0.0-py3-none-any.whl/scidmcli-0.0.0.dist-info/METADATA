@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: scidmcli
+Version: 0.0.0
+Summary: NCHC SciDM
+Author-email: WeiYu <wychen@narlabs.org.tw>
+License: apache2
+Keywords: ckan
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: ckanapi
+Requires-Dist: requests
+Requires-Dist: hashlib
+Requires-Dist: os
+Requires-Dist: configparser
+
