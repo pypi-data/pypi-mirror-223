@@ -1,0 +1,11 @@
+jijmodeling-1.0.0.dist-info/METADATA,sha256=I0M3ChVXfJArIKDYSn8nthieJ4dOUrJYEWwgJXVFnKo,2875
+jijmodeling-1.0.0.dist-info/WHEEL,sha256=-A7cfgc7TaEA3jhC_L_wdZIEQySAd7WZzaWhLED_X9o,94
+jijmodeling-1.0.0.dist-info/license_files/LICENSE.txt,sha256=llUjgcEN5bUeFlj1RqxJxDMxUnlYvowLsldCF6Lwq8c,3445
+LICENSE.txt,sha256=llUjgcEN5bUeFlj1RqxJxDMxUnlYvowLsldCF6Lwq8c,3445
+PKG_README.md,sha256=3s6K19Ngjq-f0coYDH1s8ycf_WL9ls2bfA6vjmvx3gM,1579
+jijmodeling.pyi,sha256=W4cCY2t2YS3toavYkdPTJpC-cJqmyTN9Ejgsm0-JWXU,132884
+jijmodeling/__init__.py,sha256=dTz5lvd2qXlLmjsXX3Pq7v2_dptMkGNTWIf37gSrvwE,127
+jijmodeling/__init__.pyi,sha256=W4cCY2t2YS3toavYkdPTJpC-cJqmyTN9Ejgsm0-JWXU,132884
+jijmodeling/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jijmodeling/jijmodeling.cp38-win_amd64.pyd,sha256=sakQM4Is4TLm9GrrGXvB4_fsPYjf82732ma-WEXRPq0,2479616
+jijmodeling-1.0.0.dist-info/RECORD,,
