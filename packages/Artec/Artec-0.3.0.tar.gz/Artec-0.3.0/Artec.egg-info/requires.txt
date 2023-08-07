@@ -1,0 +1,8 @@
+GitPython
+
+[dev]
+black
+flake8
+
+[test]
+pytest
