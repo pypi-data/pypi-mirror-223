@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rajant_api
+Version: 0.1.0
+Summary: Library for communicating with Rajant Breadcrumb devices using the BCAPI implemented in Python3
+Home-page: https://github.com/yourusername/mylibrary
+Author: Schalk Olivier
+Author-email: olivierschalk1@gmail.com
+License: License :: Free For Educational Use
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free For Educational Use
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Rajant API
