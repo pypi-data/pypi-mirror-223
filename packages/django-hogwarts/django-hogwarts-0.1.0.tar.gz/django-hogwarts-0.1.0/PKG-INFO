@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django-hogwarts
+Version: 0.1.0
+Summary: Django utilities for codegen and DX improvement
+Author: adiletto64
+Author-email: adiletdj19@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=4.2.2,<5.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: ruff (>=0.0.280,<0.0.281)
