@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+crosslink = mkdocs_crosslink_plugin:CrosslinkPlugin
