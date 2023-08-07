@@ -1,0 +1,10 @@
+odoo/addons/ssi_hr_payroll_batch_work_log/README.rst,sha256=58WPbu-J1mhWbGrFxfHoahhGgdtv0OYjSymz98ch7n0,1358
+odoo/addons/ssi_hr_payroll_batch_work_log/__init__.py,sha256=zY6L2gArLRCvF6IlIfMDUB0Wo2pu47FQNn3mUKIBjy0,200
+odoo/addons/ssi_hr_payroll_batch_work_log/__manifest__.py,sha256=-a2v9g_lc14ME_viapjA3wdiREuulauJUaegH7T5y_I,565
+odoo/addons/ssi_hr_payroll_batch_work_log/models/__init__.py,sha256=ebJgVr2U9SynUMRm1CjvdzhyJ3qhPvEX9M5K1WvyrIM,210
+odoo/addons/ssi_hr_payroll_batch_work_log/models/hr_payslip_batch.py,sha256=59_F3YpuSYbbkfVJoxAjHF5p1UFKa2kfhUCMr22_Yyg,378
+odoo/addons/ssi_hr_payroll_batch_work_log/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_hr_payroll_batch_work_log-14.0.1.0.2.dev1.dist-info/METADATA,sha256=p08_3eyi4aSmqMHV0TX38tlY1h59hJhamuvvTel9-0k,1990
+odoo14_addon_ssi_hr_payroll_batch_work_log-14.0.1.0.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_hr_payroll_batch_work_log-14.0.1.0.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_hr_payroll_batch_work_log-14.0.1.0.2.dev1.dist-info/RECORD,,
