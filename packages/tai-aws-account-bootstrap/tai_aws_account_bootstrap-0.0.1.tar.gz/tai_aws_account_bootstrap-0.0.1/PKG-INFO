@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: tai-aws-account-bootstrap
+Version: 0.0.1
+Summary: Bootstraps a new AWS account with a baseline set of resources
+Home-page: https://github.com/tai-team-ai/tai-aws-account-bootstrap
+License: MIT
+Author: Jacob Petterle
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3
+Requires-Dist: poetry
+Requires-Dist: pydantic[dotenv] (<=1.10.11)
+Requires-Dist: pygit2
+Project-URL: Repository, https://github.com/tai-team-ai/tai-aws-account-bootstrap
+Description-Content-Type: text/markdown
+
+# tai-search-service
+Repo with the TAI Search Service that handles deployment of the databases and service for indexing and searching course content.
+
