@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: posaydones-material-theming
+Version: 0.1.3
+Summary: 
+Author: posaydone
+Author-email: poseaydone@ya.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: chevron
+Requires-Dist: material-color-utilities-python
+Requires-Dist: pygobject
+Requires-Dist: toml
+Description-Content-Type: text/markdown
+
+Small gui + cli app for managing your colorscheme using material color utilities
+
