@@ -1,0 +1,17 @@
+SPEAKER LABEL,TEXT,START TIME,END TIME
+03,hello,0.56,1.21
+03,(Overlap=0),0.56,0.56
+02,hello,0.55,1.21
+02,(Overlap=1),0.55,0.55
+02,(Overlap=0),0.55,0.55
+01,hello,0.54,1.21
+01,(Overlap=2),0.54,0.54
+01,(Overlap=1),0.54,0.54
+00,(Overlap=2),0.53,0.53
+00,hello,0.53,1.21
+00,(Overlap=2),1.21,1.21
+02,(Overlap=0),1.21,1.21
+02,(Overlap=1),1.21,1.21
+01,(Overlap=1),1.21,1.21
+01,(Overlap=2),1.21,1.21
+03,(Overlap=0),1.21,1.21
