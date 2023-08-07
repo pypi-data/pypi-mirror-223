@@ -1,0 +1,9 @@
+tcia_utils/__init__.py,sha256=Xl4wpLNS_UO5iaCsnGrShmOcjDHRKsG481c6Wu0oaB4,63
+tcia_utils/datacite.py,sha256=QzXZfZA2R_SbXXrjywpjNW8IqN2Owb7AQIl3xGSAl7Q,6303
+tcia_utils/nbia.py,sha256=O_U0Ax5appNVp0TWZoZ8dWxS_5ZqWXu403IdXSZ0K-E,72518
+tcia_utils/pathdb.py,sha256=xcqhXsds2AXrenfSZmZqdUEl7I0mYyZAeL8fTyprV-w,4947
+tcia_utils/utils.py,sha256=p9pZtdqGft_Oo_wdRkZ3WJXOzAQiI3nWV3cIQ6KGwno,325
+tcia_utils-1.6.4.dist-info/METADATA,sha256=0vrtlLVveGL8B9e8_tcTjOOmM4mOjNkq_2Y1BRVoHvY,2030
+tcia_utils-1.6.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+tcia_utils-1.6.4.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tcia_utils-1.6.4.dist-info/RECORD,,
