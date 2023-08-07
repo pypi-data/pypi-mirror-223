@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: jupyter-browser-clipboard
+Version: 0.1.1
+Summary: Copy text to OS clipboard when using Jupyter remotely
+Home-page: https://github.com/bsdz/jupyter_browser_clipboard
+License: MIT
+Author: Blair Azzopardi
+Author-email: blairuk@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ipython
+Project-URL: Repository, https://github.com/bsdz/jupyter_browser_clipboard
+Description-Content-Type: text/markdown
+
+# jupyter_browser_clipboard
+Copy text to OS clipboard when using Jupyter remotely. This uses the web browser's
+own clipboard via Javascript.
+
+Originally a gist on github but got tired of copy pasting it into each notebooks.
+
+## Installation
+
+```bash
+$ pip install jupyter_browser_clipboard
+```
+
+Or, alternatively,
+
+```bash
+$ pip install git+https://github.com/bsdz/jupyter_browser_clipboard.git#main
+```
+
+## Usage
+
+```python
+>>> from jupyter_browser_clipboard import BrowserClipboard
+>>> df = pd.DataFrame(data=[1,2,3,5,6, 101])
+>>> BrowserClipboard(df.to_csv(sep="\t"))
+Copying text to browser's clipboard.. success!
+```
+
