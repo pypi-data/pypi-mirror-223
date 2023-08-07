@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: YandexHome
+Version: 0.0.2
+Summary: Test Lib
+Author: ArtyomK
+Requires-Python: >=3.10
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: flask
+
