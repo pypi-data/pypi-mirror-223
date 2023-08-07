@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyxavi
+Version: 0.3.0
+Summary: Set of utilities to assist on simple Python projects
+Author: Xavier Arnaus
+Author-email: xavi@arnaus.net
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.11,<5.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: requests (>=2.28.0,<3.0.0)
