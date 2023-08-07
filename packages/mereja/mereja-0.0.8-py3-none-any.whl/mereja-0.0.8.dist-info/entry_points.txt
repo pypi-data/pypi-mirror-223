@@ -1,0 +1,2 @@
+[console_scripts]
+mereja = mereja.main:main
