@@ -1,0 +1,13 @@
+tinyerr/__init__.py,sha256=r1n3x81xE7GWOmN3E6nuATJs1NinOLQn0MI_b0YHVdg,43
+tinyerr/__main__.py,sha256=vZAcEjUM0AoT6YyRjiFpu4V9zn86HXOWck7GjJ92i0M,1402
+tinyerr/anchor.py,sha256=nJ3jcxMrhKH1em5S_fLXaIe42ek8lvhMco4g9PFKP7E,3013
+tinyerr/config.py,sha256=nQxp8EVEbqvgH_8m9Fnay2aiw2IRiLQ0CzorDJ4nnF0,558
+tinyerr/errors.py,sha256=tjgwyIDqBB96SXUO-jE75OVhaxskoJsc9JD-LCVCv2c,7580
+tinyerr/exechook.py,sha256=YmDa95ZsK8NUICuE0WqJ1QdXKqJfq2vAfumqoi8nVKQ,1049
+tinyerr/frames.py,sha256=5ZmGAT1clfRWSEsfNh1zmE2HrZ_062xaoqnpu1FMd_s,2971
+tinyerr-0.0.1a2.dist-info/LICENSE,sha256=cmaF7W68cNRwFlPsHZTBktmZWBr_Ou-SBZKYumof6io,1076
+tinyerr-0.0.1a2.dist-info/METADATA,sha256=D3ErAp7C4Aj5Tv0F2vLiwZl5dMgv0YCXwbWNg6U9vIo,2687
+tinyerr-0.0.1a2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+tinyerr-0.0.1a2.dist-info/entry_points.txt,sha256=dIrERiyxrdfzDwzZXHGs1hAGb4eGziz8kVO_pOc6yiw,45
+tinyerr-0.0.1a2.dist-info/top_level.txt,sha256=z58s4trzGotnjpCUOw6_k8dloq2WHm_lFO6xVcDNieI,8
+tinyerr-0.0.1a2.dist-info/RECORD,,
