@@ -1,0 +1,11 @@
+executable whoscript :path:/usr/bin/bash
+  content
+   # Example Script with a comment - this will be removed when processed
+
+echo "hello RTL" > /tmp/external
+
+
+  !!!
+
+with shell
+  execute whoscript

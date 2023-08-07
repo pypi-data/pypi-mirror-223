@@ -1,0 +1,13 @@
+executable hello
+  content
+echo -ne "hello "
+!!!
+
+executable world
+  content
+echo "world"
+!!!
+
+with shell
+  execute hello
+  execute world

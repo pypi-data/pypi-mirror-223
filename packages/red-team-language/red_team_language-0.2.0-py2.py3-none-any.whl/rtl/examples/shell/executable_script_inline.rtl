@@ -1,0 +1,5 @@
+with shell
+  execute inline executable :path:/usr/bin/bash
+  content
+touch /tmp/inlineshell
+  !!!

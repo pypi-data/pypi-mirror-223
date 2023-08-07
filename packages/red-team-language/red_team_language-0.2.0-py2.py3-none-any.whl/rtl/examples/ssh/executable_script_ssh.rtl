@@ -1,0 +1,17 @@
+executable whoscript
+  content
+echo "hello RTL" > /tmp/external
+  !!!
+
+credential cred0
+  username:test
+  password:password
+
+host host0
+  ip:127.0.0.1
+  port:55555
+
+with ssh
+  connect credential:cred0 host:host0
+    execute whoscript
+  !!!

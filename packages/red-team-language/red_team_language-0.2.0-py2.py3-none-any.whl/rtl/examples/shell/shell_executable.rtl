@@ -1,0 +1,7 @@
+executable hello
+  content
+echo -ne "hello!"
+!!!
+
+with shell
+  execute hello

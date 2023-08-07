@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: red-team-language
+Version: 0.2.0
+Summary: Red-Team-Language - something snazzy
+Home-page: https://github.com/ArchiMoebius/rtl
+Download-URL: https://github.com/ArchiMoebius/rtl
+Author: Archi Moebius
+Author-email: ArchiMoebius@dojobebo.com
+Maintainer: Archi Moebius
+Maintainer-email: ArchiMoebius@dojobebo.com
+License: GPL-3 LGPL-3
+Project-URL: Docs, https://github.com/ArchiMoebius/rtl/README.md
+Project-URL: Bugs, https://github.com/ArchiMoebius/rtl/issues
+Project-URL: C.I., https://github.com/ArchiMoebius/rtl/
+Keywords: python3
+Platform: Linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Provides: red_team_language
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: llvmlite
+
+# Install!
+
+```bash
+pip3 install .
+```
+
+# Usage
+
+```bash
+usage: rtl [-h] --src SRC [--dst DST] [--ir] [--asm] [--obj] [--build]
+
+The Red-Team-Language compiler enables one to write scripts and deploy them as static executables - for the lolz of course!
+
+options:
+  -h, --help  show this help message and exit
+  --src SRC   The source *.rtl script to compile to LLVM-IR
+  --dst DST   The where to write the output (default is stdout)
+  --ir        Emit LLVM-IR
+  --asm       Emit assembly for this machine
+  --obj       Emit an object file for this machine
+  --build     Attempt to build a binary from the provided --src
+```
+
+NOTE: _The `--build` flag requires the ziglang binary 'zig' be on path if not using docker; this is the way._
+
+```bash
+rtl --src rtl/examples/shell/shell_executable.rtl --asm > a.s
+clang -o executable.elf -fPIC rtl/lib/protocol/shell/shell.o rtl/lib/transform/xor/xor.o a.s -ggdb
+```
+
+# Docker
+
+Pick a file from `./rtl/examples/shell` and execute the following - or use the one provided and copy+pasta! _(i.e. executable_script_inline_obfuscated.rtl)_
+
+```bash
+DOCKER_BUILDKIT=1 docker build -f Dockerfile -t rtl:latest .
+docker run --rm -it --volume "`pwd`/rtl/examples/shell/:/src" --volume "`pwd`/tmp:/tmp" rtl --src /src/executable_script_inline_obfuscated.rtl --build
+ls -alh ./tmp
+file ./tmp/*
+```
