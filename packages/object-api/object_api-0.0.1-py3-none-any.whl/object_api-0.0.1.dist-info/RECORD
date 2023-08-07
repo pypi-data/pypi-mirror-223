@@ -1,0 +1,13 @@
+object_api/__init__.py,sha256=pMaa8ILgGvAAhFyMWgj4lde_2qy-LunznEwvjn0ZVLM,174
+object_api/app.py,sha256=_icbiX4ZYdG6kixXYKme5Hrt5WKpYMuOs91Ol-4cf_U,4161
+object_api/entity.py,sha256=G-XEWinnUkMgp05DiVUmTI9y-JXdWOCkNlJM-oyiG8o,10743
+object_api/request_context.py,sha256=lc4z-vIw9by-wwwhyFNIKbnQqeVixP96VsK5sPwgsy0,749
+object_api/router_builder.py,sha256=lYq-o3S4jzULtdGOF5vwOo-0ETxixMPZLOt99B3PlAs,17089
+object_api/service_builder.py,sha256=o6abrWsQLhpkE5oAQvYn4ADFvqVbm17vQA54n_kOZHw,6278
+object_api/utils/dict_db.py,sha256=5Iut06UzX8nucmk3PBIBoL9jtZmTQYtK-wHQVRPqT5U,53
+object_api/utils/has_post_init.py,sha256=XXTqTB0XUOvSuFDnPqkvGX7POitE0xhaui-K6OUZMlY,191
+object_api/utils/python.py,sha256=HCB_fDENsUkpVrTSF6gN9CDCjif61u8wPRqaHgvOzU8,7229
+object_api/utils/session.py,sha256=Moed8Qz48F2eiw0aHqZK-HKB5a_YUI9mI0X27_s29kE,654
+object_api-0.0.1.dist-info/METADATA,sha256=3qqwjnQ90ExrIPxaAICOKxXjSwuWba2qjwdXEkVsCsI,2060
+object_api-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+object_api-0.0.1.dist-info/RECORD,,
