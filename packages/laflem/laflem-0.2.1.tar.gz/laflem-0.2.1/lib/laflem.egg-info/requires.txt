@@ -1,0 +1,13 @@
+rich==13.*
+importlib_metadata==6.*
+requests==2.*
+
+[dev]
+pylint
+twine
+build
+pytest
+wheel
+
+[git]
+gitpython==3.*

@@ -1,0 +1,3 @@
+[console_scripts]
+laflem = laflem:main
+lf = laflem:main
