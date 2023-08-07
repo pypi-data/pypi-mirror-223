@@ -1,0 +1,211 @@
+date,industry,opw,gva,workers
+1997 Q1,WE,80.2004,64.5075,80.4329
+1997 Q2,WE,80.4383,65.0251,80.8384
+1997 Q3,WE,80.7602,65.4281,81.0153
+1997 Q4,WE,81.4179,66.1198,81.2104
+1998 Q1,WE,81.7789,66.5152,81.3354
+1998 Q2,WE,82.3548,67.0765,81.4482
+1998 Q3,WE,82.5519,67.5391,81.8141
+1998 Q4,WE,82.9087,68.1369,82.183
+1999 Q1,WE,83.1768,68.5626,82.43
+1999 Q2,WE,83.1354,68.678,82.6099
+1999 Q3,WE,84.0875,69.7799,82.9849
+1999 Q4,WE,84.9428,70.759,83.302
+2000 Q1,WE,85.737,71.5252,83.4239
+2000 Q2,WE,86.1744,72.1685,83.7471
+2000 Q3,WE,86.4655,72.6417,84.0123
+2000 Q4,WE,86.8772,72.9717,83.9941
+2001 Q1,WE,87.2937,73.5184,84.2197
+2001 Q2,WE,87.3488,73.7886,84.4758
+2001 Q3,WE,87.6166,74.0362,84.5002
+2001 Q4,WE,87.3445,74.0406,84.7685
+2002 Q1,WE,87.6215,74.2594,84.7502
+2002 Q2,WE,87.6941,74.6845,85.1648
+2002 Q3,WE,88.2314,75.1475,85.1709
+2002 Q4,WE,88.4734,75.8256,85.7045
+2003 Q1,WE,89.2095,76.4266,85.6709
+2003 Q2,WE,89.4878,77.0116,86.0582
+2003 Q3,WE,90.183,77.6923,86.1496
+2003 Q4,WE,90.5681,78.1567,86.296
+2004 Q1,WE,90.3602,78.4042,86.7686
+2004 Q2,WE,90.9248,78.9246,86.8021
+2004 Q3,WE,91.0878,79.1994,86.9484
+2004 Q4,WE,90.9056,79.4706,87.421
+2005 Q1,WE,91.2602,80.1033,87.7747
+2005 Q2,WE,92.1338,80.9066,87.8143
+2005 Q3,WE,92.5565,81.6334,88.1985
+2005 Q4,WE,93.7709,82.5673,88.0521
+2006 Q1,WE,93.4585,82.7709,88.5644
+2006 Q2,WE,93.6536,83.1093,88.7412
+2006 Q3,WE,93.5168,83.2075,88.976
+2006 Q4,WE,93.7856,83.5352,89.0705
+2007 Q1,WE,94.9413,84.5068,89.0095
+2007 Q2,WE,95.0727,84.9947,89.3997
+2007 Q3,WE,95.3901,85.5635,89.6985
+2007 Q4,WE,95.5112,86.1264,90.1742
+2008 Q1,WE,95.822,86.7222,90.5034
+2008 Q2,WE,95.4179,86.467,90.6193
+2008 Q3,WE,94.3151,85.0593,90.1864
+2008 Q4,WE,92.2804,83.0781,90.0278
+2009 Q1,WE,91.0663,81.5352,89.5339
+2009 Q2,WE,91.572,81.209,88.6833
+2009 Q3,WE,91.8846,81.4358,88.6284
+2009 Q4,WE,92.1644,81.7766,88.729
+2010 Q1,WE,93.3361,82.5629,88.4576
+2010 Q2,WE,93.8846,83.5604,89.0034
+2010 Q3,WE,93.8708,84.1006,89.5918
+2010 Q4,WE,94.1643,84.1884,89.4058
+2011 Q1,WE,93.8841,84.2728,89.7626
+2011 Q2,WE,93.9715,84.3684,89.7809
+2011 Q3,WE,94.8832,84.7068,89.2747
+2011 Q4,WE,94.8697,84.8711,89.4607
+2012 Q1,WE,95.3276,85.6063,89.8022
+2012 Q2,WE,94.5485,85.5207,90.4516
+2012 Q3,WE,95.3356,86.5,90.7321
+2012 Q4,WE,94.6562,86.3136,91.1864
+2013 Q1,WE,95.2563,86.6604,90.976
+2013 Q2,WE,95.4196,87.097,91.2779
+2013 Q3,WE,95.6791,87.8239,91.7901
+2013 Q4,WE,95.6076,88.2947,92.3511
+2014 Q1,WE,95.6825,89.0698,93.0889
+2014 Q2,WE,96.1767,90.0371,93.6164
+2014 Q3,WE,96.5514,90.7647,94.0066
+2014 Q4,WE,96.8187,91.3436,94.3451
+2015 Q1,WE,96.3936,91.5656,94.9914
+2015 Q2,WE,97.1239,92.1232,94.8512
+2015 Q3,WE,96.6962,92.3749,95.5311
+2015 Q4,WE,96.7518,93.0387,96.1622
+2016 Q1,WE,97.0259,93.3969,96.2598
+2016 Q2,WE,97.2668,94.1478,96.7933
+2016 Q3,WE,97.645,94.7014,96.9854
+2016 Q4,WE,98.1098,95.2569,97.0921
+2017 Q1,WE,98.4739,95.9137,97.4001
+2017 Q2,WE,98.6485,96.4416,97.7629
+2017 Q3,WE,99.2796,97.0526,97.7568
+2017 Q4,WE,99.5238,97.5673,98.0342
+2018 Q1,WE,98.9373,97.5625,98.6105
+2018 Q2,WE,99.3117,98.0619,98.7416
+2018 Q3,WE,99.7691,98.6505,98.8788
+2018 Q4,WE,99.5614,98.949,99.3849
+2019 Q1,WE,99.8487,99.539,99.6898
+2019 Q2,WE,99.5858,99.623,100.0373
+2019 Q3,WE,100.561,100.4207,99.8605
+2019 Q4,WE,100.0049,100.4173,100.4124
+2020 Q1,WE,97.4614,98.0119,100.5648
+2020 Q2,WE,78.0362,77.4681,99.2721
+2020 Q3,WE,91.7865,90.4831,98.58
+2020 Q4,WE,93.5811,91.7558,98.0495
+2021 Q1,WE,92.4474,90.6611,98.0678
+2021 Q2,WE,97.7428,96.2654,98.4885
+2021 Q3,WE,98.5415,97.9203,99.3696
+2021 Q4,WE,100.1172,99.4098,99.2934
+2022 Q1,WE,100.4718,99.961,99.4916
+2022 Q2,WE,100.2792,100.2585,99.9794
+2022 Q3,WE,100.3469,100.1641,99.8178
+2022 Q4,WE,100.2598,100.3033,100.0434
+2023 Q1,WE,99.8397,100.4371,100.5983
+1997 Q1,See Market sector in guidance: See Market sector in guidance,78.0426,60.7261,77.8114
+1997 Q2,See Market sector in guidance: See Market sector in guidance,78.2025,61.278,78.3581
+1997 Q3,See Market sector in guidance: See Market sector in guidance,78.3,61.5379,78.5925
+1997 Q4,See Market sector in guidance: See Market sector in guidance,78.9143,62.2193,78.8441
+1998 Q1,See Market sector in guidance: See Market sector in guidance,79.3205,62.6699,79.0085
+1998 Q2,See Market sector in guidance: See Market sector in guidance,80.0809,63.3912,79.159
+1998 Q3,See Market sector in guidance: See Market sector in guidance,80.5719,64.1493,79.6175
+1998 Q4,See Market sector in guidance: See Market sector in guidance,81.015,64.8457,80.0416
+1999 Q1,See Market sector in guidance: See Market sector in guidance,81.1718,65.2115,80.3376
+1999 Q2,See Market sector in guidance: See Market sector in guidance,80.8579,65.1089,80.5226
+1999 Q3,See Market sector in guidance: See Market sector in guidance,81.7406,66.1991,80.9868
+1999 Q4,See Market sector in guidance: See Market sector in guidance,83.0964,67.5713,81.3168
+2000 Q1,See Market sector in guidance: See Market sector in guidance,84.6652,68.9113,81.3927
+2000 Q2,See Market sector in guidance: See Market sector in guidance,85.0481,69.4238,81.6289
+2000 Q3,See Market sector in guidance: See Market sector in guidance,85.1736,69.8165,81.9696
+2000 Q4,See Market sector in guidance: See Market sector in guidance,85.5513,70.0524,81.8835
+2001 Q1,See Market sector in guidance: See Market sector in guidance,86.0133,70.6393,82.1261
+2001 Q2,See Market sector in guidance: See Market sector in guidance,86.1782,70.8832,82.2519
+2001 Q3,See Market sector in guidance: See Market sector in guidance,86.5251,71.1888,82.2753
+2001 Q4,See Market sector in guidance: See Market sector in guidance,86.2878,71.1604,82.4686
+2002 Q1,See Market sector in guidance: See Market sector in guidance,86.9796,71.6499,82.3755
+2002 Q2,See Market sector in guidance: See Market sector in guidance,87.1379,72.0551,82.6909
+2002 Q3,See Market sector in guidance: See Market sector in guidance,88.0151,72.777,82.687
+2002 Q4,See Market sector in guidance: See Market sector in guidance,88.2707,73.3992,83.1524
+2003 Q1,See Market sector in guidance: See Market sector in guidance,89.6551,74.4171,83.0037
+2003 Q2,See Market sector in guidance: See Market sector in guidance,89.7172,74.7052,83.2674
+2003 Q3,See Market sector in guidance: See Market sector in guidance,90.3399,75.2501,83.2966
+2003 Q4,See Market sector in guidance: See Market sector in guidance,90.7639,75.5808,83.2718
+2004 Q1,See Market sector in guidance: See Market sector in guidance,90.943,76.121,83.7019
+2004 Q2,See Market sector in guidance: See Market sector in guidance,91.3905,76.417,83.6159
+2004 Q3,See Market sector in guidance: See Market sector in guidance,91.6947,76.7835,83.7382
+2004 Q4,See Market sector in guidance: See Market sector in guidance,91.8156,77.2814,84.1703
+2005 Q1,See Market sector in guidance: See Market sector in guidance,92.8246,78.4576,84.5224
+2005 Q2,See Market sector in guidance: See Market sector in guidance,93.7456,79.2274,84.5132
+2005 Q3,See Market sector in guidance: See Market sector in guidance,93.8585,79.7415,84.9593
+2005 Q4,See Market sector in guidance: See Market sector in guidance,95.6504,81.0443,84.7297
+2006 Q1,See Market sector in guidance: See Market sector in guidance,95.3077,81.3235,85.3273
+2006 Q2,See Market sector in guidance: See Market sector in guidance,95.4007,81.6654,85.6025
+2006 Q3,See Market sector in guidance: See Market sector in guidance,94.9199,81.5841,85.9505
+2006 Q4,See Market sector in guidance: See Market sector in guidance,95.4174,82.1055,86.0488
+2007 Q1,See Market sector in guidance: See Market sector in guidance,97.3069,83.656,85.9713
+2007 Q2,See Market sector in guidance: See Market sector in guidance,97.5557,84.3711,86.4851
+2007 Q3,See Market sector in guidance: See Market sector in guidance,97.9972,85.1704,86.9111
+2007 Q4,See Market sector in guidance: See Market sector in guidance,98.2199,85.8815,87.438
+2008 Q1,See Market sector in guidance: See Market sector in guidance,98.6383,86.7219,87.9191
+2008 Q2,See Market sector in guidance: See Market sector in guidance,98.1795,86.4243,88.0268
+2008 Q3,See Market sector in guidance: See Market sector in guidance,96.605,84.5148,87.4849
+2008 Q4,See Market sector in guidance: See Market sector in guidance,94.2407,82.0578,87.0725
+2009 Q1,See Market sector in guidance: See Market sector in guidance,92.3081,79.8156,86.4666
+2009 Q2,See Market sector in guidance: See Market sector in guidance,92.9558,79.3302,85.3418
+2009 Q3,See Market sector in guidance: See Market sector in guidance,93.3627,79.6433,85.3053
+2009 Q4,See Market sector in guidance: See Market sector in guidance,94.1832,80.271,85.2286
+2010 Q1,See Market sector in guidance: See Market sector in guidance,95.7514,81.3795,84.9904
+2010 Q2,See Market sector in guidance: See Market sector in guidance,96.2146,82.3683,85.609
+2010 Q3,See Market sector in guidance: See Market sector in guidance,95.8817,82.9849,86.5493
+2010 Q4,See Market sector in guidance: See Market sector in guidance,96.0562,82.9482,86.3538
+2011 Q1,See Market sector in guidance: See Market sector in guidance,95.9246,83.4314,86.976
+2011 Q2,See Market sector in guidance: See Market sector in guidance,95.8719,83.4795,87.074
+2011 Q3,See Market sector in guidance: See Market sector in guidance,96.5921,83.7991,86.7557
+2011 Q4,See Market sector in guidance: See Market sector in guidance,96.569,83.9987,86.9831
+2012 Q1,See Market sector in guidance: See Market sector in guidance,96.966,84.9578,87.616
+2012 Q2,See Market sector in guidance: See Market sector in guidance,95.6904,84.6061,88.4165
+2012 Q3,See Market sector in guidance: See Market sector in guidance,96.3042,85.6758,88.9637
+2012 Q4,See Market sector in guidance: See Market sector in guidance,95.5048,85.4615,89.484
+2013 Q1,See Market sector in guidance: See Market sector in guidance,96.3834,86.1034,89.3343
+2013 Q2,See Market sector in guidance: See Market sector in guidance,96.9426,86.8466,89.5856
+2013 Q3,See Market sector in guidance: See Market sector in guidance,97.233,87.7584,90.2558
+2013 Q4,See Market sector in guidance: See Market sector in guidance,97.3383,88.4453,90.8639
+2014 Q1,See Market sector in guidance: See Market sector in guidance,97.3068,89.3559,91.829
+2014 Q2,See Market sector in guidance: See Market sector in guidance,97.7761,90.3352,92.3899
+2014 Q3,See Market sector in guidance: See Market sector in guidance,98.0417,91.1669,92.9879
+2014 Q4,See Market sector in guidance: See Market sector in guidance,98.2035,91.7179,93.3958
+2015 Q1,See Market sector in guidance: See Market sector in guidance,97.76,92.1052,94.2156
+2015 Q2,See Market sector in guidance: See Market sector in guidance,98.2288,92.3487,94.0139
+2015 Q3,See Market sector in guidance: See Market sector in guidance,97.245,92.3787,94.9958
+2015 Q4,See Market sector in guidance: See Market sector in guidance,97.1283,92.9995,95.7491
+2016 Q1,See Market sector in guidance: See Market sector in guidance,97.5982,93.5342,95.836
+2016 Q2,See Market sector in guidance: See Market sector in guidance,97.8451,94.3005,96.3774
+2016 Q3,See Market sector in guidance: See Market sector in guidance,98.0719,94.9261,96.7924
+2016 Q4,See Market sector in guidance: See Market sector in guidance,98.6116,95.5686,96.9142
+2017 Q1,See Market sector in guidance: See Market sector in guidance,98.8305,96.1025,97.2398
+2017 Q2,See Market sector in guidance: See Market sector in guidance,99.1656,96.7111,97.5248
+2017 Q3,See Market sector in guidance: See Market sector in guidance,99.7822,97.5258,97.7387
+2017 Q4,See Market sector in guidance: See Market sector in guidance,100.0489,98.0972,98.0492
+2018 Q1,See Market sector in guidance: See Market sector in guidance,99.3336,97.9732,98.6304
+2018 Q2,See Market sector in guidance: See Market sector in guidance,99.7088,98.3154,98.6025
+2018 Q3,See Market sector in guidance: See Market sector in guidance,99.7279,98.7369,99.0063
+2018 Q4,See Market sector in guidance: See Market sector in guidance,99.1706,98.7245,99.5502
+2019 Q1,See Market sector in guidance: See Market sector in guidance,99.4052,99.1563,99.7496
+2019 Q2,See Market sector in guidance: See Market sector in guidance,99.3917,99.3105,99.9183
+2019 Q3,See Market sector in guidance: See Market sector in guidance,100.7172,100.5909,99.8746
+2019 Q4,See Market sector in guidance: See Market sector in guidance,100.4825,100.9422,100.4575
+2020 Q1,See Market sector in guidance: See Market sector in guidance,98.122,98.743,100.6329
+2020 Q2,See Market sector in guidance: See Market sector in guidance,78.8918,77.7857,98.598
+2020 Q3,See Market sector in guidance: See Market sector in guidance,93.8072,91.8808,97.9464
+2020 Q4,See Market sector in guidance: See Market sector in guidance,95.3109,92.7101,97.2712
+2021 Q1,See Market sector in guidance: See Market sector in guidance,94.7001,91.9783,97.1259
+2021 Q2,See Market sector in guidance: See Market sector in guidance,99.4031,96.5006,97.0801
+2021 Q3,See Market sector in guidance: See Market sector in guidance,99.609,97.9923,98.3769
+2021 Q4,See Market sector in guidance: See Market sector in guidance,100.8216,99.0715,98.2641
+2022 Q1,See Market sector in guidance: See Market sector in guidance,101.7472,100.1568,98.4369
+2022 Q2,See Market sector in guidance: See Market sector in guidance,101.9938,100.5744,98.6084
+2022 Q3,See Market sector in guidance: See Market sector in guidance,101.7055,100.259,98.5778
+2022 Q4,See Market sector in guidance: See Market sector in guidance,101.541,100.4373,98.913
+2023 Q1,See Market sector in guidance: See Market sector in guidance,101.3754,100.8441,99.4759

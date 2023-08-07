@@ -1,0 +1,241 @@
+date,service,productivity,inputs,outputs
+1997,Healthcare,100.0,100.0,100.0
+1998,Healthcare,100.1,104.5,104.6
+1999,Healthcare,100.9,107.4,108.4
+2000,Healthcare,100.7,113.2,114.0
+2001,Healthcare,104.0,117.2,121.9
+2002,Healthcare,100.6,125.8,126.5
+2003,Healthcare,101.5,132.9,134.9
+2004,Healthcare,102.5,138.9,142.5
+2005,Healthcare,103.0,146.7,151.1
+2006,Healthcare,105.0,150.9,158.5
+2007,Healthcare,105.2,156.9,165.0
+2008,Healthcare,105.2,165.9,174.6
+2009,Healthcare,102.6,178.3,182.9
+2010,Healthcare,102.6,182.3,187.2
+2011,Healthcare,104.4,184.1,192.2
+2012,Healthcare,105.9,187.6,198.6
+2013,Healthcare,108.4,189.1,205.1
+2014,Healthcare,110.1,194.5,214.1
+2015,Healthcare,109.8,201.9,221.6
+2016,Healthcare,111.1,205.4,228.2
+2017,Healthcare,112.6,207.7,233.9
+2018,Healthcare,110.6,214.7,237.5
+2019,Healthcare,113.2,214.3,242.7
+2020,Healthcare,86.6,259.8,225.1
+1997,Education,100.0,100.0,100.0
+1998,Education,101.0,99.2,100.2
+1999,Education,102.5,98.5,101.0
+2000,Education,100.3,101.4,101.6
+2001,Education,98.7,103.9,102.6
+2002,Education,93.4,111.2,103.8
+2003,Education,92.5,113.3,104.8
+2004,Education,92.1,114.7,105.6
+2005,Education,88.2,118.9,105.0
+2006,Education,84.5,122.2,103.2
+2007,Education,82.1,124.6,102.2
+2008,Education,78.1,130.1,101.6
+2009,Education,75.1,135.3,101.6
+2010,Education,74.5,136.0,101.4
+2011,Education,75.3,137.1,103.2
+2012,Education,78.1,134.7,105.1
+2013,Education,77.5,136.5,105.7
+2014,Education,75.6,141.6,107.1
+2015,Education,76.3,141.4,107.8
+2016,Education,77.4,139.8,108.2
+2017,Education,77.6,140.7,109.2
+2018,Education,80.1,137.5,110.2
+2019,Education,80.7,137.5,111.0
+2020,Education,66.8,136.9,91.5
+1997,Adult Social Care,101.3,100.0,101.3
+1998,Adult Social Care,103.8,100.5,104.4
+1999,Adult Social Care,100.2,104.3,104.6
+2000,Adult Social Care,100.1,108.0,108.2
+2001,Adult Social Care,101.4,108.9,110.5
+2002,Adult Social Care,102.6,113.7,116.7
+2003,Adult Social Care,102.5,125.2,128.3
+2004,Adult Social Care,101.0,133.2,134.5
+2005,Adult Social Care,99.2,137.5,136.4
+2006,Adult Social Care,100.1,138.7,138.8
+2007,Adult Social Care,98.5,139.6,137.5
+2008,Adult Social Care,100.1,138.9,139.0
+2009,Adult Social Care,96.0,144.6,138.8
+2010,Adult Social Care,96.2,144.5,139.0
+2011,Adult Social Care,95.6,142.1,135.8
+2012,Adult Social Care,92.6,142.9,132.4
+2013,Adult Social Care,92.9,142.0,131.9
+2014,Adult Social Care,87.9,149.4,131.2
+2015,Adult Social Care,86.3,153.4,132.3
+2016,Adult Social Care,88.7,149.8,133.0
+2017,Adult Social Care,89.9,147.5,132.6
+2018,Adult Social Care,87.0,154.2,134.2
+2019,Adult Social Care,91.7,147.9,135.6
+2020,Adult Social Care,78.2,177.1,138.4
+1997,Social Security Administration,100.0,100.0,100.0
+1998,Social Security Administration,102.7,93.2,95.6
+1999,Social Security Administration,93.1,101.5,94.5
+2000,Social Security Administration,87.4,106.4,92.9
+2001,Social Security Administration,95.2,95.7,91.1
+2002,Social Security Administration,95.3,95.4,90.9
+2003,Social Security Administration,73.1,128.1,93.7
+2004,Social Security Administration,79.0,121.9,96.3
+2005,Social Security Administration,71.9,128.7,92.6
+2006,Social Security Administration,79.4,117.1,92.9
+2007,Social Security Administration,91.5,100.5,91.9
+2008,Social Security Administration,80.1,123.9,99.3
+2009,Social Security Administration,89.5,116.7,104.5
+2010,Social Security Administration,81.3,124.8,101.5
+2011,Social Security Administration,91.0,109.2,99.3
+2012,Social Security Administration,75.7,127.2,96.3
+2013,Social Security Administration,78.6,115.8,91.1
+2014,Social Security Administration,75.7,115.4,87.4
+2015,Social Security Administration,68.7,123.4,84.8
+2016,Social Security Administration,70.7,125.6,88.8
+2017,Social Security Administration,78.2,113.9,89.1
+2018,Social Security Administration,78.2,117.2,91.7
+2019,Social Security Administration,78.2,114.1,89.3
+2020,Social Security Administration,78.2,109.3,85.5
+1997,Children's Social Care,100.0,100.0,100.0
+1998,Children's Social Care,96.0,105.4,101.1
+1999,Children's Social Care,92.4,114.9,106.1
+2000,Children's Social Care,88.0,116.6,102.6
+2001,Children's Social Care,87.9,119.4,105.0
+2002,Children's Social Care,86.2,128.0,110.3
+2003,Children's Social Care,83.5,138.7,115.8
+2004,Children's Social Care,81.4,146.2,119.0
+2005,Children's Social Care,81.1,150.0,121.7
+2006,Children's Social Care,80.5,158.2,127.4
+2007,Children's Social Care,80.8,158.7,128.2
+2008,Children's Social Care,82.8,153.1,126.8
+2009,Children's Social Care,83.8,152.6,127.9
+2010,Children's Social Care,84.1,155.0,130.4
+2011,Children's Social Care,83.9,152.4,127.8
+2012,Children's Social Care,82.1,153.1,125.7
+2013,Children's Social Care,83.1,158.0,131.3
+2014,Children's Social Care,86.2,175.4,151.3
+2015,Children's Social Care,86.2,180.1,155.4
+2016,Children's Social Care,85.7,181.7,155.7
+2017,Children's Social Care,85.7,184.4,158.0
+2018,Children's Social Care,84.9,189.5,161.0
+2019,Children's Social Care,83.9,203.2,170.5
+2020,Children's Social Care,84.3,200.4,169.0
+1997,Public Order & Safety,100.0,100.0,100.0
+1998,Public Order & Safety,104.0,96.1,100.0
+1999,Public Order & Safety,91.1,109.5,99.8
+2000,Public Order & Safety,83.4,120.6,100.5
+2001,Public Order & Safety,85.6,123.3,105.5
+2002,Public Order & Safety,81.3,129.8,105.6
+2003,Public Order & Safety,79.1,136.7,108.2
+2004,Public Order & Safety,73.6,142.9,105.2
+2005,Public Order & Safety,72.7,145.6,105.8
+2006,Public Order & Safety,72.8,145.4,105.9
+2007,Public Order & Safety,70.8,144.1,102.1
+2008,Public Order & Safety,67.6,150.5,101.7
+2009,Public Order & Safety,67.3,152.3,102.5
+2010,Public Order & Safety,64.8,153.0,99.1
+2011,Public Order & Safety,65.9,145.4,95.8
+2012,Public Order & Safety,65.7,141.4,92.9
+2013,Public Order & Safety,67.4,136.3,91.9
+2014,Public Order & Safety,70.5,127.4,89.8
+2015,Public Order & Safety,72.9,120.8,88.0
+2016,Public Order & Safety,75.1,115.4,86.7
+2017,Public Order & Safety,71.1,120.2,85.5
+2018,Public Order & Safety,69.2,120.0,83.0
+2019,Public Order & Safety,72.2,112.4,81.2
+2020,Public Order & Safety,61.9,117.8,72.9
+1997,Police,100.0,100.0,100.0
+1998,Police,100.0,99.6,99.6
+1999,Police,100.0,98.5,98.5
+2000,Police,100.0,98.0,98.0
+2001,Police,100.0,99.9,99.9
+2002,Police,100.0,103.4,103.4
+2003,Police,100.0,108.4,108.4
+2004,Police,100.0,118.3,118.3
+2005,Police,100.0,116.5,116.5
+2006,Police,100.0,117.3,117.3
+2007,Police,100.0,124.1,124.1
+2008,Police,100.0,115.4,115.4
+2009,Police,100.0,121.0,121.0
+2010,Police,100.0,118.5,118.5
+2011,Police,100.0,109.9,109.9
+2012,Police,100.0,111.2,111.2
+2013,Police,100.0,105.8,105.8
+2014,Police,100.0,108.1,108.1
+2015,Police,100.0,107.4,107.4
+2016,Police,100.0,105.7,105.7
+2017,Police,100.0,105.2,105.2
+2018,Police,100.0,105.2,105.2
+2019,Police,100.0,104.2,104.2
+2020,Police,100.0,110.7,110.7
+1997,Defence,100.0,100.0,100.0
+1998,Defence,100.0,101.4,101.4
+1999,Defence,100.0,102.3,102.3
+2000,Defence,100.0,109.8,109.8
+2001,Defence,100.0,108.7,108.7
+2002,Defence,100.0,115.6,115.6
+2003,Defence,100.0,124.8,124.8
+2004,Defence,100.0,122.8,122.8
+2005,Defence,100.0,124.7,124.7
+2006,Defence,100.0,130.3,130.3
+2007,Defence,100.0,130.7,130.7
+2008,Defence,100.0,137.0,137.0
+2009,Defence,100.0,138.5,138.5
+2010,Defence,100.0,139.8,139.8
+2011,Defence,100.0,143.4,143.4
+2012,Defence,100.0,142.5,142.5
+2013,Defence,100.0,136.9,136.9
+2014,Defence,100.0,138.3,138.3
+2015,Defence,100.0,141.2,141.2
+2016,Defence,100.0,139.0,139.0
+2017,Defence,100.0,138.7,138.7
+2018,Defence,100.0,137.6,137.6
+2019,Defence,100.0,146.1,146.1
+2020,Defence,100.0,144.8,144.8
+1997,Other,100.0,100.0,100.0
+1998,Other,100.0,104.3,104.3
+1999,Other,100.0,110.1,110.1
+2000,Other,100.0,114.3,114.3
+2001,Other,100.0,124.3,124.3
+2002,Other,100.0,129.9,129.9
+2003,Other,100.0,136.6,136.6
+2004,Other,100.0,148.1,148.1
+2005,Other,100.0,152.9,152.9
+2006,Other,100.0,154.6,154.6
+2007,Other,100.0,160.1,160.1
+2008,Other,100.0,164.7,164.7
+2009,Other,100.0,163.2,163.2
+2010,Other,100.0,159.7,159.7
+2011,Other,100.0,151.7,151.7
+2012,Other,100.0,150.4,150.4
+2013,Other,100.0,146.6,146.6
+2014,Other,100.0,148.1,148.1
+2015,Other,100.0,145.9,145.9
+2016,Other,100.0,144.2,144.2
+2017,Other,100.0,144.4,144.4
+2018,Other,100.0,143.2,143.2
+2019,Other,100.0,153.8,153.8
+2020,Other,100.0,153.2,153.2
+1997,Total,100.0,100.0,100.0
+1998,Total,100.5,101.9,102.4
+1999,Total,99.9,105.0,104.9
+2000,Total,98.8,109.8,108.5
+2001,Total,99.9,113.2,113.1
+2002,Total,97.8,120.0,117.3
+2003,Total,97.1,127.1,123.4
+2004,Total,97.1,132.4,128.5
+2005,Total,96.1,137.1,131.7
+2006,Total,96.2,139.9,134.6
+2007,Total,95.8,143.2,137.2
+2008,Total,94.7,148.6,140.8
+2009,Total,93.3,153.8,143.4
+2010,Total,92.9,154.7,143.7
+2011,Total,93.8,152.9,143.4
+2012,Total,94.4,153.5,144.9
+2013,Total,95.2,152.2,144.9
+2014,Total,95.2,155.8,148.3
+2015,Total,95.1,158.0,150.3
+2016,Total,96.1,157.7,151.5
+2017,Total,96.7,158.3,153.1
+2018,Total,96.3,159.9,154.0
+2019,Total,97.6,162.3,158.4
+2020,Total,84.0,177.3,148.9
