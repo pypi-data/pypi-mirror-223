@@ -1,0 +1,11 @@
+odoo/addons/ssi_hr_payroll_timesheet/README.rst,sha256=ZBs3XwAUhctZWN9q5j4D1N_JjH0KSYUlkTPwtrUnOfs,1338
+odoo/addons/ssi_hr_payroll_timesheet/__init__.py,sha256=zY6L2gArLRCvF6IlIfMDUB0Wo2pu47FQNn3mUKIBjy0,200
+odoo/addons/ssi_hr_payroll_timesheet/__manifest__.py,sha256=_wNwyFkxR7gGmS1F5T90nhL5qOxm6YQlw65x6LbnefE,592
+odoo/addons/ssi_hr_payroll_timesheet/models/__init__.py,sha256=AdFvksiW_lCw6DiEMd1Bw9lok8cN6nOy8DeRbbdCHx8,204
+odoo/addons/ssi_hr_payroll_timesheet/models/hr_payslip.py,sha256=7_myc6cKkWoZLgFAUMghh0Zzosn0WTrIioYcyFCRXlM,1210
+odoo/addons/ssi_hr_payroll_timesheet/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_hr_payroll_timesheet/views/hr_payslip_views.xml,sha256=C-7HCNVQJGxerIh6NiYpVaVIU2R8zMO9YL-2IfEaLJA,1107
+odoo14_addon_ssi_hr_payroll_timesheet-14.0.1.1.2.dev1.dist-info/METADATA,sha256=eHdvFwG3XJ0jj9FJmknq51yaP0kBKpGCsbr69G_t7FQ,1949
+odoo14_addon_ssi_hr_payroll_timesheet-14.0.1.1.2.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_hr_payroll_timesheet-14.0.1.1.2.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_hr_payroll_timesheet-14.0.1.1.2.dev1.dist-info/RECORD,,
