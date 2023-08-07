@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+avijit1996iiti_basic_calculator.egg-info/PKG-INFO
+avijit1996iiti_basic_calculator.egg-info/SOURCES.txt
+avijit1996iiti_basic_calculator.egg-info/dependency_links.txt
+avijit1996iiti_basic_calculator.egg-info/top_level.txt
+src/avijit1996iiti_basic_calculator/__init__.py
+src/avijit1996iiti_basic_calculator/addition.py
+src/avijit1996iiti_basic_calculator/calculator.py
+src/avijit1996iiti_basic_calculator/division.py
+src/avijit1996iiti_basic_calculator/multiplication.py
+src/avijit1996iiti_basic_calculator/substraction.py
