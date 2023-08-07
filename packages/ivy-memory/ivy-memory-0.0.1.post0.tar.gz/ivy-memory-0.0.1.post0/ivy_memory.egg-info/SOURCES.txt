@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+ivy_memory/__init__.py
+ivy_memory.egg-info/PKG-INFO
+ivy_memory.egg-info/SOURCES.txt
+ivy_memory.egg-info/dependency_links.txt
+ivy_memory.egg-info/requires.txt
+ivy_memory.egg-info/top_level.txt
+ivy_memory/geometric/__init__.py
+ivy_memory/geometric/containers.py
+ivy_memory/geometric/esm.py
+ivy_memory/learnt/__init__.py
+ivy_memory/learnt/ntm.py
