@@ -1,0 +1,6 @@
+README.md
+setup.py
+eliasliu.egg-info/PKG-INFO
+eliasliu.egg-info/SOURCES.txt
+eliasliu.egg-info/dependency_links.txt
+eliasliu.egg-info/top_level.txt
