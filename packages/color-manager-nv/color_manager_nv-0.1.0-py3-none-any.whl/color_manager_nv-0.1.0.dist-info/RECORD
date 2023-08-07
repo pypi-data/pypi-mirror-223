@@ -1,0 +1,9 @@
+color_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+color_manager/gui.py,sha256=_NVDYByn3h6wratPlM2kwL6qIj_sqUgE24Ia_YPx4oQ,6654
+color_manager/ngtk.py,sha256=b1b-haMUZ4eNCUm9scmvkRxDKxRl4qEIK4PeMyv2U4w,4413
+color_manager/recolor.py,sha256=RAR-bgORKqPlGyB5_K-bKoHLGVL38e8osxkx1gFmFu0,11830
+color_manager_nv-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+color_manager_nv-0.1.0.dist-info/METADATA,sha256=NwvHzA-II08askYL77pUlIiOJBCM-g4lshWaxvUzO3w,529
+color_manager_nv-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+color_manager_nv-0.1.0.dist-info/top_level.txt,sha256=0dvJURBBJtGONGvuVDTmblZBqOa5G7ilqKhkQ-8hbb0,14
+color_manager_nv-0.1.0.dist-info/RECORD,,
