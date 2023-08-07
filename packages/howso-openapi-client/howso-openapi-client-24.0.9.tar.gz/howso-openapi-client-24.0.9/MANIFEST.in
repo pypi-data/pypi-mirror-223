@@ -1,0 +1,7 @@
+include *.md
+include requirements.txt
+include requirements.in
+include LICENSE.txt
+include LICENSE-3RD-PARTY.txt
+graft howso
+global-exclude *.py[co]
