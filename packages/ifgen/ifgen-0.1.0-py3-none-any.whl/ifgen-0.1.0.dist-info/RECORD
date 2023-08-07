@@ -1,0 +1,15 @@
+ifgen/__init__.py,sha256=eNqf8nASycO2S1hnf5Nb0fLqzDwvPvRN_Yz1_wZKqS8,313
+ifgen/__main__.py,sha256=vlKhsY3-MMJotm9KqUOBPJ0yq9wHNz-54E6IVADLYVA,324
+ifgen/app.py,sha256=VZ1-r4HQ_HNwm8GDVo9eusN4jL33vCbP5iJVGZw-cIs,966
+ifgen/dev_requirements.txt,sha256=LpWKNscFIVK6o_DD5fwsDVg3AjjVGGHGrqvOLMh4BaM,119
+ifgen/entry.py,sha256=OToCCVnBghH4I2w83a6TQwcuNmcMRskN99esruRZuoU,2002
+ifgen/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ifgen/requirements.txt,sha256=LgnjeR6taZ2U8t-wuuvFQHeThJij-YElZEhQzSEBUcU,9
+ifgen/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ifgen/commands/all.py,sha256=7RLl9lyQiRly1pY-2fXmmrMS9bw368AZDGUE3M5BMYY,555
+ifgen-0.1.0.dist-info/LICENSE,sha256=ral6n3tdu3u3btrRudw1ft1LCiqQNx1tggO6WuW9CmI,1071
+ifgen-0.1.0.dist-info/METADATA,sha256=d8yzHn7O-63uB_HKKfGj1azP3nlcE2f5SVx5yKijqyM,3685
+ifgen-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+ifgen-0.1.0.dist-info/entry_points.txt,sha256=DFsdcR3IE7LnmWN25sjrgFS-wVtivh3sL4QeNC09HNA,40
+ifgen-0.1.0.dist-info/top_level.txt,sha256=2sFxl28z_kLQRSWWxxBy0ErRj31vhjGhoKiX6iMwSTY,6
+ifgen-0.1.0.dist-info/RECORD,,
