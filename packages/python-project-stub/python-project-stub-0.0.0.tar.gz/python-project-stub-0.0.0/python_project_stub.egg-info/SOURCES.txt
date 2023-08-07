@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+python_project_stub/__main__.py
+python_project_stub.egg-info/PKG-INFO
+python_project_stub.egg-info/SOURCES.txt
+python_project_stub.egg-info/dependency_links.txt
+python_project_stub.egg-info/top_level.txt
