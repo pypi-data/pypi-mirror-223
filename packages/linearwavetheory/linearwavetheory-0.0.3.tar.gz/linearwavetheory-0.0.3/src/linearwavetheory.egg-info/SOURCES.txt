@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/linearwavetheory/__init__.py
+src/linearwavetheory/_constants.py
+src/linearwavetheory/_numba_settings.py
+src/linearwavetheory/_tools.py
+src/linearwavetheory/dispersion.py
+src/linearwavetheory.egg-info/PKG-INFO
+src/linearwavetheory.egg-info/SOURCES.txt
+src/linearwavetheory.egg-info/dependency_links.txt
+src/linearwavetheory.egg-info/requires.txt
+src/linearwavetheory.egg-info/top_level.txt
