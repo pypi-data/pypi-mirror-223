@@ -1,0 +1,6 @@
+setup.py
+pipsqlitedbmodsV1/__init__.py
+pipsqlitedbmodsV1.egg-info/PKG-INFO
+pipsqlitedbmodsV1.egg-info/SOURCES.txt
+pipsqlitedbmodsV1.egg-info/dependency_links.txt
+pipsqlitedbmodsV1.egg-info/top_level.txt
