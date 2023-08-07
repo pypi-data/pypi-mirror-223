@@ -1,0 +1,2 @@
+[console_scripts]
+astrotrails = astrotrails.command_line:main
