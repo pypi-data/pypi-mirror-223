@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: thresh
+Version: 1.0.0
+Summary: Load and manage data collection with thresh.tools
+Home-page: https://github.com/davidheineman/thresh.tools
+Author: David Heineman
+Author-email: dheineman3@gatech.edu
+Project-URL: Bug Tracker, https://github.com/davidheineman/thresh.tools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Data Tools for thresh.tools
+
+This is a helper library for [**thresh.tools**](https://thresh.tools/). Please see the [**main repo**](https://github.com/davidheineman/thresh.tools) for documentation.
