@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: techo
+Version: 0.0.1
+Summary: Send text messages and emails through python
+Home-page: https://github.com/nanason01/techoFrontend
+Author: Nicholas Anason
+Author-email: nickanason@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/nanason01/techoFrontend
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# techo Frontend
