@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+richviewsdk/__init__.py
+richviewsdk.egg-info/PKG-INFO
+richviewsdk.egg-info/SOURCES.txt
+richviewsdk.egg-info/dependency_links.txt
+richviewsdk.egg-info/requires.txt
+richviewsdk.egg-info/top_level.txt

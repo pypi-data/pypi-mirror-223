@@ -1,0 +1,3 @@
+prune internal
+exclude pws.txt
+global-exclude *.yml
