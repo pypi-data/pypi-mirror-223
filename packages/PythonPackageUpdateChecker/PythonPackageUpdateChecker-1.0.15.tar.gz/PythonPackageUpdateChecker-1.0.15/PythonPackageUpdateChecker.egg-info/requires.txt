@@ -1,0 +1,4 @@
+setuptools
+aiohttp
+tqdm
+asyncio

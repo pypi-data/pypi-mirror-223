@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+PythonPackageUpdateChecker/__init__.py
+PythonPackageUpdateChecker/__main__.py
+PythonPackageUpdateChecker.egg-info/PKG-INFO
+PythonPackageUpdateChecker.egg-info/SOURCES.txt
+PythonPackageUpdateChecker.egg-info/dependency_links.txt
+PythonPackageUpdateChecker.egg-info/entry_points.txt
+PythonPackageUpdateChecker.egg-info/requires.txt
+PythonPackageUpdateChecker.egg-info/top_level.txt

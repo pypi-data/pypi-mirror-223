@@ -1,0 +1,2 @@
+[console_scripts]
+PythonPackageUpdateChecker = PythonPackageUpdateChecker:__main__
