@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+iemail/__init__.py
+iemail/exceptions.py
+iemail/models.py
+iemail/utils.py
+iemail.egg-info/PKG-INFO
+iemail.egg-info/SOURCES.txt
+iemail.egg-info/dependency_links.txt
+iemail.egg-info/requires.txt
+iemail.egg-info/top_level.txt
