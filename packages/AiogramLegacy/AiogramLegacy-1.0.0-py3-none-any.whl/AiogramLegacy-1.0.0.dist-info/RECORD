@@ -1,0 +1,12 @@
+AiogramLegacy/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+AiogramLegacy/questioning/__init__.py,sha256=GF1Xs5fIIL_GM1XW7M_KV4zyjlWpo1Pfg92MIR0YWMY,55
+AiogramLegacy/questioning/questions.py,sha256=kcDgoL3VSMNXzqCN5NifzaI63t9EKOJGTN9Rj9rs8vY,4046
+AiogramLegacy/questioning/questions_manager.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AiogramLegacy/storages/__init__.py,sha256=zN67T1OV_k_rJxPHjxc5jZU-sP1b9uLZro0dPm10eG0,56
+AiogramLegacy/storages/mysql.py,sha256=7IAuf9FACjyZmRRP1zj69bTDpNXEjXvBoW9yRfgxWQ8,3264
+AiogramLegacy/storages/postgresql.py,sha256=RKD0eO20CXJ9t38OX19aCOUoML-OPDLihcFfm3AtzFU,3222
+AiogramLegacy/storages/sqlite.py,sha256=TGEwpRbWQK1ZDGmxG-Yt-lthZquw8frpOgXx8z02Hus,3031
+AiogramLegacy-1.0.0.dist-info/METADATA,sha256=mQGCr9qrcLTiQ5R2KyOv1XOl1AYKqL6c9ovfyuBJ1P8,864
+AiogramLegacy-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+AiogramLegacy-1.0.0.dist-info/top_level.txt,sha256=FNGrSNMMW-MNm3Gwn0_m3hlzns-CfG3qTBUOwKcrTKE,14
+AiogramLegacy-1.0.0.dist-info/RECORD,,

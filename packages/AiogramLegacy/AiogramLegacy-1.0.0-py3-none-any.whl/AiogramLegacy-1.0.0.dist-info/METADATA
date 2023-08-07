@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: AiogramLegacy
+Version: 1.0.0
+Summary: 💖 A library to simplify the daily development of bots on aiogram 
+Author-email: DIMFLIX <dimflix.official@gmail.com>
+Project-URL: Homepage, https://github.com/DIMFLIX-OFFICIAL/AiogramLegacy
+Project-URL: Bug Tracker, https://github.com/DIMFLIX-OFFICIAL/AiogramLegacy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aiogram >3
+Requires-Dist: asyncpg
+Requires-Dist: aiomysql
+Requires-Dist: aiosqlite
+Requires-Dist: jsonpickle
+Requires-Dist: aiohttp
+
+# AiogramLegacy
+💖 A library to simplify the daily development of bots on aiogram 💖 A library to simplify the daily development of bots on aiogram 
