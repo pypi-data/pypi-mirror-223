@@ -1,0 +1,24 @@
+[project]
+name = "anirban"
+version = "0.1.0"
+
+authors = [
+  { name="Anirban Dey", email="anir3000@protonmail.com" },
+]
+description = "anirban."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+]
+
+[project.urls]
+"Homepage" = "https://github.com/anirbandey1/anirban.py"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: anirban
+Version: 0.1.0
+Summary: Useful utilities I don't want to write again
+Home-page: https://github.com/anirbandey1/anirban.py
+Author: Anirban Dey
+Author-email: anir3000@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# anirban
+
+
