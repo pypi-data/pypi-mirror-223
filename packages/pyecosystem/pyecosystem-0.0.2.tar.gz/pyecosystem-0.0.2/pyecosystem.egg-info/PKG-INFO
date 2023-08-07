@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyecosystem
+Version: 0.0.2
+Summary: an ecosystem of various data transformers, structure builders, manipulators, workflows
+Home-page: https://github.com/kevadiyasmt/pyecosystem
+Author: Smeet Kevadiya
+Author-email: 
+License: UNKNOWN
+Description: an ecosystem of various data transformers, structure builders, manipulators, workflows
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
