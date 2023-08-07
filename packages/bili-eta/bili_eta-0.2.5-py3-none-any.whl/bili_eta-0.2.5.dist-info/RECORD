@@ -1,0 +1,9 @@
+bili_eta/.env.prod,sha256=KGipzSxRYoZvbfME9qrGhFfDhTkOv6OLGDCeE-M30zc,80
+bili_eta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bili_eta/__main__.py,sha256=W6X2tV45BpZ07IMtku4Qg-BNO-c8MiSdw-mfs0jrojM,1000
+bili_eta/bot.py,sha256=pomzS49or9e7Yd3VxJghdMlureFLg0snMy-5-TnwMP8,281
+bili_eta/plugins/new.py,sha256=u0PGDOWOeKmz3GaQg-6LcVxINdYc1vO6R70seig-Wq0,214
+bili_eta-0.2.5.dist-info/METADATA,sha256=MfdbjILNxEcRBucBiv-8jE0jlEdQQICChlwBF26sx2Q,743
+bili_eta-0.2.5.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+bili_eta-0.2.5.dist-info/entry_points.txt,sha256=RP8k8Zlr70SFJCP3vIYrlxWX8XhKgXQ-blOVEi7X9vY,46
+bili_eta-0.2.5.dist-info/RECORD,,
