@@ -1,0 +1,3 @@
+[console_scripts]
+cagen = cagen.cmd:cagen_cli
+cagen-make = cagen.cmd:cagen_make
