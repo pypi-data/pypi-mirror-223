@@ -1,0 +1,15 @@
+numexpr/__init__.py,sha256=Rj_r26hk1JltHmuNj_OCc_jI7U_e5bqBewVXfP5OxGQ,2346
+numexpr/cpuinfo.py,sha256=Dew43iFT64J-L_lkbdYcbDQ--A9t1t2qGEgZ3u_SUR0,26021
+numexpr/expressions.py,sha256=JY9uKXyS2Sblx6SvCggSkb9imMV13u_QT-zW8IPtoCw,16661
+numexpr/interpreter.cp38-win32.pyd,sha256=L4ohF863orHQfqNdASbzHsSZzNdoIGKU6lfVFijFqp4,151552
+numexpr/necompiler.py,sha256=mTjWiq7JWH9-G-n4DAuEMufPUSrTl5XrHjmAP1SHESU,34098
+numexpr/utils.py,sha256=xnOegH9XDK7v3aZjrgRT_aigDv0koyYTLNpgc0MDHKM,7693
+numexpr/version.py,sha256=nEPiERjIOF9m3vjWYde9rEWa0BDoNiFEkNAjtg9Lc3E,119
+numexpr/tests/__init__.py,sha256=9S1yrAa4ZD8ZaeJv5pB94YAz3hQY4XWnk5C9UQAbAV8,461
+numexpr/tests/test_numexpr.py,sha256=ZFobgIKBMVNjHH0bJ21jNgCwmHRDJ0B3AXF6bavuaz4,49955
+numexpr-2.8.5.dist-info/AUTHORS.txt,sha256=0tqYNh_nozfPAQ0RDzzT15-BvIiesYEm7tfYyl7KvR4,942
+numexpr-2.8.5.dist-info/LICENSE.txt,sha256=SnJdGINg7OVJ13bFOvZ82as6h_-QY58kBCKcDLhPz4I,1214
+numexpr-2.8.5.dist-info/METADATA,sha256=ZgyAQWqssUdSnuiGhvsAW1bPHc8ylDjbIR2FdATqZRA,8183
+numexpr-2.8.5.dist-info/WHEEL,sha256=Hfrw8Qe0ZIPdAdzZA8NURz2pVtOChc2bqobSOB8jxlA,96
+numexpr-2.8.5.dist-info/top_level.txt,sha256=5R5OAhc7k6sUajqt4vp-368lWWhb23CoC6LltIMNqNA,8
+numexpr-2.8.5.dist-info/RECORD,,
