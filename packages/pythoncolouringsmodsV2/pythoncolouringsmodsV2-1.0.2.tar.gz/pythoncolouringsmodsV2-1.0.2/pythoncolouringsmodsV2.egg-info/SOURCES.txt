@@ -1,0 +1,6 @@
+setup.py
+pythoncolouringsmodsV2/__init__.py
+pythoncolouringsmodsV2.egg-info/PKG-INFO
+pythoncolouringsmodsV2.egg-info/SOURCES.txt
+pythoncolouringsmodsV2.egg-info/dependency_links.txt
+pythoncolouringsmodsV2.egg-info/top_level.txt
