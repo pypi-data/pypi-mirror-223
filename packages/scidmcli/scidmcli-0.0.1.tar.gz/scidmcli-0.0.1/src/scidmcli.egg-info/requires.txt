@@ -1,0 +1,4 @@
+ckanapi
+requests
+os
+configparser
