@@ -1,0 +1,2 @@
+[console_scripts]
+include-code = include_code.include_code:main

@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+include_code/__init__.py
+include_code/__main__.py
+include_code/common.py
+include_code/fetch.py
+include_code/include_code.py
+include_code/validate.py
+include_code.egg-info/PKG-INFO
+include_code.egg-info/SOURCES.txt
+include_code.egg-info/dependency_links.txt
+include_code.egg-info/entry_points.txt
+include_code.egg-info/requires.txt
+include_code.egg-info/top_level.txt
