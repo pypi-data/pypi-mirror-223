@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: encipherpy
+Version: 2.0.0
+Summary: A package containing the implementation of the vigenere cipher. More ciphers will be added in future versions.
+Project-URL: Homepage, https://github.com/lightman210567/Encipher-python
+Project-URL: Bug tracker, https://github.com/lightman210567/Encipher-python/issues
+Author-email: lightman210567 <81330314+lightman210567@users.noreply.github.com>
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Encipherpy
+
+Encipherpy is a python package that contains the implementations of ciphers.
+Currently, only the vigenere cipher has been added, however more are planned.
