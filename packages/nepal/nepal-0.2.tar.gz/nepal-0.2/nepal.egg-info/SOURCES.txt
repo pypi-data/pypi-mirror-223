@@ -1,0 +1,5 @@
+setup.py
+nepal.egg-info/PKG-INFO
+nepal.egg-info/SOURCES.txt
+nepal.egg-info/dependency_links.txt
+nepal.egg-info/top_level.txt
