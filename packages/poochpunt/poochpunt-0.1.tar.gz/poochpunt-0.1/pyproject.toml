@@ -1,0 +1,13 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "poochpunt"
+authors = [{name = "Brock Tibert", email = "btibert3@gmail.com"}]
+requires-python = ">=3.10"
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.com/btibert3/poochpunt"
+
