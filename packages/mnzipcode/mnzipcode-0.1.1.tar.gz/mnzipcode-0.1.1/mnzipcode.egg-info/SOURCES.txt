@@ -1,0 +1,8 @@
+README.md
+setup.py
+mnzipcode/__init__.py
+mnzipcode/mnzipcode.py
+mnzipcode.egg-info/PKG-INFO
+mnzipcode.egg-info/SOURCES.txt
+mnzipcode.egg-info/dependency_links.txt
+mnzipcode.egg-info/top_level.txt
