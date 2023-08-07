@@ -1,0 +1,11 @@
+numpy
+dask[array]>=2022.2.0
+pyzmq
+ndtiff>=2.2.0
+
+[dev]
+pytest
+wget
+requests
+docstring-inheritance
+napari
