@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+matplotlib_cern/__init__.py
+matplotlib_cern/template.py
+matplotlib_cern.egg-info/PKG-INFO
+matplotlib_cern.egg-info/SOURCES.txt
+matplotlib_cern.egg-info/dependency_links.txt
+matplotlib_cern.egg-info/requires.txt
+matplotlib_cern.egg-info/top_level.txt
