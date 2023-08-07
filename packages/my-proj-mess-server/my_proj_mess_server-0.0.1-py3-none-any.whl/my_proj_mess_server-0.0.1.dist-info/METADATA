@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: my-proj-mess-server
+Version: 0.0.1
+Summary: my_proj_mess_server
+Author: Viktor Donets
+Author-email: vdonets76@mail.ru
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+
