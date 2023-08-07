@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: trilium-alchemy
+Version: 0.1.2
+Summary: Python SDK and CLI toolkit for Trilium Notes
+Author: mm21
+Author-email: mm21.apps@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: trilium-client (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# TriliumAlchemy
+Python SDK and CLI toolkit for Trilium Notes.
+
+Work in progress. Read the docs here: <https://mm21.github.io/trilium-alchemy/>
+
