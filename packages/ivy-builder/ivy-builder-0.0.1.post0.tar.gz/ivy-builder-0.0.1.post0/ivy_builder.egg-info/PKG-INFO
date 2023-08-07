@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: ivy-builder
+Version: 0.0.1.post0
+Summary: Build custom Ivy training tasks with clear, hierarchical and robust user specifications.
+Home-page: https://unify.ai/docs/builder
+Author: Unify
+Author-email: hello@unify.ai
+License: Apache 2.0
+Project-URL: Docs, https://unify.ai/docs/builder/
+Project-URL: Source, https://github.com/unifyai/builder
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+.. image:: https://github.com/unifyai/unifyai.github.io/blob/master/img/externally_linked/logo.png?raw=true#gh-light-mode-only
+   :width: 100%
+   :class: only-light
+
+.. image:: https://github.com/unifyai/unifyai.github.io/blob/master/img/externally_linked/logo_dark.png?raw=true#gh-dark-mode-only
+   :width: 100%
+   :class: only-dark
+
+
+
+**Build custom Ivy training tasks with clear, hierarchical and robust user specifications.**
+
+
+
+.. image:: https://github.com/unifyai/unifyai.github.io/blob/master/img/externally_linked/logos/supported/frameworks.png?raw=true
+   :width: 100%
+
+**Ivy Libraries**
+
+There are a host of derived libraries written in Ivy, in the areas of mechanics, 3D vision, robotics, gym environments,
+neural memory, pre-trained models + implementations, and builder tools with trainers, data loaders and more!
+
+
+
+.. image:: https://github.com/unifyai/unifyai.github.io/blob/master/img/externally_linked/ivy_libraries.png?raw=true
+   :width: 100%
+
+
+
+
+
+
+
+
+
+
+
+
+
+Citation
+--------
+
+::
+
+    @article{lenton2021ivy,
+      title={Ivy: Templated deep learning for inter-framework portability},
+      author={Lenton, Daniel and Pardo, Fabio and Falck, Fabian and James, Stephen and Clark, Ronald},
+      journal={arXiv preprint arXiv:2102.02886},
+      year={2021}
+    }
