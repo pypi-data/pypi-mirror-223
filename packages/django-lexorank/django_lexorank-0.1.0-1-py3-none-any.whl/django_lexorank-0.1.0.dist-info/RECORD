@@ -1,0 +1,12 @@
+django_lexorank/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_lexorank/admin.py,sha256=GvFRZpGB9IinmxJbZYp3u2jkKR3FPppobaBgaxhGhMw,489
+django_lexorank/apps.py,sha256=Nx2FrbJHz2izitZwC-aprkzlbLsNgwAP0pzPQOb6i00,104
+django_lexorank/fields.py,sha256=8PqGSrAy7sEbDSF3kjaM_4VMWRLX_NDi2pQuTpQwOtw,1817
+django_lexorank/lexorank.py,sha256=wYJQ4e5sZWWudBm4BvFgki3jJaKMTTySPoNzlUT_Vy8,5017
+django_lexorank/managers.py,sha256=mlJR9kFKOGitizUkQXL6-MgDlORgnYDFAeV-6ba5nPs,1725
+django_lexorank/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_lexorank/models.py,sha256=ymCuENG09v9hUkRPZ7RJ9t5pqEw7KIIQZdhJwelc9MU,5568
+django_lexorank-0.1.0.dist-info/LICENSE,sha256=9f43Kt4N52E2mBvcKVeI6vfhks3647BV0IvCJPZNKwg,1065
+django_lexorank-0.1.0.dist-info/METADATA,sha256=Surd8bCo1yAZEjXuXrh-42HEgupvPaLbovSMw0PaXIY,4116
+django_lexorank-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+django_lexorank-0.1.0.dist-info/RECORD,,
