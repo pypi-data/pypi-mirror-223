@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: vscode.dev
+Version: 0.1.0
+Project-URL: Homepage, https://github.com/billyeatcookies/vscode-dev
+Project-URL: Bug Tracker, https://github.com/billyeatcookies/vscode-dev/issues
+Author-email: Billy <billydevbusiness@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# vscode.dev 
+The fully featured web browser based code editor from Microsoft as a lightweight desktop application.
+
+![image](https://github.com/billyeatcookies/vscode-dev/assets/70792552/9db8a542-8aeb-40cb-a3a1-710d313a2a2e)
+
+
+## Install
+```
+pip install vscode
+```
+
+> **Important:**
+> package is only supported in windows
