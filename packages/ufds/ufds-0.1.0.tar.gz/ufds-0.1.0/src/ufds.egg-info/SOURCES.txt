@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/ufds.py
+src/ufds.egg-info/PKG-INFO
+src/ufds.egg-info/SOURCES.txt
+src/ufds.egg-info/dependency_links.txt
+src/ufds.egg-info/top_level.txt
+tests/test_ufds.py
