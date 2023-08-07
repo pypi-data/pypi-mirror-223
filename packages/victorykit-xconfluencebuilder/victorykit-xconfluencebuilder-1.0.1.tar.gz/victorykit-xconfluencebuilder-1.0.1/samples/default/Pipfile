@@ -1,0 +1,13 @@
+[[source]]
+url = 'https://pypi.python.org/simple'
+verify_ssl = true
+name = 'pypi'
+
+[requires]
+python_version = '3'
+
+[scripts]
+"sphinx-build" = "sphinx-build docs build --color -W -bxconfluence"
+
+[packages]
+xconfluencebuilder = {editable = true, path = "./../.."}
