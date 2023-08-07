@@ -1,0 +1,8 @@
+django_sql_comment/__init__.py,sha256=mbQrQBKSrOmM9g0WOok3TdpnT4DbmNChmqZTz--fjSg,2426
+django_sql_comment/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_sql_comment/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_sql_comment/management/commands/sqlcomment.py,sha256=Zu-qaKZIMYnV1_vKY55MpWJLNhq67VqcvxwYJemXvfU,611
+django_sql_comment-1.0.0.dist-info/METADATA,sha256=zvR7aPjnxLnjP9JyujwszvdRxdiCzH3w5k5NeLBhOO4,2361
+django_sql_comment-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+django_sql_comment-1.0.0.dist-info/top_level.txt,sha256=50nFnR1P9Hk3f3Cz9CCmI1BMr8VN930ZQy_ks1fwpUM,19
+django_sql_comment-1.0.0.dist-info/RECORD,,
