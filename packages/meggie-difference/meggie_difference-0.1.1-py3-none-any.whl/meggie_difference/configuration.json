@@ -1,0 +1,12 @@
+{
+    "id": "meggie_difference",
+    "name": "Create difference objects",
+    "author": "CIBR",
+    "tabs": [
+        {
+            "id": "evoked",
+            "name": "Evoked responses",
+            "output_actions": ["evoked_difference"]
+        }
+    ]
+}
