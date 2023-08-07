@@ -1,0 +1,4 @@
+include MANIFEST.in
+graft AdroitFisherman
+graft AdroitFisherman/create_dll
+recursive-include AdroitFisherman/includes *
