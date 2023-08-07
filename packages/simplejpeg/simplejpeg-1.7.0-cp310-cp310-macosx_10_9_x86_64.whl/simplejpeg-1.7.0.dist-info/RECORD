@@ -1,0 +1,12 @@
+simplejpeg-1.7.0.dist-info/RECORD,,
+simplejpeg-1.7.0.dist-info/LICENSE,sha256=pbkl1cvB-liWhJuzzuB1VNiHBOvBLcP4CmgypNkvq7k,19604
+simplejpeg-1.7.0.dist-info/WHEEL,sha256=53ljkZikrpjTcpEOpJC3z3Nj5gq2XzTADakrFbV1CD0,111
+simplejpeg-1.7.0.dist-info/top_level.txt,sha256=whsdyVL6rcRijxONcdtjdyk0mOmj_2fExNkij2xVvdw,11
+simplejpeg-1.7.0.dist-info/METADATA,sha256=bSapkher5KN3KqD5GHmkLIB5hCWmwJcqzUkQtq9IEog,29850
+simplejpeg/_color.c,sha256=zg0k4RXgmb21LikUiTYx-mLKrwb7WNiRZywz9ZsVMjo,948
+simplejpeg/_jpeg.pyi,sha256=Yg50mseFR2MqWYTY8xzfGcBF-4j1ZrjNlDvGdKOwkMg,3868
+simplejpeg/__init__.py,sha256=1vATVLIvLnlykhzN3mZL_5yfIndpnm5MxDldTuIGVkU,527
+simplejpeg/_jpeg.cpython-310-darwin.so,sha256=ilav3s-WhlxMww0qLcVX_AyoXeXEPGlgaMBghpuGXxw,1404000
+simplejpeg/_color.h,sha256=APHeekpRQa0Dlkb7yxcWrgr7ueP_oMVoej7N4oE4mbs,219
+simplejpeg/_jpeg.pyx,sha256=7hLCcYFpne7lG3bDiqAdXwCAxHxt33apNcSu7wwUork,16189
+simplejpeg/_jpeg.c,sha256=LY4v4-1MYl4tA_rhdjnN85AHp9bQzHS7h4NRrtktqEM,1316005
