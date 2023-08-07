@@ -1,0 +1,10 @@
+libssp_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libssp_py/discovery.py,sha256=c3eFNsrkMU1E0v1jKRUl3-QrNhfTc0VQ2TIGpDt2idI,830
+libssp_py/ssp.py,sha256=yG_QjClnKv7tqbPoRk8eGGJb7ZIzz9xDxwut1gYrzk0,3224
+libssp_py/tests.py,sha256=7t80sYJaVGDUwRXpteyiZCa2QLp_HBpwXM_KPmQAIMI,1155
+libssp_py/util.py,sha256=7EwcDN8QyIWGHnfm5jsD-X64X6mwpJBgmxFr9UeSM0E,1117
+libssp_py-0.0.2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+libssp_py-0.0.2.dist-info/METADATA,sha256=pPxhJ1qiUlkSDmakA-9fiGJ-VV-0Osskun4-QkveXD4,1941
+libssp_py-0.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+libssp_py-0.0.2.dist-info/top_level.txt,sha256=IsDyDeHjy5E-dHChpqvICaH7dcFdyn91-02byFSaiiA,10
+libssp_py-0.0.2.dist-info/RECORD,,
