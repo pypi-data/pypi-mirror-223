@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: forum
+Version: 0.1.1
+Summary: 
+Author: Caio D
+Author-email: caiobd@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: llama-cpp-python (>=0.1.77,<0.2.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: pytelegrambotapi (>=4.12.0,<5.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: requests (>=2.29.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Byte modular assistant
+
+## Description
+This repository implements a modular personal assistant featuring pip installation and CPU based inference as a way to promote a system that is easy to setup, have low hardware requirements and is privacy aware.
+
+## Objective
+
+The aim of this project is to allow tinkerers to easily develop customizable personal assistants based on local LLM's without complicated dependency setup and in-depth knowedge of LLM's and interprocess communication.
+
+## Developer notes
+
+### Comming soon:
+- Software licence
+- Documentation
+- Customization tutorials
+- Pypi installation
+- Binary package
+
+### TODO
+- Config builder tool
+
+Most of things metioned here will be released as soon as the project enters its alpha stage.
+
+WARNING: This repository is in a pre-alpha stage, many of the interfaces you see implemented now will change as the project matures.
+
+## Acknowledgements
+
+I much apriciate ArjanCodes for sharing his clear and concise implementation of a plugin system in which the core of this repository is based. The original implementation can be found [here](https://github.com/ArjanCodes/2021-plugin-architecture).
+

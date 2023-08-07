@@ -1,0 +1,59 @@
+plugins:
+  - byte.nodes.llm_node
+  - byte.nodes.message_transform_node
+  - byte.nodes.message_aggregate_node
+  - byte.nodes.telegram_bot_node
+  - byte.nodes.message_filter_node
+
+nodes:
+  telegram:
+    type: telegram_bot
+    api_key: {telegram_api_key}
+  
+  text_filter:
+    type: message_filter
+    content_type: text
+  
+  chatmessage2textmessage:
+    type: message_transform
+    rename_fields:
+      content: text
+      input_message_id: message_id
+    output_fields:
+      - text
+      - message_id
+
+  llm:
+    type: llm
+    model_name: {llm_location}
+    system_prompt: >
+      You are a helpful AI assistant, you always only answer for the assistant then you stop.
+      You always awnser in {io_language}. read the chat history to get context
+  
+  textmessage2chatmessage:
+    type: message_transform
+    rename_fields:
+      text: content
+      message_id: input_message_id
+    set_fields:
+      type: text
+
+  aggregate_chat_data:
+    type: message_aggregate
+    by: 
+      - input_message_id
+    output_fields:
+      - chat_id
+      - input_message_id
+      - type
+      - content  
+
+topics:
+  telegram.output: text_filter.input
+  text_filter.output: 
+    - chatmessage2textmessage.input
+    - aggregate_chat_data.input
+  chatmessage2textmessage.output: llm.input
+  llm.output: textmessage2chatmessage.input
+  textmessage2chatmessage.output: aggregate_chat_data.input
+  aggregate_chat_data.output: telegram.input
