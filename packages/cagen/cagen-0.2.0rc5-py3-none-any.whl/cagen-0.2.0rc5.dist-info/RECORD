@@ -1,0 +1,12 @@
+cagen/__init__.py,sha256=LAhTgf34lj17-Jebu1Crgs4E5eWCyT-rRLXP3Jfzgv8,112
+cagen/cmd.py,sha256=Hh5JE6au-vmOaSehN_q8PgaIWGxllnE6vMrBkUXvCKc,4659
+cagen/libcagen.py,sha256=iFbS6v5CV6dnf080bpgJiOsUPZIX4nDb791LQndzXg8,9438
+cagen/templates/list.md.tmpl,sha256=JXiumxtW-_gwU4VT6SSmVx5rjKN8BC2DgSUSPjc6llg,786
+cagen/templates/list.md.tmpl.license,sha256=-y6zH-6rE60G9F1GN4XazdW0QuT6UXS4x_F-FWEmY60,107
+cagen/templates/schema.tmpl,sha256=lC105pUSHYgncKDC0ecX3BFFDkLRQtIGS04GWaqvUZY,3998
+cagen/templates/schema.tmpl.license,sha256=-y6zH-6rE60G9F1GN4XazdW0QuT6UXS4x_F-FWEmY60,107
+cagen-0.2.0rc5.dist-info/METADATA,sha256=d233I1ymzIepqfAVRlm05YevoZXA8vL0Czb4b4M9v8M,4460
+cagen-0.2.0rc5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+cagen-0.2.0rc5.dist-info/entry_points.txt,sha256=gfgXtZIJ7XNTRqwsbfVtr-ocD-4Ni5ZkErMkxPivHo0,80
+cagen-0.2.0rc5.dist-info/top_level.txt,sha256=lXgf9gFsWmShfe-p7fjYngAjLYvojMiS4k9p8dwi0tQ,6
+cagen-0.2.0rc5.dist-info/RECORD,,
