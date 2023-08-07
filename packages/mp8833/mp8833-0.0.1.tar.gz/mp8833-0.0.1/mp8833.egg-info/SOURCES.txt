@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+mp8833/__init__.py
+mp8833/mp8833.py
+mp8833.egg-info/PKG-INFO
+mp8833.egg-info/SOURCES.txt
+mp8833.egg-info/dependency_links.txt
+mp8833.egg-info/top_level.txt

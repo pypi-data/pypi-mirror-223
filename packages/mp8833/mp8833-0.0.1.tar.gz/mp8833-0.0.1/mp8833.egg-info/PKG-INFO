@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: mp8833
+Version: 0.0.1
+Summary: Library for mp8833 Thermoelectric Controller
+Home-page: UNKNOWN
+Author: Yusuf Soyceken
+Author-email: sycknysf@gmail.com
+License: MIT
+Description: Lib for mp8833
+Keywords: MP8833,EV8833,thermoelectric cooler controller
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
