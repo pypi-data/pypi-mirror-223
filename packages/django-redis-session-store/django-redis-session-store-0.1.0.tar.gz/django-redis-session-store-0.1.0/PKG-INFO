@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: django-redis-session-store
+Version: 0.1.0
+Summary: A Django session backend with Redis storage.
+Author-email: Ömer Alkın <omeralkin7@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2023 Ömer
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Home, https://github.com/mrlkn/django-redis-session
+Project-URL: Documentation, https://github.com/mrlkn/django-redis-session/README.md
+Project-URL: Source, https://github.com/mrlkn/django-redis-session
+Keywords: django,session,redis,store
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Django Redis Session Store
+
+Django Redis Session is a Django session backend that uses Redis as its session store. This package allows multiple Django applications to share user sessions by using the same Redis database as a common session store.
+
+## Installation
+
+You can install Django Redis Session with pip:
+
+```bash
+pip install django_redis_session_store
+```
+## Configuration
+To use Django Redis Session, you need to configure several settings in your Django project's settings.py file:
+
+```python
+
+SESSION_ENGINE = 'django_redis_session_store.session_store'
+SESSION_REDIS_HOST = 'localhost'
+SESSION_REDIS_PORT = 6379
+SESSION_REDIS_DB = 0
+SESSION_REDIS_PASSWORD = 'password'
+SESSION_REDIS_USER = 'user'
+SESSION_REDIS_PREFIX = 'session'
+SESSION_REDIS_SOCKET_TIMEOUT = 1800
+SESSION_REDIS_TLS = False
+```
+Please replace the above settings with the actual configuration details of your Redis server.
+
+## Usage
+Once Django Redis Session is installed and configured, you can use Django sessions as you would normally. The session data is stored in Redis and can be shared between multiple Django applications.
+
+## Use Case
+Imagine that you have two Django applications, App1 and App2, both of which require user authentication. When a user logs into App1, a new session is created and stored in the Redis server. Later, the same user tries to access App2. Since App2 uses the same Redis server for session storage, it recognizes the user's session and does not require the user to log in again.
+
+This shared session feature is particularly useful in microservices architectures, where you might have multiple services that each require user authentication.
+
+## License
+This project is licensed under the MIT license. For more details, see the LICENSE file.
