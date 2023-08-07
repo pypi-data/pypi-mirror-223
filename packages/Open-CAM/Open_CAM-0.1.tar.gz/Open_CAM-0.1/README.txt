@@ -1,0 +1,1 @@
+This is a simple library to open a camera of laptop.
