@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: tensorshare
+Version: 0.0.4
+Summary: 🤝 Trade any tensors over the network
+Project-URL: Documentation, https://chainyo.github.io/tensorshare
+Project-URL: Issues, https://github.com/chainyo/tensorshare/issues
+Project-URL: Source, https://github.com/chainyo/tensorshare
+Author: Thomas Chaigneau
+License-Expression: MIT
+License-File: LICENSE
+Keywords: artificial intelligence,deep learning,machine learning,tensors
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: <3.12,>=3.8
+Requires-Dist: pydantic>=2.1.1
+Requires-Dist: safetensors>=0.3.1
+Provides-Extra: all
+Requires-Dist: flax>=0.6.3; extra == 'all'
+Requires-Dist: jax<0.4.14; extra == 'all'
+Requires-Dist: jaxlib<0.4.14; extra == 'all'
+Requires-Dist: numpy>=1.21.6; extra == 'all'
+Requires-Dist: paddlepaddle>=2.4.1; extra == 'all'
+Requires-Dist: torch>=1.10; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black~=22.10.0; extra == 'dev'
+Requires-Dist: flax>=0.6.3; extra == 'dev'
+Requires-Dist: jax<0.4.14; extra == 'dev'
+Requires-Dist: jaxlib<0.4.14; extra == 'dev'
+Requires-Dist: mkdocs-git-revision-date-localized-plugin~=1.1.0; extra == 'dev'
+Requires-Dist: mkdocs-material~=8.5.4; extra == 'dev'
+Requires-Dist: mkdocstrings[python]~=0.19.0; extra == 'dev'
+Requires-Dist: mkdocs~=1.4.0; extra == 'dev'
+Requires-Dist: numpy>=1.21.6; extra == 'dev'
+Requires-Dist: paddlepaddle>=2.4.1; extra == 'dev'
+Requires-Dist: pre-commit~=2.20.0; extra == 'dev'
+Requires-Dist: pytest~=7.1.2; extra == 'dev'
+Requires-Dist: ruff~=0.0.263; extra == 'dev'
+Requires-Dist: torch>=1.10; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs-git-revision-date-localized-plugin~=1.1.0; extra == 'docs'
+Requires-Dist: mkdocs-material~=8.5.4; extra == 'docs'
+Requires-Dist: mkdocstrings[python]~=0.19.0; extra == 'docs'
+Requires-Dist: mkdocs~=1.4.0; extra == 'docs'
+Provides-Extra: jax
+Requires-Dist: flax>=0.6.3; extra == 'jax'
+Requires-Dist: jax<0.4.14; extra == 'jax'
+Requires-Dist: jaxlib<0.4.14; extra == 'jax'
+Provides-Extra: numpy
+Requires-Dist: numpy>=1.21.6; extra == 'numpy'
+Provides-Extra: paddlepaddle
+Requires-Dist: paddlepaddle>=2.4.1; extra == 'paddlepaddle'
+Provides-Extra: quality
+Requires-Dist: black~=22.10.0; extra == 'quality'
+Requires-Dist: pre-commit~=2.20.0; extra == 'quality'
+Requires-Dist: ruff~=0.0.263; extra == 'quality'
+Provides-Extra: tests
+Requires-Dist: flax>=0.6.3; extra == 'tests'
+Requires-Dist: jax<0.4.14; extra == 'tests'
+Requires-Dist: jaxlib<0.4.14; extra == 'tests'
+Requires-Dist: numpy>=1.21.6; extra == 'tests'
+Requires-Dist: paddlepaddle>=2.4.1; extra == 'tests'
+Requires-Dist: pytest~=7.1.2; extra == 'tests'
+Requires-Dist: torch>=1.10; extra == 'tests'
+Provides-Extra: torch
+Requires-Dist: torch>=1.10; extra == 'torch'
+Description-Content-Type: text/markdown
+
+<h1 align="center">TensorShare</h1>
+
+<div align="center">
+	<a  href="https://pypi.org/project/tensorshare" target="_blank">
+		<img src="https://img.shields.io/pypi/v/tensorshare.svg" />
+	</a>
+	<a  href="https://pypi.org/project/tensorshare" target="_blank">
+		<img src="https://img.shields.io/pypi/pyversions/tensorshare" />
+	</a>
+	<a  href="https://github.com/chainyo/tensorshare/blob/main/LICENSE" target="_blank">
+		<img src="https://img.shields.io/pypi/l/tensorshare" />
+	</a>
+	<a  href="https://github.com/chainyo/tensorshare/actions?workflow=ci-cd" target="_blank">
+		<img src="https://github.com/chainyo/tensorshare/workflows/ci-cd/badge.svg" />
+	</a>
+  <a  href="https://github.com/pypa/hatch" target="_blank">
+		<img src="https://img.shields.io/badge/%F0%9F%A5%9A-Hatch-4051b5.svg" />
+	</a>
+</div>
+
+<p align="center"><em>🤝 Trade any tensors over the network</em></p>
+
+---
+
+TensorShare is a powerful tool enabling ⚡ lightning-fast tensor sharing across networks.
+
+This project leverage the best open-source tools to provide a simple and easy-to-use interface for sharing tensors:
+
+* [safetensors](https://github.com/huggingface/safetensors) for secure tensor serialization and deserialization.
+* [pydantic](https://github.com/pydantic/pydantic) for data validation and settings management.
+* [fastapi](https://github.com/tiangolo/fastapi) for building APIs (and because it's too good to avoid it).
+
+__This project is heavily in development and is not ready for production use.__
+__Feel free to contribute to the project by opening issues and pull requests.__
+
+## Roadmap
+
+- [x] Convert functions from one framework to safetensors
+- [ ] Convert factory class for transparent usage
+- [ ] Pydantic schema for sharing tensors
+- [ ] Server for sharing tensors
+- [ ] Client for sharing tensors

@@ -1,0 +1,10 @@
+tensorshare/__init__.py,sha256=jx38jeeLr28KGEbHoy3tuegh_jZGZAJW4gzryfdL53s,216
+tensorshare/import_utils.py,sha256=LZv4Joy_WRmzlwA3EDWo27b-B9hO71U3axJ_lHL3BM4,2142
+tensorshare/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorshare/schema.py,sha256=75EzvxNfo3Afz6IWP0uLwor-qsNJE5y-41ayNpc_yoA,612
+tensorshare/converter/__init__.py,sha256=rKyjQnL4G9tmp4qySOGZe-fIQeeboGk-3Uw-HEtami0,76
+tensorshare/converter/utils.py,sha256=e3nFuX9mojGwEBj4AymPntM1cbTV7kwACAq0c_av5bM,3670
+tensorshare-0.0.4.dist-info/METADATA,sha256=FbOtHdHyoAC01J1qAxg-_OTF_I62EIe2Odf2RTmfmco,4975
+tensorshare-0.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+tensorshare-0.0.4.dist-info/licenses/LICENSE,sha256=bEMNl6A5HgdX-jQOKjtZINZ7rgZLfinAE_tyORjZo7E,1108
+tensorshare-0.0.4.dist-info/RECORD,,
