@@ -1,0 +1,65 @@
+[tool.poetry]
+name = "api-mlops-project"
+version = "0.1.0"
+description = "This project aims to apply MLOps techniques to deploy a machine learning model through an API constructed with FastAPI."
+license = "MIT"
+authors = ["Junior Torres <galas.apps@gmail.com>"]
+readme = "README.md"
+packages = [{include = "api_mlops_project"}]
+classifiers = [
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 4 - Beta",
+    "Natural Language :: English"
+]
+
+[tool.poetry.urls]
+"Documentation" = "https://mlops-shape-project.readthedocs.io/en/latest/"
+"Code" = "https://github.com/JuniorTorresMTJ/model_api_mlops_project"
+
+[tool.poetry.dependencies]
+python = "^3.8.10"
+scikit-learn = "1.0.2"
+pyarrow = "^12.0.1"
+fastapi = {extras = ["all"], version = "^0.100.1"}
+uvicorn = "^0.23.2"
+pydantic = "^2.1.1"
+python-multipart = "^0.0.6"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+blue = "^0.9.1"
+isort = "^5.12.0"
+taskipy = "^1.11.0"
+pandas = "^2.0.3"
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.1.21"
+mkdocstrings = "^0.22.0"
+mkdocstrings-python = "^1.2.1"
+mkdocs-macros-plugin = "^0.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = "--doctest-modules"
+
+[tool.isort]
+profile= "black"
+line_length = 79
+
+[tool.taskipy.tasks]
+lint = "blue --check --diff . && isort --check --diff ."
+doc = "mkdocs serve"
+pre_test = "task lint"
+test = "pytest -s -x --cov=api_mlops_project -vv"
+post_test = "coverate html"
+
+[tool.poetry.scripts]
+run-app = "api_mlops_project.app:app"
