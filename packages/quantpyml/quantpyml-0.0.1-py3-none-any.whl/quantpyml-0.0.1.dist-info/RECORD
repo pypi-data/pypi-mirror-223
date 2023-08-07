@@ -1,0 +1,9 @@
+quantpyml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpyml/optimizers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantpyml/optimizers/black_litterman.py,sha256=fobgjqV2HMBvoRwVIFU84M8ggRL1vxVbrhtZOuSS0xE,29
+quantpyml/optimizers/efficient_frontier.py,sha256=JfsIWWwCCPZVRea3-ZREbo0v0lMo0qmr4Lhg79mHip0,10059
+quantpyml-0.0.1.dist-info/LICENSE,sha256=c5zhc03BrgYH8IK5GNmn67BZcDCxhLro9nG3n_r1VxA,1069
+quantpyml-0.0.1.dist-info/METADATA,sha256=27AXOWNwDAI2kwyTG6qAYkgCmbNlTWj3Hp0PtNa3dIA,2371
+quantpyml-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+quantpyml-0.0.1.dist-info/top_level.txt,sha256=IUS5zdMAArgEp2mtm4v0CHEnu0JVug39qzvnOUlqTCI,10
+quantpyml-0.0.1.dist-info/RECORD,,
