@@ -1,0 +1,8 @@
+setup.py
+csrc/warpat/warp_attention_api_torch.cpp
+warp_attention/__init__.py
+warp_attention/_version.py
+warp_attention.egg-info/PKG-INFO
+warp_attention.egg-info/SOURCES.txt
+warp_attention.egg-info/dependency_links.txt
+warp_attention.egg-info/top_level.txt

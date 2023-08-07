@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: warp-attention
+Version: 0.0.1
+Summary: Warp attention: hardware efficient implementation of scaled dot product attention.
+Author: demoriarty
+Author-email: sahbanjan@gmail.com
+Keywords: transformers,attention,scaled dot product attention,pytorch
