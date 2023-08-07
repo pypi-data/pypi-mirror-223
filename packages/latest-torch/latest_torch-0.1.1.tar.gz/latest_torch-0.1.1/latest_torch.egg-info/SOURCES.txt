@@ -1,0 +1,9 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+latest_torch.egg-info/PKG-INFO
+latest_torch.egg-info/SOURCES.txt
+latest_torch.egg-info/dependency_links.txt
+latest_torch.egg-info/requires.txt
+latest_torch.egg-info/top_level.txt
