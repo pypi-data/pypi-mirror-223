@@ -1,0 +1,1 @@
+CMAKE_ARGS="-DLLAMA_CUBLAS=on" FORCE_CMAKE=1 VERBOSE=1 pip install --force-reinstall --upgrade --no-cache-dir llama-cpp-python -v
