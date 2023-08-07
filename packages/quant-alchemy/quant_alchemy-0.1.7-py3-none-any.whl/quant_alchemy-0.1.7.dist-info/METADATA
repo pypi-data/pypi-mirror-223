@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: quant-alchemy
+Version: 0.1.7
+Summary: Package for quantitative finance.
+Home-page: https://github.com/EladioRocha/quant-alchemy
+Author: Eladio Rocha Vizcaino
+Author-email: eladio.rocha99@gmail.com
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://github.com/EladioRocha/quant-alchemy/issues
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+# quant_alchemy
