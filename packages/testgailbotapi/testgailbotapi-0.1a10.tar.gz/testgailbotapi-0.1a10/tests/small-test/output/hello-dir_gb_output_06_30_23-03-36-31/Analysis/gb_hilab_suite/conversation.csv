@@ -1,0 +1,8 @@
+SPEAKER LABEL,TEXT,START TIME,END TIME
+SP_03,hello (Overlap_First_Start id=0),0.56,0.56
+SP_02,hello (Overlap_First_Start id=1) (Overlap_Second_Start id=0),0.55,0.55
+SP_01,hello (Overlap_First_Start id=2) (Overlap_Second_Start id=1),0.54,0.54
+SP_00,(Overlap_Second_Start id=2) hello (Overlap_Second_End id=2),0.53,1.21
+SP_02,(Overlap_Second_End id=0) (Overlap_First_End id=1),1.21,1.21
+SP_01,(Overlap_Second_End id=1) (Overlap_First_End id=2),1.21,1.21
+SP_03,(Overlap_First_End id=0),1.21,1.21
