@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "factli"
+version = "0.2.0"
+description = "A Facebook Crowdtangle Client"
+authors = [
+	"Aditya Kumar <a.kumar@leibniz-hbi.de>",
+	"Felix Victor Münch <f.muench@leibniz-hbi.de>"
+	]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Leibniz-HBI/DBoeS-stats"
+
+exclude = [
+		"Facebook/Access_Token.py",
+		"*/.pytest_cache/*",
+		"results"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+click = "^8.0.1"
+loguru = "^0.5.3"
+pandas = "^1.2.4"
+schedule = "^1.1.0"
+yagmail = "^0.14.256"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+autopep8 = "^1.5.7"
+pytest = "^6.2.4"
+
+[tool.poetry.scripts]
+factli = 'factli.factli:cli'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
