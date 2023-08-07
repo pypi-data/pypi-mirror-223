@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jzd
+Version: 1.0.1
+Summary: JZD (JSON Zip Data) is a Python library that provides functionality for handling JZD files, which are ZIP-compressed JSON data files. It allows you to read, write, list, delete, and rename classes within JZD files.
+Author: Mo Yan
+Author-email: 
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+
