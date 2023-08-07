@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+_build.py
+pyproject.toml
+src/turbob64.h
+src/turbob64.pyx
+src/lib/libtb64.a
+turbob64.egg-info/PKG-INFO
+turbob64.egg-info/SOURCES.txt
+turbob64.egg-info/dependency_links.txt
+turbob64.egg-info/top_level.txt
