@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/naruno_scan.egg-info/PKG-INFO
+src/naruno_scan.egg-info/SOURCES.txt
+src/naruno_scan.egg-info/dependency_links.txt
+src/naruno_scan.egg-info/entry_points.txt
+src/naruno_scan.egg-info/not-zip-safe
+src/naruno_scan.egg-info/requires.txt
+src/naruno_scan.egg-info/top_level.txt
+src/scan/__init__.py
+src/scan/gui.py
+src/scan/scan.py
+src/scan/assets/favicon.png
+src/scan/assets/icons/loading-animation.png

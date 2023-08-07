@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: naruno_scan
+Version: 0.1.1
+Summary: Scan website for Naruno
+Home-page: https://github.com/Naruno/scan
+Author: Onur Atakan ULUSOY
+Author-email: onur.atakan.ulusoy@naruno.org
+License: MPL-2.0
+Description: # Naruno Scan
+        This is a simple website that build withj `flet` and `KOT` modules. It's show the situation of Naruno's network.
+        
+        ## Contributing
+        Contributions to Scan are welcome! If you have any suggestions or find a bug, please open an issue on the GitHub repository. If you want to contribute code, please fork the repository and create a pull request.
+        
+        ## License
+        Scan is released under the MPL-2.0 License.
+        
+Platform: UNKNOWN
+Requires-Python: >= 3
+Description-Content-Type: text/markdown
