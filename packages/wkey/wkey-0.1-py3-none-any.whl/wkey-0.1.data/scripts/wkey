@@ -1,0 +1,3 @@
+#!python
+from wkey.wkey import main
+main()

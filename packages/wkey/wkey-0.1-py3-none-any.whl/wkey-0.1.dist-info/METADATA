@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wkey
+Version: 0.1
+Summary: Integrate OpenAI speech-to-text Whisper with your keyboard
+Home-page: https://github.com/vlad-ds/whisper-keyboard
+Author: Vlad Gheorghe
+Author-email: vlad.datapro@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: openai (==0.27.8)
+Requires-Dist: pynput (==1.7.6)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: scipy (==1.8.0)
+Requires-Dist: sounddevice (==0.4.6)
+
+UNKNOWN
+
