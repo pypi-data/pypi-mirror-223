@@ -1,0 +1,2 @@
+[console_scripts]
+mrslpred = mrslpred.python_scripts.mrslpred:main
