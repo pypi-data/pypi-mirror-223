@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.py
+study.py
+pakagesdist/__init__.py
+pakagesdist/tool.py
+pakagesdist.egg-info/PKG-INFO
+pakagesdist.egg-info/SOURCES.txt
+pakagesdist.egg-info/dependency_links.txt
+pakagesdist.egg-info/top_level.txt
