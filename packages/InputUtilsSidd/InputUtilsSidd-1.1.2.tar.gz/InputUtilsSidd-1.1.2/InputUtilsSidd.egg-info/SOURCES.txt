@@ -1,0 +1,6 @@
+README.md
+setup.py
+InputUtilsSidd.egg-info/PKG-INFO
+InputUtilsSidd.egg-info/SOURCES.txt
+InputUtilsSidd.egg-info/dependency_links.txt
+InputUtilsSidd.egg-info/top_level.txt
