@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+PteroDark/__init__.py
+PteroDark/main.py
+PteroDark.egg-info/PKG-INFO
+PteroDark.egg-info/SOURCES.txt
+PteroDark.egg-info/dependency_links.txt
+PteroDark.egg-info/requires.txt
+PteroDark.egg-info/top_level.txt
