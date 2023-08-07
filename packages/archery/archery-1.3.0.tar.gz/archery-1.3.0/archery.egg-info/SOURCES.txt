@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+README.txt
+consistent_algebrae.py
+setup.py
+archery/__init__.py
+archery/barrack.py
+archery/bow.py
+archery/quiver.py
+archery/test_archery.py
+archery/test_fun.py
+archery/trait.py
+archery.egg-info/PKG-INFO
+archery.egg-info/SOURCES.txt
+archery.egg-info/dependency_links.txt
+archery.egg-info/top_level.txt
