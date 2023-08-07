@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: hydrazine
+Version: 0.0.1
+Summary: Filesystem handling utilities
+Author-email: "Julian M. Kleber" <julian.m.kleber@gmail.com>
+Project-URL: Homepage, https://www.codeberg.org/cap_jmk/amarium.git
+Project-URL: Bug Tracker, https://www.codeberg.org/cap_jmk/amarium.git/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hydrazine
+
+[![status-badge](https://ci.codeberg.org/api/badges/cap_jmk/hydrazine/status.svg)](https://ci.codeberg.org/cap_jmk/hyrdazine)
+[![Downloads](https://static.pepy.tech/personalized-badge/hydrazine?period=total&units=international_system&left_color=orange&right_color=blue&left_text=Downloads)](https://pepy.tech/project/hydrazine)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL_v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![Python Versions](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11%20%7C-blue)
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+[![PyPI - Version](https://img.shields.io/pypi/v/hydrazine.svg)](https://pypi.org/project/hydrazine)
+
+
+![hydrazine](hydrazine.png)
+
+**Table of Content**
+
+<!-- TOC -->
+- [hydrazine](#hydrazine)
+  - [1. Why](#1-why)
+  - [2. What](#2-what)
+  - [3. Usage](#3-usage)
+<!-- /TOC -->
+
+## 1. Why
+
+Through mostly client work I found it useful to have something to quickly interact with relational databases or any databases. 
+I preferred to use PostgreSQL which was nice pre war. Now, I am not so sure what to use best, but the package will grow accordingly.
+
+## 2. What
+
+Small package with a collection of functions frequently used to interact with databases (making the interaction easier). 
+
+## 3. Usage
+
+Please refer to the `tests/` directory for examples of the functions and their usage
+
