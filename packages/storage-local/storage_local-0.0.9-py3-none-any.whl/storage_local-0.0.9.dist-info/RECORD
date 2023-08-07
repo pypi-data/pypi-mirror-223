@@ -1,0 +1,14 @@
+circles_local_aws_s3_storage_python/AWSStorage.py,sha256=jfitM7CdIoQ-an28h34STn7LLojzUUVWsBdu_GAjLmI,1848
+circles_local_aws_s3_storage_python/CirclesStorage.py,sha256=JDCulTUeSWUadOaoXFjp8h-RMLyd0t73BQUrt7zmex0,3798
+circles_local_aws_s3_storage_python/FileTypeDB.py,sha256=tZVBUyoSAOnC6uxY6bgWF6XxJo8kaIqduuqbH2yG9VE,591
+circles_local_aws_s3_storage_python/StorageDB.py,sha256=mdJ4-ylibq3wZd0SAFtIYQfgeJ-3LyYdHz2CfB_fWsk,2630
+circles_local_aws_s3_storage_python/StorageInterface.py,sha256=5s-h1Bca4VGk610p4HJ_VbP-m8h5GPFp5cj--iqC0ks,557
+circles_local_aws_s3_storage_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circles_local_aws_s3_storage_python/constants.py,sha256=JS0yC5tfFVGttnpxg5ae8kdtIPva-bdl7IiTuODBKvI,171
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_S3.py,sha256=Q47w3opcu302sQInFqh49QSDrfeo9cwa0gLUe0inPAM,1580
+tests/test_circles_storage.py,sha256=3AYckuol0kFbf2J4Vin3Qt5GNlKEFywRkrtpmO4jJBw,2082
+storage_local-0.0.9.dist-info/METADATA,sha256=rsrVGEZL563S7Q54ZXPKomvxOVnxDgy_xIQgjAIbhI4,466
+storage_local-0.0.9.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+storage_local-0.0.9.dist-info/top_level.txt,sha256=FQwb2ppP35WNraUwLnYMMpwemQJGtH8d_YAeDI1Z3ek,42
+storage_local-0.0.9.dist-info/RECORD,,
