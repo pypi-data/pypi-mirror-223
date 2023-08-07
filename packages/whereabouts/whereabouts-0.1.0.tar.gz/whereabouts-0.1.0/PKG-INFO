@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: whereabouts
+Version: 0.1.0
+Summary: 
+Author: alex2718
+Author-email: ajlee3141@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: duckdb (==0.7.1)
+Requires-Dist: fastparquet (>=2023.7.0,<2024.0.0)
+Requires-Dist: lxml (>=4.9.2,<5.0.0)
+Requires-Dist: openpyxl (>=3.1.1,<4.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: pyarrow (>=12.0.1,<13.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: scipy (>=1.11.1,<2.0.0)
+Requires-Dist: tqdm (>=4.64.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Whereabouts
+Fast, scalable geocoding for Python using an embedded database
+
+## Description
+Geocode addresses and reverse geocode coordinates with a simple, fast package. No additional database setup required. Currently only working for Australian data.
+
+## Requirements
+- Python 3.8+
+- Poetry (for package management)
+
+## Installation
+Once Poetry is installed and you are in the project directory:
+
+```
+poetry shell
+poetry install
+```
+
+Download the latest version of the GNAF
+```
+python download_gnaf.py
+```
+
+And setup the geocoder. This creates the required reference tables, etc.
+```
+python setup_geocoder.py
+```
+
+## Examples
+
