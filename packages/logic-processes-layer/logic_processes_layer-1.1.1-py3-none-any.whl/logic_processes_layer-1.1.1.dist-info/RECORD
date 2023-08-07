@@ -1,0 +1,17 @@
+logic_processes_layer/__init__.py,sha256=9Pua37D6JuheQOyf3lQ29-Zi_XwN-dlFp9CNUL_NX6Y,128
+logic_processes_layer/context.py,sha256=3l15Envz5JU4aoJ_LP0e0nDQKrXqd0LElO6GEQ-CKvM,230
+logic_processes_layer/decorators.py,sha256=1WIB8AWTZaZpz27k-hFuv-jL5huYFX9LhwHBpXJhvrU,1003
+logic_processes_layer/meta.py,sha256=4lXeRsrfj65Z-EvjUFjMBBDZ3bsgZN8QStK3k80xIDE,342
+logic_processes_layer/processors.py,sha256=SWkyLoWUXCGldenLirZVdUBEtvbFxk2haGKIcKpDAfc,667
+logic_processes_layer/results.py,sha256=gU4tGSy_ywTQe8lOuFw0TrLiCspKZGtKA_nTLfLSIXI,301
+logic_processes_layer/structures.py,sha256=j9RbZK_8Y1G79qXexD-Ur5vNQfxGAhTIxW93mNYu5j8,122
+logic_processes_layer/sub_processors.py,sha256=OUCqGCxZmBRwoh5u7uwcRp1LdpJaEgR7vrhA-87Pxcc,360
+logic_processes_layer/abc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logic_processes_layer/abc/abc_chain.py,sha256=WdI_8qfrvDqlyZHH44zxAafiT2wgZTTdN6S8kQMv88c,685
+logic_processes_layer/abc/abc_mapper.py,sha256=naXIQRDxrAgDkbzSSSXN5JXeM7jbTobYtSZZkbAfZVs,428
+logic_processes_layer/abc/abc_pipeline.py,sha256=2oFb7JS84BE--3E0J8URREwhuQ2c3dbhRUyDOQdB2D0,919
+logic_processes_layer-1.1.1.dist-info/LICENSE,sha256=OQkfw1HLUO5RY9wjyP05OFWCq7e-EeEyohzhiVaBh2s,1073
+logic_processes_layer-1.1.1.dist-info/METADATA,sha256=ozQ1y8nNH272_f7D6eAENQoPMcgPPM--j8RcGbiwIWM,8980
+logic_processes_layer-1.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+logic_processes_layer-1.1.1.dist-info/top_level.txt,sha256=8VXprBBdw8MXHnL8t5CzC6_nK27iKv9UFR5UEAe74_k,22
+logic_processes_layer-1.1.1.dist-info/RECORD,,
