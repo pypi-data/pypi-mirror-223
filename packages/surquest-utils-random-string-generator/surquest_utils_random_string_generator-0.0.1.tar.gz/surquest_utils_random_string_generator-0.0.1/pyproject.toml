@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "surquest-utils-random-string-generator"
+version = "0.0.1"
+description = "Randimizer generates timstamped unique random strings with minimal collision probability."
+authors = [
+    {name= "Michal Švarc", email= "michal.svarc@surquest.com"}
+]
+readme = "README.md"
+
+[project.optional-dependencies]
+test = [
+    "pytest==7.2.1",
+    "pytest-cov==4.0.0",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/surquest/python-random-generator"
+"Bug Tracker" = "https://github.com/surquest/python-random-generator/issues"
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+"scripts" = "surquest"
+
+[tool.hatch.build.targets.sdist.sources]
+"src" = ""
+"scripts" = "surquest"
