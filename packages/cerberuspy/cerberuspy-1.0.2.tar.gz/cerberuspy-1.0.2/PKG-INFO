@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cerberuspy
+Version: 1.0.2
+Summary: Клиент для использования API ИС "Цербер".
+Home-page: https://github.com/CerberusOSINT/cerberuspy
+Author: iscerberus
+Author-email: support@iscerberus.ru
