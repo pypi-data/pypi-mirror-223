@@ -1,0 +1,8 @@
+setup.py
+pkl/__init__.py
+pkl/pkl.py
+starco_pkl.egg-info/PKG-INFO
+starco_pkl.egg-info/SOURCES.txt
+starco_pkl.egg-info/dependency_links.txt
+starco_pkl.egg-info/requires.txt
+starco_pkl.egg-info/top_level.txt
