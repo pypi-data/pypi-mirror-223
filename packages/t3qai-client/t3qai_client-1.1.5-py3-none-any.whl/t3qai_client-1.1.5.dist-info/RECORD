@@ -1,0 +1,8 @@
+t3qai_client/__init__.py,sha256=77s_ELw_PXqJY82x2hWn6OU8CDZCxKdvtN5wsvP7xIY,1639
+t3qai_client/t3qai_helper.py,sha256=jbIhutp9HW-hlE8WKuW7eCm3B_OdO01vs6TNlzejEQI,23381
+t3qai_client/t3qai_serving.py,sha256=WCIYgBqIaO0tb9swzwqPufpLMGflGSerFFohqK6RJ8w,6417
+t3qai_client-1.1.5.dist-info/LICENSE-2.0.txt,sha256=thx4yBYMK9EojcuEfGeSPZ4xsnPVNBR8XYMtziBGiWI,11533
+t3qai_client-1.1.5.dist-info/METADATA,sha256=wbsFOwlr3h8Y1RxbJITwQyKYUfYPWBDFL620QlwKNyo,2850
+t3qai_client-1.1.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+t3qai_client-1.1.5.dist-info/top_level.txt,sha256=-peQr4CAunIVn62-N5YE4UpLbZJ76mWPDOJGcy36mN8,13
+t3qai_client-1.1.5.dist-info/RECORD,,
