@@ -1,0 +1,16 @@
+boopy/__init__.py,sha256=TC6Be1DYOX2P0wjroV4PoZFFj9Mg6MOGMPsKQidOjqQ,450
+boopy/interest_rate.py,sha256=NMplXuiweMyft8sWcS7RUGQXM0hOi9coeH_TxwJa_JE,1723
+boopy/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boopy/helpers/deposit_helper.py,sha256=KmiLb8NWiVZuuL4EQijC2QzrC3-8moi7Drqse4x9l4g,3404
+boopy/helpers/fra_helper.py,sha256=isi0slThWTTOlNe0L2h8VTpQIltkkSz6P07n4n8TrfQ,3983
+boopy/helpers/interest_rate_helper.py,sha256=HesDsPa9ETVjTsQKVjKw_42ehFmW1TRSwXfEVUyi6B4,969
+boopy/helpers/swap_helper.py,sha256=bI1lktaZNzymPh1yrGlad2SxkikVbTvmb3CO0RDZaIo,4130
+boopy/time/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+boopy/time/frequency.py,sha256=-c2oHfEWvrn_Put8bjRFlxPS3VmZmHacou71FH42lY0,254
+boopy/time/period.py,sha256=PFXj3OLjOVM2sb6QsLE5YoSPMO2Nu8DYND0TEEvJR2U,738
+boopy/time/schedule.py,sha256=goNRzV3pvjiFh1k69hc2hWyqU61SO02y_Hzq9tnyUxU,5151
+boopy-0.1.1.dist-info/LICENSE.txt,sha256=ZggDEO2M7p9FGmOH6GqG7C-ChkWSdR0P67ZS9Au-j9w,1077
+boopy-0.1.1.dist-info/METADATA,sha256=P4_MlXjl44Y68TBirhqnb4DTh3y6XV6LAALdQnH2Gk4,414
+boopy-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+boopy-0.1.1.dist-info/top_level.txt,sha256=_uT5r-mHiNkGoz-_xyfq2k4mDoopWZwAW7QFI3w78jY,6
+boopy-0.1.1.dist-info/RECORD,,

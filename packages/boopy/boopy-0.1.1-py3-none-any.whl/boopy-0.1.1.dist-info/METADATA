@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: boopy
+Version: 0.1.1
+Summary: An educational package for construction of fixed income yield curves.
+Home-page: https://github.com/Xiar-fatah/boopy
+Author: Xiar Fatah
+Author-email: xiar.fatah@gmail.com
+Keywords: term structure,bootstrapping,yield curves,finance
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: dateutil >=2.8.2
+
+# bootstrapy
