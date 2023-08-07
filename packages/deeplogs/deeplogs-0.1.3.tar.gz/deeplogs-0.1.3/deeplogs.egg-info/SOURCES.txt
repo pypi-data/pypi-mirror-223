@@ -1,0 +1,13 @@
+README.rst
+setup.py
+deeplogs/__init__.py
+deeplogs/_colors.py
+deeplogs/_version.py
+deeplogs/bar.py
+deeplogs/logger.py
+deeplogs/reader.py
+deeplogs.egg-info/PKG-INFO
+deeplogs.egg-info/SOURCES.txt
+deeplogs.egg-info/dependency_links.txt
+deeplogs.egg-info/requires.txt
+deeplogs.egg-info/top_level.txt
