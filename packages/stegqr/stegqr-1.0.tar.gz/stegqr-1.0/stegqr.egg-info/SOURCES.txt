@@ -1,0 +1,9 @@
+README.md
+setup.py
+stegqr/__init__.py
+stegqr/a.py
+stegqr.egg-info/PKG-INFO
+stegqr.egg-info/SOURCES.txt
+stegqr.egg-info/dependency_links.txt
+stegqr.egg-info/requires.txt
+stegqr.egg-info/top_level.txt
