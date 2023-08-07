@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: verma
+Version: 0.0.6
+Summary: Version Manager. CLI tool to help you manage your package versioning.
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# VerMa
+
+Version Manager. CLI tool to help you manage your package versioning.
