@@ -1,0 +1,8 @@
+tai_aws_account_bootstrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tai_aws_account_bootstrap/base_stack.py,sha256=nD0JxW_UQhxBYEGOKh-QwjWqgs4Gln63fhhBiwCMYQA,875
+tai_aws_account_bootstrap/bootstrap_stack.py,sha256=sDZ2Y06KVbRyep90ZTWn6Gx6RJ8eTsHeahkEpd3nj2s,2607
+tai_aws_account_bootstrap/stack_config_models.py,sha256=pIgp_0sChL9ZMqTGi1N7cF70xSOHU-SRMg-4nEVp1HM,7396
+tai_aws_account_bootstrap/stack_helpers.py,sha256=WRqE-1cIV8ejVyP_MLidH7VVIKpkyP6ovHmDMsdiDac,2287
+tai_aws_account_bootstrap-0.0.1.dist-info/METADATA,sha256=Q4dpuSv6sxRs5g8PlVSb2eG5aeUvFYzPNH0ropWU-mc,1226
+tai_aws_account_bootstrap-0.0.1.dist-info/WHEEL,sha256=HNQIvPlX3_ghCv6ljjG1vnIF6Npwq1SIN8tJybrRXEo,92
+tai_aws_account_bootstrap-0.0.1.dist-info/RECORD,,
