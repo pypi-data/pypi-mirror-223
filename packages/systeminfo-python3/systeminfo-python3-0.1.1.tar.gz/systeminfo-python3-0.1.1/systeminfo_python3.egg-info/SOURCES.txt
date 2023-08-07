@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+Systeminfo/__init__.py
+Systeminfo/system_Info.py
+systeminfo_python3.egg-info/PKG-INFO
+systeminfo_python3.egg-info/SOURCES.txt
+systeminfo_python3.egg-info/dependency_links.txt
+systeminfo_python3.egg-info/requires.txt
+systeminfo_python3.egg-info/top_level.txt
