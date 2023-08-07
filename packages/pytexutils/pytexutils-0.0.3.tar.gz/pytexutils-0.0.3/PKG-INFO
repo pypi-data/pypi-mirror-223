@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pytexutils
+Version: 0.0.3
+Summary: LaTeX Utils
+Home-page: https://github.com/alessandrosebastianelli/latex-utils.git
+Author: Alessandro Sebastianelli
+Author-email: alessandro.sebastianelli1995@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
