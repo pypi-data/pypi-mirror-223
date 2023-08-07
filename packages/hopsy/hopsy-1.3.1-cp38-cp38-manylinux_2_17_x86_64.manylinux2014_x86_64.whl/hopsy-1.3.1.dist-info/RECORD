@@ -1,0 +1,11 @@
+hopsy-1.3.1.dist-info/RECORD,,
+hopsy-1.3.1.dist-info/LICENSE,sha256=Tig4qSde8KVxBx5UklpmadGlYVZMUqrYmgc_YJFCVLM,1083
+hopsy-1.3.1.dist-info/METADATA,sha256=j4c7EcfalSEK-qd-skYi3UMLxVuhsZhYFdAK1rqHPQA,6275
+hopsy-1.3.1.dist-info/WHEEL,sha256=rDUefIFtGcA81ymfoPYNtSupHpq4wF02pg2_A6WRPq0,148
+hopsy-1.3.1.dist-info/top_level.txt,sha256=g8QfGHQq4nGbh4Dk-sKfsQp5tf7AWb9UmrgF-fGuJik,17
+hopsy/core.cpython-38-x86_64-linux-gnu.so,sha256=8Yv76OxMZmg2DXd1H0Sc6cp47AHIS7c1UTmspm9Jm_Y,2170160
+hopsy/__init__.py,sha256=oN61PVypredSXcO53zuaSLiJ02aJVlMaaqtkaoDl4VQ,191
+hopsy/misc.py,sha256=dHv4Q8kEZoaIu-xcV5cY6d1bSnGjZwnga3m-z29BgJ0,36263
+hopsy/lp.py,sha256=ZazBReAhCExg8Fv7UwDV-kexp6fD-ylis6OEmDjCHMk,1083
+hopsy/examples.py,sha256=1FmmbeAr9fa6V1wIv-p7n-lfZcVf229761TNTg5hVyI,2454
+hopsy/callback.py,sha256=actsei7qlT2ZL0WEqKKK35hCXNWiRcSnQAY6jG6vktA,5950
