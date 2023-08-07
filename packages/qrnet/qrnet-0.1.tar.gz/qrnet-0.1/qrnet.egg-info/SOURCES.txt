@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+qrnet.py
+setup.py
+qrnet.egg-info/PKG-INFO
+qrnet.egg-info/SOURCES.txt
+qrnet.egg-info/dependency_links.txt
+qrnet.egg-info/entry_points.txt
+qrnet.egg-info/requires.txt
+qrnet.egg-info/top_level.txt
