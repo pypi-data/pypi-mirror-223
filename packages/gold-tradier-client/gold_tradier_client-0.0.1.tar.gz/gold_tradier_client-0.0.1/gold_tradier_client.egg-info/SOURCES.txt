@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+gold_tradier/__init__.py
+gold_tradier_client.egg-info/PKG-INFO
+gold_tradier_client.egg-info/SOURCES.txt
+gold_tradier_client.egg-info/dependency_links.txt
+gold_tradier_client.egg-info/top_level.txt

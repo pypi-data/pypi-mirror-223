@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gold_tradier_client
+Version: 0.0.1
+Summary: A Tradier client for trading stocks and options through Tradier API
+Author-email: Tony Wang <ivytony@gmail.com>
+Project-URL: Homepage, https://github.com/rcholic/gold_tradier_client
+Project-URL: Bug Tracker, https://github.com/rcholic/gold_tradier_client/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# gold_tradier_client
+Tradier client in python for trading stocks and options through Tradier API
