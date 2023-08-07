@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__main__.py,sha256=QHwLGXXDRdoCRnpZM8kyTkvrZBxMy8lXO2arJXWkkIc,4373
+src/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/utils/delete.py,sha256=UjuKVKxJZvftN-p2Z5xIT5CvaPLZDA_CtnkTT0zsdb0,2000
+src/utils/upload.py,sha256=85B3CGr3109RV8tVk-S5z_FI6pMQR-K8ixMmCNf0fiY,3923
+src/utils/utils.py,sha256=r2DWS2lc7QuJMVEzE981tiu7PWs-bmqSph2WbIMQ5YY,3814
+cloudflare_gateway_adblocking-0.1.0.dist-info/LICENSE,sha256=pe8Rn2YFX4cCvvE_2w5UbT4VVbra07B9qnUo59EMsKA,1061
+cloudflare_gateway_adblocking-0.1.0.dist-info/METADATA,sha256=6VHEH8n0xTSvMV_iSEQd_P1zzD35qKxzVttyubpSOMo,3420
+cloudflare_gateway_adblocking-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cloudflare_gateway_adblocking-0.1.0.dist-info/entry_points.txt,sha256=90411_dha76bmisFL2CsETetSGADT9Vpw2ltGu7AZkA,67
+cloudflare_gateway_adblocking-0.1.0.dist-info/RECORD,,
