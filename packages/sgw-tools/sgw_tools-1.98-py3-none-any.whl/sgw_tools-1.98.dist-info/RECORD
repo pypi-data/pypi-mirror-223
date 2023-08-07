@@ -1,0 +1,12 @@
+sgw_tools/__init__.py,sha256=AJyb8g7ZfHCG_uDzHYWhuGeLWTPHD81p3h_iJm3mYtM,12449
+sgw_tools/filters.py,sha256=2nVpf3N11QjRK4cI-g459uNlgqu9A-wR--hE3gSACUk,2687
+sgw_tools/graph.py,sha256=o9DsN9lKT68qs-manMblD4RDfxmxR09N1cmnLzW4rlg,19261
+sgw_tools/graphs.py,sha256=--t6F8HpbSyRZHD3sgvW81wiJJDmfhCC25qyUIlmpOA,5379
+sgw_tools/util.py,sha256=RG26ueLepaGyIn-BMq7oXiRvXyV17Tya-sOqL7B21IU,4686
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_biggraph.py,sha256=iC4Bkq1wjDZxQ1f08gNxsE-tD0fiPy1fJftGMDKO_Eo,17924
+sgw_tools-1.98.dist-info/LICENSE,sha256=099mqe41kLZK1dWAe4jjVyvGeapiduCuAYl8h1RedSk,1065
+sgw_tools-1.98.dist-info/METADATA,sha256=nixIK0hS-kaO_WkfEZVP7cWz2awKJfMR2mAlzV8ttaE,787
+sgw_tools-1.98.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+sgw_tools-1.98.dist-info/top_level.txt,sha256=LPCunqtSDC7lXLSJoxIqISwSfI7eb8quJRhUxpR6vhI,16
+sgw_tools-1.98.dist-info/RECORD,,
