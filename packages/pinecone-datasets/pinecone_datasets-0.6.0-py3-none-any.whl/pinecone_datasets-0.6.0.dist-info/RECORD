@@ -1,0 +1,9 @@
+pinecone_datasets/__init__.py,sha256=V-98VU23y7Km9NdTdnok40XPPspEBs3obWZ6m4ho5mE,221
+pinecone_datasets/catalog.py,sha256=S7QQxet_bDYRQ8AWMlUOxP_4PgZRwSg4AErR9cdl16Q,3471
+pinecone_datasets/cfg.py,sha256=5-qeLxsKDMn6RP-kFXIHsYMB-7o75PinBEowYdJDE3A,1185
+pinecone_datasets/dataset.py,sha256=w-rGy9W4mc1gWfA6nkidnST9O-T4hSxKBi6JOz22NQQ,24775
+pinecone_datasets/fs.py,sha256=VzthT-DclumgR2_f1NMwCF2Zit-MDY059Jz9OsiY_OY,969
+pinecone_datasets/public.py,sha256=33HOcBejp-A1erayamzj_IphkBNDCVxHH4PYI34U0Zw,1657
+pinecone_datasets-0.6.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pinecone_datasets-0.6.0.dist-info/METADATA,sha256=-Mkzhbl6RNzjZ7Y46SApQMjFNeA5mwWDvHZAymif0GA,11343
+pinecone_datasets-0.6.0.dist-info/RECORD,,
