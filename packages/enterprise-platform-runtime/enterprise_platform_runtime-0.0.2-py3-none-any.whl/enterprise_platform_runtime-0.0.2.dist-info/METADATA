@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: enterprise-platform-runtime
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cloudpickle
+Requires-Dist: httpx
+Requires-Dist: pydantic (==1.10.10)
+
+UNKNOWN
+
