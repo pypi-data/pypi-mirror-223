@@ -1,0 +1,13 @@
+filelock
+huggingface-hub<1.0,>=0.1.0
+datasets
+numpy>=1.17
+torch>=1.0
+packaging>=20.0
+pyyaml>=5.1
+regex
+requests
+tokenizers!=0.11.3,>=0.11.1
+transformers>=4.22.0
+tqdm>=4.27
+nltk

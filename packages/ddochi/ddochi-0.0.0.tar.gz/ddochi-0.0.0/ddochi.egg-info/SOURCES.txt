@@ -1,0 +1,8 @@
+README.md
+setup.py
+ddochi.egg-info/PKG-INFO
+ddochi.egg-info/SOURCES.txt
+ddochi.egg-info/dependency_links.txt
+ddochi.egg-info/not-zip-safe
+ddochi.egg-info/requires.txt
+ddochi.egg-info/top_level.txt
