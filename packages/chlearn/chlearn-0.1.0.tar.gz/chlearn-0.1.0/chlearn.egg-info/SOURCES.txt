@@ -1,0 +1,11 @@
+LICENSE.txt
+setup.cfg
+setup.py
+chlearn/__init__.py
+chlearn/improving_naive_bayes.py
+chlearn/topsis.py
+chlearn.egg-info/PKG-INFO
+chlearn.egg-info/SOURCES.txt
+chlearn.egg-info/dependency_links.txt
+chlearn.egg-info/requires.txt
+chlearn.egg-info/top_level.txt
