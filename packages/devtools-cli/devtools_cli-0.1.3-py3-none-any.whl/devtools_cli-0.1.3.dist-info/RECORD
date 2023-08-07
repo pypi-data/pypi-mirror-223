@@ -1,0 +1,17 @@
+devtools_cli/__init__.py,sha256=A3FU8p6WiBLYpT7vNzY1o3sg74PRtDdTfqseIiS6TzE,294
+devtools_cli/commands/__init__.py,sha256=A3FU8p6WiBLYpT7vNzY1o3sg74PRtDdTfqseIiS6TzE,294
+devtools_cli/commands/info/__init__.py,sha256=A3FU8p6WiBLYpT7vNzY1o3sg74PRtDdTfqseIiS6TzE,294
+devtools_cli/commands/info/main.py,sha256=eNUhWm4oexJaHzINGccELJnqgDbEw0GmN8iR0Fb-l5I,1724
+devtools_cli/commands/license/__init__.py,sha256=A3FU8p6WiBLYpT7vNzY1o3sg74PRtDdTfqseIiS6TzE,294
+devtools_cli/commands/license/header.py,sha256=F3l2y9L4-aMmFVpojIzPA5LoOngXoFesVxRarzuboYI,8027
+devtools_cli/commands/license/helpers.py,sha256=JPYAu8nZmf_HrzTE_eXfVmToJi6IW76FEmGPvUfPucM,11012
+devtools_cli/commands/license/main.py,sha256=A3pFUEX8ZecpO-HINleKo7VTUWo8pdBek5Sa3q_Mhsw,7234
+devtools_cli/commands/license/models.py,sha256=WdzUvLh2P-EQzO4_T9Z4LP_odLSJGlxCbkon1Yrm5kY,2347
+devtools_cli/main.py,sha256=3xmYA9QJxmGTw9FGNxC-QTXqsSKsSTC3YNIeZppkRUI,1007
+devtools_cli/models.py,sha256=JkPCsAcOpi4JiGGQxL0GE77PCVGLVq_RmihtfSakmwQ,1810
+devtools_cli/utils.py,sha256=0uRgG5pyM3UtYHnqaIRuvE1E3J7jAwEwyFzERhcy4Q8,8089
+devtools_cli-0.1.3.dist-info/LICENSE,sha256=aDLKkqzcFu3C4QgL5Zef33ScaEuC74X-CIfw0LLDfgo,1074
+devtools_cli-0.1.3.dist-info/METADATA,sha256=dybbn9gGOXECaCPtYTw3fLLiN9mr9o2E3AtWC6X3ETU,1537
+devtools_cli-0.1.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+devtools_cli-0.1.3.dist-info/entry_points.txt,sha256=Yg0uBR1d4fhJ61vqblWVUHrBZYTlyK8lQGQ06hY1z1k,93
+devtools_cli-0.1.3.dist-info/RECORD,,
