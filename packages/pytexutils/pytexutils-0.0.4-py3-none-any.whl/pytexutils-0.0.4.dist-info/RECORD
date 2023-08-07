@@ -1,0 +1,14 @@
+pytexutils/__init__.py,sha256=C2aH0Pgqg8cUUtYzG21E9-jIAvCCtI7ZRO7ev_TZBYc,192
+pytexutils/figures/__init__.py,sha256=ZShCiztMX9Kav4gDsleOuTVKgOuF_xku11GrN9kgJf4,111
+pytexutils/figures/make_image.py,sha256=nvpe0gX4_QBgfAGJz-9LdbwdDAoezUe_gzoZlg67sE4,1879
+pytexutils/figures/make_tabular_image.py,sha256=D3X9Mpi_wh_zr5d7JUqjH16NkDvL_l1nMd2X3CGFUP8,2506
+pytexutils/tables/__init__.py,sha256=aCidoYpko83ZWffGmQ0Kz_RbmSYq4bsBxVrMbKLrskE,76
+pytexutils/tables/make_table.py,sha256=7l3rtkxAEGLF6ZJanGA6lj8-QUDbKDfsc1Z32ZUXvaY,3715
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_make_figure.py,sha256=8wJetunwnI-QFVAXzPPtnfs0dlsbNx0yuxYgQt0QBaU,878
+tests/test_make_table.py,sha256=3_k7nZnK7OU78z-eDVYNE6dFM7h41VY2IZ9vME8HmWY,679
+pytexutils-0.0.4.dist-info/LICENSE,sha256=u8ZMamdEWmUi39duyC0momwkUgQ8eBGglNHzcKmzhpI,1072
+pytexutils-0.0.4.dist-info/METADATA,sha256=c33gIFcE1QR0C2CCKf2DK6Wc775QyqW6YrX_pNqe1_k,2748
+pytexutils-0.0.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pytexutils-0.0.4.dist-info/top_level.txt,sha256=YhIO9BxUdirTX9w1qt2M0Nd2JUWHCMV06N1DUa8bf_U,17
+pytexutils-0.0.4.dist-info/RECORD,,
