@@ -1,0 +1,11 @@
+setup.py
+pysesh/__init__.py
+pysesh/env.py
+pysesh/main.py
+pysesh/session.py
+pysesh.egg-info/PKG-INFO
+pysesh.egg-info/SOURCES.txt
+pysesh.egg-info/dependency_links.txt
+pysesh.egg-info/entry_points.txt
+pysesh.egg-info/requires.txt
+pysesh.egg-info/top_level.txt
