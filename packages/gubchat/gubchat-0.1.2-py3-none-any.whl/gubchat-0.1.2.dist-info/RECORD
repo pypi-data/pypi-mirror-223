@@ -1,0 +1,11 @@
+gubchat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gubchat/gubchatapp.py,sha256=mBHu2OfGacZTxYMVcGFdI1T8oj6tLTNjSDBMoReCpTo,12207
+gubchat/main.py,sha256=3iOBR2s9_nK3HfijD-VOUOEjBecFu6Ge4U1B1494r10,572
+gubchat/twitch_websocket.py,sha256=O9YK6YMy3D3n9boqarMEymFw0wCzHKE50PQSNXO8eXU,3001
+gubchat/user_auth.py,sha256=4QB_6Pn-6GLdv86GKGigxpLlAjIwNsJcUgdYO2tIN00,3355
+gubchat-0.1.2.dist-info/LICENSE,sha256=HB0Ja8BskhG1advEPOHXtkKER_-Be9r4XgkHWxmBNxo,1071
+gubchat-0.1.2.dist-info/METADATA,sha256=GSfefzQI0uAHFaJ0A7kkpWC9O5gct-Fkmeiakl8mlM0,683
+gubchat-0.1.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+gubchat-0.1.2.dist-info/entry_points.txt,sha256=4A5fP0SGsjuFAKVIRNwO9oFmYxBtf2t2n0zeLvBxA_I,46
+gubchat-0.1.2.dist-info/top_level.txt,sha256=7OMadovqjiyrhSp0ajYOKiYwkVpQCoy90iS-jmX1DnQ,8
+gubchat-0.1.2.dist-info/RECORD,,
