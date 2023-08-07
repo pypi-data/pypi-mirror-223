@@ -1,0 +1,13 @@
+ribbit/__init__.py,sha256=a2-vxA6YzWkkJh3dYufnfzdy9K4bk8SkyKGBU0Ndnf8,60
+ribbit/gradcheck.py,sha256=4z344QlW8zn8tDB02pMPWtAoxbu_mW0B8sMaw1JELAY,2419
+ribbit/nn.py,sha256=_65Y6S0W4-XsLVwP87RShNsw9bMSpiLwY8wojRe40eI,1881
+ribbit/ops.py,sha256=gLhJftq75txejn1Fw8nlPbzrMuOeYmdgB5DDsUcBXfY,14381
+ribbit/ops_gpu.py,sha256=rSsz5LZtp3UAfs7H_Fj6Y_oiQCAu8M5uNPI8c4n8R44,12902
+ribbit/optim.py,sha256=4HYSiQVZ0yNbuLc2uV4N2p7pIV3VP6vWkj8BnOB7P6s,2451
+ribbit/tensor.py,sha256=JV1anB3kXOXlWou6SApnHwWJUrETQw4gdlQE2prkIjQ,7723
+ribbit/utils.py,sha256=AUhdO3NzRsZPUHEzXGgXd8afXOF-JpeJiIPacz7wNXk,3151
+froog-0.2.3.dist-info/LICENSE,sha256=k_856uNmcNUoLC_HkI18c1WomqvQ1Ioqk6gwYfWQiaM,31
+froog-0.2.3.dist-info/METADATA,sha256=2hZi_Cho-9_Y9MEev_8XWi7DrwCZXSTk6q4h2EJcb34,2723
+froog-0.2.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+froog-0.2.3.dist-info/top_level.txt,sha256=iLplEBZAEib1ca6Oq3OylMpWv4pQhhBgCiibxfvFsVg,7
+froog-0.2.3.dist-info/RECORD,,
