@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scidmcli"
+authors = [
+    {name = "WeiYu", email = "wychen@narlabs.org.tw"},
+]
+description = "NCHC SciDM"
+readme = "README.rst"
+requires-python = ">=3.6"
+keywords = ["ckan"]
+license = {text = "apache2"}
+classifiers = [
+    "Topic :: Database :: Front-Ends",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "ckanapi",
+    "requests",
+    "hashlib",
+    "os",
+    "configparser"
+]
+dynamic = ["version"]
+
+[project.scripts]
+my-script = "scidmcli:main"
