@@ -1,0 +1,17 @@
+i_saas_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i_saas_utils/ansible/__init__.py,sha256=N6rhq531miA1r1EvWS1n13RL8ZSFpD1NB9qx46WtpZ8,28
+i_saas_utils/ansible/ansibl.py,sha256=_oUA722AeiAhWSAdZlGohv5X-VVyBgBTPqd_7gu8dow,517
+i_saas_utils/git/__init__.py,sha256=VCULfq3qDch75Q7J3Sx4B_NAV7JVkQKg9LGHxOhoJBA,87
+i_saas_utils/git/git.py,sha256=Tyf_Ftd-uwuXVwpAgOWRJs59PlgAhJxC1Zn8aJ4ExHU,494
+i_saas_utils/git/git_project.py,sha256=UJyMNGc8oviuubKNAFg0ax1reD61QqckWqTWWjMd2sY,1333
+i_saas_utils/git/git_repo.py,sha256=buASjnavVzMZueyA5IVKFcFGrmLJP-8wBTfJPINcSCg,1402
+i_saas_utils/k8s/__init__.py,sha256=LxCgcceiMRFEzwijoY-YXnpIkXQScyOzkGQ4b17VT9Y,23
+i_saas_utils/k8s/kube.py,sha256=_4D7EYufZgY49DpHVJD12n_OVEJc0sA_JW82nPOaaq8,916
+i_saas_utils/saas/__init__.py,sha256=HvjHIwvuQVD2mK-EY8VPfHA0xZGeD0mOMy50HVse7Oo,175
+i_saas_utils/saas/saas.py,sha256=RkEI7t-vG_z39PXde7noD9xgkCDs6FhrxMLrtBrJIGk,3235
+i_saas_utils/templates/__init__.py,sha256=O7CWZfMGqCkgn1NyJe1sNQBo_Zr7q_S2-67smdvU-Ac,57
+i_saas_utils/templates/render.py,sha256=OSyg_SVJygsi0fahv7cS_kVhNLVBsm0NbQISQzWvDwg,682
+i_saas_utils/types/__init__.py,sha256=Br_5Otm9LSdQaYWc202M4qNioZ_lFVJ3tfatcuYUIKg,107
+i_saas_utils-0.1.6.dist-info/METADATA,sha256=EcNPze-jVIRLoxWyUv41nu45k7O5_HJpcOUolVgkDbc,6765
+i_saas_utils-0.1.6.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+i_saas_utils-0.1.6.dist-info/RECORD,,
