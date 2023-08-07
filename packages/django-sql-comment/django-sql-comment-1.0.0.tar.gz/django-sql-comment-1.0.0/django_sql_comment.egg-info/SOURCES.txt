@@ -1,0 +1,11 @@
+README.rst
+setup.py
+django_sql_comment/__init__.py
+django_sql_comment.egg-info/PKG-INFO
+django_sql_comment.egg-info/SOURCES.txt
+django_sql_comment.egg-info/dependency_links.txt
+django_sql_comment.egg-info/not-zip-safe
+django_sql_comment.egg-info/top_level.txt
+django_sql_comment/management/__init__.py
+django_sql_comment/management/commands/__init__.py
+django_sql_comment/management/commands/sqlcomment.py

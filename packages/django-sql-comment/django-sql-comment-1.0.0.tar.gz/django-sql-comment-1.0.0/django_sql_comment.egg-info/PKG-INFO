@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: django-sql-comment
+Version: 1.0.0
+Summary: Django management command to generate SQL for applying your models' verbose name and help_text as PostgreSQL COMMENTs
+Home-page: https://github.com/tuffnatty/django-sql-comment
+Author: Phil Krylov
+Author-email: phil.krylov@gmail.com
+License: MIT
+Keywords: django-sql-comment
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2
+Classifier: Framework :: Django :: 3
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Documentation
+
+Django SQL COMMENT
+==================
+
+Django management command to generate SQL for applying your models' and fields' ``verbose_name`` and ``help_text`` as PostgreSQL ``COMMENT`` statements.
+
+Compatibility
+-------------
+
+Python 2.7–3.11.
+
+Django 1.11–4.2.
+
+Quickstart
+----------
+
+Install Django SQL COMMENT::
+
+    pip install django-sql-comment
+
+Add it to your ``INSTALLED_APPS``::
+
+    INSTALLED_APPS = (
+        ...
+        'django_sql_comment',
+        ...
+    )
+
+Run ``./manage.py sqlcomment myapp`` to look at SQL generated, or ``./manage.py sqlcomment myapp | ./manage.py dbshell`` to apply it to your database.
+
+If you're brave enough to apply the comments automatically on every migration, you can take the risk to add to your ``AppConfig``::
+
+    from django.db.models.signals import post_migrate
+    from django_sql_comment import sqlcomment_post_migrate
+    ...
+    class MyAppConfig(AppConfig):
+        def ready(self):
+            post_migrate.connect(sqlcomment_post_migrate)
