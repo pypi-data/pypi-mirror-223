@@ -1,0 +1,107 @@
+#!/bin/bash
+
+cd $HOME
+PORT=5000
+PORT=8000
+VIDEO=/dev/video0
+
+V=`sudo udevadm info --query=all $VIDEO | grep VENDOR_ID | sed -e "s/.*=//"`
+
+M=`sudo udevadm info --query=all $VIDEO | grep MODEL_ID | sed -e "s/.*=//"`
+
+N=`sudo udevadm info --query=all $VIDEO | grep ID_SERIAL= | sed -e "s/.*=//"`
+
+R=`sudo udevadm info --query=all $VIDEO | grep ID_REVISION= | sed -e "s/.*=//"`
+
+echo $V:$M:$R
+echo ... $N
+
+
+FILE="${V}_${M}_${R}".org
+FILEVN="${V}_${M}_${R}"
+FILEJPG="${V}_${M}_${R}".jpg
+
+echo "* CAMERA DETAILS " > $FILE
+
+echo "/" `date` "/" >> $FILE
+
+
+echo " " >> $FILE
+
+
+echo " - NAME:" "*$N*" >> $FILE
+
+echo " - lsusb: " `lsusb | grep $V | grep $M | cut -d " " -f 6-19` >> $FILE
+
+echo " - Price: " >> $FILE
+
+echo " - Controls: " `v4l2-ctl -l -d $VIDEO  | wc -l`  >> $FILE
+
+echo "   - AutoExpo: "  `v4l2-ctl -l -d $VIDEO  | grep auto | grep exposure | sed -e "s/\s\+//" | cut -d " " -f 1` >> $FILE
+
+echo "   - Gain: "  `v4l2-ctl -l -d $VIDEO  | grep gain  | sed -e "s/\s\+//" | cut -d " " -f 1` >> $FILE
+
+echo "   - Gamma: "  `v4l2-ctl -l -d $VIDEO  | grep gamma  | sed -e "s/\s\+//" | cut -d " " -f 1` >> $FILE
+
+echo " "  >> $FILE
+
+
+echo "** Controls detailed "  >> $FILE
+
+echo " "  >> $FILE
+
+echo "#+begin_example"  >> $FILE
+v4l2-ctl -l -d $VIDEO >> $FILE
+echo "#+end_example"  >> $FILE
+
+echo " "  >> $FILE
+
+echo " "  >> $FILE
+
+
+
+
+echo "** Look:" >> $FILE
+
+echo " " >> $FILE
+
+echo " [[file:$FILEJPG]] " >> $FILE
+
+echo " " >> $FILE
+
+echo "** Example captures: " >> $FILE
+
+echo " " >> $FILE
+
+
+#now=`hostname`_`date +"%Y%m%d_%H%M%S"`
+now=${FILEVN}_`date +"%Y%m%d_%H%M%S"`
+
+curl -X POST -F 'savebg=SAVEBG' http://127.0.0.1:$PORT/cross > /dev/null
+echo ... curled for new BG ... sleeping 4 sec.
+sleep 4
+BGFILE=$HOME/.config/flashcam/background.jpg
+ls -l $BGFILE
+cp  $BGFILE   $HOME/$now.jpg
+echo ... copied to $now.jpg
+cp $now.jpg  $HOME/DATA/
+ls -l $now.jpg
+echo ... bg is solved...
+
+echo " [[file:$now.jpg]] " >> $FILE
+
+cp  ${FILEVN}_*.jpg $HOME/DATA/
+
+ls -1 ${FILEVN}_*.jpg |  sed -e "s/^/  [[file:/" | sed -e "s/$/]]  /" >> $FILE
+
+
+echo " " >> $FILE
+
+
+echo "** Created by: " `hostname` >> $FILE
+
+echo ____________________________________________________
+
+cat $FILE
+
+cp $FILE  $HOME/DATA/
