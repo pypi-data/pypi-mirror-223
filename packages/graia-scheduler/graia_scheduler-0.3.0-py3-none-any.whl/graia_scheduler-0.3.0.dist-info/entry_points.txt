@@ -1,0 +1,4 @@
+[creart.creators]
+scheduler = graia.scheduler.creator:SchedulerCreator
+scheduler_behaviour = graia.scheduler.creator:SchedulerBehaviourCreator
+
