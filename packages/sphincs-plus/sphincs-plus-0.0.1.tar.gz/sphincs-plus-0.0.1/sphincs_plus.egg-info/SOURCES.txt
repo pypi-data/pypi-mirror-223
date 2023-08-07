@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sphincs-plus/__init__.py
+sphincs_plus.egg-info/PKG-INFO
+sphincs_plus.egg-info/SOURCES.txt
+sphincs_plus.egg-info/dependency_links.txt
+sphincs_plus.egg-info/top_level.txt
