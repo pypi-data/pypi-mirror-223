@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: sparc-flow
+Version: 0.1.0
+Summary: A Python tool to create tools and workflows for processing SPARC datasets in accordance with FAIR principles.
+Author: Thiranja Prasad Babarenda Gamage, Chinchien Lin, Jiali Xu, Linkun Gao, Matthew French, Michael Hoffman
+License: Apache-2.0
+License-File: LICENSE
+Requires-Dist: scriptcwl (>=0.8.1)
+
