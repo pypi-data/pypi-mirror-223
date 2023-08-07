@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rethge-torch
+Version: 0.0.1
+Summary: A small package that contains help functions to convenient pytorch using. including plot, model train & evaluate, results analysis and more...
+Home-page: https://github.com/ReThGe/rethge_torch
+Author: ReThGe
+Author-email: YanShumai8274@163.com
+Project-URL: Bug Tracker, https://github.com/ReThGe/rethge_torch
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rethge_torch
+this repo contains help functions to convenient pytorch using. including plot, model train &amp; evaluate, results analysis and more...
+those functions were wrote during my learning of pytorch, it can be directly use during to DeepLearning project development, and also using for learning purpose
+
+some of funcs were adapted from this awesome tutorial: https://www.learnpytorch.io/ by Daniel Bourke, which is high recommend to check out
