@@ -1,0 +1,6 @@
+logical_rush/__init__.py,sha256=1CA4hlTPgHsI3EW0IhVRggEkETqa_Z7yAGwXxcLRHAk,131
+logical_rush/logical_rush.cp310-win_amd64.pyd,sha256=JIv92iyUNnIVbBQamyhZ2-iwhx-GHSV0Zz7vvc72kAg,465920
+logical_rush-0.0.5.dist-info/METADATA,sha256=btGGcE2Kmg4hxL-RfWA3XfB8IugHIx2CYKifFEpv6ds,3378
+logical_rush-0.0.5.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+logical_rush-0.0.5.dist-info/top_level.txt,sha256=w7tHsZ1rwBxFvQA8n0fWC-jJZ2F5C0-4uGHGPcWXE-s,13
+logical_rush-0.0.5.dist-info/RECORD,,
