@@ -1,0 +1,93 @@
+# Monsterapi v2 - **Beta Phase**
+
+A Python client for interacting with Monster API v2 in . 
+
+## Installation
+
+```bash
+pip install monsterapi-v2
+```
+Has support to following MonsterAPI services:
+
+Available models:
+-----------------
+
+LLMs:
+-----
+    1. falcon-7b-instruct
+    2. mpt-7b-instruct
+    3. llama2-7b-chat
+
+
+**Others models are accessible through client but are not activated yet. Will be updated shortly.**
+
+Text to Image:
+-------------
+    1. stable-diffusion v1.5
+    2. stable-diffusion XL V1.0
+
+## Usage
+
+set `MONSTER_API_KEY` env variable to your API key.
+
+```python
+from monsterapi import client
+
+# Initialize client
+client = client()
+
+# Fetching a response
+response = client.get_response(model='falcon-7b-instruct', data={
+    "prompt": "Your prompt here",
+    # ... other parameters
+})
+print(response)
+
+# Checking status
+status = client.get_status("your_process_id")
+print(status)
+
+# Waiting for result
+result = client.wait_and_get_result("your_process_id")
+print(result)
+
+```
+
+## Run tests
+
+### Install test dependencies
+```bash
+pip install monsterapi-v2[tests]
+```
+### Run functional tests involving actual API key
+```bash
+export MONSTER_API_KEY=<your_api_key>
+python3 -m pytest tests/ # Run all tests includes functional tests using actual API key
+```
+### Run unit tests
+```bash
+export MONSTER_API_KEY="dummy"
+python3 -m pytest tests/ -m "not slow" # Run only unit tests
+```
+
+## PIP package push Instructions
+```
+pip install --upgrade setuptools wheel
+
+python setup.py sdist bdist_wheel
+
+pip install twine
+
+twine upload dist/*
+```
+
+# About us
+
+
+Check us out at [monsterapi.com](https://monsterapi.com)
+
+Check out new no-code finetuning service [here](https://docs.monsterapi.ai/fine-tune-a-large-language-model-llm/launch-a-fine-tuning-job)
+
+Checkout our Monster-SD Stable Diffusion v1.5 vs XL Comparison space [here](https://huggingface.co/spaces/qblocks/Monster-SD)
+
+Checkout our Monster API LLM comparison space [here](https://huggingface.co/spaces/qblocks/Monster-LLMs)
