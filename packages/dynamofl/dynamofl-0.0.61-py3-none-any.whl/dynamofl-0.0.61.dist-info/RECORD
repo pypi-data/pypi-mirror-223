@@ -1,0 +1,16 @@
+dynamofl/Datasource.py,sha256=_qbZ0SWkQamcyx15Vkt7Z1SVzi-fJB3ikF4kVMIh8Qg,1146
+dynamofl/Helpers.py,sha256=1KtblFFgAh6wYSg9AucmLz1vRAtl-eB7pe3vWbvDJ0s,847
+dynamofl/MessageHandler.py,sha256=UbBr9uGro3BqCwcKyKxBVAc1SIeDof4wqM5iwlykFx0,4542
+dynamofl/Project.py,sha256=F1xxi8j7NGzvSTjrRoQv1G3DsBA2kPccH2Mm4fycemE,3938
+dynamofl/Request.py,sha256=b8hNkuA5ylLs-6yXxT-_kQsn32ZKt4ZWtgaDztmyizY,1629
+dynamofl/State.py,sha256=djL-9bE1lah69S2Aoratk4B7UwW3RLXihc3xcB7R6D4,11909
+dynamofl/__init__.py,sha256=AKXm2ymdfMTcE9NvsAaVhRZJi_HrRV2z29erL5V4i-k,55
+dynamofl/logging.py,sha256=K-5xcIpxv6BrU0MpujW_PpUlPcIamOaxx0h93BxeZqk,889
+dynamofl/src.py,sha256=vroKfb7wbangclkoY_qXAuUjwoDpOJomyE_vT9Sv3SY,2922
+dynamofl/api/DatasourceAPI.py,sha256=jbDL57cUsfqwoHGyizlIU2hNXKFyqr0q8xNbT9nuTww,1433
+dynamofl/api/ProjectAPI.py,sha256=snyN0sjoVSOjUtOUxRgiquvI5f4hwSneYmTKFfNwBS4,9313
+dynamofl/api/__init__.py,sha256=4ubC23Gg8t7--3h2_GSGpUTPsZ5TQB3uaQqRGvEbJt0,76
+dynamofl-0.0.61.dist-info/METADATA,sha256=HJPblheRUWDhNFki4cmIauQFw6-gRzbHAbAwHj81dTI,170
+dynamofl-0.0.61.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dynamofl-0.0.61.dist-info/top_level.txt,sha256=lt0ffkYG01BqMj4BuBHKh4shgq0GcDd0gWMOgTtV73s,9
+dynamofl-0.0.61.dist-info/RECORD,,
