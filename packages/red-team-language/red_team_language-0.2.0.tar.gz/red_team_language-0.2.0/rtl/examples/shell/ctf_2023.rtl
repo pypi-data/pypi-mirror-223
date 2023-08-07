@@ -1,0 +1,29 @@
+executable booscript :path:/bin/sh
+  content
+    echo "Try harder - calling home!";
+
+    B=/usr/bin/bash
+
+    if [ ! -f $B ];then
+        B=/bin/bash
+    fi
+
+    $B -c 'echo "uid:1337 not found!" > /dev/udp/127.0.0.1/1337'
+
+  !!!
+  transform
+    xor key:will_only_deobfuscate_and_execute_with_success_if_the_uid_is_equal_to uid:1000
+  !!!
+
+executable whoscript
+  content
+echo "Good job! here's a flag"
+echo "ADHOC_FLAG{well_that_was_easy}" > flag.txt
+  !!!
+  transform
+    xor key:will_only_deobfuscate_and_execute_with_success_if_the_uid_is_equal_to uid:1337
+  !!!
+
+with shell
+  execute booscript
+  execute whoscript

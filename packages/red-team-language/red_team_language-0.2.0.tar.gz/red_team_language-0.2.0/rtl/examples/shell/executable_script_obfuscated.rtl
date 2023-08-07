@@ -1,0 +1,11 @@
+executable whoscript
+  content
+echo "hello RTL" > /tmp/external
+  !!!
+  transform
+    xor key:anotherkey
+    xor key:will_only_deobfuscate_and_execute_with_success_if_the_uid_is_equal_to_1000 uid:1000
+  !!!
+
+with shell
+  execute whoscript

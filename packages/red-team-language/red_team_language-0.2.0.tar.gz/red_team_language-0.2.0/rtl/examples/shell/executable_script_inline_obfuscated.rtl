@@ -1,0 +1,10 @@
+with shell
+  execute inline executable :path:/usr/bin/bash
+  content
+touch /tmp/inlineshelltransform
+  !!!
+  transform
+    xor key:thisisthekey
+    xor key:anotherkey
+    xor key:oof
+  !!!

@@ -1,0 +1,19 @@
+# Notes:
+#
+# - View the IR output: rtl --src examples/shell/binary.rtl --ir
+# - View the .S output: rtl --src examples/shell/binary.rtl --asm
+#
+# The binary /bin/ls will be embedded with both itself and its arguments
+# being obfuscated using xor with a key of abc123
+# :name: - what shows in the process list
+# :path: - which binary to pick-up and encode
+# :argv: - uhh, yeah - what you think
+# :method: currently, only MEMFD - TMPFS at somepoint...
+
+executable ls :name:ReallyJustLS :path:/bin/ls :argv:-a -l -h :method:MEMFD
+  transform
+  xor key:abc123
+!!!
+
+with shell
+  execute ls

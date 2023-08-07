@@ -1,0 +1,2 @@
+[console_scripts]
+rtl = rtl.rtl:main

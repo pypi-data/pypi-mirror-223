@@ -1,0 +1,7 @@
+executable whoscript
+  content
+echo "hello RTL" > /tmp/external
+  !!!
+
+with shell
+  execute whoscript

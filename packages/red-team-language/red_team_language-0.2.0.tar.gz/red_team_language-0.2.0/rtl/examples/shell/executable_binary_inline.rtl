@@ -1,0 +1,7 @@
+executable ls :path:/bin/ls :argv:-al -h
+
+with shell
+  execute ls
+  execute inline executable :path:/usr/bin/id  
+!!!
+  execute ls
