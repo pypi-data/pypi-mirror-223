@@ -1,0 +1,9 @@
+README.md
+setup.py
+Bharatqr/__init__.py
+Bharatqr/a.py
+Bharatqr.egg-info/PKG-INFO
+Bharatqr.egg-info/SOURCES.txt
+Bharatqr.egg-info/dependency_links.txt
+Bharatqr.egg-info/requires.txt
+Bharatqr.egg-info/top_level.txt
