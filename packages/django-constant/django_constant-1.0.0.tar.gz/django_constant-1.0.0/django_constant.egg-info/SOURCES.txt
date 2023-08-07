@@ -1,0 +1,16 @@
+LICENSE.md
+README.md
+setup.py
+django_constant.egg-info/PKG-INFO
+django_constant.egg-info/SOURCES.txt
+django_constant.egg-info/dependency_links.txt
+django_constant.egg-info/requires.txt
+django_constant.egg-info/top_level.txt
+django_constants/__init__.py
+django_constants/admin.py
+django_constants/apps.py
+django_constants/models.py
+django_constants/tests.py
+django_constants/views.py
+django_constants/migrations/0001_initial.py
+django_constants/migrations/__init__.py
