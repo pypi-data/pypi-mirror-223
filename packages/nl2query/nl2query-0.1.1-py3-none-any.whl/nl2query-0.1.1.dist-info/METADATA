@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nl2query
+Version: 0.1.1
+Summary: 
+Author: Chirayu-Tripathi
+Author-email: chirayutripathi7@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: regex (>=2023.6.3,<2024.0.0)
+Requires-Dist: torch (==2.0.1)
+Requires-Dist: transformers (==4.31.0)
+Description-Content-Type: text/markdown
+
+
