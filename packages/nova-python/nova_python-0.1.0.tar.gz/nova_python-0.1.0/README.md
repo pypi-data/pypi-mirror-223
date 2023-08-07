@@ -1,0 +1,44 @@
+# nova-python
+🐍 Python library for accessing the Nova API
+
+## Usage ##
+Import the module
+```python
+from nova_python import Endpoints, Models, NovaClient
+```
+
+Create an instance of NovaClient, using your API key
+
+```python
+client = NovaClient("YOUR_API_KEY")
+```
+
+nova_python currently implements two enums: Endpoints and Models. Those contain:
+
+### Endpoints ###
+* `Endpoints.CHAT_COMPLETION`
+
+**Models**
+* `Models.GPT3`
++ `Models.GPT4`
+
+Now, to make a request, use the `make_request` function.
+
+```python
+from nova_python import Endpoints, Models, NovaClient
+client = NovaClient("YOUR_API_KEY")
+
+client.make_request(
+    endpoint=Endpoints.CHAT_COMPLETION,
+    model=Models.GPT3,
+    data=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Hello!"}
+    ]
+)
+```
+
+If everything goes to plan, you'll receive a string containing JSON-Data, which you can then use in your project.  
+*Happy prompting!*
+
+Made with 🩸 by Leander
