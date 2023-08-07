@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "hydra-chain-py"
+version = "2.8.0"
+description = "Hydra Chain Tools & Application Library."
+authors = [
+    "Phillip Sitbon <phillip.sitbon@gmail.com>",
+    "Halospace Foundation <contact@halospace.org>",
+]
+readme = "README.md"
+license = "AGPLv3"
+repository = "https://github.com/hydraverse/hypy"
+
+packages = [
+    { include = "hydra" },
+]
+
+include = [
+    "hydra/res/*"
+]
+
+[tool.poetry.scripts]
+hy = "hydra.hy:Hydra.main"
+hycli = "hydra.app.cli:HydraCLIApp.main"
+peerscan = "hydra.app.peerscan:PeerScan.main"
+hytop = "hydra.app.top:TopApp.main"
+hytest = "hydra.test:Test.main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+argcomplete = "^3.1.1"
+requests = "^2.28.1"
+pytz = "^2023.3"
+attrdict3 = "^2.0.2"
+python-kucoin = "^2.1.3"
+pycryptodome = "^3.15.0"
+currencies = "^2020.12.12"
+pytest = "^7.4.0"  # TODO: Make optional once testing is decoupled from main package.
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
