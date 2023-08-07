@@ -1,0 +1,8 @@
+arxiv
+cohere
+pypdf
+pyzotero
+typer[all]
+nameparser
+python-dotenv
+chromadb>=0.4.0
