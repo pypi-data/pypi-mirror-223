@@ -1,0 +1,9 @@
+ffmpegaudiorecord/README.MD,sha256=O_PSRsUHj-JtLJQTrlwSwFyEKk8H1YleBf9gmSxrNwU,1666
+ffmpegaudiorecord/__init__.py,sha256=FEilAccdwyG6h2XoOiYZfvFQW5xkDQVQSPQZLnjjIbI,8457
+ffmpegaudiorecord/requirements.txt,sha256=es1PJTxlP-CIyIxwtd7Do5cRJwM8BwlPTUTDkn-eS9c,65
+ffmpegaudiorecord/thirdparty.json,sha256=sAjoIaX9qHLVCVr7kqJRlBcIsvo-SIUK5-qugqRj5Wo,6111
+ffmpegaudiorecord-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+ffmpegaudiorecord-0.10.dist-info/METADATA,sha256=TWg0B6HWpV-VZl02qxIzhmU6gNCj2iIjIsTA2hAsALs,2528
+ffmpegaudiorecord-0.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ffmpegaudiorecord-0.10.dist-info/top_level.txt,sha256=ZmZEGBxlYNQmelooxzJGovFZNsPjwfiVqvSA1yQLcPU,18
+ffmpegaudiorecord-0.10.dist-info/RECORD,,
