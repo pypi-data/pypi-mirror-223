@@ -1,0 +1,1 @@
+{"dtviz": {"main.yaml": {"id": "dtviz://main.yaml#", "type": "object", "required": ["projects"], "properties": {"projects": {"type": "array", "items": {"type": "object", "required": ["path"], "properties": {"type": {"enum": ["pyproject.toml", "package.json"]}, "path": {"type": "string"}, "name": {"type": "string"}, "aliases": {"type": "array", "items": {"type": "string"}}}}}}}}}
