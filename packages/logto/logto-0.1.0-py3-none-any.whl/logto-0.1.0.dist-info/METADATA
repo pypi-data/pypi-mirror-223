@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: logto
+Version: 0.1.0
+Summary: Logto Python SDK.
+License: MIT
+Author: Silverhand Inc.
+Author-email: contact@silverhand.io
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: flask[async] (>=2.3.2,<3.0.0)
+Requires-Dist: pydantic (>=2.1.1,<3.0.0)
+Requires-Dist: pyjwt[crypto] (>=2.8.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Logto Python SDK
+
+Still work in progress.
+
+## Usage
+
+### Installation
+```bash
+pip install logto
+```
+
+### Sample code
+
+See `samples/` directory for example usages.
+
+### Documentation
+
+While the dedicated documentation is still in progress, you can find other integration guides in [Integrate Logto in your application](https://docs.logto.io/docs/recipes/integrate-logto/).
+
+Pick one you are most familiar with, read to know the basic concepts, then come back and check out `samples/` directory for example usages.
+
