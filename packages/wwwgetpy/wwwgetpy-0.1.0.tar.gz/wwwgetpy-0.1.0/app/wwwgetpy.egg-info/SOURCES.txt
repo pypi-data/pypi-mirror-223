@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+app/wwwgetpy/__init__.py
+app/wwwgetpy/core.py
+app/wwwgetpy.egg-info/PKG-INFO
+app/wwwgetpy.egg-info/SOURCES.txt
+app/wwwgetpy.egg-info/dependency_links.txt
+app/wwwgetpy.egg-info/requires.txt
+app/wwwgetpy.egg-info/top_level.txt
