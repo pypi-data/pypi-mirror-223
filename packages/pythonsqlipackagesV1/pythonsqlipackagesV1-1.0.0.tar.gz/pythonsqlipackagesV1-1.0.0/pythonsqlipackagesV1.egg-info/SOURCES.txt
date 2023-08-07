@@ -1,0 +1,6 @@
+setup.py
+pythonsqlipackagesV1/__init__.py
+pythonsqlipackagesV1.egg-info/PKG-INFO
+pythonsqlipackagesV1.egg-info/SOURCES.txt
+pythonsqlipackagesV1.egg-info/dependency_links.txt
+pythonsqlipackagesV1.egg-info/top_level.txt
