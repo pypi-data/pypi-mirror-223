@@ -1,0 +1,6 @@
+# __init__ file for tfml package
+
+from tensorflow_ml.regression.linear import LinearRegression
+from tensorflow_ml.classification.logistic_regression import LogisticRegression
+from tensorflow_ml.classification.naive_bayes import NaiveBayes
+from tensorflow_ml.classification.decision_tree import DecisionTreeClassifier
