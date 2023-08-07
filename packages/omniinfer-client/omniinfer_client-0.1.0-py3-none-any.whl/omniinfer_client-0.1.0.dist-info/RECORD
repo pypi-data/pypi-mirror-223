@@ -1,0 +1,12 @@
+omniinfer_client/__init__.py,sha256=tkasg54WzAZEYZGkSY8KGpyKpYo_P13Ypk-T2jldCPQ,109
+omniinfer_client/exceptions.py,sha256=PLJNDFUX_8SH_67jkL0hcDjMxR_QAYJDsNfpSKMPV-Y,177
+omniinfer_client/omni.py,sha256=4cf1lhe5TYqHEV9C_pkkFvIcWvyh0JYX9uBzIXs8vpQ,7135
+omniinfer_client/proto.py,sha256=NXrPecZQR-5e7br1oLO9-pmISQedqV0Yi2bGILGuoZE,12078
+omniinfer_client/serializer.py,sha256=3lg0sbuNHHYT0kFzh0O9n8JZWSEXQIjxPMjjYUIy2RE,263
+omniinfer_client/settings.py,sha256=SKW6eWUhIQ5IZEbycsyaJA0Q94q9etQS-MIHz5rc4OU,153
+omniinfer_client/utils.py,sha256=lrWQ1XuQ-xqyQ98KiyZR-zAp72KYl0kxovahAB1jrvA,1764
+omniinfer_client/version.py,sha256=SqQqA73PG6GvssK8nqoNb-nv0dDzTeJGwcreI40Dj8Y,69
+omniinfer_client-0.1.0.dist-info/METADATA,sha256=McJuvS0N9NY2b_b1tfDzpC-NdNMtWNa609t_RPd1uSw,6215
+omniinfer_client-0.1.0.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+omniinfer_client-0.1.0.dist-info/licenses/LICENSE,sha256=htEm4UbwZE2nlX7UpjBsGPCvX1GYgIXZpub4DP7aCzs,1068
+omniinfer_client-0.1.0.dist-info/RECORD,,
