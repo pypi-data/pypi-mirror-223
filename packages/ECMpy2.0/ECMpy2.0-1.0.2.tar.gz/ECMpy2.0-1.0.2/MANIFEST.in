@@ -1,0 +1,7 @@
+include ECMpy2.0-main/*
+include ECMpy2.0-main/*/*
+recursive-include ECMpy2.0-main/_cache *
+recursive-include ECMpy2.0-main/analysis *
+recursive-include ECMpy2.0-main/data *
+recursive-include ECMpy2.0-main/model *
+recursive-include ECMpy2.0-main/script *
