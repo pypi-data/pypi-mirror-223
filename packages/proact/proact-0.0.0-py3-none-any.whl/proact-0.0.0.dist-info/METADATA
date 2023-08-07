@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: proact
+Version: 0.0.0
+Summary: Python-based Life Cycle Assessment (LCA)
+Author: Hedi ROMDHANA
+Author-email: hedi.romdhana@agroparistech.fr
+License: GPLv3
+Keywords: LCA
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Testing
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# PyLife
+`PyLife` performs a comprehensive Life Cycle Assessment (LCA) calculation. By default, it includes pre-installed data, such as life cycle inventories and two environmental impact calculation methods. It offers flexibility to add other calculation methods and inventories, enabling complete customization of the LCA to suit specific needs for simulating or optimizing processes with environmental criteria. 
