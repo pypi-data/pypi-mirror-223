@@ -1,0 +1,6 @@
+requests
+numpy
+scipy
+tkinter
+python-dateutil
+matplotlib
