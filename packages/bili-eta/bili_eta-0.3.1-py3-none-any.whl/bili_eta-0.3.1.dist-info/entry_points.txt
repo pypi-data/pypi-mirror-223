@@ -1,0 +1,3 @@
+[console_scripts]
+eta=bili_eta.__main__:main
+
