@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ddochi
+Version: 0.0.0
+Home-page: https://github.com/jinmang2/DDOCHI
+Author: jinmang2
+Author-email: jinmang2@gmail.com
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: filelock
+Requires-Dist: huggingface-hub (<1.0,>=0.1.0)
+Requires-Dist: datasets
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: torch (>=1.0)
+Requires-Dist: packaging (>=20.0)
+Requires-Dist: pyyaml (>=5.1)
+Requires-Dist: regex
+Requires-Dist: requests
+Requires-Dist: tokenizers (!=0.11.3,>=0.11.1)
+Requires-Dist: transformers (>=4.22.0)
+Requires-Dist: tqdm (>=4.27)
+Requires-Dist: nltk
+
+# DDOCHI
