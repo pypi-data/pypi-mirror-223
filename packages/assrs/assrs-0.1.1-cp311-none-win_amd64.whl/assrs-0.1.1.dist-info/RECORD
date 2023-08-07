@@ -1,0 +1,7 @@
+assrs-0.1.1.dist-info/METADATA,sha256=HvUHSDF3L-RS_JUAJ0V69crAGM-1YhAnnZlHhwvUIoQ,6364
+assrs-0.1.1.dist-info/WHEEL,sha256=OdornJZnv5gS-rT5Vzme3AdhyQVZ4bnAet2yYIVAaXY,95
+assrs/__init__.py,sha256=fR8PtDSTjkHHVVgJFpKHv3BIppN7OBe6Iw5VUQsHtuM,103
+assrs/__init__.pyi,sha256=ASZImqjD63xDKaPz2zzMQPBsVyk9t-qe0Zqlrftc_z8,1104
+assrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assrs/assrs.cp311-win_amd64.pyd,sha256=Yz4NctXjmGZqYXPCv2mdHWiF_-quJD4Z0R9V7vBcgw0,314368
+assrs-0.1.1.dist-info/RECORD,,
