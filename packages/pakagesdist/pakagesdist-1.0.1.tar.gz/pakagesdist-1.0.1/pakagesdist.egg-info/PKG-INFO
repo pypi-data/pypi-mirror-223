@@ -1,0 +1,33 @@
+Metadata-Version: 1.0
+Name: pakagesdist
+Version: 1.0.1
+Summary: this is the first pakage that was created by myself222
+Home-page: https://pypi.test.org/simple
+Author: clw
+Author-email: 2023@qq.com
+License: MIT
+Description: 库不牛逼，描述文档来凑
+        ======================
+        
+        *斜体*
+        
+        **加粗**
+        
+        * 1.
+        * 2.
+        * 3.
+        
+        #. l
+        #. m
+        
+        
+        ``this is code``
+        
+        
+        
+        
+        
+        
+        
+        
+Platform: UNKNOWN
