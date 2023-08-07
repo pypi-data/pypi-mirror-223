@@ -1,0 +1,26 @@
+这是python制品库测试项目
+官方文档： https://pypi.org/
+
+遇到的一些问题
+1.WARNING: 401 Error, Credentials not correct for http://bkrepo.example.com/pypi/blueking/pypi-local/simple/build/
+令牌过期重新申请
+2.安装包python3 -m pip install --upgrade build --trusted-host bkrepo.example.com 失败
+ERROR: Could not find a version that satisfies the requirement build (from versions: none)
+ERROR: No matching distribution found for build
+该包在我们仓库不存在，需要配置下远程代理、代理配置不生效导致无法打包
+
+
+post http://bkrepo.example.com/web/auth/api/user/token/admin/hanji-test?projectId=blueking&expiredAt=
+Request Method:
+POST
+{
+  "code" : 0,
+  "message" : null,
+  "data" : {
+    "name" : "hanji-test",
+    "id" : "8426a5bf982a8e1be6796620fbfac131",
+    "createdAt" : "2023-06-06T15:27:34.893",
+    "expiredAt" : null
+  },
+  "traceId" : "7f091ac6ee78b2c9d88fe1f4271f81e2"
+}

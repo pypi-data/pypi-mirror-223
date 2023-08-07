@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/clowrie_test/__init__.py
+src/clowrie_test/example.py
+src/clowrie_test/request.py
+src/clowrie_test.egg-info/PKG-INFO
+src/clowrie_test.egg-info/SOURCES.txt
+src/clowrie_test.egg-info/dependency_links.txt
+src/clowrie_test.egg-info/top_level.txt
