@@ -1,0 +1,11 @@
+setup.py
+s1280153_learn/__init__.py
+s1280153_learn.egg-info/PKG-INFO
+s1280153_learn.egg-info/SOURCES.txt
+s1280153_learn.egg-info/dependency_links.txt
+s1280153_learn.egg-info/requires.txt
+s1280153_learn.egg-info/top_level.txt
+s1280153_learn/statistics/__init__.py
+s1280153_learn/statistics/frequenciesOfItems.py
+s1280153_learn/visualization/__init__.py
+s1280153_learn/visualization/heatMapItemsFrequencies.py

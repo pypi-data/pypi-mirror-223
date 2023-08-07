@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: s1280153_learn
+Version: 0.1.0
+Summary: A package for learning purposes.
+Home-page: https://github.com/s1280153SH/s1280153_learn
+Author: s1280153
+Author-email: s1280153aizu@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
