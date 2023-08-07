@@ -1,0 +1,2 @@
+[pibooth]
+pibooth_oled_display = pibooth_oled_display.pibooth_oled_display
