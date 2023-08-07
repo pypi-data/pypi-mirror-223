@@ -1,0 +1,11 @@
+pyproject.toml
+src/pybadger/__init__.py
+src/pybadger/_badge.py
+src/pybadger/pepy.py
+src/pybadger/shields.py
+src/pybadger.egg-info/PKG-INFO
+src/pybadger.egg-info/SOURCES.txt
+src/pybadger.egg-info/dependency_links.txt
+src/pybadger.egg-info/not-zip-safe
+src/pybadger.egg-info/requires.txt
+src/pybadger.egg-info/top_level.txt
