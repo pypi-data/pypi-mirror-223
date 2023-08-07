@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rwai
+Version: 0.1.1
+Summary: Фановый ИИ основаный на Ваших словах
+Author: barlin41k
+Author-email: sasaigrypocta@gmail.com
+License: MIT
+Keywords: rwai,randomword,randomai
+Description-Content-Type: text/markdown
+Requires-Dist: barladb
+
+
+RWAI (Random Words AI) - это фановый искусственный интеллект, который генерирует случайные ответы 
+на основе ваших слов. Просто отправьте ему сообщение, и он вернет вам случайные слова из 
+сохраненного списка. RWAI может использоваться для забавных разговоров, создания случайных 
+фраз или просто для удивления ваших друзей.
+
+Установка:
+```py
+pip install rwai_ru
+```
+
+# Пример использования:
+```py
+from RWai import rwai
+response = rwai.send("привет!")
+print(response)
+```
