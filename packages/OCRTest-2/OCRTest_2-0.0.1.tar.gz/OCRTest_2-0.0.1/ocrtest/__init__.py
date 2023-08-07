@@ -1,0 +1,1 @@
+from ocrtest.hello import hello_class
