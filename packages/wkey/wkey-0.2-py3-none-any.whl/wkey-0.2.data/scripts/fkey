@@ -1,0 +1,3 @@
+#!python
+from wkey.find_key import main
+main()
