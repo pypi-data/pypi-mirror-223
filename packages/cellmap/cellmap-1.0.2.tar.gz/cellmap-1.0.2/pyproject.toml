@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "CellMap"
+version = "1.0.2"
+description = "CellMap - RNA landscape inference method"
+authors = ["Yusuke Imoto"]
+readme = "README.md"
+repository = "https://github.com/yusuke-imoto-lab/CellMap"
+documentation = "https://github.com/yusuke-imoto-lab/CellMap/"
+
+[tool.poetry.dependencies]
+python       = ">=3.7"
+adjustText = ">=0.8"
+anndata = ">=0.8.0"
+matplotlib = ">=3.7.1"
+numpy = ">=1.20"
+plotly = ">=5.14.1"
+scanpy = ">=1.9.3"
+scikit-learn = ">=0.24"
+scipy = ">=1.8.1"
+scvelo = ">=0.2.5"
+nbformat = ">=4.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
