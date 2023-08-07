@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+smartConvDS/__init__.py
+smartConvDS/main.py
+smartConvDS/run_converter.py
+smartConvDS.egg-info/PKG-INFO
+smartConvDS.egg-info/SOURCES.txt
+smartConvDS.egg-info/dependency_links.txt
+smartConvDS.egg-info/requires.txt
+smartConvDS.egg-info/top_level.txt
