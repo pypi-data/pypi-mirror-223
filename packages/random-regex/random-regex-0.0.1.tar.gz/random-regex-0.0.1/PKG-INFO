@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: random-regex
+Version: 0.0.1
+Summary: Generate Random Regex
+Home-page: https://github.com/jeffrey82221/regex_generator
+Author: jeffreylin
+Author-email: jeffrey82221@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, !=3.11.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# regex_generator
+Generate Random Regex
+
+
