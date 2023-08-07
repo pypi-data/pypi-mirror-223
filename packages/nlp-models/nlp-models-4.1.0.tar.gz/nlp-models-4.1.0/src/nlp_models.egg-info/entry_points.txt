@@ -1,0 +1,2 @@
+[console_scripts]
+llm_app = nlp_models.cmd.cli:cli

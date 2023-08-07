@@ -1,0 +1,8 @@
+torch
+torchmetrics
+transformers
+langchain
+ctransformers
+
+[full]
+tqdm
