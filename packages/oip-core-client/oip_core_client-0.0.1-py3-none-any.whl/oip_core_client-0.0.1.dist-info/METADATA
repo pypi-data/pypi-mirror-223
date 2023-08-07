@@ -1,0 +1,304 @@
+Metadata-Version: 2.1
+Name: oip-core-client
+Version: 0.0.1
+Summary: This is the API client of Open Innovation Platform
+Home-page: UNKNOWN
+Author: Rachid Belmeskine
+Author-email: rachid.belmeskine@gmail.com
+License: PRIVATE LICENSE
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: typing
+
+# API Client
+
+Welcome to the documentation for the __Open Innovation API Client__! This guide provides an overview of the API client library, its installation, usage, and available methods.
+To get started, install the library using pip. Once installed, import the library into your Python project. Initialize the API client by providing the API server's hostname and an optional access token.
+The documentation also covers the schemas used by the API client, which define data structure, Understanding these schemas helps construct valid queries and interact effectively with the API.
+
+## Installation and Setup
+
+To install the Open Innovation API Client, follow these steps:
+
+1. Install the required dependencies by running the following command:
+    ```
+    pip install oip-core-client
+    ```
+
+2. Import the library into your Python project:
+    ```python
+    from oip_core_client.main import APIClient
+    ```
+
+## Initialization
+
+To initialize the API Client, use the following code:
+
+```python
+client = APIClient(api_host, access_token=None)
+```
+
+**Parameters**
+
+- `api_host` (str, required): The hostname of the API server.
+- `access_token` (str, optional): Your API authentication token. If not provided, the `$APICLIENT_TOKEN` environment variable will be used.
+
+To generate an access token, you can use the `get_access_token` function provided in the library. This function allows you to obtain an access token by providing the API server's hostname, your username, and password. The function returns the generated access token as a string.
+
+Here's an example of how to generate an access token using the `get_access_token` function:
+
+```python
+from oi_platform_client.lib import get_access_token
+
+api_host = "api_host"
+username = "your_username"
+password = "your_password"
+access_token = get_access_token(api_host, username, password)
+```
+
+## Methods
+
+### get_dataframe
+
+```python
+get_dataframe(query, entity: Optional[str] = None, dataset_id: Optional[str] = None, clear_cache: bool = False)
+```
+
+Retrieves data based on a given query and returns it as a Pandas DataFrame. The function has the following parameters:
+
+**Parameters**
+- `query` (Query): The query object specifying the data retrieval parameters.
+    The `query` consists of three main components: filter, meta, and neighbors. More details are defined in the schema section.
+    - `filter` (QueryFilter): The query filter specifies the conditions used to filter the data. It is a list of filters that define the criteria for selecting specific data records. Each filter contains information such as the field/column to filter (`col`), the operator to apply (`op`), the value to compare (`value`).
+    - `meta` (QueryMeta): The meta filter provides additional metadata and options for the query. It includes parameters such as the logical operator for combining multiple filters (`logical_op`), pagination options (`page_num` and `page_size`), sample size (`sample_size`), sorting options (`sort`), down-sampling options (`downsampling`), geo-spatial down-sampling options (`gdownsampling`), time range (`time_min` and `time_max`), depth range (`depth_min` and `depth_max`), specific columns to retrieve (`cols`), cumulative data flag (`cumulative`), formulas to apply to the data (`formulas`), and specific entities to retrieve (`entities`).
+    - `neighbors` (List[str]): The neighbors parameter specifies the relationships or connections between entities. It is a list of entity names that are related to the target entity. This parameter is used to retrieve data from connected entities, such as parent entities, child entities, or related entities.
+- `entity` (Optional[str]): The name of the entity for which the data is being requested. Either `entity` or `dataset_id` should be provided.
+- `dataset_id` (Optional[str]): The ID of the dataset for which the data is being requested. Either `entity` or `dataset_id` should be provided.
+- `clear_cache` (bool, optional): Flag indicating whether to clear the cache before retrieving the data. Default is `False`.
+
+**Returns**
+`pandas.DataFrame`: The retrieved data as a Pandas DataFrame.
+
+**Raises**
+- `ValueError`: If both 'entity' and 'dataset_id' are provided or if neither 'entity' nor 'dataset_id' are provided.
+- `ValueError`: If the dataset or entity does not exist.
+- `ValueError`: If no data is found and the DataFrame is empty.
+
+**Example 1**
+```python
+from oi_platform_client.schema import Query, QueryFilter, Filter, QueryMeta
+
+# Define the query filter
+filter1: Filter = {"col": "col1", "op": "=", "value": 1}
+filter2: Filter = {"col": "col2", "op": ">", "value": 0.5}
+query_filter: QueryFilter = [filter1, filter2]
+
+# Define the query meta
+query_meta: QueryMeta = {
+    "logical_op": "and",
+    "page_num": 1,
+    "page_size": 10,
+}
+
+# Define the neighbors
+neighbors = ["entity1", "entity2"]
+
+# Create the query object
+query: Query = {"filter": query_filter, "meta": query_meta, "neighbors": neighbors}
+
+# Retrieve the data as a DataFrame
+data_frame = client.get_dataframe(query=query, entity="example_entity", clear_cache=True)
+```
+
+**Example 2**
+```python
+from oi_platform_client.schema import Query, QueryFilter, Filter, QueryMeta
+
+# Define the query filter
+filter1: Filter = {"col": "col1", "op": "=", "value": 1}
+filter2: Filter = {"col": "col2", "op": ">", "value": 0.5}
+query_filter: QueryFilter = [filter1, filter2]
+
+# Define the query meta
+query_meta: QueryMeta = {
+    "logical_op": "and",
+    "page_num": 1,
+}
+
+# Create the query object
+query: Query = {"filter": query_filter, "meta": query_meta}
+
+# Define the dataset ID
+dataset_id = "7bb9fb49-3b4e-45df-9c72-1beab18054e0"
+
+# Retrieve the data as a DataFrame
+data_frame = client.get_dataframe(query=query, dataset_id=dataset_id, clear_cache=True)
+```
+
+### commit_dataset
+```python
+commit_dataset(df, dataset_id=None, dataset_name=None, dataset_category='tabular')
+```
+
+Commit a Pandas DataFrame as a dataset.
+
+**Parameters**
+
+- `df` (pandas.DataFrame): The DataFrame to be committed as a dataset.
+- `dataset_id` (str, optional): The ID of the dataset to be updated. If not provided, a new dataset will be created.
+- `dataset_name` (str, optional): The name of the dataset. If not provided and `dataset_id` is provided, it will keep the old name.
+- `dataset_category` (str, optional): The category of the dataset. Available categories: 'tabular', 'time-series', 'depth-series'. Default is 'tabular'.
+  - The DataFrame 'df' must have a column called 'time' for the 'time-series' category.
+  - The DataFrame 'df' must have a column called 'depth_time' for the 'depth-series' category.
+
+**Returns**
+- `str`: The ID of the committed dataset.
+
+**Raises**
+- `ValueError`: If the DataFrame `df` is empty or `None`.
+- `ValueError`: If both `dataset_id` and `dataset_name` are missing.
+- `ValueError`: If `dataset_category` is not one of the available categories.
+- `ValueError`: If `dataset_category` is 'time-series' and the DataFrame `df` doesn't have a 'time' column.
+- `ValueError`: If `dataset_category` is 'depth-series' and the DataFrame `df` doesn't have a 'depth_time' column.
+
+**Example**
+```python
+data = {
+    'Name': ['John', 'Alice', 'Bob', 'Emily'],
+    'Age': [25, 32, 28, 35],
+    'City': ['New York', 'London', 'Paris', 'Sydney']
+}
+
+df = pd.DataFrame(data)
+
+# Commit the DataFrame as a dataset
+dataset_id = client.commit_dataset(
+    dataset_name="dataset_name",
+    dataset_category="tabular",
+    df=df
+)
+```
+
+## Schemas
+The API Client utilizes several schemas to define the structure of the data and parameters used in the API. Understanding these schemas is essential for constructing valid queries and interacting with the API effectively.
+
+### Query Object Schema
+The query object represents the parameters for data retrieval. It has the following components:
+
+```python
+class Query(TypedDict, total=False):
+    filter: QueryFilter  # query filter
+    meta: QueryMeta  # meta filter
+    neighbors: List[str]  # neighbors of the target entity
+```
+
+#### filter
+The query filter specifies the conditions used to filter the data. It is a list of filters defined by the `QueryFilter` class.
+
+```python
+class QueryFilter(TypedDict, total=False):
+    col: str  
+    op: str  
+    value: FilterValue  
+```
+1. `col` : The column/field being filtered.
+2. `op` : The operator to apply, such as "=", ">", "contains", etc.
+3. `value` : The value to compare against.
+
+#### meta
+The meta filter provides additional metadata and options for the query. It includes various optional attributes:
+
+```python
+class QueryMeta(TypedDict, total=False):
+    logical_op: str  # and/or
+    page_num: Optional[int]  
+    page_size: Optional[int] 
+    sample_size: Optional[int]  
+    sort: Optional[FilterMetaSort]
+    downsampling: Optional[FilterMetaDownsampling]
+    gdownsampling: Optional[FilterMetaGDownsampling]
+    time_min: Optional[Union[datetime, str]]  
+    time_max: Optional[Union[datetime, str]]  
+    depth_min: Optional[float]  
+    depth_max: Optional[float]  
+    cols: Optional[List[str]]
+    cumulative: Optional[bool]
+    formulas: Optional[List[str]]
+    entities: Optional[List[str]]
+```
+
+```python
+class FilterMetaSort(TypedDict):
+    order_by: List[str]  
+    order: List[int]  
+```
+
+```python
+class FilterMetaDownsampling(TypedDict, total=False):
+    interval: Optional[str]  
+    nb_pts: Optional[int]  
+    agg_op: Optional[str]  
+    grp_by: Optional[str]
+    grp_by_pn: Optional[int]
+    grp_by_ps: Optional[int]
+```
+
+```python
+class FilterMetaGDownsampling(TypedDict, total=False):
+    ncells: Optional[int]
+    bounds: Optional[Union[List[float], Tuple[float, float, float, float]]]
+```
+1. `logical_op`(str): The logical operator to combine multiple filters ("and" or "or").
+2. `page_num` (int): The page number of the query results.
+3. `page_size` (int): The number of results to be returned per page.
+4. `sample_size` (int): The number of samples to be returned in the query results.
+5. `sort` (`FilterMetaSort`): Represents the sort metadata for the query.
+   - `order_by`: A list of strings representing the names of the fields to sort by.
+   - `order`: A list of integers specifying the order direction for each column. (+1) represents ascending order, (-1) represents descending order.
+6. `downsampling` (`FilterMetaDownsampling`): Represents the time-based down-sampling metadata for the query.
+   - `interval`: A string representing the time interval for down-sampling. It uses a concise representation, such as "3w" for 3 weeks, "2h" for 2 hours, etc.
+   - `nb_pts`: An integer representing the number of points to return (if specified). If `nb_pts` is provided, there's no need for `interval` as it will be calculated based on the value of `nb_pts`.
+   - `agg_op`: A string representing the down-sampling aggregation operator (e.g., min, max, avg, sum, count).
+   - `grp_by`: Optional grouping by a specific field.
+   - `grp_by_pn`: Optional grouping by a specific field and specifying the number of points.
+   - `grp_by_ps`: Optional grouping by a specific field and specifying the page size.
+7. `gdownsampling` (`FilterMetaGDownsampling`): Represents the geo-spatial down-sampling metadata for the query.
+   - `ncells`: An integer representing the number of cells to be considered in the geo-spatial down-sampling process.
+   - `bounds`: A list or tuple of floats defining the bounds of the area to be considered in the geo-spatial down-sampling process (longitude min, longitude max, latitude min, latitude max).
+8. `time_min`: The minimum time to be considered in the query (datetime or string).
+9. `time_max`: The maximum time to be considered in the query (datetime or string).
+10. `depth_min`: The minimum depth to be considered in the query (float).
+11. `depth_max`: The maximum depth to be considered in the query (float).
+12. `cols`: A list of strings representing the names of the columns to be returned in the query results.
+
+#### neighbors
+A list of strings representing the neighbors of the target entity.
+
+The query object provides a flexible way to define filters, metadata, and neighbors for retrieving data from the API.
+
+## Filter Data Types and Accepted Operators
+The Filter object within the query filter allows you to specify different data types for filtering. The accepted operators op vary depending on the data type.  the table illustrates the accepted types for each operator.
+
+
+| Operator | Compatible Column Types | Filter Value Type | Example of Filter |
+| --- | --- | --- | --- |
+| "=" | number, string, boolean, time | Same as column type | ```python filters = [{"col": "name", "op": "=", "value": "jhon"}]```<br>Find documents where the "name" column is equal to "jhon".<br>Type of the column is number. |
+| ">" | number, time | Same as column type | `filters = [{"col": "age", "op": "=", "value": 20}]`<br>Find documents where the "age" column is equal to 20.<br>Type of the column is number. |
+| ">=" | number, time | Same as column type | `filters = [{"col": "star_date", "op": ">=", "value": "2012-01-01T00:00:00"}]`<br>Retrieve documents where the "star_date" column is greater than or equal to January 1, 2012, at 00:00:00.<br>Type of the column is time. |
+| "<" | number, time | Same as column type | `filters = [{"col": "height", "op": "<", "value": 189}]`<br>Find documents where the "height" column is less than 189.<br>Type of the column is number. |
+| "<=" | number, time | Same as column type | `filters = [{"col": "height", "op": "<=", "value": 167}]`<br>Type of the column is number. |
+| "!=" | number, string, boolean, time | Same as column type | `filters = [{"col": "availability", "op": "!=", "value": False}]`<br>Retrieve documents where the "availability" column is not equal to False.<br>Type of the column is boolean. |
+| "IN" | number, string, boolean | List of values having the same as column type | `filters = [{"col": "grade", "op": "IN", "value": [15, 13, 12]}]`<br>Retrieve documents where the "grade" column has a value that matches any of the values in the provided list [15, 13, 12].<br>Type of the column is number. |
+| "NOT IN" | number, string | List of values having the same as column type | `filters = [{"col": "countries", "op": "NOT IN", "value": ["Russia", "China"]}]`<br>Retrieve documents where the "countries" column does not have a value that matches any of the values in the provided list ["Russia", "China"].<br>Type of the column is number. |
+| "contains" | string | Same as column type | `filters = [{"col": "name", "op": "contains", "value": "Mc"}]`<br>Retrieve documents where the "name" column contains the substring "Mc".<br>Type of the column is number. |
+| "lcontains" | list_string, list_number | Number if the column type is list_number<br>String if the column type is list_string | `filters = [{"col": "options", "op": "lcontains", "value": "computer science"}]`<br>Retrieve documents where the "options" column contains the exact string "computer science" as one of its elements.<br>Type of the column is list of string. |
+| "dcontains" | dict | String | `filters = [{"col": "set_up", "op": "dcontains", "value": "pc=macbook"}]`<br>Retrieve documents where the "set_up" column is a dictionary and it contains the key "pc" with the value "macbook".<br>Type of the column is dict. |
+| "stext" | string | String | `filters = [{"col": "$text", "op": "stext", "value": "jhon"}]`<br>Search for the value "jhon" across all fields in the documents that have the type string.<br>Type of the column is string. |
+| "gwithin" | geo_point | Polygon | `filters = [{"col": "cities", "op": "gwithin", "value": [[32.3, 45.9], [2.3, 5.9], [6.3, 55.9], [39.3, 66.9]]}]`<br>The "gwithin" operation represents a spatial query for points within a polygon. The "value" is a list of coordinate points forming a polygon. The filter is looking for documents where the geo point in the "cities" column falls within the specified polygon defined by the provided coordinate points.<br>Type of the column is geo_point. |
+| "gnear" | geo_point | Geo_point, max distance, min distance | `filters = [{"col": "cities", "op": "gnear", "value": [34.5, 55.4, 22.4, 11.4]}]`<br>The "gnear" operation represents a spatial query for points near a specific location within a distance range. The "value" list contains the latitude (value[0]) and longitude (value[1]) coordinates of the reference point, followed by the maximum distance (value[2]) and minimum distance (value[4]) in kilometers. Note: we can provide only the maximum distance; in this case, the distance range will be from the reference point to the maximum distance.<br>Type of the column is geo_point. |
+| "null" | any |  | `filters = [{"col": "total", "op": "null"}]`<br>Retrieve all documents where the "total" column is null, meaning it does not have a value assigned to it.<br>Type of the column is any of the types in the platform. |
+| "not_null" | any |  | `filters = [{"col": "total", "op": "not_null"}]`<br>Retrieve all documents where the "total" column is not null, meaning it has a value assigned to it.<br>Type of the column is any of the types in the platform. |
+

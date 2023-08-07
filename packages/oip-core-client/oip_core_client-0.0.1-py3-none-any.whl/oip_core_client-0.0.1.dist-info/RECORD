@@ -1,0 +1,12 @@
+oip_core_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oip_core_client/converter.py,sha256=5Y_8Dmpg8zVjZBg_FCMe_jSHhqtsqzL2bKjBmihTirQ,4444
+oip_core_client/dataset.py,sha256=lMtLMvxColLHHEh_-2ew27TOE4mOVKLoA_rLIHpDRCc,2046
+oip_core_client/lib.py,sha256=moC6E5hfTOZB4edsVW8hhoilB4Z_qzIfl-sr61800DA,7418
+oip_core_client/main.py,sha256=t6hTvJ7rD0Bs9cNoc0nNpOPJPn9Ai8XIwfK8xuOAqWs,6653
+oip_core_client/retrieve.py,sha256=386jncXx59H1BWlj57wB3R08xHx7Y0yISI0Vs99Ud1M,2455
+oip_core_client/schema.py,sha256=1MwC5hUJfkyrjFPlNspqT2qgKO9fV4j-VpyicYp_qJw,4580
+oip_core_client/units.py,sha256=ck0zrXA1xJiie0GcYGctzzh2H4kkRX9dVONS5jr5Hag,7509
+oip_core_client-0.0.1.dist-info/METADATA,sha256=AO6ANBm49YjeaXlSGxWIuJSzy0JSZkfz9x90KXpN0rI,17408
+oip_core_client-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+oip_core_client-0.0.1.dist-info/top_level.txt,sha256=3opquxONEcEYtnXPNheBNYnAfTcfJ9Twq2ByM5xIlhw,16
+oip_core_client-0.0.1.dist-info/RECORD,,
