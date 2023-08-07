@@ -1,0 +1,16 @@
+KeyboardWidget {
+    dock: bottom;
+    height: 14;
+}
+
+InstrumentSelector {
+    width: 50;
+    height: 5;
+    column-span: 2;
+}
+
+#controls {
+    layout: grid;
+    grid-size: 4;
+    padding: 1 2;
+}
