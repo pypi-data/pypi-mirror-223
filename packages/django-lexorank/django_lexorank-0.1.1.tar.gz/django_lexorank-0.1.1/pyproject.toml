@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "django-lexorank"
+version = "0.1.1"
+description = "This package implements an algorithm similar to JIRA's lexorank, but without using buckets for rebalancing that can be used with Django projects."
+authors = ["Alex Rozum <rozumalex@gmail.com>"]
+packages = [
+    {include="django_lexorank"}
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.urls]
+"Homepage" = "https://github.com/rozumdev/django-lexorank/"
+"Bug Tracker" = "https://github.com/rozumdev/django-lexorank/issues/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest-django = "^4.5.2"
+factory-boy = "^3.3.0"
+django-extensions = "^3.2.3"
+pre-commit = "^3.3.3"
+bpython = "^0.24"
+tox = "^4.6.4"
+
+[tool.flake8]
+max-complexity = 15
+max-line-length = 88
+
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "tests.settings"
+testpaths = "tests"
+
+[tool.tox]
+legacy_tox_ini = """
+    [tox]
+    envlist = django{3.2,4.2}-{py38,py39,py310,py311}
+
+    [gh-actions]
+    python =
+        3.8: py38
+        3.9: py39
+        3.10: py310
+        3.11: py311
+
+    [testenv]
+    deps =
+        django3.2: Django>=3.2
+        django4.2: Django>=4.2
+        pytest
+        pytest-django
+        factory-boy
+        django-extensions
+    commands =
+        pytest
+    setenv =
+        PYTHONPATH=.
+"""
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
