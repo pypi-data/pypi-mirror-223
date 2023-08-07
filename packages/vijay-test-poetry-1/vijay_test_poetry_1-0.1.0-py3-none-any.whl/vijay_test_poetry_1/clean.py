@@ -1,0 +1,1 @@
+print("Clean s3 artifacts")
