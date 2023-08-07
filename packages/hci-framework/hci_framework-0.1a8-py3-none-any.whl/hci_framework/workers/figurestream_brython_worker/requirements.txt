@@ -1,0 +1,2 @@
+hci-framework==0.1a4
+radiant-framework==0.1a15

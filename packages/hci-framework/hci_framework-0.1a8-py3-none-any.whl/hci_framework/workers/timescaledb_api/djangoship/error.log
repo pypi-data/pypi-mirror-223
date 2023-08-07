@@ -1,0 +1,5 @@
+[Sun Aug 06 22:15:17.434643 2023] [wsgi:error] [pid 84:tid 140423323633344] [client 10.0.0.2:60592] /app/venv311/lib/python3.11/site-packages/dunderlab/django/timescaledbapp/views.py:4: UserWarning: NumPy was imported from a Python sub-interpreter but NumPy does not properly support sub-interpreters. This will likely work for most users but might cause hard to track down issues or subtle bugs. A common user of the rare sub-interpreter feature is wsgi which also allows single-interpreter mode.
+[Sun Aug 06 22:15:17.434759 2023] [wsgi:error] [pid 84:tid 140423323633344] [client 10.0.0.2:60592] Improvements in the case of bugs are welcome, but is not on the NumPy roadmap, and full support may require significant effort to achieve.
+[Sun Aug 06 22:15:17.434764 2023] [wsgi:error] [pid 84:tid 140423323633344] [client 10.0.0.2:60592]   import numpy as np
+[Sun Aug 06 22:15:17.489065 2023] [wsgi:error] [pid 84:tid 140423323633344] [client 10.0.0.2:60592] Unauthorized: /timescaledbapp/
+[Sun Aug 06 22:15:17.633470 2023] [wsgi:error] [pid 84:tid 140422974252736] [client 10.0.0.2:60592] Not Found: /favicon.ico, referer: http://127.0.0.1:58829/timescaledbapp/
