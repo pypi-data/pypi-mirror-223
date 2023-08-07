@@ -1,0 +1,12 @@
+simplejpeg/_color.c,sha256=zg0k4RXgmb21LikUiTYx-mLKrwb7WNiRZywz9ZsVMjo,948
+simplejpeg/_jpeg.pyx,sha256=7hLCcYFpne7lG3bDiqAdXwCAxHxt33apNcSu7wwUork,16189
+simplejpeg/_jpeg.cpython-310-x86_64-linux-gnu.so,sha256=JdxKX-3nwEtL2AohwsnLDMaQ7JxNytHebFP32VK1yjY,1163720
+simplejpeg/_jpeg.pyi,sha256=Yg50mseFR2MqWYTY8xzfGcBF-4j1ZrjNlDvGdKOwkMg,3868
+simplejpeg/_color.h,sha256=APHeekpRQa0Dlkb7yxcWrgr7ueP_oMVoej7N4oE4mbs,219
+simplejpeg/_jpeg.c,sha256=yd8QomO5H6F85QDYzzMZSsiA5ub_t9UqGnVSp7IQUmA,1308389
+simplejpeg/__init__.py,sha256=1vATVLIvLnlykhzN3mZL_5yfIndpnm5MxDldTuIGVkU,527
+simplejpeg-1.7.0.dist-info/LICENSE,sha256=u_WeN_6gZzYfdrw80T9sXVEyodNS94_UP1m1crSrtuo,19540
+simplejpeg-1.7.0.dist-info/top_level.txt,sha256=whsdyVL6rcRijxONcdtjdyk0mOmj_2fExNkij2xVvdw,11
+simplejpeg-1.7.0.dist-info/RECORD,,
+simplejpeg-1.7.0.dist-info/METADATA,sha256=toqbF6LRHQ7jexW8sq5JCqzqmUxB1WVWaNX8RpdxNv4,29786
+simplejpeg-1.7.0.dist-info/WHEEL,sha256=ZrrSt1fsSqwm5WLe8zxIW8_reaPHoodZsEVNH1Lux0k,152
