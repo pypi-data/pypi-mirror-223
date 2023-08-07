@@ -1,0 +1,12 @@
+simplejpeg/__init__.py,sha256=9LrwfH_UAkdbMr_TqxpfCPweiI_rO8W6qQGs21V_f2s,553
+simplejpeg/_color.c,sha256=EDRI3IEUJASjOUoBPPmVjGiZjFNq84uSnVAZ5Ho3e0U,977
+simplejpeg/_color.h,sha256=775opOASt5dMG-rQWSaeLhUDWHBoc1ZmJaIoKkKUPG8,224
+simplejpeg/_jpeg.c,sha256=stKM1GrBNui71MB6XpJsxMgGCrD4CGTmYDXcT1dQIdE,1310946
+simplejpeg/_jpeg.cp38-win32.pyd,sha256=NSLYVPA1QwKyGAS0kBwhRIhNIUUFXxxvrWOzf7eqFNQ,857600
+simplejpeg/_jpeg.pyi,sha256=ECpSTz-CMfU7ZyCS18bevCA2KJQy4duyItaDC6ZjR14,3979
+simplejpeg/_jpeg.pyx,sha256=MMkNo5oVx8DFyOT0TN5QRp0awr8VLaiX9ACXOCzdO6o,16686
+simplejpeg-1.7.0.dist-info/LICENSE,sha256=ssUZExrQi9ZOwwFu6ozkq8RCDnZztIr7qtInOdKT1xQ,20009
+simplejpeg-1.7.0.dist-info/METADATA,sha256=ttpWl9dLswbgUC54-kyu901JvsMWa9IrxtRoiZe28Ls,30495
+simplejpeg-1.7.0.dist-info/WHEEL,sha256=Hfrw8Qe0ZIPdAdzZA8NURz2pVtOChc2bqobSOB8jxlA,96
+simplejpeg-1.7.0.dist-info/top_level.txt,sha256=whsdyVL6rcRijxONcdtjdyk0mOmj_2fExNkij2xVvdw,11
+simplejpeg-1.7.0.dist-info/RECORD,,
