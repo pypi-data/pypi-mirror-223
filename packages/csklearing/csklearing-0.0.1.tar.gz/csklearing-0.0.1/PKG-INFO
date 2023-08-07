@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: csklearing
+Version: 0.0.1
+Summary: 自己平时会使用的一些统计学和数学模型
+Author: Checkey01
+Author-email: Chiaki2048@outlook.com
+Keywords: Machine Learning,Python
+
+
+目前有两个改进的朴素贝叶斯算法和一个TOPSIS
