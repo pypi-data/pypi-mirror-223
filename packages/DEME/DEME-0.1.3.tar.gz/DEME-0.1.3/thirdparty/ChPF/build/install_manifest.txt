@@ -1,0 +1,7 @@
+/usr/local/include/include/chpf.hpp
+/usr/local/include/include/particle_writer.hpp
+/usr/local/include/include/utils/types.h
+/usr/local/include/include/utils/compression.hpp
+/usr/local/lib/cmake/ChPF/ChPFTargets.cmake
+/usr/local/lib/cmake/ChPF/ChPFConfig.cmake
+/usr/local/lib/cmake/ChPF/ChPFConfigVersion.cmake

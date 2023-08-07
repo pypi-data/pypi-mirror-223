@@ -1,0 +1,7 @@
+a.out
+build/
+.cache/
+*.chpf
+compile_commands.json
+__pycache__/
+.vscode/

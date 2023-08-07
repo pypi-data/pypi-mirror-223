@@ -1,0 +1,7 @@
+/DEM-Engine/thirdparty/ChPF/build/CMakeFiles/test_chpf.dir
+/DEM-Engine/thirdparty/ChPF/build/CMakeFiles/edit_cache.dir
+/DEM-Engine/thirdparty/ChPF/build/CMakeFiles/rebuild_cache.dir
+/DEM-Engine/thirdparty/ChPF/build/CMakeFiles/list_install_components.dir
+/DEM-Engine/thirdparty/ChPF/build/CMakeFiles/install.dir
+/DEM-Engine/thirdparty/ChPF/build/CMakeFiles/install/local.dir
+/DEM-Engine/thirdparty/ChPF/build/CMakeFiles/install/strip.dir
