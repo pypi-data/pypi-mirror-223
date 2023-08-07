@@ -1,0 +1,4 @@
+[console_scripts]
+leakage_object=shear_psf_leakage.leakage_object:main
+leakage_scale=shear_psf_leakage.leakage_scale:main
+
