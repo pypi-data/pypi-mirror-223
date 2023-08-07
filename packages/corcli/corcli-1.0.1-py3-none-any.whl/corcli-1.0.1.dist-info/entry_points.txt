@@ -1,0 +1,2 @@
+[console_scripts]
+corcli = corcli.__main__:main
