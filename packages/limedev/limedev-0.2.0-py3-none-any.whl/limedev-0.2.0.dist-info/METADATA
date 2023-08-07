@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: limedev
+Version: 0.2.0
+Summary: Toolkit for Python development, especially packaging 
+Author: Limespy
+Project-URL: Homepage, https://github.com/Limespy/limedev
+Project-URL: Changelog, https://github.com/Limespy/limedev/blob/main/README.md#Changelog
+Project-URL: Issue Tracker, https://github.com/Limespy/limedev/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: build
+Requires-Dist: build >=0.10.0 ; extra == 'build'
+Requires-Dist: tomli >=2.0.1 ; extra == 'build'
+Requires-Dist: tomli-w >=1.0.0 ; extra == 'build'
+Requires-Dist: yamdog >=0.5.0 ; extra == 'build'
+Requires-Dist: wheel >=0.38 ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: build >=0.10.0 ; extra == 'dev'
+Requires-Dist: gprof2dot >=2022.7.29 ; extra == 'dev'
+Requires-Dist: mypy >=1.2.0 ; extra == 'dev'
+Requires-Dist: pre-commit >=3.2.2 ; extra == 'dev'
+Requires-Dist: pylint >=2.17.3 ; extra == 'dev'
+Requires-Dist: pytest >=7.2.0 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.0.0 ; extra == 'dev'
+Requires-Dist: reorder-python-imports >=3.9.0 ; extra == 'dev'
+Requires-Dist: tomli >=2.0.1 ; extra == 'dev'
+Requires-Dist: tomli-w >=1.0.0 ; extra == 'dev'
+Requires-Dist: tox >=4.5.1 ; extra == 'dev'
+Requires-Dist: types-PyYAML >=6.0 ; extra == 'dev'
+Requires-Dist: yamdog >=0.5.0 ; extra == 'dev'
+Requires-Dist: wheel >=0.38 ; extra == 'dev'
+Provides-Extra: package
+Requires-Dist: build >=0.10.0 ; extra == 'package'
+Requires-Dist: tomli >=2.0.1 ; extra == 'package'
+Requires-Dist: tomli-w >=1.0.0 ; extra == 'package'
+Requires-Dist: yamdog >=0.5.0 ; extra == 'package'
+Requires-Dist: wheel >=0.38 ; extra == 'package'
+Provides-Extra: readme
+Requires-Dist: yamdog >=0.5.0 ; extra == 'readme'
+Provides-Extra: test
+Requires-Dist: gprof2dot >=2022.7.29 ; extra == 'test'
+Requires-Dist: mypy >=1.2.0 ; extra == 'test'
+Requires-Dist: pylint >=2.17.3 ; extra == 'test'
+Requires-Dist: pytest >=7.2.0 ; extra == 'test'
+Requires-Dist: pytest-cov >=4.0.0 ; extra == 'test'
+Requires-Dist: pyyaml >=6.0 ; extra == 'test'
+Requires-Dist: types-PyYAML >=6.0 ; extra == 'test'
+
+[![PyPI Package latest release](https://img.shields.io/pypi/v/limedev.svg)][1]
+[![PyPI Wheel](https://img.shields.io/pypi/wheel/limedev.svg)][1]
+[![Supported versions](https://img.shields.io/pypi/pyversions/limedev.svg)][1]
+[![Supported implementations](https://img.shields.io/pypi/implementation/limedev.svg)][1]
+
+# LimeDev <!-- omit in toc -->
+
+LimeDev is collection tools for Python development. These tools are more or less thin wrappers around other packages.
+
+## Table of Contents <!-- omit in toc -->
+
+- [Quick start guide](#quick-start-guide)
+    - [The first steps](#the-first-steps)
+        - [Installing](#installing)
+        - [Importing](#importing)
+
+# Quick start guide
+
+Here's how you can start numerically
+
+## The first steps
+
+### Installing
+
+Install LimeDev with pip
+
+```
+pip install limedev
+```
+
+### Importing
+
+Import name is the same as install name, `limedev`.
+
+```python
+import limedev
+```
+
+# Changelog <!-- omit in toc -->
+
+## 0.2.0 2023-08-06 <!-- omit in toc -->
+
+- Bugfixes
+- Cleaner structure
+- Reworked readme build
+
+## 0.1.0 2023-05-04 <!-- omit in toc -->
+
+- Initial assembly of the tools
+
+[1]: <https://pypi.org/project/limedev> "Project PyPI page"
