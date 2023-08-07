@@ -1,0 +1,2 @@
+[console_scripts]
+tempo120 = tempo120:main
