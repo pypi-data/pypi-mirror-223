@@ -1,0 +1,8 @@
+Diveplane:
+  client: howso.engine.client.DiveplaneCommunityClient
+  client_extra_params:
+     amalgam:
+        library_postfix: -mt
+        embedded: howso.engine.lib.amlg
+     core:
+        embedded: howso.engine.lib.core 
