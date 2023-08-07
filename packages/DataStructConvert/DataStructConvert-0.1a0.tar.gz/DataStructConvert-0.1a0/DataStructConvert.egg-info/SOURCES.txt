@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+DataStructConvert.egg-info/PKG-INFO
+DataStructConvert.egg-info/SOURCES.txt
+DataStructConvert.egg-info/dependency_links.txt
+DataStructConvert.egg-info/requires.txt
+DataStructConvert.egg-info/top_level.txt
