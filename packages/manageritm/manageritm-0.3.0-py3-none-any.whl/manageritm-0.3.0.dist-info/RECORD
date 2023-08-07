@@ -1,0 +1,16 @@
+manageritm/__init__.py,sha256=1l8MtTt5f8Z6HCSlVDQ9cTPs6_Tu0e6ufoRDoNxGkUQ,53
+manageritm/app.py,sha256=KRmhNQcZyCjPiI76i6J3cheEVrrHB5p1tB9EQVTwkPA,866
+manageritm/server/__init__.py,sha256=5KLXcr1CHj19HmF4ZfQWj78oLDCfkDYs32TeZPUGIaI,741
+manageritm/server/client/__init__.py,sha256=7F4vImj7RkqcwzZ1igmLKua9xXSxzQpaGcHYztF9IAM,109
+manageritm/server/client/routes.py,sha256=vhk1bNsmfTtLj5NkFuoSscO3Y7pfOFRX-7IrLMS8B0M,4443
+manageritm/server/main/__init__.py,sha256=B1kYE2ij37bdJqLdeYHLCVaoPYaKeZjLsmfDIwy9PYY,105
+manageritm/server/main/routes.py,sha256=dkyJXnHaZ1ohsGgLYaqKRwwYe6xAdThi5hC-UVhFA3Y,2151
+manageritm/server/process_minder.py,sha256=uzsdH62fOCbtwTYrxPattUrU49-SvRDPuc95wGVngDM,3196
+manageritm/server/processes.py,sha256=8xw9DiqJG7fjdtNtREiwypwkRoBjLy8eKy4YfWOd300,19
+manageritm/server/scripts/har_dump.py,sha256=DrlqVzCtiRA7_1mHPanhUKuXzAAFlTm4HNr-Vwrv_50,7413
+manageritm/server/utils.py,sha256=W7q2i2DITLIhJC_1tdHh09cZMEvHtbxtOj8rLHN8mCE,882
+manageritm-0.3.0.dist-info/LICENSE,sha256=4u6YxpOE62uvQo2F_b0JCbEapO-z0o8L02X1eLP7Wig,1072
+manageritm-0.3.0.dist-info/METADATA,sha256=g6_AGoSjcPWIGAHdX0OGUDF9YHnctkHj9XLmRs3Mk3A,3903
+manageritm-0.3.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+manageritm-0.3.0.dist-info/entry_points.txt,sha256=0T9UDZaBh33A3IS29XVkax-HrFB4st8iC5wZsATMdrE,49
+manageritm-0.3.0.dist-info/RECORD,,
