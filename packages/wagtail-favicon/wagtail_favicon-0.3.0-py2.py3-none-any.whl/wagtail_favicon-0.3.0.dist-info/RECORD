@@ -1,0 +1,15 @@
+wagtail_favicon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_favicon/apps.py,sha256=XW3mrVc5odyxfBWjy9H5M-RC9EBL8r3RjodDAKP1Urw,104
+wagtail_favicon/migrations/0001_initial.py,sha256=nCJnVOcgOn8aiy6LrE09qYCIQW3sIox06Y0LSokpBkQ,1646
+wagtail_favicon/migrations/0002_remove_social_sharing_image_setting.py,sha256=iBA2yFxKXVIXXIwIu4cM7s2Gqe565idB5eq0QUrik7c,573
+wagtail_favicon/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_favicon/models.py,sha256=bu-QVXNwGiRIpDqFkcWBgTdSByu0BqLxg1t8-IoeV54,2155
+wagtail_favicon/templates/browser-config.xml,sha256=idt-5GV-pt-SLRzIqdQQhDxIpjQPFrAIV-zUCcWhgKc,363
+wagtail_favicon/templates/tags/favicon_meta.html,sha256=GzAuBos6Fui6GMrkVQrVXpBhKWJTCpj4HOZinusNxfQ,672
+wagtail_favicon/templatetags/favicon_tags.py,sha256=HDyIoQ8FbhRmci-U1Yvnq0y59_WixSuuWoZP8iOMiKc,723
+wagtail_favicon/urls.py,sha256=7i5bvopHIiBlf5iKBzuHo6eTd06SIuWL7Mkyax0XCpk,182
+wagtail_favicon/validators.py,sha256=9gUsbHKeQicyZspB2wrhJ5AeX-xtnXL1U7MZQmZCuBo,276
+wagtail_favicon/views.py,sha256=q9epW0hIVL2wr9SEQgS_4k1J0FXpm-xd8oIXtrNcYrE,2336
+wagtail_favicon-0.3.0.dist-info/METADATA,sha256=4g_0CXpzpoaO5XfaX0MuvdcgBehIo58XEY7iia5XZoU,2363
+wagtail_favicon-0.3.0.dist-info/WHEEL,sha256=HNQIvPlX3_ghCv6ljjG1vnIF6Npwq1SIN8tJybrRXEo,92
+wagtail_favicon-0.3.0.dist-info/RECORD,,
