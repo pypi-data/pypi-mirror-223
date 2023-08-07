@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fracture-suite
+Version: 0.0.1
+Summary: Package to help analyze fracture patterns on broken glass plys.
+Author-email: Leon Bohmann <mail@leonbohmann.de>
+Project-URL: Homepage, https://github.com/leonbohmann/fracture-suite
+Project-URL: Bug Tracker, https://github.com/leonbohmann/fracture-suite/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Fracture Suite
+
+This package helps identifying splinters on broken glass plys.
