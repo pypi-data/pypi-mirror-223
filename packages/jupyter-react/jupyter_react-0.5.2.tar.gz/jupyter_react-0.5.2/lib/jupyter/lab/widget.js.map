@@ -1,0 +1,1 @@
+{"version":3,"file":"widget.js","sourceRoot":"","sources":["../../../src/jupyter/lab/widget.tsx"],"names":[],"mappings":";AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,sBAAsB,CAAC;AACnD,OAAO,YAAY,MAAM,wBAAwB,CAAC;AAElD,MAAM,OAAO,kBAAmB,SAAQ,WAAW;IACjD;QACE,KAAK,EAAE,CAAC;QACR,IAAI,CAAC,QAAQ,CAAC,eAAe,CAAC,CAAC;IACjC,CAAC;IAED,MAAM;QACJ,OAAO,KAAC,YAAY,KAAG,CAAC;IAC1B,CAAC;CACF"}

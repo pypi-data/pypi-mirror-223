@@ -1,0 +1,4 @@
+// Export widget models and views, and the npm package version number.
+export * from './Figure';
+export * from './Version';
+//# sourceMappingURL=index.js.map
