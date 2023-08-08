@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: easymix
+Version: 0.8
+Summary: Simple live and track python audio mixer
+Home-page: https://github.com/flokapi/easymix
+Author: flokapi
+Author-email: flokapi@pm.me
+License: LGPLv2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: pydub
+Requires-Dist: pyaudio
+
