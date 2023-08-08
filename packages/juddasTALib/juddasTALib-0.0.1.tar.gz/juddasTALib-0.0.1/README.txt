@@ -1,0 +1,1 @@
+Various techical analyst indicators for using as part of your trading algo

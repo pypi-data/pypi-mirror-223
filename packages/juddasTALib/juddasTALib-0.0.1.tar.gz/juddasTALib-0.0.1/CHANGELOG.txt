@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.1 (07/08/2023)
+------------------
+-First realease that only includes three variants of the ATR: Using SMA, EMA & WMA as smoothing 

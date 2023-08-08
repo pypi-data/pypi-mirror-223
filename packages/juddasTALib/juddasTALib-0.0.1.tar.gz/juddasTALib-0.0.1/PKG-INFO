@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: juddasTALib
+Version: 0.0.1
+Summary: Just another technical analysis indicator lib
+Home-page: 
+Author: Paul Judd
+Author-email: 
+License: MIT
+Keywords: TA,indicators,technical analysis,trading,finance
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+Various techical analyst indicators for using as part of your trading algo
+
+Change Log
+==========
+
+0.0.1 (07/08/2023)
+------------------
+-First realease that only includes three variants of the ATR: Using SMA, EMA & WMA as smoothing 
