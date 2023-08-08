@@ -1,0 +1,8 @@
+stigg/__init__.py,sha256=uQeM3YjvH1X56xOPknIEQezw0yjNNS-m9gi3B0XlSOM,44
+stigg/client.py,sha256=wSb0yyW13mWMr_4pooJArTtCa2fL5079ho9jGaZTdpE,3699
+stigg/generated/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stigg/generated/operations.py,sha256=E2qRZg7gj22JSCAbAme2SXizMtYmQaS-XldpgO3_X7Y,51059
+stigg/generated/schema.py,sha256=6g-E3lbyr9QQx8SGsfVPMVZcaEUqD_z2_63rvNmpq6Y,474475
+stigg_api_client-0.526.0.dist-info/METADATA,sha256=p-EJ6Z7tR7bpLyCkfJy0NXoToX13C2djnAYv_glEyKU,3122
+stigg_api_client-0.526.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+stigg_api_client-0.526.0.dist-info/RECORD,,
