@@ -1,0 +1,11 @@
+estyp/__init__.py,sha256=bvtVZ0R_MOqr6FxNSWy9_DQSaOzBK1fkGy1n5SLncbo,125
+estyp/cluster/__init__.py,sha256=YSSG-yBAIl5Jfzed9uQF_tPINDms6OfBL9A5BUKqNGk,18824
+estyp/linear_model/__init__.py,sha256=koglepiVl6kj4L2HvxaQYbIusqYORcj34U4XyAG0SPU,7617
+estyp/linear_model/stepwise/__init__.py,sha256=l9p-Wh6Pr0BlVxEYGWoyniDcoTGqVwH_hbk13pTkkfw,3796
+estyp/linear_model/stepwise/__base/__init__.py,sha256=uWvC9NNoWbvIrKlPogriY55FdahujT7bh6927i3ahWE,5591
+estyp/testing/__init__.py,sha256=UTi5JtYFd9gQDpVSBeWIi_rO2dpyB7jwaUitU4aUpmY,24812
+estyp/testing/__base/__init__.py,sha256=-LOt0D9x7AYNygM6WiG0mrNogOVYZjfdzcHvggayUbU,32299
+estyp-0.5.1.dist-info/METADATA,sha256=2SYHsNQYqlRGozFyGdjJHnqN6XoOF-z4fANihg4yL5A,6306
+estyp-0.5.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+estyp-0.5.1.dist-info/licenses/LICENSE,sha256=EenxRerswcXKa-fPOIYjPCj8UYW4KJKt4ebutjLT8z0,1101
+estyp-0.5.1.dist-info/RECORD,,
