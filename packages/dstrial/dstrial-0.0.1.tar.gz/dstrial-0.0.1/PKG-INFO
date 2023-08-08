@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: dstrial
+Version: 0.0.1
+Summary: A  data cleaning package
+Project-URL: Homepage, https://github.com/muganga-charles/dstrial
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Charles Muganga <mugangacharles5@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# dstrial1
+First trial for package
+## FUNCTIONS
+- columns
+- summary
+- read_data(file)
+- head(number)
+- getdata
+- missing_values()
+- col_missing_value(col_name)
+- remove_empty_columns
+- data_types
+- cat_cols
+- cont_cols
+- distributions
+- data_types
+- col_dist
+- cat_dist
+- col_cat_dist
+- remove_missingvalues
+- drop
+- outliers
+- outliers_single
+- remove_outliers
+- corr_matrix
+- cont_corr
+- cont_to_cont(col1,col2)
+- cat_to_cat(col1,col2)
+- countplot
+- contingency_table(col1,col2)
+- Chi_square(col1,col2)
+- combined_boplot(col1,col2)
+- singleAnova(col1,col2)
+- cont_to_cat(col1,col2)
+- data_cleaning
