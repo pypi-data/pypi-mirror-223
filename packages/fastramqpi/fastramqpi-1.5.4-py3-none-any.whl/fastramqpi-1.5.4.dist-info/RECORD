@@ -1,0 +1,13 @@
+fastramqpi/__init__.py,sha256=k9cpjcHUUo6BSpLis8GHfu4LCPuSZAwQ6xYVlPmdzws,85
+fastramqpi/config.py,sha256=0vTLr71VlmEzNAbF4vMLOVt-DZye9lxePsXB_qJ5FLk,2206
+fastramqpi/context.py,sha256=5LXQSgAHzhB_FyDsmpr6XK40b1yCHeccbGjG-HU_W_c,1298
+fastramqpi/depends.py,sha256=CpUCl32ERdJvK33XZq-cUetGM8xpfYO3gfcqIDgOWmU,1425
+fastramqpi/fastapi.py,sha256=7D9DYC46jtX-RqqFe7d9N0qE40agHt_qUaDfp7IJyms,7149
+fastramqpi/healthcheck.py,sha256=8eWRfhyZvffDysLo_ZvJcWXeTFZxvIJjTCooW61_yD4,1577
+fastramqpi/main.py,sha256=arao4Nl9DoWFNhQO9lAAcOr4U5CzYgEx0wQd5CiwBKY,6935
+fastramqpi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastramqpi-1.5.4.dist-info/LICENSE,sha256=Xez-I9f_ECXfYKKwVpbPA25xYMNwv4McfGeH_1Y9DOI,15177
+fastramqpi-1.5.4.dist-info/LICENSES/MPL-2.0.txt,sha256=Xez-I9f_ECXfYKKwVpbPA25xYMNwv4McfGeH_1Y9DOI,15177
+fastramqpi-1.5.4.dist-info/METADATA,sha256=AIxoG3BOG60OwrBoHIMYc_5E1INZH4hm2KgK14nQgCk,7635
+fastramqpi-1.5.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fastramqpi-1.5.4.dist-info/RECORD,,
