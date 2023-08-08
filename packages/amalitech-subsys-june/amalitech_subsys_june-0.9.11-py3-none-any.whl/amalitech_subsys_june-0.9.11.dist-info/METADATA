@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: amalitech-subsys-june
+Version: 0.9.11
+Summary: A git inspired assignment submission system.
+Author: Charles Biney, Eric Kodzi, Donal-Miles Gyasi
+Author-email: charles.biney@amalitech.org, eric.kodzi@amalitech.org, donal-miles.gyasi@amalitech.org
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: tqdm
+Requires-Dist: python-slugify
+
