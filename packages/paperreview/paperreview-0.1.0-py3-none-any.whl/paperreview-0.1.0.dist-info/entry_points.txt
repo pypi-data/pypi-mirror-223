@@ -1,0 +1,2 @@
+[console_scripts]
+paperreview = paperreview.__main__:main

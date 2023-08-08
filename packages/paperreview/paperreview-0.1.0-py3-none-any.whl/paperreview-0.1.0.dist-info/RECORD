@@ -1,0 +1,11 @@
+paperreview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paperreview/__main__.py,sha256=F7shGt6kw0zLeLqr7yNHTDStr734ESQXRaRiaD_YeL4,148
+paperreview/cli.py,sha256=KsST-grxIQIbBJMpPEI1ngC7DCGa_iVfkHVXQM6SKZU,1285
+paperreview/constants.py,sha256=4JsxcOBMd4DityGRqePX_jIhqE1QPrV9C6a3ig1uRxs,1392
+paperreview/helper.py,sha256=-F4LPu-c_ANQzLrKMZ1tbi4DikPcn-92QSa4OtKyxFU,3489
+paperreview-0.1.0.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+paperreview-0.1.0.dist-info/METADATA,sha256=jA1cY87aXV_uT1lEMBfoUBA_Im31hhVuLL1m-izkA_Y,1746
+paperreview-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+paperreview-0.1.0.dist-info/entry_points.txt,sha256=ZkdS7SE_wk8WsmQT2kLrrL6R2oewIQCyJ95U69e5gb4,58
+paperreview-0.1.0.dist-info/top_level.txt,sha256=ubSjPOKt3-culBWfybXRqS-QqeoOwLMAXQmbvtN6MZw,12
+paperreview-0.1.0.dist-info/RECORD,,
