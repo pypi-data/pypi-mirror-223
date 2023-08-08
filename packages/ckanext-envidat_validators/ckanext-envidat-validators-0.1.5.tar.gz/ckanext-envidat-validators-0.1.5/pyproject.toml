@@ -1,0 +1,109 @@
+[project]
+name = "ckanext-envidat_validators"
+dynamic = []
+description = "Custom CKAN validators for EnviDat."
+authors = [
+    { name = "Sam Woodcock", email = "sam.woodcock@protonmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+keywords = [
+    "CKAN",
+    "validators",
+    "schema",
+]
+classifiers = [
+    "Topic :: Utilities",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+version = "0.1.5"
+
+[project.license]
+text = "MIT"
+
+[project.entry-points."ckan.plugins"]
+envidat_validators = "ckanext.envidat_validators.plugin:EnviDatValidatorsPlugin"
+
+[project.urls]
+homepage = "https://gitlabext.wsl.ch/EnviDat/ckanext-envidat_validators.git"
+documentation = "https://envidat.gitlab-pages.wsl.ch/ckanext-envidat_validators"
+repository = "https://gitlabext.wsl.ch/EnviDat/ckanext-envidat_validators.git"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm]
+includes = [
+    "ckanext",
+]
+source-includes = [
+    "ckanext/envidat_validators/tests",
+    "CHANGELOG.md",
+]
+source = [
+    { name = "pypi", url = "https://pypi.org/simple", verify_ssl = true },
+]
+
+[tool.pdm.version]
+from = "ckanext/envidat_validators/__version__.py"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest-ckan>=0.0.12",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.5"
+version_files = [
+    "pyproject.toml:version",
+    "ckanext/envidat_validators/__version__.py",
+]
+
+[tool.isort]
+profile = "black"
+atomic = true
+known_first_party = [
+    "ckanext",
+]
+
+[tool.ruff]
+target-version = "py38"
+line-length = 88
+select = [
+    "I",
+    "E",
+    "W",
+    "D",
+    "B",
+    "F",
+    "N",
+    "Q",
+]
+exclude = [
+    ".git",
+    ".ruff_cache",
+    ".vscode",
+    "__pypackages__",
+    "build",
+    "dist",
+    "migrations",
+    "ckanext/envidat_validators/__version__.py",
+]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
