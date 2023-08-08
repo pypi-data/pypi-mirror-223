@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+boticordpy/__init__.py
+boticordpy/autopost.py
+boticordpy/client.py
+boticordpy/exceptions.py
+boticordpy/http.py
+boticordpy/types.py
+boticordpy/websocket.py
+boticordpy.egg-info/PKG-INFO
+boticordpy.egg-info/SOURCES.txt
+boticordpy.egg-info/dependency_links.txt
+boticordpy.egg-info/requires.txt
+boticordpy.egg-info/top_level.txt
