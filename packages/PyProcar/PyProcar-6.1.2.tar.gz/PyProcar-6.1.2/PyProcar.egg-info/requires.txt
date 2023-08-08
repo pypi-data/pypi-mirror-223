@@ -1,0 +1,12 @@
+gdown
+matplotlib
+numpy
+pyvista
+scikit-image
+scipy
+seekpath
+spglib
+trimesh
+ase
+sympy
+PyYAML
