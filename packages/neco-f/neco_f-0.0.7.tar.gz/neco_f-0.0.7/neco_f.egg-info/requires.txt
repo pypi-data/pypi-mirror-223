@@ -1,0 +1,12 @@
+requests
+pyinstaller
+tqdm
+urllib3
+pycryptodome
+playsound
+pyautogui
+pillow
+plyer
+pyexecjs2
+opencv-python
+rich
