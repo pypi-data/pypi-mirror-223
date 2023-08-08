@@ -1,0 +1,453 @@
+Metadata-Version: 2.1
+Name: task4
+Version: 0.1.2
+Summary: Log file parser CLI and library
+License: MIT
+Author: Bill.Avramenko
+Author-email: billavramenko@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: questionary (>=1.10.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://gitlab.com/Bill-EPAM-DevOpsInt2023/devops-7-avramenko-bill">
+    <img src="https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/ecd2eb07b44c03c4bcdf5493b45fe46238a12e14/shared/images/title-logo-origin.svg" alt="EPAM DevOps-7 Internal Lab title logo" width="100%" height="300px">
+  </a>
+</p>
+
+<h1 align="center">
+  <div align="center" aria-colspan="0">Parsing log with Regex in Python.</div>
+  <div align="center" aria-colspan="0">Module 2: Python. Task 4.</div>
+</h1>
+
+<p align="center">
+  <div align="center">
+    <a href="https://pypi.org/project/task4/">
+      <img src="https://img.shields.io/pypi/v/task4.svg?style=for-the-badge&label=task 4" alt="TASK 4" />
+    </a>&nbsp;
+    <a href="https://gitlab.com/Bill-EPAM-DevOpsInt2023/python/task4/-/blob/783fe98d0c073fb7de18c872eb6b2d9dfbe81dbc/LICENSE">
+      <img src="https://img.shields.io/pypi/l/task4.svg?style=for-the-badge" alt="License" />
+    </a>&nbsp;
+    <a href="https://python-poetry.org/">
+      <img src="https://img.shields.io/pypi/v/poetry.svg?style=for-the-badge&label=poetry&color=green" alt="POETRY" />
+    </a>&nbsp;
+    <a href="https://www.python.org/downloads/">
+      <img src="https://img.shields.io/pypi/pyversions/task4?style=for-the-badge" alt="PYTHON" />
+    </a>&nbsp;
+  </div>
+</p>
+
+
+## Preface
+
+This project contains a solution to one of the tasks of the EPAM DevOps Initial Internal Training Course #7 in 2023.
+Detailed information about the course, as well as reports on each of the completed tasks (including this one) can be found [here](https://gitlab.com/Bill-EPAM-DevOpsInt2023/devops-7-avramenko-bill) [![/^](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/45ed5458fe7cf837b62a423fcdff6a52b8db3cdb/shared/images/external-link-blue-12.png)](https://gitlab.com/Bill-EPAM-DevOpsInt2023/devops-7-avramenko-bill).
+<br>
+As mentioned above, the project contains a solution to task #4 as part of module #2 of learning the Python programming language.
+Below you will find a detailed description of the task, as well as a brief description of the implementation.
+
+## Table of Contents
+
+- [Part A condition](#part-a-conditions)
+- [Part B condition](#part-b-conditions)
+- [Implementation](#implementation)
+  - [Structure](#structure)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Library](#library)
+  - [CLI](#cli)
+  - [Pipes and files](#pipes-and-files)
+  - [xSV example file generator](#xsv-example-file-generator)
+  - [Showcase](#showcase)
+- [General Provisions](#general-provisions)
+
+## Part A conditions
+
+Work with Regex in Python and make a bunch of regex:
+- IPv4 address (special address: private network, CIDR notation);
+- IPv6 address (special address: private network, CIDR notation);
+- IP mask (any length, given length);
+- MAC address (format: general, Linux, Windows, Cisco);
+- domain address (only TLD, first DL, second);
+- email (get login, get domain);
+- URI;
+- URL;
+- SSH Key (private, public);
+- card number;
+- UUID.
+
+## Part B conditions
+
+The xSV parsing CLI is supposed to provide the following features:
+- It should work with the canonic file formats CSV, TSV, DSV.
+- Implements import/export data from those file formats:
+    - has or doesn't have a header row;
+    - filtering:
+        - in all rows;
+        - in a specific row field by regular expression;
+        - in certain rows by particular regular expression;
+    - Output file fragment:
+        - by row number or row number range
+        - by column index or column index range
+    - has different string value format:
+        - single string
+        - multi-string
+    - processing files in case of breach of the canonical format (try to get the content as completely as possible)
+- Implements all of the above:
+    - by pure python string, module re (regular expression);
+    - by using the Python module CSV.
+- Convert CSV to JSON with Python by pure Python module CSV and JSON.
+
+The CSV file must contain the following columns:
+- MAC address
+- Hostname
+- IPv4
+- IPv6
+- Netmask (xxx.xxx.xxx.xxx or xx (CIDR))
+- User login (in epam format)
+- Full username 
+- Email 
+- SSH private key
+- SSH public key
+- Host description
+- Installed app list
+- UUID
+
+## Implementation
+
+[Parse_xSV](https://pypi.org/project/task3/)[![/^](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/45ed5458fe7cf837b62a423fcdff6a52b8db3cdb/shared/images/external-link-blue-12.png)](https://pypi.org/project/task3/)
+is a Python package that could be added to your global or virtual environment by preferable package manager pip, pipenv, poetry, etc.
+The project itself was managed and built using the [Poetry library](https://python-poetry.org/)[![/^](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/45ed5458fe7cf837b62a423fcdff6a52b8db3cdb/shared/images/external-link-blue-12.png)](https://python-poetry.org/),
+so if you intend to clone this repo and make some changes for your own purposes, please install [Poetry](https://python-poetry.org/docs/#installation)[![/^](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/45ed5458fe7cf837b62a423fcdff6a52b8db3cdb/shared/images/external-link-blue-12.png)](https://python-poetry.org/docs/#installation)
+or migrate to your preferred package management library.
+
+Based on the need to build and the possibility of using both the library and the CLI, the code was split into a library for importing and a script for execution
+via the command line. Additionally, the package contains a showcase that demonstrates all use cases when run through the command line.
+
+To enhance the command line's functionality and expand showcase capabilities, the [Questionary](https://questionary.readthedocs.io/en/stable/)[![/^](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/45ed5458fe7cf837b62a423fcdff6a52b8db3cdb/shared/images/external-link-blue-12.png)](https://questionary.readthedocs.io/en/stable/)
+library is used and will be installed through a dependency link upon package installation.
+
+In order to help users generate sample xSV files, the [Faker](https://faker.readthedocs.io/en/master/)[![/^](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/45ed5458fe7cf837b62a423fcdff6a52b8db3cdb/shared/images/external-link-blue-12.png)](https://faker.readthedocs.io/en/master/)
+library is used and will be installed through a dependency link upon package installation.
+
+### Structure
+
+```markdown
+task3/
+├── README.md (You are here now)
+├── pyproject.toml # Poetry package management file
+└── parse_xsv/ 
+    ├── __init__.py # library entry point
+    ├── __main__.py # CLI entry point
+    ├── __version__.py 
+    ├── parse_xsv.py # library implementation
+    ├── cli/
+    │   ├── __init__.py
+    │   ├── __main__.py
+    │   └── cli.py # CLI code implementation
+    ├── sample_gen/
+    │   ├── __init__.py
+    │   ├── __main__.py
+    │   └── sample_gen.py # CLI for generation of sample xSV files
+    └── showcase/
+            ├── __init__.py 
+            ├── __main__.py # showcase entry point when using python -m parse_xsv.showcase
+            ├── sample.csv # a sample CSV file
+            ├── sample.tsv # a sample TSV file
+            ├── corrupted_sample.csv # an ill-formed format CSV file
+            └── showcase.py # showcase implementation
+```
+
+## Installation
+
+Use your preferred installation method via different package installation managers to install Parse_xSV.
+
+###### Pip
+
+To install Parse_xSV packet to your environment using pip manager invoke `pip install task3`.
+
+```bash
+$ pip install task3
+Collecting task3
+  Using cached task3-0.1.N-py3-none-any.whl (62 kB)
+Collecting faker<20.0.0,>=19.2.0 (from task3)
+  Downloading Faker-19.2.0-py3-none-any.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB N.N MB/s eta 0:00:00
+Collecting questionary<2.0.0,>=1.10.0 (from task3)
+  Downloading questionary-1.10.0-py3-none-any.whl (31 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 31.1/31.1 kB N.N MB/s eta 0:00:00
+Collecting python-dateutil>=2.4 (from faker<20.0.0,>=19.2.0->task3)
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.2/247.2 kB N.N MB/s eta 0:00:00     
+Collecting prompt_toolkit<4.0,>=2.0 (from questionary<2.0.0,>=1.10.0->task3)
+  Downloading prompt_toolkit-3.0.39-py3-none-any.whl (385 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 385.2/385.2 kB N.N MB/s eta 0:00:00
+Collecting wcwidth (from prompt_toolkit<4.0,>=2.0->questionary<2.0.0,>=1.10.0->task3)
+  Downloading wcwidth-0.2.6-py2.py3-none-any.whl (29 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.2/29.2 kB N.N MB/s eta 0:00:00
+Collecting six>=1.5 (from python-dateutil>=2.4->faker<20.0.0,>=19.2.0->task3)
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.8/11.8 kB N.N MB/s eta 0:00:00       
+Installing collected packages: wcwidth, six, prompt_toolkit, questionary, python-dateutil, faker, task3
+Successfully installed faker-19.2.0 prompt_toolkit-3.0.39 python-dateutil-2.8.2 questionary-1.10.0 six-1.16.0 task3-0.1.4 wcwidth-0.2.6
+```
+
+To uninstall Pwgen from your environment invoke `pip uninstall task3`.
+It's important to note that the pip manager does not uninstall dependent packages. Therefore, if you wish to remove them, you'll need to take
+the initiative and perform the task yourself. You can do this by using the commands `pip uninstall questionary prompt-toolkit faker python-dateutil wcwidth six`.
+
+###### Poetry
+
+To install Pwgen packet to your environment using poetry manager invoke `poetry add task3`.
+
+```bash
+$ poetry add task3
+Using version ^0.1.N for task3
+
+Updating dependencies
+Resolving dependencies...
+
+Package operations: 6 installs, 0 updates, 0 removals
+
+  • Installing six (1.16.0)
+  • Installing wcwidth (0.2.6)
+  • Installing prompt-toolkit (3.0.39)
+  • Installing python-dateutil (2.8.2)
+  • Installing faker (19.2.0)
+  • Installing questionary (1.10.0)
+
+Writing lock file
+```
+
+By taking this action, a new dependency line will be added to your pyproject.toml file.
+
+```toml
+[tool.poetry.dependencies]
+task3 = "^0.1.N"
+```
+
+To uninstall Pwgen from your environment invoke `poetry remove task3`.
+One of the benefits of utilizing Poetry is that it allows for the removal of all dependent packages with a single command.
+
+## Usage
+
+There are various ways to use this library, as mentioned earlier.
+- Utilize it like a library you can just import it into your .py file and use ReaderXSV class within your code.
+- Utilize CLI via the command shell, either as a Python module or as a standalone command.
+- Utilize CLI command in a pipe by passing stdout of other commands to the stdin of the parse_xsv command, writing stdout and stderr to files, or passing them to following commands.
+- The library contains CLI for generation of sample xSV files that allows to make sample files for a test purposes.
+- The library also contains rich showcase command that allows you to test all the use cases and even perform them in batches.
+
+
+### Library
+
+Below is a code snippet that demonstrates how to be able to use the pwgen library in your code.
+
+```python
+import logging
+from task3.parse_xsv import ReaderXSV
+
+with open('sample.csv', 'r') as f:
+    output = list(ReaderXSV(file_name,
+                            no_header=self.arguments.no_header,
+                            search_string=self.arguments.search,
+                            search_regex=s_regex,
+                            column_regex=c_regex,
+                            rows=self.arguments.rows,
+                            columns=self.arguments.columns,
+                            restkey='rest',
+                            delimiter=self.arguments.delimiter,
+                            dialect=self.arguments.dialect,
+                            quoting=QuotingTypes[self.arguments.quoting].value,
+                            json=self.arguments.json,
+                            strict=not self.arguments.force))
+
+    output_file = [','.join([quoting_value(el) for el in ln]) for ln in output]
+    output_file = '\n'.join(output_file)
+
+    print(output_file)
+```
+
+### CLI
+
+The CLI interface has a single command called "parse_xsv". It can be invoked using two methods: `python3 -m parse_xsv` or simply `parse_xsv`.
+Parse_xsv accepts various arguments, which are described below.
+
+```text
+parse_xsv [-h] [--version] [-d] [-D] [-j] [-p] [-q] [--no-header] [--force] [-v]
+          [-c [INDEXES ...]] [-r [INDEXES ...]]
+          [-C [REGEX ...] | -s SEARCH | -S REGEX] [file_name]
+
+positional arguments:
+file_name             An input filename
+
+optional arguments:
+-h, --help            Show this help message and exit
+--version             Show program's version number and exit
+-d , --delimiter      Specifies values separator (default: ",")
+-D , --dialect        The xsv dialect type. Possible values: excel,excel-tab,unix
+-j, --json            Show output in JSON format. If filename is passed
+-q , --quoting        How values are quoted in the CSV file (default: QUOTE_MINIMAL).
+                      Possible values could be: QUOTE_NONE, QUOTE_NONNUMERIC,
+                      QUOTE_MINIMAL, QUOTE_ALL
+--no-header           Whether parsing CSV file(s) contains a header or not
+--force               Forcibly process an ill-formed format input file
+-v                    Increase verbosity level (add more v)
+-c [INDEXES ...], --columns [INDEXES ...]
+                      The column range from the xCV file to be output. 
+                      You can pass values in the following formats:
+                      particular indexes: index1 index2 ...
+                      indexN range of indexes: index1-index2
+                      from the beginning up to index: -index
+                      from index to the end: index-                      
+-r [INDEXES ...], --rows [INDEXES ...]
+                      The row range from the xCV file to be output. 
+                      You can pass values in the following formats: 
+                      particular indexes: index1 index2 ...
+                      indexN range of indexes: index1-index2 
+                      from the beginning up to index: -index
+                      from index to the end: index-                      
+-C [REGEX ...], --col-regex [REGEX ...]
+                      Find rows based on a given regex string in specific columns.
+                      You can pass values in the following formats:
+                      particular indexes: index1,regex1 index2,regex2 ... indexN,
+                      regexN range of indexes: index1-index2,regex 
+                      from the beginning up to index: -index,regex
+                      from index to the end: index-,regex
+                      Possible values could be: IP4, IP4_PRIVATE, IP4_CIDR, IP6,
+                      IP6_PRIVATE, IP6_CIDR, MASK, MAC, MAC_LINUX, MAC_WINDOWS,
+                      MAC_CISCO, DOMAIN, TLD, DOMAIN_SECOND, EMAIL, URI, URL, SSH_KEY,
+                      SSH_PRIVATE, SSH_PUBLIC, CARD, UUID                      
+-s, --search          Find rows based on a given search string
+-S REGEX, --search-regex REGEX
+                      Find rows based on a given regex. Possible values could be:
+                      IP4, IP4_PRIVATE, IP4_CIDR, IP6, IP6_PRIVATE, IP6_CIDR, MASK,
+                      MAC, MAC_LINUX, MAC_WINDOWS, MAC_CISCO, DOMAIN, TLD, DOMAIN_SECOND,
+                      EMAIL, URI, URL, SSH_KEY, SSH_PRIVATE, SSH_PUBLIC, CARD, UUID
+```
+
+There are some rules for argument handling:
+- if you pass argument -j, the output will be in JSON format. This will prevent further use of this command in a pipe 
+with the following parse_xsv commands. Without this argument the output will be in the xSV format. 
+- the -C, -s, -S arguments are mutual. These arguments cannot be used together, they are mutually exclusive.
+
+To handle the arguments, the [argparse](https://docs.python.org/3/library/argparse.html)[![/^](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/45ed5458fe7cf837b62a423fcdff6a52b8db3cdb/shared/images/external-link-blue-12.png)](https://docs.python.org/3/library/argparse.html)
+module is used. If you are already acquainted with it, you will have no difficulty in passing the arguments along with their values and comprehending their behavior.
+
+The examples in a more convenient form you could find in the [showcase](#showcase).
+
+### Pipes and files
+
+The parse_xsv command could be used inside the pipe of the BASH commands. It can be used in various ways within a pipeline:
+- receiving input
+- direct output to a file
+- direct logging also to a file
+- direct output to the next command in the pipeline
+- using a sequence of the parse_xsv command mainly to put on different filters in a row on the same file
+
+### xSV example file generator
+
+In order to create sample xSV files for a test purposes of parse_xsv CLI the xsv_sample_gen CLI was created.
+The CLI interface has a single command called "xsv_sample_gen". It can be invoked using two methods:
+`python3 -m xsv_sample_gen` or simply `xsv_sample_gen`.
+Parse_xsv accepts various arguments, which are described below. The common way of using this command is to pass the list
+(separated by space) of column types with a header which will be used to create the xSV file structure.
+To fill this file with mock values the external [Faker](https://faker.readthedocs.io/en/master/)[![/^](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/45ed5458fe7cf837b62a423fcdff6a52b8db3cdb/shared/images/external-link-blue-12.png)](https://faker.readthedocs.io/en/master/)
+library is used.
+
+```text
+sample_gen [-h] [--version] [-d] [-D] [-q] [--no-header] [-i] [-v] [-r] structure [structure ...]
+
+positional arguments:
+  structure          The list of column names and column types to be used as output file structure.
+                     You can pass values in the following formats: 
+                     just a type (column name will be index number): type1 type2 ... typeN
+                     column name + type: column_name1,typeN column_name2,typeN ...
+                     column_nameN,typeN.
+                     Possible type values could be: address, administrative_unit, bothify,
+                     building_number, city, city_prefix, city_suffix, country, country_code,
+                     current_country, current_country_code, hexify, language_code, lexify,
+                     locale, military_apo, military_dpo, military_ship, military_state,
+                     numerify, postalcode, postalcode_in_state, postalcode_plus4, postcode,
+                     postcode_in_state, random_choices, random_digit, random_digit_above_two,
+                     random_digit_not_null, random_digit_not_null_or_empty, random_digit_or_empty,
+                     random_element, random_elements, random_int, random_letter, random_letters,
+                     random_lowercase_letter, random_number, random_sample,
+                     random_uppercase_letter, randomize_nb_elements, secondary_address, state,
+                     state_abbr, street_address, street_name, street_suffix, zipcode,
+                     zipcode_in_state, zipcode_plus4, license_plate, vin, aba, bank_country,
+                     bban, iban, swift, swift11, swift8, ean, ean13, ean8, localized_ean,
+                     localized_ean13, localized_ean8, upc_a, upc_e, color, color_name, hex_color,
+                     rgb_color, rgb_css_color, safe_color_name, safe_hex_color, bs, catch_phrase,
+                     company, company_suffix, credit_card_expire, credit_card_full, credit_card_number,
+                     credit_card_provider, credit_card_security_code, cryptocurrency,
+                     cryptocurrency_code, cryptocurrency_name, currency, currency_code,        
+                     currency_name, currency_symbol, pricetag, am_pm, century, date, date_between,
+                     date_between_dates, date_object, date_of_birth, date_this_century, date_this_decade,
+                     date_this_month, date_this_year, date_time, date_time_ad, date_time_between,
+                     date_time_between_dates, date_time_this_century, date_time_this_decade,
+                     date_time_this_month, date_time_this_year, day_of_month, day_of_week, future_date,
+                     future_datetime, iso8601, month, month_name, past_date, past_datetime, pytimezone,
+                     time, time_delta, time_object, time_series, timezone, unix_time, year, emoji,
+                     file_extension, file_name, file_path, mime_type, unix_device, unix_partition,  
+                     coordinate, latitude, latlng, local_latlng, location_on_land, longitude,
+                     ascii_company_email, ascii_email, ascii_free_email, ascii_safe_email, company_email,
+                     dga, domain_name, domain_word, email, free_email, free_email_domain, hostname,
+                     http_method, iana_id, image_url, ipv4, ipv4_network_class, ipv4_private, ipv4_public,
+                     ipv6, mac_address, nic_handle, nic_handles, port_number, ripe_id,
+                     safe_domain_name, safe_email, slug, tld, uri, uri_extension, uri_page, uri_path, url, user_name, isbn10, isbn13, job, paragraph,
+                     paragraphs, sentence, sentences, text, texts, word, words, binary, boolean, csv, dsv, fixed_width, json, json_bytes, md5, null_boolean,    
+                     password, psv, sha1, sha256, tar, tsv, uuid4, zip, passport_dates, passport_dob, passport_full, passport_gender, passport_number,
+                     passport_owner, first_name, first_name_female, first_name_male, first_name_nonbinary, language_name, last_name, last_name_female,
+                     last_name_male, last_name_nonbinary, name, name_female, name_male, name_nonbinary, prefix, prefix_female, prefix_male, prefix_nonbinary,   
+                     suffix, suffix_female, suffix_male, suffix_nonbinary, basic_phone_number, country_calling_code, msisdn, phone_number, profile,
+                     simple_profile, enum, pybool, pydecimal, pydict, pyfloat, pyint, pyiterable, pylist, pyobject, pyset, pystr, pystr_format, pystruct,       
+                     pytuple, sbn9, ein, invalid_ssn, itin, ssn, android_platform_token, chrome, firefox, internet_explorer, ios_platform_token,
+                     linux_platform_token, linux_processor, mac_platform_token, mac_processor, opera, safari, user_agent, windows_platform_token
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --version          show program's version number and exit
+  -d , --delimiter   Specifies values separator (default: ",")
+  -D , --dialect     The xsv dialect type. Possible values: excel,excel-tab,unix,faker-csv
+  -q , --quoting     How values are quoted in the CSV file (default: QUOTE_MINIMAL). Possible values could be: QUOTE_NONE, QUOTE_NONNUMERIC, QUOTE_MINIMAL,     
+                     QUOTE_ALL
+  --no-header        Whether generated CSV file contains a header or not
+  -i, --ill-formed   Forcibly generate an ill-formed format file
+  -v                 Increase verbosity level (add more v)
+  -r , --rows        Number of rows to be generated
+
+This generator generates an xSV file an print it to stdout.
+Mainly it will be displayed on your monitor screen.
+If you want ot save generated data to file, please use > operator or pipe |.
+```
+
+### Showcase
+
+To showcase the behavior of the parse_xsv library, an interactive command called "parse_xsv_showcase" has been created.
+This command utilizes both the parse_xsv CLI and the parse_xsv library. It's an interactive command you can invoke via `parse_xsv_showcase` or `python3 -m parse_xsv.showcase`.
+It has an optional flag that allows you to view all use cases at once without any interaction.
+You can use the command `parse_xsv_showcase --all` to activate this feature.
+There are also ready-made xSV files present - `sample.csv`, `sample.tsv` and `corrupted_sample.csv`,
+but you can use the [хsv_sample_gen](#xsv-example-file-generator) command for this purpose.
+
+![showcase_demo.gif](https://gitlab.com/EPAM-DevOpsInt2023/devops-7-assets/-/raw/a1a8daf14233ad3f2e7aa73d72abac906ea2867d/m2-python/task-3/images/showcase_demo_task3.gif)
+
+## General provisions
+
+All materials provided and/or made available contain EPAM’s proprietary and confidential information and must not to be copied,
+reproduced or disclosed to any third party or to any other person, other than those persons who have a bona fide need to review it
+for the purpose of participation in the online courses being provided by EPAM.
+The intellectual property rights in all materials (including any trademarks) are owned by EPAM Systems Inc or its associated companies,
+and a limited license, terminable at the discretion of EPAM without notice, is hereby granted to you solely for the purpose of participating
+in the online courses being provided by EPAM. Neither you nor any other party shall acquire any intellectual property rights of any kind
+in such materials.
+
+
+
