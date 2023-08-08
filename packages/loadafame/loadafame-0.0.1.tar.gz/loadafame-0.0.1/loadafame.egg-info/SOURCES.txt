@@ -1,0 +1,7 @@
+setup.py
+loadafame.egg-info/PKG-INFO
+loadafame.egg-info/SOURCES.txt
+loadafame.egg-info/dependency_links.txt
+loadafame.egg-info/top_level.txt
+loader/__init__.py
+loader/main.py
