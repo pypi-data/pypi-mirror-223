@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: upconan
+Version: 1.0.8
+Summary: 一个更新conanfile的便捷工具
+Home-page: https://github.com/leytou/upconan
+Author: leytou
+Author-email: hi_litao@163.com
+License: MIT
+Keywords: python conan
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: GitPython
+Requires-Dist: pyperclip
+
+从剪贴板复制conan包信息，更新当前路径下的conanfile.py或conanfile.txt文件中对应的conan包版本
