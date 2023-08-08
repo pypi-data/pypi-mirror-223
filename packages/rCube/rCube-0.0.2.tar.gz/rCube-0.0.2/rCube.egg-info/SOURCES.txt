@@ -1,0 +1,8 @@
+License.txt
+README.md
+setup.py
+rCube.egg-info/PKG-INFO
+rCube.egg-info/SOURCES.txt
+rCube.egg-info/dependency_links.txt
+rCube.egg-info/requires.txt
+rCube.egg-info/top_level.txt
