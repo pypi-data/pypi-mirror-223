@@ -1,0 +1,8 @@
+numpy
+pandas
+
+[optional_dependencies]
+pytest
+jupyter
+requests
+scipy
