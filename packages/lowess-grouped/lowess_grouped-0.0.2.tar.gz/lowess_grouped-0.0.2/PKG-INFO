@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: lowess_grouped
+Version: 0.0.2
+Summary: Apply groupwise lowess smoothing to a dataframe
+Project-URL: Source Code, https://github.com/lukiwieser/lowess-grouped
+Project-URL: Bug Tracker, https://github.com/lukiwieser/lowess-grouped/issues
+Author: Lukas Wieser
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: pandas>=1.1.5
+Requires-Dist: statsmodels>=0.12.2
+Description-Content-Type: text/markdown
+
+# Lowess Grouped
+
+Apply groupwise lowess smoothing to a dataframe.
+
+![lowess-grouped-example](https://raw.githubusercontent.com/lukiwieser/lowess-grouped/main/docs/lowess-grouped-example.png)
+
+## Usage
+
+Install the package:
+```console
+pip install lowess-grouped
+```
+
+Then simply import the package, and call the function `lowess_grouped` with your dataframe `df`:
+
+```python
+from lowess_grouped.lowess_grouped import lowess_grouped
+
+df_smoothed = lowess_grouped(df, 
+                             x_name="year", 
+                             y_name="temperature_anomaly",
+                             group_name="region_name", 
+                             frac=0.05)
+```
+
+For a more detailed example take a look at the notebook [temperature-example.ipynb](https://github.com/lukiwieser/lowess-grouped/blob/main/example/temperature-example.ipynb).
+
+## More
+
+This project builds upon the lowess function from [statsmodels](https://www.statsmodels.org).
