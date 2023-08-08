@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: embedding-search
+Version: 0.0.0
+Summary: embedding search
+Home-page: https://github.com/sangyeop-kim/embedding-search
+Author: sangyeop
+Author-email: pdg01117@gmail.com
+Keywords: coxwave,pdg01117,embedding,search,semantic,vector
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Requires-Dist: numpy
+
