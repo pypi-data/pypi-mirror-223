@@ -1,0 +1,4 @@
+flask>=1.0.0
+flasgger>=0.9.5
+marshmallow<3.0.0,>=2.18.1
+PyYAML
