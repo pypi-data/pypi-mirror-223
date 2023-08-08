@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: unused_attributes
+Version: 0.1.8
+Summary: Find class unused attributes
+Author-email: xor2003 <xor2003@gmx.com>
+License: GPL
+Project-URL: Homepage, https://github.com/xor2003/unused_attributes
+Keywords: optimization,ununsed attributes,clean code
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# unused_attributes
