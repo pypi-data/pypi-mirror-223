@@ -1,0 +1,12 @@
+.entity {
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: 1rem;
+    background-color: aquamarine;
+}
+
+.entity::after {
+    padding-left: 0.5rem;
+    font-size: 0.5rem;
+    content: '[' attr(data-entity-type) ']';
+}
