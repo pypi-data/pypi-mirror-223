@@ -1,0 +1,5 @@
+[invenio_base.api_apps]
+oarepo_published_service = oarepo_published_service.ext:OARepoPublishedService
+
+[invenio_base.apps]
+oarepo_published_service = oarepo_published_service.ext:OARepoPublishedService

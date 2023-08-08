@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: oarepo-published-service
+Version: 1.0.0
+Summary: "Service for published records."
+Home-page: https://github.com/oarepo/oarepo-published-service
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-invenio ; extra == 'tests'
+Requires-Dist: black ; extra == 'tests'
+Requires-Dist: autoflake ; extra == 'tests'
+Requires-Dist: isort ; extra == 'tests'
+Requires-Dist: pyyaml ; extra == 'tests'
+Requires-Dist: opensearch-dsl ; extra == 'tests'
+
+# oarepo-published-service
+Published records and service.
