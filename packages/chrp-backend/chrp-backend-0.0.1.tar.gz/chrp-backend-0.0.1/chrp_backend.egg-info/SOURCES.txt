@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+chrp_backend/__init__.py
+chrp_backend/rare.py
+chrp_backend/utils.py
+chrp_backend.egg-info/PKG-INFO
+chrp_backend.egg-info/SOURCES.txt
+chrp_backend.egg-info/dependency_links.txt
+chrp_backend.egg-info/requires.txt
+chrp_backend.egg-info/top_level.txt
+chrp_backend/priors/__init__.py
+chrp_backend/priors/cnn_prior_4_15_noise_level_0_5.pt
+chrp_backend/priors/cnn_prior_4_5_noise_level_0_01.pt
+chrp_backend/priors/cnn_prior_4_5_noise_level_0_05.pt
+chrp_backend/priors/cnn_prior_4_5_noise_level_0_1.pt

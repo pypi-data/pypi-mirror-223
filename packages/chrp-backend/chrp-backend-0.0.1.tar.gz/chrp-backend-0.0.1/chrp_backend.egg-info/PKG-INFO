@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: chrp-backend
+Version: 0.0.1
+Summary: An implementation of RARE in PyTorch for use with the chrp napari plugin.
+Home-page: http://bioprotean.org/
+Author: BioProtean 
+License: UNKNOWN
+Description: # chrp_backend
+        
+        An implementation of RARE in PyTorch for use with the chrp Napari plugin.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

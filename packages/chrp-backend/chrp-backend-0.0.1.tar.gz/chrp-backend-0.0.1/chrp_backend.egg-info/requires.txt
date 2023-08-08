@@ -1,0 +1,5 @@
+numpy
+scipy
+networkx
+setuptools
+h5py
