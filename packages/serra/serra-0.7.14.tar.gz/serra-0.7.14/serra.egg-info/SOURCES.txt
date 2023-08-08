@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+serra.egg-info/PKG-INFO
+serra.egg-info/SOURCES.txt
+serra.egg-info/dependency_links.txt
+serra.egg-info/entry_points.txt
+serra.egg-info/not-zip-safe
+serra.egg-info/requires.txt
+serra.egg-info/top_level.txt
