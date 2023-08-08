@@ -1,0 +1,9 @@
+numpy_onlinestats.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+numpy_onlinestats/_numpy_onlinestats_impl.cpython-310-x86_64-linux-gnu.so,sha256=AOfwLVDIwj5KAfdkV-KgXvs3dCbQUZUQ01PNFNLfdds,470209
+numpy_onlinestats/_version.py,sha256=iyxbHkgS1yJGtIeySh-gmqzwOuLbVveAe9CoQYWfZ0c,160
+numpy_onlinestats/__init__.py,sha256=Joy1bvTsL3vx7QODOXyTohArHFgUCQL-8reW7GvkrBs,105
+numpy_onlinestats-0.1.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numpy_onlinestats-0.1.0.dist-info/RECORD,,
+numpy_onlinestats-0.1.0.dist-info/METADATA,sha256=UaYSobfeeEjGcLQD4crQbmzDIXYW0eF7dUKwCU7CLYI,43634
+numpy_onlinestats-0.1.0.dist-info/WHEEL,sha256=baHQaWeWVbJpzSyrBCaiOya-xAFibQZMSY05U9xvq3I,155
+numpy_onlinestats-0.1.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
