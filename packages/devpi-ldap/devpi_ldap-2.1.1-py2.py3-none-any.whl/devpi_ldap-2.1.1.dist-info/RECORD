@@ -1,0 +1,8 @@
+devpi-ldap.py,sha256=5VKpv0uJYzB2BbT6pdLdYzwduAWnfxANwtbHmgG8pgM,73
+devpi_ldap/__init__.py,sha256=Aht2295j8FswZ-nPYofCYr3fBZ6Uyf0thTfl5Oc2mWA,22
+devpi_ldap/main.py,sha256=HcI-fveHG96X4IhtF1ly7Exkejrr4Sr1CpM0iuU8TFs,13136
+devpi_ldap-2.1.1.dist-info/METADATA,sha256=swiQvsxEWaiXP9tijwt0Az--aES5iE0Y8_xFUHXndsE,8592
+devpi_ldap-2.1.1.dist-info/WHEEL,sha256=m9WAupmBd2JGDsXWQGJgMGXIWbQY3F5c2xBJbBhq0nY,110
+devpi_ldap-2.1.1.dist-info/entry_points.txt,sha256=Tg6rGt8loWTwffe6h2WOLL6UZwz8Zhc8RZVmYn6rm7w,98
+devpi_ldap-2.1.1.dist-info/top_level.txt,sha256=sp8J__U7puk8Yi29UljyIgNhjcSwCFmHta81SykSJxg,22
+devpi_ldap-2.1.1.dist-info/RECORD,,
