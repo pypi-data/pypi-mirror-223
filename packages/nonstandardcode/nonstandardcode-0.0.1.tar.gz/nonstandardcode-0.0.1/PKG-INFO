@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: nonstandardcode
+Version: 0.0.1
+Summary: ML Project to predict median house value on given housing data
+Author: Balaji Putta Mohan
+Author-email: balaji.mohan@tigeranalytics.com
+Maintainer: Balaji Putta Mohan

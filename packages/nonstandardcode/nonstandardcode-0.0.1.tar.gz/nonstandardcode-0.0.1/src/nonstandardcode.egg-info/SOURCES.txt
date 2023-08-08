@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+src/nonstandardcode/__init__.py
+src/nonstandardcode/ingest_data.py
+src/nonstandardcode/score.py
+src/nonstandardcode/train.py
+src/nonstandardcode.egg-info/PKG-INFO
+src/nonstandardcode.egg-info/SOURCES.txt
+src/nonstandardcode.egg-info/dependency_links.txt
+src/nonstandardcode.egg-info/requires.txt
+src/nonstandardcode.egg-info/top_level.txt
