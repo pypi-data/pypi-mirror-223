@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "test-pypi-uploads"
+version = "0.1.0.rc5"
+description = "A package for testing pypi upload"
+authors = ["angrybayblade <vptl185@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_pypi_uploads"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
