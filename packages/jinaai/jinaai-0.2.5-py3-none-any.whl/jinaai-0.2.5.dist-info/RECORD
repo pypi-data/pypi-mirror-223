@@ -1,0 +1,15 @@
+jinaai/__init__.py,sha256=OSPqPnlUOjen1p0-Nin-1vw_B2lbD6gU3T0SZU-NAiM,3411
+jinaai/utils.py,sha256=DoMBg8wUZS15IVv_J9MaDypsMcVlD4xdOrWnppAP9Fk,1057
+jinaai/clients/BestBannerClient.py,sha256=77lsgMpIVmQkG5bp0e8R14RgSJvUnPjvSOKYWq1pQEo,1670
+jinaai/clients/ChatCatClient.py,sha256=-MwWrGqgtdGNdNJiZOoFQUjJvLszZAZmqZgvueTaRt0,1866
+jinaai/clients/HTTPClient.py,sha256=LI5Yy2n8VeCs2R23zQG_xnQOE_MkTFGWFfB2CblT49Q,1261
+jinaai/clients/JinaChatClient.py,sha256=rLFYJiIBJzlD2fUFTuf0a4Z0AL1ITzbJ95AHVDPnEcY,2180
+jinaai/clients/PromptPerfectClient.py,sha256=J-YZL0bjez0fM0wrFEX1QoVD-u0RTFq29jJiOA1SipE,2125
+jinaai/clients/RationaleClient.py,sha256=EDBZbn2LmHDLkP0WK3OqVYh930Z3fKPUbEFmH-gAww4,1965
+jinaai/clients/SceneXClient.py,sha256=Z4bcnshljSmcQYMn7xrF77ofiXx-DHtuaYKkD7J5_vA,2051
+jinaai/clients/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jinaai-0.2.5.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+jinaai-0.2.5.dist-info/METADATA,sha256=EoxIwBnP7UvsI-OIkHBfQksdIMspxkdgcbPRdFsDs8M,14880
+jinaai-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jinaai-0.2.5.dist-info/top_level.txt,sha256=UuPdFe8UfEW8788_LHlte9LYgN3CHrIq5ecH5kqBtq4,7
+jinaai-0.2.5.dist-info/RECORD,,
