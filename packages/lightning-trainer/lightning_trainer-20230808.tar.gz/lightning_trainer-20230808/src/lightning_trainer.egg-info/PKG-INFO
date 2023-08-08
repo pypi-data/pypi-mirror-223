@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lightning-trainer
+Version: 20230808
+Summary: Makes training models easy
+Home-page: https://github.com/wkailiu/lightning_trainer
+Author: Wenkai Liu
+Author-email: wenkai_liu@hust.edu.cn
+Project-URL: Bug Tracker, https://github.com/wkailiu/lightning_trainer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# lightning_trainer
+
+Make Deep Learning Training Easier

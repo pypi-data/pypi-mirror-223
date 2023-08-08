@@ -1,0 +1,2 @@
+[console_scripts]
+lightning_trainer = lightning_trainer:run_train
