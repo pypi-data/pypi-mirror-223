@@ -1,0 +1,6 @@
+setup.py
+pipfontslibery/__init__.py
+pipfontslibery.egg-info/PKG-INFO
+pipfontslibery.egg-info/SOURCES.txt
+pipfontslibery.egg-info/dependency_links.txt
+pipfontslibery.egg-info/top_level.txt
