@@ -1,0 +1,19 @@
+[project]
+name = "ailess"
+version = "0.1.3"
+license = { text = "MIT" }
+
+dependencies = [
+    "typer >= 0.9.0",
+    "inquirer >= 3.1.3",
+    "boto3 >= 1.26.146",
+    "yaspin >= 2.3.0",
+    "pipreqs >= 0.4.13",
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.scripts]
+ailess = "ailess.cli:app"
