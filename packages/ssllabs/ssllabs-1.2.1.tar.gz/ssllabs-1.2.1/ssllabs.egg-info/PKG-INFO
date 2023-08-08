@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ssllabs
+Version: 1.2.1
+Summary: Qualys SSL Labs API in Python
+Home-page: https://github.com/devolo/ssllabs
+Author: Markus Bong, Guido Schmitz
+Author-email: m.bong@famabo.de, guido.schmitz@fedaix.de
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: test
+License-File: LICENSE.md
