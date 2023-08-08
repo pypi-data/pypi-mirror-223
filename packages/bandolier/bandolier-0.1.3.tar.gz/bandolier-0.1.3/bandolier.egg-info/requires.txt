@@ -1,0 +1,7 @@
+openai
+python-box
+tiktoken
+
+[dev]
+pytest
+twine
