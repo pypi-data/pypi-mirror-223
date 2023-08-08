@@ -1,0 +1,8 @@
+{
+  "urls": [
+    ["micropython_pct2075/__init__.py", "github:jposada202020/MicroPython_PCT2075/micropython_pct2075/__init__.py"],
+    ["micropython_pct2075/i2c_helpers.py", "github:jposada202020/MicroPython_PCT2075/micropython_pct2075/i2c_helpers.py"],
+    ["micropython_pct2075/pct2075.py", "github:jposada202020/MicroPython_PCT2075/micropython_pct2075/pct2075.py"]
+  ],
+  "version": "1"
+}

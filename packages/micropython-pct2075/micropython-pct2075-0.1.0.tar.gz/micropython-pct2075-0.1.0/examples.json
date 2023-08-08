@@ -1,0 +1,17 @@
+{
+    "urls": [
+        [
+            "micropython_pct2075/examples/pct2075_temperature_alert.py",
+            "github:jposada202020/MicroPython_PCT2075/examples/pct2075_temperature_alert.py"
+        ],
+        [
+            "micropython_pct2075/examples/pct2075_operation_mode.py",
+            "github:jposada202020/MicroPython_PCT2075/examples/pct2075_operation_mode.py"
+        ],
+        [
+            "micropython_pct2075/examples/pct2075_simpletest.py",
+            "github:jposada202020/MicroPython_PCT2075/examples/pct2075_simpletest.py"
+        ]
+    ],
+    "version": "1"
+}
