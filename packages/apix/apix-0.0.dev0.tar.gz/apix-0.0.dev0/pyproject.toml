@@ -1,0 +1,29 @@
+[project]
+name = "apix"
+version = "0.0.dev0"
+description = ""
+authors = [
+    { name = "Arwichok", email = "arwichok@gmail.com" },
+]
+dependencies = [
+    "httpx>=0.24.1",
+    "msgspec>=0.17.0",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "typing-extensions>=4.7.1",
+    "mypy>=1.4.1",
+    "black>=23.7.0",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
