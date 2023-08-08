@@ -1,0 +1,7 @@
+setup.py
+embedding_search.egg-info/PKG-INFO
+embedding_search.egg-info/SOURCES.txt
+embedding_search.egg-info/dependency_links.txt
+embedding_search.egg-info/not-zip-safe
+embedding_search.egg-info/requires.txt
+embedding_search.egg-info/top_level.txt
