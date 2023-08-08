@@ -1,0 +1,11 @@
+sppam/__init__.py,sha256=CwQjd0nmF9EIHP4hIwN8WHyMZhtOJ4Xz-8qexEMR86U,145
+sppam/_version.py,sha256=XEqb2aiIn8fzGE68Mph4ck1FtQqsR_am0wRWvrYPffQ,22
+sppam/sppam.py,sha256=No9frI7d_YVGM3zg6qW4A1Fruy51mqAMhCBzc1fO83c,11377
+sppam/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sppam/tests/test_common.py,sha256=QV917Rlma_XzSjhjozwjuRB901i0N19w3A6BWxMNuH4,239
+sppam/tests/test_template.py,sha256=4WXArUfledNzvI5SVqcDr0ZnUWMhzM5C-FJ_RBazFOg,389
+sppam-0.1.3.dist-info/LICENSE,sha256=KehzBa-Lt_GzmRsfEAy5YOk6KZAqs8FzvO35F00uvcc,1529
+sppam-0.1.3.dist-info/METADATA,sha256=zyJtCTfI5vMCixIEqtf0gpE3Uni7qvW-xBgIA55-FII,3362
+sppam-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sppam-0.1.3.dist-info/top_level.txt,sha256=Rctrpu1OGtWunZ5r8RSC9YUM-YGVeLwxTQT3RGu9n7M,6
+sppam-0.1.3.dist-info/RECORD,,
