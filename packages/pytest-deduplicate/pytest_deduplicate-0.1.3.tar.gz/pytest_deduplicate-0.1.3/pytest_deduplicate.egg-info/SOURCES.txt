@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pytest_deduplicate.py
+pytest_deduplicate.egg-info/PKG-INFO
+pytest_deduplicate.egg-info/SOURCES.txt
+pytest_deduplicate.egg-info/dependency_links.txt
+pytest_deduplicate.egg-info/entry_points.txt
+pytest_deduplicate.egg-info/requires.txt
+pytest_deduplicate.egg-info/top_level.txt
