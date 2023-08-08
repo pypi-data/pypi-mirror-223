@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: tvalidation
+Version: 0.0.1
+Summary: A python module that validates the terraform files in a given directory.
