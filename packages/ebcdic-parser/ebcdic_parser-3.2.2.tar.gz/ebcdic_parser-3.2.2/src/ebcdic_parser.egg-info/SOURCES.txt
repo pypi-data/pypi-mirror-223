@@ -1,0 +1,17 @@
+AUTHORS
+CHANGES.md
+LICENSE
+README.md
+READMEPYPI.md
+pyproject.toml
+setup.cfg
+src/ebcdic_parser/__init__.py
+src/ebcdic_parser/__main__.py
+src/ebcdic_parser/convert.py
+src/ebcdic_parser.egg-info/PKG-INFO
+src/ebcdic_parser.egg-info/SOURCES.txt
+src/ebcdic_parser.egg-info/dependency_links.txt
+src/ebcdic_parser.egg-info/top_level.txt
+tests/test_functional.py
+tests/test_system_311_calls_for_service_requests_all_strings.py
+tests/test_system_common.py
