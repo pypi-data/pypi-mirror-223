@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: korbit-mentor
+Version: 0.2
+Summary: Korbit mentor CLI tool will allow you to analyze any local files.
+Home-page: https://www.korbit.ai
+Author: Korbit Technologies Inc.
+Author-email: antoine@korbit.ai
+License: MIT
+Keywords: SOFTWARE,DEVELOPMENT,MENTOR,ENGINEER
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.11
