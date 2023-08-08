@@ -1,0 +1,8 @@
+nonstandardcode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nonstandardcode/ingest_data.py,sha256=fDnVWY_ZB2fKZoWMAFnsuO86ey2w1lIj7z4cHTk-c1U,6107
+nonstandardcode/score.py,sha256=y6XJLsoO2urMrqUJY1ThZzG6RV641XQvwnyBkK06L5Q,6274
+nonstandardcode/train.py,sha256=QpofBc6RR_5FhqVuqgIp6rwu1EUL8f8HDl8hZdMzD0Y,4914
+nonstandardcode-0.0.1.dist-info/METADATA,sha256=3ZbSsZKhDl1ETqO98W7DPxbp-qBjtbkyCN2d5N4jNSk,465
+nonstandardcode-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nonstandardcode-0.0.1.dist-info/top_level.txt,sha256=a56TGzwHzhCaUKdMfJm2iQXCB6XTQh2bB__mag_TTOk,16
+nonstandardcode-0.0.1.dist-info/RECORD,,
