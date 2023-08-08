@@ -1,0 +1,18 @@
+[package]
+name = "calculators"
+version = "0.1.2"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "calculators"
+crate-type = ["cdylib"]
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
+
+[dependencies]
+pyo3 = { version = "0.19.2", features = ["eyre"] }
+eyre = "0.6.8"
+calc_rs = { path = "local_dependencies/calc_rs" }
