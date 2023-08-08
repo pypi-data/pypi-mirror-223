@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: mydb_tsm
+Version: 1.0
+Author: Tomboy
+Author-email: Tomboy1996@163.com
+Description-Content-Type: text/markdown
+
+## description
+    这是第一个对外发布的模块，基于pymysql1.1.0进行的封装。
+    功能：报错后自动关闭sql连接，py编写sql更友好。
+
+## 参数解析：
+    config: 配置对象，用于连接数据库
+    sql: sql语句
+    args：用的pymysql里面的args【type: list or tuple】
+    db_name：数据库名称
+    table_name：表名称
+    size：每次查询的条数
+
+## 配置对象
+    config = {
+        'host': '192.168.93.131',  # 必传
+        'port': 3306,  # 可选参数
+        'user': 'root',  # 必传参数
+        'password': 'Tomboy_test',  # 必传参数
+        'db': 'test',  # 可选参数
+    }
+
+## 功能
+    1.DML合并：
+        都是changeRows方法
+        params：
+            sql：sql语句
+            args：用来替换sql语句中的%s的参数
+        return：
+            受影响的行数或者None，只有rows>0才会被commit
+    
+    2.查询合并：
+        查询所有：
+            mydb.queryRows(sql, args)
+        查询一条：
+            mydb.queryOneRow(sql, args, size=1)
+        查询前n条：
+            mydb.queryManyRows(sql, args, size=n)
+
+    3.报错后自动回滚 + 断开数据库连接，回收资源
