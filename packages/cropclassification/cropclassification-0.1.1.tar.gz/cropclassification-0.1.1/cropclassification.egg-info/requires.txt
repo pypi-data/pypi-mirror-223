@@ -1,0 +1,8 @@
+geofileops
+geopandas
+openeo
+psutil
+rasterio
+rasterstats
+scikit-learn
+tensorflow
