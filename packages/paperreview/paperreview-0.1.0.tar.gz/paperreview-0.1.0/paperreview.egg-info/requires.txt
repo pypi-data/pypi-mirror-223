@@ -1,0 +1,17 @@
+pypdf==3.15.0
+openai==0.27.8
+tqdm==4.65.0
+tiktoken==0.4.0
+
+[test]
+pytest
+coverage
+flake8
+black
+isort
+pytest-cov
+mypy
+gitchangelog
+mkdocs
+lark==1.1.7
+types-requests==2.31.0.2
