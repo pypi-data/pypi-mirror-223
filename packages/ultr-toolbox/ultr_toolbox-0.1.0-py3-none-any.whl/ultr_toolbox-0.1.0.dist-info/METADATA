@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: ultr-toolbox
+Version: 0.1.0
+Summary: 
+Author: Philipp Hager
+Author-email: philipp.konstantin.hager@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flax (>=0.7.1,<0.8.0)
+Requires-Dist: jax (>=0.4.14,<0.5.0)
+Requires-Dist: optax (>=0.1.7,<0.2.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: pyarrow (>=12.0.1,<13.0.0)
+Requires-Dist: torch (>=2.0.1,<3.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+## Click Models
+
+### Create Datasets
+
+```Python
+from ultr_toolbox.click_models.data import ClickDataset
+
+train_dataset = ClickDataset(train_df)
+val_dataset = ClickDataset(val_df)
+test_dataset = ClickDataset(test_df)
+```
+
+### Train neural click models
+```
+from ultr_toolbox.click_models.metrics import Perplexity
+from ultr_toolbox.click_models.neural import PositionBasedModel, NeuralTrainer
+
+model = PositionBasedModel()
+trainer = NeuralTrainer(model)
+trainer.fit(train_dataset, val_dataset)
+metrics = trainer.test(test_dataset, metrics=[Perplexity()])
+```
+
+### Train PyClick models
+```
+from pyclick.click_models import PBM
+
+from ultr_toolbox.click_models.metrics import Perplexity
+from ultr_toolbox.click_models.em import PyClickTrainer
+
+model = PBM()
+trainer = PyClickTrainer(model)
+trainer.fit(train_dataset, val_dataset)
+metrics = trainer.test(test_dataset, metrics=[Perplexity()])
+```
+
+### Train naive models based on click statistics
+```
+from ultr_toolbox.click_models.metrics import Perplexity
+from ultr_toolbox.click_models.stats import StatsTrainer, RankDocumentBasedModel
+
+model = RankDocumentBasedModel()
+trainer = StatsTrainer(model)
+trainer.fit(train_dataset, val_dataset)
+metrics = trainer.test(test_dataset, metrics=[Perplexity()])
+```
+
