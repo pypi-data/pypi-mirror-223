@@ -1,0 +1,15 @@
+CovReg/__init__.py,sha256=ReLB-VrqGGfiCeSs5L3_A-FPKGyLziBtz4gFaZ3Dhls,334
+CovReg/covreg.py,sha256=Ty2vFAkkXe-yKRrQ2rxya49YaK5uiflsF9Gy3FdVKyU,8635
+CovReg/graphcovreg.py,sha256=KVGc7mG3k95S_mzU9w08pO-EF_rz7dy4HtjSJ5jwgvY,13583
+DyGraph/RootDygl.py,sha256=5BI8yKMCUX4D3a83cfH9zJW1hu78J0JPWUDk5WOr_9Q,5064
+DyGraph/__init__.py,sha256=0UgU4eivviNEQu_GlRZjp_L-sXjdM7l63v1eWv_OyFg,250
+DyGraph/dyg_outer_em.py,sha256=vxUhsrp12cJoglQtmrjB0PqoxvYH14zZtDXbxezVEvQ,11758
+DyGraph/dygl_inner_em.py,sha256=L_mq1dNPXmBGxF49LIHvFkmOdzI6euVORfvpJtAtor0,11690
+DyGraph/dygl_utils.py,sha256=Bj_HL3M3K44Ya0Lm7B5dFV_4nJ5HqCiJxa0mM6b4Y8I,24554
+DyGraph/sgl_inner_em.py,sha256=3Ub-v9jULaSa0z0NtxirDrHiJtZiK-CfOkVqR_UGQ2o,4581
+DyGraph/sgl_outer_em.py,sha256=y3mTQmtmrEK14I8JFFgB1NWVnlyQy9G2tPFb1kP2LGE,4924
+DyGraph-0.0.5.dist-info/LICENSE,sha256=zuFyMlY7Cs4NMkQYYwTKz8Bfv-t-WSvIUjfx9WVtVyM,1102
+DyGraph-0.0.5.dist-info/METADATA,sha256=etmxu1KUSmq53RGfJ398sDbTubHc6n1hp1EH28QV0tc,3531
+DyGraph-0.0.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+DyGraph-0.0.5.dist-info/top_level.txt,sha256=9AcETDqAjIggRl8VKHQIO4IbUHgmJIVAO46PEr5sapo,15
+DyGraph-0.0.5.dist-info/RECORD,,
