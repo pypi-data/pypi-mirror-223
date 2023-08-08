@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+doc_transform/__init__.py
+doc_transform.egg-info/PKG-INFO
+doc_transform.egg-info/SOURCES.txt
+doc_transform.egg-info/dependency_links.txt
+doc_transform.egg-info/top_level.txt
+doc_transform.egg-info/zip-safe

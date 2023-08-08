@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: doc-transform
+Version: 0.0.0
+Summary: Transformations for text data to improve information retreval.
+Home-page: https://doc-transform.readthedocs.io/en/latest/
+Author: Jeremy McMinis
+Author-email: jeremy@sawtoothdata.com
+License: MIT
+Keywords: information retreival,large language models,semantic search
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Brainstorm
+
+Brainstorm is a python library used to improve information retreival performance primarily for RAG applications.
+
+## Get document summary
+
+## Segment text
+
+## Compute embeddings
