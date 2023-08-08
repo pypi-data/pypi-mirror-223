@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: lobsang
+Version: 0.0.5
+Summary: A simple framework to interact with conversational LLMs
+Project-URL: Homepage, https://github.com/cereisen/lobsang
+License-File: LICENSE
+Keywords: chat,framework,llm
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: jsonschema<5,>=4.18.6
+Requires-Dist: openai<1,>=0.27.8
+Provides-Extra: dev
+Requires-Dist: black==23.3.0; extra == 'dev'
+Requires-Dist: pylint==2.8.2; extra == 'dev'
+Description-Content-Type: text/markdown
+
+![PyPI - Downloads](https://img.shields.io/pypi/dw/lobsang)
+![GitHub](https://img.shields.io/github/license/cereisen/lobsang)
+![GitHub issues](https://img.shields.io/github/issues/cereisen/lobsang)
+[![Discord](https://img.shields.io/discord/1137030158323294331)](https://discord.gg/wMHVAaqh)
+[![Twitter Follow](https://img.shields.io/twitter/follow/lobsang_ai)](https://twitter.com/lobsang_ai)
+
+
+# Lobsang
+
+> **Welcome to Lobsang** 🧘‍♂️
+> 
+> Lobsang is a framework to interact with conversational LLMs in the simplest way possible. \
+> It's easy to get started, yet designed to scale up to complex use cases. Enjoy the ride! 🚀
+
+**Note:** This project is still in early development. Expect breaking changes.
+
+## Installation
+
+Requires **Python 3.11** or higher.
+
+```bash
+pip install lobsang
+```
+
+## Core Concepts
+Lobsang is built around a few core concepts:
+
+- **Chat**: The main class is the `Chat` class. It represents a conversation between a user and a LLM. 
+    It is the main entry point to the framework and stores the chat history for a single conversation. 
+    After creating a `Chat` instance, you can interact with it by calling itself with one
+    or more messages:
+    ```python
+    from lobsang import Chat
+    from lobsang.llms import FakeLLM
+    chat = Chat(llm=FakeLLM()) 
+    #                 👆 FakeLLM returns dummy responses
+    # Call the chat with one message
+    chat("Hello!")
+    chat("How are you?")
+    print("Chat history:")  
+    print(chat)
+    
+    # Call the chat with multiple messages
+    res = chat.run(["What is 1+1?", "What is 2+2?"])
+    print("Chat Snippet:")
+    print(res)
+    print("Full chat history:")
+    print(chat)
+    ```
+  - **Directives**: Directives are used to guide the LLM to generate a specific response by embedding instructions
+      in a corresponding message. For example, you can use the JSON directive to instruct the LLM to generate a JSON
+      response (see [examples/2_directives.ipynb](./examples/2_directives.ipynb) for more details).
+
+## Examples
+We provide a few examples to get you started. You can find them in the [examples](./examples) folder.
+The examples use the openai package, make sure to install it before running the examples (`pip install openai`).
+You will also need an OpenAI API key, which you can get here: https://platform.openai.com/account/api-keys.
+
