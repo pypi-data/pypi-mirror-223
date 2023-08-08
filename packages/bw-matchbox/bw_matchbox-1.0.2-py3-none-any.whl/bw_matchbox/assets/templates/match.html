@@ -1,0 +1,59 @@
+{% include 'header.html' %}
+<div class="container">
+  {% include 'navigation.html' %}
+  <div class="row">
+    <div class="column">
+      <h2>{{ ds.name }}</h2>
+      <ul>
+        <li>Location: {{ds.location}}</li>
+        <li>Unit: {{ds.unit}}</li>
+        <li>Comment: {{ds.comment}}</li>
+      </ul>
+      <p><input type="text" class="u-full-width" placeholder="Enter value to search" value="{{ query_string }}" id="query_string" /></p>
+      <table id="result-table">
+        <tr>
+          <th>Activity</th>
+          <th>Product</th>
+          <th>Location</th>
+          <th>Unit</th>
+        </tr>
+        {% for obj in matches %}
+        <tr>
+          <td><a href="{{ url_for('compare', source=ds.id, target=obj.id) }}">{{obj.name}}</a></td>
+          <td>{{ obj["reference product"]}}</td>
+          <td>{{ obj.location }}</td>
+          <td>{{ obj.unit }}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+var searchBar = document.getElementById('query_string');
+searchBar.focus();
+
+var result_table = document.getElementById('result-table');
+function search_result_updater() {
+  result_table.innerHTML = this.responseText;
+}
+
+var doSearch = function () {
+  var qs = encodeURIComponent(searchBar.value);
+  if (qs) {
+    const req = new XMLHttpRequest();
+    req.addEventListener('load', search_result_updater);
+    req.open('GET', '{{ url_for('search') }}?e=1&source={{ ds.id }}&database={{ target }}&q=' + qs);
+    req.send();
+  };
+};
+
+searchBar.addEventListener('focusout', doSearch);
+searchBar.addEventListener('keypress', function(event) {
+  if (event.key === 'Enter') {
+    doSearch();
+  }
+});
+</script>
+{% include 'footer.html' %}
