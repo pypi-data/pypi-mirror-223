@@ -1,0 +1,13 @@
+open_buildings/__init__.py,sha256=8A_18CIDAmsqr_xz8bH00Uk1Xxm7POGX4mY0MpZPAN8,160
+open_buildings/cli.py,sha256=aja7rhykK2rTZBvmYK3SCTchN6-tp-kAqepkcHf84Ok,4859
+open_buildings/common.py,sha256=Si4ZvbkkaVGyKrOa7gmsVNWS2Abtji-V5nEsJhrIM3M,188
+open_buildings/open_buildings.py,sha256=VpOlqlt-JuHiDl8xqgRkn7I1CgkSgMwKLuZjjOfiJbw,17400
+open_buildings/overture-buildings-by-country.py,sha256=c8NCY0bt2Blg_Wk0i--60I7J9MevWYS7KrDHBgyunBw,3133
+open_buildings/overture-buildings-parquet-add-columns.py,sha256=-ax2bGPHizeST6ULYkA6rCun9ae7wl4sniX9C_-phJI,6027
+open_buildings-0.0.7.dist-info/LICENSE,sha256=59wODZtUoJ7W907ydxZR746oSwnUNsLrv7OYgCO6ZUQ,584
+open_buildings-0.0.7.dist-info/METADATA,sha256=OEeFMTFLE1W5ttLJb5cLNXtpAs5zpczFOIVOR2KTZPE,11972
+open_buildings-0.0.7.dist-info/WHEEL,sha256=m9WAupmBd2JGDsXWQGJgMGXIWbQY3F5c2xBJbBhq0nY,110
+open_buildings-0.0.7.dist-info/dependency_links.txt,sha256=5V-fmrq-o8nn6m_Xm2XjA4sWD_Tgo--iAY5OxED5yiI,72
+open_buildings-0.0.7.dist-info/entry_points.txt,sha256=kAjVtVaeXf89I00S6QdK3y4N-tizjPmdRO8p5DXwbAQ,59
+open_buildings-0.0.7.dist-info/top_level.txt,sha256=pE21FtJ1PyHVyPhIZAt8Hzjv9H_yS7uXMJbld5HZCnI,15
+open_buildings-0.0.7.dist-info/RECORD,,
