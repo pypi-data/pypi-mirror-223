@@ -1,0 +1,5 @@
+selectfix-0.2.4.dist-info/METADATA,sha256=jVhLZck7f9cIENpUuRiFIAqONNQ05H6oQGoRK9uFRDI,466
+selectfix-0.2.4.dist-info/WHEEL,sha256=OdornJZnv5gS-rT5Vzme3AdhyQVZ4bnAet2yYIVAaXY,95
+selectfix/__init__.py,sha256=_RRaoXyr6pSYiZrKHuzPGHKBwyaVZKCUJdDDuLg2OEU,119
+selectfix/selectfix.cp311-win_amd64.pyd,sha256=x2uTQgJMxLe-PSabFEt4sM82rccFsI71yaYA_sfSZHA,367616
+selectfix-0.2.4.dist-info/RECORD,,
