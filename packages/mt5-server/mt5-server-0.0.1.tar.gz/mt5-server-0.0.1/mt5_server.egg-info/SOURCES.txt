@@ -1,0 +1,10 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.py
+mt5_server.egg-info/PKG-INFO
+mt5_server.egg-info/SOURCES.txt
+mt5_server.egg-info/dependency_links.txt
+mt5_server.egg-info/requires.txt
+mt5_server.egg-info/top_level.txt
+tests/test_01.py
