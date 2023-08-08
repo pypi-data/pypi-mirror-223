@@ -1,0 +1,10 @@
+hictkpy-0.0.1.dist-info/RECORD,,
+hictkpy-0.0.1.dist-info/LICENSE,sha256=srS6Zc_-eolVJQBl2VWzpkuKS25A7arJa_z8SABhYdc,1072
+hictkpy-0.0.1.dist-info/WHEEL,sha256=n0TimoVmM-xiiNL1PMDnXv73dSZ5-pdt4MZapW-xwoU,109
+hictkpy-0.0.1.dist-info/top_level.txt,sha256=X0CN7J0A7AIZz-BHiqNen2RCU1FR1nO-TvUOH7VNs5I,8
+hictkpy-0.0.1.dist-info/METADATA,sha256=QCi3qbf_Oa9A4mxjZxraiw9oiBuIChHtpPF53ErA018,3624
+hictkpy/__init__.py,sha256=9WKhIOjC2TWiaPb2JSDQBBZxSr1QCjypWOEvMN5lWKE,63
+hictkpy/hictkpy.cpython-39-darwin.so,sha256=kRbVc8kCuBIl2VRWwIRbdjdBCwMAUojZYF87ZpHOEc0,1335888
+hictkpy/.dylibs/libdeflate.0.dylib,sha256=QPJ3xC8RDLC6BzcOWfTpVd_2abRY_8ZsEz1o_GoHYsA,137984
+hictkpy/.dylibs/libhdf5.310.0.0.dylib,sha256=lx4GghSEjny1ZvzrKd-49Yu7ESV9VGdnHl_X4OP7ay8,3953648
+hictkpy/.dylibs/libz.1.dylib,sha256=deAGLbleqwx9RAF0wnPbwg-xqDb3u1qxKvs-zwitKbQ,157504
