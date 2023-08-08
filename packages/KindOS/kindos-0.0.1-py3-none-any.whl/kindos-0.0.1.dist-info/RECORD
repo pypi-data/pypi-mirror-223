@@ -1,0 +1,10 @@
+kindos-0.0.1.dist-info/METADATA,sha256=O9eFtTB3J7gGKBBqNtJ6vqKiJhGLhOe7ScthEnx327M,502
+kindos-0.0.1.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+kindos-0.0.1.dist-info/licenses/LICENSE,sha256=whEApmcAjK63yQ4gdnCZZ2lgb2hqOGl6ylb2TvK8i1M,1073
+kindos/__init__.py,sha256=yU8zPZTB4Q6ZQ7CU0byzrZzHqOTXRS2oPwkhaYM3Eu0,308
+kindos/build.py,sha256=RvMjLNEJH-JUj4Z8XtoIQRSK5tDZkCBWRR0ZxLUR3QY,774
+kindos/colors.py,sha256=XpElpOD2SHbPmc15vmHHnpH7jUfOCXX8S_oXInsJ8ZU,184
+kindos/container.py,sha256=7jqxgjtJVZhPcBKUVuzy0ygN62Tb71q1gOolUlhH7jw,2467
+kindos/shell.py,sha256=Wq2AmjomfKqSaeKRaSf9VqG__Kiep3RwbD47x5UJ7c8,97
+kindos/size.py,sha256=QO-C5lAGGYu0atitaE9GrCMr9-65n-tahd4NAIz60Xo,307
+kindos-0.0.1.dist-info/RECORD,,
