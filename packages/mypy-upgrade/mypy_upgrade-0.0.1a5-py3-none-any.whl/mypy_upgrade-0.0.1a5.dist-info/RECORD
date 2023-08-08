@@ -1,0 +1,17 @@
+mypy_upgrade/__about__.py,sha256=BL5UZbF6-Ugh6DF3-2kUl5F6lsymf1wht4LkPmJySUE,137
+mypy_upgrade/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_upgrade/__main__.py,sha256=gPGTi2rBYYIZuaHo_2eh2oaai8Q11U39sOkhegrwXGE,73
+mypy_upgrade/cli.py,sha256=0f3jcvRFH14xrNTVtmpEUSZwtJUN48XDnyKMSYiH_l4,10675
+mypy_upgrade/editing.py,sha256=chZ5igwi9yDmtzgrjU9fmtaBZSSEwrJKUQWKjDyKAr0,3445
+mypy_upgrade/filter.py,sha256=B0ajq26JAQLwZePqs_xLZb1SKko20pUTzW8pL8KflKg,2689
+mypy_upgrade/parsing.py,sha256=OyrDc2iMJPGCSpjFeeGe8gpCngjHsElpdCQjrFmWHuQ,2353
+mypy_upgrade/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_upgrade/silence.py,sha256=OggdacfDxrPtztBAfr0xeL0uocry_kf8AaT_DHPC18U,2303
+mypy_upgrade/utils.py,sha256=Fu5FfZdYiHE4iGYLG1J4ztvwD53OIF6NmeUjbcNcCdg,6515
+mypy_upgrade/warnings.py,sha256=BwkbIdvrtnzVpDL3AGUe9NMak_oaXGcbNZa4f4xs7mc,2659
+mypy_upgrade-0.0.1a5.dist-info/METADATA,sha256=uC8IBz_IlcN_T2opG_yYdsm5t0mEw4ckTgQ9QdIDw34,7945
+mypy_upgrade-0.0.1a5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mypy_upgrade-0.0.1a5.dist-info/entry_points.txt,sha256=rfLh9Fixck29BVhT62fI6K_EKdkLCs0MSA8cm9AWa4Q,55
+mypy_upgrade-0.0.1a5.dist-info/licenses/AUTHORS.md,sha256=K8R91DQil-AZi2E_g-A-lx5vH0B4yoejzNPRpu-THiw,49
+mypy_upgrade-0.0.1a5.dist-info/licenses/LICENSE.txt,sha256=2aquB-YVqjqFXflyRuvYl-u7ecmviaFj92KiJ5S9BnQ,1099
+mypy_upgrade-0.0.1a5.dist-info/RECORD,,
