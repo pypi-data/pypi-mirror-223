@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: lowess_grouped
+Version: 0.0.1
+Summary: Apply groupwise lowess smoothing to a dataframe
+Project-URL: Source Code, https://github.com/lukiwieser/lowess-grouped
+Project-URL: Bug Tracker, https://github.com/lukiwieser/lowess-grouped/issues
+Author: Lukas Wieser
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: pandas>=1.1.5
+Requires-Dist: statsmodels>=0.12.2
+Description-Content-Type: text/markdown
+
+# lowess-grouped
+
+Apply groupwise lowess smoothing to a dataframe.
+
+This project builds upon the lowess function from statsmodels.
+
+## Usage
+
+Simply import the package, and pass your dataframe `df` to the function `lowess_grouped`:
+
+```python
+from lowess_grouped.lowess_grouped import lowess_grouped
+df_smoothed = lowess_grouped(df, "x_col_name", "y_col_name", "group_name", frac=0.05)
+```
+
+For a more detailed example see the temperature-example.ipynb.
