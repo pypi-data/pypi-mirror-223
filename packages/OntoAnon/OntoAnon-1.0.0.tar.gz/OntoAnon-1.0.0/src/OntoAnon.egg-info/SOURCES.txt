@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/OntoAnon/__init__.py
+src/OntoAnon/__main__.py
+src/OntoAnon/anonymization.py
+src/OntoAnon.egg-info/PKG-INFO
+src/OntoAnon.egg-info/SOURCES.txt
+src/OntoAnon.egg-info/dependency_links.txt
+src/OntoAnon.egg-info/entry_points.txt
+src/OntoAnon.egg-info/requires.txt
+src/OntoAnon.egg-info/top_level.txt
