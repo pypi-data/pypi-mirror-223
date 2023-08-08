@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+code/Connectome_Spatial_Smoothing/CSS.py
+code/Connectome_Spatial_Smoothing/__init__.py
+code/Connectome_Spatial_Smoothing.egg-info/PKG-INFO
+code/Connectome_Spatial_Smoothing.egg-info/SOURCES.txt
+code/Connectome_Spatial_Smoothing.egg-info/dependency_links.txt
+code/Connectome_Spatial_Smoothing.egg-info/requires.txt
+code/Connectome_Spatial_Smoothing.egg-info/top_level.txt
+code/Connectome_Spatial_Smoothing/data/templates/atlas/Glasser360.32k_fs_LR.dlabel.nii
+code/Connectome_Spatial_Smoothing/data/templates/cifti/ones.dscalar.nii
