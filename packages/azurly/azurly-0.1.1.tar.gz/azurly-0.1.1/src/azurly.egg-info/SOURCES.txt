@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+src/azurly/__init__.py
+src/azurly/batch.py
+src/azurly/storage.py
+src/azurly.egg-info/PKG-INFO
+src/azurly.egg-info/SOURCES.txt
+src/azurly.egg-info/dependency_links.txt
+src/azurly.egg-info/requires.txt
+src/azurly.egg-info/top_level.txt
+src/azurly/api/__init__.py
+src/azurly/api/batch.py
+src/azurly/api/storage.py
