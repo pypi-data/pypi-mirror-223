@@ -1,0 +1,16 @@
+agixt/Chains.py,sha256=feCs1etwXiND3Vdjjb8n2XTcKtuN4Pn55laFSoYtWrw,7188
+agixt/DBConnection.py,sha256=EJi6FFyU4yx-GbsMI6Y9-cW-iQ05r5xzwCnv4eVGiQY,8662
+agixt/Embedding.py,sha256=TuQOOBHuS-XB5MRNs4j0gr5yRqwDk8oi7DlAvoSbMp4,4371
+agixt/Extensions.py,sha256=nFgU6I9U-ybRoCOBNAopDDQB3jvbL_l_WPUC3stNYng,8369
+agixt/Hub.py,sha256=y_Y-JnUaD1dOAqDQ3ucXTpbehBWeBV4nCaH1sxAi5vE,4642
+agixt/Interactions.py,sha256=sqs4G74tnfPI8se6gvpXP1OOFkZk0weA4H2cW1kBm9U,20741
+agixt/Memories.py,sha256=p00RdXziv4vdg9MS1qVQE5R6tJ8aN2riBATQywBnczc,8898
+agixt/Providers.py,sha256=6jZdnYKmv3yWyS2g2VBUWDpS0dLWmPAGatOgc9GV6L4,2145
+agixt/Websearch.py,sha256=ZjedSkY_CuKaB2eU0rDcstRxe86D5TWnvtqkYyXBv8g,13142
+agixt/__init__.py,sha256=6uI2RRAnP6jDDN4FHL3aS-v90FN4IigZtkHwaZF3iu4,183
+agixt/app.py,sha256=G9CKs3ELGbnRzyxkU_9t6C6zeXLgUoiX0v7-Pib7-oI,27648
+agixt-1.3.67.dist-info/LICENSE,sha256=HKTvkW16ytKDrayEK3xZp5w6Q71SjoczlgrhsRGwYdE,1087
+agixt-1.3.67.dist-info/METADATA,sha256=1LCB5Kut_s8CaSoYk92D7VaNnK1R-_nUNKHQP0P-LFg,18467
+agixt-1.3.67.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+agixt-1.3.67.dist-info/top_level.txt,sha256=xy7elM44RntvahpvIewrUnjc2fQPfpt-6xPoRfFQTzg,6
+agixt-1.3.67.dist-info/RECORD,,
