@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: TelegramContract2vCard
+Version: 1.0.1
+Summary: make telegram contacts.html or result.json to vCard automatically
+Home-page: https://github.com/jjh4450/TelegramContract2vCard
+Author: jjh4450
+Author-email: jjh4450git@gmail.com
+Keywords: telegram,contacts,vcf,vcard,html,json,parser
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Requires-Dist: beautifulsoup4
+
