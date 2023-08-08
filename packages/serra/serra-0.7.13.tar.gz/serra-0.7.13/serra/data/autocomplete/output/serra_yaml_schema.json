@@ -1,0 +1,218 @@
+{
+    "$id": "http://www.serra.io",
+    "$schema": "http://json-schema.org/draft-08/schema#",
+    "patternProperties": {
+        "^(?!debug$).*": {
+            "description": "a basic serra block",
+            "oneOf": [
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "AddColumnTransformer": {
+                            "$ref": "./AddColumnTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "CaseWhenTransformer": {
+                            "$ref": "./CaseWhenTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "CastColumnTransformer": {
+                            "$ref": "./CastColumnTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "DropColumnTransformer": {
+                            "$ref": "./DropColumnTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "GetCountTransformer": {
+                            "$ref": "./GetCountTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "JoinTransformer": {
+                            "$ref": "./JoinTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "MapTransformer": {
+                            "$ref": "./MapTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "PivotTransformer": {
+                            "$ref": "./PivotTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "RenameColumnTransformer": {
+                            "$ref": "./RenameColumnTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "SelectTransformer": {
+                            "$ref": "./SelectTransformer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "AmazonS3Reader": {
+                            "$ref": "./AmazonS3Reader.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "DatabricksReader": {
+                            "$ref": "./DatabricksReader.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "LocalReader": {
+                            "$ref": "./LocalReader.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "AmazonS3Writer": {
+                            "$ref": "./AmazonS3Writer.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "DatabricksWriter": {
+                            "$ref": "./DatabricksWriter.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "LocalWriter": {
+                            "$ref": "./LocalWriter.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                {
+                    "additionalProperties": false,
+                    "properties": {
+                        "SnowflakeWriter": {
+                            "$ref": "./SnowflakeWriter.json"
+                        },
+                        "tests": {
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                }
+            ],
+            "type": "object"
+        }
+    },
+    "properties": {},
+    "type": "object"
+}
