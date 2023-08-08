@@ -1,0 +1,19 @@
+# mypy: disable-error-code="misc, override, attr-defined, no-redef, assignment"
+
+import PyQt5.QtCore
+import PyQt5.QtWidgets
+import PyQt5.QtCore as QtCore
+import PyQt5.QtGui as QtGui
+import PyQt5.QtWidgets as QtWidgets
+from typing import ClassVar, Set, Tuple
+
+class MiniLabelButton(PyQt5.QtWidgets.QLabel):
+    clicked: ClassVar[PyQt5.QtCore.pyqtSignal] = ...
+    def __init__(self, text, parent) -> None: ...
+    def mousePressEvent(self, _ev): ...
+    def paintEvent(self, ev): ...
+
+class StripedFrame(PyQt5.QtWidgets.QFrame):
+    def paintEvent(self, ev): ...
+
+def SetCompactWidgetWidth(w, padding: int = ...): ...

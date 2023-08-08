@@ -1,0 +1,6 @@
+# mypy: disable-error-code="misc, override, attr-defined, no-redef, assignment"
+
+from typing import Set, Tuple
+
+def Match(string, filter): ...
+def MatchWithDescription(string, filter): ...
