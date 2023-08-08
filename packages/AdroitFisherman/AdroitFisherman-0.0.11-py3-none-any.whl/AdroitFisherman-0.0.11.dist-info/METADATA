@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: AdroitFisherman
+Version: 0.0.11
+Summary: This is a simple package about Data Structure packed by C/C++ language.
+Author: adroit_fisherman
+Author-email: 1295284735@qq.com
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+
