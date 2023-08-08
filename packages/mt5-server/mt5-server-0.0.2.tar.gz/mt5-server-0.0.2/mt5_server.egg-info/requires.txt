@@ -1,0 +1,4 @@
+numpy
+plumbum
+pyparsing
+rpyc
