@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+pfpyspectra/__init__.py
+pfpyspectra/__version__.py
+pfpyspectra/pfpyspectra.py
+pfpyspectra.egg-info/PKG-INFO
+pfpyspectra.egg-info/SOURCES.txt
+pfpyspectra.egg-info/dependency_links.txt
+pfpyspectra.egg-info/not-zip-safe
+pfpyspectra.egg-info/requires.txt
+pfpyspectra.egg-info/top_level.txt
+pfpyspectra/interface/spectra_dense_interface.cc
+pfpyspectra/interface/spectra_sparse_interface.cc
