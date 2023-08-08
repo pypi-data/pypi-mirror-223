@@ -1,0 +1,3 @@
+[console_scripts]
+wechat-extractor=wechat_extractor.__main__:cli
+
