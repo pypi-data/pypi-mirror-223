@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ani-sched
+Version: 0.1.0
+Summary: A local API for anime schedules and news (livechart.me)
+Home-page: https://github.com/lkaijie/ani-sched-api
+Author: lkaijie
+Author-email: 
+License: MIT
+Keywords: api,myanimelist,anime,schedule,news,livechart
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
