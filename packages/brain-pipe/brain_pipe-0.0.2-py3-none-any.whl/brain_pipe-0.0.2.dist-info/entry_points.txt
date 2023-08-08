@@ -1,0 +1,2 @@
+[console_scripts]
+brain_pipe = brain_pipe:cli_entrypoint
