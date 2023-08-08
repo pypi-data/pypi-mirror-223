@@ -1,0 +1,6 @@
+click<=8.1.6
+pyserial<=3.5
+prometheus-client<=0.17.1
+
+[:python_version < "3.8"]
+importlib-metadata<=6.8.0
