@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: passwordless_27
+Version: 0.1.1
+Summary: A client library for Bitwardens Passwordless.dev API
+Home-page: https://github.com/yourusername/passwordless-client
+Author: Matthew Fiallos
+Author-email: matthew.fiallos@randstadusa.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/markdown
+
+# Passwordless.dev Python 2.7 SDK Client
+
+A Python client library for interacting with the Bitwarden Passwordless.dev API.
+
+## Installation
+
+1. Install the package using pip:
+
+```bash
+pip install passwordless_27
+```
+
+## Usage
+
+### Configuration
+
+You can store the API secret and public API key in a configuration file for easier management and security.
+
+#### Creating a Configuration File
+
+Create a file named `config.ini` in the same directory as your script, with the following content:
+
+```ini
+[passwordless]
+api_secret = myapplication:secret:your_secret_key
+api_key = your_public_api_key
+```
+
+Replace the values with your actual API secret and public API key.
+
+#### Reading the Configuration in Code
+
+Use the `configparser` module to read the configuration file and pass the keys to the `PasswordlessClient`:
+
+```python
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+api_secret = config['passwordless']['api_secret']
+# api_key can be accessed similarly if needed
+
+```
+
+
+
+### Importing the Client
+
+Once the package is installed, you can import the `PasswordlessClient` class in your Python script or application:
+
+```python
+from passwordless_27 import PasswordlessClient
+```
+
+### Creating a Client Instance
+
+Create an instance of the `PasswordlessClient` class, providing your API private secret:
+
+```python
+client = PasswordlessClient(api_secret)
+```
+
+### Using the Client's Methods
+
+You can now use the various methods provided by the `PasswordlessClient` class to interact with the Passwordless.dev API.
+
+#### Registering a Token
+
+```python
+user_id = "107fb578-9559-4540-a0e2-f82ad78852f7"
+username = "pjfry@passwordless.dev"
+displayname = "Philip J Fry"
+response = client.register_token(user_id, username, displayname)
+print(response)
+```
+
+#### Verifying a Sign-In
+
+```python
+token = "d5vzCkL_GvpS4VYtoT3..."
+response = client.signin_verify(token)
+print(response)
+```
+
+#### Adding Aliases
+
+```python
+user_id = "107fb578-9559-4540-a0e2-f82ad78852f7"
+aliases = ["pjfry@passwordless.dev", "benderrules@passwordless.dev"]
+response = client.alias(user_id, aliases)
+print(response)
+```
+
+#### Listing Credentials
+
+```python
+user_id = "107fb578-9559-4540-a0e2-f82ad78852f7"
+response = client.credentials_list(user_id)
+print(response)
+```
+
+#### Deleting a Credential
+
+```python
+credential_id = "qgB2ZetBhi0rIcaQK8_HrLQzXXfwKia46_PNjUC2L_w"
+response = client.credentials_delete(credential_id)
+print(response)
+```
+
+---
+
+This `README.md` file provides a basic introduction to the `PasswordlessClient` class, how to install the package, and how to use the different methods. It can be expanded with additional information as needed.
