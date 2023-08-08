@@ -1,0 +1,4 @@
+[console_scripts]
+log_parser=log_parser:parse_cli
+log_parser_showcase=log_parser.showcase:parse_showcase
+
