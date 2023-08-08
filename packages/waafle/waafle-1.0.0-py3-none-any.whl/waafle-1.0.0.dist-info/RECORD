@@ -1,0 +1,13 @@
+waafle/__init__.py,sha256=C_SucQuHv6d8SF9DCr0K5zK16QVrV-hMbCkX3wr4XpI,28
+waafle/utils.py,sha256=zu-lxkqoOm9gHNutiQ7kQ53H5aL4j7X0lhJuYJrMXow,19488
+waafle/waafle_genecaller.py,sha256=qS67jsPwBRZYlMtpXBWs20nJp0OFrZGv_6KahmCizlA,7683
+waafle/waafle_junctions.py,sha256=PHBdBTr7DusGKIYJRd5-NUPqz9rZpC4396e2c-KirwU,15479
+waafle/waafle_orgscorer.py,sha256=MjCjuSJNxAYEugImFxLA47V2PcvpHVvZYQX2eRFHboE,36239
+waafle/waafle_qc.py,sha256=2ZZRmwdpMhbHQU4THdIpgs_VKxHXCp7LlRo21Z86Lkw,6174
+waafle/waafle_search.py,sha256=o5eeyk4NkKih-aSHowtdcyuq0SZ-1oKGGMIRMvpvjYU,3734
+waafle-1.0.0.dist-info/LICENSE.txt,sha256=uwOK14DPlebrIhrpQsoF6Wz5UkaYSvhaqMZXK7qGRVs,1142
+waafle-1.0.0.dist-info/METADATA,sha256=jsra2eoV4i7bRYTYHYmpnIydlcRb9ZEyVPy6OjaG-qI,16806
+waafle-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+waafle-1.0.0.dist-info/entry_points.txt,sha256=L6Q_fbmNZNKCQXIlzfUA_6MzIkJ4pF4E4o3E5RFcpa0,241
+waafle-1.0.0.dist-info/top_level.txt,sha256=_v3LY0KItKr7JBoVXu625PX9yJjlPy1hjz7nEoMcv1Y,7
+waafle-1.0.0.dist-info/RECORD,,
