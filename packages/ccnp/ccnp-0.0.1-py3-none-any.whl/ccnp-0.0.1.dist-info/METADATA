@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ccnp
+Version: 0.0.1
+Summary: SDKs to enable confidential computing in cloud native environments
+Home-page: https://github.com/intel/confidential-cloud-native-primitives
+Author-email: "Lu, Ken" <ken.lu@intel.com>, "Ying, Ruoyu" <ruoyu.ying@intel.com>, "Dong, Xiaocheng" <xiaocheng.dong@intel.com>
+License: Apache Software License
+Project-URL: Homepage, https://github.com/intel/confidential-cloud-native-primitives
+Project-URL: Bug Tracker, https://github.com/intel/confidential-cloud-native-primitives/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: grpcio-tools >=1.56.0
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+
+
+=====
+ccnp
+=====
+
+
+    SDK for Confidential Cloud Native Primitives
+
+
+Here provides the sdks for confidential cloud native primitives which will ease the usage
+of confidential computing using TEE.
+
+
+
+Note
+====
+
+Placeholder for note.
+
