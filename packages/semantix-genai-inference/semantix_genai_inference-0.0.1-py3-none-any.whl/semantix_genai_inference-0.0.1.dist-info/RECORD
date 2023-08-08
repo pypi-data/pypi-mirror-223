@@ -1,0 +1,10 @@
+semantix_genai_inference/__init__.py,sha256=QcBDUcQzsfVcw4dgFkMJyNZhHABCE_dekbScuYPJhcE,71
+semantix_genai_inference/cli.py,sha256=Fb03ttJc_Ezr5wweR_zDFHA8vrPVVcp5aw5bb00TY0o,469
+semantix_genai_inference/inference/__init__.py,sha256=yeQ17xaCsCoubUsm4eO2LXfki-QxtaJ99fDm4axFoq4,691
+semantix_genai_inference/inference/llm/alpaca.py,sha256=TZ0GVmqJfg-wpAPOIm3FJyJkdWfQSwomQtfKV-LVE2E,703
+semantix_genai_inference/inference/llm/llama2.py,sha256=_jm3Eh4ZTCXcMdtD1HPt9uTLYYH_00sdZcx3Kw2dGLA,706
+semantix_genai_inference/inference/model_client.py,sha256=nHSulDn9T0NcIUo580tr24nYyhsn9EAS6sXO8VitMWM,672
+semantix_genai_inference-0.0.1.dist-info/entry_points.txt,sha256=vzh4p6EgCBV09Jtw7STf99vFlHL3OL8xIQlLPVYUXsg,64
+semantix_genai_inference-0.0.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+semantix_genai_inference-0.0.1.dist-info/METADATA,sha256=NsYjePRIOR0_OlDN7hB2XqBgN2hGE0XOFzToD2t_1gc,976
+semantix_genai_inference-0.0.1.dist-info/RECORD,,
