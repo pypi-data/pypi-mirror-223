@@ -1,0 +1,158 @@
+# NumSpark (Version 1.2)
+
+NumSpark is a Python library that provides mathematical operations and functions for numerical calculations. It includes operations on lists, vectors, matrices, sets, and various mathematical functions.
+
+## Installation and Dependencies
+```bash
+pip install numspark
+```
+```text
+numpy
+sympy
+```
+
+
+## Constants
+
+NumSpark provides the following constants:
+
+- **`PI`**: The mathematical constant π (pi).
+- **`E`**: The mathematical constant e (base of the natural logarithm).
+- **`INFINITY`**, **`INF`**, **`inf`**: Represents positive infinity.
+- **`NAN`**, **`NaN`**, **`nan`**: Represents not a number.
+- **`TRUE`**, **`true`**: Represents the boolean value True.
+- **`FALSE`**, **`false`**: Represents the boolean value False.
+- **`NONE`**, **`NULL`**, **`none`**, **`null`**: Represents None or null.
+
+## List Operations
+
+The **`List`** class provides various element-wise operations on lists:
+
+- **`element_wise_operation`**: Perform an element-wise operation on multiple lists.
+- **`product`**: Compute the element-wise product of multiple lists.
+- **`scalarProduct`**: Multiply each element of a list by a scalar value.
+- **`add`**: Compute the element-wise addition of multiple lists.
+- **`scalarAdd`**: Add a scalar value to each element of a list.
+- **`sub`**: Compute the element-wise subtraction of multiple lists.
+- **`scalarSub`**: Subtract a scalar value from each element of a list.
+- **`div`**: Compute the element-wise division of multiple lists.
+- **`scalarDiv`**: Divide each element of a list by a scalar value.
+- **`floorDiv`**: Compute the element-wise floor division of multiple lists.
+- **`scalarFloorDiv`**: Perform floor division of each element of a list by a scalar value.
+- **`modulo`**: Compute the element-wise modulo operation of multiple lists.
+- **`scalarModulo`**: Perform modulo operation on each element of a list with a scalar value.
+- **`pow`**: Compute the element-wise power of a list with a scalar value.
+- **`flatten`**: Flatten a nested list to a single list.
+
+## Vector Operations
+
+The **`Vector`** class provides operations on 3-dimensional vectors:
+
+- **`add`**: Add multiple 3-dimensional vectors.
+- **`sub`**: Subtract multiple 3-dimensional vectors.
+- **`crossProduct`**: Compute the cross product of multiple 3-dimensional vectors.
+- **`dotProduct`**: Compute the dot product of multiple 3-dimensional vectors.
+- **`magnitude`**: Compute the magnitude of a 3-dimensional vector.
+- **`projection`**: Compute the projection of one 3-dimensional vector onto another.
+- **`angleOfProjection`**: Compute the angle of projection between two 3-dimensional vectors.
+
+## Matrix Operations
+
+The **`Matrix`** class provides operations on matrices:
+
+- **`isMatrix`**: Check if a given nested list is a matrix.
+- **`isSquare`**: Check if a given matrix is square.
+- **`add`**: Add multiple matrices element-wise.
+- **`scalarAdd`**: Add a scalar value to each element of a matrix.
+- **`sub`**: Subtract multiple matrices element-wise.
+- **`scalarSub`**: Subtract a scalar value from each element of a matrix.
+- **`product`**: Multiply multiple matrices.
+- **`scalarProduct`**: Multiply each element of a matrix by a scalar value.
+- **`T`**: Transpose a matrix.
+- **`subMatrix`**: Extract a submatrix by removing a specific row and column from the original matrix.
+- **`det`**: Calculate the determinant of a square matrix.
+- **`cofactor`**: Calculate the cofactors of a square matrix.
+- **`adjoint`**: Calculate the adjoint (adjugate) of a square matrix.
+- **`inv`**: Calculate the inverse of a square matrix.
+- **`traces`**: Calculate the sum of the diagonal elements of a square matrix.
+- **`diagonalSum`**: Calculate the sum of the diagonal and anti-diagonal elements of a square matrix.
+- **`removeCol`**: Remove a specific column from a matrix.
+- **`removeRow`**: Remove a specific row from a matrix.
+- **`reciprocal`**: Calculate the reciprocal of each element in a matrix.
+
+## Set Operations
+
+The **`Set`** class provides operations on sets:
+
+- **`toSet`**: Convert a list to a set, removing duplicates.
+- **`intersect`**: Compute the intersection of multiple sets.
+- **`union`**: Compute the union of multiple sets.
+- **`belongsTo`**: Check if an element belongs to a set.
+- **`subSet`**: Check if one set is a subset of another.
+
+## Mathematical Functions
+
+NumSpark includes various **mathematical** functions:
+
+- **`max`**: Find the maximum value in an array.
+- **`min`**: Find the minimum value in an array.
+- **`sin`**: Compute the sine of an angle (in radians or degrees).
+- **`cos`**: Compute the cosine of an angle (in radians or degrees).
+- **`tan`**: Compute the tangent of an angle (in radians or degrees).
+- **`cot`**: Compute the cotangent of an angle (in radians or degrees).
+- **`cosec`**: Compute the cosecant of an angle (in radians or degrees).
+- **`sec`**: Compute the secant of an angle (in radians or degrees).
+- **`asin`**: Compute the arcsine of an angle (in radians).
+- **`acos`**: Compute the arccosine of an angle (in radians).
+- **`atan`**: Compute the arctangent of an angle (in radians).
+- **`acot`**: Compute the arccotangent of an angle (in radians).
+- **`acosec`**: Compute the arccosecant of an angle (in radians).
+- **`asec`**: Compute the arcsecant of an angle (in radians).
+- **`sqrt`**: Compute the square root of a number.
+- **`cbrt`**: Compute the cube root of a number.
+- **`power`**: Compute the power of a number with a given exponent.
+- **`exp`**: Compute the exponential function of a number.
+- **`factorial`**: Compute the factorial of a number.
+- **`fibSequence`**: Generate a Fibonacci sequence up to a given number.
+- **`floor`**: Round a number down to the nearest integer.
+- **`ceil`**: Round a number up to the nearest integer.
+- **`quadratic_roots`**: Calculate the roots of a quadratic equation.
+- **`log`**: Compute the logarithm of a number (base 10).
+- **`ln`**: Compute the natural logarithm of a number (base e).
+- **`logn`**: Compute the logarithm of a number with a specified base.
+- **`permutation`**: Calculate the number of permutations of `n` objects taken `r` at a time.
+- **`combination`**: Calculate the number of combinations of `n` objects taken `r` at a time.
+- **`product`**: Compute the product of elements in an array.
+- **`summation`**: Compute the sum of elements in an array.
+- **`mean`**: Calculate the arithmetic mean (average) of an array.
+- **`median`**: Calculate the median of an array.
+- **`mode`**: Calculate the mode of an array.
+- **`variance`**: Calculate the variance of an array (sample or population).
+- **`standard_deviation`**: Calculate the standard deviation of an array (sample or population).
+- **`skewness`**: Calculate the skewness of an array.
+- **`kurtosis`**: Calculate the kurtosis of an array.
+- **`geometric_mean`**: Calculate the geometric mean of an array
+- **`harmonic_mean(array: list)`**: Calculates the harmonic mean of a list of numbers.
+- **`correlation_coefficient(x: list, y: list)`**: Computes the correlation coefficient between two lists of numbers.
+- **`slope_intercept(array1: list, array2: list)`**: Calculates the slope and intercept of the linear regression line for two arrays of data points.
+- **`moving_average(array: list, steps: int)`**: Computes the moving average of a list of numbers using a given window size.
+- **`exponential_moving_average(array: list, alpha: int|float)`**: Calculates the exponential moving average of a list of numbers using a smoothing factor `alpha`.
+- **`mean_sqrd_error(actual: list, predicted: list)`**: Computes the mean squared error between two lists of actual and predicted values.
+- **`root_mean_sqrd_error(actual: list, predicted: list)`**: Calculates the root mean squared error between two lists of actual and predicted values.
+- **`errors(actual: list, predicted: list)`**: Calculates the errors (differences) between two lists of actual and predicted values.
+- **`mean_error(actual: list, predicted: list)`**: Computes the mean error (average of errors) between two lists of actual and predicted values.
+- **`power(base: int|float, exponent: int|float)`**: Raises the base to the power of the exponent.
+- **`power_sum(array: list, exponent: int|float)`**: Computes the sum of the elements in the array raised to the power of the given exponent.
+- **`power_array(array: list, exponent: int|float)`**: Generates a new list with elements from the input list raised to the power of the given exponent.
+- **`primes(limit: int)`**: Generates a list of prime numbers up to a given limit.
+- **`isprime(number: int)`**: Checks if a given number is prime.
+- **`cost_function(actual: list, predicted: list)`**: Computes the cost function (mean squared error) between two lists of actual and predicted values for a regression problem.
+- **`scaling(array: list, feature_range: tuple = (0, 1))`**: Scales the values in the array to a specified feature range (default 0 to 1).
+- **`gaussian(array: list)`**: Generates a list of values representing the Gaussian distribution based on the input data.
+- **`sigmoid(x: int)`**: Computes the sigmoid function for a given input.
+- **`zscore(array: list, number: int) -> int|float`**: Calculates the z-score of a given number in relation to a list of data.
+- **`euclidean_distance(array1: list, array2: list)`**: Calculates the Euclidean distance between two lists of coordinates (2D).
+- **`manhattan_distance(array1: list, array2: list)`**: Computes the Manhattan distance between two lists of coordinates (2D).
+- **`camberra_distance(array1: list, array2: list)`**: Calculates the Canberra distance between two lists of coordinates (2D).
+- **`integrate(expression: str, wrt: str = "x")`**: Performs symbolic integration of a given expression with respect to the specified variable.
+- **`derivate(expression: str, wrt: str = "x")`**: Performs symbolic differentiation of a given expression with respect to the specified variable.
