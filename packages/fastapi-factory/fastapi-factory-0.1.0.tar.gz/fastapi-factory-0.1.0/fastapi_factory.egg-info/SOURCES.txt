@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fastapi_factory/__init__.py
+fastapi_factory/factory.py
+fastapi_factory.egg-info/PKG-INFO
+fastapi_factory.egg-info/SOURCES.txt
+fastapi_factory.egg-info/dependency_links.txt
+fastapi_factory.egg-info/requires.txt
+fastapi_factory.egg-info/top_level.txt

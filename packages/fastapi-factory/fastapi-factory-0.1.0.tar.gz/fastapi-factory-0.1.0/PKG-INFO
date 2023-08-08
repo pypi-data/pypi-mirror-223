@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: fastapi-factory
+Version: 0.1.0
+Summary: Some simple utilities for building `FastAPI` application.
+Home-page: https://github.com/Pandede/FastAPIFactory
+Author: Pandede
+License: MIT
+Download-URL: https://github.com/Pandede/FastAPIFactory/archive/refs/tags/v0.1.0.tar.gz
+Keywords: fastapi,utility
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
