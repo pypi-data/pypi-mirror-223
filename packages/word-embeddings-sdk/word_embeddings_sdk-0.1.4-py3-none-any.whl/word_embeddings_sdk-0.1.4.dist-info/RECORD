@@ -1,0 +1,13 @@
+word_embeddings_sdk/__init__.py,sha256=QJ0ixtacUVaQWMA0YLgtKbr8s5awLiRQaQ8Mv5yZWLI,65
+word_embeddings_sdk/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+word_embeddings_sdk/api/session.py,sha256=2f4fsqt9e3opMzBIKiXpZjgh1I-SmGD9iNIdSIWxpZc,10477
+word_embeddings_sdk/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+word_embeddings_sdk/domain/exceptions.py,sha256=JjC-S9NHF0Rx0O0PSUHp4YTyW-wvjIuak9EiPt6LtaA,91
+word_embeddings_sdk/domain/models.py,sha256=1k3PPWBWGbs8z_2MOx6jGE98yeZShQnyCejkW-_158c,138
+word_embeddings_sdk/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+word_embeddings_sdk/utils/utils.py,sha256=M5Sv_B7-DE4BpdHAaf4wNK1_RC16EqQhh4tkD5R2doY,673
+word_embeddings_sdk-0.1.4.dist-info/LICENSE,sha256=sse_Ov29zMc9othQILVxu2BIBiydJyd-ppGKG88QwlQ,1064
+word_embeddings_sdk-0.1.4.dist-info/METADATA,sha256=3i9PI53iag-vBcc83CrXgxFr6g9E7_SmtksQ-8TWnLg,5810
+word_embeddings_sdk-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+word_embeddings_sdk-0.1.4.dist-info/top_level.txt,sha256=93s_VZwYcsTg6DB3GtlNIW9Ioz8N8K7xKPZRbybaKtk,20
+word_embeddings_sdk-0.1.4.dist-info/RECORD,,
