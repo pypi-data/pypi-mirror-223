@@ -1,0 +1,2 @@
+[console_scripts]
+antibp3 = antibp3.python_scripts.antibp3:main
