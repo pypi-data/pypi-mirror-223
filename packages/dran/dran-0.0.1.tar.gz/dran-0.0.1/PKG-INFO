@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dran
+Version: 0.0.1
+Summary: Data reduction and analysis of HartRAO 26m telescope drift scans
+Home-page: https://github.com/Pfesi/dran
+Author: Pfesesani van Zyl
+Author-email: pfesi24@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
