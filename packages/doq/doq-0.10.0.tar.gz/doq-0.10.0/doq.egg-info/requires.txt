@@ -1,0 +1,10 @@
+parso
+jinja2
+toml
+
+[completion]
+shtab
+
+[test]
+parameterized
+pytest
