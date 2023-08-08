@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: cstow
+Version: 0.0.dev0
+Summary: GNU Stow Wrapper
+Author: Konstantin Kolesnyak
+Author-email: constkolesnyak@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# cstow
+<!-- TODO: write README.md -->
+
