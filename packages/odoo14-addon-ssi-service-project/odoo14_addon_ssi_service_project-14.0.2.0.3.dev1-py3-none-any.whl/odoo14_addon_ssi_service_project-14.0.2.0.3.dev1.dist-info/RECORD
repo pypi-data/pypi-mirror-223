@@ -1,0 +1,14 @@
+odoo/addons/ssi_service_project/README.rst,sha256=w6sZuHTbqoXl-XFgOOqYt8BLON5wvcr3ZeiYWPE_zwE,1256
+odoo/addons/ssi_service_project/__init__.py,sha256=VAkFvJXefoz7CVUwbL97HBfpLAYmvQPYXfYs71LOpzU,181
+odoo/addons/ssi_service_project/__manifest__.py,sha256=99ab6FocU4hM7ESxnZYqpGZbF5-gQ9iNjx4Jzu3OeLM,599
+odoo/addons/ssi_service_project/migrations/14.0.2.0.0/pre-migration.py,sha256=pDeles7tU5nWHmRsZP0wm3wGNjFij4OvCgbW60sjslk,628
+odoo/addons/ssi_service_project/models/__init__.py,sha256=W5pK7_cN-K1ENgHp8KOpOngW2G4E5lj8M90AVd3OZ0I,209
+odoo/addons/ssi_service_project/models/service_contract.py,sha256=isJbr04eerLKDd3D_D5e72DA72z7Q1wA8qTTZDTo8DY,1641
+odoo/addons/ssi_service_project/models/service_type.py,sha256=LdlcYgAma-pDx4h6E3BW_IKVHFHr0Bm6wmtcPGhwTuw,399
+odoo/addons/ssi_service_project/static/description/icon.png,sha256=QpEGsJ1uRwdcqBd4TG4fqVYjjT86RJP919hfO27T4EE,24973
+odoo/addons/ssi_service_project/views/service_contract_views.xml,sha256=7XNX-u6IGbqr-DppyJ21eQxestvbsBxh-L7mbkSEfaE,827
+odoo/addons/ssi_service_project/views/service_type_views.xml,sha256=VicdvN_0bwg4dWGzLvMXnEdjkXNf3K3qyfdaTaIIH48,787
+odoo14_addon_ssi_service_project-14.0.2.0.3.dev1.dist-info/METADATA,sha256=UEu-Du6acb7ID5GcrLvnkTpRkT0wz0ZQH4EjeJPNo5k,1860
+odoo14_addon_ssi_service_project-14.0.2.0.3.dev1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_service_project-14.0.2.0.3.dev1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_service_project-14.0.2.0.3.dev1.dist-info/RECORD,,
