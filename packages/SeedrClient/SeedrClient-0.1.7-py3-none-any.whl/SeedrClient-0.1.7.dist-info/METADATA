@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: SeedrClient
+Version: 0.1.7
+Summary: A python library to interface with Seedr
+Home-page: https://github.com/Mr-Developer-X/seedr-client
+Author: Mr Developer X
+Author-email: 139059229+Mr-Developer-X@users.noreply.github.com
+Keywords: seedr,bittorrent,torrent,magnet,seedr api,seedbox
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools >=45.0
+Requires-Dist: aria2p >=0.11.0
+Requires-Dist: requests >=2.30.0
+Requires-Dist: torrentool >=1.2.0
+Requires-Dist: ih2torrent >=0.1.17 ; platform_system == "Linux"
+Requires-Dist: win-ih2torrent >=0.2.0 ; platform_system == "Windows"
+
+# SeedrClient
+
+SeedrClient is a simple python library that interfaces with Seedr. However, unlike the offical
+rest API, to use SeedrClient you do not need a premium account and even free users can access
+the API.
+
+It is based on [@theabbie](https://github.com/theabbie/seedr-api) and
+[@hemantapkh](https://github.com/hemantapkh/seedrcc) work.
+
+### Installation
+```shell
+pip install SeedrClient
+```
+
+### Example code
+```python
+from seedr_client import SeedrHandler
+
+
+seedr = SeedrHandler(email="youremail@example.com", password="your_password")
+print(seedr.get_drive())
+# Should return a similar result
+# {'space': {'total': '5.0 GB', 'used': '1.1 GB'}, 'parent_folder_id': 123456789,
+# 'torrents': [], 'folders': [{'folder_id': 123456799, 'folder_name':
+# 'Ubuntu Minimal ISO 22.04 Custom', 'size': '1.1 GB'}], 'files': []}
+```
+
+### Documentation
+You can find the documentation for SeedrClient over [here](https://seedrclient.readthedocs.io/)
+
+### TODO
+- [ ] Reuse access token
+- [ ] Refresh access token when it expires
+- [ ] Add error notification via Telegram
+- [ ] Build a command line interface
+- [ ] Build a GUI app to monitor all SeedrClient activities
