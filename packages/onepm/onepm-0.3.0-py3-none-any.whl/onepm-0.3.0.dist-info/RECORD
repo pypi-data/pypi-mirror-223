@@ -1,0 +1,12 @@
+onepm-0.3.0.dist-info/METADATA,sha256=nvmkgcRnpHAsrhDEa4ZTKZ995Ey0p4q0MB6VYb6g-v4,2309
+onepm-0.3.0.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+onepm-0.3.0.dist-info/entry_points.txt,sha256=vHV8Yc_aWloAP0SPL8eyijQCYXyOyt0cgVRdlM1XJ-o,91
+onepm-0.3.0.dist-info/licenses/LICENSE,sha256=ZfpC41Q0TE6uWT3m2I5jcRHEmFF3zbU2dJPi1LtEGgE,1067
+onepm/__init__.py,sha256=CWKAxRIp3jmI8YYrc0s18WWElGiD417hCc2wGAeNE8I,1669
+onepm/base.py,sha256=F2JrEgpHgORgqvr7jpGaybNjs_l3aImkye64mmgLDto,1879
+onepm/pdm.py,sha256=4UgXJmPnYX1VJPfU1-LwOSUq0GJSuZ_eCQbmcoaif0U,709
+onepm/pip.py,sha256=iJOTV4YNZemGCGJMNE_JaHRTpkotxWmP9BhM33NorR4,2411
+onepm/pipenv.py,sha256=KtqCKn3NxEGyd9MNgRbOhWrj3DywFJOfZcodmbGYAi4,557
+onepm/poetry.py,sha256=FkRgBkxmbqWChxAWd4_WxUf6GAIWjlljG7qmpeQNWCw,683
+onepm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onepm-0.3.0.dist-info/RECORD,,
