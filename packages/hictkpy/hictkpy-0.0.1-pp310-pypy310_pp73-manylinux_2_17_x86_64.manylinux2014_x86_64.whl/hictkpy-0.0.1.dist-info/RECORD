@@ -1,0 +1,9 @@
+hictkpy.libs/libhdf5-f59931a4.so.310.0.0,sha256=Y37Jjm-89koHy_bWQez_fIccnAhTlWTjV99Il_iXL2M,4908873
+hictkpy.libs/libdeflate-420a2ebd.so.0,sha256=Aj1ZaNXBDdf2WN3cTSyz3LjhTIREHho2JG8oUnooiaM,82889
+hictkpy-0.0.1.dist-info/LICENSE,sha256=srS6Zc_-eolVJQBl2VWzpkuKS25A7arJa_z8SABhYdc,1072
+hictkpy-0.0.1.dist-info/top_level.txt,sha256=X0CN7J0A7AIZz-BHiqNen2RCU1FR1nO-TvUOH7VNs5I,8
+hictkpy-0.0.1.dist-info/RECORD,,
+hictkpy-0.0.1.dist-info/METADATA,sha256=QCi3qbf_Oa9A4mxjZxraiw9oiBuIChHtpPF53ErA018,3624
+hictkpy-0.0.1.dist-info/WHEEL,sha256=fC4KCFE3SHkwigmrbAlECQvm30acXQf-wpLbffW2av4,166
+hictkpy/hictkpy.pypy310-pp73-x86_64-linux-gnu.so,sha256=Xc76M8uvKNb15dGVL82_ViwojSfKpdsA5Se2IozRgN8,1969385
+hictkpy/__init__.py,sha256=9WKhIOjC2TWiaPb2JSDQBBZxSr1QCjypWOEvMN5lWKE,63
