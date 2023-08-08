@@ -1,0 +1,6 @@
+setup.py
+pipsqlkitsV1/__init__.py
+pipsqlkitsV1.egg-info/PKG-INFO
+pipsqlkitsV1.egg-info/SOURCES.txt
+pipsqlkitsV1.egg-info/dependency_links.txt
+pipsqlkitsV1.egg-info/top_level.txt
