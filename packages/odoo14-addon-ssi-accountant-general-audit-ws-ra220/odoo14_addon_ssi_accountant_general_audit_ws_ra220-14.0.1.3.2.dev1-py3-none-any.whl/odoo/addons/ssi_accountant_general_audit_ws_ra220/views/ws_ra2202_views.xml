@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl-3.0-standalone.html). -->
+<odoo>
+
+    <record id="ws_ra2202_view_search" model="ir.ui.view">
+        <field name="name">ws_ra2202 search</field>
+        <field name="model">ws_ra2202</field>
+        <field
+            name="inherit_id"
+            ref="ssi_accountant_general_audit.accountant_general_audit_worksheet_mixin_view_search"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <data>
+            </data>
+        </field>
+    </record>
+
+    <record id="ws_ra2202_view_tree" model="ir.ui.view">
+        <field name="name">ws_ra2202 tree</field>
+        <field name="model">ws_ra2202</field>
+        <field name="mode">primary</field>
+        <field
+            name="inherit_id"
+            ref="ssi_accountant_general_audit.accountant_general_audit_worksheet_mixin_view_tree"
+        />
+        <field name="arch" type="xml">
+            <data>
+            </data>
+        </field>
+    </record>
+
+    <record id="ws_ra2202_view_form" model="ir.ui.view">
+        <field name="name">ws_ra2202 form</field>
+        <field name="model">ws_ra2202</field>
+        <field name="mode">primary</field>
+        <field
+            name="inherit_id"
+            ref="ssi_accountant_general_audit.accountant_general_audit_worksheet_mixin_view_form"
+        />
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//field[@name='general_audit_id']" position="after">
+                    <field
+                        name="business_process_ids"
+                        widget="many2many_tags"
+                        invisible="1"
+                    />
+                </xpath>
+                <xpath expr="//page[1]" position="before">
+                    <page name="control_risk" string="Control Risks">
+                        <field name="control_risk_ids" force_save="1">
+                            <tree editable="1">
+                                <field name="sequence" widget="handle" />
+                                <field name="standard_detail_id" invisible="1" />
+                                <field name="type_id" />
+                                <field
+                                    name="business_process_id"
+                                    domain="[('id','in',parent.business_process_ids)]"
+                                />
+                                <field
+                                    name="assersion_type_ids"
+                                    widget="many2many_tags"
+                                />
+                                <field
+                                    name="oassersion_type_ids"
+                                    widget="many2many_tags"
+                                    invisible="1"
+                                />
+                            </tree>
+                            <form>
+                                <group name="control_risk_1" colspan="4" col="2">
+                                    <field name="sequence" />
+                                    <field name="standard_detail_id" invisible="1" />
+                                    <field name="type_id" />
+                                    <field name="business_process_id" />
+                                    <field
+                                        name="assersion_type_ids"
+                                        widget="many2many_tags"
+                                    />
+                                    <field
+                                        name="oassersion_type_ids"
+                                        widget="many2many_tags"
+                                        invisible="1"
+                                    />
+
+                                </group>
+                            </form>
+                        </field>
+                    </page>
+                </xpath>
+            </data>
+        </field>
+    </record>
+
+    <record id="ws_ra2202_action" model="ir.actions.act_window">
+        <field name="name">RA.220.2</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">ws_ra2202</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="ws_ra2202_menu"
+        name="RA.220.2"
+        parent="ssi_accountant_general_audit.menu_general_audit_risk_assesment"
+        action="ws_ra2202_action"
+        sequence="2202"
+        groups="accountant_general_audit_ws_ra2202_viewer_group"
+    />
+
+
+</odoo>

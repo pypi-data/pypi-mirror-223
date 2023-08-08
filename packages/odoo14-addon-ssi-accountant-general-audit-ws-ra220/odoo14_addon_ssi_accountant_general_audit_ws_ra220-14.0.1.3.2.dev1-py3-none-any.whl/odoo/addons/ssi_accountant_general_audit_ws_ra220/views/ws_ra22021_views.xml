@@ -1,0 +1,113 @@
+<?xml version="1.0" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl-3.0-standalone.html). -->
+<odoo>
+
+    <record id="ws_ra22021_view_search" model="ir.ui.view">
+        <field name="name">ws_ra22021 search</field>
+        <field name="model">ws_ra22021</field>
+        <field
+            name="inherit_id"
+            ref="ssi_accountant_general_audit.accountant_general_audit_worksheet_mixin_view_search"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <data>
+            </data>
+        </field>
+    </record>
+
+    <record id="ws_ra22021_view_tree" model="ir.ui.view">
+        <field name="name">ws_ra22021 tree</field>
+        <field name="model">ws_ra22021</field>
+        <field name="mode">primary</field>
+        <field
+            name="inherit_id"
+            ref="ssi_accountant_general_audit.accountant_general_audit_worksheet_mixin_view_tree"
+        />
+        <field name="arch" type="xml">
+            <data>
+            </data>
+        </field>
+    </record>
+
+    <record id="ws_ra22021_view_form" model="ir.ui.view">
+        <field name="name">ws_ra22021 form</field>
+        <field name="model">ws_ra22021</field>
+        <field name="mode">primary</field>
+        <field
+            name="inherit_id"
+            ref="ssi_accountant_general_audit.accountant_general_audit_worksheet_mixin_view_form"
+        />
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//group[@name='header_center']" position="inside">
+                    <field
+                        name="business_process_ids"
+                        widget="many2many_tags"
+                        invisible="1"
+                    />
+                    <field
+                        name="business_process_id"
+                        domain="[('id','in', business_process_ids)]"
+                    />
+                </xpath>
+                <xpath expr="//page[1]" position="before">
+                    <page name="cycle" string="Cycle Explanation">
+                        <separator string="Cycle Detail" colspan="4" />
+                        <field name="cycle_detail_ids">
+                            <tree>
+                                <field name="sequence" widget="handle" />
+                                <field name="name" />
+                                <field name="frequency" />
+                                <field name="risk_identification" />
+                                <field name="what_can_go_wrong" />
+                                <field name="activity_control_documentation" />
+                            </tree>
+                            <form>
+                                <group name="cycle_1" colspan="4" col="2">
+                                    <field name="sequence" />
+                                    <field name="name" />
+                                    <field name="frequency" />
+                                    <field name="risk_identification" />
+                                    <field name="what_can_go_wrong" />
+                                    <field name="activity_control_documentation" />
+                                </group>
+                            </form>
+                        </field>
+                        <separator string="Standard Account" colspan="4" />
+                        <field name="account_cycle_ids">
+                            <tree editable="top">
+                                <field name="sequence" invisible="1" />
+                                <field name="standard_detail_id" invisible="1" />
+                                <field name="type_id" />
+                                <field name="rely_on_control" />
+                                <field name="toc_analysis" />
+                                <field name="toc_result" force_save="1" />
+                            </tree>
+                        </field>
+                    </page>
+                </xpath>
+            </data>
+        </field>
+    </record>
+
+    <record id="ws_ra22021_action" model="ir.actions.act_window">
+        <field name="name">RA.220.2.1</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">ws_ra22021</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+        id="ws_ra22021_menu"
+        name="RA.220.2.1"
+        parent="ssi_accountant_general_audit.menu_general_audit_risk_assesment"
+        action="ws_ra22021_action"
+        sequence="22021"
+        groups="accountant_general_audit_ws_ra22021_viewer_group"
+    />
+
+
+</odoo>
