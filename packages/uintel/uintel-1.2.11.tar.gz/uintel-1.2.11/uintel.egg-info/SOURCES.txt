@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+uintel.egg-info/PKG-INFO
+uintel.egg-info/SOURCES.txt
+uintel.egg-info/dependency_links.txt
+uintel.egg-info/top_level.txt
