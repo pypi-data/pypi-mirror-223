@@ -1,0 +1,15 @@
+gytoolkit/__init__.py,sha256=pKMQKgDitX7U8f3nUwupPCTOGiMD2D8V21EYrliByaU,125
+gytoolkit/mailparser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gytoolkit/mailparser/constant.py,sha256=hP8Kz0ycaVQFhJzXm6QprTY4YpVgUsS0Noie36qxeb0,1093
+gytoolkit/mailparser/mailparser.py,sha256=6n_05Mp5HyWgNXYNd2vFJVmdiyij_4amlEHGV3KRA1Y,12754
+gytoolkit/mailparser/utils.py,sha256=hXGE98shuduR-nhE3IFnQgqqMeZikV6f6GhgRjfDwDQ,381
+gytoolkit/ppwdbapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gytoolkit/ppwdbapi/constants.py,sha256=H1e4753lKQX_M26gbdRD8SUN4ErRIQROLJQSLCDs3jw,1950
+gytoolkit/ppwdbapi/inquire.py,sha256=u6PAulbphbR7gjErY9XAUjjjZa_D0EwB9Hf3jwFWeHE,22633
+gytoolkit/ppwdbapi/utils.py,sha256=mqkhB_tqqhGw98Iw6QDTK-tAN-6rAIYC9zoqQchQefw,1730
+gytoolkit/reports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gytoolkit/reports/managerjudge.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gytoolkit-0.3.3.dist-info/LICENSE,sha256=rfC53iT89312IIEj6U0csw8YyRvJl2fktBfEBqEBMs8,1063
+gytoolkit-0.3.3.dist-info/METADATA,sha256=WLzE3S2lS1jUbfFkwAtzGX7ksI-Owm6WuaeDQeYNNFU,1355
+gytoolkit-0.3.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+gytoolkit-0.3.3.dist-info/RECORD,,
