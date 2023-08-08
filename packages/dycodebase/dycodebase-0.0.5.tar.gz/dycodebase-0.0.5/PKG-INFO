@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dycodebase
+Version: 0.0.5
+Summary: CodeBase of important Functions
+Author: Devin De Silva
+Author-email: devin@irononetech.com
+Keywords: python,codebase
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+Contains Pytorch/ TensorFlow algorithms I have found in a single module
