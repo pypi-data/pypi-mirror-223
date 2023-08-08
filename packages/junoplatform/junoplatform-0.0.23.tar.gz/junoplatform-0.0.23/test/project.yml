@@ -1,0 +1,9 @@
+name: test
+version: 8.8.2
+author: root
+description: template algo project
+plant: gangqu
+module: DO
+package_id: edc8828c4ddc445bbac0af5b4f0ba676
+tag: ac
+message: init
