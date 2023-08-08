@@ -1,0 +1,2 @@
+[console_scripts]
+py_ble_manager_programmer = py_ble_manager.util.py_ble_manager_programmer:main
