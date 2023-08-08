@@ -1,0 +1,3 @@
+[console_scripts]
+pgml-chat=pgml_chat.main:main
+
