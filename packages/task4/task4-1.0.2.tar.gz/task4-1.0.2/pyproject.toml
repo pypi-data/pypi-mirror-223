@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "task4"
+version = "1.0.2"
+description = "Log file parser CLI and library"
+authors = ["Bill.Avramenko <billavramenko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "log_parser"}]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+questionary = "^1.10.0"
+
+[tool.poetry.scripts]
+log_parser = "log_parser:parse_cli"
+log_parser_showcase = "log_parser.showcase:parse_showcase"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
