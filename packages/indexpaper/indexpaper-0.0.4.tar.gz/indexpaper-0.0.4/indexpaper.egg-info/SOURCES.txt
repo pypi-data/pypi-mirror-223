@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+indexpaper.egg-info/PKG-INFO
+indexpaper.egg-info/SOURCES.txt
+indexpaper.egg-info/dependency_links.txt
+indexpaper.egg-info/entry_points.txt
+indexpaper.egg-info/requires.txt
+indexpaper.egg-info/top_level.txt
