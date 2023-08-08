@@ -1,0 +1,10 @@
+skcan_compare/__init__.py,sha256=fWYCpSgv1V3o6mlz1CPoeBbrf_ePd3dKZh_lex4vk2I,2114
+skcan_compare/globals.py,sha256=PUOJ-hwfJF74r9hoDkeKnD_OOOdAb4beCk1ShAc4e6g,73
+skcan_compare/query.py,sha256=tpisY8nzGngEfdFCqlMZYur_f9mkn36ZMk-3CxBrJOE,2745
+skcan_compare/visualize.py,sha256=brFGNehpntFfJFgQGzyAt487Qt562YJ5IqbiGneH0dA,7944
+skcan_compare/data/coords_human.json,sha256=_5l3OkSPOzMpBap5XazE-BeSAH-ZLECJ5Sqh4B8lnnA,21612
+skcan_compare-0.0.3.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+skcan_compare-0.0.3.dist-info/METADATA,sha256=BKgjXIle9ZcD_fZsd-ciXnb9wWDduBH6NPP81b2UzuA,413
+skcan_compare-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+skcan_compare-0.0.3.dist-info/top_level.txt,sha256=9r9rm3nIePyMqLr1e9ChMX7MVs9TzRYd5ykkNTMCfXI,14
+skcan_compare-0.0.3.dist-info/RECORD,,
