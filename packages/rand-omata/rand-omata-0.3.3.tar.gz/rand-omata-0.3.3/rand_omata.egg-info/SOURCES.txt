@@ -1,0 +1,9 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+setup.py
+rand_omata/__init__.py
+rand_omata.egg-info/PKG-INFO
+rand_omata.egg-info/SOURCES.txt
+rand_omata.egg-info/dependency_links.txt
+rand_omata.egg-info/top_level.txt

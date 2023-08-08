@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rand-omata
+Version: 0.3.3
+Summary: It's a matrix generator which can return random data matrix which can be used for data science!
+Home-page: https://github.com/Major-Manu/rand-omata.git
+Author: Major Manu
+Author-email: majors00production@gmail.com
+Keywords: matrix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Programming Language :: Python :: 3
+
+This Project is being made for the sole purpose of generating random data for matrices ! 
+I have tried this as a simple project to boost my moral and give me the little bit of dopemine which i have been waiting from the start of the project !!! 
+I hope somebody will stumbe upon this liberary and use it for their own project ! 
+I can only hope !
+
+Change Log
+==========
+
+0.3.3 (07/08/2023)
+-------------------
+-Third Release
+-After so many uploads
+-I hope it works !
