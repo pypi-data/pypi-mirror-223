@@ -1,0 +1,11 @@
+sqlconstructor/__init__.py,sha256=37yJPMhS35Eui-yZQggyadKuPmuBbC-Qfblsba3XYZk,252
+sqlconstructor/constants.py,sha256=fK372NwlBXFgFqfoxbU9X7W8F306qq9L_6p0HS3mxRk,2404
+sqlconstructor/helpers.py,sha256=vlsjB9jECw8YZY2ijltmzMPQ2wQAWSdMAqMZLvZlUQo,1207
+sqlconstructor/sql_container.py,sha256=yM3vQ4rDVBRVcFRRzKTdgiVif-POn6JCczHxivV7JnQ,5130
+sqlconstructor/sql_cte.py,sha256=V5FLKjfy0HFSe4XYuwN4Kek354yO7-MKKm30dl-DVxk,1688
+sqlconstructor/sql_query.py,sha256=d7Qh76epFV9DyEaC2MpsROyQX6mj3ljxjWUNc0NgN8U,5497
+sqlconstructor/sql_section.py,sha256=pCgAq8_ED2nYza01y7TshIdwGUw8huaiyJuNocLTJjE,3893
+sqlconstructor-1.0.20.dist-info/METADATA,sha256=9MaPFz5C_Zj4mfpR_NPSGN12CGTeXd2WmKANb1JGOZU,9972
+sqlconstructor-1.0.20.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sqlconstructor-1.0.20.dist-info/licenses/LICENSE,sha256=zK2_hGwSYJKI9C3DS-0F_jnaJMrPQaOTK1mvyAZyQ1I,1071
+sqlconstructor-1.0.20.dist-info/RECORD,,
