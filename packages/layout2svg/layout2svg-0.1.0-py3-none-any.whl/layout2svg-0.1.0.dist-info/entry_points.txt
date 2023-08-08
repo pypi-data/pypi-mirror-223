@@ -1,0 +1,3 @@
+[console_scripts]
+layout2svg=bin.layout2svg:main
+
