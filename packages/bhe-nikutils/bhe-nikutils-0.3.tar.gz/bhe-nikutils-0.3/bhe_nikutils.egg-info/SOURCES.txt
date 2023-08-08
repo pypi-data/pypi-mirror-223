@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bhe_nikutils.egg-info/PKG-INFO
+bhe_nikutils.egg-info/SOURCES.txt
+bhe_nikutils.egg-info/dependency_links.txt
+bhe_nikutils.egg-info/top_level.txt
+nikutils/__init__.py
+nikutils/nik2date.py
