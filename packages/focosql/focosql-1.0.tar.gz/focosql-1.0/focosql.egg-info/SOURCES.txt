@@ -1,0 +1,9 @@
+setup.py
+focosql/__init__.py
+focosql/connection.py
+focosql/queries.py
+focosql.egg-info/PKG-INFO
+focosql.egg-info/SOURCES.txt
+focosql.egg-info/dependency_links.txt
+focosql.egg-info/requires.txt
+focosql.egg-info/top_level.txt
