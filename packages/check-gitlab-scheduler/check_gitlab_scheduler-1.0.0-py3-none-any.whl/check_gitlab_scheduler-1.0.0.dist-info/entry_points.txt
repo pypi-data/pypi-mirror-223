@@ -1,0 +1,3 @@
+[console_scripts]
+check_gitlab_scheduler=check_gitlab_scheduler:main
+
