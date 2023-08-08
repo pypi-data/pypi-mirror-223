@@ -1,0 +1,8 @@
+include LICENSE
+include README.rst
+include setup.cfg
+include setup.py
+include pyproject.toml
+
+include /apps/alert_winglet
+
