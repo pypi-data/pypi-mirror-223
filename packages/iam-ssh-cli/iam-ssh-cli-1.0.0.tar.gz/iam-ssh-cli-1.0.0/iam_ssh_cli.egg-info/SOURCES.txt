@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+bin/iam-ssh-cli
+iam-ssh-cli/__init__.py
+iam-ssh-cli/iam-ssh-cli.py
+iam_ssh_cli.egg-info/PKG-INFO
+iam_ssh_cli.egg-info/SOURCES.txt
+iam_ssh_cli.egg-info/dependency_links.txt
+iam_ssh_cli.egg-info/requires.txt
+iam_ssh_cli.egg-info/top_level.txt
