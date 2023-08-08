@@ -1,0 +1,13 @@
+zxext/.gitattributes,sha256=Gh2-F2vCM7SZ01pX23UT8pQcmauXWfF3gwyRSb6ZAFs,66
+zxext/.gitignore,sha256=T--KRewV4BgdJLPur7m2BXUs0WWX03i-Dyq7Km4ZRI0,2915
+zxext/README.md,sha256=PuEyzcRgwQKZqwMxYzQAe2KZCb7A0F1g0-BOTOOzOys,1097
+zxext/UPDATE.txt,sha256=nssFirEy0pq3LEmMYfzXCuADqdoRjL4zOz9fRmKVp5c,61
+zxext/Url.py,sha256=8ic9SwOiJLVLgy2x7ksEX8zIRvQpv-yfAE99bERp1rs,343
+zxext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zxext/models.py,sha256=J7mXU9Hm-0blZX0lbD1xop559QRSI9fAe1SrtIfA5jM,2085
+zxext/workbook.py,sha256=1pSLIrF6-Rqtj2H_xcvnM7DSndX7QHxeH11BBQ1-NJw,12352
+zxext/.vscode/settings.json,sha256=R0fHxvdI02JH-wTIu2m3bsS4nHNndpX2NoUsBtECvVM,478
+zxext-0.1.2.dist-info/METADATA,sha256=0iD4tV3kTor3I-J2yFbGOSrdZdSlyiedjKS0h_5QMM0,1470
+zxext-0.1.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+zxext-0.1.2.dist-info/licenses/LICENSE,sha256=Gd5g9B4_lKSNoa2nXqgOJG6H1IDHssBXhYHJUc4JSPQ,2691
+zxext-0.1.2.dist-info/RECORD,,
