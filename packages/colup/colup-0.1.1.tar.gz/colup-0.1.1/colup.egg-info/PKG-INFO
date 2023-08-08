@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: colup
+Version: 0.1.1
+Summary: Colup
+Home-page: https://github.com/yNoah-droid/colobyv1.0
+Author: Noah Okoh
+Author-email: noahtochukwu10@gmail.com
+License: UNKNOWN
+Description: A python package to upload files remotely to your coloby projects
+Platform: UNKNOWN
