@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+agentagenda/__init__.py
+agentagenda/main.py
+agentagenda/test.py
+agentagenda.egg-info/PKG-INFO
+agentagenda.egg-info/SOURCES.txt
+agentagenda.egg-info/dependency_links.txt
+agentagenda.egg-info/requires.txt
+agentagenda.egg-info/top_level.txt
