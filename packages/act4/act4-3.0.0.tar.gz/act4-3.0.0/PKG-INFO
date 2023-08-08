@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: act4
+Version: 3.0.0
+Summary: Library for metaprogramming
+Home-page: https://github.com/TheArtur128/Act
+Download-URL: https://github.com/TheArtur128/Act/archive/refs/tags/v3.0.0.zip
+Author: Arthur
+Author-email: s9339307190@gmail.com
+License: GNU General Public License v3.0
+Keywords: monads,library,pipeline,functional-programming,utils,lambda-functions,metaprogramming,annotations,immutability,algebraic-data-types,error-handling,duck-typing,currying,object-proxying,functors,contextualization,utils-library,endofunctors,pseudo-operators,structural-oop
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Act
+Library for dynamic functional programming and more.
+
+Enter this command and go to the [documentation](https://github.com/TheArtur128/Act/blob/main/DOCS.md):
+```
+pip install act4
+```
+
+### Overview
+```py
+from act import try_, v, w, to, catch, optionally, by, then, on, fmt
+
+
+lookup = try_(v[w], to(catch(KeyError, to(None))))
+
+# def lookup(table: Mapping[K, V], key: K) -> Optional[V]:
+#    try:
+#        return table[key]
+#    except KeyError:
+#        return None
+
+
+main = optionally(
+    (lookup |by| True)  # lambda table: lookup(table, True)
+    |then>> on(v > 0, None)  # lambda v: None if v > 0 else v
+    |then>> fmt("found {}", v + 1)  # lambda v: f"found {v + 1}" 
+)
+
+
+main(dict())  # None
+main({True: 4})  # None
+main({True: -4})  # found -3
+```
