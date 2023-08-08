@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pymikro
+Version: 0.15
+Summary: API to control the Maschine Mikro MK3
+Home-page: https://github.com/flokapi/pymikro
+Author: flokapi
+Author-email: flokapi@pm.me
+License: LGPLv2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE

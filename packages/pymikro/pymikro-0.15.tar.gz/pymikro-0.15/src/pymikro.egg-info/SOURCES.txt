@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/pymikro/DejaVuSans.ttf
+src/pymikro/__init__.py
+src/pymikro/maschine_mikro_mk3.json
+src/pymikro.egg-info/PKG-INFO
+src/pymikro.egg-info/SOURCES.txt
+src/pymikro.egg-info/dependency_links.txt
+src/pymikro.egg-info/requires.txt
+src/pymikro.egg-info/top_level.txt
