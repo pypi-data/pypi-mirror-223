@@ -1,0 +1,8 @@
+micropython_ds1841/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micropython_ds1841/ds1841.py,sha256=87H_QzMqszdsWGnL2188GvH2Tjlk9NlQ7wLbULjqoNk,4953
+micropython_ds1841/i2c_helpers.py,sha256=1rI-DgCsWgKzuGc1m1Jg509WNG-nm5Y-JPyrwCEWgeU,3914
+micropython_ds1841-0.1.2.dist-info/LICENSE,sha256=Uegez6jtSAOCdYM3ii5ZyLxtoSWzp3_R98-09clwV60,1139
+micropython_ds1841-0.1.2.dist-info/METADATA,sha256=8FDPGnd1JV7wcRir7QZGDTxPDgskb5UMJMf8zqGMtT8,3166
+micropython_ds1841-0.1.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+micropython_ds1841-0.1.2.dist-info/top_level.txt,sha256=GGxsKIY4APjYQvwDVMdCjh7KaQCr6bYaJUby2I9B4FU,19
+micropython_ds1841-0.1.2.dist-info/RECORD,,
