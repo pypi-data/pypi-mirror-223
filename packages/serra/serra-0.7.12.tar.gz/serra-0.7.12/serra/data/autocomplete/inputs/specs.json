@@ -1,0 +1,90 @@
+{
+    "AddColumnTransformer": {
+        "input_block": "string",
+        "name": "string",
+        "value": ["string", "boolean"],
+        "column_type": "string"
+    }, 
+    "CaseWhenTransformer": {
+        "input_block": "string",
+        "name": "string",
+        "value": "string"
+    },
+    "CastColumnTransformer": {
+        "input_block": "string",
+        "cast_columns": "object"
+    },
+    "DropColumnTransformer": {
+        "input_block": "string",
+        "drop_names": "array"
+    },
+    "GetCountTransformer": {
+        "input_block": "string",
+        "group_by": "array", 
+        "count_col": "string"
+    },
+    "JoinTransformer": {
+        "input_block": [ "object", "any", "array"],
+        "join_type": "string", 
+        "join_on": "object"
+    },
+    "MapTransformer": {
+        "input_block": "string",
+        "name": "string", 
+        "map_dict": "object",
+        "col_key": "string"
+    },
+    "PivotTransformer": {
+        "input_block": "string",
+        "row_level": "string",
+        "column_level": "string",
+        "sum_col": "string",
+        "aggregate_type": "string"
+    },
+    "RenameColumnTransformer": {
+        "input_block": "string",
+        "old_name": "string", 
+        "new_name": "string"
+    },
+    "SelectTransformer": {
+        "input_block": "string",
+        "columns": "array"
+    },
+    "AmazonS3Reader": {
+        "bucket_name": "string",
+        "file_path": "string",
+        "file_type": "string"
+    }, 
+    "DatabricksReader": {
+        "database": "string",
+        "table": "string"
+    }, 
+    "LocalReader": {
+        "file_path": "string"
+    },
+    "AmazonS3Writer": {
+        "input_block": "string",
+        "bucket_name": "string",
+        "file_path": "string",
+        "file_type": "string"
+    }, 
+    "DatabricksWriter": {
+        "input_block": "string",
+        "database": "string",
+        "table": "string",
+        "format": "string", 
+        "mode": "string"
+    }, 
+    "LocalWriter": {
+        "input_block": "string",
+        "file_path": "string"
+    },
+    "SnowflakeWriter": {
+        "input_block": "string",
+        "warehouse": "string",
+        "database": "string",
+        "schema": "string",
+        "table": "string",
+        "type": "string"
+    }
+}

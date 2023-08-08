@@ -1,0 +1,18 @@
+{
+    "additionalProperties": false,
+    "properties": {
+        "col_key": {
+            "type": "string"
+        },
+        "input_block": {
+            "type": "string"
+        },
+        "map_dict": {
+            "type": "object"
+        },
+        "name": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
