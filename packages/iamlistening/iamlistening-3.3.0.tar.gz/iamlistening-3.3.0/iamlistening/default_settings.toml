@@ -1,0 +1,63 @@
+########################################
+###          DEFAULT SETTINGS        ###
+########################################
+
+# Any of those settings can be changed
+# by the user. To overwrite a setting, 
+# create a settings.toml or load the 
+# settings from .env file or vars.
+# As an example, to disable the 
+# iamlistening object:
+# settings.toml
+# [default]
+# iamlistening_enabled = false
+
+
+[default]
+VALUE = "On Default"
+iamlistening_enabled = true
+chat_platform = ""
+iteration_enabled = false
+iteration_limit = -1
+bot_token = ""
+bot_channel_id = ""
+bot_api_id = ""
+bot_api_hash = ""
+bot_hostname = ""
+bot_user = ""
+bot_pass = ""
+bot_auth_token = ""
+
+
+
+########################################
+###     END OF DEFAULT SETTINGS      ###
+########################################
+
+
+
+
+
+                                        
+# _   _                           _   ___  
+#| | | |                         | | |__ \ 
+#| |_| |__   ___    ___ _ __   __| |    )|
+#| __| '_ \ / _ \  / _ \ '_ \ / _` |   / / 
+#| |_| | | |  __/ |  __/ | | | (_| |  |_|  
+# \__|_| |_|\___|  \___|_| |_|\__,_|  (_)  
+########################################     
+#
+#
+#
+#
+#         __     __       
+#         \ \   / /       
+#          \ \_/ /__  ___ 
+#           \   / _ \/ __|
+#            | |  __/\__ \
+#            |_|\___||___/
+#
+#
+#
+#                   
+########################################     
