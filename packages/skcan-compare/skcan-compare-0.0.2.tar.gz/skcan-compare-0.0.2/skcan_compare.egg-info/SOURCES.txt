@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+skcan_compare/__init__.py
+skcan_compare/globals.py
+skcan_compare/query.py
+skcan_compare/visualize.py
+skcan_compare.egg-info/PKG-INFO
+skcan_compare.egg-info/SOURCES.txt
+skcan_compare.egg-info/dependency_links.txt
+skcan_compare.egg-info/top_level.txt
