@@ -1,0 +1,11 @@
+score_regression/__init__.py,sha256=jRFX6Ivm_5dsY3mda-kTUx0S2hcchdHuwQRVsJsMKKY,200
+score_regression/_version.py,sha256=qgKF-lRlzaBqf95e1sodHCZkSUCbz7ECKSeYHwXfAvI,23
+score_regression/score_regression.py,sha256=vTkB0iJ3OYZ7yOeobT-yWpAgKJ3wKE6Zdf0Oo7aJEEk,21229
+score_regression/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+score_regression/tests/test_common.py,sha256=keMevKFP2hnnbk8EACT5yej2YpaLBijiIGT2BlrYQ08,321
+score_regression/tests/test_template.py,sha256=vyWrp1Ucm-lUFFxBqZFmLVGa5zfEVxtFpZU17-ErGqo,1241
+score_regression-0.0.18.dist-info/LICENSE,sha256=LaPxj4fBUzeDA_hZTHnzREaIvPNmwfvLcQo0qBUT5WM,1486
+score_regression-0.0.18.dist-info/METADATA,sha256=HKKAkmaHCuJ-JhMrxCT_4HcsUwLkjZIyG3xRWFecN4g,3593
+score_regression-0.0.18.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+score_regression-0.0.18.dist-info/top_level.txt,sha256=ECh2zU_5_rsiOJ-78V3NfDLkrQs-L_fxyi9QgumizK8,17
+score_regression-0.0.18.dist-info/RECORD,,
