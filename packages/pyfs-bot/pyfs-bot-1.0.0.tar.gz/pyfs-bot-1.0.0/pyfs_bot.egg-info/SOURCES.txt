@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyfs_bot/__init__.py
+pyfs_bot/bot.py
+pyfs_bot.egg-info/PKG-INFO
+pyfs_bot.egg-info/SOURCES.txt
+pyfs_bot.egg-info/dependency_links.txt
+pyfs_bot.egg-info/requires.txt
+pyfs_bot.egg-info/top_level.txt

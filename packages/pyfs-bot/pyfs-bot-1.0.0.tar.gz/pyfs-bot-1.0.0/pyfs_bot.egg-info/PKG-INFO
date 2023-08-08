@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyfs-bot
+Version: 1.0.0
+Home-page: https://github.com/feishu-sdk-python/pyfs-bot.git
+Author: Hackathon
+Author-email: kimi.huang@brightcells.com
+Keywords: Feishu Bot
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# pyfs-bot
+Feishu Bot for Python.
