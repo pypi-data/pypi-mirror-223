@@ -1,0 +1,12 @@
+LICENSE
+apps/alert_winglet/__init__.py
+apps/alert_winglet/apps.py
+apps/alert_winglet/base/__init__.py
+apps/alert_winglet/base/manager.py
+apps/alert_winglet/base/sender.py
+apps/alert_winglet/discord/__init__.py
+apps/alert_winglet/discord/manager.py
+apps/alert_winglet/discord/sender.py
+apps/alert_winglet/tests/__init__.py
+apps/alert_winglet/tests/test_manager.py
+apps/alert_winglet/tests/test_sender.py
