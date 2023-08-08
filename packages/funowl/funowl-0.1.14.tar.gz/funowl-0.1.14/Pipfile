@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+requests = "*"
+
+[packages]
+rdflib = ">=6.2.0, <8"
+rdflib-shim = "*"
+pyjsg = ">=0.11.6"
+rfc3987 = "*"
+bcp47 = "*"
+jsonasobj = "*"
