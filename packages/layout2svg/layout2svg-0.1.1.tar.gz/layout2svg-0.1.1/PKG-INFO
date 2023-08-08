@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: layout2svg
+Version: 0.1.1
+Summary: 
+Author: dasdias
+Author-email: das.dias6@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: colour (>=0.1.5,<0.2.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: gdstk (>=0.9.42,<0.10.0)
+Requires-Dist: klayout (>=0.28.10,<0.29.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: lxml (>=4.9.3,<5.0.0)
