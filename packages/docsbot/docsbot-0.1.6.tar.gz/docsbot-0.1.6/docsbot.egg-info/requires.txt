@@ -1,0 +1,6 @@
+chromadb==0.4.5
+prettytable
+langchain
+qdrant-client
+unstructured_inference
+pytesseract
