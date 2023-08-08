@@ -1,0 +1,23 @@
+2023-08-07 12:31:33,788 INFO __main__ <module> 47 | This is a test
+2023-08-07 12:31:34,789 INFO __main__ <module> 49 | Still first file
+2023-08-07 12:31:35,790 INFO __main__ <module> 51 | Still first file
+2023-08-07 12:31:36,790 INFO __main__ <module> 53 | Still first file
+2023-08-07 12:31:37,792 INFO __main__ <module> 55 | Still first file
+2023-08-07 12:31:38,794 INFO __main__ <module> 57 | Still first file
+2023-08-07 12:31:41,797 INFO __main__ <module> 59 | Second file
+2023-08-07 12:31:42,799 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:43,801 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:44,803 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:45,804 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:46,806 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:47,807 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:48,809 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:49,810 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:50,811 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:51,813 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:52,814 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:53,816 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:54,818 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:55,819 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:56,820 INFO __main__ <module> 62 | At some point we should switch again
+2023-08-07 12:31:56,820 INFO __main__ <module> 63 | The log file should now close after 2 seconds

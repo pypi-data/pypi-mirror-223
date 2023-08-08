@@ -1,0 +1,24 @@
+2022-12-10 21:31:16,670 INFO __main__ <module> 46 | This is a test
+2022-12-10 21:31:17,672 INFO __main__ <module> 48 | Still first file
+2022-12-10 21:31:18,673 INFO __main__ <module> 50 | Still first file
+2022-12-10 21:31:19,675 INFO __main__ <module> 52 | Still first file
+2022-12-10 21:31:20,676 INFO __main__ <module> 54 | Still first file
+2022-12-10 21:31:21,677 INFO __main__ <module> 56 | Still first file
+2022-12-10 21:31:24,681 INFO __main__ <module> 58 | Second file
+2022-12-10 21:31:25,683 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:26,683 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:27,685 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:28,687 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:29,688 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:30,690 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:31,692 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:32,693 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:33,694 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:34,696 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:35,697 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:36,699 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:37,700 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:38,701 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:39,703 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:31:39,703 INFO __main__ <module> 62 | The log file should now close after 2 seconds
+2022-12-10 21:31:59,721 INFO __main__ <module> 64 | The final log message (in a different file again)

@@ -1,0 +1,18 @@
+2022-12-10 21:32:40,733 INFO __main__ <module> 46 | This is a test
+2022-12-10 21:32:41,734 INFO __main__ <module> 48 | Still first file
+2022-12-10 21:32:42,736 INFO __main__ <module> 50 | Still first file
+2022-12-10 21:32:43,738 INFO __main__ <module> 52 | Still first file
+2022-12-10 21:32:44,739 INFO __main__ <module> 54 | Still first file
+2022-12-10 21:32:45,741 INFO __main__ <module> 56 | Still first file
+2022-12-10 21:32:48,743 INFO __main__ <module> 58 | Second file
+2022-12-10 21:32:49,745 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:50,747 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:51,748 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:52,750 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:53,752 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:54,753 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:55,755 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:56,757 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:57,759 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:58,760 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:32:59,761 INFO __main__ <module> 61 | At some point we should switch again

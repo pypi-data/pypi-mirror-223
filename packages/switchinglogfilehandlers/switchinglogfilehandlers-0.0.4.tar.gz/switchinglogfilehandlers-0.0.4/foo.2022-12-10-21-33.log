@@ -1,0 +1,6 @@
+2022-12-10 21:33:00,763 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:33:01,765 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:33:02,766 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:33:03,767 INFO __main__ <module> 61 | At some point we should switch again
+2022-12-10 21:33:03,767 INFO __main__ <module> 62 | The log file should now close after 2 seconds
+2022-12-10 21:33:23,787 INFO __main__ <module> 64 | The final log message (in a different file again)
