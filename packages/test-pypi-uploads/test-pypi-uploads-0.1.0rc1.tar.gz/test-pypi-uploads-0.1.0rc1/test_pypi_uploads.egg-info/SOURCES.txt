@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+test_pypi_uploads/__init__.py
+test_pypi_uploads.egg-info/PKG-INFO
+test_pypi_uploads.egg-info/SOURCES.txt
+test_pypi_uploads.egg-info/dependency_links.txt
+test_pypi_uploads.egg-info/top_level.txt
