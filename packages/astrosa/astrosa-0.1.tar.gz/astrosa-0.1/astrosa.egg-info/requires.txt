@@ -1,0 +1,9 @@
+numpy>=1.17
+astropy>=4
+astroplan
+rich
+pandas
+photutils
+astropy_healpix
+pytz
+six
