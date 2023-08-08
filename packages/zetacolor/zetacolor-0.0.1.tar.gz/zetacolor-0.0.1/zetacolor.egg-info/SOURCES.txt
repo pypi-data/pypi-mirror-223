@@ -1,0 +1,5 @@
+setup.py
+zetacolor.egg-info/PKG-INFO
+zetacolor.egg-info/SOURCES.txt
+zetacolor.egg-info/dependency_links.txt
+zetacolor.egg-info/top_level.txt
