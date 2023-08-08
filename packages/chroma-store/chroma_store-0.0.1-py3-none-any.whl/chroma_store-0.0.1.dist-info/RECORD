@@ -1,0 +1,8 @@
+chroma_store/__about__.py,sha256=LWjjhbhmsiaZfNwCDGH_hJwpS2EDmG1eJbZceN_ITqE,127
+chroma_store/__init__.py,sha256=kzp7Yyh3YZYvuz3Ry_ZIxxOAcyL_eA464ZY-flixrJ0,154
+chroma_store/document_store.py,sha256=BY0ps1AhvYGi3HaqG8UULRB3YBbBWW2tGsMX3BexFKA,5064
+chroma_store/retriever.py,sha256=kaEBXM1N0775X_MVS_fKYJruhSkZBpQd8sssbwjLPq4,1808
+chroma_store-0.0.1.dist-info/METADATA,sha256=fCNJfGhh-VXm5v6iXzNy-4lbeeI8z0rmwg-0W6pTkIY,1515
+chroma_store-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+chroma_store-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+chroma_store-0.0.1.dist-info/RECORD,,
