@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rearth
+Version: 0.0.1
+Summary: Python package for the RearthServer
+Home-page: https://github.com/Nemupy/rearth
+Author: Nemupy
+Author-email: nemu.otoyume@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rearth
+
+# Install
+Python 3 or higher is required.    
+```cmd
+# Linux/OS X
+$ python -m pip install -U rearth
+
+# Windows
+> py -3 -m pip install -U rearth
+```
