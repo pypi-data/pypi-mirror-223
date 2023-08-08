@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: apix
+Version: 0.0.dev0
+Author-Email: Arwichok <arwichok@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Requires-Dist: httpx>=0.24.1
+Requires-Dist: msgspec>=0.17.0
+Description-Content-Type: text/markdown
+
+# example-package
