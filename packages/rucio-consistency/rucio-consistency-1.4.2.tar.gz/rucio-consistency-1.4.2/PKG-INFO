@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rucio-consistency
+Version: 1.4.2
+Summary: Common modules and scripts for Rucio consistency enforcement
+Home-page: https://github.com/rucio/consistency-enforcement
+Author: Igor Mandrichenko
+Author-email: ivm@fnal.gov
+License: BSD 3-clause
+Description: Common modules and scripts for Rucio consistency enforcement
+Platform: UNKNOWN
