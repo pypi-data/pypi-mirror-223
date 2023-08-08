@@ -1,0 +1,3 @@
+[ckan.plugins]
+envidat_validators=ckanext.envidat_validators.plugin:EnviDatValidatorsPlugin
+
