@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: test-library-bollettino-guest
+Version: 0.0.1
+Summary: Test library to publish
+Home-page: UNKNOWN
+Author: Matteo Bollettino
+Author-email: <matteo.bollettino@moxoff.com>
+License: UNKNOWN
+Keywords: python,test
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Long description of test library
+

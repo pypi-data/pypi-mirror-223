@@ -1,0 +1,9 @@
+setup.py
+complex_library/__init__.py
+complex_library/complex_functions.py
+complex_library/second_script.py
+test_library_bollettino_guest.egg-info/PKG-INFO
+test_library_bollettino_guest.egg-info/SOURCES.txt
+test_library_bollettino_guest.egg-info/dependency_links.txt
+test_library_bollettino_guest.egg-info/requires.txt
+test_library_bollettino_guest.egg-info/top_level.txt
