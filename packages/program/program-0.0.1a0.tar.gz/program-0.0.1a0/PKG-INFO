@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: program
+Version: 0.0.1a0
+Summary: A new way to code.
+Home-page: https://github.com/slundberg/code
+Author: Scott Lundberg
+Author-email: scott@scottlundberg.com
+License: UNKNOWN
+Description: .
+Platform: UNKNOWN
+Provides-Extra: docs
+Provides-Extra: test
