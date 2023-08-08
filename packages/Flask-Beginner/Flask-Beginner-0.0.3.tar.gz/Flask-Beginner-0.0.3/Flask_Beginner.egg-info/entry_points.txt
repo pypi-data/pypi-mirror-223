@@ -1,0 +1,3 @@
+[console_scripts]
+beginner = flask_beginner.beginner:run
+
