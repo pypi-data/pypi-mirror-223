@@ -1,0 +1,10 @@
+requests==2.31.0
+CacheControl==0.13.1
+
+[test]
+black
+mypy
+isort
+behave
+reformat-gherkin
+types-requests
