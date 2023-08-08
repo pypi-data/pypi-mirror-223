@@ -1,0 +1,2 @@
+[console_scripts]
+il5pred = il5pred.python_scripts.il5pred:main
