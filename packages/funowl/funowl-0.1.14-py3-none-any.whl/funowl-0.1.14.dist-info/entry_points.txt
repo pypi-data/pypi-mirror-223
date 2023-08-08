@@ -1,0 +1,3 @@
+[console_scripts]
+funowl = funowl.cli:evaluate_cli
+
