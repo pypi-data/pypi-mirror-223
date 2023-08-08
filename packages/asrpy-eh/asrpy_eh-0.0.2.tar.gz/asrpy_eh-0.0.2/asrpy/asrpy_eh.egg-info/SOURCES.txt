@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+asrpy/asrpy_eh.egg-info/PKG-INFO
+asrpy/asrpy_eh.egg-info/SOURCES.txt
+asrpy/asrpy_eh.egg-info/dependency_links.txt
+asrpy/asrpy_eh.egg-info/requires.txt
+asrpy/asrpy_eh.egg-info/top_level.txt
+tests/test_asr.py
