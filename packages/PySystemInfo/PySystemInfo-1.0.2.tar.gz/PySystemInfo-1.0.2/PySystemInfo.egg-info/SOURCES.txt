@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+PySystemInfo/__init__.py
+PySystemInfo/__version__.py
+PySystemInfo/main.py
+PySystemInfo.egg-info/PKG-INFO
+PySystemInfo.egg-info/SOURCES.txt
+PySystemInfo.egg-info/dependency_links.txt
+PySystemInfo.egg-info/requires.txt
+PySystemInfo.egg-info/top_level.txt
