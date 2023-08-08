@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: neco-f
+Version: 0.0.8
+Summary: 一个鱼龙混杂的库
+Home-page: https://github.com/sweetnotice/neco_f
+Author: neco_arc
+Author-email: 3306601284@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pyinstaller
+Requires-Dist: tqdm
+Requires-Dist: urllib3
+Requires-Dist: pycryptodome
+Requires-Dist: playsound
+Requires-Dist: pyautogui
+Requires-Dist: pillow
+Requires-Dist: plyer
+Requires-Dist: pyexecjs2
+Requires-Dist: opencv-python
+Requires-Dist: rich
+
+# neco_f
+ 一个鱼龙混杂的python库
+ ## 包括但不限于
+ - 网络爬虫
+ - 图像处理
+ - 字符串处理
+ - 彩色打印
+ - 音乐播放
+ - crypto解密
+ - 日志
+ - 文件更新
