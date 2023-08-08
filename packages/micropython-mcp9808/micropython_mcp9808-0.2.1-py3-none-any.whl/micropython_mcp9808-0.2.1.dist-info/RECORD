@@ -1,0 +1,8 @@
+micropython_mcp9808/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micropython_mcp9808/i2c_helpers.py,sha256=1rI-DgCsWgKzuGc1m1Jg509WNG-nm5Y-JPyrwCEWgeU,3914
+micropython_mcp9808/mcp9808.py,sha256=yT7sxiWHvzfEkRfvfcoxjwpw6POGPSabwM0BKdLIJfE,10837
+micropython_mcp9808-0.2.1.dist-info/LICENSE,sha256=gP_F6rx1VfHrdJ_bW_j46beo2ePNYQsr9wOMHdiglJM,1176
+micropython_mcp9808-0.2.1.dist-info/METADATA,sha256=_AL6w-rHFCnOZ7Zg1jD_bj7AjTZtIPIjSjk0F_Zqwaw,3196
+micropython_mcp9808-0.2.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+micropython_mcp9808-0.2.1.dist-info/top_level.txt,sha256=7wBVgsJ-TjvcXylnzxjujeYHEdEJXv8_IU4tu-B5g6c,20
+micropython_mcp9808-0.2.1.dist-info/RECORD,,
