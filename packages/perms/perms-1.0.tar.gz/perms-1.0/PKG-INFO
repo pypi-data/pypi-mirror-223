@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: perms
+Version: 1.0
+Summary: perms
+Home-page: https://github.com/peraugustmoen/perms
+Download-URL: https://github.com/peraugustmoen/fastperm/archive/refs/tags/v_1.tar.gz
+Author: Dennis Christensen, Per August Jarval Moen
+Author-email: Dennis Christensen <dennis.christensen@ffi.no>, Per August Jarval Moen <pamoen@math.uio.no>
+License: MIT
+Project-URL: Homepage, https://github.com/peraugustmoen/perms
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+# perms
+
+
+
+The *perms* package implements the algorithm proposed by [[1]](#1) for computing the permanent of a block rectangular matrix. 
+
+## References
+<a id="1">[1]</a> 
+Christensen, D (2022). 
+Inference for Bayesian Nonparametric Models with Binary Response Data via Permutation Counting. 
+Bayesian Analysis, 1(1), 1-26.
