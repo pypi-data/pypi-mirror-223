@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+ssl_sniffer.egg-info/PKG-INFO
+ssl_sniffer.egg-info/SOURCES.txt
+ssl_sniffer.egg-info/dependency_links.txt
+ssl_sniffer.egg-info/top_level.txt
