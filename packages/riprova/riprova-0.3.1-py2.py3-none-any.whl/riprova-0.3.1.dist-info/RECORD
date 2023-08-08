@@ -1,0 +1,17 @@
+riprova/__init__.py,sha256=jAmAXfKPJfEpflWB0dvFpliCfruVn4LKPFJGR9lF2b0,826
+riprova/async_retrier.py,sha256=l9AHShjmQm9bM4sJaIXNpes2CPRAZQi8Y_zPYweM1qU,10726
+riprova/backoff.py,sha256=oiOXa2gwymK7j72R3HLMkmzrzU8OeFKhU9T1lS8o8NU,1112
+riprova/constants.py,sha256=QS4qULojx_68geFUj6i0WgNXfVSsopCu-uG7BTchb5g,274
+riprova/errors.py,sha256=PcshVvA8JVRESEqnyEmnGQbyk-2YZZAiFFtSldq2z-E,3545
+riprova/exceptions.py,sha256=GFK4KQKnzGCYwtpfOxyaOdGPxRdtVsew3S1nhqnZ2sY,1560
+riprova/retrier.py,sha256=Z5a24eRbSvXwLWyUqhfJEwmKLC2l0SrRVoaeuWWox3c,11416
+riprova/retry.py,sha256=ROG4Bw6toI-C-1J_HChd8cx0qZP6NNGOTlXqrO_2Ddo,4676
+riprova/strategies/__init__.py,sha256=F0L2B26OT12zYgbS9C0dTy1yaLWm_3N4BJyjFzXzV_U,260
+riprova/strategies/constant.py,sha256=qke-RJRE3zd6YDff3oO-KbUcH_tcwx_Pwr2y-8Qm1bU,2189
+riprova/strategies/exponential.py,sha256=f3ak-1yJg4_TAWSViK_hZcbenpdeHGsn6GMx0v5wuMM,6545
+riprova/strategies/fibonacci.py,sha256=YzwYLcItkL3sa4Ww8WiUJGxntS40UETy6gmn4lqCkl8,3018
+riprova-0.3.1.dist-info/LICENSE,sha256=ExARJoaKVDObOwmvcT6PIG0se7fjEIGT5gDY9CgkbZs,1066
+riprova-0.3.1.dist-info/METADATA,sha256=F8J6bNRSBzeN8iLK4TCtcTPryLHddXqAhdFjweazwlc,12273
+riprova-0.3.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+riprova-0.3.1.dist-info/top_level.txt,sha256=aVCSf_18GFMtO_fYH_5dnLIxpld59D7STI4oF-xsTfs,8
+riprova-0.3.1.dist-info/RECORD,,
