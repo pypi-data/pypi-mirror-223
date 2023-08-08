@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jlogr
+Version: 0.1.208
+Author: Jesse Williams
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# jlogr
+
+A simple, colourful logger for python, written in rust.
+
+This is how i like my logging, and is subject to change.
+
