@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fuckyou-sort
+Version: 1.0.1
+Summary: Technically the quickest sorting algorithm.
+Author-email: Phinn Bonte <phinnjamesbonte@gmail.com>
+Keywords: sorting algorithm,sorting,sort,algorithm
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: tomli ; python_version < "3.11"
+
+Just don't...
