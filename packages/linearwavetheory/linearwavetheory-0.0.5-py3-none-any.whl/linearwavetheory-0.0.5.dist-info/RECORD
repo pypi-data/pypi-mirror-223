@@ -1,0 +1,10 @@
+linearwavetheory/__init__.py,sha256=RHZDPrLU28RDfULN-Bohw-58SE7yV1WB8jHCvUAqKuE,249
+linearwavetheory/_constants.py,sha256=r2tR_3xljcMQ-0vLg4rB-GBQHD8Rla7DrxDu5Wegtik,260
+linearwavetheory/_numba_settings.py,sha256=V34YbvE2DoJ4m0C_eD00ug01z1KjkEpnjcTO4Zo_qGI,381
+linearwavetheory/_tools.py,sha256=ooUh74qpPMpTRW3KQJdpFg447hkv_mazCyu4N0TuQxQ,2195
+linearwavetheory/dispersion.py,sha256=4qu0nZ_V56etZLMlrQtbLA2SlsDJa7CgcVKwlGfeaQU,44907
+linearwavetheory-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+linearwavetheory-0.0.5.dist-info/METADATA,sha256=Eftjxtq5PCkl0ntboFLk9ajjJ2ctsPCm8Sp3e2EtkYE,1211
+linearwavetheory-0.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+linearwavetheory-0.0.5.dist-info/top_level.txt,sha256=b_wI9IzTimGGnQSvd1scQTB5DP6uzFGrELgijwzkojo,17
+linearwavetheory-0.0.5.dist-info/RECORD,,
