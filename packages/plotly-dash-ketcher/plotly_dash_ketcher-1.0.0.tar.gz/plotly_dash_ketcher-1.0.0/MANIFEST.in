@@ -1,0 +1,2 @@
+recursive-include plotly_dash_ketcher/** *.js *.css *.json *.html
+prune tests

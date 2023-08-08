@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+plotly_dash_ketcher/923.plotly_dash_ketcher.js
+plotly_dash_ketcher/PlotlyDashKetcher.py
+plotly_dash_ketcher/__init__.py
+plotly_dash_ketcher/_imports_.py
+plotly_dash_ketcher/metadata.json
+plotly_dash_ketcher/package-info.json
+plotly_dash_ketcher/plotly_dash_ketcher.js
+plotly_dash_ketcher.egg-info/PKG-INFO
+plotly_dash_ketcher.egg-info/SOURCES.txt
+plotly_dash_ketcher.egg-info/dependency_links.txt
+plotly_dash_ketcher.egg-info/top_level.txt
