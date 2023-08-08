@@ -1,0 +1,16 @@
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test.py,sha256=d3lGm1KzjyRLatqatrjnbSI_rzRNtSmKvRldzCbbDkI,1492
+test/test_columns.py,sha256=p4JbPziBl7zqynR9y7QUlUVdq4Tyl7htgdTRP9rMR6U,1284
+test/test_fields.py,sha256=1AfHNmxNdkKdaY7LQe-BFiHcOPMPpJTCLd8gQWOIR4w,1192
+tvscreener/__init__.py,sha256=QoIXYWLup_482QnGyOPLWKJ8c3zVm9wzQEoanu_gLyE,7868
+tvscreener/filter.py,sha256=NLCzl0-ZYK_Q7-l7-n3PtOtNaUbwmPxBzEN_DJIxowM,2243
+tvscreener/util.py,sha256=42eP2b2wUlOhs-bhZ-UfEthz4tqXJqVViBotbujCOjk,3448
+tvscreener/field/__init__.py,sha256=TlAY9H_mF1jBQQ7RsJrcC8KgYuyGDGxbt7jucJTJq_c,3171
+tvscreener/field/crypto.py,sha256=qqpx4NFTkwAh99uIRYfHMWjJcGYziA44v8ZSAVEXxy8,16095
+tvscreener/field/forex.py,sha256=LoYdJglQImouHY6VLWc5qYS1gEnRmhlFoMjz5sURTrk,14779
+tvscreener/field/stock.py,sha256=sYcJxtjob3S2KhnasMfJM_LlsXKeUr4Xub7nL7HLWOA,27775
+tvscreener-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tvscreener-0.0.1.dist-info/METADATA,sha256=0JABa8LLbiQJ93n8VFAgS_Ei8_3d3MGMkX4DvZzUZV0,3387
+tvscreener-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+tvscreener-0.0.1.dist-info/top_level.txt,sha256=U3plUbYJ404557dV1xVO_tiJJBkSyodN9xM7Hc6NxQo,16
+tvscreener-0.0.1.dist-info/RECORD,,
