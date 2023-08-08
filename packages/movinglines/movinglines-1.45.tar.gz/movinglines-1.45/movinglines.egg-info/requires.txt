@@ -1,0 +1,13 @@
+numpy
+geopy
+scipy
+pyephem
+Pillow
+cartopy
+pykml
+rasterio
+gpxpy
+bs4
+xlwings
+json_tricks
+simplekml
