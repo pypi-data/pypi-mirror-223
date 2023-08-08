@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: stGCL
+Version: 1.0.3
+Summary: Spatial domain identification and multi-slice integration analysis for spatial transcriptomics with multi-modal graph contrastive learning
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+
+pleaes http:xxx.com
