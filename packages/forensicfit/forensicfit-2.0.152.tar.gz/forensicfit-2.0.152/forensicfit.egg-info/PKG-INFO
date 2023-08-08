@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: forensicfit
+Version: 2.0.152
+Summary: A Python library for forensic image comparision.
+Home-page: https://github.com/romerogroup/ForensicFit
+Author: Pedram Tavadze
+Author-email: petavazohi@mix.wvu.edu
+License: LICENSE.txt
+Provides-Extra: database
+License-File: LICENSE.txt
