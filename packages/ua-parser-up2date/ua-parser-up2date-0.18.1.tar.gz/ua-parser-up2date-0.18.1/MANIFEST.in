@@ -1,0 +1,9 @@
+exclude .*
+prune .github
+global-exclude *~
+
+include README.rst
+include LICENSE
+graft uap-core
+exclude uap-core/.*
+recursive-exclude uap-core *.js
