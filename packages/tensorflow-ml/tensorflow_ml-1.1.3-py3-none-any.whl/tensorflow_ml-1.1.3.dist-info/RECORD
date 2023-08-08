@@ -1,0 +1,17 @@
+tensorflow_ml/__init__.py,sha256=YdPOiSoHyYjJphpeQjTbyyydXkxtOoLGR7YPKu27Pks,484
+tensorflow_ml/classification/__init__.py,sha256=qwiGDa0pH4jeHiaC2lElF9gPQgfuVmz71ClSSsbKbWI,312
+tensorflow_ml/classification/decision_tree.py,sha256=hd_xchqcy6WJsZG8GPRfUB0e7Ma5etKhrfBYFHL15AE,15715
+tensorflow_ml/classification/logistic_regression.py,sha256=LWQUFeWrYVVrAjgUSSC8EGSO_mOyhg5If9fVPOp0q5U,20472
+tensorflow_ml/classification/naive_bayes/__init__.py,sha256=_aoevkPCiExth3L-kYmDcAAOIks6nUB1_YH4OT3A9Fw,182
+tensorflow_ml/classification/naive_bayes/bernoulli.py,sha256=dj3_Zty6SPQjOYy3CMDsElU-lEBIChqN4FtNm6c-2QY,10939
+tensorflow_ml/classification/naive_bayes/gaussian.py,sha256=CXW9pVCfqGvmoHoRSWmTV99QZ3U5vzaRSBmny406foU,10162
+tensorflow_ml/regression/__init__.py,sha256=HtaqCuP3zHiAX2f2gIB59prJ4QVKVMT9NmhrjP8lagw,291
+tensorflow_ml/regression/lasso.py,sha256=mGag9IMRSx1Jb03ne19oSwjK6Js3nXQILw58wA-BDyw,4172
+tensorflow_ml/regression/linear.py,sha256=Uo3lx2QM-oTSYWhSl3GkldZV6_-C8Nn8yA7Lfv5amzw,11549
+tensorflow_ml/regression/polynomial.py,sha256=kJCniIO7wO16L2F9r03H5I3NSSZ31NX6-qODucMB7Kw,2673
+tensorflow_ml/regression/ridge.py,sha256=1V0Ux8uNkLOmMX8gVVshBAvxpFpcNRlxQCNft9URFE8,4173
+tensorflow_ml-1.1.3.dist-info/LICENSE,sha256=K0-te4vyaP-nfq7mfdSqDCoKz1XScj2OBvZjaSdbQCY,1072
+tensorflow_ml-1.1.3.dist-info/METADATA,sha256=9HHzK5jwyyUGCdbUGbFjx692QCd8Jh7rSl0Gel5ViaA,15430
+tensorflow_ml-1.1.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+tensorflow_ml-1.1.3.dist-info/top_level.txt,sha256=6PlWfxqZnnPWwW5FVonDd_XpI_DcqHafjuRxI9DY92s,14
+tensorflow_ml-1.1.3.dist-info/RECORD,,
