@@ -1,0 +1,9 @@
+setup.py
+Nabilkz/Nabil.py
+Nabilkz/Nabili2c.py
+Nabilkz/__init__.py
+Nabilkz.egg-info/PKG-INFO
+Nabilkz.egg-info/SOURCES.txt
+Nabilkz.egg-info/dependency_links.txt
+Nabilkz.egg-info/requires.txt
+Nabilkz.egg-info/top_level.txt
