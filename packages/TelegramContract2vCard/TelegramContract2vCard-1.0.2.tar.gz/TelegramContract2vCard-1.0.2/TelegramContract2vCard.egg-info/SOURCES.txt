@@ -1,0 +1,10 @@
+README.md
+setup.py
+TelegramContract2vCard/__init__.py
+TelegramContract2vCard/main.py
+TelegramContract2vCard.egg-info/PKG-INFO
+TelegramContract2vCard.egg-info/SOURCES.txt
+TelegramContract2vCard.egg-info/dependency_links.txt
+TelegramContract2vCard.egg-info/not-zip-safe
+TelegramContract2vCard.egg-info/requires.txt
+TelegramContract2vCard.egg-info/top_level.txt
