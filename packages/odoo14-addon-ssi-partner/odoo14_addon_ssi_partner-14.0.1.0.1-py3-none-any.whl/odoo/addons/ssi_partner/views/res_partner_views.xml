@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
+<odoo>
+    <menuitem
+        id="contacts.res_partner_menu_contacts"
+        name="Contacts"
+        action="contacts.action_contacts"
+        parent="contacts.menu_contacts"
+        sequence="2"
+        groups="contacts_configurator_group"
+    />
+</odoo>
