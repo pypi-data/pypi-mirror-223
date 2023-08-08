@@ -1,0 +1,11 @@
+LICENSE
+setup.py
+Linguify.egg-info/PKG-INFO
+Linguify.egg-info/SOURCES.txt
+Linguify.egg-info/dependency_links.txt
+Linguify.egg-info/entry_points.txt
+Linguify.egg-info/requires.txt
+Linguify.egg-info/top_level.txt
+linguify/__init__.py
+linguify/linguify.py
+linguify/main.py
