@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: digdata
+Version: 0.1.0
+Summary: This package is a library created to carry the necessary functions of the digdata project.
+Author: safaraliyevelmir
+Author-email: safaraliyevelmir@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
