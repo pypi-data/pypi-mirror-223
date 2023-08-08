@@ -1,0 +1,8 @@
+webrequests/__init__.py,sha256=Cc1nO85j2dKxprMXqTxTCIzqUQ-ZtxGmSL-ADSnmViA,219
+webrequests/core.py,sha256=rtNV0Ukoupz6YcV_9a51UTCpt999V9v23mI21T1kDwg,4586
+webrequests/util.py,sha256=3WVbgV20kzRz7WEpjla6mGeoO2z5Gc-h4uuyWjQ3mTg,652
+webrequests/version.json,sha256=SXINzf6af5G8EmZtDusEgFXlkdxnEQi5FDzNvtPupDQ,250
+webrequests-1.0.6.dist-info/METADATA,sha256=kowmOQOkQ3wQ96PQxrvUX_G45B5wm57qVUVJNcbsCYo,1779
+webrequests-1.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+webrequests-1.0.6.dist-info/top_level.txt,sha256=QrTrI9lbeYNlFZzywzENcRoDzofTC0hoJIMhEKvHSC8,12
+webrequests-1.0.6.dist-info/RECORD,,
