@@ -1,0 +1,25 @@
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+
+[tool.isort]
+profile = "black"
+
+[tool.poetry]
+name = "mlaas-sdk"
+version = "1.0.0"
+description = "IoT-NGIN MLaaS Polyglot Model Sharing Framework Python SDK"
+authors = ["ivanvmoreno <ivan@ivan.build>"]
+readme = "README.md"
+license = "MIT"
+keywords = ["iot-ngin"]
+packages = [{include = "mlaas_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+pydantic = "^1.10.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
