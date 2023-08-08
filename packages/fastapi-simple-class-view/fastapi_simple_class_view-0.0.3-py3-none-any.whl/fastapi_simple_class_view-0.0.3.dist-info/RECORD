@@ -1,0 +1,11 @@
+fastapi_simple_class_view/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_simple_class_view/abc.py,sha256=ULGtwq4n5BiCRx210j3zu-diivMXladobFPd4n3VKAA,1345
+fastapi_simple_class_view/base.py,sha256=wziQn_H5c8qxe4P_IiF5Xl758glnhVzkdeRK7UNK5v4,1686
+fastapi_simple_class_view/controller.py,sha256=6sXG1WKF9MXNNSbXluvpxZ2ljJWqQsEwzcv6ruSS2DE,1142
+fastapi_simple_class_view/meta.py,sha256=-ht2u4rmUKO8B-AR8LoLS-7UOMWlLUVNufvraCdFWDE,4031
+fastapi_simple_class_view/mixins.py,sha256=cJClA5MW1abSuE4gOhMj3_CNpJxuXogLgSGoIgYbha8,954
+fastapi_simple_class_view/type.py,sha256=qRfsGdAe-HqRGcKj9A3iOLWuPVm96LHZOAiXoSTwVLU,188
+fastapi_simple_class_view-0.0.3.dist-info/METADATA,sha256=HpvXsea4X6Fu169WB9cbiP5f4Yy0JeaxCsG4BypIGvw,3815
+fastapi_simple_class_view-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+fastapi_simple_class_view-0.0.3.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+fastapi_simple_class_view-0.0.3.dist-info/RECORD,,
