@@ -1,0 +1,10 @@
+ctypes_wrapper/__init__.py,sha256=euoq6Y9nZaN7X8ZKW7CXlJsC-So4lSbsrGDNjv6XYeA,761
+ctypes_wrapper/__main__.py,sha256=7VNWj1o4x2wCchc2_spKSdYAkNYeO-9-Z58hoOawSIA,1953
+ctypes_wrapper/create_cpp_bindings.py,sha256=o8UMyuUsf3KMF3TBpQTRQ86fXcVm_jU1n6qhL91KsRo,2631
+ctypes_wrapper/create_py_bindings.py,sha256=dPYfydvPZ3wiR-yNccZDZb5N2fC8UXz0Ww5ZvYn_7aA,6847
+ctypes_wrapper/parse_cpp_exports.py,sha256=7IUycCIhbplL4WT_OnG_Pz9ZkrVmBafj-9Y_B3HLOvk,8305
+cpptypes-0.0.1.dist-info/METADATA,sha256=7Op-uNz8P0hB9LL7jcbGs9LohqRIb-676gx3NLXXnMQ,6036
+cpptypes-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+cpptypes-0.0.1.dist-info/entry_points.txt,sha256=9h_QPY6mT4lXtUkHY5vX1pPHj55kHiKCN-Mkcpg_KrQ,64
+cpptypes-0.0.1.dist-info/top_level.txt,sha256=CkWAH8e7AS-ymT6yABRtPgn_IyZulif2CEv66bQui4o,15
+cpptypes-0.0.1.dist-info/RECORD,,
