@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pygifconvt_daun/__init__.py
+pygifconvt_daun/converter.py
+pygifconvt_daun.egg-info/PKG-INFO
+pygifconvt_daun.egg-info/SOURCES.txt
+pygifconvt_daun.egg-info/dependency_links.txt
+pygifconvt_daun.egg-info/not-zip-safe
+pygifconvt_daun.egg-info/requires.txt
+pygifconvt_daun.egg-info/top_level.txt
