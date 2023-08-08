@@ -1,0 +1,2 @@
+[console_scripts]
+dcustat = dcustat:main
