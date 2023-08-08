@@ -1,0 +1,11 @@
+PrivateModelArchitectures/__init__.py,sha256=AAWLOcmKlShlHgG86UXBgh96IPGFhUIBhxCR87ETzdI,271
+PrivateModelArchitectures/classification/ResNet.py,sha256=DONVC84XIWOqYHH_nU7H8QcpfYy-lHTDUE-HwlK1aww,5266
+PrivateModelArchitectures/classification/SmoothNet.py,sha256=2K1BBjkSNSOQq00sHYjgou0wA-xlDms6xtpI6zmHsVY,12471
+PrivateModelArchitectures/classification/__init__.py,sha256=f5zVOIS3O7yvknYh4tWn2mDGEDwuDN8Bj7mxAZBIbAc,141
+PrivateModelArchitectures/segmentation/LinkNet.py,sha256=-7mYWOMhNnbY31IirP0akrW3965ENZraX-6jFwGp4GI,7767
+PrivateModelArchitectures/segmentation/UNet.py,sha256=l2OfBhvsfJtmh8umkktcy91dFhx1GMv7qbtfgL1nHls,7838
+PrivateModelArchitectures/segmentation/__init__.py,sha256=e6wBjTHCh_4LtfwTA2zR6eTy5BvXZxUrjRMZ52M1SAk,130
+PrivateModelArchitectures-0.1.1.dist-info/METADATA,sha256=1Qgukqx-DSo0loWxvvp1pXiTxTuDAzL3D3ZTDIuYn8w,300
+PrivateModelArchitectures-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+PrivateModelArchitectures-0.1.1.dist-info/top_level.txt,sha256=yjwSLvtYHPn3eStGWYDOha7IfmWhnFfqRTgSAFzNuzo,26
+PrivateModelArchitectures-0.1.1.dist-info/RECORD,,
