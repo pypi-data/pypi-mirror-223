@@ -1,0 +1,10 @@
+python_web_io/__init__.py,sha256=470sWkoZUF07K_88oAEcEQ7CdKKWFee0HLamFj_oO4E,98
+python_web_io/cache.py,sha256=YTJuGcaTBRTPpbxYy9IiivNBxh1CaOuNq7M6O1ioRp8,2514
+python_web_io/main.py,sha256=eEvmumtXw_EDUObTrMN_iqO40F3K8QH-5ZsbgJ4BvKQ,12197
+python_web_io/override.py,sha256=8u6VhatS-P9dtFul3IQp5mMOlYrtEOM0gZfDErRad0A,4185
+python_web_io/templates/base.html,sha256=ZiVHMAT-VLGAnkt9ZkW78tc79OPiTbTYz_YZBGNi-Yk,7784
+python_web_io/templates/error.html,sha256=_f6jLHQXag98ox8Aw5GDtZ3AxOauEv1T7o05eKFe23g,498
+python_web_io/templates/index.html,sha256=POJcqX49bVTtb4UtFONtMnmacvh398DRUf9Yp8yzAW4,2849
+python_web_io-0.1.14.dist-info/METADATA,sha256=Hu1P1Cosk9HSKy7lQSuDSJm49guQ8murfv5fJwMeDPQ,3361
+python_web_io-0.1.14.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+python_web_io-0.1.14.dist-info/RECORD,,
