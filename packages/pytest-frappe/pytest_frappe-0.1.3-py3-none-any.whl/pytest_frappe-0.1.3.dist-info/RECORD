@@ -1,0 +1,9 @@
+pytest_frappe/__init__.py,sha256=tP0_cKtFYoXctLQ5wQEwTPKcj7rF8xC3QU1Eqa3-h-E,171
+pytest_frappe/fixtures.py,sha256=2_2VXCesxbLngCUULmT_vxuKwsTDAlTWbzk0_3PlAoo,1186
+pytest_frappe/mock_utils.py,sha256=A_r5OB8wWX7YjgQIShKEze_hEbVuzf1M3Os_rqMxoSU,234
+pytest_frappe/plugin.py,sha256=VPIDlLX-rBqFlusk_A7fcFYCVkbNCYd0cSzpTGk8Zvk,399
+pytest_frappe-0.1.3.dist-info/entry_points.txt,sha256=2hesyOO2ix9BfxJGqkeKepbs0S1pR1ucljBt74ZQPjk,47
+pytest_frappe-0.1.3.dist-info/LICENSE,sha256=YBgKL-YGqMqwxDB_JS89HP0B0jdIgFfAtSGv9Er5DmY,1066
+pytest_frappe-0.1.3.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+pytest_frappe-0.1.3.dist-info/METADATA,sha256=UY_dpzfVWn1x_VHtXpomdfhU2sTKW5KE_qkXwI7e40Y,2328
+pytest_frappe-0.1.3.dist-info/RECORD,,
