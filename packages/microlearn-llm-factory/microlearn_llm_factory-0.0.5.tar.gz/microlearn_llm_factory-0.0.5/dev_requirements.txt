@@ -1,0 +1,5 @@
+pytest
+langchain
+openai
+python-dotenv
+promptlayer
