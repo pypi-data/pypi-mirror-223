@@ -1,0 +1,8 @@
+brian2
+brian2hears
+numpy
+scipy
+mne>=1.3.0
+librosa
+pyyaml
+jinja2
