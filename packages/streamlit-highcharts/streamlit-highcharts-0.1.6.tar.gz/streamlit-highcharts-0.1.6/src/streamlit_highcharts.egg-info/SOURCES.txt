@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/streamlit_highcharts/__init__.py
+src/streamlit_highcharts.egg-info/PKG-INFO
+src/streamlit_highcharts.egg-info/SOURCES.txt
+src/streamlit_highcharts.egg-info/dependency_links.txt
+src/streamlit_highcharts.egg-info/requires.txt
+src/streamlit_highcharts.egg-info/top_level.txt
+src/streamlit_highcharts/frontend/index.html
+src/streamlit_highcharts/frontend/main.js
+src/streamlit_highcharts/frontend/streamlit-component-lib.js
+src/streamlit_highcharts/frontend/style.css
