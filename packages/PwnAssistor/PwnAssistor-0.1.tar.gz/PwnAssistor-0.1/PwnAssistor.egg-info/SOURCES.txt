@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+PwnAssistor/__init__.py
+PwnAssistor.egg-info/PKG-INFO
+PwnAssistor.egg-info/SOURCES.txt
+PwnAssistor.egg-info/dependency_links.txt
+PwnAssistor.egg-info/top_level.txt
