@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dtoch-name-generator
+Version: 0.0.1
+Summary: Python random name generator
+Home-page: https://github.com/dtoch56/python-name-generator
+License: MIT
+Keywords: python,generator,name
+Author: DToch56
+Author-email: dtoch.56@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: transliterate (>=1.10.2,<2.0.0)
+Project-URL: Repository, https://github.com/dtoch56/python-name-generator
+Description-Content-Type: text/markdown
+
+# Python name generator
+

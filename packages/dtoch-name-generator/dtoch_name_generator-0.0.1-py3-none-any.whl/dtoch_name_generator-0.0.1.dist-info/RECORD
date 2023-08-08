@@ -1,0 +1,12 @@
+name_generator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+name_generator/files/dist.female.name,sha256=SxUm3aKr0mNQ7nZDwuRqC11_pTdNaekCvLTTm35thEA,1387
+name_generator/files/dist.female.patronymic,sha256=q15V9gUZWixEey59drLmkT3Dbj-cmtBPRgF3NaKrXdQ,1267
+name_generator/files/dist.female.surname,sha256=0Em1ZK4csNrhehy8wTnQxUirRg3KIVhdWuL2VRC3y1g,7931
+name_generator/files/dist.male.name,sha256=4_ATTd942iRfbR-K_Dr4-pqTvz3gHw50R0lqte6gaP0,2833
+name_generator/files/dist.male.patronymic,sha256=AE-mNSwU3M_ZOWGGmfPf08DqfCN90A48QVHxR1U74V8,1267
+name_generator/files/dist.male.surname,sha256=83X9-NRys74Vo9jw3Ec3o-m_u1H07qk_3Vm6p5rGmpA,6977
+name_generator/name.py,sha256=ild1H3IH7DRqnc2G8YVr-e_zk4ft4W078_BRQLP-EtA,2969
+dtoch_name_generator-0.0.1.dist-info/LICENSE,sha256=3ZQJbBhao-0yOeZjj9ke2HXQOsqdF1gBiTkxaz_SMjQ,1060
+dtoch_name_generator-0.0.1.dist-info/METADATA,sha256=y8Xfi-VTlC8j1v10kFVp9r4Bf1ZP9gd9ko88dj1lVbw,622
+dtoch_name_generator-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+dtoch_name_generator-0.0.1.dist-info/RECORD,,
