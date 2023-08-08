@@ -1,0 +1,9 @@
+README.md
+setup.py
+tikdan/Tikdan.py
+tikdan/__init__.py
+tikdan.egg-info/PKG-INFO
+tikdan.egg-info/SOURCES.txt
+tikdan.egg-info/dependency_links.txt
+tikdan.egg-info/requires.txt
+tikdan.egg-info/top_level.txt
