@@ -1,0 +1,56 @@
+name: Sphinx build for AWS
+
+on:
+  release:
+    types: [published]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    if: github.repository_owner == 'dialog-semiconductor'
+    runs-on: ubuntu-latest
+    container: diasemi/docs-build-tools:latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build HTML
+      run: |
+          # Upgrade pip
+          pip install --upgrade pip
+          # Install sphinx
+          pip install sphinx
+          # Install py_ble_manager
+          pip install .
+          # Generate docs for public API (ble_api and ble_devices)
+          sphinx-apidoc -o docs/source src/py_ble_manager /*adapter /*firmware /*gtl_messages /*gtl_port /*manager /*serial_manager /*services /*util
+          cd docs
+          make html
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: html-docs
+        path: docs/build/html/
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    container: diasemi/sdk6buildtools:latest
+    steps:
+    - name: Configure AWS credentials from Test account
+      uses: aws-actions/configure-aws-credentials@v1-node16
+      with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-west-1
+
+    # Download artifacts
+    - uses: actions/checkout@master
+    - uses: actions/download-artifact@master
+      with:
+        name: html-docs
+        path: docs/build/html/
+
+    - name: Copy docs to AWS
+      run: |
+        aws s3 sync --delete docs/build/html/ s3://lpccs-docs.renesas.com/py_ble_manager/

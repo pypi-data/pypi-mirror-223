@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+  {name = "Patrick Murphy", email = "patrick.murphy.jy@renesas.com"},
+]
+name = "py_ble_manager"
+dynamic = ["version"]
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+description = "A python library for controlling Renesas BLE devices"
+requires-python = ">=3.10.5"
+dependencies = [
+    "pyserial>=3.5",
+    "ezFlashCLI>=1.0.18",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+keywords = [
+    "ble",
+    "bluetooth",
+]
+
+[project.optional-dependencies]
+dev = [
+    "prompt_toolkit>=3.0.38"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"py_ble_manager.firmware" = ["*.bin"]
+"py_ble_manager.util" = ["py_ble_manager_programmer.py"]
+
+[project.scripts]
+py_ble_manager_programmer = "py_ble_manager.util.py_ble_manager_programmer:main"
+
+[project.urls]
+documentation = "https://lpccs-docs.renesas.com/py_ble_manager/index.html"
+repository = "https://github.com/dialog-semiconductor/py_ble_manager"
+
+[tool.setuptools_scm]
+version_scheme  = "release-branch-semver"
+local_scheme = "node-and-date"
+fallback_version = "0.0.0"

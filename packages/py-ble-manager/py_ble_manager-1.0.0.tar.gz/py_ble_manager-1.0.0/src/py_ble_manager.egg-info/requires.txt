@@ -1,0 +1,5 @@
+pyserial>=3.5
+ezFlashCLI>=1.0.18
+
+[dev]
+prompt_toolkit>=3.0.38
