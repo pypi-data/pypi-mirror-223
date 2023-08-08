@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: reka-api
+Version: 0.0.86
+Summary: Reka API
+Author-email: Reka Team <contact@reka.ai>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Reka API
+
+**[Documentation](https://docs.reka.ai/)**
+
+
+## Installation
+
+To install the newest version run:
+```
+pip install -i https://test.pypi.org/simple/ \
+        --extra-index-url https://pypi.org/simple/ \
+        --upgrade \
+        reka
+```
+
