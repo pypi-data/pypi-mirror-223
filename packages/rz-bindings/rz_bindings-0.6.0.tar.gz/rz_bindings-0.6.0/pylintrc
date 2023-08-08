@@ -1,0 +1,8 @@
+[MESSAGES CONTROL]
+disable=too-many-instance-attributes,
+        too-few-public-methods,
+	too-many-branches,
+	too-many-return-statements,
+	too-many-locals,
+	broad-exception-raised,
+	fixme
