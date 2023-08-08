@@ -1,0 +1,10 @@
+dynamic_versioning/__init__.py,sha256=W-XS9KP1n3aT5KIp0qNdsCRtGH9suiLbJodopuZkybg,322
+dynamic_versioning/commands.py,sha256=yTjPVYUsJ4zWBa_SWZI3JqMxFY48FxZN4E_usFQ9X2c,4853
+dynamic_versioning/configuration.py,sha256=4Yd4--uwKdZlETm5ugOqhFHZzykr8K8rFASUGhQwx5s,2507
+dynamic_versioning/utils.py,sha256=MJlQvzWtJeTjuTsSwq4d4OQd-3kl5_VlfQXPQjeQUp0,6798
+dynamic_versioning/version.py,sha256=rmK61efeJCKpm0Ijv9y0AsU7IwtjG2NaUEjm95z5ukA,63
+dynamic_versioning-1.0.1.dist-info/LICENSE,sha256=P8u9LObG9pdnBQ2JVzfuqMzath86Xk66m9kjuPsFyWM,1070
+dynamic_versioning-1.0.1.dist-info/METADATA,sha256=6hd15OYMSJQP94y5TxK6DeXG2G9TCxPYK-zsFeyrTMk,9637
+dynamic_versioning-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dynamic_versioning-1.0.1.dist-info/top_level.txt,sha256=_zeZMD9n5DPqUdl_gMfxoa12B6ie1Vfl5ykLB2zar_o,19
+dynamic_versioning-1.0.1.dist-info/RECORD,,
