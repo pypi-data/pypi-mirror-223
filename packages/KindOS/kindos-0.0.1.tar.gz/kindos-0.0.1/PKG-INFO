@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: KindOS
+Version: 0.0.1
+Summary: The Developers Friendly Open Source Workspace
+Author-Email: João Pinto <lamego.pinto@gmail.com>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: black>=23.7.0
+Requires-Dist: pre-commit>=3.3.3
+Description-Content-Type: text/markdown
+
+# KindOS
+
+This repository provides the Python code that implements the KindOS according to the next table.
+
+| Module | Description |
+| ------ | ----------- |
+|kindos.build|Builds the rootfs kindos.tar.gz |
