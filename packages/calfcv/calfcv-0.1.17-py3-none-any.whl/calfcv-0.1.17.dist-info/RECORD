@@ -1,0 +1,11 @@
+calfcv/__init__.py,sha256=hFDd8rqaN9R2RVTZm4245NVdv10UBhoTov_u2ZGtIDQ,124
+calfcv/_version.py,sha256=BzIjnki8Bz3evNWo6bjGxxpLhy_tN9MRYhtM0MnDiWs,23
+calfcv/calfcv.py,sha256=dgBai55YcFEbDc_9aAlJqJ3UaOsrXsHXvqmRxJyrRcE,16410
+calfcv/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calfcv/tests/test_calfcv.py,sha256=reCKIvNLajnxgKlybtiVJr-giYJywxFB2XQT6e_AOKg,2041
+calfcv/tests/test_common.py,sha256=JIdGkTEtXTiUd4x9ZSwUHfZWtzgcL2u0rkagdMC4L-o,257
+calfcv-0.1.17.dist-info/LICENSE,sha256=kYVu2GaP4tjdT1hvOVv8HW96DMBw2fjjWlb2mA0qKTI,1495
+calfcv-0.1.17.dist-info/METADATA,sha256=f5pNCKpS5c4Xvg6hW3uG74C8XpLQmbaH9ZaNIXsMS_s,3767
+calfcv-0.1.17.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+calfcv-0.1.17.dist-info/top_level.txt,sha256=1H5dKWSQ8b7uX-INP9aZgtubtRI4n9d-3CCFCJQos2Q,7
+calfcv-0.1.17.dist-info/RECORD,,
