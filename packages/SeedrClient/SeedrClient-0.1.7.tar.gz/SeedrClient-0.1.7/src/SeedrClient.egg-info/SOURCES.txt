@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/SeedrClient.egg-info/PKG-INFO
+src/SeedrClient.egg-info/SOURCES.txt
+src/SeedrClient.egg-info/dependency_links.txt
+src/SeedrClient.egg-info/requires.txt
+src/SeedrClient.egg-info/top_level.txt
+src/seedr_client/__init__.py
+src/seedr_client/errors.py
+src/seedr_client/seedr_handler.py

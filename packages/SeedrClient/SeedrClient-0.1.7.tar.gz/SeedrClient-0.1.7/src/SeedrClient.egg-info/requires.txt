@@ -1,0 +1,10 @@
+setuptools>=45.0
+aria2p>=0.11.0
+requests>=2.30.0
+torrentool>=1.2.0
+
+[:platform_system == "Linux"]
+ih2torrent>=0.1.17
+
+[:platform_system == "Windows"]
+win-ih2torrent>=0.2.0
