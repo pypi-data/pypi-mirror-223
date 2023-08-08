@@ -1,0 +1,9 @@
+bSuite/utils/__init__.py,sha256=605yx8orMkJSezm9hAztWIYx6XQEzqDnLjExQGze7Fk,23
+bSuite/utils/spotify.py,sha256=iN0LpdzPKgaRZv7_efPj4h6efSXK-u80FSlSSL7-y_Y,834
+bSuite/utils/strings.py,sha256=rwRwN9WCZAdNmsnSXx39h-n6l9NkLQfHGVq6WVr2tww,594
+bSuite/utils/time.py,sha256=tkPtjHAK4AK9fg61nzezw2xAy_5_MwgzBHX52jtdrFs,60
+bSuite_utils-1.0.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+bSuite_utils-1.0.0.dist-info/METADATA,sha256=7qxCS1EGA1A1NEUWq99t-caEdJVTKmX76tppodFNNPs,40841
+bSuite_utils-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+bSuite_utils-1.0.0.dist-info/top_level.txt,sha256=OV9vSz6JqP7KRQPhKluxwsGXCbTifpASglUj8nJ8rJ8,7
+bSuite_utils-1.0.0.dist-info/RECORD,,
