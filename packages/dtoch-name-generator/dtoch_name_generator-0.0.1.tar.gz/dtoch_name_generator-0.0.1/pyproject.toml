@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dtoch-name-generator"
+version = "0.0.1"
+description = "Python random name generator"
+license = "MIT"
+authors = [
+    "DToch56 <dtoch.56@gmail.com>"
+]
+repository = "https://github.com/dtoch56/python-name-generator"
+keywords = ["python", "generator", "name"]
+readme = "README.md"
+packages = [{include = "name_generator"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transliterate = "^1.10.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
