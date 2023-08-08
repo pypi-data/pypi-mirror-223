@@ -1,0 +1,613 @@
+{
+    "falling_film_evaporator": {
+        "var": {
+            "n_effects": {
+                "label": "number of effects",
+                "default": 1,
+                "unit": "",
+                "decimals": 0,
+                "sensi": {
+                    "bounds": [
+                        1,
+                        4
+                    ],
+                    "round": true
+                }
+            },
+            "steam_temperature": {
+                "label": "steam temperature",
+                "default": 120,
+                "unit": "degC",
+                "decimals": 0,
+                "sensi": {
+                    "bounds": [
+                        105,
+                        130
+                    ],
+                    "round": false
+                }
+            },
+            "feed_concentration": {
+                "label": "feed concentration",
+                "default": 0.05,
+                "unit": "",
+                "decimals": 3
+            },
+            "target_concentration": {
+                "label": "target concentration",
+                "default": 0.3,
+                "unit": "",
+                "decimals": 3
+            },
+            "feed_flowrate": {
+                "label": "feed flow rate",
+                "default": 1,
+                "unit": "kg/s",
+                "decimals": 3
+            },
+            "n_tubes": {
+                "label": "number of tubes",
+                "default": [
+                    100
+                ],
+                "unit": "",
+                "decimals": 0,
+                "len": "self.n_effects"
+            },
+            "tube_diameter": {
+                "label": "tube diameter",
+                "default": [
+                    0.025
+                ],
+                "unit": "m",
+                "decimals": 3,
+                "len": "self.n_effects"
+            },
+            "tube_length": {
+                "label": "tube length",
+                "default": [
+                    5
+                ],
+                "unit": "m",
+                "decimals": 3,
+                "len": "self.n_effects"
+            }
+        },
+        "res": {
+            "p": {
+                "label": [
+                    "steam pressure",
+                    "vapor outlet pressure"
+                ],
+                "unit": "bar",
+                "decimals": 3,
+                "default": [],
+                "len": "self.n_effects+1"
+            },
+            "ts": {
+                "label": "residence time",
+                "unit": "s",
+                "decimals": 3,
+                "default": [],
+                "len":   "self.n_effects",
+                "color": "on_yellow"
+            },
+            "x": {
+                "label": "concentration",
+                "unit": "",
+                "decimals": 3,
+                "default": [],
+                "len": "self.n_effects+1",
+                "color": "bcyan"
+            },
+            "L": {
+                "label": "liquid flowrate",
+                "unit": "kg/s",
+                "decimals": 3,
+                "default": [],
+                "len": "self.n_effects+1"
+            },
+            "V": {
+                "label": [
+                    "steam flowrate",
+                    "vapor outlet from effect"
+                ],
+                "unit": "kg/s",
+                "decimals": 3,
+                "default": [],
+                "len": "self.n_effects+1"
+            },
+            "T": {
+                "label": [
+                    "steam temperature",
+                    "evaporating temperature"
+                ],
+                "unit": "degC",
+                "default": [],
+                "decimals": 0,
+                "len": "self.n_effects+1"
+            },
+            "hg": {
+                "label": "overall heat transfer coefficient",
+                "unit": "kW/m2/K",
+                "default": [],
+                "decimals": 2,
+                "len": "self.n_effects+1",
+                "color": "bcyan"
+            },
+            "dm": {
+                "label": "dry matter flowrate",
+                "unit": "kg/s",
+                "default": 0,
+                "decimals": 3
+            },
+            "mevap": {
+                "label": "evaporation rate",
+                "unit": "kg/s",
+                "default": 0,
+                "decimals": 3
+            },
+            "Re_L": {
+                "label": "Reynold number of liquid",
+                "unit": "",
+                "default": [],
+                "decimals": 0,
+                "len": "self.n_effects"
+            },
+            "Pr_L": {
+                "label": "Prandtl number of liquid",
+                "unit": "",
+                "default": [],
+                "decimals": 2,
+                "len": "self.n_effects"
+            },
+            "Nu_L": {
+                "label": "Nusselt number of liquid",
+                "unit": "",
+                "default": [],
+                "decimals": 2,
+                "len": "self.n_effects"
+            },
+            "DP_L": {
+                "label": "friction pressure drop in tubes",
+                "unit": "bar",
+                "default": [],
+                "decimals": 4,
+                "len": "self.n_effects",
+                "color": "bcyan"
+            },
+            "F": {
+                "label": "volume flowrate",
+                "unit": "m3/s",
+                "default": [],
+                "decimals": 4,
+                "len": "self.n_effects"
+            },
+            "E": {
+                "label": "electric power",
+                "unit": "kW",
+                "default": [],
+                "decimals": 2,
+                "len": "self.n_effects",
+                "color": "bcyan"
+            },
+            "E_tot": {
+                "label": "total electric power",
+                "unit": "kW",
+                "default": null,
+                "decimals": 2,
+                "color": "bcyan"
+            },
+            "mu_L": {
+                "label": "apparent viscosity of liquid",
+                "unit": "Pa.s",
+                "default": [],
+                "decimals": 3,
+                "len": "self.n_effects"
+            },
+            "rho_L": {
+                "label": "density of liquid",
+                "unit": "kg/m3",
+                "default": [],
+                "decimals": 0,
+                "len": "self.n_effects"
+            },
+            "Cp_L": {
+                "label": "specific heat of liquid",
+                "unit": "kJ/kg/K",
+                "default": [],
+                "decimals": 2,
+                "len": "self.n_effects"
+            },
+            "lambda_L": {
+                "label": "thermal conductivity of liquid",
+                "unit": "W/m/K",
+                "default": [],
+                "decimals": 3,
+                "len": "self.n_effects"
+            },
+            "bep": {
+                "label": "boiling elevation point",
+                "default": [],
+                "len": "self.n_effects",
+                "decimals": 0,
+                "unit": "degC"
+            },
+            "A": {
+                "label": "heat transfer area",
+                "default": [],
+                "unit": "m2",
+                "decimals": 2,
+                "len": "self.n_effects"
+            },
+            "u": {
+                "label": "fluid velocity",
+                "default": [],
+                "unit": "m/s",
+                "decimals": 3,
+                "len": "self.n_effects",
+                "color": "bcyan"
+            }
+        }
+    },
+    "shell_tube_heat_exchanger": {
+        "var": {
+            "feed_concentration": {
+                "label": "concentration",
+                "default": 0,
+                "unit": "",
+                "decimals": 3
+            },
+            "feed_temperature": {
+                "label": "feed temperature",
+                "unit": "degC",
+                "decimals": 0,
+                "default": 20
+            },
+            "target_temperature": {
+                "label": "target temperature",
+                "unit": "degC",
+                "decimals": 0,
+                "default": 20
+            },
+            "feed_flowrate": {
+                "label": "feed flowrate",
+                "unit": "kg/s",
+                "decimals": 3,
+                "default": 1
+            },
+            "tube_diameter": {
+                "label": "tube diameter",
+                "unit": "m",
+                "decimals": 0,
+                "default": 0.01
+            },
+            "tube_length": {
+                "label": "tube length",
+                "unit": "m",
+                "decimals": 0,
+                "default": 4
+            },
+            "n_tubes": {
+                "label": "nombre de tubes",
+                "unit": "",
+                "decimals": 0,
+                "default": 20
+            },
+            "n_passes": {
+                "label": "number of passes",
+                "unit": "",
+                "decimals": 0,
+                "default": 1
+            }
+        },
+        "res": {
+            "Q": {
+                "label": "heat load",
+                "unit": "kW",
+                "decimals": 2,
+                "default": null
+            },
+            "u": {
+                "label": "velocity",
+                "unit": "m/s",
+                "decimals": 3,
+                "default": null
+            },
+            "DP": {
+                "label": "friction pressure drop in tubes",
+                "unit": "bar",
+                "default": null,
+                "decimals": 4,
+                "color": "bcyan"
+            },
+            "E": {
+                "label": "electric power",
+                "unit": "kW",
+                "default": null,
+                "decimals": 3,
+                "color": "bcyan"
+            },
+            "ts": {
+                "label": "residence time",
+                "unit": "s",
+                "decimals": 3,
+                "default": null,
+                "color": "on_yellow"
+            }
+        }
+    },
+    "simple_HeatExch": {
+        "var": {
+            "T1": {
+                "label": "Temperature entree",
+                "default": 20,
+                "unit": "degC",
+                "decimals": 4
+            },
+            "T2": {
+                "label": "Temperature sortie",
+                "default": 30,
+                "unit": "degC",
+                "decimals": 4
+            },
+            "m": {
+                "label": "Debit",
+                "default": 1,
+                "decimals": 3,
+                "unit": "kg/s"
+            },
+            "x": {
+                "label": "Concentration",
+                "decimals": 3,
+                "default": 0,
+                "unit": ""
+            }
+        },
+        "res": {
+            "Q": {
+                "label": "Puissance",
+                "default": 0,
+                "decimals": 2,
+                "unit": "kW"
+            }
+        }
+    },
+    "centrifuge": {
+        "var": {
+            "bowl_width": {
+                "label": "Bowl width",
+                "decimals": 3,
+                "default": 0.5,
+                "unit": "m"
+            },
+            "bowl_thickness": {
+                "label": "thickness of bowl wall",
+                "decimals": 3,
+                "default": 7e-3,
+                "unit": "m"
+            },
+            "bowl_density": {
+                "label": "bowl density",
+                "decimals": 3,
+                "default": 7800,
+                "unit": "kg/m3"
+            },
+            "inner_diameter": {
+                "label": "inner diameter of liquid annular zone",
+                "decimals": 3,
+                "default": 20e-2,
+                "unit": "m"
+            },
+            "outer_diameter": {
+                "label": "outer diameter of liquid annular zone",
+                "decimals": 3,
+                "default": 25e-2,
+                "unit": "m"
+            },
+            "angular_velocity": {
+                "label": "angular velocity",
+                "decimals": 2,
+                "default": 2000,
+                "unit": "m"
+            },
+            "feed_flowrate": {
+                "label": "feed flowrate",
+                "decimals": 3,
+                "default": 1,
+                "unit": "kg/s"
+            },
+            "feed_concentration": {
+                "label": "feed concentration",
+                "decimals": 3,
+                "default": 0.05,
+                "unit": ""
+            },
+            "split_ratio": {
+                "label": "split ratio (clarified liquid/feed)",
+                "decimals": 3,
+                "default": 0.9,
+                "unit": ""
+            },
+            "solid_split_ratio": {
+                "label": "solid split ratio (solid in clarified liquid/solid in feed)",
+                "decimals": 3,
+                "default": 0.8,
+                "unit": ""
+            },
+            "feed_temperature": {
+                "label": "feed temperature",
+                "decimals": 0,
+                "default": 25,
+                "unit": "degC"
+            }
+        },
+        "res": {
+            "m_C": {
+                "label": "clarified liquid flowrate",
+                "decimals": 3,
+                "default": null,
+                "unit": "kg/s"
+            },
+            "m_W": {
+                "label": "waste flowrate",
+                "decimals": 3,
+                "default": null,
+                "unit": "kg/s"
+            },
+            "x_C": {
+                "label": "clarified liquid concentration",
+                "decimals": 3,
+                "default": null,
+                "unit": ""
+            },
+            "x_W": {
+                "label": "waste concentration",
+                "decimals": 3,
+                "default": null,
+                "unit": ""
+            },
+            "E": {
+                "label": "energy",
+                "decimals": 3,
+                "default": null,
+                "unit": "kJ",
+                "color": "bcyan"
+            },
+            "ts": {
+                "label": "residence time",
+                "decimals": 2,
+                "default": null,
+                "unit": "s",
+                "color": "bcyan"
+            },
+            "Tout": {
+                "label": "outlet temperature",
+                "decimals": 0,
+                "default": null,
+                "unit": "degC",
+                "color": "bcyan"
+            },
+            "DP": {
+                "label": "pressure loss",
+                "decimals": 3,
+                "default": null,
+                "unit": "bar"
+            },
+            "H_F": {
+                "label": "feed enthalpy",
+                "decimals": 3,
+                "default": null,
+                "unit": "kJ/kg"
+            },
+            "H_C": {
+                "label": "clarified liquid enthalpy",
+                "decimals": 3,
+                "default": null,
+                "unit": "kJ/kg"
+            },
+            "H_W": {
+                "label": "waste enthalpy",
+                "decimals": 3,
+                "default": null,
+                "unit": "kJ/kg"
+            }
+        }
+    },
+    "continuous_autoclave": {
+        "var": {
+            "feed_concentration": {
+                "label": "feed concentration",
+                "decimals": 3,
+                "default": 0,
+                "unit": ""
+            },
+            "feed_rate": {
+                "label": "feed rate of cans",
+                "decimals": 3,
+                "default": 1000,
+                "unit": "cans/hr"
+            },
+            "steam_temperature": {
+                "label": "steam temperature",
+                "decimals": 0,
+                "default": 120,
+                "unit": "degC"
+            },
+            "cooling_water_temperature": {
+                "label": "cooling water temperature",
+                "decimals": 0,
+                "default": 10,
+                "unit": "degC"
+            },
+            "ambient_temperature": {
+                "label": "ambiant temperature",
+                "decimals": 0,
+                "default": 25,
+                "unit": "degC"
+            },
+            "can_height": {
+                "label": "can height",
+                "decimals": 3,
+                "default": 30e-2,
+                "unit": "m"
+            },
+            "can_diameter": {
+                "label": "can diameter",
+                "decimals": 3,
+                "default": 20e-2,
+                "unit": "m"
+            },
+            "microorganisms_reduction": {
+                "label": "microorganisms reduction factor",
+                "decimals": 0,
+                "default": 12,
+                "unit": ""
+            },
+            "thermal_resistance_factor": {
+                "label": "thermal resistance factor",
+                "decimals": 0,
+                "default": 11,
+                "unit": "degC"
+            },
+            "decimal_reduction_time": {
+                "label": "decimal reduction time",
+                "decimals": 0,
+                "default": 18,
+                "unit": "s"
+            },
+            "reference_temperature": {
+                "label": "reference temperature",
+                "decimals": 0,
+                "default": 121,
+                "unit": "degC"
+            }
+        },
+        "res": {
+            "P": {
+                "label": "heating/cooling power",
+                "decimals": 2,
+                "default": null,
+                "unit": "kW"
+            },
+            "tsh": {
+                "label": "heater residence time",
+                "decimals": 2,
+                "default": null,
+                "unit": "min"
+            },
+            "tsc": {
+                "label": "cooler residence time",
+                "decimals": 2,
+                "default": null,
+                "unit": "min"
+            },
+            "Tmax": {
+                "label": "max temperature in can center",
+                "decimals": 0,
+                "default": null,
+                "unit": "degC"
+            }
+        }
+    }
+}
