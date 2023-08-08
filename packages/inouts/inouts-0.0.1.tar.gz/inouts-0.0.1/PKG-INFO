@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: inouts
+Version: 0.0.1
+Summary: Initialization
+Project-URL: Homepage, https://github.com/inouts/inouts
+Project-URL: Bug Tracker, https://github.com/inouts/inouts/issues
+Author-email: Paweł Krzych <pawel.krzych@inouts.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Inouts Package
+
+TBC
