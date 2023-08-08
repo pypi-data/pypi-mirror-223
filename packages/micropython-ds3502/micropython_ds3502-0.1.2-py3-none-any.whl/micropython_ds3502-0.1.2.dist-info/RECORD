@@ -1,0 +1,8 @@
+micropython_ds3502/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micropython_ds3502/ds3502.py,sha256=Exrzk1eeICJx6a6mhcgXlnLu5p-5snadcFyqvqkrzbs,2516
+micropython_ds3502/i2c_helpers.py,sha256=rNJHzE3DzYjLg_CocCMQzEKqD1-p982jumkd6KzbZ04,3911
+micropython_ds3502-0.1.2.dist-info/LICENSE,sha256=PsONY_yddKoXWHkl2yom4jx_YStWefPD56ONQZe8YXw,1139
+micropython_ds3502-0.1.2.dist-info/METADATA,sha256=AfTGAmsaiGDVIWyQs_CUTlqx1JdO_i2Qmp6xCThueNc,3159
+micropython_ds3502-0.1.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+micropython_ds3502-0.1.2.dist-info/top_level.txt,sha256=7pgsF4hBGFvDD29jQ9UEPp4BWXCvvMqnyQ58scNu774,19
+micropython_ds3502-0.1.2.dist-info/RECORD,,
