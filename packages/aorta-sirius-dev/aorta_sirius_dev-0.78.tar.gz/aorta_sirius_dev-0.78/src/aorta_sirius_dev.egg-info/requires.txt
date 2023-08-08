@@ -1,0 +1,5 @@
+httpx
+motor
+msal
+pydantic
+sentry-sdk
