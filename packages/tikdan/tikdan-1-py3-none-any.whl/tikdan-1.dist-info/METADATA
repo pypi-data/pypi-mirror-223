@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: tikdan
+Version: 1
+Summary: Unofficial api tiktok
+Home-page: https://github.com/ALIILAPRO/Tikdan
+Author: ALIILAPRO
+Author-email: aliilapro@pm.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Tikdan
+
+tikdan is a Python package that provides functionality for exporting video information from TikTok URLs using the TikMate API.
+
+## Installation
+
+You can install tikdan using `pip`:
+
+```sh
+pip install tikdan
+```
+
+## Usage
+
+```python
+from tikdan import Tikdan
+
+tiktok_api = Tikdan.Api()
+url = input("Enter TikTok URL: ")
+video_info = tiktok_api.export_video_info(url)
+print(video_info)
+```
+
+### License
+
+This project is licensed under the [GNU General Public License v3.0](https://github.com/ALIILAPRO/Tikdan/blob/main/LICENSE).
+
