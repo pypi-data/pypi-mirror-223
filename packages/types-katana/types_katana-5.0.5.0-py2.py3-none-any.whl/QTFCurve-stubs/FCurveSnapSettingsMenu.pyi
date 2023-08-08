@@ -1,0 +1,19 @@
+# mypy: disable-error-code="misc, override, attr-defined, no-redef, assignment"
+
+import PyQt5.QtWidgets
+import QT4Widgets as QT4Widgets
+import PyQt5.QtCore as QtCore
+import PyQt5.QtGui as QtGui
+import PyQt5.QtWidgets as QtWidgets
+from QT4Widgets.PopdownLabel import PopdownLabel
+from typing import Set, Tuple
+
+class FCurveSnapSettingsMenu(PopdownLabel):
+    def __init__(self, graphWidget, *args) -> None: ...
+    def _FCurveSnapSettingsMenu__buildSettings(self, xInc, yInc): ...
+    def buildMenu(self, menu): ...
+    def updateState(self): ...
+
+class SnapSettingsAction(PyQt5.QtWidgets.QAction):
+    def __init__(self, settings, graphWidget, *args) -> None: ...
+    def _SnapSettingsAction__activatedCB(self): ...
