@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aioqueueext
+Version: 0.1.0
+Summary: Extended asyncio queues, implements peeking, setting put and get callbacks.
+Author-email: darkhaniop <darkhaniop@google.com>
+Project-URL: Homepage, https://github.com/gw-tools/aioqueueext
+Project-URL: Bug Tracker, https://github.com/gw-tools/aioqueueext/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <4,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# aioqueueext
+
+A package that provides asyncio Queues with additional functionality.
+
+## Work-in-Progress
+
+The repository contains modules extracted from my other project and was refactored as a separate package.
+
+In the current version, I have not verified all of the functions.
+
+Additional functions I plan to implement are:
+- `return_when_*()` - async functions to ease synchronization tasks
+- `set_on_get_callback()`
+- `set_on_put_callback()`
+- `peek_nowait()` - returns the "up-next" item without removing it from the queue
+- `peek_and_get()` - async peek and conditionally get (pop) an item from the queue
