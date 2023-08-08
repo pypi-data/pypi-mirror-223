@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gamey
+Version: 0.7
+Summary: An simple, powerful game engine built on pygame
+Author: Dylan Rogers
+Author-email: opendylan@proton.me
+Requires-Python: >=3,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Gamie: A Simple, Easy-To-Use Python Game Engine
+
+
