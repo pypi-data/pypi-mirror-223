@@ -1,0 +1,8 @@
+huawei_file_transfer/__init__.py,sha256=mM2cPehbxoTD1MdMDMWr8F4VaRfEnvaZ3NC1ECtjiKg,6057
+huawei_file_transfer/custom_huawei.py,sha256=VhscoPxFsFxKFsfVjG4Em1Mh0TXtdtSbtLlGBO35LQ4,16233
+huawei_file_transfer/custom_ssh_dispatcher.py,sha256=QXFIMKdHHaFZzEsrXKBY7Jbb_S37h5cQA71MKOY4ziE,18205
+huawei_file_transfer-0.0.2.dist-info/LICENSE.txt,sha256=HDbMJ7oItmxTn3jVtZFi6jUFAHovset5jzAPUderjOc,1073
+huawei_file_transfer-0.0.2.dist-info/METADATA,sha256=tI2sTzkQeCUsbVL-Z-OD7E3QhtymCmMAlzVvmYr4tZ8,3935
+huawei_file_transfer-0.0.2.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+huawei_file_transfer-0.0.2.dist-info/top_level.txt,sha256=8jimAdHTS5T2tttRtVRrCmwpiKE45jV-HasKdeg-08o,21
+huawei_file_transfer-0.0.2.dist-info/RECORD,,
