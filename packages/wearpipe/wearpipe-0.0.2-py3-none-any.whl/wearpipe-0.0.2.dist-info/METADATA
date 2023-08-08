@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wearpipe
+Version: 0.0.2
+Summary: Python package that enables fast wearable data pipeline executation from data preprocessing to model application
+Home-page: https://github.com/chags1313/wearpipe
+Author: Cole Hagen
+Author-email: hagencolej@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: tensorflow
+
