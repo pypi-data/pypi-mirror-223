@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: color_difference
+Version: 0.1.0
+Summary: A package to calculate color difference using CIE84 formula
+Author: Prince Mehta
