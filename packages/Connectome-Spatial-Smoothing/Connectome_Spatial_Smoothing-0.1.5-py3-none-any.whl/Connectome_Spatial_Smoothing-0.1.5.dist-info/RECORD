@@ -1,0 +1,9 @@
+Connectome_Spatial_Smoothing/CSS.py,sha256=JRAfISJCVxjgWvQrkj4bKR4sUeINSEv5H5GVeGRqMeI,31856
+Connectome_Spatial_Smoothing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Connectome_Spatial_Smoothing/data/templates/atlas/Glasser360.32k_fs_LR.dlabel.nii,sha256=5bFIoUk38EdrAOu_MIdSXfiD-EqWdhw8vM-0oorrn7M,621936
+Connectome_Spatial_Smoothing/data/templates/cifti/ones.dscalar.nii,sha256=KOwWbMUPRes1bDguXEF8WPuK-2zxfm4IQGP-gzZdnKQ,995912
+Connectome_Spatial_Smoothing-0.1.5.dist-info/LICENSE,sha256=qhAJqCmZ4jUGJHwpYRF06C0_L4lvo2Seuibb5aQfnPE,1072
+Connectome_Spatial_Smoothing-0.1.5.dist-info/METADATA,sha256=EJ20osjFJCf5QLxgvXmndtqEaKKbz_ni9QFjBwi4al8,3267
+Connectome_Spatial_Smoothing-0.1.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+Connectome_Spatial_Smoothing-0.1.5.dist-info/top_level.txt,sha256=mvxpSFIy8-Mf4DIcs9qEEOD0wW8hg0Agvx-TrnXK4h0,29
+Connectome_Spatial_Smoothing-0.1.5.dist-info/RECORD,,
