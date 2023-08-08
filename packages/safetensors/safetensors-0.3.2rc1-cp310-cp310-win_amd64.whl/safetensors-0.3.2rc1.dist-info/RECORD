@@ -1,0 +1,11 @@
+safetensors/__init__.py,sha256=1cV7-gi7IkAj5RdRzntooxJOSm_4LdY92U8YzAY_ZDI,160
+safetensors/_safetensors_rust.cp310-win_amd64.pyd,sha256=XGXuafG1kvfFHCCsSzH-ap2E1AGvlqAW9OzGvKvegQs,583680
+safetensors/flax.py,sha256=9Zpy-1l-4UGOKjsOMKhSsEAokWHlLsJisPyS6oCFG_E,4084
+safetensors/numpy.py,sha256=aAhs7u8p90xyCyUVi3-yY9IBc0JosXAYyx-KoMGyDpM,5409
+safetensors/paddle.py,sha256=f87sXd3JZd_soZetAxKLsh_4s_vkrvKnqx_kNF9KGPI,4303
+safetensors/tensorflow.py,sha256=jmTDmGT5MSlTWe7lW23L-iygnh3MwpVKdSI4wpfRoe8,4134
+safetensors/torch.py,sha256=AEClnei-vc7ZDDht1LKRXb3eHpNidbCJJJ75-SctMEQ,16557
+safetensors-0.3.2rc1.dist-info/METADATA,sha256=HaE2CmYgc-l11tXdK-F3Vi15pMsAy3CLG43Qz8Yfm8s,4608
+safetensors-0.3.2rc1.dist-info/WHEEL,sha256=Wb1el1iP4ORW7FiLElw7HfxLpDiHzwvd2B382b2Idl0,102
+safetensors-0.3.2rc1.dist-info/top_level.txt,sha256=aeGq-bvSQiWej-UZBQOQs1V-KEP0Oa7_7MyN0iD5g8I,12
+safetensors-0.3.2rc1.dist-info/RECORD,,
