@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: system-config-tools
+Version: 0.0.1
+Summary: Toolchain used to read configuration file by section.
+Author-email: Marius Crisan <mariuscrsn+pypi@gmail.com>, Pablo Pastor <pastorpflores+pypi@gmail.com>, Javier Sanz <javiersanzmoline@gmail.com>, Roberto Aldea <r.aldea.csic+pypi@gmail.com>, Luis Roche <luis.roche@hotmail.com>
+Project-URL: Homepage, https://github.com/WattRex/Battery-Cycler-Drivers
+Project-URL: Bug Tracker, https://github.com/WattRex/Battery-Cycler-Drivers/issues
+Keywords: yaml,configuration
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-can >=4.0.0
+
+# System configuration module
+Module used for system configuration based on config file. Reads config yaml file
+and return it on a dictionary. It also allows to read sections of configuration
+files.
