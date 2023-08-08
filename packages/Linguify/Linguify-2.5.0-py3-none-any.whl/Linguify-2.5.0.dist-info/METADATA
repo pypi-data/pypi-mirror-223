@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Linguify
+Version: 2.5.0
+Summary: Linguify is designed to automate voicemail transcription via email parsing.
+Author: Abdulrahman Khafagy
+Author-email: abdul_khafagy2004@hotmail.com
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: python-docx
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: click
+
