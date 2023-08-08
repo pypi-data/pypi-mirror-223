@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: nobi-tronpy
+Version: 0.2.6
+Summary: TRON Python client library
+Home-page: https://github.com/lovely-necromancer/tronpy
+Author: andelf
+Author-email: andelf@gmail.com
+Requires-Python: >=3.6,<4.0
+License-File: LICENSE
+Requires-Dist: base58 (<3.0.0,>=2.0.0)
+Requires-Dist: eth-abi (<3.0.0,>=2.1.1)
+Requires-Dist: pycryptodome (<4.0.0,>=3.9.7)
+Requires-Dist: requests (<3.0.0,>=2.23.0)
+
+tronpy
+======
+
+TRON Python Client Library.
+---------------------------
+
+How to use
+~~~~~~~~~~
+
+.. code-block:: python
+
+    from tronpy import Tron
+
+    client = Tron(network='nile')
+    # Private key of TJzXt1sZautjqXnpjQT4xSCBHNSYgBkDr3
+    priv_key = PrivateKey(bytes.fromhex("8888888888888888888888888888888888888888888888888888888888888888"))
+
+    txn = (
+        client.trx.transfer("TJzXt1sZautjqXnpjQT4xSCBHNSYgBkDr3", "TVjsyZ7fYF3qLF6BQgPmTEZy1xrNNyVAAA", 1_000)
+        .memo("test memo")
+        .fee_limit(100_000_000)
+        .build()
+        .inspect()
+        .sign(priv_key)
+        .broadcast()
+    )
+
+    print(txn)
+    # > {'result': True, 'txid': '5182b96bc0d74f416d6ba8e22380e5920d8627f8fb5ef5a6a11d4df030459132'}
+    print(txn.wait())
+    # > {'id': '5182b96bc0d74f416d6ba8e22380e5920d8627f8fb5ef5a6a11d4df030459132', 'blockNumber': 6415370, 'blockTimeStamp': 1591951155000, 'contractResult': [''], 'receipt': {'net_usage': 283}}
