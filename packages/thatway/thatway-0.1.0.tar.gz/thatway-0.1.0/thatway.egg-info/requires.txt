@@ -1,0 +1,7 @@
+pyyaml>=6.0
+
+[dev]
+pytest>=7.4
+twine>=4.0
+build
+black[d]

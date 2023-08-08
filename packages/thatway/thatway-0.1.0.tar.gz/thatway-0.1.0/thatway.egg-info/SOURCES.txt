@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+tests/test_config.py
+thatway/__init__.py
+thatway/config.py
+thatway/test.py
+thatway.egg-info/PKG-INFO
+thatway.egg-info/SOURCES.txt
+thatway.egg-info/dependency_links.txt
+thatway.egg-info/requires.txt
+thatway.egg-info/top_level.txt
