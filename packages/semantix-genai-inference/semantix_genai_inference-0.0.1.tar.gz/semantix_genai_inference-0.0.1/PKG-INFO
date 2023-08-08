@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: semantix-genai-inference
+Version: 0.0.1
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: click (>=8.1.4,<9.0.0)
+Description-Content-Type: text/markdown
+
+# Semantix GenAI Inference
+
+A python client library to help you interact with the Semantix GenAI Inference API.
+
+
+# Installation
+
+If you're using pip, just install it from the latest release:
+
+    $ pip install semantix-genai-inference
+
+Else if you want to run local, clone this repository and install it with poetry:
+
+    $ poetry build
+    $ poetry install
+
+# Usage
+
+To use it:
+
+    $ semantix-ai --help
+
+
