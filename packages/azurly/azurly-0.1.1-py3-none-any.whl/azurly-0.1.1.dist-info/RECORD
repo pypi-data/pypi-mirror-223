@@ -1,0 +1,11 @@
+azurly/__init__.py,sha256=AHtUyI2frUZNMCmEed1xfXHLZY9cabylKvKG3RriKss,5393
+azurly/batch.py,sha256=14qVImHI9R_7Ja3TnzdpnTYNOyxkBkbiPfayRAN0g6g,1599
+azurly/storage.py,sha256=jcrp9gtHFwTI0LUWCfMt_-5_Z7GIwX8KLPNgilXbx68,4081
+azurly/api/__init__.py,sha256=KfA-O8r2WmyevsoEqdqzJwwroco138uCHnhCwwyTOMc,10241
+azurly/api/batch.py,sha256=JBdXma9eufAi_vvK8hfYZqJkPnOz3-UiJWu18KjdApw,14866
+azurly/api/storage.py,sha256=pFSEaXZzd8aSRERMPYm5QNMiZsPxzTank7-Vp2GHRt8,13159
+azurly-0.1.1.dist-info/LICENCE,sha256=GGj3AY9RFagQHx9dtc-4bIcsXFPlB12AYlqVqmg-was,1074
+azurly-0.1.1.dist-info/METADATA,sha256=sLdthPDdOOWKBq9lsOYaNvcRjOlonAEmDJ0WSIAEQ2M,4480
+azurly-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+azurly-0.1.1.dist-info/top_level.txt,sha256=2EfXzPaJtblQnHGn2dEFrH7ihCP5Y1XP2v6VQuXfd8Q,7
+azurly-0.1.1.dist-info/RECORD,,
