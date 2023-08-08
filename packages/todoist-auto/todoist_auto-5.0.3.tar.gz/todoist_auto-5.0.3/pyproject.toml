@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "todoist_auto"
+version = "5.0.3"
+authors = [{ name = "Mahdi Mir", email = "imahdimir@gmail.com" }]
+description = "Automating Todoist"
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "requests",
+    "pandas",
+    "mtok==1.1.1",
+    "pytz",
+    "todoist_api_python",
+]
