@@ -1,0 +1,11 @@
+metricsoperator/__init__.py,sha256=NMd2ikxvX248RlJMOmrjw1eQbq2YlKCOiJEkd-a18p4,44
+metricsoperator/client.py,sha256=8_SWUUgT_tgVNrud-SH1vl7HpIDxU2vOzvB9yjnqUGg,1542
+metricsoperator/utils.py,sha256=noKMSlYu6TsjMMiHlWhyqQn9RcFbjd0gh_1NefbgPw8,613
+metricsoperator/metrics/__init__.py,sha256=oKNl4nPGr-QETV_u4dTQIoSB0JmermWiIZBCliyaLpg,539
+metricsoperator/metrics/base.py,sha256=nafuiJLR-tTen0igusBhGGxdyTg3RwULG3F6KUDB20k,7156
+metricsoperator/metrics/network.py,sha256=8VGBcO1IawLDrLa3vqX_wmq4KWkl54yDf5mN_BJ4xMQ,4171
+metricsoperator/metrics/storage.py,sha256=9wmPW505QhdELDomBSxDk-EYIX04Tf3lE8R27NM4W34,799
+metricsoperator-0.0.12.1.dist-info/METADATA,sha256=0Q74GmMF6Aphu5wmDbrEuHuI9LZ4iS1Fupn-heJJwYU,2029
+metricsoperator-0.0.12.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+metricsoperator-0.0.12.1.dist-info/top_level.txt,sha256=VpG2lJcIMmd-gVlPEqTSRW1Hx8N2YvOFrtvWPkdMKws,16
+metricsoperator-0.0.12.1.dist-info/RECORD,,
