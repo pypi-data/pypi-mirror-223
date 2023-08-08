@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bttc
+Version: 0.0.1
+Summary: A package to provide common utilities for BT testing.
+Home-page: https://github.com/johnklee/bt_test_common
+Author: John Lee/Yuan Long Luo
+Author-email: puremonkey2007@gmail.com
+License: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# bt_test_common
+Common utilities used in BT testing
