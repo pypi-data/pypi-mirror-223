@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+streamlit_selectable_image_gallery/__init__.py
+streamlit_selectable_image_gallery.egg-info/PKG-INFO
+streamlit_selectable_image_gallery.egg-info/SOURCES.txt
+streamlit_selectable_image_gallery.egg-info/dependency_links.txt
+streamlit_selectable_image_gallery.egg-info/requires.txt
+streamlit_selectable_image_gallery.egg-info/top_level.txt
+streamlit_selectable_image_gallery/frontend/build/asset-manifest.json
+streamlit_selectable_image_gallery/frontend/build/bootstrap.min.css
+streamlit_selectable_image_gallery/frontend/build/index.html
+streamlit_selectable_image_gallery/frontend/build/static/js/main.3bb0f0fc.js
+streamlit_selectable_image_gallery/frontend/build/static/js/main.3bb0f0fc.js.LICENSE.txt
+streamlit_selectable_image_gallery/frontend/build/static/js/main.3bb0f0fc.js.map
