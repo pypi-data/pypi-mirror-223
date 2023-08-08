@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-lineageTree = napari_lineagetree:napari.yaml
