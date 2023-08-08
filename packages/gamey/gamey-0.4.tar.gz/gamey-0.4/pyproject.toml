@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "gamey"
+version = "0.4"
+description = "An simple, powerful game engine built on pygame"
+authors = ["Dylan Rogers <opendylan@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
