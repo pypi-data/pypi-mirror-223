@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rCube
+Version: 0.0.1
+Summary: Generalized puzzle cube framework
+Author: philc
+Author-email: imageseth@gmail.com
+Requires-Python: >=3.6
+License-File: License.txt
