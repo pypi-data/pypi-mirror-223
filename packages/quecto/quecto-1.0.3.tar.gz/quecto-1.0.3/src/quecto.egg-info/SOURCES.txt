@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/quecto/__init__.py
+src/quecto/quecto.py
+src/quecto.egg-info/PKG-INFO
+src/quecto.egg-info/SOURCES.txt
+src/quecto.egg-info/dependency_links.txt
+src/quecto.egg-info/requires.txt
+src/quecto.egg-info/top_level.txt
