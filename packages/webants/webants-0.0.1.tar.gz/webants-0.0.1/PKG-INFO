@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: webants
+Version: 0.0.1
+Summary: Async web crawler based on asyncio and aiohttp.
+Home-page: https://github.com/fengqimin/WebAnts
+Author: fengqimin
+Author-email: fengqimin@msn.com
+License: MIT
+Keywords: python,async,web crawler
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# 概述
+一个用`aiohttp` 和 `asyncio`实现的简单的异步网络爬虫框架。
+
