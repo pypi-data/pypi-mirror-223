@@ -1,0 +1,10 @@
+.DS_Store
+/build
+/.venv
+__pycache__
+/.tox
+*.egg-info
+/dist/
+
+# FAT stuff, in a filesystem sense
+._*
