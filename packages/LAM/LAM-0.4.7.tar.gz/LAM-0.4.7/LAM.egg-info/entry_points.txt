@@ -1,0 +1,2 @@
+[console_scripts]
+lam-run = src.run:run
