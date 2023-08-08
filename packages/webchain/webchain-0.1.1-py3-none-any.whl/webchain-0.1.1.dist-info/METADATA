@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: webchain
+Version: 0.1.1
+Summary: 
+Author: awtkns
+Author-email: 32209255+awtkns@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
