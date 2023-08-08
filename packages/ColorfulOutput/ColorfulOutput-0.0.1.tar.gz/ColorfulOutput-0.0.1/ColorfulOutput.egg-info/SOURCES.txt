@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ColorfulOutput/ColorfulOutput.py
+ColorfulOutput/__init__.py
+ColorfulOutput.egg-info/PKG-INFO
+ColorfulOutput.egg-info/SOURCES.txt
+ColorfulOutput.egg-info/dependency_links.txt
+ColorfulOutput.egg-info/top_level.txt
