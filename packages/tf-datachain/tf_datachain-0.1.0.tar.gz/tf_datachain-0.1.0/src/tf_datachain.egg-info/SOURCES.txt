@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/tf_datachain/ObjectDetection.py
+src/tf_datachain/__init__.py
+src/tf_datachain/utils.py
+src/tf_datachain.egg-info/PKG-INFO
+src/tf_datachain.egg-info/SOURCES.txt
+src/tf_datachain.egg-info/dependency_links.txt
+src/tf_datachain.egg-info/requires.txt
+src/tf_datachain.egg-info/top_level.txt
