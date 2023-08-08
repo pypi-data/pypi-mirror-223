@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fuckyou-sort"
+version = "1.0.1"
+description = "Technically the quickest sorting algorithm."
+readme = "README.md"
+authors = [{ name = "Phinn Bonte", email = "phinnjamesbonte@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["sorting algorithm", "sorting", "sort", "algorithm"]
+dependencies = [
+    'tomli; python_version < "3.11"',
+]
+
+requires-python = ">=3.9"
+
+[project.scripts]
+fuckyou = "fuckyou_sort.__main__:main"

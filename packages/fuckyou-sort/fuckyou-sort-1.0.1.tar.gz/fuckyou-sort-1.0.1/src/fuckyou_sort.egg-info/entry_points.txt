@@ -1,0 +1,2 @@
+[console_scripts]
+fuckyou = fuckyou_sort.__main__:main
