@@ -1,0 +1,8 @@
+erp/__init__.py,sha256=DvQ4SHGBCARE62I6SWvIEDuMGRREGoiSzY39qY4NgXw,71
+erp/client.py,sha256=Iq9pRM0dVgTjZtdhPTpRdrg8yLXIEdfzdrldqAA8bBs,3289
+erp/util/__init__.py,sha256=8RNQLflgxNuOkaoLGXO84X1IpgsSq5HRdsTekTXgeWs,22
+erp/util/headers.py,sha256=BwAvWfwW8MEeSmFCXdRJcewSYB26rTL2mU2sD9Ncj9g,1903
+Gehu_erp-0.1.dist-info/METADATA,sha256=sl_RacfPLE9on0J0feZ3zUoMjYR1Hr1qk8mJWlRO4-Y,404
+Gehu_erp-0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Gehu_erp-0.1.dist-info/top_level.txt,sha256=1hbq7wrZO4yb9vMyti1mSOGfdvWkaot4RoE8UD52jas,4
+Gehu_erp-0.1.dist-info/RECORD,,
