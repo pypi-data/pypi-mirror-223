@@ -1,0 +1,180 @@
+Metadata-Version: 2.1
+Name: datamaker-backup
+Version: 0.2.0
+Summary: datamaker backup
+Home-page: https://www.datamaker.io
+Author: datamaker
+Author-email: developer@datamaker.io
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django >=4.2
+Requires-Dist: django-dbbackup >=4.0.2
+Requires-Dist: requests >=2.26.0
+
+# Installation
+
+```shell
+pip install datamaker-backup
+```
+
+## .env
+`.env.dist`에 아래 내용 추가
+
+```dotenv
+# ENVIRONMENT
+...
+DEPLOYMENT_TARGET=development|test|production
+
+# BACKUP
+ENABLE_RESTORE=true|false
+ENABLE_BACKUP=true|false
+RESTORE_DATA_ONLY=true|false
+RESTORE_OPTIONS=do-not-set-unless-you-know-what-you-are-doing
+DBBACKUP_CLEANUP_KEEP=10
+```
+
+## settings.py
+
+`settings.py`에 아래 내용 추가
+
+```python
+from datamaker_backup import get_backup_settings
+
+...
+
+INSTALLED_APPS = (
+    ...
+    'dbbackup',  # django-dbbackup
+)
+
+...
+
+
+# datamaker-backup
+# https://github.com/datamaker-kr/datamaker-backup
+
+BACKUP_CONFIG = get_backup_settings('<repository-name>', env)
+vars().update(BACKUP_CONFIG)
+```
+
+## postgresql
+
+PostgreSQL을 사용하는 프로젝트는 `pg_dump`, `pg_restore로` 백업 및 복원이 이루어지기 때문에 postgresql client 설치를 진행해야 합니다.
+
+### prepare to install latest postgresql
+
+```shell
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+```
+
+```shell
+wget -qO- https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo tee /etc/apt/trusted.gpg.d/pgdg.asc &>/dev/null
+```
+
+```shell
+sudo apt update
+```
+
+### install postgresql client
+
+```shell
+sudo apt install postgresql-client
+```
+
+# Usage
+
+## 백업
+
+### database
+
+```shell
+python manage.py dbbackup
+```
+
+### media
+
+```shell
+python manage.py mediabackup
+```
+
+## 복원
+
+
+### database
+
+```shell
+python manage.py dbrestore
+```
+
+### media
+
+```shell
+python manage.py mediarestore
+```
+
+특정 백업으로 부터 복원하는 경우 
+
+```shell
+python manage.py dbrestore -i <backup_id>
+```
+
+```shell
+python manage.py mediarestore -i <backup_id>
+```
+
+# Configuration
+
+`.env`에서 아래 설정을 필요에 따라 적용.
+
+### DEPLOYMENT_TARGET
+배포 환경 이름. 주로 `development` | `test` | `production`로 설정.
+
+Required: `true`
+
+### ENABLE_RESTORE
+`true` | `false`
+
+`dbrestore`, `mediarestore` 사용 가능 여부. 주로 production 환경에서는 비활성화.
+
+Default: `false`
+
+### ENABLE_BACKUP
+`true` | `false`
+
+`dbbackup`, `mediabackup` 사용 가능 여부. 주로 development 환경에서는 비활성화.
+
+Default: `false`
+
+### RESTORE_DATA_ONLY
+`true` | `false`
+
+`dbrestore`시 schema는 그대로 두고 data만 복원할지 여부.
+
+아직까지는 해당 옵션을 활성화 할 경우 복원할 db에 data가 모두 삭제된 상태로 두어야 함.
+
+Default: `false`
+
+### RESTORE_OPTIONS
+comma separated list of pg_restore option names
+
+Example:
+`clean,create`
+
+Default:
+- `RESTORE_DATA_ONLY`가 `true`일 때에는 `data-only,disable-triggers,exit-on-error`
+- `RESTORE_DATA_ONLY`가 `false`일 때에는 `clean,create,if-exists,exit-on-error`
+
+### DBBACKUP_CLEANUP_KEEP
+dbbackup시 지정된 숫자를 초과한 나머지 백업은 삭제됨.
+
+Default: `30`
