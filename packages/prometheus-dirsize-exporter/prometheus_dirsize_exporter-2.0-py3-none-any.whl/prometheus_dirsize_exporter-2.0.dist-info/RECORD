@@ -1,0 +1,9 @@
+prometheus_dirsize_exporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prometheus_dirsize_exporter/exporter.py,sha256=lsSLeZGr15xXzGK96JO9MI4vuKk3sN8fJze_C_8GOOk,6569
+prometheus_dirsize_exporter/metrics.py,sha256=e9h81aAhOTnG2bTqyMz7WDp4QrWdnMOQSGKnroqrUPg,912
+prometheus_dirsize_exporter-2.0.dist-info/LICENSE,sha256=TRbJZ6XDdkSVmyVU9_6nobjpdzOBEG6ri7FKFzEh1Ig,1497
+prometheus_dirsize_exporter-2.0.dist-info/METADATA,sha256=nVekh2L_0s_zOI-8IBjau72uxtcqk_2AGSqetWlMuVw,2671
+prometheus_dirsize_exporter-2.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+prometheus_dirsize_exporter-2.0.dist-info/entry_points.txt,sha256=GyxLBX6Qw7PYzNHcC8V2PV4FDFr7n6dmt2uVlkxiU1Y,79
+prometheus_dirsize_exporter-2.0.dist-info/top_level.txt,sha256=bEdxdzYpHuzFBISXs_Fqo5vN5QLWSILSl3EG-SOvDmQ,28
+prometheus_dirsize_exporter-2.0.dist-info/RECORD,,
