@@ -1,0 +1,7 @@
+requests
+feedparser
+bs4
+lxml
+WeasyPrint
+ebooklib
+readability-lxml
