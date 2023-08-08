@@ -1,0 +1,14 @@
+odin_slides/__init__.py,sha256=c3aje-XkwrJBNF2NZnBV2SMj28J5F2Ha5Y86JwbPlcc,15
+odin_slides/llm_ops.py,sha256=9wrsVgBZeH0CzbYTvw4Yd-rWLUcxAEYNGmpZq2zMk4E,8226
+odin_slides/main.py,sha256=hQbjYM5PWYLfLc-RyVj4Mj9OAD59IxhqbmsPOR0ft3Y,4846
+odin_slides/presentation.py,sha256=Q1IwmnHUx-LGMsHGuSIbFN-Wy1keRDfVi2e8IEYKktM,12285
+odin_slides/utils.py,sha256=8DJWHoIIzND4r671Uuwz0odx6ROk3KZYsDdcekTBbSY,6138
+tests/__init__.py,sha256=c3aje-XkwrJBNF2NZnBV2SMj28J5F2Ha5Y86JwbPlcc,15
+tests/test_presentation.py,sha256=K8VmuDvb_tDSdyJQ5iJah_az8IHUvoccs8BAkfL2cRk,2805
+tests/test_utils.py,sha256=DBUD4tk8j3Qp2apxOvREprpDO7eqpOWdWApFABUtRew,1537
+odin_slides-0.3.dist-info/LICENSE,sha256=htuY1geraCP45aNVkpse8qo7ckVjRUOsIAeDyENJXfo,1068
+odin_slides-0.3.dist-info/METADATA,sha256=4nuT4X_dVmSe2tl5bUrMQSB6ZsytCckzit6tVUu0-GA,601
+odin_slides-0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+odin_slides-0.3.dist-info/entry_points.txt,sha256=jzwId76EloV0ENBxYXJ9jIjfbbcdInFjDHBcrE3f3ho,54
+odin_slides-0.3.dist-info/top_level.txt,sha256=z2JyPjsa0Z4xLORhalfsqnkp5LOqxBPpPaBr2qC4nlM,18
+odin_slides-0.3.dist-info/RECORD,,
