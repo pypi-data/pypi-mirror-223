@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: magic-scrape
+Version: 0.1.2
+Summary: Automatic extraction of webpage info using OpenAI Functions validation to store a sitewide config in a web scraper.
+Keywords: pydantic xml serialization deserialization parsing lxml
+Author-Email: Louis Maddox <louismmx@gmail.com>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Framework :: Pydantic
+Classifier: Framework :: Pydantic :: 2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10
+Requires-Dist: pydantic>=2.1.1
+Requires-Dist: pydantic-settings>=2.0.2
+Requires-Dist: defopt>=6.4.0
+Requires-Dist: httpx>=0.24.1
+Requires-Dist: pydantic-xml>=2.0.0b2
+Requires-Dist: lxml>=4.9.3
+Description-Content-Type: text/markdown
+
+# magic-scrape
+
+![PyPI](https://img.shields.io/pypi/v/magic-scrape?logo=python&logoColor=%23cccccc)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/lmmx/magic-scrape/master.svg)](https://results.pre-commit.ci/latest/github/lmmx/magic-scrape/master)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/magic-scrape.svg)](https://pypi.org/project/magic-scrape)
+
+<!-- [![build status](https://github.com/lmmx/magic-scrape/actions/workflows/master.yml/badge.svg)](https://github.com/lmmx/magic-scrape/actions/workflows/master.yml) -->

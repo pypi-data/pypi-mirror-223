@@ -1,0 +1,9 @@
+magic_scrape-0.1.2.dist-info/METADATA,sha256=WdKZlxJFae7UL7bBqp2GnkKEOT7aBuWF_fxyp_ZHPt4,1670
+magic_scrape-0.1.2.dist-info/WHEEL,sha256=0QD4Fi8spmPDA9YIWsctxI6ukFf44Zgk0L9495lbqs0,90
+magic_scrape-0.1.2.dist-info/entry_points.txt,sha256=N4XMeKTSRoVkK4TPMbwR9KkMmnTTxClVAWFLS3bnEo0,55
+magic_scrape/__init__.py,sha256=eai_-Xa82Nyv0h9tf7jTKd-XX7QS8FHlTB6fHE2E4Nw,58
+magic_scrape/cli.py,sha256=vWhBSWxR8zRzGtp52hSZcYuyCHtZXUh5OIB2gJhOji8,1005
+magic_scrape/config.py,sha256=UrGm4Y5rVUdMR13MHIAoigD-3wzZjalnzNLB-lXcRjY,1835
+magic_scrape/log.py,sha256=-TmYMXb1cKLtoTa9cRFhPDua2nnk99WZmPJueriYmwY,96
+magic_scrape/scrape.py,sha256=N6K9DsPfV8hdT6b2Fpsb1gf-0TnmVna8HY5DY-CJPp0,1805
+magic_scrape-0.1.2.dist-info/RECORD,,
