@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "cstow"
+version = "0.0.dev0"
+description = "GNU Stow Wrapper"
+authors = ["Konstantin Kolesnyak <constkolesnyak@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
