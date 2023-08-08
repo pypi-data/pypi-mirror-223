@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+projkit/__init__.py
+projkit/camops.py
+projkit/imutils.py
+projkit/pyutils.py
+projkit.egg-info/PKG-INFO
+projkit.egg-info/SOURCES.txt
+projkit.egg-info/dependency_links.txt
+projkit.egg-info/requires.txt
+projkit.egg-info/top_level.txt
