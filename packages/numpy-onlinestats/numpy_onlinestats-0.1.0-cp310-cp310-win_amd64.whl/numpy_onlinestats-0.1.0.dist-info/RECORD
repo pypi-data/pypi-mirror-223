@@ -1,0 +1,11 @@
+numpy_onlinestats/_numpy_onlinestats_impl.cp310-win_amd64.pyd,sha256=6CU7iVCY5_HJnsloRrCWRLBgtJ1v2Q_RQLte67-utPs,343040
+numpy_onlinestats/_version.py,sha256=V05QaZT84Dgl2Hlnisu2dcoAnzT5VP2y2xdujZrEXDM,164
+numpy_onlinestats/__init__.py,sha256=56KZmfC_7FSBTukMedb2ktwZEQqFm416bXizsHUvaRo,459
+numpy_onlinestats-0.1.0.dist-info/DELVEWHEEL,sha256=guaU-J3Croe7vvpMpNF3s6ED-b8rzThNqnC-blXYITI,409
+numpy_onlinestats-0.1.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numpy_onlinestats-0.1.0.dist-info/METADATA,sha256=UaYSobfeeEjGcLQD4crQbmzDIXYW0eF7dUKwCU7CLYI,43634
+numpy_onlinestats-0.1.0.dist-info/RECORD,,
+numpy_onlinestats-0.1.0.dist-info/WHEEL,sha256=ImI4dWQXb_G7jRlHTs0YUnN22EjCLBo7eOuabrhFhQs,105
+numpy_onlinestats-0.1.0.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+numpy_onlinestats.libs/libomp140.x86_64-cb19ec056bdd6cac09878913fea1f989.dll,sha256=IIP0uY1ppSqiU7wjgB6hQu3Kjwl0kiWjqn5Swow5hgI,769984
+numpy_onlinestats.libs/msvcp140-59b7f8436dfdd2e61e5b22c08fd1caa9.dll,sha256=7FK3VWFW3K6unFY4IOM-PV5H1NFinMeJpX1YtxDYoPw,621960
