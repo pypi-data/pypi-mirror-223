@@ -1,0 +1,49 @@
+[build-system]
+requires = ["flit_core >=3.6,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "click-fuzzy"
+readme = "README.md"
+authors = [
+    {name="Amethyst Reese", email="amethyst@n7.gg"},
+]
+license = {file="LICENSE"}
+dynamic = ["version", "description"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "click >= 8",
+    "editdistance >= 0.6",
+]
+
+[project.optional-dependencies]
+dev = [
+    "attribution==1.6.2",
+    "black==23.7.0",
+    "flake8==6.1.0",
+    "flit==3.9.0",
+    "mypy==1.4.1",
+    "ufmt==2.2.0",
+    "usort==1.0.6",
+]
+
+[project.urls]
+Home = "https://github.com/amyreese/click-fuzzy"
+
+[tool.flit.sdist]
+exclude = [
+    ".github/",
+]
+
+[tool.attribution]
+name = "Fuzzy Commands"
+package = "click_fuzzy"
+version_file = true
+ignored_authors = ["dependabot[bot]"]
+signed_tags = true
+
+[tool.mypy]
+strict = true
