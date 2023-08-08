@@ -1,0 +1,8 @@
+amazondata/__init__.py,sha256=GpNCGGoexhLAkL1kJtP41xzrhplL9vYJj3eYrT4nfFA,155
+amazondata/product_details_extractor.py,sha256=XcYI22uXOs420kpcQ5XhCkXrUlkiKy4hprlfBnaZp38,10012
+amazondata/search_result_extractor.py,sha256=HV4TlK0t72z8Q-hDHLrsEXYg4_LhQPedtr4ugRPiEbk,4314
+amazondata-0.0.9.dist-info/LICENSE.txt,sha256=cS-RB72OTIitFx87jLWlKs56Y9Z6EuBEzYg5SJKzqrY,1059
+amazondata-0.0.9.dist-info/METADATA,sha256=bqPDKV4W616f29D311MDmh1Xf6UBqrT24nHD3eMCeLc,2095
+amazondata-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+amazondata-0.0.9.dist-info/top_level.txt,sha256=z8p-x51kxKllW4JidD1Kz8Ggy7z6VyqKGxKDOKi4s1Y,11
+amazondata-0.0.9.dist-info/RECORD,,
