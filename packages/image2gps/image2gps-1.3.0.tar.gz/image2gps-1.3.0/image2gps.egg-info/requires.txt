@@ -1,0 +1,4 @@
+loguru
+pillow
+piexif
+cachetools
