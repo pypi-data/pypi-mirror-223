@@ -1,0 +1,15 @@
+feagi_agent_freenove/ADC.py,sha256=0_DlS-HhVg4VWzKLQo4a7OCFBRcZ7WdjsWCk3l_w44M,2332
+feagi_agent_freenove/Led.py,sha256=PYIvxpLRoDJYrqWjVGUu5KvKVjPpKiH_4cq5pNE2B_o,6123
+feagi_agent_freenove/PCA9685.py,sha256=Pv8yhYRTuAE0N4RkWzV4Vthh_zcMIBaSCclpVGpDOkY,2619
+feagi_agent_freenove/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feagi_agent_freenove/__main__.py,sha256=hGi27n7zKbwAd81Hz4tzACk7NN-0WumyWkO0O7D7icI,2112
+feagi_agent_freenove/configuration.py,sha256=riJENfqUxctdsDJzrapilXCIxrNJ9AZ5JihXQ75Jg6E,2498
+feagi_agent_freenove/controller.py,sha256=47l8357zCj86TOEp3VzGaBBPqexU7g8oj3OWWssT-08,29239
+feagi_agent_freenove/requirements.txt,sha256=q0i9fGItQChW9t1i75mMfTQoxwhEFw6W2DQXNHzBEfM,51
+feagi_agent_freenove/setup.sh,sha256=cfqNEyLYP-EnS9qBZhtJuiM2OJJrilHzu8RxyUqxc4o,1215
+feagi_agent_freenove/verify.sh,sha256=TMfKHfnZAjGJrnsZ0XvfxG9cIL_V--JtTvmrUE8oZAc,1172
+feagi_agent_freenove-0.0.9.dist-info/LICENSE,sha256=3t98W7Lkk6Wb-Q6WnLoN27XYIMlSMYYSL_JfPf2Tjg0,11344
+feagi_agent_freenove-0.0.9.dist-info/METADATA,sha256=i7p7FF-4Z2CehTYfcdTyeOpD5fzEytC6LTY-SeF6ryE,5548
+feagi_agent_freenove-0.0.9.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+feagi_agent_freenove-0.0.9.dist-info/top_level.txt,sha256=PO5rx2AzIQOz0EpaCvWaw6vHFY-pDKwNDqQc1trnaiE,21
+feagi_agent_freenove-0.0.9.dist-info/RECORD,,
