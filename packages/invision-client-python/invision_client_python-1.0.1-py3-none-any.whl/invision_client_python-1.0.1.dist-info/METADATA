@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: invision-client-python
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Hidayathulla Buramdin
+Author-email: hiburami@silabs.com
+License: UNKNOWN
+Keywords: Invision,UTF,Invision Community API
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: urllib3 (>=1.25.3)
+Requires-Dist: python-dateutil
+
+        No description provided
+    
+
