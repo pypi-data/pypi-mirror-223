@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: intelmo
+Version: 1.0.2
+Summary: Interface Toolkit for Extensive Language Models
+Author: Chunxu Yang
+Author-email: chunxuyang@ucla.edu
+License: MIT
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+# INTELMO
+
+INTELMO is a toolkit for creating interactive interfaces for extensible language models. It is designed to be flexible, usable, and automatable.
+
+## Installation
+
+INTELMO is available on PyPI and can be installed with pip:
+
+```bash
+pip install intelmo
+```
+
+## Documentation
+
+The documentation is available at [https://intelmo.github.io](https://intelmo.github.io).
