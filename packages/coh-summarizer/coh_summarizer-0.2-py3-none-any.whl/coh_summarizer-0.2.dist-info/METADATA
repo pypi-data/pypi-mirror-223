@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: coh-summarizer
+Version: 0.2
+Summary: Summarizer tool
+Home-page: https://github.com/ZILiAT-NASK/Summarizer
+Author: ZILiAT-NASK, Adam Nowakowski
+Author-email: adam.nowakowski@nask.pl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: setuptools (>=49.2.0)
+Requires-Dist: numpy (>=1.17.0)
+Requires-Dist: pandas (>=1.0.5)
+Requires-Dist: scikit-learn
+Requires-Dist: spacy
+Requires-Dist: spacy-syllables (==3.0.1)
+Requires-Dist: spacy-transformers
+Requires-Dist: morfeusz2
+Requires-Dist: pexpect
+
+# Summarizer
+Requires model: `pl_nask-0.0.5.tar.gz` from http://mozart.ipipan.waw.pl/~rtuora/spacy/
+
+Install:
+```bash
+python -m pip install path/to/pl_nask-0.0.5.tar.gz
+python -m pip install path/to/summarizer-0.0.1-py3-none-any.whl 
+```
+
+Usage:
+```python
+from summarizer import Summarizer
+
+summarizer = Summarizer()
+text = "..."
+limit = 300
+unit = "words" # "words" or "chars"
+out = summarizer.summarize(text, limit, unit)  # dict or KeyError
+```
+Alternatively use loaded model:
+```python
+import spacy
+from summarizer import Summarizer
+
+nlp = spacy.load('pl_nask')
+summarizer = Summarizer(nlp_model=nlp)
+```
+
+Output dict:
+```
+{
+    'status': str 'correct' or 'failed',
+    'message': str,
+    'summary': str,
+    'event_id': int,
+    'algorithm': str,
+}
+```
+
+`alg_names` should be displayed in the dropdown
+
+`out['message']` should be displayed in task results
+
+
+
+| `event_id` | `message` | `status` |
+|---|---|--- |
+| 0 | None| `correct` |
+| 1 | `Limit wyrazów jest zbyt wysoki. Utworzono podsumowanie zawierające {} wyrazów.` | `correct` |
+| 2 | `Limit wyrazów jest zbyt niski. Utworzono podsumowanie zawierające {} wyrazów.` | `correct` |
+| 10 | `Nie udało się przetworzyć tekstu.` | `failed` |
+| 11 | `Przesłano zbyt krótki tekst.` | `failed` |
+| 12 | `Limit liczby wyrazów jest zbyt wysoki. Nie udało się stworzyć podsumowania.` | `failed` |
+| 13 | `Limit liczby wyrazów jest zbyt niski. Nie udało się stworzyć podsumowania.` | `failed` |
+
+
