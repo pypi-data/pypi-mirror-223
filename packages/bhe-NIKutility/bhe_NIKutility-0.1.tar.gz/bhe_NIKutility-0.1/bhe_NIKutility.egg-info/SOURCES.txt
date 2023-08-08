@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+bhe_NIKutility.egg-info/PKG-INFO
+bhe_NIKutility.egg-info/SOURCES.txt
+bhe_NIKutility.egg-info/dependency_links.txt
+bhe_NIKutility.egg-info/top_level.txt
