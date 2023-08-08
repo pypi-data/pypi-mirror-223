@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/sys_conf.py
+src/system_config_tools.egg-info/PKG-INFO
+src/system_config_tools.egg-info/SOURCES.txt
+src/system_config_tools.egg-info/dependency_links.txt
+src/system_config_tools.egg-info/requires.txt
+src/system_config_tools.egg-info/top_level.txt
