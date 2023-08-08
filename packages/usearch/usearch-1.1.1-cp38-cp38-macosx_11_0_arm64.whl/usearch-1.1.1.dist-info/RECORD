@@ -1,0 +1,13 @@
+usearch/server.py,sha256=TBppxGSNnYxZshGTnUAQgpTWkSmUpT6SXkSeR1aKfBQ,3721
+usearch/compiled.cpython-38-darwin.so,sha256=dM5gf3_P7v4Z3PE1QOm3GFtf4Zjgch_jccHQYbLmF8Q,1375050
+usearch/index.py,sha256=yJrjGVwWuhTj1MWdl-_-n2jaNM0js0MLjPqUFWi_w58,33473
+usearch/numba.py,sha256=EDg7XvMKNkuR3zEuyFYShepNKXZJrYJ0vNeQiefCRHY,3979
+usearch/client.py,sha256=H7nFnscuUk0fcN_dC3pUH6pbDqeLOPnRCVXO2SPoP7Q,4117
+usearch/io.py,sha256=hkoOv1xL73t3STQelN3BGrV86DUQop6zgWFxW8bOFuo,3161
+usearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usearch/eval.py,sha256=PhBG5taCUNFr6FK7xem9VELf3C9VPIinfqOmkUOgk70,14487
+usearch-1.1.1.dist-info/RECORD,,
+usearch-1.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+usearch-1.1.1.dist-info/WHEEL,sha256=cAmSMhM51jaoQL2c0xZbdheisG0h4UWnHJdoFvpW0FI,108
+usearch-1.1.1.dist-info/top_level.txt,sha256=zFbid1SmQjk8RsbEgpqF7tTjgWdFvE2z0e1LQ2hKdPg,8
+usearch-1.1.1.dist-info/METADATA,sha256=XN91PkADeS_LrrjH5OpTe1HKKAy_hDwbAUvDvjo4lfs,17871
