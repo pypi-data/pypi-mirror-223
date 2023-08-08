@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: viking-log-keeper
+Version: 0.4.0
+Summary: 661 VGS - Function to collate 2965D log sheets into a master log and database.
+Author-email: Michael Jennings <mjennings061@gmail.com>
+Project-URL: Homepage, https://github.com/mjennings061/viking-log-keeper
+Project-URL: Repository, https://github.com/mjennings061/viking-log-keeper.git
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pandas ==2.0.2
+Requires-Dist: pymongo[srv] ==4.4.1
+Requires-Dist: xlsxwriter ==3.1.2
+Requires-Dist: openpyxl ==3.1.2
+Requires-Dist: cryptography ==41.0.3
+Requires-Dist: inquirer ==3.1.3
+Requires-Dist: python-dotenv ==1.0.0
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# Log Keeper
+661 VGS - Function to collate 2965D log sheets into a single master log file and database.
+
+## Usage
+1. Ensure python is installed and `python.exe` is added to the path.
+
+2. Sign up to [MongoDB Atlas](https://cloud.mongodb.com) to create your database and collection. It is free for 512 MB.
+
+3. Using powershell, git bash, or command prompt, run the following command.
+
+```bash
+python -m pip install viking-log-keeper
+```
+
+4. Run the log keeper function.
+
+```bash
+python -m log_keeper.main
+```
