@@ -1,0 +1,2 @@
+[console_scripts]
+ankichinese = scrape.scraper:cli
