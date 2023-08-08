@@ -1,0 +1,199 @@
+Metadata-Version: 2.1
+Name: onqlave-python
+Version: 0.1.3
+Summary: This Python SDK is designed to help developers easily integrate Onqlave Encryption As A Service into their python backend.
+Home-page: https://github.com/onqlavelabs/onqlave-python/
+Download-URL: https://pypi.org/project/onqlave-python/#history
+Author: Onqlave Pty
+Author-email: product@onqlave.com
+Maintainer: DC
+Maintainer-email: dc@onqlave.com
+License: MIT
+Project-URL: Home Page, https://www.onqlave.com/
+Project-URL: Issue Tracker, https://github.com/onqlavelabs/onqlave-python/issues
+Project-URL: Source Code, https://github.com/onqlavelabs/onqlave-python/
+Keywords: encryption,privacy,sdk
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Security
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs (==23.1.0)
+Requires-Dist: bleach (==6.0.0)
+Requires-Dist: build (==0.10.0)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: cryptography (==41.0.3)
+Requires-Dist: docutils (==0.20.1)
+Requires-Dist: frozenlist (==1.4.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: importlib-metadata (==6.7.0)
+Requires-Dist: importlib-resources (==5.12.0)
+Requires-Dist: jaraco-classes (==3.2.3)
+Requires-Dist: jeepney (==0.8.0)
+Requires-Dist: keyring (==24.2.0)
+Requires-Dist: markdown-it-py (==3.0.0)
+Requires-Dist: mdurl (==0.1.2)
+Requires-Dist: more-itertools (==9.1.0)
+Requires-Dist: multidict (==6.0.4)
+Requires-Dist: packaging (==23.1)
+Requires-Dist: pip (==23.1.2)
+Requires-Dist: pkginfo (==1.9.6)
+Requires-Dist: pyasn1 (==0.5.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pycryptodome (==3.18.0)
+Requires-Dist: pygments (==2.15.1)
+Requires-Dist: pyproject-hooks (==1.0.0)
+Requires-Dist: readme-renderer (==40.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: requests-toolbelt (==1.0.0)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==13.4.2)
+Requires-Dist: rsa (==4.9)
+Requires-Dist: secretstorage (==3.3.3)
+Requires-Dist: setuptools (==67.8.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: twine (==4.0.2)
+Requires-Dist: typing-extensions (==4.7.1)
+Requires-Dist: urllib3 (==2.0.3)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: wheel (==0.38.4)
+Requires-Dist: yarl (==1.9.2)
+Requires-Dist: zipp (==3.15.0)
+
+This Python SDK is designed to help developers easily integrate Onqlave `Encryption As A Service` into their python backend.
+
+[![CI](https://img.shields.io/static/v1?label=CI&message=passing&color=green?style=plastic&logo=github)](https://github.com/onqlavelabs/onqlave-python/actions)
+[![GitHub release](https://img.shields.io/github/v/release/onqlavelabs/onqlave-python.svg)](https://github.com/onqlavelabs/onqlave-python/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+# Table of Contents
+
+- [Description](#description)
+- [Table of Contents](#table-of-contents)
+	- [Features](#features)
+	- [Installation](#installation)
+		- [Requirements](#requirements)
+		- [Configuration](#configuration)
+		- [Usage](#usage)
+		- [Encrypt](#encrypt)
+		- [Decrypt](#decrypt)
+		- [Encrypt Stream](#encrypt-stream)
+		- [Decrypt Stream](#decrypt-stream)
+	- [Reporting a Vulnerability](#reporting-a-vulnerability)
+
+## Features
+- Encrypt/decrypt pieces of information
+- Encrypt/decrypt stream of data
+
+## Installation
+
+### Requirements
+
+- Python 3.8 and above
+
+### Configuration
+To install, simply using this command:
+
+```bash
+pip install onqlave-python
+```
+You can also check the [package detail on PyPI](https://pypi.org/project/onqlave-python)
+
+## Usage
+To use this SDK, you firstly need to obtain credentials to access an Onqlave Arx by signing up to [Onqlave](https://onqlave.com) and following instruction to create your first Onqlave Arx. Documentation can be found at [Onqlave Technical Documentation](https://docs.onqlave.com).
+
+The [Onqlave Python](https://github.com/onqlavelabs/onqlave-python) module is used to perform operations on the configured Arx such as encrypting and decryptin for an Onqlave Arx. 
+
+To use this module, an Onqlave client should be initialized as follows.
+(Please note that there are 3 ways of loading configurations specified in the **examples/** directory.)
+
+```python
+from onqlave.encryption import options
+from onqlave.encryption.encryption import Encryption
+from onqlave.credentials.credentials import Credential
+from onqlave.connection.client import RetrySettings
+
+cred_file_path = "credentials.json"
+
+arx_option = options.ArxOption()
+credential_option = Credential()
+
+arx_option.load_arx_url_from_json(cred_file_path)
+credential_option.load_config_from_json(cred_file_path)
+
+retry_option = RetrySettings(count=1,wait_time=1,max_wait_time=2) 
+
+encryption_engine = Encryption(
+    debug_option=debug_option,
+    arx_option=arx_option,
+    credential_option=credential_option,
+    retry_setting=retry_option
+)
+```
+
+
+### Encrypt
+
+To encrypt data, use the **encrypt(plaintext: bytearray, associated_data: bytearray)** method of the `Encryption` service. The **plaintext** parameter is the `bytearray` representation of data you are wishing to encrypt. The **associated_data** parameter the `bytearray` representation of associated data which can be used to improve the authenticity of the data (it is not mandatory), as shown below.
+
+```python
+plaintext = "hello world" # your data goes here
+associated_data = "auth" # your authentication data goes here
+cipher_text = encryption_engine.encrypt(plaintext.encode(), associated_data.encode())
+```
+
+### Decrypt
+
+To decrypt data, use the **decrypt(cipher_data: bytearray, associated_data: bytearray)** method of the `Encryption` service. The **cipher_data** parameter is the `bytearray` representation of data you are wishing to decrypt (previousely encrypted). The **associated_data** parameter the `bytearray` representation of associated data which can be used to improve the authenticity of the data (it is not mandatory), as shown below.
+
+```python
+decrypted_ciphertext = encryption_engine.decrypt(cipher_text,associated_data.encode())
+```
+
+### Encrypt Stream
+To encrypt stream of data, use the **encrypt_stream(plain_stream io.Reader, cipher_stream io.Writer, associated_data bytearray)** method of the `Encryption` service. The **plain_stream** parameter is the `io.Reader` stream of data you are wishing to encrypt. The **cipher_stream** parameter is the `io.Write` stream you are wishing to write the cipher data to. The **associated_data** parameter the `bytearray` representation of associated data which can be used to improve the authenticity of the data (it is not mandatory), as shown below.
+
+```python
+plain_file_stream = open("path to your plaintext file","rb")
+plain_stream = io.BytesIO(plain_file_stream.read())
+cipher_stream = io.BytesIO()
+    
+encryption_engine.encrypt_stream(plain_stream,cipher_stream,associated_data.encode())
+cipher_stream.seek(0)
+```
+
+### Decrypt Stream
+To decrypt data, use the **decrypt_stream(cipher_stream io.io.BytesIO, plain_stream io.BytesIO, associated_data []byte)** method of the `Encryption` service. The **cipher_stream** parameter is the `io.BytesIO()` stream of data you are wishing to decrypt and it was originally encrypted using [encrypt_stream](#encrypt-stream). The **plain_stream** parameter is the `io.BytesIO()` stream you are wishing to write the plain data back to. The **associated_data** parameter the `bytearray` representation of associated data which can be used to improve the authenticity of the data (it is not mandatory), as shown below.
+
+```python
+decrypted_stream = io.BytesIO()
+encryption_engine.decrypt_stream(
+    cipher_stream=cipher_stream,
+    plain_stream=decrypted_stream,
+    associated_data=associated_data.encode()
+)
+decrypted_stream.seek(0)
+
+with open(
+    "path to your decrypted file",
+    "wb"
+) as result:
+    result.write(decrypted_stream.read())
+```
+
+## Reporting a Vulnerability
+
+If you discover a potential security issue in this project, please reach out to us at security@onqlave.com. Please do not create public GitHub issues or Pull Requests, as malicious actors could potentially view them.
