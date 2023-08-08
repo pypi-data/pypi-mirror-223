@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+DSTRIAL1.egg-info/PKG-INFO
+DSTRIAL1.egg-info/SOURCES.txt
+DSTRIAL1.egg-info/dependency_links.txt
+DSTRIAL1.egg-info/requires.txt
+DSTRIAL1.egg-info/top_level.txt
+dstrial1.egg-info/PKG-INFO
+dstrial1.egg-info/SOURCES.txt
+dstrial1.egg-info/dependency_links.txt
+dstrial1.egg-info/requires.txt
+dstrial1.egg-info/top_level.txt
