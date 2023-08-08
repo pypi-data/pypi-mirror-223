@@ -1,0 +1,11 @@
+calf_milp/__init__.py,sha256=40Rfz_UMjWH2V43x214966ekKV2oDzd5tRcNGZ_N2Gg,167
+calf_milp/_version.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+calf_milp/calf_milp.py,sha256=vCJPwQ0Nx2Hh_g0EQe-7jZ_o-TWeLl41M1qaLGGbXq0,13268
+calf_milp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calf_milp/tests/test_common.py,sha256=eEbwfRJyLW55zVjPXfPQkRHcm9GIijBYrBvhaONelvs,243
+calf_milp/tests/test_template.py,sha256=tiYbqeZQ63JSlCK9mO8zGPzmpD8lFEvb83Hxke016RY,402
+calf_milp-0.1.2.dist-info/LICENSE,sha256=kYVu2GaP4tjdT1hvOVv8HW96DMBw2fjjWlb2mA0qKTI,1495
+calf_milp-0.1.2.dist-info/METADATA,sha256=DySECuhcgvWsVoABx7AF9RMB2dgipo8nBgQkRRRicdo,3012
+calf_milp-0.1.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+calf_milp-0.1.2.dist-info/top_level.txt,sha256=g2Dl2Xj2sjZp27npRK-8sEfZj77yJXG7jvoST04TWY4,10
+calf_milp-0.1.2.dist-info/RECORD,,
