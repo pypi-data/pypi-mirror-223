@@ -1,0 +1,9 @@
+venv/
+napptive-kubeconfig
+*.json
+!.vscode/*.json
+!tests/fixtures/*.json
+__pycache__/
+jtree.egg-info/
+dist/
+.tox
