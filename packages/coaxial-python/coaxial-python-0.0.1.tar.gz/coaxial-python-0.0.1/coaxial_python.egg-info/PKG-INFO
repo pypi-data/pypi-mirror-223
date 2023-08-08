@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: coaxial-python
+Version: 0.0.1
+Summary: The Coaxial API
+Home-page: https://docs.coaxial.ai/
+Author: Team Coaxial
+Author-email: team@coaxial.ai
+License: MIT
+Keywords: api,client,The Coaxial API
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
+Description-Content-Type: text/markdown
+
+    The Coaxial REST API. Please see https://docs.coaxial.ai for more details.  # noqa: E501
+    
