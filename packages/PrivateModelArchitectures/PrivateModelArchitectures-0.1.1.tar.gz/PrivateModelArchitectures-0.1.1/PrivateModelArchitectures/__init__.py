@@ -1,0 +1,4 @@
+from PrivateModelArchitectures.classification.ResNet import ResNet9
+from PrivateModelArchitectures.classification.SmoothNet import SmoothNet
+from PrivateModelArchitectures.segmentation.LinkNet import LinkNet9
+from PrivateModelArchitectures.segmentation.UNet import UNet9

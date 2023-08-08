@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: PrivateModelArchitectures
+Version: 0.1.1
+Summary: Implementations of torch model architectures that have been proven to work well with DP training
+Home-page: https://github.com/TUM-AIMED/PrivateModelArchitectures
+Author: AIMLAB@TU Munich
+Author-email: alex.ziller@tum.de

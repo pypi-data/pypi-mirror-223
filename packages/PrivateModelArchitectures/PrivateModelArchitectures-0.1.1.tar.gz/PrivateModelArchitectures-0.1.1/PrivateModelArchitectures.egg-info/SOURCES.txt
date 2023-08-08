@@ -1,0 +1,13 @@
+README.md
+setup.py
+PrivateModelArchitectures/__init__.py
+PrivateModelArchitectures.egg-info/PKG-INFO
+PrivateModelArchitectures.egg-info/SOURCES.txt
+PrivateModelArchitectures.egg-info/dependency_links.txt
+PrivateModelArchitectures.egg-info/top_level.txt
+PrivateModelArchitectures/classification/ResNet.py
+PrivateModelArchitectures/classification/SmoothNet.py
+PrivateModelArchitectures/classification/__init__.py
+PrivateModelArchitectures/segmentation/LinkNet.py
+PrivateModelArchitectures/segmentation/UNet.py
+PrivateModelArchitectures/segmentation/__init__.py
