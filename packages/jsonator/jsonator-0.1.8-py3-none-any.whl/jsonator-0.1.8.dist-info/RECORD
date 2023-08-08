@@ -1,0 +1,11 @@
+jsonator/__init__.py,sha256=yyugd4gtVKVblvyycZ8VN8GCqE9bUVllRXJq20uNjqc,3645
+jsonator/__main__.py,sha256=kQjkWqa5R5eft7TxBWGAgB3o-uXrGcHrcweJLCYve28,88
+jsonator/enum.py,sha256=F1GgUUIYDW23JXnnxJqOxpmwzdyes8MGqsIX77Ny0BA,230
+jsonator/jsonator.py,sha256=c25ZmU0s9Pe6TacEFadjFw5qgxDy6w77l_a3wd9knOg,2595
+jsonator/output.py,sha256=LksvpVEY0pBpGmoMZsDdM4njvEF2jRssMaJoEnQg09w,1482
+jsonator/report.py,sha256=zGXPnHbXdiHNefQxjcjregPh21d8S-i20F3vDdtceQg,2679
+jsonator-0.1.8.dist-info/METADATA,sha256=vnYRlKoV_fQre4aELF7gAC_7IoWBqJkI9rDhm9lqkPI,2984
+jsonator-0.1.8.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jsonator-0.1.8.dist-info/entry_points.txt,sha256=6EtC5v_jYIIoG4NV5s21RFVIi47JABFSI_hwAbPHcSM,43
+jsonator-0.1.8.dist-info/licenses/LICENSE,sha256=ziwtPoSFAkmHP1G0Rglvuy0kwIfnlRAbGUHMOgHXlG8,1527
+jsonator-0.1.8.dist-info/RECORD,,
