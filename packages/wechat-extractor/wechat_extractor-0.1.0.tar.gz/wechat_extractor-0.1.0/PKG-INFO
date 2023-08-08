@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: wechat-extractor
+Version: 0.1.0
+Summary: A command-line tool that can extract data from WeChat backup files.
+Home-page: https://github.com/he-yaowen/wechat-extractor
+License: GPL-3.0
+Keywords: wechat,backup,extractor
+Author: HE Yaowen
+Author-email: he.yaowen@hotmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Dist: click (>=8.1.6,<9.0.0)
+Project-URL: Repository, https://github.com/he-yaowen/wechat-extractor.git
+Description-Content-Type: text/x-rst
+
+================
+wechat-extractor
+================
+
+A command-line tool that can extract data from WeChat_ backup files.
+
+-------
+License
+-------
+
+Copyright (C) 2023 HE Yaowen <he.yaowen@hotmail.com>
+
+The GNU General Public License (GPL) version 3, see COPYING_.
+
+.. _WeChat: https://www.wechat.com
+.. _COPYING: https://github.com/he-yaowen/wechat-extractor/blob/master/COPYING
+
