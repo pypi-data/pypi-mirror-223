@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/easymix/__init__.py
+src/easymix.egg-info/PKG-INFO
+src/easymix.egg-info/SOURCES.txt
+src/easymix.egg-info/dependency_links.txt
+src/easymix.egg-info/requires.txt
+src/easymix.egg-info/top_level.txt
