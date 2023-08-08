@@ -1,0 +1,10 @@
+numpy
+scipy
+torch>=1.9.1
+torchvision>=0.9.1
+opencv-python
+wget
+tqdm
+kornia-rs
+kornia_moons
+thinplate@ git+https://github.com/cheind/py-thin-plate-spline
