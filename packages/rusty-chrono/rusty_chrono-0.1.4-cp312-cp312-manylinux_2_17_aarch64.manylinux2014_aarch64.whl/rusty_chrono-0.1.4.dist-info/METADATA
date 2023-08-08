@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: rusty_chrono
+Version: 0.1.4
+License-File: LICENSE
+Summary: Implementation of a datediff function for easier use with python
+Keywords: rust,datediff,date manipulation,datetime,date
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Rusty Chrono Library
