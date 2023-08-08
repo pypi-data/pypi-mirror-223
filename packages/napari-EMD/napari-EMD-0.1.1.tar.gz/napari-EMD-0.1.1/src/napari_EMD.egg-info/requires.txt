@@ -1,0 +1,12 @@
+numpy
+h5py
+magicgui
+ujson
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
