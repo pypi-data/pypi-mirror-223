@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: psychopy-glfw
+Version: 0.0.1
+Summary: GLFW window backend plugin for PsychoPy.
+Home-page: https://github.com/mdcutone/psychopy-glfw
+Author: Matthew D. Cutone
+Author-email: mcutone@opensciencetools.org
+Keywords: psychopy visual window backend screen display
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
