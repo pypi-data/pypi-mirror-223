@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: tko
+Version: 0.0.5
+Summary: tko: Test Engine for Judge Operations
+Home-page: https://github.com/senapk/tko
+Author: David Sena Oliveira
+Author-email: sena@ufc.br
+Project-URL: Bug Reports, https://github.com/senapk/tko/issues
+Project-URL: Source, https://github.com/senapk/tko/
+Keywords: programming,learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# tko - Test Engine for Judge Operations
+
+## Install using pip from git
+
+```bash
+pipx install git+https://github.com/senapk/tko.git 
+```
+
+## Install using pip
+
+```bash
+sudo pip install tko
+```
+
+## Requirements
+
+Python 3.8 or later with all [requirements.txt](requirements.txt)
+dependencies installed, including `build` and `twine`. To install run:
+
+```bash
+python -m pip install -U pip
+pip install -r requirements.txt
+```
