@@ -1,0 +1,7 @@
+bs4
+html5lib
+aiometer
+playwright
+pandas
+genanki
+tqdm
