@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+feedendum/feedendum.egg-info/PKG-INFO
+feedendum/feedendum.egg-info/SOURCES.txt
+feedendum/feedendum.egg-info/dependency_links.txt
+feedendum/feedendum.egg-info/requires.txt
+feedendum/feedendum.egg-info/top_level.txt
+tests/test_atom.py
+tests/test_feed.py
+tests/test_rdf.py
+tests/test_rss.py
