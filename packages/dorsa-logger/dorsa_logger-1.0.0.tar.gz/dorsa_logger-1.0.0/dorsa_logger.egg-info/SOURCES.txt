@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+dorsa_logger/__init__.py
+dorsa_logger/dorsa_logger.py
+dorsa_logger.egg-info/PKG-INFO
+dorsa_logger.egg-info/SOURCES.txt
+dorsa_logger.egg-info/dependency_links.txt
+dorsa_logger.egg-info/requires.txt
+dorsa_logger.egg-info/top_level.txt
