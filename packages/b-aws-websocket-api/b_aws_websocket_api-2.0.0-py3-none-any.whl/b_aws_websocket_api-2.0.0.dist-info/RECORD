@@ -1,0 +1,16 @@
+b_aws_websocket_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b_aws_websocket_api/ws_api.py,sha256=sTAlMMAgW1aDtj4Vm-5VCCoPLdU4ozAav0b2tMiK8wE,2097
+b_aws_websocket_api/ws_deployment.py,sha256=oIp_GH0sYJrlztWb6sihrQGSOjlxbcS6Vh1EXblxUl4,1309
+b_aws_websocket_api/ws_function.py,sha256=9OisKhLdFl4qpOUHMd8ZkiBXNkYSlvwBjNbBy3vG7RE,6261
+b_aws_websocket_api/ws_integration.py,sha256=qgnvgIBmRXVtveUo0BNi3RrLn9nXvkZ-3j43lKxKcmc,4596
+b_aws_websocket_api/ws_lambda_integration.py,sha256=0I7iJz0CaToMlLal5Juptkb69m8CC2Z_sjLcbjhDNX0,1858
+b_aws_websocket_api/ws_route.py,sha256=zLoBk_dOw1OlLPWxeHtj_ntKV4hkFX8JKpw6KAxjrPU,3680
+b_aws_websocket_api/ws_stage.py,sha256=qng9elAM2O3DvlNiwBcE6KSgj55te1tY2hbPWBkfV9w,5986
+b_aws_websocket_api_test/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b_aws_websocket_api_test/tests/test_invoke_function.py,sha256=7M0jo7jMy23XJhRVlydjQ4CPpLK7Hh0o_3vkyhLnN0c,733
+b_aws_websocket_api_test/tests/test_websocket_connection.py,sha256=Ynj0VzNAT7IcVIeiqP2ZeTlBLY_5zLeRfrr8ZWGgtnE,1492
+b_aws_websocket_api-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+b_aws_websocket_api-2.0.0.dist-info/METADATA,sha256=X9GedtwEsvY9EjhbSyoG30Iqe6VNP5kNzWy9NJa1xZA,6541
+b_aws_websocket_api-2.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+b_aws_websocket_api-2.0.0.dist-info/top_level.txt,sha256=af0IG8riWNjD6khmwioknIbxzh7fx8qBk1WdoY7JYJk,45
+b_aws_websocket_api-2.0.0.dist-info/RECORD,,
