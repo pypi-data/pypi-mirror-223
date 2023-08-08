@@ -1,0 +1,6 @@
+tabulate
+
+[test]
+pytest
+coverage
+pytest-cov
