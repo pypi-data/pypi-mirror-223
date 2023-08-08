@@ -1,0 +1,13 @@
+get_reads_taxonomy/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+get_reads_taxonomy/__main__.py,sha256=rggsqbqgtSsa7-71reAwCKWhO-MnwR67LuTSti33TUI,10339
+get_reads_taxonomy/_version.py,sha256=aH_k0nm0Dlc5dr3KjzW7xaB96N8DHWngJJGn7leLL9Y,497
+get_reads_taxonomy/defaults.py,sha256=g9wmqUkxXPDM16hm6azKn2aWwdL-tffnXjxhrr0tghs,2759
+get_reads_taxonomy/extract.py,sha256=1wyJlioYTc2ZXMVNR_EWFBqt9XR5Tr-poRFiLi6N__Q,4687
+get_reads_taxonomy/lib.py,sha256=4kIVDM-j9V4qslg0giV1-whgGY0fTfln40WBEOivdWw,1564
+get_reads_taxonomy/utils.py,sha256=09G5xMs8nHEc0lC12MEYqY5mjYx8V5IxiVG8ev0RwXE,11054
+get_reads_taxonomy-0.0.1.dist-info/LICENSE,sha256=gYzjqeeDCEdMj0RzMqOnyfrdU_gUUBPSzMxsiNrJNyc,1081
+get_reads_taxonomy-0.0.1.dist-info/METADATA,sha256=5XkG-5N0fl27_zc2lJ6eAflyLhxLS_8usFXWZlhp8EQ,618
+get_reads_taxonomy-0.0.1.dist-info/WHEEL,sha256=m9WAupmBd2JGDsXWQGJgMGXIWbQY3F5c2xBJbBhq0nY,110
+get_reads_taxonomy-0.0.1.dist-info/entry_points.txt,sha256=rmNUlEM3B63JCStWCM4NcIlnrTiZWJqNIxMkZKZQRwc,62
+get_reads_taxonomy-0.0.1.dist-info/top_level.txt,sha256=d8NgGlbndrLrpcY8MSlUJnqFqwr2SfVw0cN8Z8uPZUs,19
+get_reads_taxonomy-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+getRTax = get_reads_taxonomy.__main__:main
+
