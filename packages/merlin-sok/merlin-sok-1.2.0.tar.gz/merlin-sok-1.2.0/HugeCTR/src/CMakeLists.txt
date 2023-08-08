@@ -1,0 +1,99 @@
+#
+# Copyright (c) 2023, NVIDIA CORPORATION.
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+cmake_minimum_required(VERSION 3.17)
+find_package(CUDAToolkit)
+set(DB_LIB_PATHS "/usr/local/lib" CACHE PATH "Paths to Hiredis/RocksDB lib")
+
+include(FetchContent)
+
+FetchContent_Declare(
+  pybind11_sources
+  GIT_REPOSITORY https://github.com/pybind/pybind11.git
+  GIT_TAG        master
+)
+FetchContent_GetProperties(pybind11_sources)
+
+if(NOT pybind11_sources_POPULATED)
+  FetchContent_Populate(pybind11_sources)
+  add_subdirectory(
+    ${pybind11_sources_SOURCE_DIR}
+    ${pybind11_sources_BINARY_DIR}
+    )
+endif()
+
+file(
+  GLOB_RECURSE huge_ctr_src 
+  RELATIVE 
+    ${CMAKE_CURRENT_SOURCE_DIR}
+    *.cpp
+    *.cu
+    ../embedding_storage/*.cpp
+    ../embedding_storage/*.cu
+    ../../third_party/dynamic_embedding_table/*.cpp
+    ../../third_party/dynamic_embedding_table/*.cu
+    )
+
+list(REMOVE_ITEM huge_ctr_src "pybind/module_main.cpp")
+list(REMOVE_ITEM huge_ctr_src "inference_benchmark/metrics.cpp")
+add_library(huge_ctr_shared SHARED ${huge_ctr_src})
+
+target_link_libraries(huge_ctr_shared PUBLIC cublas curand cudnn nccl nvToolsExt ${CMAKE_THREAD_LIBS_INIT} stdc++fs tbb hiredis redis++ rocksdb-shared rdkafka)
+
+if(ENABLE_HDFS)
+  target_link_libraries(huge_ctr_shared PUBLIC ${DB_LIB_PATHS}/libhdfs.so)
+endif()
+
+if(ENABLE_S3)
+  target_link_libraries(huge_ctr_shared PUBLIC ${DB_LIB_PATHS}/libaws-cpp-sdk-core.so ${DB_LIB_PATHS}/libaws-cpp-sdk-s3.so)
+endif()
+
+if(ENABLE_GCS)
+  target_link_libraries(huge_ctr_shared PUBLIC google_cloud_cpp_storage)
+endif()
+
+if(MPI_FOUND)
+  target_link_libraries(huge_ctr_shared PUBLIC cublas cublasLt curand cudnn nccl nvToolsExt ${CMAKE_THREAD_LIBS_INIT} ${MPI_CXX_LIBRARIES} hwloc ucp ucs ucm uct numa ibverbs gdrapi stdc++fs)
+  message(STATUS "${MPI_CXX_LIBRARIES}")
+else()
+  target_link_libraries(huge_ctr_shared PUBLIC cublas cublasLt curand cudnn nccl nvToolsExt ${CMAKE_THREAD_LIBS_INIT} numa stdc++fs)
+endif()
+
+if(NOT DISABLE_CUDF)
+  target_link_libraries(huge_ctr_shared PUBLIC cudf)
+  if(Parquet_FOUND)
+    target_link_libraries(huge_ctr_shared PUBLIC parquet)
+  endif()
+endif()
+
+if (ENABLE_MULTINODES)
+  if (SHARP_FOUND)
+    target_link_libraries(huge_ctr_shared PRIVATE sharp sharp_coll)
+  else()
+    message(FATAL_ERROR "Multi-node enabled but SHARP not found")
+  endif()
+endif()
+
+target_link_libraries(huge_ctr_shared PRIVATE nlohmann_json::nlohmann_json aio numa hugectr_core23 embedding)
+target_link_libraries(huge_ctr_shared PUBLIC gpu_cache)
+target_compile_features(huge_ctr_shared PUBLIC cxx_std_17)
+target_link_libraries(huge_ctr_shared PUBLIC CUDA::nvml /usr/local/cuda/lib64/stubs/libcuda.so /usr/local/cuda/lib64/stubs/libnvidia-ml.so)
+set_target_properties(huge_ctr_shared PROPERTIES CUDA_RESOLVE_DEVICE_SYMBOLS ON)
+set_target_properties(huge_ctr_shared PROPERTIES CUDA_ARCHITECTURES OFF)
+
+add_library(hugectr MODULE pybind/module_main.cpp)
+target_link_libraries(hugectr PUBLIC pybind11::module python$ENV{PYTHON_VERSION} ${CUDA_LIBRARIES} huge_ctr_shared)
+set_target_properties(hugectr PROPERTIES PREFIX "")
+target_link_libraries(huge_ctr_shared PUBLIC hugectr_core23)
