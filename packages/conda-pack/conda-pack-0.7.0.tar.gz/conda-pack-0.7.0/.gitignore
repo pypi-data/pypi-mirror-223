@@ -1,0 +1,10 @@
+testing/conda/*
+build
+dist
+*.egg-info
+.gitignore.swp
+.cache
+.coverage
+htmlcov/
+.pytest_cache/
+__pycache__/
