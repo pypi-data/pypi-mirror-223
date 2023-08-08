@@ -1,0 +1,9 @@
+
+[tests]
+pytest
+pytest-invenio
+black
+autoflake
+isort
+pyyaml
+opensearch-dsl
