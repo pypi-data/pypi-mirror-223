@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "dup-hawk"
+version = "0.0.12"
+description = "Python CLI for marking duplicates submissions on GitHub."
+authors = ["PatrickAlphac <54278053+PatrickAlphaC@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{ include = "dup_hawk" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+click = "^8.1.4"
+pytest = "^7.4.0"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+openai = "^0.27.8"
+matplotlib = "^3.7.2"
+plotly = "^5.15.0"
+pandas = "^2.0.3"
+scipy = "^1.11.1"
+scikit-learn = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dup-hawk = 'dup_hawk.dup_hawk:dup_hawk_click'
