@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "check_gitlab_scheduler"
+version = "1.0.0"
+description = "Check Gitlab Scheduled Pipelines and its jobs for errors."
+readme = "README.md"
+authors = ["Christopher Grau", "Sebastian Gumprich", "Julian Mühmelt"]
+license = "GPL-3.0-only"
+homepage = "https://github.com/telekom-mms/check_gitlab_scheduler"
+repository = "https://github.com/telekom-mms/check_gitlab_scheduler"
+documentation = "https://github.com/telekom-mms/check_gitlab_scheduler"
+
+[tool.poetry.scripts]
+check_gitlab_scheduler = "check_gitlab_scheduler:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.group.dev.dependencies]
+tox = "^4.6.4"
+ruff = "^0.0.282"
+isort = "^5.12.0"
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
