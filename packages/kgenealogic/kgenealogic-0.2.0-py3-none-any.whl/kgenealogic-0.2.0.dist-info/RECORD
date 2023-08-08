@@ -1,0 +1,13 @@
+examples/config.yaml,sha256=6-_ICri3MjdgkJ1Q2Da15kV5r0DnvLNtlqz11STIh9A,1012
+kgenealogic/__init__.py,sha256=u3-3QJrXy44A-APf0iWHNARKpDwrvHHjSj9_Q1YF--U,237
+kgenealogic/__main__.py,sha256=pFunfG0ZniyqG8oWUg_zyv5_qer_NummZ19A72whAzE,165
+kgenealogic/cli.py,sha256=pGuSSeRq4Ft92T212gdwpWEWZl7yi_GD8SLz6rjqeEQ,8615
+kgenealogic/cluster.py,sha256=qIO2SNrr7eHti7r6u2fzVjmljAGVectX8Mh9NhMYkt0,17927
+kgenealogic/data.py,sha256=OU0mopcYUHuq0JtXemV-N2Oq8aEWmayJhXTaAxuC7PI,8621
+kgenealogic/files.py,sha256=dQ6UiM1ieLIixqFVjs_bXVwCEIMu87JZF24hdURrk4I,5934
+kgenealogic/genetmap.csv,sha256=NV1dAlnbrXqtLs-IYtOoX0CxygDUSOAMzYm68-Z3i0w,703233
+kgenealogic/schema.py,sha256=T8iBv12QlkRsAgQat9OTtSh9EgJKUXSblq22jX_G2yw,5054
+kgenealogic-0.2.0.dist-info/LICENSE,sha256=88egj__vh10pjMXFW2A9hzYYLprxZ0iIqFvYCGoCeks,1146
+kgenealogic-0.2.0.dist-info/METADATA,sha256=g8bmeSwp6H4GLs2KySUM0N-sN43RP7eFNPp7QenWkIM,3838
+kgenealogic-0.2.0.dist-info/WHEEL,sha256=WGfLGfLX43Ei_YORXSnT54hxFygu34kMpcQdmgmEwCQ,88
+kgenealogic-0.2.0.dist-info/RECORD,,
