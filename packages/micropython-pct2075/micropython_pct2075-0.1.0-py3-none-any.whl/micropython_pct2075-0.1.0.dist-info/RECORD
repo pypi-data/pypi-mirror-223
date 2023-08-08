@@ -1,0 +1,8 @@
+micropython_pct2075/__init__.py,sha256=h516rULt96lpt1ICaL--0owMQGMZZ-9898wwzLCyjNQ,130
+micropython_pct2075/i2c_helpers.py,sha256=NpTHTfMqwDxE81oy4ugubALLMizwfTmHJC5iKZmp3e4,3969
+micropython_pct2075/pct2075.py,sha256=Bh8ClsAHhlZBfDYKcvPXJegg3prY_6EBp-qvBB6Zxtc,5957
+micropython_pct2075-0.1.0.dist-info/LICENSE,sha256=PsONY_yddKoXWHkl2yom4jx_YStWefPD56ONQZe8YXw,1139
+micropython_pct2075-0.1.0.dist-info/METADATA,sha256=HbVFIHRpZuXp4X5s_kNuPNPtRSsb66MTT7Xen2OIg8k,3194
+micropython_pct2075-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+micropython_pct2075-0.1.0.dist-info/top_level.txt,sha256=w37eSG5XFcXnwqhqtOHGXmPC5WuPPgYrQygkBhUoKb0,20
+micropython_pct2075-0.1.0.dist-info/RECORD,,
