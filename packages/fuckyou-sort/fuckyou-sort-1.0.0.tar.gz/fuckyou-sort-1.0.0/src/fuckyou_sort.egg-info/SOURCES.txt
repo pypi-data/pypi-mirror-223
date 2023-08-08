@@ -1,0 +1,13 @@
+LICENCE
+MANIFEST.in
+README.md
+pyproject.toml
+src/fuckyou_sort/__init__.py
+src/fuckyou_sort/__main__.py
+src/fuckyou_sort/fuckyou_sort.py
+src/fuckyou_sort.egg-info/PKG-INFO
+src/fuckyou_sort.egg-info/SOURCES.txt
+src/fuckyou_sort.egg-info/dependency_links.txt
+src/fuckyou_sort.egg-info/entry_points.txt
+src/fuckyou_sort.egg-info/requires.txt
+src/fuckyou_sort.egg-info/top_level.txt
