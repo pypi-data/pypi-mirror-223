@@ -1,0 +1,3 @@
+[console_scripts]
+cmn=cmn.__main__:main
+
