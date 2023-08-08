@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+x9/__init__.py
+x9/gui.py
+x9/improved_math.py
+x9/x9.py
+x9.egg-info/PKG-INFO
+x9.egg-info/SOURCES.txt
+x9.egg-info/dependency_links.txt
+x9.egg-info/top_level.txt
