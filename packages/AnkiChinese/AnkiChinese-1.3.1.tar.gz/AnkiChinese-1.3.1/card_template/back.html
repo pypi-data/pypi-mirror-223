@@ -1,0 +1,46 @@
+<script>
+    var injectScript = (src) => {
+        return new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = src;
+            script.async = true;
+            script.onload = resolve;
+            script.onerror = reject;
+            document.head.appendChild(script);
+        });
+    };
+
+    (async () => {
+        if (window.navigator.onLine) {
+            if (typeof HanziWriter === "undefined") {
+                await injectScript("https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js");
+            }
+
+            var writer = HanziWriter.create('diagram', '{{Hanzi}}', {
+                width: 300,
+                height: 300,
+                radicalColor: '#337ab7',
+                showCharacter: false,
+                showOutline: true,
+                delayBetweenStrokes: 100,
+                padding: 5
+            });
+
+            writer.loopCharacterAnimation();
+        }
+        else {
+            document.querySelector("#strokeOrder").style.display = "block"
+        }
+
+    })();
+</script>
+
+{{FrontSide}}
+
+<hr id=answer>
+<div class=notes style='color:gray'>HSK: {{HSK}}</div>
+<a id="strokeOrder" href="plecoapi://x-callback-url/df?hw={{Hanzi}}">{{Hanzi}}</a>
+<a id="diagram" href="plecoapi://x-callback-url/df?hw={{Hanzi}}"></a>
+
+<p>{{Words}}</p>
+<p>{{Formation}}</p>
