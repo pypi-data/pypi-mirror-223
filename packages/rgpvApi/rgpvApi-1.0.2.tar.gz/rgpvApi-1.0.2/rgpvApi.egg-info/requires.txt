@@ -1,0 +1,6 @@
+pytesseract
+requests
+beautifulsoup4
+
+[dev]
+twine
