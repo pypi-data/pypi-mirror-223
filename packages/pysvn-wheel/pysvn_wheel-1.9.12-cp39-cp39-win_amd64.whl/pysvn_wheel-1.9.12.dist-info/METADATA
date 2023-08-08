@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pysvn-wheel
+Version: 1.9.12
+Summary: Subversion support for Python
+Home-page: http://pysvn.tigris.org
+Author: Barry Scott
+Author-email: barryscott@tigris.org
+License: Apache Software License
+Keywords: subversion
+Platform: win32
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+The pysvn module is a python interface to the Subversion version control system. It depends on the native Apache Subversion client which is part of this package. Additionally on Windows platform a VC++ Redistributable suitable for your Python version have to be installed.
