@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: dubo
+Version: 0.2.5
+Summary: Analytics made simple
+License: MIT
+Author: Andrew Duberstein
+Author-email: ajduberstein@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: altair (>=5.0.1,<6.0.0)
+Requires-Dist: pandas (>=1.0.0,<2.0.0)
+Requires-Dist: pydeck (>=0.8.0,<0.9.0)
+Description-Content-Type: text/markdown
+
+dubo
+====
+
+dubo is a client for running LLMs against DataFrames and other 2D data.
+
+It is currently in an alpha release and not yet ready for use in production pipelines.
+
