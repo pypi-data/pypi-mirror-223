@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: markovchainswithcoef
+Version: 2.0
+Summary: Add-On to markovclick module for Markov's chain with date-time koef and draw module on pygraphviz
+Home-page: https://github.com/chaparr0/markovchainswithcoef
+Author: chaparr0 (K.R.V. and K.A.M.)
+Author-email: madeingoa@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+
+Add-On to markovclick module for Markov's chain with date-time koef and draw module on pygraphviz

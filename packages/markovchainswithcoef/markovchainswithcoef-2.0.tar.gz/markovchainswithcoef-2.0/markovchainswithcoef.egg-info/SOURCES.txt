@@ -1,0 +1,10 @@
+LICENSE
+setup.cfg
+setup.py
+markovchainswithcoef/__init__.py
+markovchainswithcoef/markovchains.py
+markovchainswithcoef.egg-info/PKG-INFO
+markovchainswithcoef.egg-info/SOURCES.txt
+markovchainswithcoef.egg-info/dependency_links.txt
+markovchainswithcoef.egg-info/requires.txt
+markovchainswithcoef.egg-info/top_level.txt

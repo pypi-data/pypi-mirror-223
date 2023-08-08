@@ -1,0 +1,5 @@
+numpy
+markovclick
+pygraphviz
+pypdf
+scikit-learn
