@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.cfg
+setup.py
+lopl_package/__init__.py
+lopl_package/vizualizer.py
+lopl_package.egg-info/PKG-INFO
+lopl_package.egg-info/SOURCES.txt
+lopl_package.egg-info/dependency_links.txt
+lopl_package.egg-info/requires.txt
+lopl_package.egg-info/top_level.txt

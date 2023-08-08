@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lopl_package
+Version: 0.1
+Summary: LOPL stands for Leo's Own Programming Language and can be used to help visualize behind the scene functionality in your code. I created this programming language while reading Crafting Interpreters. It is a mix of C and JavaScript, but uses the Python Virtual Machine.
+Home-page: https://github.com/leocarten/lopl
+Download-URL: https://github.com/leocarten/lopl/archive/refs/tags/v_01.tar.gz
+Author: Leo Carten
+Author-email: lcarten14@gmail.com
+License: MIT
+Keywords: code visualizer,bytecode
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
