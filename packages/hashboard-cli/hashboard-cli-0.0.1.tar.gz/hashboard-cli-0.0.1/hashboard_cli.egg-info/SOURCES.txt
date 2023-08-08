@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+hashboard_cli.egg-info/PKG-INFO
+hashboard_cli.egg-info/SOURCES.txt
+hashboard_cli.egg-info/dependency_links.txt
+hashboard_cli.egg-info/top_level.txt
