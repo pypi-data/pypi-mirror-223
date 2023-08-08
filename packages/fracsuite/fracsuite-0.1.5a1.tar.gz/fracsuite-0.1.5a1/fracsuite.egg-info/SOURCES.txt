@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+fracsuite/__init__.py
+fracsuite/__main__.py
+fracsuite/analyzer.py
+fracsuite/splinter.py
+fracsuite.egg-info/PKG-INFO
+fracsuite.egg-info/SOURCES.txt
+fracsuite.egg-info/dependency_links.txt
+fracsuite.egg-info/requires.txt
+fracsuite.egg-info/top_level.txt
