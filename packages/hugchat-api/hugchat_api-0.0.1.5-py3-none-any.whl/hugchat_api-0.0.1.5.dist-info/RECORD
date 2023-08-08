@@ -1,0 +1,16 @@
+hugchat_api/__init__.py,sha256=y0LVce3TWyrUgLa5svpEnFMw3ztyYN49cT3IBC8EVcs,327
+hugchat_api/terminal_cli.py,sha256=4yY11PTHbQyDJ-r8hlaGl9FhYd-Wyp9XMK0M3IHeRBY,6790
+hugchat_api/core/Bot.py,sha256=w5W9fT3EMJ6zqtNGatpIEQL_ebwOQcHnujl6oEBNS-8,13749
+hugchat_api/core/Exceptions.py,sha256=refpa12ahQvww0OzQul15Vtw00bp06M6IXPS34RFjvg,55
+hugchat_api/core/ListBots.py,sha256=1oc6SXn_5U5tzof-jXgHXP1pzywRzTm7AkM3BmdRbOo,115
+hugchat_api/core/Message.py,sha256=5EKCjyGgeJ3wWzbSNCuzqiOFmFlYdCQ3y9LeCqkk_Z4,1641
+hugchat_api/core/Sign.py,sha256=Y7hFR1R2poqhQTfKy00pj4Auf3Q8zRsDCiSv643C2QU,7133
+hugchat_api/core/ThreadPool.py,sha256=UWdY9IFnBlCB5G6y5OKOt0PeCYSM_jcM3mkfcg6iKVo,1278
+hugchat_api/core/WebSearch.py,sha256=H5KUOFZovvzgiIgXR2ds0oPqbZZvKz09FpXlflZZcHk,4247
+hugchat_api/core/__init__.py,sha256=BI_4io-b78qGMP4KNGrzDqvt7i6D7BUSWdPs4Nt0alI,774
+hugchat_api/utils/__init__.py,sha256=t0MCH1V_ZuBB8h1qanPdzAepVwuoJWf0_L3ClHrqymE,1726
+hugchat_api-0.0.1.5.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+hugchat_api-0.0.1.5.dist-info/METADATA,sha256=fyQpl4xpFy_EJXAFMDoHV-4TB5lii-9rLyVw4wR4PWw,6306
+hugchat_api-0.0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hugchat_api-0.0.1.5.dist-info/top_level.txt,sha256=zGqlWTTQ5_Iyup3_azrElzcj8AQESzoRRKOUJzw7RqI,12
+hugchat_api-0.0.1.5.dist-info/RECORD,,
