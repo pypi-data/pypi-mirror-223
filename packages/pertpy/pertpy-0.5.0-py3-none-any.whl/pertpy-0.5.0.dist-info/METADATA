@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: pertpy
+Version: 0.5.0
+Summary: Perturbation Analysis in the scverse ecosystem.
+Home-page: https://github.com/theislab/pertpy
+License: MIT
+Author: Lukas Heumos
+Author-email: lukas.heumos@posteo.net
+Requires-Python: >=3.9.0,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Provides-Extra: ete3
+Requires-Dist: PyYAML (>=5.4.1)
+Requires-Dist: adjusttext (>=0.7.3)
+Requires-Dist: arviz (>=0.14)
+Requires-Dist: decoupler (>=1.3.4,<2.0.0)
+Requires-Dist: ete3 (>=3.1.2,<4.0.0) ; extra == "ete3"
+Requires-Dist: ipywidgets (>=7.6.5)
+Requires-Dist: muon (>=0.1.2)
+Requires-Dist: numba (>=0.57.1,<0.58.0)
+Requires-Dist: numpyro (>=0.10.1)
+Requires-Dist: ott-jax (>=0.4.0,<0.5.0)
+Requires-Dist: plotnine (>=0.10.1)
+Requires-Dist: pyqt5 (>=5.15.9,<6.0.0)
+Requires-Dist: requests (>=2.27.1)
+Requires-Dist: rich (>=10.11.0)
+Requires-Dist: scanpy[leiden] (>=1.9.3,<2.0.0)
+Requires-Dist: scikit-misc (>=0.1.4)
+Requires-Dist: scipy (>=1.9.3)
+Requires-Dist: scvi-tools (>=0.20.3)
+Requires-Dist: sparsecca (>=0.3.0)
+Requires-Dist: statannotations (>=0.5.0,<0.6.0)
+Requires-Dist: switchlang (>=0.1.0)
+Requires-Dist: toytree (>=2.0.1,<3.0.0)
+Project-URL: Documentation, https://pertpy.readthedocs.io
+Project-URL: Repository, https://github.com/theislab/pertpy
+Description-Content-Type: text/markdown
+
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Build](https://github.com/theislab/pertpy/workflows/Build%20pertpy%20Package/badge.svg)](https://github.com/theislab/pertpy/actions?workflow=Package)
+[![Codecov](https://codecov.io/gh/theislab/pertpy/branch/master/graph/badge.svg)](https://codecov.io/gh/theislab/pertpy)
+[![License](https://img.shields.io/github/license/theislab/pertpy)](https://opensource.org/licenses/Apache2.0)
+[![PyPI](https://img.shields.io/pypi/v/pertpy.svg)](https://pypi.org/project/pertpy/)
+[![Python Version](https://img.shields.io/pypi/pyversions/pertpy)](https://pypi.org/project/pertpy)
+[![Read the Docs](https://img.shields.io/readthedocs/pertpy/latest.svg?label=Read%20the%20Docs)](https://pertpy.readthedocs.io/)
+[![Test](https://github.com/theislab/pertpy/workflows/Run%20pertpy%20Tests/badge.svg)](https://github.com/theislab/pertpy/actions?workflow=Tests)
+[![PyPI](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+# pertpy
+
+![pertpy-wide1](https://user-images.githubusercontent.com/21954664/235677503-0c72f90d-3f6d-4a16-a1ff-ff8c11a540fb.png)
+
+## Documentation
+
+Please read the [documentation](https://pertpy.readthedocs.io/en/latest).
+
+## Installation
+
+You can install _pertpy_ via [pip] from [PyPI]:
+
+```console
+$ pip install pertpy
+```
+
+## Credits
+
+This package was created with [cookietemple] using [Cookiecutter] based on [Hypermodern_Python_Cookiecutter].
+
+[cookiecutter]: https://github.com/audreyr/cookiecutter
+[cookietemple]: https://cookietemple.com
+[hypermodern_python_cookiecutter]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
+[pip]: https://pip.pypa.io/
+[pypi]: https://pypi.org/
+[usage]: https://pertpy.readthedocs.io/en/latest/usage/usage.html
+
