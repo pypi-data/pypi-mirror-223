@@ -1,0 +1,10 @@
+fastws/__init__.py,sha256=9YfkmphBaom-GgkDIXrpJTtjHD-xJPDO4sxOe1Wr3pQ,437
+fastws/application.py,sha256=YsWu5b0iYnzEl3U7typDeuw20pSKd7jUpLwF5U2Xih0,6891
+fastws/asyncapi.py,sha256=C1E9iOT8wqKc9gMsnJvAi0fCSWmkteGfcErVWBUGtLA,1643
+fastws/broker.py,sha256=alnEu7kV9OsKeleYe-cBQrqOvBUWMyexykoGPwdKnQo,4505
+fastws/docs.py,sha256=PhE9ymhb7dmKvS8h9OIqQNO6V0fcHhF3QN-K7kGIL9Q,6404
+fastws/routing.py,sha256=PKjrqEB61ungWqQJQNSRboEXSEAvPFfPLCxRI_K2x2w,7148
+fastws-0.1.7.dist-info/LICENSE,sha256=Teda2Z75XeOQMC-lqmZuadTXBzxOG0RcJM7VNhR0_Ok,1077
+fastws-0.1.7.dist-info/METADATA,sha256=K3WXGziGscgzYiOktrr9tidy6HSyYl2IPqePgYhYBCo,11609
+fastws-0.1.7.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fastws-0.1.7.dist-info/RECORD,,
