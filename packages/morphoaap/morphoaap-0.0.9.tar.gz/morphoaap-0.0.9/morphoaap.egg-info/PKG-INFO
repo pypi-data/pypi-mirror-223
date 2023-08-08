@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: morphoaap
+Version: 0.0.9
+Summary: A simple library for adative attribute profiles
+Home-page: https://github.com/wonderalexandre/aap
+Author: Wonder Alexandre Luz Alves
+Author-email: worderalexandre@gmail.com
+License: GPL-3.0
+Description: UNKNOWN
+Keywords: attribute profiles,mathematical morphology,morphological trees
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Programming Language :: Python
