@@ -1,0 +1,84 @@
+image: docker:20.10.16
+variables:
+  DOCKER_TLS_CERTDIR: "/certs"
+  RUST_VERSION: stable
+  TAG: "latest"
+
+services:
+  - docker:20.10.16-dind 
+
+stages:
+  # - image
+  # - test
+  - build
+  # - publish
+
+
+# build_Rust_Python_image:
+#   stage: image
+#   before_script:
+#     - docker info
+#   script:
+#     - docker build -t "$DOCKER_HUB_REGISTRY/rust_python:$TAG" .
+#     - docker login --username "$DOCKER_HUB_USERNAME" --password "$DOCKER_HUB_TOKEN"
+#     - docker push "$DOCKER_HUB_REGISTRY/rust_python:$TAG"
+
+# rust_tests:
+#   stage: test
+#   image: "$DOCKER_HUB_REGISTRY/rust_python:$TAG"
+#   script:
+#     - cargo clean
+#     - cargo test --verbose
+
+update_project_version:
+  stage: build
+  image: python:alpine
+  script:
+    - pip install requests toml
+    - python version_update_script.py
+  artifacts:
+    untracked: false
+    when: on_success
+    expire_in: "60 min"
+    paths:
+      - ./Cargo.toml
+
+# build_project_manylinux:
+#   stage: build
+#   script:
+#     - docker run --rm -v $(pwd):/io ghcr.io/pyo3/maturin build --release --sdist
+#   artifacts:
+#     untracked: true
+#     when: on_success
+#     expire_in: "60 min"
+#     paths:
+#       - target/wheels/*
+#   needs:
+#     - update_project_version
+#   dependencies:
+#     - update_project_version
+
+build_project_macos:
+  stage: build
+  image: python:alpine
+  script:
+    - apk add --no-cache gcc musl-dev libffi-dev openssl-dev cargo
+    - pip install maturin patchelf
+    - maturin build --release --interpreter python --verbose
+  artifacts:
+    paths:
+      - target/wheels
+  needs:
+    - update_project_version
+  dependencies:
+    - update_project_version
+
+# publish_package:
+#   stage: publish
+#   image: python:alpine
+#   script:
+#     - pip install twine
+#     - ls target/wheels/
+#     - twine upload --verbose --username "$DOCKER_HUB_USERNAME" --password "$PYPI_PASSWORD" target/wheels/*
+#   dependencies:
+#     - build_project
