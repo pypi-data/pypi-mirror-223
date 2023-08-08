@@ -1,0 +1,25 @@
+
+[docs]
+enthought-sphinx-theme
+pygments<2.15
+Sphinx
+sphinx-copybutton
+
+[examples]
+numpy
+pillow
+
+[test]
+Cython
+flake8
+flake8-ets
+mypy
+numpy
+pyface
+pygments<2.15
+setuptools
+Sphinx
+traitsui
+
+[test:python_version >= "3.7" and python_version < "3.12"]
+PySide6
