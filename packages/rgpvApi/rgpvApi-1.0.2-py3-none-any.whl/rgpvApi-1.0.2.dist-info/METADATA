@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: rgpvApi
+Version: 1.0.2
+Summary: RGPV API wrapper, written in Python.
+Home-page: https://github.com/cro2003/rgpvApi
+Author: cro2003
+Author-email: cro@chirag.software
+License: MIT
+Project-URL: Documnetation, https://cro2003.github.io/rgpvApi/
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pytesseract
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+
+# RGPV API
+RGPV API wrapper, written in Python.
+
+## Installation
+Install using Pypi:
+```bash
+pip install rgpvApi
+```
+
+## Usage
+Example code to get Main Result:
+```python
+import rgpvApi
+
+enrollId = ENROLLMENT_NUMBER
+courseId = COURSE_ID
+sem = SEMESTER
+
+stu_result = rgpvApi.result(enrollId, courseId)
+
+print(stu_result.getMain(sem))
+```
+
+## Contact 
+Chirag
+<br>[cro@chirag.software](mailto:cro@chirag.software) 
+
