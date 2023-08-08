@@ -1,0 +1,3 @@
+[console_scripts]
+dropmate=dropmate_py.cli:dropmate_cli
+
