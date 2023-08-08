@@ -1,0 +1,11 @@
+estyp/__init__.py,sha256=oPf50ajPhUNlxY2mDb2joFUwbbzEuaAvT1qpqd2FNXE,125
+estyp/cluster/__init__.py,sha256=jrnJZnuMcca67mtdJEKMPedCJ026-bXePnciWUe0IvU,18957
+estyp/linear_model/__init__.py,sha256=ie601ZURW2-4aiYRaOYcu0jcqTjq3C2uH_kCvH1Cius,7739
+estyp/linear_model/stepwise/__init__.py,sha256=g3NkpbYwBUg9ZHJSHdz_zuJlGXwa_FGhTffbraAVpAE,3830
+estyp/linear_model/stepwise/__base/__init__.py,sha256=uWvC9NNoWbvIrKlPogriY55FdahujT7bh6927i3ahWE,5591
+estyp/testing/__init__.py,sha256=8PnUfyoELYIRvuZZ87RcIUbe2LRxkOqgoxknDUyUvQ8,25775
+estyp/testing/__base/__init__.py,sha256=-LOt0D9x7AYNygM6WiG0mrNogOVYZjfdzcHvggayUbU,32299
+estyp-0.6.0.dist-info/METADATA,sha256=O74hlyJj_ttaYNkXI30FdqeQmiM_-z7NK8OhodQFdbI,6305
+estyp-0.6.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+estyp-0.6.0.dist-info/licenses/LICENSE,sha256=EenxRerswcXKa-fPOIYjPCj8UYW4KJKt4ebutjLT8z0,1101
+estyp-0.6.0.dist-info/RECORD,,
