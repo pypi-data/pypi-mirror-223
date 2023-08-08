@@ -1,0 +1,11 @@
+redvid/__init__.py,sha256=Jqu1Jh8Dq8XAJXtFqMVq8axZDnC48EvVbj5dMnjeJ4o,267
+redvid/__main__.py,sha256=Za6H-QXw8m7nSkly9K5ptMcVsAwunnFJoWQYBRm8_EM,3204
+redvid/redvid.py,sha256=EnYbXO04JH4w1KQZlBv14UpgeI_toaE-jBzMogiQowM,8658
+redvid/requestmaker.py,sha256=XwlDParDWfrvJ--bW9rn3bMZtGZ4SkW-RtSYanvy1mc,23476
+redvid/tools.py,sha256=ksu-D__joU9LFdmFyNPt0JKv9hjTyJTP9CH73SokI7Y,2973
+redvid-2.0.0.dist-info/LICENSE,sha256=ontG0XJaE_qG_eAgNeNlNxbBgSCLsbOlYTYAND2Vcn8,1074
+redvid-2.0.0.dist-info/METADATA,sha256=SDd2GyHYP765tJ6SLL7WYlCuVhNG2kaU-e0X7kj_iD8,6221
+redvid-2.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+redvid-2.0.0.dist-info/entry_points.txt,sha256=Owh47HdZSQWdCVD3ArweK_4QVWYUkWjgboQWubQFodQ,47
+redvid-2.0.0.dist-info/top_level.txt,sha256=wob26uYIvdDIS8WorkrewTzPEWyBnB-jdgFb-lqC2PA,7
+redvid-2.0.0.dist-info/RECORD,,
