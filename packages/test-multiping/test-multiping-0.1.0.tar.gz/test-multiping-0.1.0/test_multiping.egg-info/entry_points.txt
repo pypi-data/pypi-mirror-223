@@ -1,0 +1,2 @@
+[console_scripts]
+test-multiping = test_multiping.multiplication:main
