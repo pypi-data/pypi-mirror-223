@@ -1,0 +1,11 @@
+pytest_litter/__init__.py,sha256=6NAt08Rtd0JZp7gHRov2g4HU9CW09kDZdpdgAWETVng,72
+pytest_litter/snapshots.py,sha256=hOXBBJ2MgaNrQPLrujfLv500Ytx33i4irgNLjNs8xEw,6452
+pytest_litter/plugin/__init__.py,sha256=OgjW013yOlNYDuaQ6qIjU2ouY85GjdHMtUCEoK8cEEQ,26
+pytest_litter/plugin/plugin.py,sha256=C-VxpGRfn7-6-BR6yBxVqHAc1s_aZHj_W_JxtUbrabA,1674
+pytest_litter/plugin/utils.py,sha256=lTJBlWzPF-V1N-rSzCpkiPGk2rWa1EBM1pkEWH0I9CE,2301
+pytest_litter-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_litter-0.0.3.dist-info/METADATA,sha256=ZPkW01VgUjLIhA-U7SR9egiW98_KWhMlWTpdR2MYYnA,14015
+pytest_litter-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pytest_litter-0.0.3.dist-info/entry_points.txt,sha256=PpEyW8bfV67bHIKLk0PJx4eJ11eyE8vbzjQZWUZstJI,55
+pytest_litter-0.0.3.dist-info/top_level.txt,sha256=zqn3nljochB0OX3OGRhHk8loGeXLpWa4p-XwPBG7Ggg,14
+pytest_litter-0.0.3.dist-info/RECORD,,
