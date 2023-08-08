@@ -1,0 +1,10 @@
+attrs>22
+paho-mqtt~=1.5.0
+
+[tests]
+pytest
+pytest-asyncio
+pytest-cov
+pytest-github-actions-annotate-failures
+pylint
+black==23.3.0
