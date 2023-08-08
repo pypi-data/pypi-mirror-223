@@ -1,0 +1,3 @@
+[console_scripts]
+dup-hawk=dup_hawk.dup_hawk:dup_hawk_click
+
