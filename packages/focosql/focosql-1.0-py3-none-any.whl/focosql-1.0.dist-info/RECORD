@@ -1,0 +1,7 @@
+focosql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+focosql/connection.py,sha256=Nbmcw5pu-ZmYYsrxUW_6QSgsAxT08wiBBfJnbVxBjJo,394
+focosql/queries.py,sha256=g5JCe6gREY_iEjwO8RQvQ8cPwQxvHr4LvjQUWg84yVw,503
+focosql-1.0.dist-info/METADATA,sha256=2Adrb6megYJXXranzahZLWmzIAtgQGiC87tcC7jd9_o,192
+focosql-1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+focosql-1.0.dist-info/top_level.txt,sha256=631yj1R0u633e7xXU2Z3j2Y-aO1gcRPICdJqolJjfeI,8
+focosql-1.0.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: focosql
+Version: 1.0
+Author: FocoGrafico
+Author-email: enrique.dealba@focograficomx.com
+Requires-Dist: python-dotenv
+Requires-Dist: mysql-connector-python
+
