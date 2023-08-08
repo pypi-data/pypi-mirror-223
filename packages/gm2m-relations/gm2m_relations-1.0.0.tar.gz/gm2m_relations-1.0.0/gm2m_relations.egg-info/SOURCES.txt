@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+gm2m_relations/__init__.py
+gm2m_relations/serializers.py
+gm2m_relations.egg-info/PKG-INFO
+gm2m_relations.egg-info/SOURCES.txt
+gm2m_relations.egg-info/dependency_links.txt
+gm2m_relations.egg-info/requires.txt
+gm2m_relations.egg-info/top_level.txt
