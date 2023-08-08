@@ -1,0 +1,5 @@
+pywaze/__init__.py,sha256=zaY1lRSY1R6WDOmQ6pRxO0UWjOvQHoMdMGact3IXRGQ,14
+pywaze/route_calculator.py,sha256=WlWCm_SsiYwELaMitBLbQmYHXY8rIKJFoL21u5rYLNw,9522
+pywaze-0.1.0.dist-info/METADATA,sha256=MA74TwOhwEFAzz8AChXKuiXJ8bpDscMmWE_y2-kQbtE,720
+pywaze-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pywaze-0.1.0.dist-info/RECORD,,
