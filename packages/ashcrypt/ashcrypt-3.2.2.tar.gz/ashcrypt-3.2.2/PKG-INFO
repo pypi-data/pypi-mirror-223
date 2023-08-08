@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ashcrypt
+Version: 3.2.2
+Summary: Comprehensive AES-256 Cryptography App & library equipped with files & text handling modules along with a database module to store encrypted content.
+Home-page: https://github.com/AshGw/AES-256.git
+Author: Ashref Gwader
+Author-email: AshrefGw@proton.me
+License: UNKNOWN
+Description: # Cryptography App & Library For AES-256
+        ## Docs ## 
+        **Visit The [GitHub](https://github.com/AshGw/ashcrypt/tree/main) Repository.**
+        
+        
+Keywords: Cryptography application,cryptography libraryAES-256
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
