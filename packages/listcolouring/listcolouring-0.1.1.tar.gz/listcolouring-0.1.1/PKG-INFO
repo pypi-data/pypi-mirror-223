@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: listcolouring
+Version: 0.1.1
+Summary: List colouring in Python with NetworkX.
+License: MIT
+Author: Matthew Henderson
+Author-email: matthew.james.henderson@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.7.2,<4.0.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: pytest (>=7.4.0,<8.0.0)
+Description-Content-Type: text/markdown
+
+# list-colouring
+List colouring in Python with NetworkX.
+
+```
+import networkx as nx
+import matplotlib.pyplot as plt
+
+import listcolouring
+from listcolouring import list_init, greedy_list_edge_colouring, print_list_edge_colouring
+
+G = nx.petersen_graph()
+
+G = list_init(G, range(0, 10), 3, 0)
+G = greedy_list_edge_colouring(G)
+    
+options = {'with_labels': True, 'node_color': "white"}
+colors = nx.get_edge_attributes(G,'colour').values()
+nx.draw_shell(G, nlist = [range(5, 10), range(5)], edge_color = colors, **options)
+
+plt.savefig("img/petersen-shell.png", format = "PNG"
+```
