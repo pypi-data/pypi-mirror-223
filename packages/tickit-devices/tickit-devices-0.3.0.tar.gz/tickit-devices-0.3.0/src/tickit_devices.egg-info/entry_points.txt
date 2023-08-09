@@ -1,0 +1,2 @@
+[console_scripts]
+tickit-devices = tickit_devices.__main__:main
