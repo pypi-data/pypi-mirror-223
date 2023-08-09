@@ -1,0 +1,8 @@
+marklogic/__init__.py,sha256=U17WMwiO-P842myIrgXMppII0Tvz3lq5Ff0KUoKpyZw,36
+marklogic/client.py,sha256=Du0a2i_yNz8mwXGTjp5NUjN2xcGy64ayVito1pzWWUQ,2429
+marklogic/cloud_auth.py,sha256=JyUBB-ZENgbiXvMjWl10fNH7LlvWOCfsNXzzXvo9AUM,2962
+marklogic/documents.py,sha256=GbRfRJTSMCfaS7nkg-OCGv4wNy0BMqFp12nDQH3idl0,18361
+marklogic_python_client-0.9.1.dist-info/LICENSE,sha256=eoTcPLWWt1VJkVdTiyXHNTw0dxjCvRm8S0PGfuNDZ1w,10818
+marklogic_python_client-0.9.1.dist-info/METADATA,sha256=YLVrmZUEqOOImahebCX3GO6jXtANucf0mckob72OiFk,1539
+marklogic_python_client-0.9.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+marklogic_python_client-0.9.1.dist-info/RECORD,,
