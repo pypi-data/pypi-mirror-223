@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/receptor_germline_tools/__init__.py
+src/receptor_germline_tools/add_germline_annotations.py
+src/receptor_germline_tools/annotate_rearrangements.py
+src/receptor_germline_tools/convert_fasta_labels.py
+src/receptor_germline_tools/create_fasta.py
+src/receptor_germline_tools/germline_utils.py
+src/receptor_germline_tools.egg-info/PKG-INFO
+src/receptor_germline_tools.egg-info/SOURCES.txt
+src/receptor_germline_tools.egg-info/dependency_links.txt
+src/receptor_germline_tools.egg-info/entry_points.txt
+src/receptor_germline_tools.egg-info/top_level.txt

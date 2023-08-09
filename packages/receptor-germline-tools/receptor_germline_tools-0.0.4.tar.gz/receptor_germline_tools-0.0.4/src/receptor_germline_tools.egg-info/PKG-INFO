@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: receptor-germline-tools
+Version: 0.0.4
+Summary: Tools for working with AIRR standard IG/TR receptor germline gene sets
+Home-page: https://github.com/airr-community/receptor-germline-tools
+Author: William Lees
+Author-email: william@lees.org.uk
+Project-URL: Bug Tracker, https://github.com/airr-community/receptor-germline-tools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Tools for working with AIRR standard germline sets
+
+Tools for working with AIRR-C JSON-formatting germline sets. Please see the [documentation](https://williamdlees.github.io/receptor-germline-tools/_build/html/introduction.html)
+for further details.
+
+Changes in version 0.0.4:
+- Added create_fasta and annotate_rearrangements commands. Reworked documentation into Sphinx.
