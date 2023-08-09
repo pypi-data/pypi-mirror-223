@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: openmsitoolbox
+Version: 1.0.0
+Summary: Python utilities for OpenMSI projects Developed for Open MSI (NSF DMREF award #1921959)
+Home-page: https://github.com/openmsi/openmsitoolbox
+Download-URL: https://github.com/openmsi/openmsitoolbox/archive/refs/tags/v1.0.0.tar.gz
+Author: OpenMSI Dev Team
+Author-email: openmsistream@gmail.com
+License: GNU GPLv3
+Keywords: materials,data_science
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: all
+License-File: LICENSE
+
+# openmsitoolbox
+Various Python utilities (logging, argument parsing, command line running, etc.) for use in other OpenMSI projects
+
+Developed for Open MSI (NSF DMREF award #1921959)
