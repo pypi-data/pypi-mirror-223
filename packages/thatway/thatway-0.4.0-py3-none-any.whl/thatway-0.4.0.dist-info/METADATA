@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: thatway
+Version: 0.4.0
+Author: Justin Lorieau
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml >=6.0
+Provides-Extra: dev
+Requires-Dist: pytest >=7.4 ; extra == 'dev'
+Requires-Dist: twine >=4.0 ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: black[d] ; extra == 'dev'
+
