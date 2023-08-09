@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: neon-phal-plugin-device-updater
+Version: 0.0.1a6
+Summary: Core Module Update Interface
+Home-page: https://github.com/NeonGeckoCom/neon-phal-plugin-device-updater
+Author: Neongecko
+Author-email: developers@neon.ai
+License: BSD-3
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Device Updater Plugin
+Exposes a messagebus API to check for and initiate OS-level updates.
+
+## Configuration
+TODO
+
+```yaml
+PHAL:
+  admin:
+    neon-phal-plugin-device-updater:
+      enabled: True
+# TODO
+```
