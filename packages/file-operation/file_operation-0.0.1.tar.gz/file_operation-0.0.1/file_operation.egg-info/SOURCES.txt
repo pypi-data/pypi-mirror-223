@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+file_operation.egg-info/PKG-INFO
+file_operation.egg-info/SOURCES.txt
+file_operation.egg-info/dependency_links.txt
+file_operation.egg-info/top_level.txt
+file_operations/__init__.py
+file_operations/excel_operation.py
+file_operations/file_operation.py
+file_operations/file_read_operation.py
+file_operations/glob.ipynb
+file_operations/img_operations.py
+file_operations/pdf_operations.py
+file_operations/wkhtmltox/templates.html
+file_operations/wkhtmltox/wkhtmltopdf.exe

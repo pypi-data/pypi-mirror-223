@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: file-operation
+Version: 0.0.1
+Summary: Short description
+Home-page: https://gitee.com/SkyOceanchen/file_operations.git
+Author: SkyOceanChen
+Author-email: skyoceanchen@foxmail.com
+License: MIT
+Keywords: basic_type,python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3
+Description-Content-Type: text/markdown
