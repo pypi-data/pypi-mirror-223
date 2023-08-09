@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+email_operations/__init__.py
+email_operations/email.cfg
+email_operations/email_operations.py
+email_operations/outLook_operations.py
+email_operations.egg-info/PKG-INFO
+email_operations.egg-info/SOURCES.txt
+email_operations.egg-info/dependency_links.txt
+email_operations.egg-info/top_level.txt
