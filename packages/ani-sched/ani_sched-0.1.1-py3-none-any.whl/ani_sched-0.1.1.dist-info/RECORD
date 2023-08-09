@@ -1,0 +1,12 @@
+ani_sched/__init__.py,sha256=uE61gJmBTYIMIW-xwAfqQks0Y9H9QCmrvTCG3aUvWxo,228
+ani_sched/_ani_sched.py,sha256=QBr40ijwtLh8gg8WUODCoxqnzd5jtwaqQBFrudS3xww,12102
+ani_sched/_ani_sched_livechart.py,sha256=S33SKRXT4MhDU6k0rUm40RU3GK4nEjVqffUzQ8BV5X4,8417
+ani_sched/_base.py,sha256=MSOT2UscfkTf8ohx_GYGe5YZSlPRVFEzM0UxyKPQPEM,2065
+ani_sched/_news.py,sha256=5ubGj0tw0t-ROBcM9SPKaGWz8QD8pl5al055m9W4_K4,768
+ani_sched/_recently_aired.py,sha256=-uHHF11_4KO43x5GlHcmwjdqvbbVQ9vYRnXeVlgpWjc,192
+ani_sched/config.py,sha256=8S230kg9N6muwfEE74f9Vc2z0Z-diPy-aPNaYeAdkgU,645
+ani_sched-0.1.1.dist-info/LICENSE,sha256=ctOtMHbmJc9OO9CBYXvSINTnAC2q2-fXzeOXhe59l5I,1085
+ani_sched-0.1.1.dist-info/METADATA,sha256=Sb0Y1iSSUqCjbv5xC9Xdog-XUiBn16Mphh1Vb6vKzOo,1412
+ani_sched-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+ani_sched-0.1.1.dist-info/top_level.txt,sha256=1h4_tp9hK6OQY-wa-UyXt9TuzPDcW4LBWt-iw4wfN-4,10
+ani_sched-0.1.1.dist-info/RECORD,,
