@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Metadata Management</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      .instructions {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      .back-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #ccc;
+        color: #333;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .submit-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        cursor: pointer;
+        border: none;
+      }
+
+      .submit-button:hover {
+        background-color: #0056b3;
+      }
+
+      .submit-button:active {
+        background-color: #003b80;
+      }
+
+      .file-upload {
+        display: none;
+      }
+
+      .file-upload-label {
+        cursor: pointer;
+      }
+
+      .back-button-container {
+        margin-top: -30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      /* Loading spinner styles */
+      .loader-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+        z-index: 1;
+        pointer-events: none;
+        display: none;
+      }
+
+      .loader {
+        border: 4px solid rgba(0, 0, 0, 0.3);
+        border-top: 4px solid #4caf50;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 2s linear infinite;
+      }
+
+      .error-message {
+        color: red;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="instructions">
+      <h2>Upload Excel Metadata Document</h2>
+      <p>Click the "Upload" button below to upload an Excel metadata file.</p>
+      <p>
+        Please ensure the file follows the specified format and contains
+        accurate metadata information.
+      </p>
+      <div>
+        <form id="uploadForm" enctype="multipart/form-data">
+          <p>
+            <label for="file-upload" class="button file-upload-label"
+              >Upload</label
+            >
+            <input id="file-upload" type="file" class="file-upload" />
+            <button class="submit-button" type="submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="loader-container" id="loaderContainer">
+      <div class="loader" id="spinner"></div>
+    </div>
+    <div class="error-message" id="errorMessage"></div>
+    <div class="back-button-container">
+      <div>
+        <button class="back-button" onclick="goBack()">Back</button>
+      </div>
+    </div>
+    <br /><br />
+    <div id="userId"></div>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+
+      function getCookie(name) {
+        const value = "; " + document.cookie;
+        const parts = value.split("; " + name + "=");
+        if (parts.length == 2) return parts.pop().split(";").shift();
+      }
+
+      // Call function
+      // var userId = getCookie("user_id");
+      var userId = "demo_user_id";
+
+      // Append to HTML
+      window.onload = function () {
+        var div = document.createElement("div");
+        div.innerHTML = "User ID: " + userId;
+        document.body.appendChild(div);
+
+        // Add event listener to the form
+        document
+          .getElementById("uploadForm")
+          .addEventListener("submit", performUpload);
+      };
+
+      function performUpload(event) {
+        // Prevent the default form submission
+        event.preventDefault();
+
+        // Show the spinner during upload
+        var spinner = document.getElementById("spinner");
+        spinner.style.display = "inline-block";
+
+        var file = document.getElementById("file-upload").files[0];
+        var formData = new FormData();
+        formData.append("file", file);
+        formData.append("user_id", userId);
+
+        // Set the upload URL directly
+        var upload_url = `../alation/metadata_excel_file_upload`;
+
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", upload_url, true);
+
+        // Add an event listener for the load event to hide the spinner after upload
+        xhr.addEventListener("load", function () {
+          spinner.style.display = "none";
+          if (this.status == 200) {
+            alert("File uploaded successfully");
+          } else {
+            alert("Error uploading file");
+          }
+        });
+
+        xhr.send(formData);
+      }
+    </script>
+  </body>
+</html>
