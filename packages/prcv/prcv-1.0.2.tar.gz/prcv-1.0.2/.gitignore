@@ -1,0 +1,10 @@
+.DS_Store
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Renviron
+test.m
+test.R
+node_modules
+__pycache__
