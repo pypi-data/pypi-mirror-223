@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: jorgesomas3
+Version: 0.1
+Summary: Pacote simples de soma
+Home-page: https://github.com/JorgeLuis8
+Author: Jorge Luis
+License: MIT
+License-File: LICENSE
+
+Pacote simples de uma soma para fazer teste subindo para o pip
