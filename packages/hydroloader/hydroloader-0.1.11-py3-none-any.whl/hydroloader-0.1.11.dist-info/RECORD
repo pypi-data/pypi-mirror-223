@@ -1,0 +1,10 @@
+hydroloader/__init__.py,sha256=6fAgVWnfSJ7yHdqFJtWu2t5kzG5d_dTHPFNWidG2kxo,396
+hydroloader/exceptions.py,sha256=0UY8YUlNepG0y6FfH36hJyR1bOhwYHSZIdUSSMTg7GA,314
+hydroloader/main.py,sha256=Zt5-jT5CLjwQWKb58hWlqKLZYNcQ8uZZSQ4pINFBG38,15533
+hydroloader/models.py,sha256=UVO37MCJdSvLqK69mx2hNmTdS-Jlikh3yullqnVMpgA,7982
+hydroloader-0.1.11.dist-info/LICENSE.txt,sha256=XY6r_sGg_Ilx44UrjP9OxrNFapUAslKTEktCcmlXxGg,1094
+hydroloader-0.1.11.dist-info/METADATA,sha256=adexjtc8hIzAN5LnUckiPrqwxBu0CQ7gASwYEXBVjCI,349
+hydroloader-0.1.11.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+hydroloader-0.1.11.dist-info/top_level.txt,sha256=nlGanweAbrJOVN0iTiORDQs3Lq5yX_TRd8HdZoeJvHE,12
+hydroloader-0.1.11.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hydroloader-0.1.11.dist-info/RECORD,,
