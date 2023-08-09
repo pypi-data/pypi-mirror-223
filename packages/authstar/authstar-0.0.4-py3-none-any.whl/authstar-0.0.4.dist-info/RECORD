@@ -1,0 +1,9 @@
+authstar/__init__.py,sha256=GtPqEWkq_Pgyg-OscuPFIU-DBNGX_2mD7I68l-UW_Go,582
+authstar/fastapi.py,sha256=u3Egl_DRbqFetT1XAmmTSgbpWuoNWeQJIevdvU-UCE8,17258
+authstar/middleware.py,sha256=qc9Bu9zwKOWxVOfPCzLvL50BG7lmWCERpClbl6rkfu0,5823
+authstar/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authstar/types.py,sha256=Jh8wY1W0Wljvg25amJKTxcMhceY6DDhdLF1UiaqWjsQ,3182
+authstar-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+authstar-0.0.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+authstar-0.0.4.dist-info/METADATA,sha256=HseXY6bCqO1HVVS4V3-v-K9Bb4LrMZIG-A5uj04t6eo,7629
+authstar-0.0.4.dist-info/RECORD,,
