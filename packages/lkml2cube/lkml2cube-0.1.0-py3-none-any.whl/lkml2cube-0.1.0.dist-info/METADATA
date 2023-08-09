@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: lkml2cube
+Version: 0.1.0
+Summary: Looker ML to Cube converter
+Author-Email: Paco Valdez <paco@cube.dev>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: typer[all]>=0.9.0
+Requires-Dist: lkml>=1.3.1
+Description-Content-Type: text/markdown
+
+# lkml2cube
+
+lkml2cube is a tool to convert LookML models into Cube data models.
+
+## Usage
+
+Currently the only supported type of LookML object is views.
+
+### Install
+
+```sh
+pip install lkml2cube
+```
+
+### Convert LookML views into Cube YAML definition.
+
+```sh
+lkml2cube cubes path/to/file.view.lkml
+```
+
+### Show Python dict representation of the LookerML object
+
+```sh
+lkml2cube cubes --parseonly path/to/file.view.lkml
+```
