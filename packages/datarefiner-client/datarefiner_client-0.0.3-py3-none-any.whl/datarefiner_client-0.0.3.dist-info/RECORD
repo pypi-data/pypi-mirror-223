@@ -1,0 +1,12 @@
+datarefiner_client/__init__.py,sha256=Jv55PIXXRHj1wjrommLDBVq87bPGmQssCSpyqwDYXug,112
+datarefiner_client/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datarefiner_client/api/entities.py,sha256=uaPXQn0ntH3WeqM0R-Q-JMGHYs3ZaP09FC_S1lAaB7g,808
+datarefiner_client/api/supervised_labels.py,sha256=YeJV2qYcfVuutbeVlgi77xP8l9a-3tO0zH2YKlrYq8A,3644
+datarefiner_client/api/uploads.py,sha256=ml4pHINMGzMZk65YNsQ6qtr6YmIixNDsDHgMzjbKHC0,1543
+datarefiner_client/client.py,sha256=fMcfyR933706ov9Jptc1GCi6O7mCm8F_X2LCmcgPoVw,4847
+datarefiner_client/dataframe_uploader.py,sha256=sNeIoE1bAsDOICnqjCJj0ade80ksGuO2_qV5sUtdWAs,1277
+datarefiner_client/exceptions.py,sha256=aFA4YOO5c7HexoTn5dh6XFKxR00npqmENKfgtarL-PY,513
+datarefiner_client/settings.py,sha256=rC5T6T5UhfiqIPq-xedKTBEwxxClTvi-w-HVuPn48K4,287
+datarefiner_client-0.0.3.dist-info/METADATA,sha256=m_KaYahxCQME8XOCKVzNktz34AAGm4jCUcyOnrWjbdk,1498
+datarefiner_client-0.0.3.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+datarefiner_client-0.0.3.dist-info/RECORD,,
