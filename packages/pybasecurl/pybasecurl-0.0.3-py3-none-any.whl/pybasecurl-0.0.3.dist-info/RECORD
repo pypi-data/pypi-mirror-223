@@ -1,0 +1,10 @@
+pybasecurl/__init__.py,sha256=oCSSs3jp3kwtaAdOb-u9CfmCjAFypWnfWgnTlKRkaEM,418
+pybasecurl/cli.py,sha256=3z3OBEtlCOOwymDjq65SJZeG3YL6dcKtWxY0Kzjhris,565
+pybasecurl/curl.py,sha256=amMkjwxl6ZMn62Wzii5k4PLsXePJg32O0VAKnpqus9E,218
+pybasecurl/storage.py,sha256=dxWTaW4FhzxaguHLR_ALOpJYfdIx9s2oa1AMxcX7GwQ,226
+pybasecurl-0.0.3.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pybasecurl-0.0.3.dist-info/METADATA,sha256=KHkQtkRSeYi97MSoaqxD1ZsOjvjlkIT_aBaOW1TtwQw,1284
+pybasecurl-0.0.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pybasecurl-0.0.3.dist-info/entry_points.txt,sha256=a9feTSlnf3nduuJsvXphaB6q1QdCAtWz6UXHTkZCh20,47
+pybasecurl-0.0.3.dist-info/top_level.txt,sha256=WwrzAK7Y6oJD_J-7_py1Ow0muAWwm0cOjo4Nq_OQ1hQ,11
+pybasecurl-0.0.3.dist-info/RECORD,,
