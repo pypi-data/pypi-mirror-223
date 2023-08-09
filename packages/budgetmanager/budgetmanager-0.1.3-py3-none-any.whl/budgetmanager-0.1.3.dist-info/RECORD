@@ -1,0 +1,15 @@
+budgetmanager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+budgetmanager/admin.py,sha256=Jsm1HY57QqWXemzIY2LSXYWkiW7NHwzIuGgBW_M6oe0,1747
+budgetmanager/apps.py,sha256=oo7a9L8xZn_0X1C59Jnel9Ww5RbAWLOp9t3yYzmQq_Y,194
+budgetmanager/models.py,sha256=QeRYZ3kSyg__w3ZtVFmr17apX6360P4xINPXY0_FLVw,3216
+budgetmanager/permissions.py,sha256=duEia0ECNQYKux2lgKYD487q2rAdCDRTQx-muCZvJQI,211
+budgetmanager/serializers.py,sha256=Gs3s3tveg4CPBsvohxgKPNON-8LrmlNIQIBL5wtpOgM,804
+budgetmanager/urls.py,sha256=CMRiUYiGEep1dkogpJXZSrc-a1d2irzM1T6JVC7eqfY,455
+budgetmanager/views.py,sha256=lqb593jmruSyZhbuyCrJ9IvM6WfvMS4STyI5gZZsWxU,1594
+budgetmanager/migrations/0001_initial.py,sha256=-pGI86d_Bwf5ThAKP0a2Gzlk3UbAwUPbHWpPA26hOc8,2480
+budgetmanager/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+budgetmanager-0.1.3.dist-info/LICENSE,sha256=EauXk7lwd6z-a8bJgvo3A7hc81tjj_NBScbdp-ON9mA,1687
+budgetmanager-0.1.3.dist-info/METADATA,sha256=fJh4ph0ze14eAhOGVUeIWmztDTqPWraxdpiFu92nstw,1031
+budgetmanager-0.1.3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+budgetmanager-0.1.3.dist-info/top_level.txt,sha256=IhCeseyzXGLieoyFybOFScKyLjfrdvg-JJ_8iViRY4o,14
+budgetmanager-0.1.3.dist-info/RECORD,,
