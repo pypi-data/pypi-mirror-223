@@ -1,0 +1,12 @@
+{
+ "pairs": {
+  "AAresSeq": [
+  "GDP396-ARG201",
+  "GDP396-THR204",
+  "GDP396-VAL202",
+  "THR204-SER54",
+  "MG397-XXX204"
+  ]
+ },
+ "name" : "siteGDP"
+}
