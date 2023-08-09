@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: symphony_ui
+Version: 1.0.1
+Summary: Modular data science components
+Home-page: https://github.com/apple/ml-symphony
+Author: Apple
+Author-email: dnikit-symphony-oss@group.apple.com
+License: Apple Sample Code License
+Keywords: Jupyter,Widgets,IPython
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: widgets
+Provides-Extra: examples
+Provides-Extra: docs
+License-File: LICENSE.txt
+
+# Symphony
+
+`symphony_ui` ties together a collection of interactive visualizations that let you explore data. It is designed to be extensible and thus can integrate different [components](../widgets). If you are interested in creating you own component, take a look at our [cookiecutter](../widget-cookiecutter/).
+
+## Installation
+
+```bash
+pip install symphony_ui
+```
+
+## Usage
+
+To learn how to use Symphony, see the [documentation](https://apple.github.io/ml-symphony/).
+
+## Development
+
+To learn about how to build Symphony from source and how to contribute to the framework, please look at [CONTRIBUTING.md](../CONTRIBUTING.md) and the [development documentation](https://apple.github.io/ml-symphony/contributing.html).
