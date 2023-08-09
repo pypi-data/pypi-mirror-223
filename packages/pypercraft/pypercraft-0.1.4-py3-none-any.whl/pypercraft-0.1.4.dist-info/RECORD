@@ -1,0 +1,13 @@
+api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api/api.py,sha256=MaWq4L0N8-SZbg-vhosBT_a9Uh_eBjRxov340fPYEu4,1614
+pypercraft/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypercraft/prompts.py,sha256=nqxkhlz9n9gXJLRMj-TQre8gWAMw4AUBgZWGIPeUsTY,1988
+pypercraft/pypercraft.py,sha256=UleeJZ79t4vBqSjjSSZURu-8ec3G5whk6TgBKpRHYqk,5334
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=cD7nIAxRG3AyUA8iIC2w-dE3d5HQ7DsUYX3r2ZD_bII,1691
+tests/test_pypercraft.py,sha256=5mSxXMiaEPO2lcUsGCoh02N4JrB9IIjVSAblHfuTHk4,4000
+pypercraft-0.1.4.dist-info/LICENSE,sha256=Vd8eASrbevk1g9Mmh3vSowKWi8XCwPFxfB_qr8Am_yU,1072
+pypercraft-0.1.4.dist-info/METADATA,sha256=_u05iIMOni82blAsiJ4Sfb00hnp6_efo7wi5tksAANk,2452
+pypercraft-0.1.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pypercraft-0.1.4.dist-info/top_level.txt,sha256=OBHYbxGWgIwDzjDJORqMAQuvyFGqUPBGgSgqsgtxRDI,21
+pypercraft-0.1.4.dist-info/RECORD,,
