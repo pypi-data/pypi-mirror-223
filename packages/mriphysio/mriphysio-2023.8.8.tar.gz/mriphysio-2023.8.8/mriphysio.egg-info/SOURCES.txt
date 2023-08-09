@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mriphysio/__init__.py
+mriphysio/ecg.py
+mriphysio/physio2bids.py
+mriphysio/physiodicom.py
+mriphysio.egg-info/PKG-INFO
+mriphysio.egg-info/SOURCES.txt
+mriphysio.egg-info/dependency_links.txt
+mriphysio.egg-info/entry_points.txt
+mriphysio.egg-info/not-zip-safe
+mriphysio.egg-info/top_level.txt

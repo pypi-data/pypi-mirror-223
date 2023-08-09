@@ -1,0 +1,2 @@
+[console_scripts]
+physio2bids = mriphysio.physio2bids:main

@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mriphysio
+Version: 2023.8.8
+Summary: Siemens physiology DICOM and MPCU log conversion
+Home-page: https://github.com/jmtyszka/mriphysio
+Author: Julian Michael Tyszka
+Author-email: jmt@caltech.edu
+Project-URL: Bug Reports, https://github.com/jmtyszka/thermalfit/issues
+Project-URL: Funding, http://cbic.caltech.edu/
+Project-URL: Source, https://github.com/jmtyszka/thermalfit/
+Keywords: Siemens CMRR physiology conversion MRI
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mriphysio
+MRI physiological DICOM and MPCU log handling functions
+
+## VE11C CMRR Multiband DICOM Physiological Logs
+R016a of the Prisma version of CMRR multiband EPI sequences supports output of physiological logging as a DICOM file.
+The waveforms are encoded in the Siemens Spectroscopy tag (0x7fe1, 0x1010) and match the acquisition period of the series accurately. A jupyter notebook demonstrating handling of an example physio DICOM is provided.
+
+## VB17A MPCU Matlab Functions
+Legacy MPCU text log handling functions for Matlab (mpcu*.m)
