@@ -1,0 +1,19 @@
+Version 0.5.0
+* Sort entries in package.json to reduce diffs when updating
+* Fix bug in update code (fixes: T343502)
+
+Version 0.4.0
+* Add ability to bump the chart version number when vendoring
+
+Version 0.3.0
+* Add scaffolding of charts via the sextant create-charts command
+* Drop python 3.7, 3.8 compatibility
+* Add CHANGELOG
+
+Version 0.2.0
+* vendoring improvements and bugfixes
+* Add the 'sextant update' command implementation
+* Added README
+
+Version 0.1.0
+* First release
