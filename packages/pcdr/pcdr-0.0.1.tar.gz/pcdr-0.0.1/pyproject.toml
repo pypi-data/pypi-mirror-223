@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "pcdr"
+version = "0.0.1"
+# authors = [
+#   { name="james-pcdr" },
+# ]
+description = "Used with lessons on https://github.com/python-can-define-radio/sdr-course"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/python-can-define-radio/sdr-course"
+"Bug Tracker" = "https://github.com/python-can-define-radio/sdr-course/issues"

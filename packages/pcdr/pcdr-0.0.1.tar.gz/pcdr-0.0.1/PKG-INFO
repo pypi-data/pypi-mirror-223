@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pcdr
+Version: 0.0.1
+Summary: Used with lessons on https://github.com/python-can-define-radio/sdr-course
+Project-URL: Homepage, https://github.com/python-can-define-radio/sdr-course
+Project-URL: Bug Tracker, https://github.com/python-can-define-radio/sdr-course/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pcdr
+
+Used with https://github.com/python-can-define-radio/sdr-course. 
