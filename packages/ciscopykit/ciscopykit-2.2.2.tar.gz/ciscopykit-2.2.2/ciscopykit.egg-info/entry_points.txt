@@ -1,0 +1,7 @@
+[console_scripts]
+ciscopykit = ciscopykit.entry_point:main
+lan_security = ciscopykit.lan_security.app:main
+routing = ciscopykit.routing.app:main
+services = ciscopykit.services.app:main
+switch = ciscopykit.switch.app:main
+vlan = ciscopykit.vlan.app:main
