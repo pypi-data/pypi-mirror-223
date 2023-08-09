@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: pybasecurl
+Version: 0.0.1
+Summary: A curl package for python
+Author-email: Pybase <techlead@sonnm.com>
+Project-URL: Homepage, https://github.com/pybase-net/pycurl
+Project-URL: Bug Tracker, https://github.com/pybase-net/pycurl/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pycurl
+
+## Usage
+
+```
+pycurl https://nextjsvietnam.com/ --output nextjsvietnam.com.html
+```
+
+## Install env
+
+
+```sh
+pip3 install --user pipenv
+pipenv --python 3.9
+```
+
+- Activate virtualenv : pipenv shell
+- Install dependencies: pipenv install
+
+## References
+
+- [argparse](https://docs.python.org/3/library/argparse.html)
+- [packaging project](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+- [Sample package](https://github.com/pypa/sampleproject/blob/main/src/sample/__init__.py)
+
+## Test package
+
+```sh
+pip install -e .
+```
+
+## Build package
+
+
+```sh
+python -m build
+```
