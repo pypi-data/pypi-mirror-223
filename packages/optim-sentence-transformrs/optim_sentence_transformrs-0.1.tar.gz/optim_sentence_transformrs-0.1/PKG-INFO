@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: optim_sentence_transformrs
+Version: 0.1
+Summary: API to optimize SentenceTransformer models using ONNX/Optimum and perform inference using the same `model.encode` API.
+Download-URL: https://github.com/sidhantls/optim-sentence-transformers/
+Author: sidhantls
+License: Apache License 2.0
+Keywords: Onnx Optimized Sentence Transformer BERT sentence embedding
+Requires-Python: >=3.8.0

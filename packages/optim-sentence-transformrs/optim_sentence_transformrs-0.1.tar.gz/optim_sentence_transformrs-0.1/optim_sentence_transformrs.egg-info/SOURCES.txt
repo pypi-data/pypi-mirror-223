@@ -1,0 +1,9 @@
+README.md
+setup.py
+optim_sentence_transformers/__init__.py
+optim_sentence_transformers/optim_sentence_transformers.py
+optim_sentence_transformrs.egg-info/PKG-INFO
+optim_sentence_transformrs.egg-info/SOURCES.txt
+optim_sentence_transformrs.egg-info/dependency_links.txt
+optim_sentence_transformrs.egg-info/requires.txt
+optim_sentence_transformrs.egg-info/top_level.txt
