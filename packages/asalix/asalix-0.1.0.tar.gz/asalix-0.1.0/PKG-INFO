@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: asalix
+Version: 0.1.0
+Summary: A comprehensive collection of mathematical tools and utilities designed to support Lean Six Sigma practitioners in their process improvement journey.
+Home-page: https://github.com/srebughini/ASALIX
+Author: Stefano Rebughini
+Author-email: ste.rebu@outlook.it
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+
+UNKNOWN
+
