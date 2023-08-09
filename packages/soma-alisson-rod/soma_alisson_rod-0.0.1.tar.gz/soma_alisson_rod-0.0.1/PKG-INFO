@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: soma_alisson_rod
+Version: 0.0.1
+Summary: Selenium automation
+Home-page: UNKNOWN
+Author: Alisson Rodrigo
+Author-email: <alissorodrigo098@gmail.com>
+License: UNKNOWN
+Keywords: python,selenium,automation
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+
+Selenium automation
+
