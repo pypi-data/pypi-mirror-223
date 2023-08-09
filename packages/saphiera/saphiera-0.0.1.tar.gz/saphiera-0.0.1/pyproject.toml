@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "saphiera"
+version = "0.0.1"
+description = "Secure Python Hiera configuration management tool"
+readme = "README.md"
+repository = "https://github.com/Pillar-ML/saphiera"
+# packages = [
+#     { include = "saphiera" }
+# ]
+authors = [
+    "Matt Struble <matt@pillar.ml>"
+]
+maintainers = [
+    "Matt Struble <matt@pillar.ml>"
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+strictyaml = "^1.7.3"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.3"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-mock = "^3.11.1"
+pytest-xdist = "^3.3.1"
+pytest-timeout = "^2.1.0"
+hypothesis = "^6.80.0"
+pyyaml = "^6.0.1"
+
+[tool.skjold]
+sources = ["pyup", "gemnasium"]
+report_format = "json"
+cache_dir = ".skjold_cache"
+cache_expires = 86400
+verbose = true
+
+[build-system]
+requires = ["poetry==1.5.1"]
+build-backend = "poetry.core.masonry.api"
