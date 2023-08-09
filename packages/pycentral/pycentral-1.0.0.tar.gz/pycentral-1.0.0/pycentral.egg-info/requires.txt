@@ -1,0 +1,9 @@
+requests
+PyYAML
+urllib3
+certifi
+charset-normalizer
+idna
+
+[colorLog]
+colorlog
