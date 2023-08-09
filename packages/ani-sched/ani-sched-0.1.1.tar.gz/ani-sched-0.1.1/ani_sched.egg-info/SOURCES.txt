@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+ani_sched/__init__.py
+ani_sched/_ani_sched.py
+ani_sched/_ani_sched_livechart.py
+ani_sched/_base.py
+ani_sched/_news.py
+ani_sched/_recently_aired.py
+ani_sched/config.py
+ani_sched.egg-info/PKG-INFO
+ani_sched.egg-info/SOURCES.txt
+ani_sched.egg-info/dependency_links.txt
+ani_sched.egg-info/requires.txt
+ani_sched.egg-info/top_level.txt
