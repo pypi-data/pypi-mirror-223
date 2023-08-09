@@ -1,0 +1,8 @@
+furiosa_quantizer_impl-0.10.0.dist-info/METADATA,sha256=CD3w1kFRevyp6zsEbjEj8z2j0Hq_yl9kBTjhjGL0NTg,226
+furiosa_quantizer_impl-0.10.0.dist-info/WHEEL,sha256=_McpX-3AktfiLxFzVl5riA-pgD4tWSVfQQC6c6cGDIw,108
+furiosa_quantizer_impl-0.10.0.dist-info/license_files/LICENSE,sha256=1Z5LaseXaXANrLvXlmrCNUsZAcjN2t8s6HD4V_7rw8k,459
+furiosa_quantizer_impl.libs/libnpu-c052de2a.so,sha256=0ohz4xwKuZscBrwD9Gk_qJ1YutxkuuTMTXSt1I6ZGn0,77537
+furiosa_quantizer_impl.libs/libonnxruntime-0ed2d90b.so.1.15.1,sha256=df3tv3BvqQsF8ZLlwNVaro3t7ruTZZ8sODJ3pBFdJ6U,16739753
+furiosa_quantizer_impl/__init__.py,sha256=Eu1Wx3v9OtWA3GJSaw7gNUBQYFz4R8wGCE-eIBbom-0,171
+furiosa_quantizer_impl/furiosa_quantizer_impl.cpython-310-x86_64-linux-gnu.so,sha256=EOObFAXpwOkuaLi_vnjJY634IiZH8_m2j_Z4C6TZ2L0,30122681
+furiosa_quantizer_impl-0.10.0.dist-info/RECORD,,

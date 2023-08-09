@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: furiosa-quantizer-impl
+Version: 0.10.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Requires-Dist: onnx ~=1.14.0
+License-File: LICENSE
+Author: FuriosaAI, Inc.
