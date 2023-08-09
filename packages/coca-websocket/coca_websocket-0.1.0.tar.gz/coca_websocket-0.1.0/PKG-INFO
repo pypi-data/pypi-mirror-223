@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: coca-websocket
+Version: 0.1.0
+Summary: 
+Author: Hiroyuki Ikuno
+Author-email: sam2kaikaramegusuri@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
