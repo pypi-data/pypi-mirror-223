@@ -1,0 +1,17 @@
+movemeter/__init__.py,sha256=SHqvTHlOQ4-OZDvdA9dRc8TO6QCtlME6IfhvW9YBfX8,238
+movemeter/directories.py,sha256=vIasr_HGDBsnJMY4Pi3Tiob7CWeaNtj5NxtuCih_TcQ,467
+movemeter/heatmap.py,sha256=6FvujKUBVytfEEEdWhP6_Jx3f494BKEK1LmOwBmuG0I,3294
+movemeter/movemeter.py,sha256=LJyj1QjjIZdkU1QyBwZhUkKhPbHOIEDz8SyZUC7H7sI,21969
+movemeter/roi.py,sha256=62DzIRCLkCoyKQ07kxnzLbzKk2T7uvANenuU_wJbBP0,4529
+movemeter/stabilize.py,sha256=c8scgVvMS_4my0CGn-_oBl54rJOgnh2WerL2KRJxK9g,5804
+movemeter/stacks.py,sha256=aF8jIO64hHAcNh7AvtVNnr6KJWyO8Rn8Fde-bDKQBpQ,4295
+movemeter/tk_heatmap.py,sha256=3dkeb-kWbVJ-F1p_edzI-noIeC0Q8yCJmiDTUnDJKXM,5873
+movemeter/tkgui.py,sha256=VrEmf6yiwvTpSfxOk6kmAOiHd65CnEII7ERflvJhol0,57446
+movemeter/version.py,sha256=cID1jLnC_vj48GgMN6Yb1FA3JsQ95zNmCHmRYE8TFhY,22
+movemeter/cc_backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+movemeter/cc_backends/opencv.py,sha256=g7lX09Cbo2ircAoz1NuvXHP44-UcZw0CfD9c7eJAvFg,5762
+movemeter-0.6.0.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+movemeter-0.6.0.dist-info/METADATA,sha256=M6icKAgQKsvRaZuuRfHz4a6-PT2DSFprB16z6BJn25k,1890
+movemeter-0.6.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+movemeter-0.6.0.dist-info/top_level.txt,sha256=m2G4NPNtP6HYPHCU_o3gC6rqieMk-DBtVa1ACO17N8Y,10
+movemeter-0.6.0.dist-info/RECORD,,
