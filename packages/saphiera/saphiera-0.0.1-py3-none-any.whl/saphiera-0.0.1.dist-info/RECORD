@@ -1,0 +1,10 @@
+saphiera/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+saphiera/exceptions.py,sha256=Dg8lMKuDrjbkclsFi_3R8Lwlo4p5dAO_aOwmxQT7VVU,328
+saphiera/schema/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+saphiera/schema/field.py,sha256=ipXzRxsgYH8CX9FUQD_zj_UCGI27iei9dXkH7d4CpO4,8350
+saphiera/schema/validators.py,sha256=XMfoZ_O0r3W_9fWUeV96XMY7q-1dgXLoVFvo0lutwUE,424
+saphiera/types.py,sha256=AP7AMfQPaxlOdX45msAOxAa4PWwF0JESeRptk05r2v0,674
+saphiera-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+saphiera-0.0.1.dist-info/METADATA,sha256=2WEq05Tk2Q8N-epc69KllZWLU5quJVf1JGYJgw-zfB4,651
+saphiera-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+saphiera-0.0.1.dist-info/RECORD,,
