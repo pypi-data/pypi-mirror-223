@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: chicagorecoverypy
+Version: 0.1.5
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: csvkit
+Requires-Dist: dateparser
+Requires-Dist: marshmallow
+Requires-Dist: pylightxl
+Requires-Dist: geopandas
+Requires-Dist: sqlalchemy <2.0
+
