@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+remfile/RemFile.py
+remfile/__init__.py
+remfile.egg-info/PKG-INFO
+remfile.egg-info/SOURCES.txt
+remfile.egg-info/dependency_links.txt
+remfile.egg-info/requires.txt
+remfile.egg-info/top_level.txt
+tests/test_main.py
