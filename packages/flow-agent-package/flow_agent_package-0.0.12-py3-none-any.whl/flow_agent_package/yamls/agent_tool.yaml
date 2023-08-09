@@ -1,0 +1,30 @@
+flow_agent_package.tools.agent_tool.pick_tool_and_execute:
+  function: pick_tool_and_execute
+  inputs:
+    query:
+      type:
+      - string
+    llm_connection:
+      type:
+      - AzureOpenAIConnection
+    arbitration_method:
+      type:
+      - string
+      enum:
+        - Langchain
+        - OpenAI Functions
+        - Semantic Kernel
+    config1:
+      type:
+      - object
+    config2:
+      type:
+      - object
+    config3:
+      type:
+      - object
+  module: flow_agent_package.tools.agent_tool
+  name: flow_agent_package.tools.agent_tool.pick_tool_and_execute
+  description: A tool for calling other tools
+  type: python
+
