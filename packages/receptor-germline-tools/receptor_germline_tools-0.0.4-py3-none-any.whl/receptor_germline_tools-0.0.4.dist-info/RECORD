@@ -1,0 +1,12 @@
+receptor_germline_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+receptor_germline_tools/add_germline_annotations.py,sha256=jQeKqt8mXlvikW6iyD7oN9M-nyzoDkY1WbQG0pAFHnE,3640
+receptor_germline_tools/annotate_rearrangements.py,sha256=l1RHbXZhszNGTHTVwbCDmmrf8hJfOqRgGUiRWTy9DZY,5142
+receptor_germline_tools/convert_fasta_labels.py,sha256=LCljARTN-kfWljZJUpYUC2lzSOLP8vmbRyl_54BQ8FU,2263
+receptor_germline_tools/create_fasta.py,sha256=ljNetMHNb9eqZdCNuqsyxGaKeXWrhuqW6k-FE7evO1g,4491
+receptor_germline_tools/germline_utils.py,sha256=qmXy_du8t4K-oIwhsbrw--fBxcbFkAwHRUBdGsO8uMc,4671
+receptor_germline_tools-0.0.4.dist-info/LICENSE,sha256=vRhlri_132DKD-V6Oc8aVXMNQHo1etNoBXAgETJd8x4,240
+receptor_germline_tools-0.0.4.dist-info/METADATA,sha256=C7xE_Z3Dqo6iu8tfi3UR9lSgPlx9pwKTGz3Q131mQ6c,1024
+receptor_germline_tools-0.0.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+receptor_germline_tools-0.0.4.dist-info/entry_points.txt,sha256=D4wI5-0LxJMjj1bwexOYywwWMGBFI-Nlg6gOu9DDl3Q,229
+receptor_germline_tools-0.0.4.dist-info/top_level.txt,sha256=xyKjwK7YzuvW78BAqTm4gr_s4tPfOL0VgW2JgXav8Vo,24
+receptor_germline_tools-0.0.4.dist-info/RECORD,,
