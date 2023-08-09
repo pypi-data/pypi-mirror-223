@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "WormholeSort"
+version = "1.0.1"
+authors = [
+  { name="arda-guler", email="ardaguler09@gmail.com" },
+]
+description = "An alternative sorting method that sorts the indices rather than list elements."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/arda-guler/WormholeSort"
+"Bug Tracker" = "https://github.com/arda-guler/WormholeSort/issues"
