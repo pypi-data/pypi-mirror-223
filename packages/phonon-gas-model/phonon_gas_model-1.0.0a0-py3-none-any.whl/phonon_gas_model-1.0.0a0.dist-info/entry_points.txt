@@ -1,0 +1,3 @@
+[console_scripts]
+pgm = pgm.cli.cli:main
+pgm-run = pgm.cli.main:main
