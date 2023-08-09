@@ -1,0 +1,3 @@
+[console_scripts]
+dep2req = dep2req.deptoreq:main
+

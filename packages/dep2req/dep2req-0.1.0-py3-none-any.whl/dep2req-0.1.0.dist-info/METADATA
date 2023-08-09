@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: dep2req
+Version: 0.1.0
+Summary: Create a requirements.txt from dependencies in a pyproject.toml
+Requires-Python: >=3.7.0
+Requires-Dist: toml
