@@ -1,0 +1,16 @@
+ffmpegcv/__init__.py,sha256=tlCsQOG6QAPLoLjZh4pwnSD0fJ46wQ5vRAIjwx5ygxw,11030
+ffmpegcv/ffmpeg_noblock.py,sha256=3S-2InElhJ2g-4arbraYRC1lUIgDsAwlhxKmeoIi7i8,631
+ffmpegcv/ffmpeg_reader.py,sha256=_GblmeXQRj4G-MBcy4i3nrQ8DEnor_yMbn6Z25r_eT4,10456
+ffmpegcv/ffmpeg_reader_camera.py,sha256=LklwXUuMYuhBly0yxo7Sojw2g1lE3Hp5__16rCxCUB0,15086
+ffmpegcv/ffmpeg_reader_noblock.py,sha256=rJJfVwJz4M_knFVseCjlhfWAGN6kwt3V5zQ2PfJG7_A,2569
+ffmpegcv/ffmpeg_reader_stream.py,sha256=pQrZLc9mQPDRRIkVX17Qlo60RGWNe0kJotFmMRtrtOs,4100
+ffmpegcv/ffmpeg_reader_stream_realtime.py,sha256=x1ctddct-9GCT0Q-VtIfit9XQDAuV_iGe-r4fTdVEfI,1818
+ffmpegcv/ffmpeg_writer.py,sha256=Vce275Riz-tITTU_WZjp0LL_fYMXd1Lm-Inkro7nAxc,4264
+ffmpegcv/ffmpeg_writer_noblock.py,sha256=LW9pn4dhR0pva_1a1ilBfVNKsv78K01tKRZiYCh4PBU,2606
+ffmpegcv/ffmpeg_writer_stream_realtime.py,sha256=gVt6Ov9-N7LsXj01TJZ9tzJK-UIW9aL-WL34HUTf2p0,1035
+ffmpegcv/stream_info.py,sha256=XG0ulu_qmap1-r5sS-q9MMG0sWcM_5GYPfs8NS6MXoU,1053
+ffmpegcv/video_info.py,sha256=poxCm54gg4d8GmI8uJw0qca7mRp6KvqMFoqzjOkwL5Y,3262
+ffmpegcv-0.3.6.dist-info/METADATA,sha256=kYrteIUIwEupHcZ0TeHStOc7J1QPt-HxwhKIMMfKBzE,12987
+ffmpegcv-0.3.6.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+ffmpegcv-0.3.6.dist-info/top_level.txt,sha256=axTrK4zBGZh3AaS0uh9znfvX9v3cj48bLtsIyBo1LTw,9
+ffmpegcv-0.3.6.dist-info/RECORD,,
