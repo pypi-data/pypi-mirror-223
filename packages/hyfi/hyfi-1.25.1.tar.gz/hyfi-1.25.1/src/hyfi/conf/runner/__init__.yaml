@@ -1,0 +1,12 @@
+defaults:
+- /path@path: __task__
+_target_: hyfi.runner.base.BaseRunner
+_config_name_: __init__
+_config_group_: /runner
+verbose: false
+task_name: demo-task
+task_root: workspace
+version: 0.0.0
+module: null
+pipelines: []
+calls: []
