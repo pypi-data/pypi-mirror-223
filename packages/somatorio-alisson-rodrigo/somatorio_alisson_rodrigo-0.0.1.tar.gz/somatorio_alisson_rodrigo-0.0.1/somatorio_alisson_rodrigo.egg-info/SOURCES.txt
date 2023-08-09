@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+somaalissonrodrigov2/__init__.py
+somaalissonrodrigov2/pacote_teste.py
+somatorio_alisson_rodrigo.egg-info/PKG-INFO
+somatorio_alisson_rodrigo.egg-info/SOURCES.txt
+somatorio_alisson_rodrigo.egg-info/dependency_links.txt
+somatorio_alisson_rodrigo.egg-info/requires.txt
+somatorio_alisson_rodrigo.egg-info/top_level.txt
