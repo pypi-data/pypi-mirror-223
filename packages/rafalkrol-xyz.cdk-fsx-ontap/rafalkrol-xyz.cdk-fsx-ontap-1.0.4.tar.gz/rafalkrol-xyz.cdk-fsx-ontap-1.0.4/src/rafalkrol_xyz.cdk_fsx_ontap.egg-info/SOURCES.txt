@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/rafalkrol-xyz/cdk_fsx_ontap/__init__.py
+src/rafalkrol-xyz/cdk_fsx_ontap/py.typed
+src/rafalkrol-xyz/cdk_fsx_ontap/_jsii/__init__.py
+src/rafalkrol-xyz/cdk_fsx_ontap/_jsii/cdk-fsx-ontap@1.0.4.jsii.tgz
+src/rafalkrol_xyz.cdk_fsx_ontap.egg-info/PKG-INFO
+src/rafalkrol_xyz.cdk_fsx_ontap.egg-info/SOURCES.txt
+src/rafalkrol_xyz.cdk_fsx_ontap.egg-info/dependency_links.txt
+src/rafalkrol_xyz.cdk_fsx_ontap.egg-info/requires.txt
+src/rafalkrol_xyz.cdk_fsx_ontap.egg-info/top_level.txt
