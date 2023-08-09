@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+Bio>=1.80
+pysam
+pyranges
+scipy
+sklearn
+yaml
+IPython

@@ -1,0 +1,17 @@
+align
+analysis
+annotation
+bin
+cnv
+dbconv
+plot
+publicdb
+read
+ria_deprecated
+signature
+sigprofiler_clone
+sv
+svtools_deprecated
+variant
+vcfeditor
+workflow
