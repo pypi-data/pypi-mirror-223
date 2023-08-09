@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: somatorioInteiros
+Version: 0.0.5
+Summary: Somador de numeros inteiros em uma lista
+Author: Joao Neto
+Author-email: joaonetoprivado2001@ufpi.edu.br
+License: MIT License
+Keywords: soma inteiros
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+somatorioInteiros
+=================
+
+### Esse pacote tem a finalidade de somar numeros inteiros de uma lista.
+
+## InstalaÃ§Ã£o:
+
+`pip install somatorioInteiros`
+
+## Uso:
+
+```
+import somatorioInteiros as sumint
+lista = [1,2,3,4]
+obj = sumint(lista)
+soma = obj.somar()
+```

@@ -1,0 +1,1 @@
+from .somatorio import somatorioInteiros
