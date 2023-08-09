@@ -1,0 +1,8 @@
+README.md
+setup.py
+vercel_kv_sdk.py
+vercel_kv_sdk.egg-info/PKG-INFO
+vercel_kv_sdk.egg-info/SOURCES.txt
+vercel_kv_sdk.egg-info/dependency_links.txt
+vercel_kv_sdk.egg-info/requires.txt
+vercel_kv_sdk.egg-info/top_level.txt
