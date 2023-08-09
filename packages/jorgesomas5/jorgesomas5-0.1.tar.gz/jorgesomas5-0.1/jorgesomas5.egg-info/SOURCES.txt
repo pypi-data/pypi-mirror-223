@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+jorgesomas5/__init__.py
+jorgesomas5/soma.py
+jorgesomas5.egg-info/PKG-INFO
+jorgesomas5.egg-info/SOURCES.txt
+jorgesomas5.egg-info/dependency_links.txt
+jorgesomas5.egg-info/top_level.txt
