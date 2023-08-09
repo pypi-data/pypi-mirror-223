@@ -1,0 +1,7 @@
+audiolm-pytorch
+naturalspeech2-pytorch>=0.0.41
+beartype
+einops>=0.6.1
+torch>=2.0
+torchdiffeq
+torchode
