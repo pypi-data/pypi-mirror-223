@@ -1,0 +1,159 @@
+Metadata-Version: 2.1
+Name: meeting-roles
+Version: 0.1.0
+Summary: A FastAPI web app to manage meeting roles
+Home-page: https://git.coopdevs.org/coopdevs/tooling/meeting-roles-manager
+Author: Coopdevs
+Author-email: pelayo.garcia@coopdevs.org
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Meeting Roles Manager
+
+Meeting Roles Manager is a simple and intuitive web application built with FastAPI to manage meeting roles such as the acta person, dynamizer person, and other details related to the meeting. It offers a user-friendly interface for scheduling meetings, managing participants, and maintaining a record of previous meetings.
+
+## Table of Contents
+
+- [How It Works](#how-it-works)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [License](#license)
+
+## How It Works
+
+The Meeting Roles Manager application is designed to manage and schedule meeting roles efficiently. It assigns roles to active persons, considering their availability and previous assignments.
+
+The algorithm operates as follows:
+
+1.  It checks the list of active persons.
+2.  It selects the next persons in line for the roles, considering their previous assignments.
+3.  If a person is paused, they will be skipped in the next assignment.
+4.  The schedule is saved, and the information can be viewed as needed.
+
+## Features
+
+- **Calculate Meetings Roles**: Easily assign roles to participants on new meetings.
+- **Manage Participants**: Add, update, delete, and pause participants with a simple user interface.
+- **Previous Meeting Details**: Keep track of previous meetings, including date, time, and assigned roles.
+- **Responsive Design**: A clean and responsive design that works on various screen sizes.
+- **Error Handling**: Elegant error handling that guides both users and developers.
+
+## Installation
+
+The Meeting Roles Manager can be installed via pip. Make sure you have Python 3.8 or higher installed, and run the following command:
+
+```bash
+pip install meeting-roles-manager
+```
+
+## Usage
+
+After installation, you can run the Meeting Roles Manager by executing the following command:
+
+```bash
+meeting-roles-manager
+```
+
+By default, the application will be accessible at [http://127.0.0.1:8000](http://127.0.0.1:8000).
+
+### Configuration Settings (config.ini)
+
+Meeting Roles Manager provides a configuration file named `config.ini` to customize various aspects of the application, such as the database file path and the server port. This section explains how to modify these settings and the notes to care about.
+
+#### How to Edit Configuration Settings
+
+1. **Locate the Configuration File**: Find the `meeting_roles/config.ini` file in the installation directory of Meeting Roles Manager. If the file does not exist, you can create one with the same name.
+
+2. **Edit the Configuration File**: Open the `config.ini` file in a text editor, and modify the desired settings.
+
+   - **Database File Path**:
+
+     ```ini
+     [database]
+     path = PATH_TO_YOUR_DATABASE_FILE
+     ```
+
+   - **Server Port**:
+
+     ```ini
+     [server]
+     port = YOUR_PORT_NUMBER
+     reload = True
+     ```
+
+3. **Save and Restart**: Save the changes to the `config.ini` file and restart Meeting Roles Manager for the changes to take effect.
+
+#### Important Notes
+
+- **Database Path**: Ensure that the specified database file path is correct and accessible by the application. Moving or renaming the database file without updating the configuration may lead to errors.
+
+- **Port Number**: Ensure that the specified port is not already in use by another application on your system. Port numbers below 1024 are usually reserved for privileged services and require administrative rights to bind.
+
+- **File Permissions**: Make sure that the `config.ini` file has the correct permissions to allow reading and writing by the application.
+
+- **Syntax**: Maintain the correct INI file syntax when editing the file. Incorrect syntax may lead to configuration errors.
+
+### Support and Documentation
+
+If you encounter any issues or have additional questions, please contact support for further assistance.
+
+### User Guide
+
+- **Home Page**: View the current meeting details, including date, time, and roles.
+- **People Management**: Add, edit, or delete participants and manage their active status.
+- **Next Meeting**: Generate the next meeting with a single click.
+- **Previous Meetings**: View details of previous meetings.
+
+## Development
+
+For developers looking to contribute or modify the package, please check [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/meeting-roles-manager.git
+cd meeting-roles-manager
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Locally
+
+```bash
+python -m meeting_roles
+```
+
+or
+
+```bash
+uvicorn meeting_roles.app:app --reload
+```
+
+### Running Tests
+
+Make sure pytest is installed, and run:
+
+```bash
+pytest tests/
+```
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to contribute, raise issues, or suggest enhancements. Your feedback is always welcome!

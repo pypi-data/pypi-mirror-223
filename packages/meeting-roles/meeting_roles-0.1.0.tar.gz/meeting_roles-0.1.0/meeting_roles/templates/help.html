@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help and Support</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Help and Support</h1>
+    
+    <section id="logic">
+        <h2>How It Works</h2>
+        <p>The Meeting Roles application is designed to manage and schedule meeting roles efficiently. It assigns roles to active persons, considering their availability and previous assignments.</p>
+        <p>The algorithm operates as follows:</p>
+        <ol>
+            <li>It checks the list of active persons.</li>
+            <li>It selects the next persons in line for the roles, considering their previous assignments.</li>
+            <li>If a person is paused, they will be skipped in the next assignment.</li>
+            <li>The schedule is saved, and the information can be viewed as needed.</li>
+        </ol>
+    </section>
+    
+    <section id="usage">
+        <h2>Step-by-Step Guide</h2>
+        <p>Follow these steps to utilize the Meeting Roles application:</p>
+        <ol>
+            <li><strong>Add Persons:</strong> Navigate to the "People Management" section and add the names and statuses (active/paused) of the persons.</li>
+            <li><strong>Generate Next Meeting:</strong> Click the "Generate Next Meeting" button to assign roles for the next meeting.</li>
+            <li><strong>View Current Meeting:</strong> See the current roles for Acta Person and Dynamizer Person on the home page.</li>
+            <li><strong>Modify Persons:</strong> Update, delete, or toggle the active status of persons as needed.</li>
+            <li><strong>Delete Most Recent Meeting:</strong> Use this option to undo the last meeting generation.</li>
+            <li><strong>View Previous Meeting Data:</strong> Access information about previous meetings if available.</li>
+        </ol>
+    </section>
+    
+    <footer>
+        <a href="/">Return to Home</a>
+    </footer>
+</body>
+</html>

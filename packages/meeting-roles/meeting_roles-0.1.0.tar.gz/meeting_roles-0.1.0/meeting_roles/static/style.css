@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 40px;
+}
+
+h1 {
+    color: #4466cc;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #555;
+    margin-right: 20px;
+}
+
+h2 i {
+    min-width: 350px;
+}
+
+strong {
+    color: #4466cc;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    text-align: center;
+    border: none;
+    color: #fff;
+    background-color: #4466cc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3355bb;
+}
+
+.btn-danger {
+    background-color: #cc5555;
+}
+
+.btn-danger:hover {
+    background-color: #bb4444;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #ddd;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+i.fas {
+    margin-right: 10px;
+}
+
+
+.error-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.accordion {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none; /* Ocultar por defecto */
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajusta la separación entre los botones */
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-large {
+    font-size: 18px;
+    padding: 15px 30px; /* Tamaño más grande */
+}
+
+.btn-small {
+    font-size: 14px;
+    padding: 10px 20px; /* Tamaño más pequeño */
+}
+
+.btn-danger {
+    background-color: #f44336; /* Rojo suave */
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+.person-role {
+    font-size: 24px; /* Ajusta según prefieras */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.person-role i {
+    margin-right: 10px;
+    font-size: 28px; /* Ajusta según prefieras */
+}
+
+/* Estilo del contenedor del checkbox */
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    margin: 0 30px 0 30px;
+}
+
+/* Esconde el checkbox por defecto */
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Crea una casilla personalizada */
+.checkbox-container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ccc;
+    border-radius: 4px; /* Redondea las esquinas */
+}
+
+/* Cambia el color de la casilla cuando se selecciona */
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Crea el indicador de check (oculto cuando no está marcado) */
+.checkbox-container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Muestra el indicador de check cuando se selecciona */
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Estilo del indicador de check */
+.checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+
+
+.person-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.person-input input[type="text"] {
+    flex-grow: 1; /* Ocupa todo el espacio disponible */
+    margin-right: 10px; /* Añade algo de margen a la derecha para separarlo del checkbox */
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.help-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+}
+
+.help-icon a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.help-icon a:hover {
+    color: #0056b3; /* Color del enlace al pasar el ratón por encima */
+}

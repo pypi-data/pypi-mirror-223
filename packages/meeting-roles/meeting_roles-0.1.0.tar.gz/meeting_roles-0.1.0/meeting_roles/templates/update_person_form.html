@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Person</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h3>Update Person</h3>
+    <form action="/update_person/{person_id}" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="{person_name}" required>
+        <label for="active">Active:</label>
+        <input type="hidden" name="active" value="off">
+        <input type="checkbox" id="active" name="active" {active_checked}>
+        <input type="submit" value="Update" class="btn btn-large">
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+</html>
