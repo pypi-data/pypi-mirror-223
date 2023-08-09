@@ -1,0 +1,7 @@
+agora_redis_client/__init__.py,sha256=nIxsBty2jHDz3mqsvyOPRhUZoo6FtNNvfkNph7C4F4U,31
+agora_redis_client/redis_client.py,sha256=874UmaPraRcVKl04Jr37tzs9J10HqkDBpVp2vImvU6w,1451
+agora_redis_client/version.py,sha256=aEbzo-pQcEdWrp4kPt10RhUcWPxILUkGMOgYXQh9cBU,25
+agora_redis_client-1.1.41.dist-info/LICENSE,sha256=2RSWN0z_ADMOpyELJ0aJpy2UKIuZOOdYq0PpxyllwlA,131
+agora_redis_client-1.1.41.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+agora_redis_client-1.1.41.dist-info/METADATA,sha256=0KKhcZ1P8YsvWQ1-D_4JMHe4kQzq3SHhIAlq4JEhHv0,824
+agora_redis_client-1.1.41.dist-info/RECORD,,
