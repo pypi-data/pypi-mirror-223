@@ -1,0 +1,10 @@
+LICENSE
+README.md
+proSVD.py
+pro_utils.py
+pyproject.toml
+proSVD.egg-info/PKG-INFO
+proSVD.egg-info/SOURCES.txt
+proSVD.egg-info/dependency_links.txt
+proSVD.egg-info/requires.txt
+proSVD.egg-info/top_level.txt
