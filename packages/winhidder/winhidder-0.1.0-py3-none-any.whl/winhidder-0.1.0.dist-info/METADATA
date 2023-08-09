@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: winhidder
+Version: 0.1.0
+Summary: switch desktop with mouse on windows
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# winHidder
+
+#### 介绍
+winHidder是windows下,可以用鼠标快速切换桌面的软件.
+
+#### 使用方法
+点击启动后, 在桌面右下角的托盘图标显示,右键可以打开.
+鼠标放到左上角,切换到一个桌面,鼠标放到右下角,切换到另外一个桌面 
+
