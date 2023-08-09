@@ -1,0 +1,12 @@
+setup.py
+verysimplemodule_romuere/__init__.py
+verysimplemodule_romuere/add.py
+verysimplemodule_romuere/subtract.py
+verysimplemodule_romuere.egg-info/PKG-INFO
+verysimplemodule_romuere.egg-info/SOURCES.txt
+verysimplemodule_romuere.egg-info/dependency_links.txt
+verysimplemodule_romuere.egg-info/requires.txt
+verysimplemodule_romuere.egg-info/top_level.txt
+verysimplemodule_romuere/extra/__init__.py
+verysimplemodule_romuere/extra/divide.py
+verysimplemodule_romuere/extra/multiple.py
