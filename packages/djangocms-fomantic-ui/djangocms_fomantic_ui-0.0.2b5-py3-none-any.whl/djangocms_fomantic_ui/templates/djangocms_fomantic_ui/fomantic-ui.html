@@ -1,0 +1,49 @@
+{% load i18n cms_tags static sekizai_tags menu_tags static %}
+<!doctype html>
+<html lang="{{ current_language }}">
+<head>
+	<title>{% block title %}{% page_attribute "page_title" %}{% endblock title %}</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	{% render_block "css" %}
+
+	{% block webpack %}
+	<script src="{% static 'djangocms_fomantic_ui/webpack/index.bundle.js' %}"></script>
+	{% endblock webpack %}
+
+	{% block fomantic_ui %}
+	{# Fomantic UI #}
+	{% addtoblock "js" strip %}
+	<script src="{% static 'semantic/semantic.js' %}"></script>
+	{% endaddtoblock %}
+	{% addtoblock "css" strip %}
+	{# <link rel="stylesheet" type="text/css" href="{% static 'semantic/semantic.min.css' %}"> #}
+	{% endaddtoblock %}
+	{% addtoblock "css" strip %}
+	<link rel="stylesheet" type="text/css" href="{% static 'semantic/semantic.css' %}">
+	{% endaddtoblock %}
+	{% endblock fomantic_ui %}
+</head>
+<body>
+{% cms_toolbar %}
+
+{% block toast_messages %}
+{% if messages %}
+{% addtoblock "js" strip %}
+<script>
+	{% for message in messages %}
+	$('body').toast({
+        {% if message.tags %}class: '{{ message.tags }}',{% endif %}
+        message: `{{ message }}`
+    });
+    {% endfor %}
+</script>
+{% endaddtoblock %}
+{% endif %}
+{% endblock toast_messages %}
+
+{% block content %}{% placeholder "content" %}{% endblock content %}
+
+{% render_block "js" %}
+
+</body>
+</html>
