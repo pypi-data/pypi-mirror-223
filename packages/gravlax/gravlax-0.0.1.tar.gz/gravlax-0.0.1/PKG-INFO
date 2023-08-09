@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: gravlax
+Version: 0.0.1
+Summary: Basic training utils for JAX.
+Project-URL: repository, https://github.com/magrilab/gravlax
+Author-email: Daniel Kelshaw <djk21@ic.ac.uk>
+License: MIT License
+        
+        Copyright (c) 2023 Daniel Kelshaw
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: hatch
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Provides-Extra: dev
+Requires-Dist: mkdocs; extra == 'dev'
+Requires-Dist: mkdocs-material; extra == 'dev'
+Requires-Dist: mkdocstrings-python; extra == 'dev'
+Requires-Dist: pip-tools; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pyright; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: jupyter
+Requires-Dist: ipykernel; extra == 'jupyter'
+Requires-Dist: jupyterlab; extra == 'jupyter'
+Description-Content-Type: text/markdown
+
+# gravlax
+Basic training utils for JAX
