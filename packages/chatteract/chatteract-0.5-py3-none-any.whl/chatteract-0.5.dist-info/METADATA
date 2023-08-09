@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: chatteract
+Version: 0.5
+Summary: A package to handle OpenAI responses and execute function calls.
+Home-page: https://github.com/aspelund/chatter-act
+Author: Mattias Aspelund
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: tiktoken
+
+ChatterAct is a Python package developed to streamline the integration of OpenAI's GPT-4 function calling capabilities into your applications. Its primary goal is to provide a simplified, yet flexible mechanism for exposing numerous functions to the AI model with minimal effort. ChatterAct handles the execution and piping, enabling you to start simple with one or two AI functions and expand as the complexity of your project grows.
+
+Basically, what you need to do to get started is to follow a simple pattern for the functions that you want to expose to GPT, and to use the wrapper for the GPT calling.
