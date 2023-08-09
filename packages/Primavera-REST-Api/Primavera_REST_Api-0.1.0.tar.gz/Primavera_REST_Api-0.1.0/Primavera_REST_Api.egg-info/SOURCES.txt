@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+Primavera_REST_Api/__endpointsEnum.py
+Primavera_REST_Api/__eppmSession.py
+Primavera_REST_Api/__init__.py
+Primavera_REST_Api/__method.py
+Primavera_REST_Api/__primavera.py
+Primavera_REST_Api.egg-info/PKG-INFO
+Primavera_REST_Api.egg-info/SOURCES.txt
+Primavera_REST_Api.egg-info/dependency_links.txt
+Primavera_REST_Api.egg-info/requires.txt
+Primavera_REST_Api.egg-info/top_level.txt
