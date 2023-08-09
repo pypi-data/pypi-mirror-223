@@ -1,0 +1,94 @@
+#!/usr/bin/env python
+
+from colorama import init
+from colorama import Fore, Back
+from confluent_kafka import Consumer
+import argparse
+import logging
+from datetime import datetime
+
+from foundation.utils import Workers
+
+init(autoreset=True)
+
+parser = argparse.ArgumentParser(description="Start an HCI logger.")
+parser.add_argument('-t', '--topic', action='append', default=['ALL'], help="Topics to be logged.")
+parser.add_argument('-l', '--loglevel', default='DEBUG', help="Set the logging level")
+parser.add_argument('-a', '--advertise_addr', default=None, help="Advertise address.")
+
+args = parser.parse_args()
+
+logging.basicConfig()
+logging.getLogger("confluent_kafka").setLevel(logging.CRITICAL + 1)
+
+workers = Workers(swarm_advertise_addr=args.advertise_addr)
+
+
+########################################################################
+class Logs:
+    """"""
+
+    # ----------------------------------------------------------------------
+    def __init__(self):
+        """Constructor"""
+        conf = {
+            'bootstrap.servers': f'{args.advertise_addr}:19093',
+            'group.id': f'foundation_logs',
+            'auto.offset.reset': 'latest',
+        }
+
+        self.consumer = Consumer(conf)
+        self.subscribe()
+
+        try:
+            self.consume()
+        except KeyboardInterrupt:
+            pass
+
+    # ----------------------------------------------------------------------
+    def consume(self):
+        """"""
+        while True:
+            msg = self.consumer.poll(timeout=1)
+
+            if not msg:
+                continue
+
+            msg = f'{msg.value().decode("utf-8").replace("@", ": ")}'
+
+            log_level = getattr(logging, args.loglevel)
+            msg_level = getattr(logging, msg.split(':')[0], -1)
+
+            if msg_level < log_level:
+                continue
+
+            if msg.startswith('CRITICAL'):
+                print(Back.RED + msg)
+            elif msg.startswith('ERROR'):
+                print(Fore.RED + msg)
+            elif msg.startswith('WARNING'):
+                print(Fore.YELLOW + msg)
+            elif msg.startswith('INFO'):
+                print(Fore.GREEN + msg)
+            elif msg.startswith('DEBUG'):
+                print(Fore.BLUE + msg)
+            else:
+                print(msg)
+
+    # ----------------------------------------------------------------------
+    def subscribe(self):
+        """"""
+        if args.topic == ['ALL']:
+            topics = list(filter(lambda topic: not topic.startswith('__'), self.consumer.list_topics().topics.keys()))
+            topics = topics + workers.swarm.services
+        else:
+            topics = args.topic
+
+        if topics:
+            self.consumer.subscribe(topics)
+
+        print(Back.CYAN + Fore.BLACK + f'Topics: {", ".join(topics)}')
+
+
+if __name__ == '__main__':
+    Logs()

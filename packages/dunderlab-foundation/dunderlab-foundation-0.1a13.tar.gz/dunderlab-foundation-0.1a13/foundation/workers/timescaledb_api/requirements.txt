@@ -1,0 +1,13 @@
+djangorestframework
+djangorestframework-simplejwt
+dunderlab-timescaledbapp
+markdown
+django-filter
+django_extensions
+psycopg2-binary
+numpy
+aiohttp
+requests
+psutil
+channels
+whitenoise
