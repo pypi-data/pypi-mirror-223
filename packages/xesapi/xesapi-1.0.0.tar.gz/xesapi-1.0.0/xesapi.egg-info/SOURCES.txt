@@ -1,0 +1,8 @@
+README.rst
+setup.py
+xesapi/__init__.py
+xesapi.egg-info/PKG-INFO
+xesapi.egg-info/SOURCES.txt
+xesapi.egg-info/dependency_links.txt
+xesapi.egg-info/requires.txt
+xesapi.egg-info/top_level.txt
