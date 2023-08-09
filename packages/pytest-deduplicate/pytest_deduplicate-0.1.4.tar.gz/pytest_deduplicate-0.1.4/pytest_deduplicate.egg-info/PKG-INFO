@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pytest-deduplicate
+Version: 0.1.4
+Summary: Identifies duplicate unit tests
+Author-email: xor2003 <xor2003@gmx.com>
+License: GPL
+Project-URL: Homepage, https://github.com/xor2003/pytest_deduplicate
+Keywords: pytest,deduplicate
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytest_deduplicate
+
+The pytest_deduplicate is designed to identify duplicate or superseeding unit tests that have the same or bigger code coverage. 
+It can be particularly useful when unit tests are automatically generated based on input/output information for a function, 
+using a large amount of available input data (for example, with the help of the auger library).
+
+This tool groups each test together based on the coverage set. 
+By invoking unit testing with this tool, it will collect code coverage for each test and generate a list of duplicate tests. 
+However, it is important to note that false-positives may occur if, for example, there are regular expressions involved, as the code coverage in such cases may appear the same.
+
+To use simply call:
+
+    pytest_deduplicate <your_project_directory>
+
+Result example:
+
+```
+Duplicates:
+test_collect.py:94:0: W001 tests with duplicate coverage: test_minimal_missing_both_mo (duplicate-test)
+test_collect.py:195:0: W001 tests with duplicate coverage: test_mapping_couldnt_find_mo (duplicate-test)
+
+Superseeded:
+test_collect.py:83:0: W002 test test_minimal_raise_missing_mo covers more when below (bigger_coverage)
+test_collect.py:62:0: W003 test test_minimal_raise_valid covers less when test_minimal_missing_mo (smaller_coverage)
+```
