@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: myrs
+Version: 0.0.0
+Summary: A Language and Compiler for Machine Learning
+Author: altar31
+Author-email: damien.sicard31@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: xdsl (>=0.13.0,<0.14.0)
+Description-Content-Type: text/markdown
+
+# 💧 Myr 
+
+*"A Language and Compiler for Machine Learning"*
+
+The aim of **Myr** is to become a **Domain Specific Language (DSL)** and **Compiler** for easily build **High Performance Machine Learning** solutions. **Simplicity** is at the roots of the language with a clean and simple syntax.
+Myr use the [Python-Native Compiler Toolkit (xDSL)](https://xdsl.dev/) in order to leverage [LLVM](https://llvm.org/) and [MLIR](https://mlir.llvm.org/) compiler infrastructure.
+
+The goals (first draft) :
+- At first **satisfy my willingness** to learn more about DSL design, compilers and machine learning
+- Be **useful**...(a hard goal 😅). The DSL should allow to quickly implement high performance machine learning algorithms (long-term goal)
+
+## ⚠️ Warnings
+
+For the moment :
+
+- The development of the project takes place in a private github repository
+- The project is at the very early stage -> Nothing is implemented in this version
+ - The documentation is missing
+
+Don't hesitate to contact me if you want to know more or are interested in !😃
+
+The project will be highly collaborative🤝, so everyone is welcome to the project ! 🤗  
+Contributions could be done in many ways and are not exclusively code. You could write documentation ( very important !😉), participate to the community creation (slack,matrix,gitter...) etc ...
+
+The repository as well as a "usable" python package will be available in the upcoming months when the project will be more advanced. Stay tuned ! 🗓️
