@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+codehash/__init__.py
+codehash/codehash.py
+naist_codehash.egg-info/PKG-INFO
+naist_codehash.egg-info/SOURCES.txt
+naist_codehash.egg-info/dependency_links.txt
+naist_codehash.egg-info/top_level.txt
