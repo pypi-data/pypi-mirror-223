@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pytest-django-class
+Version: 0.0.1
+Summary: A pytest plugin for running django in class-scoped fixtures
+Home-page: https://github.com/mikicz/pytest-django-class
+License: MIT
+Keywords: pytest,django,pytest-django
+Author: Mikuláš Poul
+Author-email: mikulaspoul@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Testing
+Project-URL: Repository, https://github.com/mikicz/pytest-django-class
+Description-Content-Type: text/markdown
+
+# pytest-django-class
+
