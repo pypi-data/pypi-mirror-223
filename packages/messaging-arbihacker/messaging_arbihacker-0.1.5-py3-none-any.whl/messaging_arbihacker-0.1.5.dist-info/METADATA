@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: messaging-arbihacker
+Version: 0.1.5
+Summary: Messaging utils
+Project-URL: Homepage, https://github.com/ArbiHacker/messaging-arbihacker
+Author-email: Sergei Aslamazov <mrvisioo@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: celery~=5.3.1
+Requires-Dist: kombu~=5.3.1
+Description-Content-Type: text/markdown
+
+# Messaging ArbiHacker
+Messaging utils.
