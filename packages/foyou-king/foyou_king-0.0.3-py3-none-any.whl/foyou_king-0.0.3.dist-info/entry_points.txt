@@ -1,0 +1,3 @@
+[console_scripts]
+king = king.main:main
+yxiao = king.main:yxiao
