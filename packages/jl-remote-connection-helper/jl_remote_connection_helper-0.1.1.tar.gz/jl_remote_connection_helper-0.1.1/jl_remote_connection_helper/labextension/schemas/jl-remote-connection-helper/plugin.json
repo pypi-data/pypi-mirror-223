@@ -1,0 +1,19 @@
+{
+  "title": "Remote Connection Helper",
+  "description": "Remote Connection Helper settings.",
+  "jupyter.lab.menus": {
+    "main": [
+      {
+        "id": "jl-remote-connection-helper-main-menu",
+        "label": "Remote Connection",
+        "items": [
+          {
+            "command": "jl-remote-connection-helper:vscode"
+          }
+        ]
+      }
+    ]
+  },
+  "additionalProperties": false,
+  "type": "object"
+}
