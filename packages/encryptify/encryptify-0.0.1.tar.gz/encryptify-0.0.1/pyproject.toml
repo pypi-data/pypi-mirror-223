@@ -1,0 +1,14 @@
+[project]
+name = "encryptify"
+version = "0.0.1"
+authors = [
+  { name="Akash Nath", email="anath5440@gmail.com" },
+]
+description = "A package to encrypt any kind of data"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

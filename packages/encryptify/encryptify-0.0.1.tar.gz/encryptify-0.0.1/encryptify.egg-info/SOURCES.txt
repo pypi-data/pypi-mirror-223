@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+encryptify.egg-info/PKG-INFO
+encryptify.egg-info/SOURCES.txt
+encryptify.egg-info/dependency_links.txt
+encryptify.egg-info/top_level.txt
