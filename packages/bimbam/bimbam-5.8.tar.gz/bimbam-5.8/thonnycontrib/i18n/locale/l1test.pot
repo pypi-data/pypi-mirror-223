@@ -1,0 +1,217 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-08-08 01:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../thonnycontrib/plugin_loader.py:83
+msgid "Run all tests"
+msgstr ""
+
+#: ../thonnycontrib/plugin_loader.py:92
+msgid "Run tests for ..."
+msgstr ""
+
+#: ../thonnycontrib/plugin_loader.py:100
+msgid "Generate a docstring"
+msgstr ""
+
+#: ../thonnycontrib/plugin_loader.py:108
+msgid "Generate a __main__"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:33
+msgid "Place the red tests on the top"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:34
+msgid "Resume original order"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:35
+msgid "Show only red tests"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:36
+msgid "Show all the tests"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:37
+msgid "Group by verdicts"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:38
+msgid "Expand all"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:39
+msgid "Fold all"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:40
+msgid "Update the font"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:41
+msgid "Inrease row height"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:42
+msgid "Decrease row height"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:43
+msgid "Clear"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:46
+msgid "Executing tests in progress"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:49
+msgid "No test found !"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:57
+msgid "Cannot generate the docstring :"
+msgstr ""
+
+#: ../thonnycontrib/properties.py:59
+#, python-format
+msgid "Cannot run %s :"
+msgstr ""
+
+#: ../thonnycontrib/utils.py:265
+#, python-format
+msgid ""
+"The file \"%s\" cannot be imported.\n"
+"\n"
+"Please, be sure that the extension of the file is `.py`"
+msgstr ""
+
+#: ../thonnycontrib/utils.py:268
+#, python-format
+msgid "Cannot found the file `%s`"
+msgstr ""
+
+#: ../thonnycontrib/utils.py:269
+#, python-format
+msgid "Error when importing the module \"%s\":\n"
+msgstr ""
+
+#: ../thonnycontrib/l1test_configuration/l1test_options.py:63
+msgid ""
+"Generate the docstring automatically after a line break at a function "
+"name."
+msgstr ""
+
+#: ../thonnycontrib/l1test_configuration/l1test_options.py:66
+msgid "Import the module executed in the shell."
+msgstr ""
+
+#: ../thonnycontrib/l1test_configuration/l1test_options.py:69
+#, python-format
+msgid "Close all function lines in %s view."
+msgstr ""
+
+#: ../thonnycontrib/l1test_configuration/l1test_options.py:72
+#, python-format
+msgid "Open only red function lines in %s view."
+msgstr ""
+
+#: ../thonnycontrib/l1test_configuration/l1test_options.py:75
+#, python-format
+msgid "Open failed tests in %s view."
+msgstr ""
+
+#: ../thonnycontrib/l1test_configuration/l1test_options.py:78
+msgid "Highlight failed tests (only those that throw an exception)."
+msgstr ""
+
+#: ../thonnycontrib/l1test_configuration/l1test_options.py:81
+msgid ""
+"Place the error view at the bottom of the Thonny IDE (next to the `Shell`"
+" view). By default, the error view is placed below the `L1Test` view."
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_runner.py:82
+msgid ""
+"No editor found !\n"
+"\n"
+"Please open an editor before running the tests."
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_runner.py:92
+msgid ""
+"The file is not saved.\n"
+"\n"
+"Consider to save the file before running the tests."
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_runner.py:100
+msgid "The editor is empty!\n"
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_runner.py:129
+msgid "The backend is not ready yet !"
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_runner.py:137
+msgid "Waiting for the backend to restart completely ..."
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_runner.py:144
+msgid ""
+"Coudn't restart the backend.\n"
+"Please restart with the 'Stop' button !"
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_runner.py:357
+msgid "Starting executing tests ..."
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_treeview.py:656
+msgid "passed"
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_treeview.py:667
+msgid "Tests run"
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_treeview.py:673
+msgid "Success"
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_treeview.py:676
+msgid "Failures"
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_treeview.py:679
+msgid "Errors"
+msgstr ""
+
+#: ../thonnycontrib/l1test_frontend/l1test_treeview.py:682
+msgid "Empty"
+msgstr ""
+
+#: ../thonnycontrib/main_generator/main_generator.py:25
+msgid "already exists"
+msgstr ""
+
+#: ../thonnycontrib/main_generator/main_generator.py:26
+msgid "generated"
+msgstr ""
+
