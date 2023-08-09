@@ -1,0 +1,23 @@
+name: "RunGhast"
+on:
+  push:
+    branches:
+      - main
+      - dev
+    paths:
+      - ".github/workflows/**"
+jobs:
+  RunGhast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Checkout repo"
+        uses: actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5 # v3.5.3
+      - name: "Run Ghast"
+        uses: "bin3xish477/ghast@591140d3068c278519062744c180bd3198b7394c"
+        with:
+          dir: "./actions/"
+          verbose: true
+          #no-summary: true
+          #ignore-checks: ''
+          #ignore-warnings: true
+        continue-on-error: true # adding this since this workflow is always expected to fail
