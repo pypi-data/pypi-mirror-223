@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Pacoteste
+Version: 0.1
+Summary: Função para dar um oi.
+Author: VictorSalg
+Author-email: victorfsalgueiros@gmail.com
+License-File: LICENSE
+
+file: README.md
