@@ -1,0 +1,2 @@
+[console_scripts]
+bayesim = bayesim.__main__:main
