@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: crowdstrike-foundry-function
+Version: 0.2.0
+Summary: CrowdStrike Foundry Function Software Developer Kit for Python
+Requires-Python: >=3.9.0,<3.10.0
+License-File: LICENSE
+Requires-Dist: astroid ==2.15.5
+Requires-Dist: build ==0.10.0
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.1.0
+Requires-Dist: coverage ==7.2.7
+Requires-Dist: crowdstrike-falconpy ==1.2.16
+Requires-Dist: dill ==0.3.6
+Requires-Dist: exceptiongroup ==1.1.1
+Requires-Dist: idna ==3.4
+Requires-Dist: iniconfig ==2.0.0
+Requires-Dist: isort ==5.12.0
+Requires-Dist: lazy-object-proxy ==1.9.0
+Requires-Dist: mccabe ==0.7.0
+Requires-Dist: packaging ==23.1
+Requires-Dist: platformdirs ==3.8.0
+Requires-Dist: pluggy ==1.2.0
+Requires-Dist: pylint ==2.17.4
+Requires-Dist: pyproject-hooks ==1.0.0
+Requires-Dist: pytest ==7.4.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: tomlkit ==0.11.8
+Requires-Dist: typing-extensions ==4.6.3
+Requires-Dist: urllib3 ==1.26.16
+Requires-Dist: wrapt ==1.15.0
+
