@@ -1,0 +1,73 @@
+### Site metadata ###
+
+site_name: SlimFit
+site_description: SymFit's little brother
+site_url: https://jhsmit.github.io/slimfit/
+
+repo_url: https://github.com/Jhsmit/slimfit/
+edit_uri: edit/master/docs/
+
+### Build settings ###
+
+theme:
+  name: material
+
+markdown_extensions:
+  - codehilite
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Tutorial:
+    - Basic Usage: tutorial/basic_usage.ipynb
+  - Examples:
+      - Linear combinations: examples/linear_matrices.py
+      - Likelihood fit: examples/likelihood_gaussian.py
+      - Gaussian Mixture Model: examples/gaussian_mixture_model.py
+      - GMM amplitudes: examples/gmm_amplitudes.py
+      - Markov chain: examples/markov_chain.py
+      - Markov and GMM: examples/markov_chain_and_GMM.py
+      - Custom numerical expressions: examples/custom_numexpr_ivp.py
+  - Reference:
+      - Structure: structure.md
+      - API: reference/
+  - API Reference: reference/
+
+watch:
+  - slimfit
+
+plugins:
+  - search
+  - mkdocs-jupyter: # .ipynb / .py files in docs
+      execute: false
+      # execute_ignore: "*.ipynb"
+      kernel_name: python3
+  - gen-files:
+      scripts:
+        - docs/gen_ref_pages.py
+  - literate-nav:
+      nav_file: SUMMARY.md
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          options:
+            enable_inventory: true
+            show_signature_annotations: false
+          import:
+            - https://docs.python.org/3/objects.inv
+            - https://numpy.org/doc/stable/objects.inv
+            - https://docs.scipy.org/doc/scipy/objects.inv
+            - https://pandas.pydata.org/docs/objects.inv
+          paths: [slimfit]
+
+
+extra_css:
+- css/styles.css

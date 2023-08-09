@@ -1,0 +1,80 @@
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[project]
+name = "slimfit"
+description = "SymFit's little brother"
+authors = [
+  { name = "Jochem Smit", email = "jhsmit@gmail.com" },
+]
+readme = "README.md"
+license = {file = "LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "numpy",
+    "sympy",
+    "tqdm",
+    "typing-extensions",
+    "PyYAML",
+    "scipy",
+    "numdifftools",
+]
+
+dynamic = ["version"]
+
+[project.optional-dependencies]
+plot = [
+    "proplot>=0.9.7",
+]
+docs = [
+    "mkdocs>=1.4.2",
+    "mkdocstrings[python]>=0.19.1",
+    "mkdocs-material>=8.5.11",
+    "pygments>=2.13.0",
+    "mkdocs-gen-files>=0.4.0",
+    "mkdocs-literate-nav>=0.5.0",
+    "mkdocs-jupyter>=0.22.0",
+    "jupyter>=1.0.0"
+]
+dev = [
+    "black[jupyter]>=22.12.0",
+    "setuptools-scm"
+]
+
+test = [
+    "pytest>=7.2.0",
+]
+
+[project.urls]
+Source = "https://github.com/Jhsmit/slimfit/"
+Documentation = "https://jhsmit.github.io/slimfit/"
+
+[tool.hatch.build]
+exclude = [
+    "_versioneer.py"
+]
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "slimfit/_version.py"
+
+[tool.flake8]
+max-line-length = 100
+ignore = "D203"
+exclude = [".git", "__pycache__", "build", "dist", "docs"]
+max-complexity = 10
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
