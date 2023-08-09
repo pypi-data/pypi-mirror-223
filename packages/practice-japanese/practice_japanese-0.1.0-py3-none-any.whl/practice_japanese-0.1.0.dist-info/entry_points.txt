@@ -1,0 +1,2 @@
+[console_scripts]
+practice_japanese = practice_japanese.command_line:cli

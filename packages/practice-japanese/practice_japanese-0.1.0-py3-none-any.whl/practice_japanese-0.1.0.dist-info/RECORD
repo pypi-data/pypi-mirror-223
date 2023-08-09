@@ -1,0 +1,12 @@
+practice_japanese/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+practice_japanese/character_statistics.py,sha256=NF_ilY3XgiXXRJeMAKTrFf5a_7TK2r51bblDmf-7JOE,2895
+practice_japanese/command_line.py,sha256=WKY6fKhEsqfaTGzRHMo1U6ndgj7gv_2RTtYrH3KYBYA,1694
+practice_japanese/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+practice_japanese/character_sets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+practice_japanese/character_sets/hiragana.py,sha256=oeJ1RaSEQPngkphDmy7VklAlC1Ze2q5gaPZU2MA2VqI,1378
+practice_japanese-0.1.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+practice_japanese-0.1.0.dist-info/METADATA,sha256=VTYy6mut_N73iXoZND15H1at5NA2jxNKrqgCjDuO3xU,1509
+practice_japanese-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+practice_japanese-0.1.0.dist-info/entry_points.txt,sha256=OK08ER-AOYiMKMCv0ZR3NWvKyFPfNpQX6kC_T7e-X4Y,73
+practice_japanese-0.1.0.dist-info/top_level.txt,sha256=YUQjp_8sl_PLq_VRPiBBpweRtXNiDRXkYU4g4dvEX6o,18
+practice_japanese-0.1.0.dist-info/RECORD,,
