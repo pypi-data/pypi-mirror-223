@@ -1,0 +1,7 @@
+georelate/__init__.py,sha256=kaeZfyQiK41L9qVLuZ7jfjDDNq3J1WGgBom6OVS-Jdk,113
+georelate/_distance.py,sha256=nEsqU_sJAp6_FT3Sl0sH5fscerNm-CQuMEhdojPFg3s,10679
+georelate/data.py,sha256=ns2x9iI7K7YnYyTi978DQlFW0Qs92qf9btWXldapFuA,1422
+georelate-0.0.3.dist-info/LICENSE,sha256=bwqjkmqhg1DCZ7BgSC7RwPAMz9-SxfPNWwUzd016cYo,1071
+georelate-0.0.3.dist-info/METADATA,sha256=CzRT8Or25Fv5s30qG7hN9BtHyGL_kazMUrFQelxDfk8,432
+georelate-0.0.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+georelate-0.0.3.dist-info/RECORD,,
