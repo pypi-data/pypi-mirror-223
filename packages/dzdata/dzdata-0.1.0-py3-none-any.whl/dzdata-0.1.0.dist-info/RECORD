@@ -1,0 +1,11 @@
+dzdata/__init__.py,sha256=vQSyceLxLXfnJPjS3PqI1HJ5m4w_PEInYROZWfMryOQ,284
+dzdata/datafiles.py,sha256=wkws4Po-7yTMND5cvILcjb_W5FRJPprlXpB_M7wxJUc,15743
+dzdata/dataset.py,sha256=LLJm52BCgKc2o2w_ZQgXEllEV3ckOxCcU6HC45lBNzQ,5241
+dzdata/dataunit.py,sha256=s2LeAmA0qveMTOi6PUHn4axrbDowocUaQrg7fdb2MF4,3143
+dzdata/field.py,sha256=3IK3sRdhQogU4XfmD3NLBfHnD4eAz6W06Xr_e3T3XBU,3989
+dzdata/fileio.py,sha256=Mwo6kw1g-0HX3x7ewVrZSHIRRZjo8MKJf9YlILVszBg,4936
+dzdata/utils.py,sha256=myxGzkG_nKlBXBMTlrM9l8c2ZSMuxCUD5iwUV5Orhs4,563
+dzdata-0.1.0.dist-info/LICENSE,sha256=nGg0YBDKsNHXdBiXH4OgqB_S20FNmIB9vMODCKNuCuE,1071
+dzdata-0.1.0.dist-info/METADATA,sha256=iSchRQb0GZU4gKkNOLdm3MiTbr8tZkVMVjuu-bwbX1I,760
+dzdata-0.1.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+dzdata-0.1.0.dist-info/RECORD,,
