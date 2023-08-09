@@ -1,0 +1,8 @@
+include AUTHORS.md
+include COPYING.md
+include INSTALL.md
+include NEWS.md
+include USAGE.md
+include lib/include/*.h
+include lib/src/*.h
+include symbols.lst
