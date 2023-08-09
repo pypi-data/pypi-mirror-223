@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "winhidder"
+version = "0.1.0"
+description = "switch desktop with mouse on windows"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+include = ["winHidder.exe"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+mywin = "winHidder:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
