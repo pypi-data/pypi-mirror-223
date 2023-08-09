@@ -1,0 +1,2 @@
+aamp_app
+command_sequence
