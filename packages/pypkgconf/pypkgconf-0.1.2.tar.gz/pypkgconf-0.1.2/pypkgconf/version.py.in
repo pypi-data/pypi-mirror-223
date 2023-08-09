@@ -1,0 +1,9 @@
+from ._libpkgconf import ffi, lib
+
+
+def pypkgconf_version() -> str:
+    return '@VERSION@'
+
+
+def pkgconf_version() -> str:
+    return ffi.string(lib.package_version()).decode()

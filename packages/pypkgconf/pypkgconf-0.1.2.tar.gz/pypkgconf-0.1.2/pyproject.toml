@@ -1,0 +1,29 @@
+[build-system]
+build-backend = 'mesonpy'
+requires = ['meson-python >= 0.13.2', 'cffi']
+
+[project]
+name = 'pypkgconf'
+description = 'Python bindings to libpkgconf'
+readme = 'README.md'
+requires-python = '>=3.7'
+license = {file = 'LICENSE.txt'}
+authors = [
+  {name = 'Charles Brunet', email = 'charles.brunet@optelgroup.com'},
+]
+dependencies = [
+  'cffi',
+]
+dynamic = ['version']
+
+[project.optional-dependencies]
+test = [
+    'pytest',
+]
+
+[project.urls]
+source = "https://gitlab.com/optelgroup-public/pypkgconf"
+tracker = "https://gitlab.com/optelgroup-public/pypkgconf/-/issues"
+
+[tool.meson-python.args]
+install = ['--tags=runtime,python-runtime']
