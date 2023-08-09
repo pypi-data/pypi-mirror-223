@@ -1,0 +1,12 @@
+setup.py
+novus/__init__.py
+novus/asgi.py
+novus/routers.py
+novus/settings.py
+novus/urls.py
+novus/wsgi.py
+your_python_sdk.egg-info/PKG-INFO
+your_python_sdk.egg-info/SOURCES.txt
+your_python_sdk.egg-info/dependency_links.txt
+your_python_sdk.egg-info/requires.txt
+your_python_sdk.egg-info/top_level.txt
