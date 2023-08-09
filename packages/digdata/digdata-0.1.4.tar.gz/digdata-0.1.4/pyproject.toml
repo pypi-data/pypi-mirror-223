@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "digdata"
+version = "0.1.4"
+description = "This package is a library created to carry the necessary functions of the digdata project."
+authors = ["safaraliyevelmir <safaraliyevelmir@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "1.18.35"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
