@@ -1,0 +1,14 @@
+jupyter_cpp_kernel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_cpp_kernel/__main__.py,sha256=OmBL7h8P32yMwQEGtTiNXvKL8TU6kOdJfko7YktNuDQ,129
+jupyter_cpp_kernel/kernel.py,sha256=xXQOeObEqjLDTHpgLiXbRHNN2dM-pNimoeWZz4Lp310,10762
+jupyter_cpp_kernel/resources/dlfcn.h,sha256=n0JtaeVzbXfM7hrK9lv0EwWlYsnhJk0YYmGrWx_sLC0,3320
+jupyter_cpp_kernel/resources/master.cpp,sha256=EWkb7MdAcFZXi6OFxHS9hKpknFd1Zw6UBKEyRyZkFiw,1203
+jupyter_cpp_kernel-1.0.0a3.data/data/share/jupyter/kernels/cpp14/kernel.json,sha256=YVLtT0xsV65uR3zAuwaAfMa5QhzhCwv-qWhoUgJNExo,191
+jupyter_cpp_kernel-1.0.0a3.data/data/share/jupyter/kernels/cpp14/logo-32x32.png,sha256=Ak3fGQ05MmZj1gFDVLoXSvLWu1Yl5yZOz1N8CWh-bJk,5218
+jupyter_cpp_kernel-1.0.0a3.data/data/share/jupyter/kernels/cpp14/logo-64x64.png,sha256=vpkXXQj8OaBWDxHhaQVLp5sr2IL9yI_-YT8GtGyM1Lg,19133
+jupyter_cpp_kernel-1.0.0a3.data/data/share/jupyter/kernels/cpp14/logo-svg.svg,sha256=ehYxG_XfO27H5PMH2KLqM5-_jwO2hZClNy5N5y_Fh8Y,1919
+jupyter_cpp_kernel-1.0.0a3.dist-info/LICENSE,sha256=HQ9PDhIw49wou2xJoA4Xu-jSygNxy3bBa715ce3c0d8,1090
+jupyter_cpp_kernel-1.0.0a3.dist-info/METADATA,sha256=RSLKRjd6lPrlqxI-dk3TlVxIS_UVEUc5MJj7rRY9M4A,5130
+jupyter_cpp_kernel-1.0.0a3.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+jupyter_cpp_kernel-1.0.0a3.dist-info/top_level.txt,sha256=rkGB1IEVn__G6uat5PclxoH3Tar7BuZfRaiPSHTKW1w,19
+jupyter_cpp_kernel-1.0.0a3.dist-info/RECORD,,
