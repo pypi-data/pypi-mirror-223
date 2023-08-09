@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+soma/__init__.py
+soma/somav2.py
+somatorio_alisson_rodrigov4.egg-info/PKG-INFO
+somatorio_alisson_rodrigov4.egg-info/SOURCES.txt
+somatorio_alisson_rodrigov4.egg-info/dependency_links.txt
+somatorio_alisson_rodrigov4.egg-info/requires.txt
+somatorio_alisson_rodrigov4.egg-info/top_level.txt
