@@ -1,0 +1,3 @@
+[pdm]
+pdm-build-locked = pdm_build_locked:plugin
+
