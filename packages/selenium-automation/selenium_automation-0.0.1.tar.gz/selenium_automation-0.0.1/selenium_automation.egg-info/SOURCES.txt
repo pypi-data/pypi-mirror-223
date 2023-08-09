@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+selenium_automation.egg-info/PKG-INFO
+selenium_automation.egg-info/SOURCES.txt
+selenium_automation.egg-info/dependency_links.txt
+selenium_automation.egg-info/requires.txt
+selenium_automation.egg-info/top_level.txt
