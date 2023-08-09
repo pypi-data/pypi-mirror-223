@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyoverlay
+Version: 1.0.1
+Summary: Easily create overlay on top of any game/application
+Author-email: majvax <majvax.contact@gmail.com>
+Project-URL: Homepage, https://github.com/majvax/pyoverlay
+Project-URL: Bug Tracker, https://github.com/majvax/pyoverlay/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich
+Requires-Dist: pywin32
+Requires-Dist: pyOpenGL
+Requires-Dist: PyGLM
+Requires-Dist: glfw
+
