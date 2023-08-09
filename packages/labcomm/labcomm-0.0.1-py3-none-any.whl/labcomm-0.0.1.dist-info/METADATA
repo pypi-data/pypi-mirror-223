@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: labcomm
+Version: 0.0.1
+Summary: A fast binary protocol for interacting with integrated circuit demonstration boards.
+Project-URL: Homepage, https://github.com/Xenomorphxx121/labcomm
+Project-URL: Bug Tracker, https://github.com/Xenomorphxx121/labcomm/issues
+Author-email: Steve martin <Steve.Martin@analog.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# labcomm
+A fast binary protocol for interacting with integrated circuit demonstration boards.
+
+See the description of Labcomm here in the Wiki
+https://github.com/Xenomorphxx121/labcomm/wiki
