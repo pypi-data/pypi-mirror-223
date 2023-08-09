@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: boards
+Version: 0.2
+Summary: Recursive kanban tool in the command line
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: send2trash
+Requires-Dist: rich
+Requires-Dist: tomlkit
+Requires-Dist: typer
+
+# boards
+kanban inception
+
