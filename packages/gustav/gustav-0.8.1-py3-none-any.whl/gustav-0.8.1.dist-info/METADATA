@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gustav
+Version: 0.8.1
+Summary: A simple but powerful python module to help with psychophysical experimentation
+Home-page: https://github.com/cbrown1/gustav
+Author: Christopher Brown
+Author-email: cbrown1@pitt.edu
+Maintainer: Christopher Brown
+Maintainer-email: cbrown1@pitt.edu
+Platform: linux
+Platform: windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE.md
+
