@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+asalix/__init__.py
+asalix/dataset_extractor.py
+asalix/numerical_methods.py
+asalix/plotter.py
+asalix.egg-info/PKG-INFO
+asalix.egg-info/SOURCES.txt
+asalix.egg-info/dependency_links.txt
+asalix.egg-info/requires.txt
+asalix.egg-info/top_level.txt
