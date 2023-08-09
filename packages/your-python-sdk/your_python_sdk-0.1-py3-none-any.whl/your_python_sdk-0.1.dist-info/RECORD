@@ -1,0 +1,10 @@
+novus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novus/asgi.py,sha256=8KvFcyJejksF3ypByVfuSmErefN_vViBXgnfYcI6y-o,403
+novus/routers.py,sha256=gEpuFjxwug29ae4UxOFrC8se2Q0zCK5N59A3ZJqdWI8,2267
+novus/settings.py,sha256=Z0xhUEiMyQdEJXVqJqDhwAfFyltdsIGdCVQ6zR8XOZM,5695
+novus/urls.py,sha256=3WsVFKEOBPDDPVFJAr9vqi41SMalZQpvRudm7qjuNW4,1215
+novus/wsgi.py,sha256=h5LIcq7qYebIL0AoajZLy6QqATgxamERsRGAXfBr2UE,403
+your_python_sdk-0.1.dist-info/METADATA,sha256=AVc5irNEf2uTbYZBEkuOd9WdsKcO-0puNZKAl7raf5o,87
+your_python_sdk-0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+your_python_sdk-0.1.dist-info/top_level.txt,sha256=RKqEHV5uR789uUutsmz-Rs-CFPd_ZimtF2I6quAYQP4,6
+your_python_sdk-0.1.dist-info/RECORD,,
