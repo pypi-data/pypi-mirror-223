@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+quaxa/__init__.py
+quaxa/quaxa.py
+quaxa.egg-info/PKG-INFO
+quaxa.egg-info/SOURCES.txt
+quaxa.egg-info/dependency_links.txt
+quaxa.egg-info/requires.txt
+quaxa.egg-info/top_level.txt
+quaxa.egg-info/zip-safe
+test/__init__.py
+test/test_quaxa.py
