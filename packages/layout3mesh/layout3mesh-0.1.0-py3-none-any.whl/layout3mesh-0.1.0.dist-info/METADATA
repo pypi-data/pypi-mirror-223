@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: layout3mesh
+Version: 0.1.0
+Summary: A tool to generate 3D meshes from 2D integrated circuit layouts
+Home-page: https://github.com/das-dias/layout3mesh
+License: GPLv2
+Keywords: layout,3D-mesh,gds2,oasis
+Author: dasdias
+Author-email: das.dias6@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: gdstk (>=0.9.42,<0.10.0)
+Requires-Dist: mapbox-earcut (>=1.0.1,<2.0.0)
+Requires-Dist: scipy (>=1.11.1,<2.0.0)
+Requires-Dist: shapely (>=2.0.1,<3.0.0)
+Requires-Dist: trimesh (>=3.23.1,<4.0.0)
+Project-URL: Repository, https://github.com/das-dias/layout3mesh
+Description-Content-Type: text/markdown
+
+<h1 align=center> layout3mesh </h1>
+
+<div align=justify>
+<p> This is a simple tool to convert an integrated circuit layout saved in OASIS / GDSII file format to a mesh 3D image file. The tool supports direct export of the 3D mesh file into the Blender desktop app. This tool was written with the goal of rendering any layout in 3D inside a desktop or web application using WebGL. </p>
+</div>
+
+<h2 align=center> Installation </h2>
+
+<h3 align=center> MacOS, Linux, Windows </h3>
+
+```bash
+pip install layout3mesh
+```
+
+<h2 align=center> Usage - Command Line Interface </h2>
+
+```bash
+layout3mesh -i <input_file_path [.gds/.oas]> -o <output_file_path [.gltf]> -t <layerstack_file_path [.ymls]>
+```
+
+<h2 align=center> Examples </h2>
+
+<p>
+Running the example with the mock layerstack file and layout provided in the <a href="tests/data/">examples</a>, by running the following command:
+</p>
+
+```bash
+layout3mesh -i ./tests/data/crossed_metal.gds -t ./tests/data/mock_layers.ymls -o ./tests/data/crossed_metal.gltf
+```
+
+<p>
+can generate the following 3D image:
+</p>
+
+<p align=center>
+
+
+<img src="tests/data/crossed_metal.gif" width=70%/>
+
+</p>
+
