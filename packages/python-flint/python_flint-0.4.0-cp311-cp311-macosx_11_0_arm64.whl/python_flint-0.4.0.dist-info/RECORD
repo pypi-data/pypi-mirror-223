@@ -1,0 +1,11 @@
+python_flint-0.4.0.dist-info/RECORD,,
+python_flint-0.4.0.dist-info/LICENSE,sha256=lX_RZqbiOV-lLY_DR0tTG00i19i4T7TPwbetStCaQT0,1080
+python_flint-0.4.0.dist-info/WHEEL,sha256=V4MgOdL8hB0MONNzyEXkjqg6fCQ0i-MT-UIIis4fuKU,110
+python_flint-0.4.0.dist-info/top_level.txt,sha256=ERZPv0lz7-9_ArySDCJP7328QDmmfLPFA-v6AvY0EWo,6
+python_flint-0.4.0.dist-info/METADATA,sha256=JFxhWrPioas9fZcfpN3fwyTEqsv_sOXJhJo99srqPzs,311
+flint/__init__.py,sha256=AvLsCs5yQbKvCs3fY2VdkH3gixfZ_VxQ-kSTdE_fhYA,45
+flint/_flint.cpython-311-darwin.so,sha256=KJqMiT0N1MTR4pMHooeUArZyJSS-rfZ0eebH0nkIc2s,2719440
+flint/.dylibs/libflint-17.dylib,sha256=HTM7EQtKvAwsKwAxJQHiOTeztgE-f1f0mGkvm0fKrs4,8038256
+flint/.dylibs/libgmp.10.dylib,sha256=rGpAkY9ty-5cFUlBzE8Jk1yhxzg8DandNnc3L6hl0Ac,485232
+flint/.dylibs/libmpfr.6.dylib,sha256=e0zPJ9Z5jXbzG9HdbXSGN8DBxDTNSnyddUK7dUwD3WU,467504
+flint/.dylibs/libarb-2.14.0.dylib,sha256=4c97L8cyFoS0C8KAtQ3ugcAfNbcoF4Tp05nVNwS4GZE,3071520
