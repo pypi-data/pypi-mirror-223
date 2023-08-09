@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: leetquery
+Version: 0.1.15
+Summary: Query and analyze data from leetcode
+Home-page: https://github.com/ShuYuHuang/leetquery
+Author: Shu-Yu Huang
+Author-email: b123767195@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+
+# Leetcode Query
+A library for retriving Human Resource information from Leetcode.
+
+## Install
+``` shell
+    pip install leetquery
+```
+## Usage
+### Retriving User Submissions
+Just enter user name and limit of query!
+``` python
+from leetquery import get_submissions
+
+submissions = get_submissions(username="syhaung", limits=12)
+```
+return value:
+```
+["question1", "question2", ...]
+```
