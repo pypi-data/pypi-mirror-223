@@ -1,0 +1,3 @@
+customtkinter
+requests
+speech_recognition
