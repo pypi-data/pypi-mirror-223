@@ -1,0 +1,48 @@
+<odoo>
+  <data>
+
+    <record id="view_partner_creator_config_window" model="ir.actions.act_window">
+      <field name="name">Partner creator Configs</field>
+      <field name="res_model">crm.partner.creator.config</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="view_partner_creator_config_tree" model="ir.ui.view">
+      <field name="name">crm.partner.creator.config.tree</field>
+      <field name="model">crm.partner.creator.config</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+        </tree>
+      </field>
+    </record>
+
+    <record id="view_partner_creator_config_form" model="ir.ui.view">
+      <field name="name">crm.partner.creator.config.form</field>
+      <field name="model">crm.partner.creator.config</field>
+      <field name="type">form</field>
+      <field name="arch" type="xml">
+        <form>
+          <sheet>
+            <notebook>
+              <page string="General">
+                <group>
+                  <field name="name" attrs="{'required': True}"/>
+                  <field name="config" attrs="{'required': True}"/>
+                </group>
+              </page>
+              <page string="Leads">
+                <group>
+                  <field name="crm_lead_ids" readonly="True"/>
+                </group>
+              </page>
+            </notebook>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <menuitem name="Partner creator Configs" id="crm_partner_creator.crm_partner_creator_config" parent="crm.crm_menu_config" action="view_partner_creator_config_window"/>
+
+  </data>
+</odoo>

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: odoo12-addon-crm-partner-creator
+Version: 12.0.0.0.2
+Summary: Create new partner from crm lead metadata
+Home-page: https://git.coopdevs.org/coopdevs/odoo/odoo-addons/enhancements/enhancements-crm
+Author: Coopdevs Treball SCCL
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 12.0
+Requires-Python: >=3.5
+Requires-Dist: odoo12-addon-crm-metadata
+Requires-Dist: odoo12-addon-crm-sale-order-line
+Requires-Dist: odoo (<12.1dev,>=12.0a)
+

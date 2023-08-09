@@ -1,0 +1,33 @@
+<odoo>
+  <data>
+    <record id="view_crm_sale_order_line_crm_lead_form" model="ir.ui.view">
+      <field name="name">crm.sale.order.line.crm.lead.form</field>
+      <field name="model">crm.lead</field>
+      <field name="type">form</field>
+      <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
+      <field name="arch" type="xml">
+        <xpath
+          expr="//header"
+          position="inside"
+        >
+          <button 
+            name="create_partner_from_config_action"
+            type="object"
+            string="Create partner"
+            attrs="{'invisible': [
+              '|',
+              ('partner_creator_config_id','=',False),
+              ('partner_id','!=',False)
+            ]}"
+          />
+        </xpath>
+        <xpath
+          expr="//field[@name='tag_ids']"
+          position="after"
+        >
+          <field name="partner_creator_config_id"/>
+        </xpath>
+      </field>
+     </record>
+  </data>
+</odoo>
