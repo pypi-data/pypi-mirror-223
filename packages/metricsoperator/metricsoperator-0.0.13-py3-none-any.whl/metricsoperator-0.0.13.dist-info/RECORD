@@ -1,0 +1,12 @@
+metricsoperator/__init__.py,sha256=NMd2ikxvX248RlJMOmrjw1eQbq2YlKCOiJEkd-a18p4,44
+metricsoperator/client.py,sha256=8_SWUUgT_tgVNrud-SH1vl7HpIDxU2vOzvB9yjnqUGg,1542
+metricsoperator/utils.py,sha256=noKMSlYu6TsjMMiHlWhyqQn9RcFbjd0gh_1NefbgPw8,613
+metricsoperator/metrics/__init__.py,sha256=zbE7n5aoGn1N57dOetPQCJ_MenrkqAai0vJl-vh0Qh0,604
+metricsoperator/metrics/base.py,sha256=nafuiJLR-tTen0igusBhGGxdyTg3RwULG3F6KUDB20k,7156
+metricsoperator/metrics/network.py,sha256=8VGBcO1IawLDrLa3vqX_wmq4KWkl54yDf5mN_BJ4xMQ,4171
+metricsoperator/metrics/perf.py,sha256=Ajnh6rFTcP_j6Fms8AhARxYY_NPZimIFTOq-4BSvy-g,2019
+metricsoperator/metrics/storage.py,sha256=79K6SBtldLsnW4quLr_03tZYqU7mgehnNQ-afXQ0M20,796
+metricsoperator-0.0.13.dist-info/METADATA,sha256=tjQD6Hn5eeWHNunWZ-vdsVVH3iBcPZgelHnLDMdhfJo,2007
+metricsoperator-0.0.13.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+metricsoperator-0.0.13.dist-info/top_level.txt,sha256=VpG2lJcIMmd-gVlPEqTSRW1Hx8N2YvOFrtvWPkdMKws,16
+metricsoperator-0.0.13.dist-info/RECORD,,
