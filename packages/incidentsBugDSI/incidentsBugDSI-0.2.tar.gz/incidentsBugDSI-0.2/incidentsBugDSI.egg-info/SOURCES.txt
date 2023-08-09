@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+incidentsBugDSI/__init__.py
+incidentsBugDSI/bugReports.py
+incidentsBugDSI.egg-info/PKG-INFO
+incidentsBugDSI.egg-info/SOURCES.txt
+incidentsBugDSI.egg-info/dependency_links.txt
+incidentsBugDSI.egg-info/requires.txt
+incidentsBugDSI.egg-info/top_level.txt
