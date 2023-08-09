@@ -1,0 +1,6 @@
+numpy>=1.2
+scipy>=0.12
+matplotlib>=1.2
+pyaml
+yamlreader
+daiquiri
