@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fadeaway
+Version: 1.0.1
+Summary: fadeaway is a lightweight WSGI web application framework which depends on the Werkzeug WSGI toolkit
+Home-page: https://github.com/cgynb/fadeaway
+Author: rain
+Author-email: 948628463@qq.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: werkzeug (>=2.3.6)
+
+# FadeAway
