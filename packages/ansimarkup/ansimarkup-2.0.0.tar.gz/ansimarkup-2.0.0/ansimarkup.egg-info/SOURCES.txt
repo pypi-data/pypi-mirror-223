@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+ansimarkup/__init__.py
+ansimarkup/__main__.py
+ansimarkup/ansi.py
+ansimarkup/logformatter.py
+ansimarkup/markup.py
+ansimarkup/tags.py
+ansimarkup.egg-info/PKG-INFO
+ansimarkup.egg-info/SOURCES.txt
+ansimarkup.egg-info/dependency_links.txt
+ansimarkup.egg-info/requires.txt
+ansimarkup.egg-info/top_level.txt
+tests/test_logging.py
+tests/test_markup.py
