@@ -1,0 +1,1 @@
+This is a simple logger that allows to save log to the .log file
