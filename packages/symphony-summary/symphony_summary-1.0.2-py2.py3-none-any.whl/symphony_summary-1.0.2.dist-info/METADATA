@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: symphony-summary
+Version: 1.0.2
+Summary: A Symphony component that visualizes an overview of a dataset
+Home-page: https://github.com/apple/ml-symphony
+Author: Apple
+Author-email: dnikit-symphony-oss@group.apple.com
+License: Apple Sample Code License
+Keywords: Jupyter,Widgets,IPython
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Jupyter
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: ipywidgets (>=7.0.0)
+Requires-Dist: symphony-ui
+Provides-Extra: docs
+Requires-Dist: jupyter-sphinx ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: nbsphinx-link ; extra == 'docs'
+Requires-Dist: pytest-check-links ; extra == 'docs'
+Requires-Dist: pypandoc ; extra == 'docs'
+Requires-Dist: recommonmark ; extra == 'docs'
+Requires-Dist: sphinx (>=1.5) ; extra == 'docs'
+Requires-Dist: sphinx-book-theme ; extra == 'docs'
+Provides-Extra: examples
+
+# Symphony Summary Widget
+
+A component that displays an overview of the provided dataset table.
+To configure it, pass a list of `SummaryElement`.
+One `SummaryElement` is defined as:
+
+```
+export interface SummaryElement {
+    name: string;
+    data: number | ChartData;
+}
+```
+
+`ChartData` is defined as:
+
+```
+export interface ChartData {
+    spec: VegaLiteSpec;
+    data: Record<string, unknown>;
+}
+```
+
+## Installation
+
+```bash
+pip install symphony_summary
+```
+
+## Usage
+
+To learn how to use Symphony, see the [documentation](https://apple.github.io/ml-symphony/).
+
+## Development
+
+To learn about how to build Symphony from source and how to contribute to the framework, please look at [CONTRIBUTING.md](../CONTRIBUTING.md) and the [development documentation](https://apple.github.io/ml-symphony/contributing.html).
