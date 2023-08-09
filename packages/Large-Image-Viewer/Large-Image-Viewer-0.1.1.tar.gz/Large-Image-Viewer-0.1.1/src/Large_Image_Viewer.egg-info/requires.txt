@@ -1,0 +1,9 @@
+numpy
+dask[array]
+dask-image
+scikit-image
+
+[testing]
+tox
+pytest
+pytest-cov
