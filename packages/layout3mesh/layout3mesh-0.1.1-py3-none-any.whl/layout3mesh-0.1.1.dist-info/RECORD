@@ -1,0 +1,9 @@
+layout3mesh/__init__.py,sha256=W3F-LnVF7Otp1QVHeDuFf4W-tXYwga1IwFReVrMEj4U,151
+layout3mesh/cli.py,sha256=GLPqJwUCPQbHzFG-8mRWRjxD_I9t3c3SXPQyjxKx86U,4565
+layout3mesh/data.py,sha256=XnNTfg54WdNmjDcqblteYhY5pbX7Kf7ki2lsdcwfngE,2285
+layout3mesh/layout3mesh.py,sha256=lyrAm5TwE50kyFJOmAaI9YKqOgAcqnQcbhLvRZdGs7Y,10328
+layout3mesh-0.1.1.dist-info/entry_points.txt,sha256=vbRBbCHnh0pTPUmh2rE0J8GBAVfRaWH7wWUIwLm0AUY,52
+layout3mesh-0.1.1.dist-info/LICENSE,sha256=Gz7J26iV0C2Hpuob_U8uNvltfTXRVE7NRc7zonkvbKI,17643
+layout3mesh-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+layout3mesh-0.1.1.dist-info/METADATA,sha256=-Genn9y33ov5re95AU8ftmNTJJlJdE6rdJsgtxxHb3Q,2121
+layout3mesh-0.1.1.dist-info/RECORD,,

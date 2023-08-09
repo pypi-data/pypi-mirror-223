@@ -1,0 +1,3 @@
+[console_scripts]
+layout3mesh=layout3mesh.cli:main
+
