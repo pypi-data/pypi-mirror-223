@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+src/ufds/__init__.py
+src/ufds/_version.py
+src/ufds/disjoint_set.py
+src/ufds/native_base.py
+src/ufds.egg-info/PKG-INFO
+src/ufds.egg-info/SOURCES.txt
+src/ufds.egg-info/dependency_links.txt
+src/ufds.egg-info/top_level.txt
+tests/test_ufds.py

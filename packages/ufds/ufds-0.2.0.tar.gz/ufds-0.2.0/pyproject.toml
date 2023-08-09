@@ -1,0 +1,116 @@
+[project]
+name = "ufds"
+description = "Union-Find (Disjoint Set) Data Structure"
+authors = [{name = "Louis Cochen", email = "louis.cochen@protonmail.ch"}]
+maintainers = [{name = "Louis Cochen", email = "louis.cochen@protonmail.ch"}]
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+readme = "README.md"
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: Apache Software License",
+	"Natural Language :: English",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+]
+dynamic = ["dependencies", "version"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/ljmc/ufds"
+"Bug Tracker" = "https://gitlab.com/ljmc/ufds/-/issues"
+
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 79
+
+[tool.coverage.run]
+source = ["ufds"]
+branch = true
+
+[tool.coverage.report]
+exclude_lines = [
+	"pragma: no cover",
+	"if __name__ == .__main__.",
+	"raise NotImplementedError",
+	"if (typing\\.)?TYPE_CHECKING",
+	"@(typing\\.)?overload",
+	"class .*\\bProtocol\\):",
+	"@(abc\\.)?abstractmethod",
+]
+
+[tool.isort]
+line_length = 79
+profile = "black"
+
+[tool.mypy]
+strict = true
+exclude = "tests"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ufds.__version__"}
+dependencies = {file = ["requirements.txt"]}
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+requires = tox >= 4
+envlist = clean,black,flake8,isort,mypy,py{311,310,39,38},coverage
+
+[testenv:clean]
+skip_install = true
+deps = coverage[toml]
+commands = coverage erase
+
+[testenv:black]
+skip_install = true
+deps = black
+commands = black --check --diff src tests
+
+[testenv:flake8]
+skip_install = true
+deps = flake8
+commands = flake8 src tests
+
+[testenv:isort]
+skip_install = true
+deps = isort
+commands = isort --check --diff src tests
+
+[testenv:mypy]
+skip_install = true
+deps = mypy
+commands = mypy --install-types --non-interactive src
+
+[testenv:coverage]
+skip_install = true
+deps =
+	coverage[toml]
+	junitparser
+setenv = COVERAGE_FILE=.coverage
+commands =
+	coverage combine
+	coverage report
+	coverage xml -o coverage.xml
+	junitparser merge --glob .junit-report.*.xml junit-report.xml
+
+[testenv]
+package = wheel
+wheel_build_env = .pkg
+deps =
+	pytest
+	pytest-cov
+setenv = COVERAGE_FILE=.coverage.{envname}
+commands = pytest --cov --cov-report '' --junitxml=.junit-report.{envname}.xml -- {posargs}
+"""
