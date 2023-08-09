@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: files-to-dataframe
+Version: 0.0.1
+Summary: Package to load 7 days files from databricks mount location
+Author-email: Zameer karbelkar <zameer.karbelkar@datametica.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Files to DataFrame
+
+This is a simple  package to load 7 days files to dataframe.

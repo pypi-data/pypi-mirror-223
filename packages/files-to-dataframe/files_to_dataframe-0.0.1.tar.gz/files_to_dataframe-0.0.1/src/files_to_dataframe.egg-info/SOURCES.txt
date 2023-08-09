@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/files_to_dataframe/__init__.py
+src/files_to_dataframe/files_to_dataframe_fn.py
+src/files_to_dataframe.egg-info/PKG-INFO
+src/files_to_dataframe.egg-info/SOURCES.txt
+src/files_to_dataframe.egg-info/dependency_links.txt
+src/files_to_dataframe.egg-info/top_level.txt
