@@ -1,0 +1,13 @@
+pydantic_settings_external/__init__.py,sha256=VDPfEcV_3ecy6RVsKOv2fzNcZpyl0boDDBjW9MAqU0o,628
+pydantic_settings_external/exceptions.py,sha256=an2uzGBPzot0xLGuRzSZxN2xPaIatIeJmzYpLZdmWQE,820
+pydantic_settings_external/types.py,sha256=OxYIvmeTceAf_w3dPBfUBgZCmHCv_zWxlBQsN1L-GrI,664
+pydantic_settings_external/utils.py,sha256=WbUZk260EI_qOch1s0xBQ35r_CcD3sQ-sbd21wd48jw,2528
+pydantic_settings_external/version.py,sha256=UfGcYxXFCiDypNQhY1i0x1trGvW2IAGhZqMXLHjaUWs,329
+pydantic_settings_external/pydantic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_settings_external/pydantic/v1.py,sha256=ZUn0Iv56jbEdW78f2URpZH6A97gZqhqRUTHYiwXYYws,1523
+pydantic_settings_external/pydantic/v2.py,sha256=Za7k7Zrn0vkS4W7EdxDVvb8Gdp1M5oZqkbhbLUpgCS4,2497
+pydantic_settings_external-0.1.0.dist-info/LICENSE,sha256=6zVadT4CA0bTPYO_l2kTW4n8YQVorFMaAcKVvO5_2Zg,1103
+pydantic_settings_external-0.1.0.dist-info/METADATA,sha256=Zw8zGyH-gMhzTpN6VuRCOyyhcFelb8cZQ0TTdb15csY,3206
+pydantic_settings_external-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pydantic_settings_external-0.1.0.dist-info/top_level.txt,sha256=vNHbpQc4MqgTZOamFHKozKrkLWaHntYKBLtdF4lfinc,27
+pydantic_settings_external-0.1.0.dist-info/RECORD,,

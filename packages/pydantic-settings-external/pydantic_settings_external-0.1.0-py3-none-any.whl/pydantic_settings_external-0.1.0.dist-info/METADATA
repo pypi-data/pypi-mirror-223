@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: pydantic-settings-external
+Version: 0.1.0
+Summary: PyDantic Settings External is a library that extends PyDantic Settings to support various types of external configuration providers, such as GCP Secret Manager and AWS Secrets Manager. PyDantic Settings External has been developed using a clear abstraction, allowing for easy extension to external configurations not yet incorporated into the library by the community.
+Author-email: Ali Aliyev <ali@aliev.me>
+Project-URL: Homepage, https://github.com/aliev/pydantic-settings-external
+Project-URL: Bug Tracker, https://github.com/aliev/pydantic-settings-external/issues
+Keywords: pydantic,pydantic-settings
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: AsyncIO
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
+# Pydantic Settings External
+
+## The project is currently under active development.
+
+Pydantic Settings External extends Pydantic Settings to support various types of external configuration providers, such as GCP Secret Manager and AWS Secrets Manager. PyDantic Settings External has been developed using a clear abstraction, allowing for easy extension to external providers.
+
+Installation:
+
+```bash
+pip install pydantic-settings-external
+```
+
+Usage example with `with_settings_external` helper
+
+Pydantic v2.x
+
+```bash
+pip install pydantic
+pip install pydantic-settings-external
+pip install pydantic-settings
+```
+
+```python
+
+from pydantic import Field
+from pydantic_settings_external import BaseSettings
+
+
+gcp = GCPProvider(...)
+one_password = OnePasswordProvider(...)
+
+
+class Settings(BaseSettings):
+    SENDGRID_API_KEY: str = Field(..., json_schema_extra={
+        "provider": {
+            "instance": gcp,
+            "options": {"name": "sendgrid-api-key", "vesion": "latest"},
+            "hint": "The optional hint will be displayed if the secret couldn't be retrieved for any reason.",
+        },
+    })
+    ADMIN_USER: str = Field(..., json_schema_extra={
+        "provider": {
+            "instance": one_password,
+            "options": {"field": "user", "vault": "admin_credentials"},
+        },
+    })
+
+settings = Settings()
+
+```
+
+Pydantic v1.10.x
+
+```bash
+pip install "pydantic>=1.10,<2"
+pip install pydantic-settings-external
+```
+
+NOTE: For Pydantic v1.10.x replace `json_schema_extra` with `extra`.
