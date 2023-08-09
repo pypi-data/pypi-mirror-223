@@ -1,0 +1,13 @@
+dfv/__init__.py,sha256=QDLQoWr0jrfy8-msR5Em45MpM5EdAOg5rvept94z-M8,18565
+dfv/static/dfv.js,sha256=BMzxjKN6WPyLUiNMxj0xjNFRSriXDiahweZSVoPy-TM,3349
+dfv/templates/dfv/tests/TemplateResponse.html,sha256=3t9eCM37AD2Fp7XZZLQ3XYwsWFFOBib1NenJxdwlkQs,10
+dfv/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dfv/templatetags/dfv.py,sha256=CNGP0YnBO5yeoBtp69FG4O66vNFiuhqgkBltwP6uzEE,326
+dfv/test_element.py,sha256=8RWuzuqvjA5C4W14omY1SWoLsxqnVd-aVqpMUG7vsiI,4328
+dfv/test_form.py,sha256=DWl4NNgBZ2L2STCD8b3vOH6HF9HPln5veXKQQWOwuoY,3649
+dfv/test_params_to_args.py,sha256=fcCbvRxdr9tUQi-hvcxszbV5NEKmBXghf8Jm4MPfzmQ,8583
+dfv/test_view.py,sha256=4CSyShoUHJGqbqBzAFESpIKMXMlJZb3MMgiDOGXxGhA,2919
+dfv/testutils.py,sha256=WXj_6AbyFaFagiIcDIe_iAfMJYQjKxcUFKBAElvD7eI,538
+dfv-0.10.0.dist-info/METADATA,sha256=22Q68e-hQ6_2DCdCsmMqyUBEYAcUn4pzvShosuLjpHA,1259
+dfv-0.10.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dfv-0.10.0.dist-info/RECORD,,
