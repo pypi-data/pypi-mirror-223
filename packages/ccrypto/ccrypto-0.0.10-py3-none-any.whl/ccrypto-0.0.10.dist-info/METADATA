@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ccrypto
+Version: 0.0.10
+Summary: Crypto-Finance Python library for crypto markets and data analysis by QuantAtRisk.com
+Home-page: https://github.com/quantatrisk/ccrypto
+Author: Pawel Lachowicz
+Author-email: pawel.lachowicz@quantatrisk.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-binance (==1.0.17)
+Requires-Dist: matplotlib
+Requires-Dist: requests
+
+ccrypto
+=======
+
+An initial crypto-finance Python library for crypto markets and data analysis.
+
+Created by Pawel Lachowicz, PhD
+QuantAtRisk.com
