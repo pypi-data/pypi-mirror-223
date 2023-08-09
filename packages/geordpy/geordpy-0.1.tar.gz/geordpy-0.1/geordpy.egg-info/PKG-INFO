@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: geordpy
+Version: 0.1
+Home-page: https://github.com/avitase/geordpy
+Author: Nis Meinert
+Author-email: mail@nismeinert.name
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# geordpy
+
+<!-- add description here -->
+
+## Installation
+
+```bash
+# production installation
+$ pip install -r requirements.txt
+$ pip install geordpy
+
+# development installation
+$ pip install -e .[dev]
+$ pre-commit install
+```
+
+## Usage
+
+```python
+import geordpy
+```
