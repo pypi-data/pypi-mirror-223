@@ -1,0 +1,48 @@
+# LLM Functions 
+Define custom LLM functions with minimal code.
+## How to Define a LLM Function
+Here is an example of a directory with files that defines a simple sentiment classification function.
+```bash
+└─ sentiment
+   ├── args.json
+   └── template.txt
+```
+The content of `template.txt`:
+```bash
+Aalyze and determine whether the sentiment of the following sentence is positive, negative, or neutral.
+Sentence:
+{sentence}
+```
+The content of `args.json`:
+```json
+{
+    "temperature": 0.0,
+    "model": "gpt-3.5-turbo",
+    "function_name": "sentiment_classifier",
+    "description": "Classify the sentiment of a sentence",
+    "properties": {
+        "rationale": {
+            "type": "string",
+            "description": "Your rationale when classifying sentiment of the given sentence."
+        },
+        "sentiment": {
+            "type": "string",
+            "enum": ["positive", "negative", "neutral"],
+            "description": "The sentiment of the given sentence."
+        }
+    }
+}
+```
+Load the LLM function:
+```python
+from llm_functions import LLMFunction
+
+sentiment = LLMFunction.from_dir("sentiment/")
+pred = sentiment(sentence="I am super happy!")
+
+# Output:
+# {
+#   "rationale": "The sentiment in the sentence is positive",
+#   "sentiment": "positive"
+# }
+```
