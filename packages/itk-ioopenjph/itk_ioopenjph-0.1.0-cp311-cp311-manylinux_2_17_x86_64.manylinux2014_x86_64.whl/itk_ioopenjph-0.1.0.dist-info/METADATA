@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: itk-ioopenjph
+Version: 0.1.0
+Summary: An ITK module to read and write High-throughput JPEG2000 (HTJ2K) images.
+Home-page: https://itk.org/
+Download-URL: https://github.com/InsightSoftwareConsortium/ITKIOOpenJPH
+Author: Insight Software Consortium
+Author-email: itk+community@discourse.itk.org
+License: Apache
+Keywords: ITK InsightToolkit
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: Android
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+License-File: LICENSE
+Requires-Dist: itk (>=5.3.0)
+
+HTJ2K is a a multiscale image format supporting lossless and lossy compression. This module is based on the OpenJPH accelerated codec implementation.
