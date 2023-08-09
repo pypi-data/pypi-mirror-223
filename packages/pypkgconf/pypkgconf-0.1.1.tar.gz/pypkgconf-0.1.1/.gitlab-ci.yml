@@ -1,0 +1,72 @@
+stages:
+  - Build
+  - Publish
+
+
+build_windows:
+  tags: [shared-windows]
+  parallel:
+    matrix:
+      - PYTHON_VERSION: [ #"37", "38", "39", "310", 
+                          "311"]
+        PRE: [""]
+      # - PYTHON_VERSION: ["312"]
+      #   PRE: ["--pre"]
+  stage: Build
+  rules:
+    - if: $CI_MERGE_REQUEST_ID
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  variables:
+    TOXENV: py${PYTHON_VERSION}
+  before_script:
+    # https://gitlab.com/gitlab-org/ci-cd/shared-runners/images/gcp/windows-containers/-/issues/13
+    - Import-Module "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+    - choco install python${PYTHON_VERSION} ${PRE} --yes --force --no-progress
+    - refreshenv
+    - python -m pip install --upgrade pip
+    - pip install build meson cffi tox
+  script:
+    - python -m build -Csetup-args="-Ddefault_library=static" -Csetup-args="-Dbuildtype=release" -Cbuilddir=build
+    - tox --installpkg (get-item dist\*.whl).FullName
+  artifacts:
+    expire_in: 1 day
+    paths:
+      - dist
+
+
+# build_linux:
+#   tags: [saas-linux-small-amd64]
+#   parallel:
+#     matrix:
+#       - PYTHON_VERSION: ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12-rc"]
+#   image: python:${PYTHON_VERSION}
+#   stage: Build
+#   rules:
+#     - if: $CI_MERGE_REQUEST_ID
+#     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+#   before_script:
+#     - apt-get update
+#     - apt-get install -y ninja-build
+#     - python -m pip install --upgrade pip
+#     - pip install build meson cffi pytest
+#   script:
+#     - python -m build -Csetup-args="-Dbuildtype=release" -Cbuilddir=build
+#     - meson test -C build
+
+
+publish:
+  tags: [saas-linux-small-amd64]
+  image: python:3.11
+  stage: Publish
+  when: manual
+  # rules:
+  #   - if: $CI_COMMIT_BRANCH == 'master'
+  variables:
+    TWINE_USERNAME: __token__
+    TWINE_PASSWORD: ${PYPI_API_TOKEN}
+    # TWINE_REPOSITORY_URL: ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi
+    TWINE_NON_INTERACTIVE: "1"
+  before_script:
+    - pip install twine
+  script:
+    - twine upload dist/*
