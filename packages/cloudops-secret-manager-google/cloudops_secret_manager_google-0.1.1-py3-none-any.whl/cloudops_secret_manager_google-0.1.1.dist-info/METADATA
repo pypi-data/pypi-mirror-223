@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: cloudops-secret-manager-google
+Version: 0.1.1
+Summary: The cloudops-secret-manager-google package
+Home-page: https://github.com/manucalop/cloudops-secret-manager-google
+License: MIT
+Author: Manuel Castillo
+Author-email: manucalop@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: google-cloud-secret-manager (>=2.11.0,<3.0.0)
+Requires-Dist: google-crc32c (>=1.3.0,<2.0.0)
+Project-URL: Repository, https://github.com/manucalop/cloudops-secret-manager-google
+Description-Content-Type: text/markdown
+
+# cloudops-secret-manager-google
+
+Easily manage your JSON secrets in Google Secret Manager.
+
+## Installation
+
+```bash
+pip install cloudops-secret-manager-google
+```
+
+## Usage
+
+```python
+
+from cloudops.secret_manager.google import Secret
+
+secret = Secret("your-project-id", "your-secret")
+
+# Create your secret
+secret.create()
+
+# Push a new version of your secret
+data = {
+    "key": "value"
+}
+secret.push(data)
+
+# Pull dict
+secret_data = secret.pull()
+
+```
+

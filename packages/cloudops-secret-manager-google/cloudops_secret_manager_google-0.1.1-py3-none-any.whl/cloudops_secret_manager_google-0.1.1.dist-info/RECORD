@@ -1,0 +1,7 @@
+cloudops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudops/secret_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudops/secret_manager/google/__init__.py,sha256=-lY21KzFWyihfKK5CZuI4TkWnJw10c0Pq2uhCs5suoU,86
+cloudops/secret_manager/google/secret.py,sha256=VG6ea3oqMxlJ9_rCljFxu26egrDkBekPo14F8_V79Hc,1915
+cloudops_secret_manager_google-0.1.1.dist-info/METADATA,sha256=Q0aiVpyggxxSNa8MTkM-xuUgkrgBN7RPJeSyVbNYfRQ,1238
+cloudops_secret_manager_google-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+cloudops_secret_manager_google-0.1.1.dist-info/RECORD,,
