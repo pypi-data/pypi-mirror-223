@@ -1,0 +1,135 @@
+[project]
+name = "mango-odm"
+version = "0.3.2"
+description = "🥭 Async MongoDB ODM with type hints in Python"
+authors = [
+    { name = "Akirami", email = "akiramiaya@outlook.com" },
+]
+requires-python = ">=3.10,<4.0"
+readme = "README.md"
+keywords = [
+    "mongo",
+    "mongodb",
+    "async",
+    "asyncio",
+    "odm",
+    "types",
+    "pydantic",
+    "motor",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Database",
+    "Topic :: Database :: Front-Ends",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Object Brokering",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+dependencies = [
+    "motor>=3.2.0",
+    "pydantic>=1.10.12,<2.0.0",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+repository = "https://github.com/A-kirami/mango"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.7.0",
+    "ruff>=0.0.280",
+    "pre-commit>=3.3.3",
+]
+test = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "pytest-sugar>=0.9.7",
+    "allure-pytest>=2.13.2",
+    "pytest-asyncio>=0.21.1",
+    "hypothesis>=6.82.0",
+    "Faker>=19.2.0",
+]
+
+[tool.pdm.scripts]
+post_install = "pre-commit install"
+
+[tool.black]
+target-version = [
+    "py310",
+]
+
+[tool.ruff]
+select = [
+    "F",
+    "E",
+    "W",
+    "UP",
+    "ANN",
+    "S",
+    "B",
+    "C4",
+    "ISC",
+    "INP",
+    "T20",
+    "PT",
+    "Q",
+    "RSE",
+    "RET",
+    "SIM",
+    "TID",
+    "TCH",
+    "ARG",
+    "PTH",
+    "ERA",
+    "PL",
+    "TRY",
+    "RUF",
+]
+ignore = [
+    "E402",
+    "E501",
+    "B008",
+    "B009",
+    "B010",
+    "ANN002",
+    "ANN003",
+    "ANN101",
+    "ANN102",
+    "ANN401",
+    "ERA001",
+    "PLC0414",
+    "PLR0913",
+    "PLW2901",
+    "TRY003",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+]
+unfixable = [
+    "F401",
+    "F841",
+    "ERA001",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+addopts = "--cov=mango --cov-report=html --cov-report=xml --junit-xml=results.xml --cov-report=term-missing --alluredir=allure_report --clean-alluredir"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
