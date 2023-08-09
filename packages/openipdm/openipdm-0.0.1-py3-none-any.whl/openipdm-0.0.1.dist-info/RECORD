@@ -1,0 +1,9 @@
+openipdm/.DS_Store,sha256=2_jh9LTz7ReDb4QWzFnF7kWU9GoDBMVaRryuEn_gHKE,6148
+openipdm/__init__.py,sha256=80trb-VgVC2r-72MSgKbQpH8VclF69Btezx5ErSryOI,95
+openipdm/data/Pretrained_SSMKR.mat,sha256=mPt-oNzvDbHaK0853u_gAqE7EBnzTPPGS2ROxbfwzoI,15335509
+openipdm/data/service_life.mat,sha256=IwFI283Hlzlv7XcGcWfKI4r5d0alZd0W5ImXiFUlvC0,5153
+openipdm/ssm_kr.py,sha256=KzpihuFDUPAg4FwIVJW7P3ozjL7fwKDxCiwZ9NZi3ZU,50947
+openipdm-0.0.1.dist-info/LICENSE,sha256=ISH6rBUcbQc6hSt-FAhtKzLDMgcayhKh6GycJ-kFNTY,1107
+openipdm-0.0.1.dist-info/METADATA,sha256=CR7xo2pbP3NVO8EnZD0kS4lgl9T6Vi7ueoB7azBgRUU,736
+openipdm-0.0.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+openipdm-0.0.1.dist-info/RECORD,,
