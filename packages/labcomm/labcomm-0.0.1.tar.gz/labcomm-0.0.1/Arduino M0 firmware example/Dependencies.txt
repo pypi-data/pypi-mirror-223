@@ -1,0 +1,5 @@
+For this project, these libraries need to be added to your Library Manage manually
+
+    • FlashStorage_SAMD
+    • SoftWire
+    • AsyncDelay
