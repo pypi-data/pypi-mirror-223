@@ -1,0 +1,7 @@
+jinja2
+pyyaml
+Pillow
+platformdirs
+requests
+numpy
+pyppeteer
