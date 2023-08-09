@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/plate_model_manager/__init__.py
+src/plate_model_manager/__main__.py
+src/plate_model_manager/network_aiohttp.py
+src/plate_model_manager/network_requests.py
+src/plate_model_manager/plate_model.py
+src/plate_model_manager.egg-info/PKG-INFO
+src/plate_model_manager.egg-info/SOURCES.txt
+src/plate_model_manager.egg-info/dependency_links.txt
+src/plate_model_manager.egg-info/entry_points.txt
+src/plate_model_manager.egg-info/requires.txt
+src/plate_model_manager.egg-info/top_level.txt
