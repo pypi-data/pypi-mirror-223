@@ -1,0 +1,28 @@
+# main.py
+
+import click
+
+from gator.custom.custom_cli import CustomGroup
+
+from gator.auth import auth_commands
+from gator.cli.storage_cli import storage
+from gator.cli.functions_cli import functions
+
+@click.group(cls=CustomGroup)
+def main():
+    """GATOR - GCP Attack Toolkit for Offensive Research, a tool designed to aid in 
+    research and exploiting Google Cloud and Workspace Environments. It offers a comprehensive 
+    range of modules tailored to support users in various attack stages, spanning 
+    from Reconnaissance to Impact."""
+    pass
+
+main.add_command(auth_commands.auth)
+main.add_command(storage)
+main.add_command(functions)
+
+if __name__ == '__main__':
+    main()
+
+
+
+
