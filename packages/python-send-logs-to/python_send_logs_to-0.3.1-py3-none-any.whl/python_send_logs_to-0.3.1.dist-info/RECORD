@@ -1,0 +1,9 @@
+log_to/__init__.py,sha256=TZkGuMIRSRmUY3XCIs5owt2o60vXyqYMHWIkhx65uYE,22
+log_to/redis.py,sha256=nQE7thFDT6hoPu7HcFn8wI74Brm8116DFcC5Cc5lGOc,8012
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_handlers.py,sha256=Kh-Uz5q9f3LVJPmof700436DQfxVO73YLzc3V0WxZ68,1482
+python_send_logs_to-0.3.1.dist-info/LICENSE,sha256=JJtTHl-REEzF3qRkhQPiEU306dHVii6mv0328g1xZg4,1072
+python_send_logs_to-0.3.1.dist-info/METADATA,sha256=urO4_4SqxTTt9URYHsDDITQPD2fnYjQpjL--Nxr_zn4,3350
+python_send_logs_to-0.3.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+python_send_logs_to-0.3.1.dist-info/top_level.txt,sha256=W4b1mcDBZ0pxrnwutsEzqnfrGx4ltHoFWiaiH1Kp7nA,13
+python_send_logs_to-0.3.1.dist-info/RECORD,,
