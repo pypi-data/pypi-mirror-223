@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sim-sensors
+Version: 0.1
+Summary: A collection of classes that simulate IoT sensors
+Home-page: https://www.path-variable.com
+Author: Ivan Šarić / Path Variable
+Author-email: ivan@path-variable.com
+License: MIT
+Keywords: simulated,sensors,iot
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
