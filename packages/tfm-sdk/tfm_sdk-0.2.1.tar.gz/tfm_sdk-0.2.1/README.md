@@ -1,0 +1,256 @@
+# TFM SDK
+
+
+## Asynchronous usage
+
+Preferred way to use the SDK is to use it as an asynchronous context manager. This way the SDK will be closed properly and all resources will be released.
+
+## SDK usage examples
+
+See also [examples](examples) folder for more.
+
+### Get chain(s)
+
+```python
+from tfm_sdk import TfmSdk
+from tfm_sdk.types import Chain, Token, NetworkType, RouteOperationSwap, SwapPair
+
+async with TfmSdk() as sdk:  # chains loads automatically
+    # list of chains
+    chains: list[Chain] = sdk.chains.get_list()
+
+    # get chain by name or id
+    terra: Chain = sdk.chains.find("phoenix-1")
+
+    # mainnet chains
+    mainnet_chains: list[Chain] = sdk.chains.mainnet_only()
+
+    # reachable chains for swap from terra
+    terra_swap_chains: list[Chain] = await sdk.chains.get_reachable(terra)
+```
+
+### Get tokens
+
+```python
+async with TfmSdk() as sdk:  # chains loads automatically
+    # get chain by name or id
+    terra: Chain = sdk.chains.find("phoenix-1")
+    assert terra.network_type == NetworkType.MAINNET
+
+    # get all chain tokens
+    tokens: list[Token] = await terra.get_tokens()
+
+    # get token price
+    uluna: Token = await terra.get_token_by_denom("uluna")
+    price: float = await uluna.get_price()
+```
+
+### Transfer token from one chain to another
+
+```python
+
+async with TfmSdk() as sdk:
+    from_chain = sdk.chains.find("phoenix-1")
+    to_chain = sdk.chains.find("osmosis-1")
+    sdk.set_source_chain(from_chain)
+    sdk.set_destination_chain(to_chain)
+    # call sdk.reverse() to swap chains
+
+    # tokens transferable from terra to osmo
+    transferable_tokens: list[SwapPair] = await sdk.transfer.get_transferable_tokens()
+
+    # route and msg to transfer token from phoenix-1 to osmosis-1
+    route = await sdk.transfer.get_route(transferable_tokens[0], 1000)
+    msg = await sdk.transfer.get_msg(transferable_tokens[0], 1000)
+    combined_msg = await sdk.transfer.get_route_swap(transferable_tokens[0], 1000)
+```
+
+### Dex operations
+
+```python
+async with TfmSdk() as sdk:
+    chain = sdk.chains.find("phoenix-1")
+    token0 = await chain.get_token_by_denom("uluna")
+    token1 = await chain.get_token_by_denom("terra1vzd98s9kqdkatahxs7rsd8m474lf2f8ct39zdgd6shj4nh5e6kuskaz2gy")
+
+    route = await sdk.dex.get_route(chain, token0, token1, amount=10000)
+    msg = await sdk.dex.get_msg(chain, token0, token1, amount=10000, slippage=0.01)
+```
+
+### Swap operations
+
+```python
+async with TfmSdk() as sdk:
+    chain_from = sdk.chains.find("Terra")
+    chain_to = sdk.chains.find("juno-1")
+
+    sdk.set_source_chain(chain_from)
+    sdk.set_destination_chain(chain_to)
+
+    token0 = await chain_from.get_token_by_denom("uluna")
+    token1 = await chain_to.get_token_by_denom("ujuno")
+
+    pair = SwapPair(
+        source_token=token0,
+        destination_token=token1,
+    )
+
+    route = await sdk.swap.get_route(pair, 1000000)
+
+    msgs = await sdk.swap.get_msg(pair, 1000000, slippage=0.01)
+
+    route_and_msgs = await sdk.swap.get_route_swap(pair, 1000000, slippage=0.01)
+```
+
+### Check API health
+
+```python
+async with TfmSdk() as sdk:
+    is_online: bool = await sdk.is_api_online()
+```
+
+## Low level api
+
+```python
+from tfm_sdk.api import TfmApi
+
+async with TfmApi() as api:
+    chain = api.chains.get_chains()
+    ...
+
+# or
+
+api = TfmApi()
+...
+await api.close()
+```
+
+## Low level api usage examples
+### Get chain(s)
+
+```python
+all_chains = await api.chains.get_chains()
+mainnet_chains = await api.chains.get_chains(network_type='mainnet', is_trading=True)
+```
+
+### Get chain tokens
+
+```python
+tokens = await api.chains.get_tokens(chain_id='phoenix-1')
+native_tokens = await api.chains.get_tokens(chain_id='phoenix-1', token_type='native')
+```
+
+### Dex methods
+```python
+route = await api.dex.get_route(chain_id='phoenix-1', token0='uluna', token1='uusd', amount=1000000)
+
+msg = await api.dex.get_msg(chain_id='phoenix-1', token0='uluna', token1='uusd', amount=1000000, slippage=0.01)
+```
+
+### Get price
+
+```python
+price = await api.price.get_price('phoenix-1', 'uluna')
+price_at_timestamp = await api.price.get_price('phoenix-1', 'uluna', timestamp=1620000000)
+```
+
+### IBC methods to transfer tokens
+```python
+# where we can send tokens from phoenix-1
+reachable_chains = await api.ibc.chain.get_reachable('phoenix-1')
+
+# can we send uluna from phoenix-1 to osmosis-1
+is_reachable = await api.ibc.chain.is_reachable('phoenix-1', 'osmosis-1', 'uluna')
+
+# get list of tokens we can transfer from phoenix-1 to osmosis-1
+transferable_tokens = await api.ibc.chain.get_transferable_tokens('phoenix-1', 'osmosis-1')
+
+# can we transfer uluna from phoenix-1 to osmosis-1
+is_token_transferable = await api.ibc.chain.is_token_transferable('phoenix-1', 'osmosis-1', 'uluna')
+
+# get route to transfer uluna from phoenix-1 to osmosis-1
+route = await api.ibc.transfer.get_route(
+    'uluna',
+    'phoenix-1',
+    'ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9',  # uluna ibc address in osmosis-1
+    'osmosis-1',
+    amount=1000000
+)
+
+# msg to send to blockchain
+msg = await api.ibc.transfer.get_msg(
+    'uluna',
+    'phoenix-1',
+    'ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9',  # uluna ibc address in osmosis-1
+    'osmosis-1',
+    amount=1000000,
+    slippage=0.01
+)
+
+# combined method returns both route and msg
+msg_and_route = await api.ibc.transfer.get_route_msg_combined(
+    'uluna',
+    'phoenix-1',
+    'ibc/785AFEC6B3741100D15E7AF01374E3C4C36F24888E96479B1C33F5C71F364EF9',  # uluna ibc address in osmosis-1
+    'osmosis-1',
+    amount=1000000,
+    slippage=0.01
+)
+```
+
+### IBC methods to swap token for token cross chain
+```python
+# get route to transfer uluna from phoenix-1 to osmosis-1
+route = await api.ibc.swap.get_route(
+    'uluna',
+    'phoenix-1',
+    'ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E',  # USDC
+    'osmosis-1',
+    amount=1000000,
+    swap_mode="Turbo", # or Savings
+)
+
+# msg to send to blockchain
+msg = await api.ibc.swap.get_msg(
+    'uluna',
+    'phoenix-1',
+    'ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E',  # USDC
+    'osmosis-1',
+    amount=1000000,
+    slippage=0.01,
+    swap_mode="Turbo", # or Savings
+)
+
+# combined method returns both route and msg
+msg_and_route = await api.ibc.swap.get_route_msg_combined(
+    'uluna',
+    'phoenix-1',
+    'ibc/9F9B07EF9AD291167CF5700628145DE1DEB777C2CFC7907553B24446515F6D0E', # USDC
+    'osmosis-1',
+    amount=1000000,
+    slippage=0.01,
+    swap_mode="Turbo", # or Savings
+)
+```
+
+## Sync version of api client
+
+See [examples](examples/sync_api.py) folder for more.
+
+```python
+from tfm_sdk.api import TfmApiSync
+
+api = TfmApiSync()
+
+is_api_healthty = api.health()
+
+# get list of chains
+chains = api.chain.get_chains(network_type="mainnet")
+```
+
+# Run tests
+
+```
+poetry install
+poe test_unit
+```

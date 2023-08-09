@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "tfm_sdk"
+version = "0.2.1"
+description = "The TFM SDK package allows easy access to the TFM API, providing functionality for interacting with pricing, dex aggregator and ibc transfer and swap."
+license = "MIT"
+authors = ["TFM <info@tfm.com>"]
+readme = "README.md"
+homepage = "https://tfm.com"
+documentation = "https://docs.tfm.com/dev-docs/sdk"
+keywords = ["tfm","sdk","bridge","swap","route","ibc"]
+packages = [{include = "tfm_sdk"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.4"
+wrapt = "^1.15.0"
+
+[tool.poetry.group.dev.dependencies]
+poethepoet = "^0.18.1"
+isort = "^5.12.0"
+black = "^23.1.0"
+pytest = "^7.2.1"
+pytest-aiohttp = "^1.0.4"
+pytest-asyncio = "^0.20.3"
+aioresponses = "^0.7.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+preview = true
+
+[tool.poe.tasks]
+isort = "isort ."
+black = "black ."
+format = ["isort", "black"]
+test = "pytest -vv -s tests/"
+test_unit = "pytest -vv -s tests/unittests/"
+test_int = "pytest -vv -s tests/integration/"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::RuntimeWarning",
+]
