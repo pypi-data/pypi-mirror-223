@@ -1,0 +1,4 @@
+[console_scripts]
+phagetb = phagetb.python_scripts.model:main
+phagetb_1 = phagetb.python_scripts.model_bacteria:main
+phagetb_2 = phagetb.python_scripts.model_phage_host_pair:main
