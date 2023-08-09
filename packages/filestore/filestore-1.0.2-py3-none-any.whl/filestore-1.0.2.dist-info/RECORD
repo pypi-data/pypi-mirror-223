@@ -1,0 +1,11 @@
+filestore/__init__.py,sha256=ZWt1UAT_OCBSm8o_pUW5s-q5yZY19alelcloVaSez8E,257
+filestore/localstorage.py,sha256=kbK1OYmWIU_CG4BXnqa8TE59EXmHkwGH1qkDvIN7US8,3745
+filestore/main.py,sha256=UvuCnADXLbGI3dGFJ5iBIDCp2TqaXmkqCLAtq6aXmdQ,14187
+filestore/memorystorage.py,sha256=Lolh1-T7gXV5VuKycml9gAr6uJku_I5tMjGkZ_6mRmg,1333
+filestore/s3.py,sha256=FXlZHw37fZu_9QuoRMsDdyJDrFSqbyYUGm50lvWc1Ck,4675
+filestore/util.py,sha256=bpW7a2suWD4nshZFE9RTUaUU0BCEIxOtyZquiMcaMzU,894
+filestore-1.0.2.dist-info/LICENSE,sha256=uTNrWCCkDVA5G7rin5Iqm8I1WvDIl9TwIRB-yvNVWzo,1092
+filestore-1.0.2.dist-info/METADATA,sha256=NcDP41vkH2WM30P67kEGUoJQPvBgOrGwVObNH_IIihc,11376
+filestore-1.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+filestore-1.0.2.dist-info/top_level.txt,sha256=ihnIY_NES4rWlLwDNOZQbZ44y9P92iYiCZBujfH4h6k,10
+filestore-1.0.2.dist-info/RECORD,,
