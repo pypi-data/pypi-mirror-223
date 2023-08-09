@@ -1,0 +1,9 @@
+crypto_ws_api/__init__.py,sha256=Bv-ti7OYjgrhY2T_pumF3dxABN4dKcrljtmtkqXklOo,1412
+crypto_ws_api/demo.py,sha256=BERJb8d-W0F7wzuLKd742cJN-a22bDJ5dypCmevBPiY,4558
+crypto_ws_api/ws_api.toml.template,sha256=jogahKd6tk2NQ-LvbkTXmm6RvzF6_GNirVZCrFbo_5w,551
+crypto_ws_api/ws_session.py,sha256=Wz68XiNMUHnGmtODvdyQ15Ns430p_spu5w_Rp6O3lCA,16526
+crypto_ws_api-2.0.0rc3.dist-info/entry_points.txt,sha256=q9xfylYZchCd3Xmsl0xyZSygbaF60e_awoUa-Tvg9WE,109
+crypto_ws_api-2.0.0rc3.dist-info/LICENSE.md,sha256=lTP5numMw3tnOtK8uOAvludgpMVc3jT73sXIwsXgZms,1078
+crypto_ws_api-2.0.0rc3.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+crypto_ws_api-2.0.0rc3.dist-info/METADATA,sha256=kyIftZu0oMJw7ZH-gFy7CrQn6RGDF3SoGiuCn2APOHA,7939
+crypto_ws_api-2.0.0rc3.dist-info/RECORD,,
