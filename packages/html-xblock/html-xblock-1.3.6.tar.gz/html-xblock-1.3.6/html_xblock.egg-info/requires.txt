@@ -1,0 +1,4 @@
+Django
+bleach[css]
+xblock-utils
+xblock[django]
