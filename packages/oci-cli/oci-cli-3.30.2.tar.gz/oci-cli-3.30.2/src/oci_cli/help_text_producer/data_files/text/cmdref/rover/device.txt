@@ -1,0 +1,36 @@
+device
+******
+
+
+Description
+===========
+
+Rover Physical Device.
+
+
+Available Commands
+==================
+
+* diagnostics
+
+  * bundle
+
+    * cancel
+
+    * create
+
+    * get
+
+    * list
+
+    * view-summary
+
+* system-upgrade
+
+  * get-import-history
+
+  * get-import-status
+
+  * import-bundle
+
+  * upload-bundle
