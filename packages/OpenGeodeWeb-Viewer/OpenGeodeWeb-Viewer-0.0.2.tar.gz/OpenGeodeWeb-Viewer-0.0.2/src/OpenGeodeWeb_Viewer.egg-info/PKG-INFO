@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: OpenGeodeWeb-Viewer
+Version: 0.0.2
+Summary: OpenGeodeWeb-Viewer is an open source framework that proposes handy python functions and wrappers for vtk
+Author-email: Geode-solutions <contact@geode-solutions.com>
+Project-URL: Homepage, https://github.com/Geode-solutions/OpenGeodeWeb-Viewer
+Project-URL: Bug Tracker, https://github.com/Geode-solutions/OpenGeodeWeb-Viewer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OpenGeodeWeb-Viewer
+OpenSource Python framework for remote visualisation
