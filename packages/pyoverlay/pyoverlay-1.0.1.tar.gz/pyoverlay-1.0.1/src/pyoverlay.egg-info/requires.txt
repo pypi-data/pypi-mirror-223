@@ -1,0 +1,5 @@
+rich
+pywin32
+pyOpenGL
+PyGLM
+glfw
