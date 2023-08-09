@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: bq-tabulate
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/logc/bq-tabulate#readme
+Project-URL: Issues, https://github.com/logc/bq-tabulate/issues
+Project-URL: Source, https://github.com/logc/bq-tabulate
+Author-email: Luis Osa <luis.osa.gdc@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Keywords: BigQuery,tabulate
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: tabulate
+Description-Content-Type: text/markdown
+
+# BQ tabulate
+
+[![PyPI - Version](https://img.shields.io/pypi/v/bq-tabulate.svg)](https://pypi.org/project/bq-tabulate)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bq-tabulate.svg)](https://pypi.org/project/bq-tabulate)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install bq-tabulate
+```
+
+## License
+
+`bq-tabulate` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.

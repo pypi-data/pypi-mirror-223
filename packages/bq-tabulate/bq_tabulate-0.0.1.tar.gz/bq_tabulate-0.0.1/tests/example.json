@@ -1,0 +1,49 @@
+[{
+  "category": "family",
+  "f0_": "15681705594"
+}, {
+  "category": "standard",
+  "f0_": "13754806819"
+}, {
+  "category": "ad-supported",
+  "f0_": "9553476042"
+}, {
+  "category": "trial-opt-out",
+  "f0_": "7050298030"
+}, {
+  "category": "duo",
+  "f0_": "6826200648"
+}, {
+  "category": "campaign",
+  "f0_": "4218297356"
+}, {
+  "category": "student",
+  "f0_": "3639993696"
+}, {
+  "category": "trial-opt-in",
+  "f0_": "2338638547"
+}, {
+  "category": "iap",
+  "f0_": "1573221041"
+}, {
+  "category": "bundle",
+  "f0_": "1087830904"
+}, {
+  "category": "non-subscriber",
+  "f0_": "615196940"
+}, {
+  "category": "premium-mini",
+  "f0_": "96730190"
+}, {
+  "category": "paygtorecurring",
+  "f0_": "18341966"
+}, {
+  "category": "basic",
+  "f0_": "8765048"
+}, {
+  "category": "spotify-plus",
+  "f0_": "8303007"
+}, {
+  "category": "unknown",
+  "f0_": "1158804"
+}]
