@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/kmdo/__init__.py
+src/kmdo/cli.py
+src/kmdo.egg-info/PKG-INFO
+src/kmdo.egg-info/SOURCES.txt
+src/kmdo.egg-info/dependency_links.txt
+src/kmdo.egg-info/entry_points.txt
+src/kmdo.egg-info/not-zip-safe
+src/kmdo.egg-info/top_level.txt
