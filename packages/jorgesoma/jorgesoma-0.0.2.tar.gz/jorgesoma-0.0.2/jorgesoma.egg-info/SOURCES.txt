@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+setup.cfg
+jorgesoma.egg-info/PKG-INFO
+jorgesoma.egg-info/SOURCES.txt
+jorgesoma.egg-info/dependency_links.txt
+jorgesoma.egg-info/top_level.txt
