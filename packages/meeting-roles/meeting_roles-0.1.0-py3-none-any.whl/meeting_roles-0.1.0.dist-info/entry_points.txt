@@ -1,0 +1,2 @@
+[console_scripts]
+meeting_roles = meeting_roles.run:main

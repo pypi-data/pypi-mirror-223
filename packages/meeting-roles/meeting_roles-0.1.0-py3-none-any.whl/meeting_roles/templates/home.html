@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meeting Roles Manager</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <h1><i class="fas fa-users"></i> Meeting Roles Manager</h1>
+    <h2>Current Meeting</h2>
+    <p><strong>Minutes role:</strong>
+    <h2 class="person-role"><i class="far fa-file-alt"></i>{acta_person_name}
+    </h2>
+    </p>
+    <p><strong>Dynamizer Role:</strong>
+    <h2 class="person-role"><i
+            class="fas fa-bullhorn"></i>{dynamizer_person_name}</h2>
+    </p>
+    <p><strong>Meeting Date and Time:</strong>
+        <h4><span class="fas fa-clock"> </span> {meeting_datetime} </h4>
+    </p>
+
+
+    <div class="button-container">
+        <form action="/next_meeting" method="post">
+            <button class="btn btn-large"><i class="fas fa-forward"></i>
+                Generate Next Meeting</button>
+        </form>
+        <button
+            id="delete-last-meeting-btn"
+            class="btn btn-small btn-danger"><i class="fas fa-trash"></i> Delete
+            Most Recent Meeting</button>
+    </div>
+
+    <button class="accordion">Manage People</button>
+    <div class="panel">
+
+        <h2>People</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {people_html}
+            </tbody>
+        </table>
+        <form action="/add_person" method="post">
+            <div class="person-input">
+                <input type="text" name="name" placeholder="Name" required>
+                <label class="checkbox-container">
+                    Active
+                    <input type="checkbox" name="active" checked>
+                    <span class="checkmark"></span>
+                </label>
+                <button type="submit" class="btn"><i class="fas fa-plus"></i> Add Person</button>
+
+            </div>
+            
+                
+        </form>
+    </div>
+    <button class="accordion">Previous Meeting</button>
+    <div class="panel" id="previous_data">
+
+        <h2>Previous Meeting</h2>
+
+        <p><strong>Minutes role:</strong>
+            <h2 class="person-role"><i class="far fa-file-alt"></i>{previous_acta_person_name}
+            </h2>
+            </p>
+            <p><strong>Dynamizer Role:</strong>
+            <h2 class="person-role"><i
+                    class="fas fa-bullhorn"></i>{previous_dynamizer_person_name}</h2>
+            </p>
+            <p><strong>Meeting Date and Time:</strong>
+                <h4><span class="fas fa-clock"> </span> {previous_meeting_time} </h4>
+            </p>
+        
+    </div>
+
+    <div class="help-icon">
+        <a href="/help">
+            <i class="fas fa-question-circle"></i>
+        </a>
+    </div>
+    
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
