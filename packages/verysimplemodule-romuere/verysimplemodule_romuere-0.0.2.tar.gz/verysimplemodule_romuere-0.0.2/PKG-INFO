@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: verysimplemodule_romuere
+Version: 0.0.2
+Summary: My first Python package
+Author: romuere
+Author-email: romuere@ufpi.edu.br
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+My first Python package with a slightly longer description
