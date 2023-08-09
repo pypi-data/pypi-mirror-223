@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: crowdstrike-foundry-function
+Version: 0.2.0
+Summary: CrowdStrike Foundry Function Software Developer Kit for Python
+Requires-Python: >=3.9.0,<3.10.0
+License-File: LICENSE
