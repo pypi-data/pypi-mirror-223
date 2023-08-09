@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "lucidwallet"
+version = "0.1.22"
+description = "A Graphical interface for FluxWallet"
+authors = ["David White <dr.white.nz@gmail.com>"]
+license = "bsd 3-clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fluxwallet = "^0.1.3"
+textual = "^0.32.0"
+pyperclip = "^1.8.2"
+# until message signing gets fixed
+python-bitcoinlib = "0.12.2"
+keyring = "^24.2.0"
+# for server
+packaging = "^23.1"
+
+[tool.poetry.scripts]
+lucidwallet = "lucidwallet.entrypoint:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
