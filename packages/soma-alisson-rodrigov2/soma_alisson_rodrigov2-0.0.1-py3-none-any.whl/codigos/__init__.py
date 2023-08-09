@@ -1,0 +1,1 @@
+from pacote_teste import Somar
