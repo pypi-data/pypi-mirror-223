@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: python-quicksight
+Version: 0.0.1a0
+Summary: 
+Author: herbert.santos
+Author-email: herbert.santos@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+
