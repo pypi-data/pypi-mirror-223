@@ -1,0 +1,128 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geomancy"
+authors = [
+    {name = "Justin Lorieau"},
+]
+keywords = [
+   ".env",
+    "dotenv",
+    "env",
+    "env var",
+    "environment",
+    "environment variable",
+    "deployment",
+    "validation"
+]
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Environment :: Console",
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Bug Tracking",
+    "Topic :: Software Development :: Debuggers",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Software Development :: Testing :: Acceptance",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Systems Administration",
+    "Topic :: Utilities",
+    "Development Status :: 4 - Beta",
+    ]
+dynamic = ["version", "description"]
+dependencies = [
+    "pyyaml>=6.0",  # Parsing YAML for checks (CheckBase) and Config
+    "click>=8.1",  # Tool to develop CLI
+    "click-default-group",  # All default click subcommands. e.g. geo -> geo check
+    "rich>=13",  # Platform-independent terminal rendering
+]
+
+[tool.setuptools]
+packages = ["geomancy"]
+
+[tool.setuptools.dynamic]
+version = {attr = "geomancy.__version__"}
+description = {file = "geomancy/__description__.txt"}
+
+[project.optional-dependencies]
+
+all = [
+    "boto3>=1.28",  # AWS CDK for checking Amazon services
+]
+aws = [  # For AWS functionality
+    "boto3>=1.28",  # AWS CDK for checking Amazon services
+]
+dev = [  # For development
+    "pytest>=7.4",  # Testing framework
+    "twine>=4.0",  # Manage package uploads
+    "build",  # Manage package builds
+    "black[d]",  # Code formatter
+    "vcrpy<5.0",  # Mock http interactions and fixtures
+    "pytest-recording"  # Implementation of vcrpy in pytest
+    ]
+docs = [  # For building documentation
+    "sphinx",  # Document generator
+    "furo>=2023",  # Document theme
+    "sphinx_design>=0.4",  # Extra document components
+    "myst-parser>=2.0",  # Support for markdown in documentation
+    "sphinx-remove-toctrees",  # Remove links in toctrees (useful for autosummary)
+    "towncrier",  # changelog manager and producer
+]
+
+[project.scripts]
+geo = "geomancy.entrypoints:geo_cli"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules"
+
+[tool.towncrier]
+package = "geomancy"
+filename = "docs/about/changelog.rst"
+directory = "changelog"
+template = "changelog/_template.rst"
+title_format = "`{name} {version} <https://github.com/jlorieau/geomancy/tree/{version}>`_ - {project_date}"
+issue_format = "`#{issue} <https://github.com/jlorieau/geomancy/issues/{issue}>`_"
+
+    [[tool.towncrier.type]]
+    directory = "breaking"
+    name = "Breaking Changes"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "deprecation"
+    name = "Deprecations"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "feature"
+    name = "Features"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "improvement"
+    name = "Improvements"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "bugfix"
+    name = "Bug Fixes"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "doc"
+    name = "Improved Documentation"
+    showcontent = true
+
+    [[tool.towncrier.type]]
+    directory = "trivial"
+    name = "Trivial/Internal Changes"
+    showcontent = true
