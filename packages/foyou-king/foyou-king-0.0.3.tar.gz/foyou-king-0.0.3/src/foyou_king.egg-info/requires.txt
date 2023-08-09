@@ -1,0 +1,7 @@
+requests
+coloredlogs
+tqdm
+fire
+typing_extensions
+parsel
+urllib3
