@@ -1,0 +1,3 @@
+[console_scripts]
+ini = lazyinit.init:init
+run = lazyinit.run:run

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: lazyinit
+Version: 0.0.401
+Summary: Init lazydl environment.
+Home-page: https://github.com/deng1fan
+Author: deng1fan
+Author-email: dengyifan@iie.ac.cn
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 功能
+在新的服务器上初始化环境
+
+# 安装
+```bash
+pip install lazydl -i https://pypi.org/simple
+```
+
+
+# 初始化环境
+```bash
+ini
+```
+
+# 运行 Lazydl
+```bash
+run
+```
+
