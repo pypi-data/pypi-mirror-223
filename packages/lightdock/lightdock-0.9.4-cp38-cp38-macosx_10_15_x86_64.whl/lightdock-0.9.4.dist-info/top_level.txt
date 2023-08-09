@@ -1,0 +1,4 @@
+bin
+lightdock
+sandbox
+venv
