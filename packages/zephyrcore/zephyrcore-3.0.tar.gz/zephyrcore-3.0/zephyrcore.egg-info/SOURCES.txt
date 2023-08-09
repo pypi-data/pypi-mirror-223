@@ -1,0 +1,8 @@
+README.md
+setup.py
+core/__init__.py
+zephyrcore.egg-info/PKG-INFO
+zephyrcore.egg-info/SOURCES.txt
+zephyrcore.egg-info/dependency_links.txt
+zephyrcore.egg-info/requires.txt
+zephyrcore.egg-info/top_level.txt
