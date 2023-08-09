@@ -1,0 +1,11 @@
+subunitreporter/__init__.py,sha256=KnGPWv4NeK3qflG4wb5ZpBh8XLBadmC99mYERUbg9M0,7712
+subunitreporter/_metadata.py,sha256=foEY4ucqvXP3RHeouSa3XK3NEoE9xt64cr6yyDOJUkU,248
+subunitreporter/test/__init__.py,sha256=GtxTp197pdiCOXI-0AHwav1vY9DOXNsmV13KR8SOUjU,39
+subunitreporter/test/cases.py,sha256=8hIV_BS4jPI_Ys6dyW-8hbkKWRVA_tePAiYMnki14t0,124
+subunitreporter/test/test_distreporter_integration.py,sha256=xP3ly02Grdq29gCeyly3CMCbKHa_V_OnSixGxwf7MyQ,2496
+twisted/plugins/subunitreporter.py,sha256=dMnVGHhxFUaeHhowBvi0dU-9DGrXVbQ1ZY9GKqJUlrs,1251
+subunitreporter-23.8.0.dist-info/LICENSE,sha256=STI3zDIk9_UDydMu9uX3BATb3V8o5vjLo6qet9Hcw7Q,1091
+subunitreporter-23.8.0.dist-info/METADATA,sha256=rP1RDRSrHEPti6y_oRjM1Tx9_Sx16YeTQvyVkRsVNyE,2096
+subunitreporter-23.8.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+subunitreporter-23.8.0.dist-info/top_level.txt,sha256=Kwm9BpD_2GbSI_7RQAZhpfOrANaO8eO8-tspd4o1QyU,24
+subunitreporter-23.8.0.dist-info/RECORD,,
