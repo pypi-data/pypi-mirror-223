@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ticstat"
+version = "0.1.0"
+description = "Simple statistic display for long running tasks"
+authors = ["Jeremie Gobeil <jeremie.gobeil@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
