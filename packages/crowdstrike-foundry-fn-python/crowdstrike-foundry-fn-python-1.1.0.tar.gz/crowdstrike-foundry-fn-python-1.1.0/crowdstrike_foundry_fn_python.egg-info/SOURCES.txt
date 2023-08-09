@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+crowdstrike_foundry_fn_python.egg-info/PKG-INFO
+crowdstrike_foundry_fn_python.egg-info/SOURCES.txt
+crowdstrike_foundry_fn_python.egg-info/dependency_links.txt
+crowdstrike_foundry_fn_python.egg-info/not-zip-safe
+crowdstrike_foundry_fn_python.egg-info/top_level.txt
