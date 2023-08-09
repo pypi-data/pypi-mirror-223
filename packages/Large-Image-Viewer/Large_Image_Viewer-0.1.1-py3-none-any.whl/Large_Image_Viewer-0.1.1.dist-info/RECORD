@@ -1,0 +1,12 @@
+large_image_viewer/__init__.py,sha256=eBgV95-hD8C912WNvonn4AiKnse0Js-oDP_bM9wSblE,176
+large_image_viewer/_reader.py,sha256=YIwsxIm9oim2donk4jhZic-pF0AjLzse7J1NDoAKA6E,2623
+large_image_viewer/_version.py,sha256=aDfNBQh0vsVL7CSgYEMdMUbrxVw92raLxMivH20w2A4,160
+large_image_viewer/napari.yaml,sha256=-6S14qfJ8LPOd2Wwbx22c7PafcXFGEkDRuFYd288nLE,380
+large_image_viewer/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+large_image_viewer/_tests/test_reader.py,sha256=ytCm3GaBJ8fcrUryrm46YJ_ZuETdQiom8kVgSdeaoWU,1023
+Large_Image_Viewer-0.1.1.dist-info/LICENSE,sha256=RcF6EJC-vWNNtQJAF5tE7WC084x6mjcm9_N38KmV4OM,1082
+Large_Image_Viewer-0.1.1.dist-info/METADATA,sha256=vTPskoUeAfEGuEgO5o9FZLOofVE6T2wRXtExV4WwFrs,7012
+Large_Image_Viewer-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+Large_Image_Viewer-0.1.1.dist-info/entry_points.txt,sha256=afCLbv0VaPAAhzf2pJmnJqkGht49ndI0PwinKR1cYjc,70
+Large_Image_Viewer-0.1.1.dist-info/top_level.txt,sha256=eQhep0J2264Flq4mCMhyeerPNng-Iint8f47Ou55YPs,19
+Large_Image_Viewer-0.1.1.dist-info/RECORD,,
