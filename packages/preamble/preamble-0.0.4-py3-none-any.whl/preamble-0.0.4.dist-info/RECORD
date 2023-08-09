@@ -1,0 +1,7 @@
+preamble/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+preamble/preamble_core.py,sha256=EofWJjqP7mKvrujnFfTnKOve2MUvFawKU8t0BUAh0Zg,4483
+preamble/preamble_nemo.py,sha256=Xqff-o9765M8ND5eUi9nfGKUOM6d7IVWmOArmGr7YNs,3060
+preamble-0.0.4.dist-info/METADATA,sha256=o_Mi9tHgdRuzWF9_JqKtWizCm9Eo5CtqHw0wEJFjRxY,614
+preamble-0.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+preamble-0.0.4.dist-info/licenses/LICENSE,sha256=b8Z6VKyeUQmJMTiPeC1MDfrbPGbS3GSFPOxmXLqboHw,1061
+preamble-0.0.4.dist-info/RECORD,,
