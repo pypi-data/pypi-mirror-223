@@ -1,0 +1,9 @@
+geographiclib
+numpy
+scipy
+
+[dev]
+pre-commit
+pytest
+pytest-cov
+sphinx
