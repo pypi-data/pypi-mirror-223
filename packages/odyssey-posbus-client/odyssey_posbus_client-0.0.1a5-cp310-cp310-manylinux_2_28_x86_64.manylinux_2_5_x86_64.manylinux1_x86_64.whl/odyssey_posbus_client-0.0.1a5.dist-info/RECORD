@@ -1,0 +1,15 @@
+odyssey_posbus_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odyssey_posbus_client/_pbc.cpython-310-x86_64-linux-gnu.so,sha256=SP7XBxoIy_94Qdfoo6qu14dHjGO7U3j3I5XCF8CeyGE,12156176
+odyssey_posbus_client/pbc_go.h,sha256=fitUEhATUlbVQMBXcehHJhgVeQ1An-JSpf20dq0E7-s,46712
+odyssey_posbus_client/posbus.py,sha256=dShqbWSB1kuGCrosUx3vfBXgbS1m3iQxv0HoNSmukBw,125948
+odyssey_posbus_client/Makefile,sha256=qCwG9axWNanraNjNcHlpYAfCw-GtycOcUL4uEp6k7pc,1686
+odyssey_posbus_client/compat.py,sha256=jSL3i1TlNrCboSQ-Ph7P2mpoLLvL259nwW6S51LfmMg,5368
+odyssey_posbus_client/build.py,sha256=Tstfqc_Xc_Ddu45iZ8rPSLwg2P2hzwZYrH2UGLT8OwA,59659
+odyssey_posbus_client/cmath.py,sha256=yaPGzF1sWaFS2bR7PZNFIIn0wUgxEvFVXPx0AEvLxfc,14247
+odyssey_posbus_client/pbc.c,sha256=-DwF9zr-tipjTjEuR1UQvlFegjiNtr3ws3jRdwJ9l1M,446653
+odyssey_posbus_client/pbc.go,sha256=S6iHwq3IlnMVH5Cb73LxZ8uct2B8-_7eANiD1_fRwZE,210185
+odyssey_posbus_client/go.py,sha256=cMHyy6PHPn0Czr2zQycBeAf-lcC2a4SEFH-1bM3-Mio,52647
+odyssey_posbus_client/_pbc.cpython-310-x86_64-linux-gnu.h,sha256=fitUEhATUlbVQMBXcehHJhgVeQ1An-JSpf20dq0E7-s,46712
+odyssey_posbus_client-0.0.1a5.dist-info/RECORD,,
+odyssey_posbus_client-0.0.1a5.dist-info/WHEEL,sha256=DQvjPldoCOVWbkaiP0W9iHAO7393semvZwzNZSF8lrM,183
+odyssey_posbus_client-0.0.1a5.dist-info/METADATA,sha256=oQHK9PZOQBRyUYwJd2sUievva2ObQR6CR_oiVoRMm3A,1932
