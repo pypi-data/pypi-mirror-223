@@ -1,0 +1,10 @@
+README.rst
+setup.py
+requests_selenium/__init__.py
+requests_selenium/tempCodeRunnerFile.py
+requests_selenium/utils.py
+requests_selenium.egg-info/PKG-INFO
+requests_selenium.egg-info/SOURCES.txt
+requests_selenium.egg-info/dependency_links.txt
+requests_selenium.egg-info/requires.txt
+requests_selenium.egg-info/top_level.txt
