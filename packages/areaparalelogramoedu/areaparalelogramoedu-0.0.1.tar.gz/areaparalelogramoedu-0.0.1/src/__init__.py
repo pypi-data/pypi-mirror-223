@@ -1,0 +1,1 @@
+from areapalalelogramoluis import calculaArea

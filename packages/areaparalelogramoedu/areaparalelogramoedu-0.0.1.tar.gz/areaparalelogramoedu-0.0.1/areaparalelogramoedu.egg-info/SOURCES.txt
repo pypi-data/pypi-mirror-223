@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+areaparalelogramoedu.egg-info/PKG-INFO
+areaparalelogramoedu.egg-info/SOURCES.txt
+areaparalelogramoedu.egg-info/dependency_links.txt
+areaparalelogramoedu.egg-info/top_level.txt
+src/__init__.py
+src/areaparalelogramoedu.py
