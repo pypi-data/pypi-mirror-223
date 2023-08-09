@@ -1,0 +1,3 @@
+[console_scripts]
+say11=say11.cli:app
+

@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: say11
+Version: 0.1.0
+Summary: Eleven Labs' CLI for streaming TTS
+Home-page: https://github.com/jxnl/say11
+License: MIT
+Author: Jason
+Author-email: jason@jxnl.co
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: elevenlabs (>=0.2.24,<0.3.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/jxnl/say11
+Description-Content-Type: text/markdown
+
+# say11
+
+Utility to use eleven lab's streaming to in the command line
+
+## Installation
+
+You'll need to install mpv on Mac via Brew
+
+```sh
+brew install mpv
+```
+
+Then to install the library 
+
+```sh
+pip install say11
+```
+
+## Usage 
+
+To use this you can use two methods, weither pipe into stdin 
+
+```sh
+cat text.txt | say11 -v Nicole 
+echo "hello there everyone!" | say11 -v Nicole 
+```
+
+or by using the normal arugment
+
+```sh
+say11 -t "Hello everyone!" -v Nicole
+```
