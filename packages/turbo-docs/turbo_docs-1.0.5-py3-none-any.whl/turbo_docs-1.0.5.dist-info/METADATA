@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: turbo-docs
+Version: 1.0.5
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: openai
+Requires-Dist: click
+Requires-Dist: pyperclip
+Requires-Dist: toml
+Requires-Dist: pathspec
+Requires-Dist: llm-blocks
+Requires-Dist: tiktoken
+
+# Turbo Docs 🚀
+
+![GitHub stars](https://img.shields.io/github/stars/turbo_docs/turbo_docs?style=social)
+![PyPI](https://img.shields.io/pypi/v/turbo_docs)
+
+Turbo Docs is a Python package that automates the process of generating documentation for your Python projects. It uses OpenAI's GPT-3.5 Turbo and GPT-4 models to generate concise and informative documentation for your functions, and even creates a README.md for your repository.
+
+## Why Use Turbo Docs? 🎯
+
+Writing documentation can be a tedious task, especially for large projects. Turbo Docs takes this burden off your shoulders by automating the process. It generates concise and informative documentation for your functions, and even creates a README.md for your repository. This allows you to focus on what you do best: writing code.
+
+## Repo Structure 🌳
+
+```
+turbo_docs/
+├── commands/
+│   ├── docs.py
+│   ├── readme.py
+│   └── __init__.py
+├── utils/
+│   ├── cli_options.py
+│   ├── directory.py
+│   ├── openai_api.py
+│   └── __init__.py
+├── generate.py
+├── __init__.py
+├── setup.py
+└── requirements.txt
+```
+
+## Example Usage 📖
+
+```python
+from turbo_docs.commands import readme as readme_module
+from turbo_docs.commands import docs as docs_module
+from turbo_docs.utils import directory
+
+# Get a dictionary of all text in the current repo
+dir_text_dict = directory.get_repo_text_dict()
+
+# Generate README.md
+readme_module.readme(dir_text_dict, model="gpt-4")
+
+# Generate documentation for all code files
+docs_module.docs(dir_text_dict, model="gpt-4")
+```
+
+## Installation 📦
+
+You can install Turbo Docs via pip:
+
+```bash
+pip install turbo_docs
+```
+
+Please note that you need to have an OpenAI API key to use Turbo Docs. If you don't have one, you can create an account at [OpenAI](https://platform.openai.com/overview).
+
+## Contributing 🤝
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License 📄
+
+Turbo Docs is licensed under the MIT License.
