@@ -1,0 +1,12 @@
+click
+pandas
+cookiecutter
+pyyaml
+snakemake<=7.30
+setuptools_scm
+drmaa
+seaborn
+wget
+tracknado
+
+[atac]
