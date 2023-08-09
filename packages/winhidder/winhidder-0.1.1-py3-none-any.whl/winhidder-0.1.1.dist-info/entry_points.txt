@@ -1,0 +1,3 @@
+[console_scripts]
+mywin=winHidder:run
+
