@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "georelate"
+version = "0.0.3"
+description = "Georelate constructs design matrices from geographical data."
+authors = ["edkrueger <edkrueger@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+pre-commit = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+
+[tool.poetry.group.dev.dependencies]
+geopandas = "^0.13.2"
+matplotlib = "^3.7.2"
+geodatasets = "^2023.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
