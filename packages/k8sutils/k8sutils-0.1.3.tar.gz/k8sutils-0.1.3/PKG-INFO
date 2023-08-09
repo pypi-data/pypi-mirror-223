@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: k8sutils
+Version: 0.1.3
+Summary: Kubernetes helper module for Python
+Author-email: Rui Vieira <ruidevieira@googlemail.com>
+License: Apache License Version 2.0
+Keywords: k8s,kubernetes,utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# k8sutils
+
+A Python helper library for Kubernetes.
