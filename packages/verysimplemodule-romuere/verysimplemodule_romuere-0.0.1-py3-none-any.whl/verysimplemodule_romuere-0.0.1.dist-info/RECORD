@@ -1,0 +1,10 @@
+verysimplemodule_romuere/__init__.py,sha256=4b_apZtMVLDpgz5f5HuJmF194P-a-ogzUPxP_Ahyzus,49
+verysimplemodule_romuere/add.py,sha256=KOP0931hQBSVh8aMOKi-xBgMRF-hGxKrgx6Uv1jPMOg,29
+verysimplemodule_romuere/subtract.py,sha256=IVThzKSuPHyRSgelU1I7sVF-8jFb3iaTVuaKdRU1QgU,34
+verysimplemodule_romuere/extra/__init__.py,sha256=8hAkkKrugwesnhfRokfaKfRHVIH7O6G4E_bPj6zwyu0,55
+verysimplemodule_romuere/extra/divide.py,sha256=9J_AF65QmMEqvv5pQctcxehtG2_DTVkoTENzL8JOEMU,32
+verysimplemodule_romuere/extra/multiple.py,sha256=nCRn2ZFjyKrjO43PtMXSrVceZffNI3kCwg2yi2oleNU,34
+verysimplemodule_romuere-0.0.1.dist-info/METADATA,sha256=nd-dQyS8ao9V8kj2g8skg5FxSdtNUMG3ANOb-lFM4Sw,473
+verysimplemodule_romuere-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+verysimplemodule_romuere-0.0.1.dist-info/top_level.txt,sha256=VuXCNcZ3nmrqDWlBGcf4vQ9UWcxEOd3SB60CKM4Okq0,25
+verysimplemodule_romuere-0.0.1.dist-info/RECORD,,
