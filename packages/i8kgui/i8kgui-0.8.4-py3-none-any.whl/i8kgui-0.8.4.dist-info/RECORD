@@ -1,0 +1,12 @@
+i8kgui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i8kgui-0.8.4.data/data/share/applications/i8kgui.desktop,sha256=ScQCtxeOMbyxKgBZvHDKIuW2uPZLQu1SfiiE-0mlN1M,114
+i8kgui-0.8.4.data/data/share/icons/i8kgui_icon.png,sha256=fH2JvO8oAEo5cvRTfFFcRfPR1HunJ5O5K3xV0dgW5Eg,24084
+i8kgui-0.8.4.data/data/share/polkit-1/actions/com.ubuntu.pkexec.i8kgui_thermal_control.policy,sha256=6_RhOp9imwXtJGrwMu0xJ3qqXlGvkTHdLr2HUE3lfSk,777
+i8kgui-0.8.4.data/data/share/polkit-1/actions/com.ubuntu.pkexec.smbios-thermal-ctl.policy,sha256=66ytw4sVLC7zAsgSaZmwOZ160Uw_v-hY-OOF-zKbcaE,747
+i8kgui-0.8.4.data/scripts/i8kgui,sha256=czJ1BMfkkT83AR7WfVsz9eO8cjYvPcIJJgMVr9BycvM,90227
+i8kgui-0.8.4.data/scripts/i8kgui_thermal_control,sha256=S3di3kv3CsgQ3GEKhSSyZ-4fCl4SX7y9kHFn4a4Dosc,2832
+i8kgui-0.8.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+i8kgui-0.8.4.dist-info/METADATA,sha256=BvZKIzA93mDqgFwkPv71Fmo3ItSwQoX049NLc_9QEPk,9418
+i8kgui-0.8.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+i8kgui-0.8.4.dist-info/top_level.txt,sha256=FShxuz8T2kNxa-Sav-GcGw7DokMsvQHOzS0GeT3Ylsc,7
+i8kgui-0.8.4.dist-info/RECORD,,
