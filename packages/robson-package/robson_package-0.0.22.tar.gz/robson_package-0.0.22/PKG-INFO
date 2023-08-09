@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: robson_package
+Version: 0.0.22
+Summary: Meu primeiro pacote em Python
+Author: Robson-tech
+Author-email: robson.junior@ufpi.edu.br
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Meu primeiro pacote em Python com uma descrição im pouco mais longa
