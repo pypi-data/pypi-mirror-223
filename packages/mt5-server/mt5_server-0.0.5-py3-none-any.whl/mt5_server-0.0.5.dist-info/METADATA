@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: mt5-server
+Version: 0.0.5
+Summary: Servidor
+Home-page: https://github.com/michelmetran/mt5_server
+Author: Michel Metran
+Author-email: michelmetran@gmail.com
+Keywords: python,metatrader
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Portuguese
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: plumbum
+Requires-Dist: pyparsing
+Requires-Dist: rpyc
+
+# MT5 Server
+
+[GitHub](https://github.com/michelmetran/mt5_server/) |
+[PyPI](https://pypi.org/project/mt5-server/)
+
+A simple package that uses [rpyc](https://github.com/tomerfiliba-org/rpyc) and a Python Windows version to allow using [MetaTrader5](https://pypi.org/project/MetaTrader5) on Linux.
+
+Based on the project **_MT5 Linux_** ([GitHub](https://github.com/lucas-campagna/mt5linux) | [PyPI](https://pypi.org/project/mt5linux/)). A tried to make a fork to keep de credits... but I cannot build a package.
+
+<br>
+
+---
+
+## Install
+
+Install the package in Windows and Linux.
+
+```shell
+# Metatrader Server
+pip3 install --upgrade mt5-server
+```
+
+<br>
+
+Install only in Windows
+
+```shell
+# Metatrader
+pip3 install --upgrade MetaTrader5
+```
+
+<br>
+
+---
+
+## Use
+
+1. No Windows open Metatrader and execute the folling command. You can provide the port, host, executable, etc... just type `python -m mt5linux --help`.
+
+```shell
+# Example
+python -m mt5_server {path/to/python.exe}
+```
+
+<br>
+
+---
+
+## Referências
+
+-
+-
