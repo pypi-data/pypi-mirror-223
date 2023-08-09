@@ -1,0 +1,13 @@
+PyPDF2==3.0.1
+fpdf2==2.7.4
+python-barcode==0.15.1
+Pillow==9.5.0
+comtypes==1.2.0
+pdfkit==1.0.0
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+unitest
