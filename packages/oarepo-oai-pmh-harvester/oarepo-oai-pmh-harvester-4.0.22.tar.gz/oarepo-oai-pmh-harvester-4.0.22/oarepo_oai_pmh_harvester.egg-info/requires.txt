@@ -1,0 +1,5 @@
+tqdm>=4.64.1
+oarepo-runtime>=1.0.0
+sickle
+pyyaml
+oarepo<12,>=11
