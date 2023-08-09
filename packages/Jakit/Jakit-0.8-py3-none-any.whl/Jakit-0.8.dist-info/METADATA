@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: Jakit
+Version: 0.8
+Summary: Just Another Kappa Information Tool
+Home-page: https://github.com/iddy-ani/Jakit
+Author: Idriss Animashaun
+Author-email: idriss.animashaun@intel.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anyio
+Requires-Dist: bleach
+Requires-Dist: blinker
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: Dager
+Requires-Dist: dnspython
+Requires-Dist: docutils
+Requires-Dist: exceptiongroup
+Requires-Dist: Flask
+Requires-Dist: h11
+Requires-Dist: httpcore
+Requires-Dist: idna
+Requires-Dist: importlib-metadata
+Requires-Dist: itsdangerous
+Requires-Dist: jaraco.classes
+Requires-Dist: Jinja2
+Requires-Dist: keyring
+Requires-Dist: markdown-it-py
+Requires-Dist: MarkupSafe
+Requires-Dist: mdurl
+Requires-Dist: more-itertools
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pkginfo
+Requires-Dist: Pygments
+Requires-Dist: pymongo
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: pywin32-ctypes
+Requires-Dist: readme-renderer
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: rfc3986
+Requires-Dist: rich
+Requires-Dist: six
+Requires-Dist: sniffio
+Requires-Dist: tzdata
+Requires-Dist: urllib3
+Requires-Dist: webencodings
+Requires-Dist: Werkzeug
+Requires-Dist: zipp
+
+# Jakit
+Just Another Kappa Information Tool - Python API for reports
