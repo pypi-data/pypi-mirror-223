@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dzdata
+Version: 0.1.1
+Summary: Object and dataset saved as a directory or zipfile
+License: MIT
+Author: Jeremie Gobeil
+Author-email: jeremie.gobeil@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0.1,<7.0.0)
+Requires-Dist: dask (>=2023.8.0,<2024.0.0)
+Requires-Dist: distributed (>=2023.8.0,<2024.0.0)
+Requires-Dist: pandas (>=2.0.3,<3.0.0)
+Requires-Dist: ticstat (>=0.1.0,<0.2.0)
+Description-Content-Type: text/markdown
+
+# datafiles
+
+A library to create data objects saved either in a directory or in a zip file.
+
