@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: resanter_logger
+Version: 0.0.3
+Summary: Simple logger
+Author-email: resanter <reoskaro434@gmail.com>
+Project-URL: Homepage, https://github.com/reoskaro434/logger
+Project-URL: Bug Tracker, https://github.com/reoskaro434/logger/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a simple logger that allows to save log to the .log file
