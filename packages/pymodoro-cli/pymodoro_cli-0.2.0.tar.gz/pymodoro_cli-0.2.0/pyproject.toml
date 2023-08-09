@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pymodoro-cli"
+version = "0.2.0"
+description = ""
+authors = ["withpouriya <pouriya.raj@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colr = "0.9.1"
+pygame = "2.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pymodoro_cli = 'main:main'
