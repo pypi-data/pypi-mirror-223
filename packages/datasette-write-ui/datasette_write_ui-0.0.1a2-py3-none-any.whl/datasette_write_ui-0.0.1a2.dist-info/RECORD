@@ -1,0 +1,10 @@
+datasette_write_ui/__init__.py,sha256=FkPl31gzy0xMTOkBb8tWaQ3c12uceV5sIt-0lHY71Dg,3713
+datasette_write_ui/static/table.css,sha256=xNOvlLCZnUoQEmwEowt09zafedg7vkodFB768rJFbSM,985
+datasette_write_ui/static/table.min.js,sha256=JxMkI-xOHlXKKzqdI8ypCJSqTkofulWooXI7a7VDjc0,12328
+datasette_write_ui/templates/table.html,sha256=arujI6ZRx6tFPgSk20zzbVuzbayV3wZ6_TqrGVhErhw,935
+datasette_write_ui-0.0.1a2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_write_ui-0.0.1a2.dist-info/METADATA,sha256=V2KDvy0SaTy2Xj5mF8nM2Kc_7P4PVXl-iQrQobS_58o,2028
+datasette_write_ui-0.0.1a2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+datasette_write_ui-0.0.1a2.dist-info/entry_points.txt,sha256=qyexv13z45eeSw4lYVZrnuO18uSghWxZGUxTga6kuDk,52
+datasette_write_ui-0.0.1a2.dist-info/top_level.txt,sha256=mwR-HwM91HuAKrjQd00kk1uzcdpwCh_ydHYAIEZSPjU,19
+datasette_write_ui-0.0.1a2.dist-info/RECORD,,
