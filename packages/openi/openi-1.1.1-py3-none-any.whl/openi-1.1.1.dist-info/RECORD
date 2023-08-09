@@ -1,0 +1,17 @@
+openi/__init__.py,sha256=YLtU9pW4YxssmW_V7a8U7KghJ2g6dfPsAq58a_a31po,146
+openi/apis.py,sha256=VafKV-NR38qgr4mlpauaHA7jFMhN6GwmMRQAwxC4-ZQ,6456
+openi/cli.py,sha256=WpJfqDoPm1TVJBGsEb5XghCzoaOKOJrrq0Siooq7oVw,5238
+openi/login.py,sha256=pc40D-ykfSKYrLT4jawWcd5SYdcP3GfxA36kZCzqTFo,3029
+openi/settings.py,sha256=X9zyUhZhNk0CcnYuj-Ip0jfwgDwInA-7A88tpvcmQhc,4078
+openi/dataset/__init__.py,sha256=FCoMfEApIHNwoEQozbTkqQLhjsE3wMObxow7bA9nrMg,109
+openi/dataset/dataset_file.py,sha256=emZCLDx1cU-NHmck_IMQJxSrEN2KkRgBXO-ubGKroNM,2752
+openi/dataset/download.py,sha256=uAT1i5N-Uetvw3y3ej_tzcCqMQ9TIS7cdSsafYBTI_E,2671
+openi/dataset/upload.py,sha256=jc08mtocSFLyhpFMeHdZoZSP0HxGd4W_NsBpijSXu9E,4570
+openi/utils/__init__.py,sha256=VgMo8Si5JldHU5XfAb8yNMAGOFyiIZYB--j7n9DLjbg,50
+openi/utils/file_utils.py,sha256=nngWCbD7tLRTtxRplDGHj1V0qQair-WAMoK_HU7NXKQ,1400
+openi/utils/logger.py,sha256=f2KwErgp5CsNaeWlUswa5gXFHqqzAfReBw_90SC2NS0,723
+openi-1.1.1.dist-info/METADATA,sha256=vsQYv0VUvu0bSQ1cmry6QTdy83VRGRnMEmDTBqjfujM,2129
+openi-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+openi-1.1.1.dist-info/entry_points.txt,sha256=c4RWOnFqOse8rHasLtDcKbjBDLGrJJh-nQEGpY88j6s,41
+openi-1.1.1.dist-info/top_level.txt,sha256=0Q0-sLEGdmHC46FTTa0n-QuSAuSmISh0rPj6lUF8TjQ,6
+openi-1.1.1.dist-info/RECORD,,
