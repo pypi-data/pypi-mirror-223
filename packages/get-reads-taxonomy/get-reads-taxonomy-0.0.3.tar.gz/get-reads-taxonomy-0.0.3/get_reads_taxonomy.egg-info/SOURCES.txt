@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+get_reads_taxonomy/__init__.py
+get_reads_taxonomy/__main__.py
+get_reads_taxonomy/_version.py
+get_reads_taxonomy/defaults.py
+get_reads_taxonomy/extract.py
+get_reads_taxonomy/lib.py
+get_reads_taxonomy/utils.py
+get_reads_taxonomy.egg-info/PKG-INFO
+get_reads_taxonomy.egg-info/SOURCES.txt
+get_reads_taxonomy.egg-info/dependency_links.txt
+get_reads_taxonomy.egg-info/entry_points.txt
+get_reads_taxonomy.egg-info/requires.txt
+get_reads_taxonomy.egg-info/top_level.txt
