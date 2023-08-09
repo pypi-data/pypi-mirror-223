@@ -1,0 +1,7 @@
+myst-parser
+nbsphinx
+numpydoc
+sphinx
+sphinx-book-theme
+sphinx-copybutton
+sphinx-issues

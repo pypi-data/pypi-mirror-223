@@ -1,0 +1,6 @@
+
+nbconvert
+nbformat
+
+pytest
+pytest-cov

@@ -1,0 +1,46 @@
+{% if GIT_DESCRIBE_NUMBER is defined and GIT_DESCRIBE_NUMBER == '0' %}
+{% set version = GIT_DESCRIBE_TAG %}
+{% elif GIT_DESCRIBE_NUMBER is defined %}
+{% set version = GIT_DESCRIBE_TAG + '.dev' + GIT_DESCRIBE_NUMBER %}
+{% else %}
+{% set version = 'dev' %}
+{% endif %}
+package:
+  name: xbrowser_automation
+  version: {{version}}
+
+source:
+  path: ..
+
+build:
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  build:
+    - git
+    - python
+    - setuptools >=38.6.0
+    - setuptools_scm
+  run:
+    - ipykernel
+    - python
+    - voila
+
+test:
+  imports:
+    - xbrowser_automation
+  requires:
+
+    - nbconvert
+    - nbformat
+
+    - pip
+    - pytest
+    - pytest-cov
+  commands:
+    - pip check
+    - py.test --pyargs xbrowser_automation
+
+about:
+  home: https://git.benteler.net/czirala/xbrowser_automation
+  summary: xbrowser gui

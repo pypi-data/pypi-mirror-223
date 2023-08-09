@@ -1,0 +1,8 @@
+variables:
+  PACKAGE_REPOSITORY_NAME: xbrowser_automation
+  K8S_NAMESPACE: python
+  WIN: "true"
+
+include:
+  - project: 'python/ci-templates'
+    file: 'gitlab-ci-deployment.yml'

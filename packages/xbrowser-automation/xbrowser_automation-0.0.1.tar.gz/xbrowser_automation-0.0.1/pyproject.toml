@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = 'xbrowser_automation'
+version = '0.0.1'
+authors = [
+  {name='László Czirák', email='laszloii.czirak@benteler.com'},
+]
+description = 'xbrowser gui'
+dynamic = ['0.0.1']
+readme = 'README.md'
+requires-python = '>=3.9'
+dependencies = [
+    'ipykernel',
+    'voila',
+]
+
+[project.optional-dependencies]
+test = [
+    'nbconvert',
+    'nbformat',
+    'pytest',
+    'pytest-cov',
+]
+[project.scripts]
+xbrowser_automation = 'xbrowser_automation:main'
+
+[project.urls]
+repository = 'https://git.benteler.net/czirala/xbrowser_automation'
+'Bug Tracker' = 'https://git.benteler.net/czirala/xbrowser_automation/-/issues'
+
+[tool.coverage.run]
+omit = ['xbrowser_automation/test/*']
+
+[tool.setuptools.packages.find]
+include = ['xbrowser_automation']
+namespaces = false
+
+[tool.setuptools_scm]
