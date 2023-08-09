@@ -1,0 +1,17 @@
+nbcpu/__cli__.py,sha256=p8TRAKyY4Wkr-ZBvViUEoNVMrGmEUa0rvA5iOS21Jh4,180
+nbcpu/__init__.py,sha256=VX4pK43LLYKeF-LqX3TglYoWxvPyMA6VK_hms9TAzEI,484
+nbcpu/_version.py,sha256=RaANGbRu5e-vehwXI1-Qe2ggPPfs1TQaZj072JdbLk4,22
+nbcpu/conf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nbcpu/conf/about/nbcpu.yaml,sha256=RsUrOX-KSoftYjPpJOnj5rcL2VMR1TrYyqatajlT364,275
+nbcpu/conf/fetcher/khmer.yaml,sha256=LEUQTi4DIwcENPlYtOOhDGM8C_keSJKzVIRXkHtwQow,675
+nbcpu/conf/fetcher/phnompenh.yaml,sha256=YUYqOYTrnzmLwMw1NCSgw7ZHpPB0F6qUtgeZp2M-tcI,698
+nbcpu/fetcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nbcpu/fetcher/base.py,sha256=Umt0EkQPiSb-mWdu4PfJ7-ueyAGSQNozuQ8K7lOgQ8w,11793
+nbcpu/fetcher/khmer.py,sha256=FCtDBp5ytf4dUOJLKPlaYPAJL6JLjQ5ssmtqV-VX9uc,4049
+nbcpu/fetcher/phnompenh.py,sha256=lNMO4HqdeTWQJ5F7CdSwkBhnSFMFftz4RcEjmNeCtcQ,4704
+nbcpu/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nbcpu-0.7.0.dist-info/LICENSE,sha256=6_-z_j5TJ7bQ5RlPwAJZ0Eqo3qWC6pMDjlLjz0R4wkE,1071
+nbcpu-0.7.0.dist-info/METADATA,sha256=SnDbf9hraiulUYPSebIAaLubwhA4Zx9XEoNUkH2f2f0,4091
+nbcpu-0.7.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+nbcpu-0.7.0.dist-info/entry_points.txt,sha256=iUEikufbeooOIrxa9WNqYGnTrx1Ftsr6VrkFTmklTCw,44
+nbcpu-0.7.0.dist-info/RECORD,,
