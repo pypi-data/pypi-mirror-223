@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "myrs"
+version = "0.0.0"
+description = "A Language and Compiler for Machine Learning"
+authors = ["altar31 <damien.sicard31@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+xdsl = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
