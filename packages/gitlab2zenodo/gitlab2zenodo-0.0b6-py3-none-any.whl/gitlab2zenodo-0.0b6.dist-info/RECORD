@@ -1,0 +1,14 @@
+gitlab2zenodo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitlab2zenodo/deposit.py,sha256=UQL6tHW8SZq13a8CuWDhte4_jrdZ9PoEalSI_fspqAI,6728
+gitlab2zenodo/main.py,sha256=Mbs3qans69r_gAOYzveTGQhdEaWQJ-_JLg-PRy4NliQ,3879
+gitlab2zenodo/settings.py,sha256=QUM14oVctwCcnQzWNODbmvvR5wo871OJm01jXZ8aP30,3711
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_gitlab2zenodo.py,sha256=zIOOC8PuHuUVLuRrRJkReaQdoSZJGVlfOFwPNFjvSkM,14861
+tests/test_main.py,sha256=Btq5LpNNkAfOp36TCWklgJj2LbfVwVdWr_ZJCmAqE5c,6042
+tests/test_settings.py,sha256=zN8TfeO28rSjV8s3E0cb7-e7xqxvi39PNbTCmpNswzA,4541
+gitlab2zenodo-0.0b6.dist-info/LICENSE,sha256=SsxsfY19NZ4ENiW1g5MLXYAQ2U-fGcBPfz-USWnU0p0,11345
+gitlab2zenodo-0.0b6.dist-info/METADATA,sha256=BTHwdnTbaVaDKh3ZnN7wPnIuhq1UIQVJdkBKAq7OE4A,8852
+gitlab2zenodo-0.0b6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gitlab2zenodo-0.0b6.dist-info/entry_points.txt,sha256=Y3hYweQW2qO3n9pMqplA7RA9cKxQZHAXXFnQdQAKiaU,112
+gitlab2zenodo-0.0b6.dist-info/top_level.txt,sha256=pvgxesRlPChM077bziwt9atw4SX7rcQzp1I_dFflEQM,20
+gitlab2zenodo-0.0b6.dist-info/RECORD,,
