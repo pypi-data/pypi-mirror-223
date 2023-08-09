@@ -1,0 +1,12 @@
+sqlwhat/State.py,sha256=CGk0zOjmOVEJ5gpJ7lk6Hu45EGaH2CzcM9A83G2DQnk,1656
+sqlwhat/__init__.py,sha256=WdhyDOzzvr2SGPDGXeKycZ0Wc-6iJmk3aMcmc6XYO_I,64
+sqlwhat/sct_syntax.py,sha256=pHy8ZW-8H8p_zrAt0Lt5zkgPpZJnTuH8QvwZbnXrbQ8,516
+sqlwhat/test_exercise.py,sha256=p5s_7A1lWj7jWKem7elyk550Z9O4cBrtDfqR2XTy14Y,973
+sqlwhat/checks/__init__.py,sha256=JIlUi_5eBpmMiCcfpFSwmnbdcNzf_tHFhZ2eZMpQIKY,674
+sqlwhat/checks/check_funcs.py,sha256=LWZ1aiqmFXlxzMdIxj4olvHaois0u0Zyug9Ksai3WX0,12948
+sqlwhat/checks/has_funcs.py,sha256=q1-rRDYgnENu-5cG164CVI-rFegcl9fOWyTnAmfyfQc,7787
+sqlwhat-3.9.3.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+sqlwhat-3.9.3.dist-info/METADATA,sha256=5oJCWJ2IJmtmalyUIDDzuJcsx3NYFlNmaYuiqPSJ0qI,3374
+sqlwhat-3.9.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sqlwhat-3.9.3.dist-info/top_level.txt,sha256=1JN-BEtj1LNMXOFjQJVA0Ceq621StyZZbeEW6f-mPsE,8
+sqlwhat-3.9.3.dist-info/RECORD,,
