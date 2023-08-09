@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dbxs
+Version: 0.0.2
+Summary: C{DBXS} (“database access”) is an asynchronous database access layer based on
+Author-email: Glyph <code@glyph.im>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: twisted
+Project-URL: Home, https://github.com/glyph/DBXS
+
+# DBXS: Simple Python Database Access
+
