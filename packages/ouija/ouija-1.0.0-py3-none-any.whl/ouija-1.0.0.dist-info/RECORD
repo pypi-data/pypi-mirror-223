@@ -1,0 +1,16 @@
+ouija/__init__.py,sha256=q8DMohSm0DStkFWiEtCKb56Co0PKHDU9xWUaUg2jsHM,380
+ouija/interface.py,sha256=ALBOtBTNRPLjCNu1WY7kESgWbHzyokDr-5q4bLBDKnk,2899
+ouija/link.py,sha256=E0nuHchxaRs2IWbEJOmMyo8TtsppfaNalDa_hXMOBCw,1755
+ouija/log.py,sha256=IeXobIOQElMcrJeIpNJEaAyMwD5IK-VYjuKnpl4wlAY,94
+ouija/ouija.py,sha256=6r2sqcFH7n5yGprkXlWzKWPfjHwGM_gDfyIHM0Hqlsg,9193
+ouija/packet.py,sha256=aIdrG0_N9EN9KeXBftfUTz8agA0TgbS1t4as8hz5RDU,1648
+ouija/proxy.py,sha256=2rlKlPYA1i7ui0FDqM0-0zmS1KqQIv2bIY9e5p9B7og,1846
+ouija/rawparser.py,sha256=g0ErRcXj9HQXVl2sLYY8mOjLE-4GEHQueTnURSQvC5w,1127
+ouija/relay.py,sha256=-a4gwxlzbExpWSwTSfy9NNcfXDh7wfag0njevQWszo0,2381
+ouija/telemetry.py,sha256=nSMsUvtwYsacJQvLQ_aTPZDToFC06AYSTbD-QtJSIc8,2940
+ouija/tuning.py,sha256=6XODfPi-Gu3PK1qhlqe2raSFeN4m6YB-9Td7o6yqGJ0,297
+ouija-1.0.0.dist-info/LICENSE,sha256=fqcQNHn4-kaz9oNe28gdn1pyUm0uEExS38CD4X_PfL8,1069
+ouija-1.0.0.dist-info/METADATA,sha256=lwXmAtT8vQR7T68YYoEsDx9Zn-xY4UitC1Krzdo2aJ4,4503
+ouija-1.0.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+ouija-1.0.0.dist-info/top_level.txt,sha256=8G9zs63bQmiPZndSEr7DrvE2KUwj9pbigSGpD_UC5zI,6
+ouija-1.0.0.dist-info/RECORD,,
