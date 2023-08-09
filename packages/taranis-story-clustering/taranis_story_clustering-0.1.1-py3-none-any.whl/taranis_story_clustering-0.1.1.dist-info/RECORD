@@ -1,0 +1,17 @@
+story_clustering/__init__.py,sha256=McRdbHiG_C-jIM6bdppdtFHrY332VVDS-ufbW51ZyjY,44
+story_clustering/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+story_clustering/clustering.py,sha256=AHzJkaHltJ6dbVJY7jjuvNw08zhJSfFsvASZD8U7-Mg,4857
+story_clustering/document_representation.py,sha256=gbB7wDxyjW-a-gfim7ngjAH98d4IuyZmBeA4qJapnEw,7375
+story_clustering/event_organizer.py,sha256=BePXFhOIWdMc_oWE3UQWFboQTqg08tX_E56xm9Vtvv8,2709
+story_clustering/eventdetector.py,sha256=Zc8q7r96jzFKeLC89sgu92J6D-eYQmYASw-Uk4hT_-4,8519
+story_clustering/keywords_organizer.py,sha256=caOLHYfrJh9EvJq5K2zXECUHICW0OjNedBDwNhYE5Wk,25866
+story_clustering/nlp_utils.py,sha256=hrBVZo_1nf-MPA3Yxe9wdSqA2Obfm7BBk9fKE0jTyL0,283
+story_clustering/story_maker.py,sha256=zAADypI6aF4I1OseXxHw6G2uve0scnKO6Mg_ZyrL8mY,14930
+story_clustering/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+story_clustering/tests/conftest.py,sha256=Z1qDAsYhkHRs2PwinGGG8R-1MUIYsg0bdCkgMBpJW3U,14
+story_clustering/tests/test_clustering.py,sha256=TDqfmKwrSDHGrbNIVB1mTzoyMG9PcwAd7qWD0Bu68mY,41
+taranis_story_clustering-0.1.1.dist-info/LICENSE.md,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+taranis_story_clustering-0.1.1.dist-info/METADATA,sha256=fteIWPlCwEkI0-UQV6Y4YWE6M8-zavRY4kSkd277_nI,17178
+taranis_story_clustering-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+taranis_story_clustering-0.1.1.dist-info/top_level.txt,sha256=Zq7xdw7M5A2KnTDAm-zy681zk1YbkU7VnGwxfV96v_g,17
+taranis_story_clustering-0.1.1.dist-info/RECORD,,
