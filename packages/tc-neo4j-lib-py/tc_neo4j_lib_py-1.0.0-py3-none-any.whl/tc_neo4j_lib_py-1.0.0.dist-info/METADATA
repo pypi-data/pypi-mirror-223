@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tc-neo4j-lib-py
+Version: 1.0.0
+Summary: A neo4j shared library to use across togethercrew python projects.
+Author: Mohammad Amin Dadgar, TogetherCrew
+Maintainer: Mohammad Amin Dadgar
+Maintainer-email: dadgaramin96@gmail.com
+Requires-Dist: numpy ==1.24.1
+Requires-Dist: pytest ==7.2.0
+Requires-Dist: pytest-cov ==4.0.0
+Requires-Dist: coverage ==7.2.5
+Requires-Dist: python-dotenv ==0.21.1
+Requires-Dist: neo4j ==5.8.0
+Requires-Dist: graphdatascience ==1.7
+
+# python-library
