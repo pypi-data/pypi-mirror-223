@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: UPnPMe
+Version: 0.1
+Summary: Simple UPnP port forwarding utility
+Author: Facundo García Payer
+Author-email: dev@garciapayer.com
+License-File: LICENSE

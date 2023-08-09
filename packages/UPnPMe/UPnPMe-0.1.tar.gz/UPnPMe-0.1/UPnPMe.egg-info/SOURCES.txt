@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+UPnPMe.egg-info/PKG-INFO
+UPnPMe.egg-info/SOURCES.txt
+UPnPMe.egg-info/dependency_links.txt
+UPnPMe.egg-info/top_level.txt
+upnpme/UPnPMe.py
+upnpme/__init__.py
