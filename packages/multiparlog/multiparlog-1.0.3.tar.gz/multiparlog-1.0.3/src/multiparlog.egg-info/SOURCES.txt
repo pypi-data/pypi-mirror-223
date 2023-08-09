@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/multiparlog/__init__.py
+src/multiparlog/mplogging.py
+src/multiparlog.egg-info/PKG-INFO
+src/multiparlog.egg-info/SOURCES.txt
+src/multiparlog.egg-info/dependency_links.txt
+src/multiparlog.egg-info/top_level.txt
