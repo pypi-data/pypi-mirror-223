@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+alissonSomav2/__init__.py
+alissonSomav2/somav2.py
+alissonSomav2.egg-info/PKG-INFO
+alissonSomav2.egg-info/SOURCES.txt
+alissonSomav2.egg-info/dependency_links.txt
+alissonSomav2.egg-info/top_level.txt
