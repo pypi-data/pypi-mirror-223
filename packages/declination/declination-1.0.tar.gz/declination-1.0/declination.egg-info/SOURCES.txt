@@ -1,0 +1,7 @@
+README.txt
+pyproject.toml
+setup.py
+declination.egg-info/PKG-INFO
+declination.egg-info/SOURCES.txt
+declination.egg-info/dependency_links.txt
+declination.egg-info/top_level.txt
