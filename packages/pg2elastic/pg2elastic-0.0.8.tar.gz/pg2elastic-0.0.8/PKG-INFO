@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: pg2elastic
+Version: 0.0.8
+Summary: Enhanced PostgreSQL to Elasticsearch Data Synchronization
+Home-page: https://github.com/robert-walters/pg2elastic
+Author: Dorin Musteata RW
+Author-email: dorin.musteata-contractor@robertwalters.com
+Maintainer: Dorin Musteata RW
+Maintainer-email: dorin.musteata-contractor@robertwalters.com
+License: LGPLv3
+Project-URL: Bug Reports, https://github.com/robert-walters/pg2elastic/issues
+Project-URL: Source, https://github.com/robert-walters/pg2elastic
+Keywords: pg2elastic,elasticsearch,postgres,change data capture
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ⚡ pg2elastic
+
+Enhanced PostgreSQL to Elasticsearch Data Synchronization
+
+### 📚 Description
+
+pg2elastic is fork of official [pgsync](https://pgsync.com/). Everything that pgsync got, pg2elastic got too.
+
+Welcome to pg2elastic, a fork of the official [pgsync](https://pgsync.com/) package, designed to provide seamless and
+efficient data synchronization between PostgreSQL databases and Elasticsearch clusters.
+Building upon the solid foundation of pgsync, pg2elastic inherits all of its powerful capabilities and takes them a step
+further.
+
+#### Key Features:
+
+* High-Performance Sync: pg2elastic inherits the robust data synchronization engine from pgsync, ensuring lightning-fast
+  and reliable transfers.
+* Real-time Indexing: Seamlessly mirror your PostgreSQL data into Elasticsearch indices, keeping them in sync in
+  real-time.
+* Schema Mapping: Easily define and customize the mapping of PostgreSQL schemas to Elasticsearch indexes, giving you
+  full control over the data structure.
+* Efficient Data Types Handling: pg2elastic effortlessly handles data type conversions, ensuring accurate representation
+  across platforms.
+* Continuous Enhancements: We are committed to actively maintaining and enhancing pg2elastic, incorporating the latest
+  advancements in both PostgreSQL and Elasticsearch technologies.
+* Whether you're working on a data-driven application or performing complex data analysis, pg2elastic empowers you with
+  a streamlined and feature-rich solution for harmonizing your PostgreSQL and Elasticsearch ecosystems.
+
+---
+
+### 🛠️ Prerequisites
+
+[PGSync Requirements](https://github.com/toluaina/pgsync#requirements)
+
+---
+
+### ✨ Key Enhancements
+
+* [Loguru, Better Logging Module](https://github.com/Delgan/loguru)
+* `PG_SCHEMA` environment variable to enhance performance by eliminating the need to scan all schemas
+
+---
+
+### 🚀 Deployment
+
+#### Manual Deployment
+
+You need to run `pg2elastic` command in order to initialize it.
+
+- Create a .env file using the `cp .env.sample .env` command and replace the existing environment variables with
+  personal configuration settings.
+
+- Download dependencies using `python setup.py develop`
+
+- Start the app in pre-production mode by using `pg2elastic` command for development
+
+If you do not run the full setup, you will get errors when running this package.
+
+---
+
+### ✅ Testing
+
+```bash
+$ export PG_SCHEMA=
+$ flake8 pg2elastic tests
+$ python setup.py test
+```
+
+---
+
+### 🔊 Logs
+
+This project comes with a [loguru](https://github.com/Delgan/loguru) module for logging, the configurations
+for loguru can be found in `pg2elastic` bin file.
+
+---
