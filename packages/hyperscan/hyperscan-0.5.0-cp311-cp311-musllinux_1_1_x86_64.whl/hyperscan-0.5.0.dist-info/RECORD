@@ -1,0 +1,12 @@
+hyperscan.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+hyperscan.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+hyperscan-0.5.0.dist-info/LICENSE,sha256=yvm4yRI_IxT-4iZOEl1Nx9I0Dm0JbAbmHt8OmKopiUA,1070
+hyperscan-0.5.0.dist-info/top_level.txt,sha256=EFT-s1u3nh5df-ZiHrMEExU5u3lLaPmEkoCnMX9RDV0,10
+hyperscan-0.5.0.dist-info/RECORD,,
+hyperscan-0.5.0.dist-info/METADATA,sha256=b5Hhj6Kmsx2QgXy3nQEQCq_YYMGa9nQnNrKuBk2_uB4,3560
+hyperscan-0.5.0.dist-info/WHEEL,sha256=fqx3XhdsLq6lhHBTIa8G3Z060EuDx3omm2Dvv4dnE2E,113
+hyperscan/_ext.pyi,sha256=KJNXRSOXCNAmYpr-CfSMEzdYqRI-YZ2vfK96CHfdVBE,10590
+hyperscan/_ext.cpython-311-x86_64-linux-musl.so,sha256=0Ox3T06HFa4e_KieL0qgggAstIwdmogHYn55dD5b2Wo,6652873
+hyperscan/_version.py,sha256=o_9FMpKXs1TaEQNOx-A4tDxKLoFOXZyS8RpLoa-PFCI,160
+hyperscan/hyperscanmodule.c,sha256=dgD2oDu4KgumzGrDsJazARPitMDBTGDvbPuqXxLhCes,46994
+hyperscan/__init__.py,sha256=7K6TqKtjZkzNQDRFYAq_zh4ZaOYfGMblDaeQcE1y7gk,370
