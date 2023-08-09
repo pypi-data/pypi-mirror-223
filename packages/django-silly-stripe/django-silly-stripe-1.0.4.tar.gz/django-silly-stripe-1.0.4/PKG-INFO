@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-silly-stripe
+Version: 1.0.4
+Summary: Wrapper package for python stripe with Django and/or DRF
+Home-page: https://github.com/byoso/django-silly-stripe
+Author: Vincent Fabre
+Author-email: peigne.plume@gmail.com
+License: MIT
+Keywords: django stripe
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# Django Silly Stripe
+
+DSS focuses only on making SAAS subscriptions as simple as possible.
+
+It is based on stripe's python API.
+
+
+
+### [Read the wiki to install and use DSS in your application](https://github.com/byoso/django-silly-stripe/wiki)
+
+
