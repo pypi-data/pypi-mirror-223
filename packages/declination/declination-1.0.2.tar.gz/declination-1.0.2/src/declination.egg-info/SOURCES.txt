@@ -1,0 +1,11 @@
+README.txt
+pyproject.toml
+setup.py
+src/declination/WMM.COF
+src/declination/__init__.py
+src/declination/geomag.py
+src/declination.egg-info/PKG-INFO
+src/declination.egg-info/SOURCES.txt
+src/declination.egg-info/dependency_links.txt
+src/declination.egg-info/top_level.txt
+tests/test_declination.py

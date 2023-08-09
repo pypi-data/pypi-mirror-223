@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: declination
+Version: 1.0.2
+Summary: Calculates declination given a latitude and longitude.
+Home-page: https://github.com/DigiWhale/declination
+Author: Andrew Humphrey
+Author-email: digiwhale.humphrey@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: GIS

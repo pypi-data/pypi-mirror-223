@@ -1,0 +1,1 @@
+from declination import geomag
