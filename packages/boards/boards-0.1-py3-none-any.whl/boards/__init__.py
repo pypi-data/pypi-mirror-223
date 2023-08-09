@@ -1,0 +1,1 @@
+from boards.main import run_app
