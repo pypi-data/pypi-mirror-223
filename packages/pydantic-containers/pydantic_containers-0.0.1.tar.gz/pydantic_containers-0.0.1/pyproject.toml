@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pydantic-containers"
+version = "0.0.1"
+description = "Serializable containers of pydantic models."
+authors = ["Aditya Gudimella <aditya.gudimella@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pydantic_containers"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
