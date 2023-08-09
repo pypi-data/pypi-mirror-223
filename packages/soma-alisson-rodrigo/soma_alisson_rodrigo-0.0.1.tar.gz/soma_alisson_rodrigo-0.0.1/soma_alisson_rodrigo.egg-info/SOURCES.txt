@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+soma_alisson_rodrigo.egg-info/PKG-INFO
+soma_alisson_rodrigo.egg-info/SOURCES.txt
+soma_alisson_rodrigo.egg-info/dependency_links.txt
+soma_alisson_rodrigo.egg-info/requires.txt
+soma_alisson_rodrigo.egg-info/top_level.txt
