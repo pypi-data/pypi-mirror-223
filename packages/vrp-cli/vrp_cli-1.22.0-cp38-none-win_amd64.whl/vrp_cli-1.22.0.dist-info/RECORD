@@ -1,0 +1,5 @@
+vrp_cli-1.22.0.dist-info/METADATA,sha256=WYH8791hOtcq2IH5fzlyUb9gobdGqmB8EPOhYh4fTvU,6059
+vrp_cli-1.22.0.dist-info/WHEEL,sha256=-A7cfgc7TaEA3jhC_L_wdZIEQySAd7WZzaWhLED_X9o,94
+vrp_cli/__init__.py,sha256=Z8dz7qSE_Ui3whk3hFiots6lbcobVs6gTz3y_Q5O2LY,111
+vrp_cli/vrp_cli.cp38-win_amd64.pyd,sha256=iNSs9QiLVQNTG0VkzaIYtZPpCoc_kbK2ejJqLLuzDTI,4741632
+vrp_cli-1.22.0.dist-info/RECORD,,
