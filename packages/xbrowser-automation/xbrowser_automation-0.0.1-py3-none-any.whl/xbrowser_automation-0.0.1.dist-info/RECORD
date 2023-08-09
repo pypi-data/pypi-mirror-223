@@ -1,0 +1,9 @@
+xbrowser_automation/__init__.py,sha256=uHUNotvaoPc_2kY27BmmAufRg0ugA3aJ6zCNPQ7fq70,1266
+xbrowser_automation/__main__.py,sha256=lb-DThgJIL2-asdx9RJkLvn_BkpQRkqmSDspWnQezu8,45
+xbrowser_automation/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xbrowser_automation/test/conftest.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+xbrowser_automation/test/test_app.py,sha256=Y6QdqC9NW3B-jZZse9SP2mG1cOt9tI1UgxdisrSzCvA,466
+xbrowser_automation-0.0.1.dist-info/METADATA,sha256=8eOhSzCxJYWdDqF06_pl-7yrvVFmYitM9YWiw-gBTa0,1932
+xbrowser_automation-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+xbrowser_automation-0.0.1.dist-info/entry_points.txt,sha256=DxLn596sLBZN0VcBxHEMEo_7gFxOydno1vuTnwrK5F0,65
+xbrowser_automation-0.0.1.dist-info/RECORD,,

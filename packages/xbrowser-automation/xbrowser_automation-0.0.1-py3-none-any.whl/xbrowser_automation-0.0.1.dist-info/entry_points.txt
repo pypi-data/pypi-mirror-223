@@ -1,0 +1,2 @@
+[console_scripts]
+xbrowser_automation = xbrowser_automation:main
