@@ -1,0 +1,67 @@
+
+# magnetocaloric 1.3.1
+#### Developed by Supratim Das
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?)
+
+Effective approach to determine magnetocaloric performance of any magnetic material using python programming. From isotherm M(H) curves, using the Maxwell Relation the magnetocaloric performance of a material can be calculated with the help of this module.
+
+## What's New
+- Relative cooling power (RCP) can be calculated.
+- A method to visualize 'Full Width Of Half Maxima' has been employed.
+- Another methods to illustrate Tricritical mean field model, 3D Heisenberg model and 3D Ising model have also been employed.
+- Intuitive Graphical User Interface: Simplifying Program Interaction. Experience seamless interaction with our TKinter-powered UI. Standalone Python executable created using PyInstaller - no additional dependencies required. 
+
+![](https://raw.githubusercontent.com/supratimdasinfo/magnetocaloric.mcepy/main/GUI.png?raw=True)
+
+For the Python programming approach, follow the steps in the README.
+
+
+## Examples of How To Use
+
+### 1. Installation 
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install magnetocaloric package.
+
+```bash
+
+ pip install magnetocaloric==1.3.1
+
+```
+### 2. Manage Excel Spreadsheet
+-  Check the main excel spreadsheet from where the M-H data will be fetched by the program, data must be arranged in this format given below. 
+
+![](https://raw.githubusercontent.com/supratimdasinfo/magnetocaloric.mcepy/main/Screenshot%20(229).png?raw=True)
+
+-  And add one extra magnetic field (Hmax + del_H) with null magnetic moment values. This is nothing else than to bring magnetic moment values of the last row under calculation.
+
+![](https://raw.githubusercontent.com/supratimdasinfo/magnetocaloric.mcepy/main/Screenshot%20(232).png?raw=True)
+
+- Create two new files (file extension xlsx) to hold the results obtained after the calculation and definitely make them closed, other wise XlsxWriter will not get access.
+
+###  3. Execution
+Run the code at any python based environment ( IDLE, PyCharm, Spyder etc.). But I recommend you simply execute this code using command prompt or IDLE. 
+
+```python
+
+from magnetocaloric import mcepy as mc
+
+# Assuming `a` and `b` are provided by the user
+mc.mce(a, b)
+
+
+```
+Here, 'a' is the total number of temperature and 'b' is the total number of applied magnetic field.
+
+## Contributing
+### We Welcome Your Contributions!
+
+If you're interested in contributing to the development of this project, your contributions are highly appreciated. Whether you find a bug, have an idea for a new feature, or want to improve the code, you can do so by raising an issue or pull request on our GitHub repository. Your input helps make this project better for everyone.
+
+Feel free to explore the code, try out the application, and share your thoughts with us. We value the contributions of our community members and look forward to collaborating with you. Let's make this project even more amazing together!
+
+### Contact Information: 
+
+If you have any questions or need assistance, you can reach out to me directly via email at supratim0707@gmail.com.
+
+
