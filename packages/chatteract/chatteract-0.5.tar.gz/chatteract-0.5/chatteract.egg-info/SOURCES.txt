@@ -1,0 +1,10 @@
+README.md
+setup.py
+chatteract/__init__.py
+chatteract/handle_openai_response_and_execute_functions.py
+chatteract/send_api_request.py
+chatteract.egg-info/PKG-INFO
+chatteract.egg-info/SOURCES.txt
+chatteract.egg-info/dependency_links.txt
+chatteract.egg-info/requires.txt
+chatteract.egg-info/top_level.txt
