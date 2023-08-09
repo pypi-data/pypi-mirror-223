@@ -1,0 +1,2 @@
+[console_scripts]
+unused_attributes = unused_attributes:main

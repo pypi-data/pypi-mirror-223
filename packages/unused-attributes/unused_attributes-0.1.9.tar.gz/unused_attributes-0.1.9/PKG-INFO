@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: unused_attributes
+Version: 0.1.9
+Summary: Find class unused attributes
+Author-email: xor2003 <xor2003@gmx.com>
+License: GPL
+Project-URL: Homepage, https://github.com/xor2003/unused_attributes
+Keywords: optimization,ununsed attributes,clean code
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Unused attributes
+
+This utility identifies attributes in Python objects that have been assigned a value but are never accessed or read.
+
+Use this utility with your main file as first argument:
+
+    unused_attributes.py <tartget_script.py>
+
+During runtime, it is recommended to thoroughly test your program, ensuring that all parts of the code are executed. 
+
+Upon program exit, the utility will print the results indicating the usage status of the attributes.
+
