@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: RepoDynamics
+Version: 0.0.0.dev1
+Requires-Python: >=3.9
+Provides-Extra: context
+Provides-Extra: meta-summary
+Provides-Extra: meta
