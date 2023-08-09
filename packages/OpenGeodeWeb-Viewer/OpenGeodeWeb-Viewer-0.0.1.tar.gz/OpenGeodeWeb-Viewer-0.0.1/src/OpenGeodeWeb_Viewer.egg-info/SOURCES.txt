@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/OpenGeodeWeb_Viewer.egg-info/PKG-INFO
+src/OpenGeodeWeb_Viewer.egg-info/SOURCES.txt
+src/OpenGeodeWeb_Viewer.egg-info/dependency_links.txt
+src/OpenGeodeWeb_Viewer.egg-info/requires.txt
+src/OpenGeodeWeb_Viewer.egg-info/top_level.txt
