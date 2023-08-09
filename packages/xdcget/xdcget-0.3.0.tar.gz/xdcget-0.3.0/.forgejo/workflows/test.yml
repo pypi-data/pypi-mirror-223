@@ -1,0 +1,17 @@
+on: [push]
+
+env:
+  XDCGET_GITHUB_USER: ${{secrets.XDC_GITHUB_USER}}
+  XDCGET_GITHUB_TOKEN: ${{secrets.XDC_GITHUB_TOKEN}}
+  XDCGET_CODEBERG_USER: ${{secrets.XDC_CODEBERG_USER}}
+  XDCGET_CODEBERG_TOKEN: ${{secrets.XDC_CODEBERG_TOKEN}}
+
+jobs:
+  test:
+    runs-on: docker
+    steps:
+      - uses: https://code.forgejo.org/actions/checkout@v3
+      - run: apt update
+      - run: apt install -y python3 python3-pip tox
+      - run: tox -e lint
+      - run: tox -- --online

@@ -1,0 +1,279 @@
+[deltazen-color-lines]
+app_id = "deltazen-color-lines"
+name = "Color Lines"
+tag_name = "v2.0.0"
+url = "https://github.com/DeltaZen/webxdc-color-lines/releases/download/v2.0.0/package.xdc"
+date = "2023-07-09T17:57:23Z"
+cache_relname = "deltazen-color-lines-v2.0.0.xdc"
+description = "Color Lines clone\nClone of the Color Lines (a.k.a. WinLines or WinLinez) game.\nYou can compete with other chat members for the top of the scoreboard!"
+source_code_url = "https://github.com/DeltaZen/webxdc-color-lines"
+
+[deltazen-crappybird]
+app_id = "deltazen-crappybird"
+name = "CrappyBird"
+tag_name = "v1.2.0"
+url = "https://github.com/DeltaZen/CrappyBird.xdc/releases/download/v1.2.0/app.xdc"
+date = "2023-07-18T18:11:39Z"
+cache_relname = "deltazen-crappybird-v1.2.0.xdc"
+description = "Flappy Bird clone\nHelp a little bird to fly avoiding the pipes"
+source_code_url = "https://github.com/DeltaZen/CrappyBird.xdc"
+
+[deltazen-rainbow]
+app_id = "deltazen-rainbow"
+name = "Rainbow"
+tag_name = "v1.1.0"
+url = "https://github.com/DeltaZen/rainbow.xdc/releases/download/v1.1.0/app.xdc"
+date = "2023-07-18T18:12:42Z"
+cache_relname = "deltazen-rainbow-v1.1.0.xdc"
+description = "Color Picker Game\nTest your brain abilities to think fast and select the correct color\nand compete with others for the top of the scoreboard"
+source_code_url = "https://github.com/DeltaZen/rainbow.xdc"
+
+[deltazen-reactle]
+app_id = "deltazen-reactle"
+name = "Reactle"
+tag_name = "v1.0.0"
+url = "https://github.com/DeltaZen/reactle/releases/download/v1.0.0/reactle.xdc"
+date = "2023-07-10T20:44:48Z"
+cache_relname = "deltazen-reactle-v1.0.0.xdc"
+description = "Popular Wordle game (English)\nA port of the popular Wordle game. You have six attempts\nto guess a five letter word which changes daily"
+source_code_url = "https://github.com/DeltaZen/reactle"
+
+[deltazen-stolen-sword]
+app_id = "deltazen-stolen-sword"
+name = "Stolen Sword"
+tag_name = "v1.1.0"
+url = "https://github.com/DeltaZen/stolen-sword.xdc/releases/download/v1.1.0/stolen-sword.xdc"
+date = "2023-07-18T18:13:21Z"
+cache_relname = "deltazen-stolen-sword-v1.1.0.xdc"
+description = "One finger platform game\nA sword used to suppress the evil force was stolen, releasing a lot of demons. Find the theft and beat the demons!\nDrag to aim and release to jump and slash through enemies"
+source_code_url = "https://github.com/DeltaZen/stolen-sword.xdc"
+
+[deltazen-tetris]
+app_id = "deltazen-tetris"
+name = "Tetris"
+tag_name = "v1.0.0"
+url = "https://github.com/DeltaZen/tetris.xdc/releases/download/v1.0.0/app.xdc"
+date = "2022-06-29T22:56:47Z"
+cache_relname = "deltazen-tetris-v1.0.0.xdc"
+description = "Tetris clone\nClone of the classic Tetris game.\nFill horizontal lines to make them disappear and increase your score.\nYou can compete with other chat members for the top of the scoreboard!"
+source_code_url = "https://github.com/DeltaZen/tetris.xdc"
+
+[deltazen-triska]
+app_id = "deltazen-triska"
+name = "Triska Reloaded"
+tag_name = "v2.0.0"
+url = "https://github.com/DeltaZen/Triska/releases/download/v2.0.0/Triska.xdc"
+date = "2023-07-21T18:57:07Z"
+cache_relname = "deltazen-triska-v2.0.0.xdc"
+description = "One finger concentrated fun\nHelp Unlucky, the ninja cat, to climb as high as possible.\nJump by tapping the phone screen or use the spacebar on desktop.\nCompete with others for the top of the scoreboard!"
+source_code_url = "https://github.com/DeltaZen/Triska"
+
+[deltazen-webxdc-bejeweled]
+app_id = "deltazen-webxdc-bejeweled"
+name = "Dejeweled"
+tag_name = "v1.2.1"
+url = "https://github.com/DeltaZen/webxdc-bejeweled/releases/download/v1.2.1/package.xdc"
+date = "2023-07-12T19:07:58Z"
+cache_relname = "deltazen-webxdc-bejeweled-v1.2.1.xdc"
+description = "Match 3 or more gems\nInspired by the classic Bejeweled game.\nYou can compete with other chat members for the top of the scoreboard!"
+source_code_url = "https://github.com/DeltaZen/webxdc-bejeweled"
+
+[deltazen-webxdc-c4]
+app_id = "deltazen-webxdc-c4"
+name = "DeltaConnect"
+tag_name = "v1.0.0"
+url = "https://github.com/DeltaZen/webxdc-c4/releases/download/v1.0.0/package.xdc"
+date = "2022-08-09T07:26:59Z"
+cache_relname = "deltazen-webxdc-c4-v1.0.0.xdc"
+description = "Connect 4 board game\nA clone of the classic Connect Four board game.\nA two players board game, the game can be observed by all chat members"
+source_code_url = "https://github.com/DeltaZen/webxdc-c4"
+
+[deltazen-webxdc-snake]
+app_id = "deltazen-webxdc-snake"
+name = "Snake"
+tag_name = "v1.0.1"
+url = "https://github.com/DeltaZen/webxdc-snake/releases/download/v1.0.1/app.xdc"
+date = "2023-07-12T19:06:22Z"
+cache_relname = "deltazen-webxdc-snake-v1.0.1.xdc"
+description = "Snake clone\nHelp the snake eat and grow, but be careful not to bite yourself!"
+source_code_url = "https://github.com/DeltaZen/webxdc-snake"
+
+[deltazen-webxdc-sudoku]
+app_id = "deltazen-webxdc-sudoku"
+name = "Sudoku"
+tag_name = "v1.0.0"
+url = "https://github.com/DeltaZen/webxdc-sudoku/releases/download/v1.0.0/package.xdc"
+date = "2022-06-25T19:42:24Z"
+cache_relname = "deltazen-webxdc-sudoku-v1.0.0.xdc"
+description = "Classic Sudoku puzzle\nSolve countless number of Sudoku puzzles and compete\nwith other chat members for the top of the scoreboard"
+source_code_url = "https://github.com/DeltaZen/webxdc-sudoku"
+
+[webratte-shared-memo]
+app_id = "webratte-shared-memo"
+name = "Shared Memo"
+tag_name = "v.1.4.1"
+url = "https://github.com/webratte/Shared-Memo/releases/download/v.1.4.1/Memo.xdc"
+date = "2023-07-11T17:10:55Z"
+cache_relname = "webratte-shared-memo-v.1.4.1.xdc"
+description = "Collaborative memo\nEdit a memo collaboratively with other chat members"
+source_code_url = "https://github.com/webratte/Shared-Memo"
+
+[webxdc-2048]
+app_id = "webxdc-2048"
+name = "2048"
+tag_name = "v2.2.0"
+url = "https://github.com/webxdc/2048/releases/download/v2.2.0/2048.xdc"
+date = "2023-07-19T22:04:51Z"
+cache_relname = "webxdc-2048-v2.2.0.xdc"
+description = "Join numbers to a 2048 tile\nThe classic 2048 puzzle game.\nMove tiles with the same number together and get a 2048 tile to win.\nHigh scores are shared with the chat members"
+source_code_url = "https://github.com/webxdc/2048"
+
+[webxdc-calendar]
+app_id = "webxdc-calendar"
+name = "Calendar"
+tag_name = "v1.0.1"
+url = "https://codeberg.org/attachments/7b3afeec-a9ba-4b91-a5ad-bbb4dc17d2b7"
+date = "2023-07-05T20:27:45Z"
+cache_relname = "webxdc-calendar-v1.0.1.xdc"
+description = "Mobile-friendly calendar app\nManage events collaboratively with other chat members.\nYou can import/export events or invites"
+source_code_url = "https://codeberg.org/webxdc/calendar"
+
+[webxdc-checklist]
+app_id = "webxdc-checklist"
+name = "Checklist"
+tag_name = "v0.0.2"
+url = "https://codeberg.org/attachments/65d05b8d-a97c-4fb6-a534-e308c382f874"
+date = "2023-07-07T18:05:19Z"
+cache_relname = "webxdc-checklist-v0.0.2.xdc"
+description = "Create & track items jointly\nAnyone may create named checklist items and mark them as resolved.\nGreat for planning a trip, party or shopping"
+source_code_url = "https://codeberg.org/webxdc/checklist"
+
+[webxdc-chessboard]
+app_id = "webxdc-chessboard"
+name = "ChessBoard"
+tag_name = "v2.0.0"
+url = "https://github.com/webxdc/ChessBoard/releases/download/v2.0.0/ChessBoard.xdc"
+date = "2023-07-09T12:49:59Z"
+cache_relname = "webxdc-chessboard-v2.0.0.xdc"
+description = "Classic chess game\nClassic chess board game for two players and many observers"
+source_code_url = "https://github.com/webxdc/ChessBoard"
+
+[webxdc-corkboard]
+app_id = "webxdc-corkboard"
+name = "Corkboard"
+tag_name = "v0.0.2"
+url = "https://codeberg.org/attachments/d8e372d5-9ff7-4dd4-b965-d7ddb25910bc"
+date = "2023-07-07T18:10:38Z"
+cache_relname = "webxdc-corkboard-v0.0.2.xdc"
+description = "Corkboard app (Demo)\nThis is a working example app to create per-participant\nlists of items which can be updated and deleted from\nthe respective creator"
+source_code_url = "https://codeberg.org/webxdc/corkboard"
+
+[webxdc-draw]
+app_id = "webxdc-draw"
+name = "Draw"
+tag_name = "v3.3.0"
+url = "https://github.com/webxdc/draw/releases/download/v3.3.0/draw.xdc"
+date = "2023-07-05T20:54:52Z"
+cache_relname = "webxdc-draw-v3.3.0.xdc"
+description = "Simple drawing board\nA little drawing board, create draws and share them with friends,\n🎨🖌️unlock your creativity!"
+source_code_url = "https://github.com/webxdc/draw"
+
+[webxdc-editor]
+app_id = "webxdc-editor"
+name = "Editor"
+tag_name = "v2.4.0"
+url = "https://codeberg.org/attachments/fc25f169-713a-4d74-9525-271512a317f1"
+date = "2023-07-31T07:12:27Z"
+cache_relname = "webxdc-editor-v2.4.0.xdc"
+description = "WYSIWYG editor (preview)\nAn collaborative editor which uses an explicit \"save\" button\nto update a text document shared between chat members"
+source_code_url = "https://codeberg.org/webxdc/editor"
+
+[webxdc-hextris]
+app_id = "webxdc-hextris"
+name = "Hextris"
+tag_name = "1.3.0"
+url = "https://github.com/webxdc/hextris/releases/download/1.3.0/hextris.xdc"
+date = "2023-07-05T20:49:26Z"
+cache_relname = "webxdc-hextris-1.3.0.xdc"
+description = "Tetris with a twist\nFast paced puzzle game inspired by Tetris"
+source_code_url = "https://github.com/webxdc/hextris"
+
+[webxdc-othello]
+app_id = "webxdc-othello"
+name = "Othello"
+tag_name = "v1.3.0"
+url = "https://github.com/webxdc/Othello/releases/download/v1.3.0/Othello.xdc"
+date = "2023-07-09T13:20:50Z"
+cache_relname = "webxdc-othello-v1.3.0.xdc"
+description = "Othello board game\nA clone of the classic Othello/Reversi board game for two players and many observers"
+source_code_url = "https://github.com/webxdc/Othello"
+
+[webxdc-packabunchas]
+app_id = "webxdc-packabunchas"
+name = "Packabunchas"
+tag_name = "v0.0.7"
+url = "https://codeberg.org/attachments/15d46493-9372-4b48-a760-273602d2bf94"
+date = "2023-07-22T17:09:49Z"
+cache_relname = "webxdc-packabunchas-v0.0.7.xdc"
+description = "Lovely puzzle game\nJoin the PACKABUNCHAS, a group of space rangers specialized in packing\nand rescuing creatures around the galaxy!\nSolve tons of Ubongo- or Pentomino-like puzzles, in five different game modes.\nYou do not compete with other chat members but work together with them 🚀"
+source_code_url = "https://codeberg.org/webxdc/packabunchas"
+
+[webxdc-poll]
+app_id = "webxdc-poll"
+name = "Poll"
+tag_name = "v1.0.1"
+url = "https://codeberg.org/attachments/d53543bd-d805-4aba-926d-88eefc7a9eef"
+date = "2023-07-05T20:30:48Z"
+cache_relname = "webxdc-poll-v1.0.1.xdc"
+description = "Simple poll app\nOne question, up to 5 pre-defined answers for people to vote on.\nNote that votes are not secret, some chat member could inspect the emails and figure out your vote"
+source_code_url = "https://codeberg.org/webxdc/poll"
+
+[webxdc-stackup]
+app_id = "webxdc-stackup"
+name = "StackUp!"
+tag_name = "v1.2.1"
+url = "https://github.com/webxdc/StackUp/releases/download/v1.2.1/StackUp.xdc"
+date = "2023-07-11T16:35:44Z"
+cache_relname = "webxdc-stackup-v1.2.1.xdc"
+description = "Stack your way up\nTry to place the blocks on top of each other as precisely as possible to build the highest tower!"
+source_code_url = "https://github.com/webxdc/StackUp"
+
+[webxdc-test]
+app_id = "webxdc-test"
+name = "Test Webxdc"
+tag_name = "1.0.1"
+url = "https://github.com/webxdc/webxdc-test/releases/download/1.0.1/webxdc-test.xdc"
+date = "2023-07-17T16:17:32Z"
+cache_relname = "webxdc-test-1.0.1.xdc"
+description = "Webxdc test tool\nDeveloper tool. Run this tool to understand which HTML/JS features are available\nfor developing webxdc apps"
+source_code_url = "https://github.com/webxdc/webxdc-test"
+
+[webxdc-tictactoe]
+app_id = "webxdc-tictactoe"
+name = "Tic Tac Toe"
+tag_name = "v2.2.0"
+url = "https://github.com/webxdc/tictactoe/releases/download/v2.2.0/tictactoe.xdc"
+date = "2023-07-09T13:17:08Z"
+cache_relname = "webxdc-tictactoe-v2.2.0.xdc"
+description = "Tic Tac Toe tournament\nPlay the classic Tic Tac Toe game against other players and also watch their matches"
+source_code_url = "https://github.com/webxdc/tictactoe"
+
+[webxdc-timetracking]
+app_id = "webxdc-timetracking"
+name = "TimeTracking"
+tag_name = "v0.3.0"
+url = "https://github.com/webxdc/timetracking-webxdc/releases/download/v0.3.0/timetracking-webxdc_0.3.0.xdc"
+date = "2023-07-22T15:38:40Z"
+cache_relname = "webxdc-timetracking-v0.3.0.xdc"
+description = "Time tracker\nTrack and analyze your project-/work-times easily across multiple devices, become productive 🎯"
+source_code_url = "https://github.com/webxdc/timetracking-webxdc"
+
+[webxdc-tower-builder]
+app_id = "webxdc-tower-builder"
+name = "Tower Builder"
+tag_name = "1.1.0"
+url = "https://github.com/webxdc/tower-builder/releases/download/1.1.0/tower-builder.xdc"
+date = "2023-07-05T20:35:49Z"
+cache_relname = "webxdc-tower-builder-1.1.0.xdc"
+description = "Tower building game\nA little tower building game, you can compete with friends 💒🏢🏬🏦🏯🏰"
+source_code_url = "https://github.com/webxdc/tower-builder"

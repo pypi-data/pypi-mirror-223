@@ -1,0 +1,95 @@
+
+# xdcget: a command line tool to collect webxdc apps from git repositories 
+
+The main purpose for this tool is to maintain a cache of released webxdc apps
+and to export release files so they can be imported from the 
+[xdcstore bot](https://github.com/webxdc/store)
+which in turn can be contacted by Delta Chat users 
+in order to be able to search and share webxdc apps in chats. 
+
+## Getting started  
+
+1. Install `xdcget` command line tool from a local checkout:
+
+        pip install -e . 
+
+2. Initialize config files: 
+
+        xdcget init 
+
+3. Edit `xdcget.ini` and make sure that you set environment variables 
+   containing your credentials for Codeberg/Github API usage. 
+   See below for how to get API credentials. 
+
+4. Run the `update` command to retrieve newest webxdc app releases 
+   for repositories listed in `xdcget.ini` and export them to the `export` directory: 
+
+        xdcget update 
+
+
+## Getting a Codeberg API access token 
+
+Login with Codeberg and open https://codeberg.org/user/settings/applications 
+to generate a new token.  This token does not need any special "scopes"
+it's only used for querying releases of public repositories.
+You can copy the resulting API token into your clipboard
+and then set it into the environment variables you declared in the config file:
+
+    # bash example
+    export XDCGET_CODEBERG_USER=<your-codeberg-user-name>
+    export XDCGET_CODEBERG_TOKEN=<paste-your-codeberg-access-token-here>
+
+## Getting a Github API access token 
+
+Login with github and open https://github.com/settings/tokens
+to generate a new token.  This token does not need any access
+to your private repos -- it's only used for querying releases 
+of public repositories.  You may give it 90 days or other expiration
+times as you feel fine with. 
+You can copy the resulting API token into your clipboard
+and then set it into the environment variables you declared in the config file:
+
+    # bash example
+    export XDCGET_GITHUB_USER=<your-github-user-name>
+    export XDCGET_GITHUB_TOKEN=<paste-your-github-access-token-here>
+
+## Contributing
+
+Install tox:
+
+```
+pip install tox
+```
+
+We use [black](https://github.com/psf/black) to format the code and [ruff](https://beta.ruff.rs/docs) as linter. After modifying the code, run:
+
+```
+tox -e lint
+```
+
+Run automated tests with:
+
+```
+tox
+```
+
+**IMPORTANT:** Pull Requests with new features / bug fixes should come with automated tests.
+
+### Building and publishing xdcget releases
+
+Quick notes on requirements for testing and releasing: 
+
+- `pip install tox build twine` to install development dependencies
+
+- `tox` to run tests
+
+- `python -m build` to build the distribution files
+
+- [create API-tokens on PyPI](https://pypi.org/manage/account/)
+  to be able to upload to PyPI repositories. 
+
+- Use git to tag a release before uploading (e.g. "git tag" and "git push --tags") 
+  The version of xdcget (also obtained via `xdcget --version`) is dynamically 
+  computed using [setuptools-scm](https://pypi.org/project/setuptools-scm/)
+
+- `twine upload dist/*` to upload all built distribution files 
