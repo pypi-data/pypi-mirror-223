@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+manyworlds/__init__.py
+manyworlds/__main__.py
+manyworlds/scenario.py
+manyworlds/scenario_forest.py
+manyworlds/step.py
+manyworlds.egg-info/PKG-INFO
+manyworlds.egg-info/SOURCES.txt
+manyworlds.egg-info/dependency_links.txt
+manyworlds.egg-info/entry_points.txt
+manyworlds.egg-info/top_level.txt
+test/__init__.py
+test/test_cli.py
+test/test_scenario_forest.py

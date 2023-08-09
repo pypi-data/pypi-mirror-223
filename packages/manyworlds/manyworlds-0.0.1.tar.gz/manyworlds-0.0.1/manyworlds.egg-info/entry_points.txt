@@ -1,0 +1,2 @@
+[console_scripts]
+Package = manyworlds.__main__:main
