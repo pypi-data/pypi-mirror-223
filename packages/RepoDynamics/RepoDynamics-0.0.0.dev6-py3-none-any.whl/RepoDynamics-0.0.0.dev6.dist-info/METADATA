@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: RepoDynamics
+Version: 0.0.0.dev6
+Requires-Python: >=3.9
+Provides-Extra: context
+Requires-Dist: markitup ; extra == 'context'
+Provides-Extra: meta
+Requires-Dist: markitup ; extra == 'meta'
+Requires-Dist: pylinks ; extra == 'meta'
+Requires-Dist: trove-classifiers ; extra == 'meta'
+Requires-Dist: ruamel.yaml <0.18,>=0.17.32 ; extra == 'meta'
+Provides-Extra: meta-summary
+Requires-Dist: markitup ; extra == 'meta-summary'
+
