@@ -1,0 +1,12 @@
+pypkgconf-0.1.1.dist-info/METADATA,sha256=LUGRUvP7Iulr0na4drDJanyg4Xen0ycA_5Q4rtAiwPQ,15233
+pypkgconf-0.1.1.dist-info/WHEEL,sha256=JdLTWhc73oJ-lqTBYGgiVontr_vhzwzbpAOin_2bxTI,85
+pypkgconf-0.1.1.dist-info/LICENSE.txt,sha256=xi_2CdtEPwOf8IOzWDbq2eCxwrkafjVJ0HrY4a0RlJ4,11549
+pypkgconf/_libpkgconf.cp311-win_amd64.pyd,sha256=GYEeZM4ljNMu8tbKqdNENkYpd0YfJXjBkLQsJi6lfow,147456
+pypkgconf/__init__.py,sha256=UhQXmngvbcWHRlbMIangCR45vsx3bKtOX4A3jRLZ-NM,181
+pypkgconf/callbacks.py,sha256=7SC_xslN8BOlps0k0NwHb72rtv1Q8vwobG5ZZUm96FI,3041
+pypkgconf/clilike.py,sha256=ingPcx_czh87nFeu9-F03fW0_ce5C_3P_wrQ6Wna3bk,29793
+pypkgconf/constants.py,sha256=p6eux0rPtFxUJ5mIvwVIf_8MrlAxGKdO2H14dRq0Jo8,1514
+pypkgconf/logger.py,sha256=C8WngUdDL2hMDfKRpaENEc9X5QlrSPNoFm6Dy0GIUX4,515
+pypkgconf/util.py,sha256=Dci3IocSPUkD0jTkIxPPttCwPlY4ztvN45-9NV8KdM4,450
+pypkgconf-0.1.1.data/scripts/pkgconf.exe,sha256=G1dp-6XrjvcQs4wbKD7hhx-EnR-Eaqn6JbZXj9-ej-U,87552
+pypkgconf-0.1.1.dist-info/RECORD,,
