@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: helloworldmarcjourne
+Version: 0.0.1
+Summary: Hello World
+Author: Marc Journe
+Author-email: marc.journe@vinci-construction.fr
+Requires-Python: >= 3.11
+Requires-Dist: matplotlib
+

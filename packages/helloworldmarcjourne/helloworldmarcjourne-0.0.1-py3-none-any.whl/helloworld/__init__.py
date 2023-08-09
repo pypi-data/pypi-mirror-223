@@ -1,0 +1,1 @@
+print('Vous avez importé le module \"hello world\"')
