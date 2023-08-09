@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+practice_japanese/__init__.py
+practice_japanese/character_statistics.py
+practice_japanese/command_line.py
+practice_japanese/version.py
+practice_japanese.egg-info/PKG-INFO
+practice_japanese.egg-info/SOURCES.txt
+practice_japanese.egg-info/dependency_links.txt
+practice_japanese.egg-info/entry_points.txt
+practice_japanese.egg-info/top_level.txt
+practice_japanese/character_sets/__init__.py
+practice_japanese/character_sets/hiragana.py
