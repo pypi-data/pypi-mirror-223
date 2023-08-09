@@ -1,0 +1,6 @@
+bcp47
+jsonasobj
+pyjsg>=0.11.6
+rdflib-shim
+rdflib<8,>=6.2.0
+rfc3987
