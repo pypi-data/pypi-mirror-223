@@ -1,0 +1,11 @@
+plate_model_manager/__init__.py,sha256=N7MjcomOsz8ZTZ30ErHdum6iCmuqPO6-hGMxpOeFDYg,121
+plate_model_manager/__main__.py,sha256=S-KY4vS2gp5p7DPJOe25-_RNvOAvQ3T-9ZSO5h1RQ_U,906
+plate_model_manager/network_aiohttp.py,sha256=AO5EZ23oxAy4OwTlS0ZKfTjRHk06ZYaEHXh6uzclpV0,9554
+plate_model_manager/network_requests.py,sha256=jfod4qcYdPyJVuiVz50l7oB2Gcq1S9WE6rl4YEr2c0c,8977
+plate_model_manager/plate_model.py,sha256=2rOAKRFRifkFvCUkM0oZlDldZHmBmBugEOW-AcKzBlc,13187
+plate_model_manager-1.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+plate_model_manager-1.0.1.dist-info/METADATA,sha256=qUx9EtNVXQd8GwWDEP3ewY3T9uDDeXSQ5htsEuz9EfU,21804
+plate_model_manager-1.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+plate_model_manager-1.0.1.dist-info/entry_points.txt,sha256=yrKw38heKiCt2jyhVypRL5cm722WW08eUGCnxlVVXw0,72
+plate_model_manager-1.0.1.dist-info/top_level.txt,sha256=r_9-qlUEIoroU87R5PaJ83Ug8E8DTsv5dotImUCwtHE,20
+plate_model_manager-1.0.1.dist-info/RECORD,,
