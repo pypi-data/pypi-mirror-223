@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: artile
+Version: 0.1.0
+Summary: Tiling and Re-Tiling large and complex images
+License: MIT
+Author: bjornaer
+Author-email: max.schulkin@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# artile
+tiling and re-tiling library for image processing and transformation
+
