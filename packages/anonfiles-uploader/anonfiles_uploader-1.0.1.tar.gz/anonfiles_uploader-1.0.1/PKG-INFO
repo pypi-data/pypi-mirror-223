@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: anonfiles_uploader
+Version: 1.0.1
+Summary: Easily upload files to anonfiles.
+Home-page: https://github.com/Ruu3f/anonfiles_uploader
+Author: Ruu3f
+License: CC0-1.0
+Project-URL: Source, https://github.com/Ruu3f/anonfiles_uploader
+Keywords: anonfiles,file-host,api-wrapper,file-hosting,file-uploader
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![PyPI](https://img.shields.io/pypi/v/anonfiles_uploader)](https://pypi.org/project/anonfiles_uploader)
+[![Downloads](https://static.pepy.tech/badge/anonfiles_uploader)](https://pypi.org/project/anonfiles_uploader)
+[![Status](https://img.shields.io/pypi/status/anonfiles_uploader)](https://pypi.org/project/anonfiles_uploader)
+
+# anonfiles_uploader
+Easily upload files to anonfiles.
+
+## Get started:
+
+```
+python -m pip install -U anonfiles_uploader
+```
+
+## Example:
+
+```python
+from anonfiles_uploader import upload 
+from asyncio import run
+
+files = ["file1.txt", "file2.txt"]
+try:
+    URLs = run(upload(files))
+    for URL in URLs:
+        print(URL)
+except Exception as e:
+    print(e)
+```
