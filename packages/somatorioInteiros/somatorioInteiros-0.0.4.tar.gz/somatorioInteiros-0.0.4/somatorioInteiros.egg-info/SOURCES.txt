@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+somatorioInteiros.egg-info/PKG-INFO
+somatorioInteiros.egg-info/SOURCES.txt
+somatorioInteiros.egg-info/dependency_links.txt
+somatorioInteiros.egg-info/top_level.txt
+src/__init__.py
+src/somatorio.py
