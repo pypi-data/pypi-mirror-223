@@ -1,0 +1,214 @@
+CHANGES
+=======
+
+v0.2.3
+------
+
+* remaining namespace pollution issue, fixes #34. Added tests for 34
+
+v0.2.2
+------
+
+* Only use rdflib core namespace (non-polluting)
+
+v0.2.1
+------
+
+* allow rdflib v7
+
+v0.2.0
+------
+
+* be resilient against namespace pollution
+* omit rdflib7 for now
+* fixed conditional test skipping
+* rdflib7 compatibility
+* regenerated
+
+v0.1.14
+-------
+
+* allow v7
+* Relax rdflib dependency
+
+v0.1.13
+-------
+
+* Disable CLI file change tests because of bnode and/or random output order
+* Trying to correct for Multiple top-level packages issue
+* Removed packaging import.  Not needed
+* Documentation and official CLI added.  Should be good to go
+* Unit tests complete
+* Add the ability to suppress the axiom progress indicator
+* Add examples of how to convert using python
+* Remove Pipfile.lock from distro
+* Disable update-requriements step
+* Disable update-requriements step
+* Attempt to fix pipenv-to-requirements failure
+* Passes both rdflib 5.0.0 and 6.2.0
+* minor formatting in README
+* Checkpoint to clean up the main branch
+* Demonstration of some of the issues we face in rdflib 6.2
+* All v6 tests work as intended
+* Added further tests of multiple namespaces in turtle
+* Add \_subjects to FunOwlBase to handle linting issue
+* Formatting repair
+* Add a definitive set of tests expected rdflib behavior
+* Automatically generated requirements and Pipfile.lock
+* Add unit test for issue #45
+* Automatically generated requirements and Pipfile.lock
+
+v0.1.12
+-------
+
+* Automatically generated requirements and Pipfile.lock
+* Automatically generated requirements and Pipfile.lock
+* Automatically generated requirements and Pipfile.lock
+* Bypass any unit tests that fail due to the rdflib 6.1.1 mega-bindings
+* Bypass any unit tests that fail due to the rdflib 6.1.1 mega-bindings
+* Automatically generated requirements and Pipfile.lock
+* Minor tweak to make versioning compatible back to 3.7.9
+* Automatically generated requirements and Pipfile.lock
+* Try testing ANY push vs. just main
+* Omit single quotes from prefix parse as well just to be sure
+* Resolve issue #39
+
+v0.1.11
+-------
+
+* Resolve issue #33
+* Fix issue #33
+* Automatically generated requirements and Pipfile.lock
+* rdflibshim. fixes #30
+* Testing issue #24.  Issue appears to have been fixed
+
+v0.1.10
+-------
+
+* Add skip option to tests
+* Fix issue w/ empty ("") literals
+* Fix issue where literals were being parsed as URI's
+* Checking that issue #26 got fixed in the process.  It did
+* Automatically generated requirements and Pipfile.lock
+* Fixed parsing error where parens had priority over quotes
+
+v0.1.9
+------
+
+* Changed the Ontology.imports signature to allow an OntologyDocument. Changed Prefix to accept strings
+* Enable SNOMED test by adding \_\_init\_\_.py to directory
+* Fix (strangely) undetected typo dataproperty\_axioms
+
+v0.1.8
+------
+
+* Finalize test
+* Added emit\_functional\_definition to to\_rdf function
+
+v0.1.7
+------
+
+* Switch to https for the owl converter
+* Force python 3.8 and above and lock to rdflib 5.0
+* Automatically generated requirements and Pipfile.lock
+* Update README.md
+* Bump urllib3 from 1.26.4 to 1.26.5
+* Update dependency on urllib3
+
+v0.1.6
+------
+
+* Automatically generated requirements and Pipfile.lock
+* Fix issue #14
+* Update setup.cfg
+
+v0.1.5
+------
+
+* Remove 3.7 unit tests
+* Automatically generated requirements and Pipfile.lock
+* Add github actions for unit test and update
+* Update test cases to reflect rdflib 5.0 differences
+* Fix issue 12
+* bit 'o cleanup'
+* Major checkpoint -- refactored typing system
+* Milestone -- passes all unit tests
+* 12 failures, 7 skips out of 482 tests
+* 38 failures and 7 skips out of 446 total tests
+* Checkpoint
+* Checkpoin t
+* Update test harness to use the relative file names
+* Revisit the test generation strategy
+* Passes 411 out of 478 Tests
+* Passing 315 out of 481 tests
+* Test suite error
+* Test suite error
+* Fixed Test suite error
+* Fix Test Suite Error
+* Adding XML representations as a double check
+* Checkpoint on test suite
+* Test case error
+* Test Case Error
+* Test case error
+* Further RDF progress
+* Implement DataMinCardinality, DataPropertyRange, DataOneOf
+* Ad-hoc fix for owl:Thing a owl:Class declaration
+* Add DataSomeValuesFrom
+* Add Bnode2somevaluesfrom to list of contested unit tests
+* Tweaks to DataAllValuesFrom
+* Implemented to\_rdf for DisjointClasses, DataAllValuesFrom and DisjointDataProperties
+* Added \_\_str\_\_ method to ontology document to simplify serialization
+* Release version 0.1.4
+* Add version badges
+* Don't emit a DataType declaration for literal data types
+* Several fixes on literal representation
+* Update dependencies
+* More work on singleton property
+* Fix issue in SubObjectPropertyOf RDF emission
+* Fix issues where BNode parsing stopped working
+* Implemented to\_rdf for SubObjectPropertyOf, ObjectPropertyDomain, FunctionalObjectProperty and InverseFunctionalObjectProperty
+* Add a Pizza Ontology example to the basics notebook
+* Add functional image of the pizza ontology for testing purposes
+* Set theme jekyll-theme-minimal
+* Creating documentation directory
+* Added RDF for ObjectPropertyChain
+* Using mmem for file load
+* Some attempts at performance improvement
+* Add OwlDocument back into the picture
+* Make the to\_rdf more efficient in EquivalentClasses
+* Implementation of to\_rdf in ObjectHasSelf, ObjectSomeValuesFrom, ObjectAllValuesFrom
+* Implementation of to\_rdf in ObjectOneOf, ObjectUnionOf and EquivalentClasses
+* Refactor as\_rdf to to\_rdf methods
+* Complete and document owl2 test suite
+* Add subclass to equivalent sample
+* OWL2 Test Suite now running on RDF
+* Uncommented test assertion section
+* Added the RDF comparison component of the test
+* Passes all unit tests w/ exception of 10 owl2 test cases
+* Passes 483 out of 493 tests in the test suite
+* Remove old test case
+* Checkpoint
+* Implemented assertion.py rdf functions and tests
+* Converted the OWL 2 test suite into functional/owl entries
+* Added Oscar
+* Owl in a bucket.  Nuff said
+* Adding start of implementation notes section
+* Further annotation work
+* Add test for multiple different individuals
+* Implemented DifferentIndividuals() function in assertions.py along with test cases in test\_assertions.py
+* Add sample RDF emitter for assertions/SameIndividual
+* Checkpoint -- functional parser more or less works
+* Implement to\_rdf on ObjectHasValue
+* Implement Import to\_rdf
+* Renamed basics.py to pizza.py
+* Enhancements
+* Checkpoint
+* First cut at functional syntax --> pyfun
+* Switch to lower case file names
+* Checkpoint -- more tweaks and bug fixes, test skeletons in place
+* Checkpoint - ClassAxioms pass basic unit tests
+* Checkpoint -- passes all existing unit tests
+* Add CC0 license
+* Add jetbrains artifacts to gitignore
+* Initial drop.  Ideas sort of fleshed out, bits of it almost work
+* Initial commit
