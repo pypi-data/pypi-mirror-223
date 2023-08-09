@@ -1,0 +1,8 @@
+fastapi
+langchain
+openai
+uvicorn
+pylint
+httpx
+streamlit
+python-docx
