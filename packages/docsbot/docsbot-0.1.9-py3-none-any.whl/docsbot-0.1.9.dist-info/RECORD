@@ -1,0 +1,9 @@
+docsbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docsbot/base.py,sha256=ihv0OwVQwbzU_ZZCZIIr3cPKGugDyoY5CwBocOMLS_I,5648
+docsbot/cli.py,sha256=OsA-oli-KJj2CRKtTxV3X3vHe5boXuK1JlM5ckpSako,5184
+docsbot/config.py,sha256=5M3sybG8nsMQQDwdBfrMXkrnLwEM2Vk9h0JO0-aYMDM,1112
+docsbot-0.1.9.dist-info/METADATA,sha256=6-yqPbZjYtkjfjnXmUYRaOGQl4GCQ3JlDfwdYKYEnUw,4861
+docsbot-0.1.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+docsbot-0.1.9.dist-info/entry_points.txt,sha256=AXjW8fSj1gorqWM_Ap8tDLOntabaOwdks6r7yQ8fy6g,45
+docsbot-0.1.9.dist-info/top_level.txt,sha256=2nFvAgyLygHKq2Bb1m2K3nETr2_dCJOmP14xZsCQCv8,8
+docsbot-0.1.9.dist-info/RECORD,,
