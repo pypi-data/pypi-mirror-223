@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ngcpp
+Version: 0.0.6
+Summary: A toolkit for ngc
+License: MIT
+Keywords: jam,experiment,ngc
+Author: Qinsheng
+Author-email: qsh.zh27@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: hydra-core (>=1.1.0,<2.0.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: pyfzf (>=0.2.2,<0.3.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# Install
+
+```shell
+pip install ngcpp
+sudo apt install fzf # iteractive fuzzy finder
+
+# if apt installed fzf does not work or give strange behavior
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
+```
+
+# Feature
+
+## cluster `ngc_cluster --help`
+
+* `ngc_cluster usage --help`: List user usage
+* `ngc_cluster hang --help`: List your all hanging jobs
+* `ngc_cluster list --help`: List your jobs in one cluster
+* `ngc_cluster alias --help`: List all available cluster aliases
+
+## job `ngc_job --help`
+
+* `ngc_job kill --help`: kill your jobs interactively
+* `ngc_job result --help`: download results for your jobs interactively
+* `ngc_job bash --help`: exec bash for one selected job~(support autoresuming)
+
