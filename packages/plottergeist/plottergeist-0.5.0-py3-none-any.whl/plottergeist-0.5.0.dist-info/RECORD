@@ -1,0 +1,10 @@
+plottergeist/__init__.py,sha256=INULkuNerO5T86OWyAGK-ZlIsrNHvTZ6f0Fpb7IBwtc,140
+plottergeist/fig_creator.py,sha256=QBKNWNxhJPLQ1-eMiQAyS8XFC3yG66B-MKOHA_pXTAM,13337
+plottergeist/histogram.py,sha256=ZhE8i7fVRSO8E4lhWNITJfr__R-dxrFcPo_ZFRRdQ6Q,2029
+plottergeist/residuals.py,sha256=aGipSyUKmHbN7HqwWpkjLm9upbFh1axejii0mMpcg8U,1870
+plottergeist/style.py,sha256=0SiQ20xxCtALqnNX_HuWlgiXOiSusbf-m7KWsWB8dg4,36435
+plottergeist-0.5.0.dist-info/LICENSE,sha256=CJYMjZXg-lHW4mmPgGt_wNobgrF0vddINmGn9SSZcio,1066
+plottergeist-0.5.0.dist-info/METADATA,sha256=9CxJWFNBXgZP22l3znODTOcK2sr6PYgcfNohRMo3wEU,781
+plottergeist-0.5.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+plottergeist-0.5.0.dist-info/top_level.txt,sha256=wpG6leRUPojnAQTbaBH73WDIcPZokzSJ6u9Y57exAXA,13
+plottergeist-0.5.0.dist-info/RECORD,,
