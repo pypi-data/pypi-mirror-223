@@ -1,0 +1,32 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "dep2req"
+version = "0.2.0"
+authors = [
+    { name = "Greg Smethells", email = "gsmethells@gmail.com" },
+]
+description = "Create a requirements.txt from dependencies in a pyproject.toml"
+readme = "README.md"
+requires-python = ">=3.7.0"
+dependencies = [
+    "toml",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/gsmethells/dep2req"
+"Bug Tracker" = "https://gitlab.com/gsmethells/dep2req/-/issues"
+
+[project.scripts]
+dep2req = "dep2req.deptoreq:main"
+
+[tool]

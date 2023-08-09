@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: dep2req
+Version: 0.2.0
+Summary: Create a requirements.txt from dependencies in a pyproject.toml
+Author-Email: Greg Smethells <gsmethells@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Project-URL: Homepage, https://gitlab.com/gsmethells/dep2req
+Project-URL: Bug tracker, https://gitlab.com/gsmethells/dep2req/-/issues
+Requires-Python: >=3.7.0
+Requires-Dist: toml
+Description-Content-Type: text/markdown
+
+# dep2req
+
+## Overview
+
+With `dep2req` you can extract dependencies from `pyproject.toml` files to `requirements.txt` in seconds. No more waiting for `pip-compile` to finish. 
+
+## Usage
+
+Simply run in any directory containing a `pyproject.toml` file: 
+
+```
+dep2req
+```` 
+
+and a `requirements.txt` will be created in the current working directory.
+
+## Installation
+
+```
+pip install dep2req
+```
+
+## Authors
+Greg Smethells
