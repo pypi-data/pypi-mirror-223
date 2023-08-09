@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: scikit-psl
+Version: 0.1.0
+Summary: Probabilistic Scoring List classifier
+Home-page: https://github.com/stheid/scikit-psl
+License: MIT
+Author: Stefan Heid
+Author-email: stefan.heid@upb.de
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: scikit-learn (>=1.3.0,<2.0.0)
+Requires-Dist: scipy (>=1.11.1,<2.0.0)
+Requires-Dist: sphinx (>=7.1,<8.0) ; extra == "docs"
+Requires-Dist: sphinx_rtd_theme (>=0.4.3,<0.5.0) ; extra == "docs"
+Project-URL: Repository, https://github.com/stheid/scikit-psl
+Description-Content-Type: text/markdown
+
+[![License](https://img.shields.io/github/license/stheid/scikit-psl)](https://github.com/stheid/scikit-psl/blob/master/LICENSE)
+[![Pip](https://img.shields.io/pypi/v/:scikit-psl)](https://pypi.org/project/scikit-psl)
+
+# Probabilistic Scoring Lists
+
+# Install
+```bash
+pip install scikit-psl
+```
+
+# Usage
+```python
+from skpsl import ProbabilisticScoringList
+from sklearn.datasets import make_classification
+from sklearn.model_selection import cross_val_score
+
+# Generating synthetic data with continuous features and a binary target variable
+X, y = make_classification(random_state=42)
+X = (X > .5).astype(int)
+
+clf = ProbabilisticScoringList([-1, 1, 2])
+print(cross_val_score(clf, X, y, cv=5))
+```
