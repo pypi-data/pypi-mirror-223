@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+sim_sensors/__init__.py
+sim_sensors/humidity_sensor.py
+sim_sensors/soil_sensor.py
+sim_sensors/temp_sensor.py
+sim_sensors.egg-info/PKG-INFO
+sim_sensors.egg-info/SOURCES.txt
+sim_sensors.egg-info/dependency_links.txt
+sim_sensors.egg-info/top_level.txt

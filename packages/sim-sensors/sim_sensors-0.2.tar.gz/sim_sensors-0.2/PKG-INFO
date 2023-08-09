@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sim_sensors
+Version: 0.2
+Summary: A collection of classes that simulate IoT sensors
+Home-page: https://www.path-variable.com
+Author: Ivan Šarić / Path Variable
+Author-email: ivan@path-variable.com
+License: MIT
+Keywords: simulated,sensors,iot
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+### sim_sensors
+
+This is a small python package. It holds two classes - HumiditySensor and TempSensor. There is an additional third
+package that provides a function for getting soil humidity values. 
+These classes and function simulate simple environmental sensors like those that you would use in an IoT / SmartHome setup.
+All constructor parameters are optional. Check the code or docs to see the defaults.
