@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: verysimplemodulevis
+Version: 0.0.1
+Summary: Meu primeiro projeto em Python
+Author: Victor Macedo
+Author-email: victormacedocarvalho09@gmail.com
+Keywords: python module example
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Esta é a descrição longa do meu projeto.
