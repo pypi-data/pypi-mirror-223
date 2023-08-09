@@ -1,0 +1,6 @@
+aiohttp<4.0.0
+cryptography
+minio
+pgpy
+validators
+web3==6.8.*
