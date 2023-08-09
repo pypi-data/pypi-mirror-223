@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+somatorio_alisson_rodrigov3/__init__.py
+somatorio_alisson_rodrigov3/pacoteteste.py
+somatorio_alisson_rodrigov3.egg-info/PKG-INFO
+somatorio_alisson_rodrigov3.egg-info/SOURCES.txt
+somatorio_alisson_rodrigov3.egg-info/dependency_links.txt
+somatorio_alisson_rodrigov3.egg-info/requires.txt
+somatorio_alisson_rodrigov3.egg-info/top_level.txt
