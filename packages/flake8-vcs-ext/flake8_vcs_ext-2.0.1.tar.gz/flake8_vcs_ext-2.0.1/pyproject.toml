@@ -1,0 +1,46 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.setuptools_scm]
+
+[tool.poetry]
+name = "flake8_vcs_ext"
+version = "2.0.1"
+description = "Плагин flake8 с проверкой на дополнительные стандарты кода, принятые на проекте VCS"
+authors = ["Debianov <regdeb@mail.ru>"]
+readme = "README.md"
+license = "GPL-2.0 license"
+classifiers = [
+	"Framework :: Flake8",
+	"Environment :: Console",
+	"Intended Audience :: Developers",
+	"License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+	"Topic :: Software Development :: Quality Assurance",
+]
+
+include = ["pyproject.toml", "flake8_vcs_ext.py", "LICENCE", "README.md"]
+
+[tool.poetry.urls]
+"Repository" = "https://github.com/GREEN-Corporation/vcs-style-flake8-extension"
+
+[tool.poetry.plugins."flake8.extension"]
+VCS001 = "flake8_vcs_ext:Plugin"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flake8 = "^6.0.0"
+pytest = "^7.4.0"
+mypy = "^1.4.1"	
+flake8-pyproject = "^1.2.3"
+isort = "^5.12.0"
+flake8-isort = "^6.0.0"
+
+[tool.flake8]
+ignore = ['W191', 'E302', 'W191', 'W292', 'E305', 'E261', 'W293', 'E128', 'E122', 'E115', 'E262', 'E265', 'W504']
+
+[tool.mypy]
+mypy_path = "../"
