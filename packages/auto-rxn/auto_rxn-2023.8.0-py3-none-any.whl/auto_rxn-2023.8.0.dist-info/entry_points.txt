@@ -1,0 +1,2 @@
+[console_scripts]
+auto_rxn = auto_rxn.__main__:main
