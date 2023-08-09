@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "awesome-library"
+version = "1.0.0"
+description = "Awesome library to interact with the awesome dynamodb inside the awesome docker container"
+authors = ["christian.meister <christian.meister@exxeta.com>"]
+readme = "README.md"
+packages = [{include = "awesome_library"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.28.21"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
