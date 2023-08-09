@@ -1,0 +1,7 @@
+meteostat==1.6.5
+pandas==2.0.3
+
+[dev]
+check-manifest>=0.49
+pytest>=3.7
+twine>=4.0.2

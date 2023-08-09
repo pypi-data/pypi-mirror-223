@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+license.txt
+requirements.txt
+setup.py
+test_publishtutorial.py
+src/myfunc.py
+src/publishtutorial.egg-info/PKG-INFO
+src/publishtutorial.egg-info/SOURCES.txt
+src/publishtutorial.egg-info/dependency_links.txt
+src/publishtutorial.egg-info/requires.txt
+src/publishtutorial.egg-info/top_level.txt
