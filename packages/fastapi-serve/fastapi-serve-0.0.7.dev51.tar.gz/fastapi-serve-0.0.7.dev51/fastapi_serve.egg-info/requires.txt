@@ -1,0 +1,10 @@
+click
+jcloud>=0.2.16
+jina==3.18.0
+nest-asyncio
+toml
+
+[test]
+psutil
+pytest
+pytest-asyncio
