@@ -1,0 +1,5 @@
+requests==2.28.2
+python-docx==0.8.11
+PyPDF2==3.0.1
+chardet==3.0.4
+odfpy==1.4.1

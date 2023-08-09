@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cameo_txt/__init__.py
+cameo_txt.egg-info/PKG-INFO
+cameo_txt.egg-info/SOURCES.txt
+cameo_txt.egg-info/dependency_links.txt
+cameo_txt.egg-info/requires.txt
+cameo_txt.egg-info/top_level.txt
