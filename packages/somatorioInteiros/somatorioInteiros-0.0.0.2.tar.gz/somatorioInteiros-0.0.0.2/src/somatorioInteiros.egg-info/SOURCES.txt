@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/somatorioInteiros.egg-info/PKG-INFO
+src/somatorioInteiros.egg-info/SOURCES.txt
+src/somatorioInteiros.egg-info/dependency_links.txt
+src/somatorioInteiros.egg-info/top_level.txt
