@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+gubchat/__init__.py
+gubchat/gubchatapp.py
+gubchat/helix.py
+gubchat/main.py
+gubchat/twitch_websocket.py
+gubchat/user_auth.py
+gubchat.egg-info/PKG-INFO
+gubchat.egg-info/SOURCES.txt
+gubchat.egg-info/dependency_links.txt
+gubchat.egg-info/entry_points.txt
+gubchat.egg-info/requires.txt
+gubchat.egg-info/top_level.txt

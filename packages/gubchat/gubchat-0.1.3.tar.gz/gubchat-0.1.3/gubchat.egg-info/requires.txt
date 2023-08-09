@@ -1,0 +1,6 @@
+aiohttp>=3.8.5
+websockets>=11.0.3
+kivy>=2.2.1
+kivymd>=1.1.1
+
+[dev]
