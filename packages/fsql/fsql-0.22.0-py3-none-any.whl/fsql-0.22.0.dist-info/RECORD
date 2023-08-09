@@ -1,0 +1,15 @@
+fsql/__init__.py,sha256=qZS2mfmea0BmiiMVwJpc-7vw7cpaFf59Pz1n29Uy6jo,3463
+fsql/api.py,sha256=1Opfd0G2n_VZ0DgLwFAqBoxJdr1NBFo5p4Jv9zCnhDg,7602
+fsql/column_parser.py,sha256=-lNA0M5lmA5OdX1qBO6y5ysuNGxqMCPPFDbnBeIEuCw,6068
+fsql/daterange_utils.py,sha256=cn1qQYNWYn2RQhklPyT-8NwQg1CpfrWINhkvgjBdZss,7478
+fsql/deser.py,sha256=AjM5X_UpT95uq_41VW2dI7qGb-tGEP0o3bO5qOaP6N8,13302
+fsql/deser_dask.py,sha256=Ly1J-FrVfxJM2gZ8PXjf5nd2BZ51V87q7K9rwy8TwyM,2586
+fsql/partition.py,sha256=RrkbbO-HTz0xt1EctYEtWzRipmB8bCaNxgk86TrLxaI,604
+fsql/partition_discovery.py,sha256=ptDhdfhWw54YmRR5nYhVGmiG05kSacg6xsZPKMv0EaE,4176
+fsql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsql/query.py,sha256=NTSqqiJIKJZ9RuoQVJMk6Iexi3KcI3ziBbE5v0bvJqw,6270
+fsql-0.22.0.dist-info/LICENSE,sha256=cvGZBfZQguTmlk8nGmOJUP_ZZPrc9jTy85Wtv5ahV6s,1511
+fsql-0.22.0.dist-info/METADATA,sha256=SOpKRCi8wEuoRXVjPBgpudzFakB5iYc5eNw6RXOZrjM,5349
+fsql-0.22.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+fsql-0.22.0.dist-info/top_level.txt,sha256=Xi2xHx1m4ni7aDaTsNTaJ2NkJQwWP2x2MAKn8ak4Kw4,5
+fsql-0.22.0.dist-info/RECORD,,
