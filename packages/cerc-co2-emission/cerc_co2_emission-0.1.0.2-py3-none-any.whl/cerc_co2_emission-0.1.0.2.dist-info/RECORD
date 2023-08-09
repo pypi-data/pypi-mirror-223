@@ -1,0 +1,8 @@
+cerc_co2_emission-0.1.0.2.data/data/co2_emission/requirements.txt,sha256=ufP2FWXvMDqZb0qdT9bHNwGC5oARrDgvIfpNYi2I8Ns,8
+co2_emission/__init__.py,sha256=Oub4zhx7lOB7nD-dJbmP5_ARe0F4UolH3IwXWcZkFFU,338
+co2_emission/co2_emission.py,sha256=qFNEn8_lw8EXdiKmU8LPUN_nykd0eYzNxBd5dg9DHZM,3084
+co2_emission/version.py,sha256=OTOIZW7wYDe8P9zD6-f4nlYyWefURV56bg1_WhDRihI,352
+cerc_co2_emission-0.1.0.2.dist-info/METADATA,sha256=W8tivamd-iEjMLLKG5M0LQV-0NjcVHAsb2_bCcUYheM,473
+cerc_co2_emission-0.1.0.2.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+cerc_co2_emission-0.1.0.2.dist-info/top_level.txt,sha256=pW-5t3Q6jDeqICIogafHByy5jV8LJMx8F2rl4h7vB40,13
+cerc_co2_emission-0.1.0.2.dist-info/RECORD,,
