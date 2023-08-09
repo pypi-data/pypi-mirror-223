@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+aqvify/__init__.py
+aqvify/core.py
+aqvify.egg-info/PKG-INFO
+aqvify.egg-info/SOURCES.txt
+aqvify.egg-info/dependency_links.txt
+aqvify.egg-info/requires.txt
+aqvify.egg-info/top_level.txt
+aqvify.egg-info/zip-safe
+tests/test_api_devices.py
+tests/test_api_devices_data.py
