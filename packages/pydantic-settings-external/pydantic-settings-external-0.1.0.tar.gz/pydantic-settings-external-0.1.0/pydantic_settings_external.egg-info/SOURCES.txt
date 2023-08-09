@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+pydantic_settings_external/__init__.py
+pydantic_settings_external/exceptions.py
+pydantic_settings_external/types.py
+pydantic_settings_external/utils.py
+pydantic_settings_external/version.py
+pydantic_settings_external.egg-info/PKG-INFO
+pydantic_settings_external.egg-info/SOURCES.txt
+pydantic_settings_external.egg-info/dependency_links.txt
+pydantic_settings_external.egg-info/requires.txt
+pydantic_settings_external.egg-info/top_level.txt
+pydantic_settings_external/pydantic/__init__.py
+pydantic_settings_external/pydantic/v1.py
+pydantic_settings_external/pydantic/v2.py
+tests/test_pydantic_v2.py
