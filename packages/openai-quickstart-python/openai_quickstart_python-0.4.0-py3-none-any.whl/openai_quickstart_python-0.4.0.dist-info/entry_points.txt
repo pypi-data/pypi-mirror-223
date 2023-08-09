@@ -1,0 +1,3 @@
+[console_scripts]
+openai-quickstart-python=openai_quickstart_python.main:main
+
