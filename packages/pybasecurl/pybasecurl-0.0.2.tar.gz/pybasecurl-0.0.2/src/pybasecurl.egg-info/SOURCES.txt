@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pybasecurl/__init__.py
+src/pybasecurl/cli.py
+src/pybasecurl/curl.py
+src/pybasecurl/storage.py
+src/pybasecurl.egg-info/PKG-INFO
+src/pybasecurl.egg-info/SOURCES.txt
+src/pybasecurl.egg-info/dependency_links.txt
+src/pybasecurl.egg-info/entry_points.txt
+src/pybasecurl.egg-info/top_level.txt
