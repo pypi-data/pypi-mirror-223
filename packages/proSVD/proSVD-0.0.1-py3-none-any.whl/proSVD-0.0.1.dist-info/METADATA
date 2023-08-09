@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: proSVD
+Version: 0.0.1
+Summary: Code for streaming dimension reduction with stability
+Author: Pranjal Gupta
+Keywords: streaming,SVD
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Provides-Extra: related-methods
+Requires-Dist: pymdptoolbox ; extra == 'related-methods'
+
+# Procrustean SVD (proSVD)
+Tools for streaming dimension reduction analyses of neural data.
+
+![alt text](lock-in.gif)
+
+See `demos/` for usage.
+
+#### To build:
+```
+$ git clone https://github.com/pearsonlab/proSVD
+$ cd proSVD
+$ pip install .
+```
+
+#### To import:
+```
+from proSVD import proSVD
+```
+
+Under active development! Please contact pranjal.gupta@duke.edu for any inquiries. 
