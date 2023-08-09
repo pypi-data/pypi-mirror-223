@@ -1,0 +1,14 @@
+tencentcloud/__init__.py,sha256=YPJlmcOV1vqhbwfhuleByR57icwovAvYkrI_tEzxPOg,630
+tencentcloud/organization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/organization/v20181225/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/organization/v20181225/errorcodes.py,sha256=JcrfFTsVOrtqOTFaKFdzNxMwenm16vPDl2X0iJXf_M4,3243
+tencentcloud/organization/v20181225/models.py,sha256=og77Gx2CF9mA3nv-v0nIZQV-CzgdYmrY5OSG8dQTJhc,46488
+tencentcloud/organization/v20181225/organization_client.py,sha256=-SJphXgr5hcVBf98wUnMdtMBo-0YGJyDLjs6tiyuiAw,19700
+tencentcloud/organization/v20210331/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/organization/v20210331/errorcodes.py,sha256=KFBBVkLdAbxLemFoxFvL2Rt8WPVfdcOJKiatCJRpB2E,11249
+tencentcloud/organization/v20210331/models.py,sha256=_0HE9O9o5Euq-OubHRBahJN2_z_2O8QRkvPXtqQlClQ,122017
+tencentcloud/organization/v20210331/organization_client.py,sha256=n-cyb69tdATcZsy2HuvG5LKyjQzoNIsKvsmEnU3AWH4,26510
+tencentcloud_sdk_python_organization-3.0.954.dist-info/METADATA,sha256=OG1kmqSyrMdec6T0bcMdwcTkeswXXsaKUgMlIPmTpg4,1535
+tencentcloud_sdk_python_organization-3.0.954.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_organization-3.0.954.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_organization-3.0.954.dist-info/RECORD,,
